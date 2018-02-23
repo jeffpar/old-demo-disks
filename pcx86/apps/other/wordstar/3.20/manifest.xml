@@ -6,7 +6,7 @@
 	<type>Application</type>
 	<category>Word Processing</category>
 	<author>MicroPro</author>
-	<releaseDate></releaseDate>
+	<releaseDate/>
 	<disk id="disk01" size="163840" chs="40:1:8" img="archive/WS320-MOUNTABLE.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/wordstar/3.20/WS320-MOUNTABLE.json" md5="77a6beb225f61ee0c02a98b7c6f29c69" md5json="4958aca2571a8a4def6f64327440a77c">
 		<name>WordStar 3.20</name>
 		<file size="17152" time="1982-10-01 00:00:00" attr="0x20">INSTALL.BAS</file>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 1.0</title>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/MSOS210-INSTALL.img" href="/pcjs-disks/pcx86/os2/microsoft/1.0/MSOS210-INSTALL.json" md5="2c972e58de8d220adab13a2713136e66" md5json="271cea748b8dc9709ffed826a065717d">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/MSOS210-INSTALL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/microsoft/1.0/MSOS210-INSTALL.json" md5="2c972e58de8d220adab13a2713136e66" md5json="271cea748b8dc9709ffed826a065717d">
 		<name>MS OS/2 1.0 (1.2M Install)</name>
 		<file size="3637" time="1987-12-14 23:00:02" attr="0x20">ANSICALL.DLL</file>
 		<file size="5704" time="1987-12-14 23:00:02" attr="0x20">BKSCALLS.DLL</file>
@@ -45,7 +45,7 @@
 		<file size="4150" time="1987-12-14 23:00:02" attr="0x20">SWAPPER.EXE</file>
 		<file size="13981" time="1987-12-14 23:00:02" attr="0x20">VIOCALLS.DLL</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/MSOS210-PROGRAM.img" href="/pcjs-disks/pcx86/os2/microsoft/1.0/MSOS210-PROGRAM.json" md5="c0ca4fa3f3514e26e0972a4dfb54f4f2" md5json="b98ba615547f8f1dc757b377f9e0d1f8">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/MSOS210-PROGRAM.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/microsoft/1.0/MSOS210-PROGRAM.json" md5="c0ca4fa3f3514e26e0972a4dfb54f4f2" md5json="b98ba615547f8f1dc757b377f9e0d1f8">
 		<name>MS OS/2 1.0 (1.2M Program)</name>
 		<file size="17081" time="1987-12-14 23:00:02" attr="0x20">4201.DCP</file>
 		<file size="416" time="1987-12-14 23:00:02" attr="0x20">5202.DCP</file>
@@ -99,7 +99,7 @@
 		<file size="13981" time="1987-12-14 23:00:02" attr="0x20">VIOCALLS.DLL</file>
 		<file size="52162" time="1987-12-14 23:00:02" attr="0x20">VIOTBL.DCP</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/MSOS210-SUPP.img" href="/pcjs-disks/pcx86/os2/microsoft/1.0/MSOS210-SUPP.json" md5="7eecf112162929b04f5d041aa391d300" md5json="ed03919a87b305607e1ce4e02cc8bfb6">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/MSOS210-SUPP.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/microsoft/1.0/MSOS210-SUPP.json" md5="7eecf112162929b04f5d041aa391d300" md5json="ed03919a87b305607e1ce4e02cc8bfb6">
 		<name>MS OS/2 1.0 (1.2M Supp)</name>
 		<file size="9984" time="1987-12-14 23:00:02" attr="0x20">ANSI.EXE</file>
 		<file size="1694" time="1987-12-14 23:00:02" attr="0x20">ANSI.SYS</file>

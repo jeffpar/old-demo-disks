@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft/COMPAQ</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/COMPAQ-DOS310-DISK1.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DOS310-DISK1.json" md5="0d75a3e8077e7f0f418256c81fbc9ece" md5json="7924ce847ce2ccf83914adab39c660c7">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/COMPAQ-DOS310-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DOS310-DISK1.json" md5="0d75a3e8077e7f0f418256c81fbc9ece" md5json="7924ce847ce2ccf83914adab39c660c7">
 		<name>COMPAQ MS-DOS 3.10 (Disk 1)</name>
 		<file size="1631" time="1986-10-31 11:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="1509" time="1986-10-31 11:00:00" attr="0x20">ASSIGN.COM</file>
@@ -48,7 +48,7 @@
 		<file size="1756" time="1986-10-31 11:00:00" attr="0x20">TREE.COM</file>
 		<file size="3420" time="1986-10-31 11:00:00" attr="0x20">VDISK.SYS</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/COMPAQ-DOS310-DISK2.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DOS310-DISK2.json" md5="75c607bdfd89bf93e93f6d312f3682b4" md5json="3762f8628f3ef601829ab192d9a98e51">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/COMPAQ-DOS310-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DOS310-DISK2.json" md5="75c607bdfd89bf93e93f6d312f3682b4" md5json="3762f8628f3ef601829ab192d9a98e51">
 		<name>COMPAQ MS-DOS 3.10 (Disk 2)</name>
 		<file size="15091" time="1986-10-31 11:00:00" attr="0x20">ATTRIB.EXE</file>
 		<file size="1422" time="1986-10-31 11:00:00" attr="0x20">BASICA.COM</file>
@@ -77,7 +77,7 @@
 		<file size="16128" time="1986-10-31 11:00:00" attr="0x20">USA.DAT</file>
 		<file size="1306" time="1986-10-31 11:00:00" attr="0x20">WORDS</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/COMPAQ-DOS310-PERSONAL.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DOS310-PERSONAL.json" md5="4cda15c7c35b078a4ef40e2f4fb1b2e7" md5json="5b143ae48939e74b65611b5f5472ebe9">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/COMPAQ-DOS310-PERSONAL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DOS310-PERSONAL.json" md5="4cda15c7c35b078a4ef40e2f4fb1b2e7" md5json="5b143ae48939e74b65611b5f5472ebe9">
 		<name>COMPAQ MS-DOS 3.10 (Personal)</name>
 		<file size="1593" time="1985-12-17 11:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="1509" time="1985-12-17 11:00:00" attr="0x20">ASSIGN.COM</file>
@@ -146,7 +146,7 @@
 		<file size="2926" time="1985-12-17 11:00:00" attr="0x20">VDISK.SYS</file>
 		<file size="1306" time="1985-12-17 11:00:00" attr="0x20">WORDS</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/COMPAQ-PCDOS320-SUPP.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-PCDOS320-SUPP.json" md5="c48d8b01cd09764104f3ad356a567ca9" md5json="4ce5a82c1b24dbc0ccf273a5c67b6b51">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/COMPAQ-PCDOS320-SUPP.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-PCDOS320-SUPP.json" md5="c48d8b01cd09764104f3ad356a567ca9" md5json="4ce5a82c1b24dbc0ccf273a5c67b6b51">
 		<name>COMPAQ PC-DOS 3.20 Support</name>
 		<file size="33" time="1986-08-14 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="23210" time="1986-03-27 11:00:00" attr="0x20">COMMAND.COM</file>
@@ -167,7 +167,7 @@
 		<file size="3823" time="1986-08-14 12:00:00" attr="0x20">SYS.COM</file>
 		<file size="4" time="1986-08-14 12:00:00" attr="0x20">YCR</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/COMPAQ-DESKPRO386-SUPP-1986-08-08.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DESKPRO386-SUPP-1986-08-08.json" md5="e5a1bb4d2e3a59fe35d6f668e7b62181" md5json="f4dfc75b9d2af8ab2ffa0bad96ba471b">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/COMPAQ-DESKPRO386-SUPP-1986-08-08.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DESKPRO386-SUPP-1986-08-08.json" md5="e5a1bb4d2e3a59fe35d6f668e7b62181" md5json="f4dfc75b9d2af8ab2ffa0bad96ba471b">
 		<name>COMPAQ DESKPRO 386 (1986)</name>
 		<file size="74" time="1986-08-08 12:00:00" attr="0x20">1.BAT</file>
 		<file size="73" time="1986-08-08 12:00:00" attr="0x20">2.BAT</file>

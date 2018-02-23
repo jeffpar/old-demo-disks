@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate>May 1, 1987</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS321-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/3.21/MSDOS321-DISK1.json" md5="989493c7432496d2471bcc617a69808d" md5json="8214a4ad152b123328a3b5e4fa18699d">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS321-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/3.21/MSDOS321-DISK1.json" md5="989493c7432496d2471bcc617a69808d" md5json="8214a4ad152b123328a3b5e4fa18699d">
 		<name>MS-DOS 3.21 (Disk 1)</name>
 		<file size="1651" time="1987-05-01 00:00:02" attr="0x20">ANSI.SYS</file>
 		<file size="1725" time="1987-05-01 00:00:02" attr="0x20">APPEND.COM</file>
@@ -46,7 +46,7 @@
 		<file size="10492" time="1987-05-01 00:00:02" attr="0x20">SUBST.EXE</file>
 		<file size="4607" time="1987-05-01 00:00:02" attr="0x20">SYS.COM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS321-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/3.21/MSDOS321-DISK2.json" md5="c649a4338deb36995e8f1356eb6f07b3" md5json="026b1640fe9951b37a9a7e4498bbb498">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS321-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/3.21/MSDOS321-DISK2.json" md5="c649a4338deb36995e8f1356eb6f07b3" md5json="026b1640fe9951b37a9a7e4498bbb498">
 		<name>MS-DOS 3.21 (Disk 2)</name>
 		<file size="24264" time="1987-05-01 00:00:02" attr="0x20">BACKUP.EXE</file>
 		<file size="15647" time="1987-05-01 00:00:02" attr="0x20">DEBUG.EXE</file>

@@ -8,7 +8,7 @@
 	<language>Pascal</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PASCAL331-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/3.31/PASCAL331-DISK1.json" md5="4ec33b6c723ee7d416659b6d39fdaeed" md5json="3a7d2fca8d221715ad0e2ad89f7b07ca">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PASCAL331-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/3.31/PASCAL331-DISK1.json" md5="4ec33b6c723ee7d416659b6d39fdaeed" md5json="3a7d2fca8d221715ad0e2ad89f7b07ca">
 		<name>MS Pascal 3.31 (Disk 1)</name>
 		<file size="97162" time="1985-09-27 15:29:32" attr="0x20">PAS1.EXE</file>
 		<file size="112080" time="1985-09-27 17:06:42" attr="0x20">PAS2.EXE</file>
@@ -16,7 +16,7 @@
 		<file size="79872" time="1985-09-26 10:03:58" attr="0x20">PASCAL.LIB</file>
 		<file size="26390" time="1985-10-10 14:52:56" attr="0x20">README.DOC</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PASCAL331-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/3.31/PASCAL331-DISK2.json" md5="a89d2d9a1096dd36d0a4d8c623446d38" md5json="da757366f900abfe27e7947f832611d0">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PASCAL331-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/3.31/PASCAL331-DISK2.json" md5="a89d2d9a1096dd36d0a4d8c623446d38" md5json="da757366f900abfe27e7947f832611d0">
 		<name>MS Pascal 3.31 (Disk 2)</name>
 		<file size="29184" time="1985-08-23 01:18:46" attr="0x20">8087.LIB</file>
 		<file size="39424" time="1985-08-23 01:19:20" attr="0x20">ALTMATH.LIB</file>

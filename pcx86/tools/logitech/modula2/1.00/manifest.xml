@@ -8,7 +8,7 @@
 	<language>Modula-2</language>
 	<author>Logitech</author>
 	<releaseDate>1984</releaseDate>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/DISK1" href="/pcjs-disks/pcx86/tools/logitech/modula2/1.00/LOGITECH-MODULA2-DISK1-SYSTEM.json" md5="e55ecfd5c556521899446b7b6ede04a9" md5json="e93fe5a6f7a80e7267c70cc4591a189f">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/DISK1" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/logitech/modula2/1.00/LOGITECH-MODULA2-DISK1-SYSTEM.json" md5="e55ecfd5c556521899446b7b6ede04a9" md5json="e93fe5a6f7a80e7267c70cc4591a189f">
 		<name>Modula-2/86 1.00 (1-System)</name>
 		<file size="814" time="1984-02-09 11:20:26" attr="0x20" md5="af2e50d0582871bd916a0444b3a7754c">ASCII.DEF</file>
 		<file size="1536" time="1984-02-08 13:48:52" attr="0x20" md5="b820486edd35c70a502af7b22816effc">CARDINAL.DEF</file>
@@ -67,7 +67,7 @@
 		<file size="1946" time="1984-02-09 11:47:38" attr="0x20" md5="af587eab5a2a99c905b595eb34465b25">TERMINAL.DEF</file>
 		<file size="22048" time="1984-02-27 09:54:10" attr="0x20" md5="fdd8d52486f46a25254a9eb9be09a011">TRANSFER.ASM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" dir="archive/DISK2" href="/pcjs-disks/pcx86/tools/logitech/modula2/1.00/LOGITECH-MODULA2-DISK2-LINKER.json" md5="8c3a90086588825e54290cfe292aa5ca" md5json="63fea98adef15354e5c1e7e77ad7553b">
+	<disk id="disk02" size="368640" chs="40:2:9" dir="archive/DISK2" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/logitech/modula2/1.00/LOGITECH-MODULA2-DISK2-LINKER.json" md5="8c3a90086588825e54290cfe292aa5ca" md5json="63fea98adef15354e5c1e7e77ad7553b">
 		<name>Modula-2/86 1.00 (2-Linker)</name>
 		<file size="128" time="1984-03-02 01:43:46" attr="0x20" md5="28781646af2531c0122f98fe42f4432c">ASCII.LNK</file>
 		<file size="256" time="1984-03-02 01:43:46" attr="0x20" md5="7c9ad022a1a16e0687cccd32ab5b60d2">ASCII.REF</file>
@@ -126,7 +126,7 @@
 		<file size="976" time="1984-02-24 01:03:42" attr="0x20" md5="2b7004f7c80efa7974182fc11c16b309">TERMINAL.LNK</file>
 		<file size="1998" time="1984-02-24 01:03:42" attr="0x20" md5="284a376f69be75b8447d78a2f54f1449">TERMINAL.REF</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" dir="archive/DISK3" href="/pcjs-disks/pcx86/tools/logitech/modula2/1.00/LOGITECH-MODULA2-DISK3-COMPILER.json" md5="9cf8b8b6f1c6523ccac1a0fee957516c" md5json="11d1a5572e3c7150c06b475315459e84">
+	<disk id="disk03" size="368640" chs="40:2:9" dir="archive/DISK3" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/logitech/modula2/1.00/LOGITECH-MODULA2-DISK3-COMPILER.json" md5="9cf8b8b6f1c6523ccac1a0fee957516c" md5json="11d1a5572e3c7150c06b475315459e84">
 		<name>Modula-2/86 1.00 (3-Compiler)</name>
 		<file size="768" time="1980-01-01 00:12:22" attr="0x20" md5="c4e77a756caaa30c9ea0bb87f01a2cb2">ASCII.SYM</file>
 		<file size="256" time="1983-12-08 02:30:26" attr="0x20" md5="f7d7ecc14819205f1a2c9af9a5541278">CARDINAL.SYM</file>

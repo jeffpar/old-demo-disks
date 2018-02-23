@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows 2.11</title>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK1.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK1.json" md5="ac8887f74c4bc92766436cf1fd81835a" md5json="c34dac7a4cc77c96babc82907f901bf7">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK1.json" md5="ac8887f74c4bc92766436cf1fd81835a" md5json="c34dac7a4cc77c96babc82907f901bf7">
 		<name>Windows/286 2.11 (SETUP)</name>
 		<file size="37328" time="1989-03-12 23:00:02" attr="0x20">8514.DRV</file>
 		<file size="11360" time="1989-03-12 23:00:02" attr="0x20">8514.FON</file>
@@ -75,7 +75,7 @@
 		<file size="2480" time="1989-03-12 23:00:02" attr="0x20">WIN.CNF</file>
 		<file size="2194" time="1989-03-12 23:00:02" attr="0x20">WIN.INI</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK2.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK2.json" md5="ae35fff41fade3efc8d1300dc9146529" md5json="f7eaf924c3284391933cc970a807efee">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK2.json" md5="ae35fff41fade3efc8d1300dc9146529" md5json="f7eaf924c3284391933cc970a807efee">
 		<name>Windows/286 2.11 (UTIL 1)</name>
 		<file size="15760" time="1989-03-12 23:00:02" attr="0x20">ATRIS.DRV</file>
 		<file size="1424" time="1989-03-12 23:00:02" attr="0x20">ATRIS.GRB</file>
@@ -132,7 +132,7 @@
 		<file size="2453" time="1989-03-12 23:00:02" attr="0x20">WYSE700.GRB</file>
 		<file size="468" time="1989-03-12 23:00:02" attr="0x20">WYSE700.LGO</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK3.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK3.json" md5="79331f63e7347c4107f42b49fd2766b8" md5json="762bf0cebf563cc6ad3350d2a40c8121">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK3.json" md5="79331f63e7347c4107f42b49fd2766b8" md5json="762bf0cebf563cc6ad3350d2a40c8121">
 		<name>Windows/286 2.11 (UTIL 2)</name>
 		<file size="944" time="1989-03-12 23:00:02" attr="0x20">A4TRAY.TXT</file>
 		<file size="14643" time="1989-03-12 23:00:02" attr="0x20">AEMM.SYS</file>
@@ -175,7 +175,7 @@
 		<file size="58304" time="1989-03-12 23:00:02" attr="0x20">TMSRE.FON</file>
 		<file size="6224" time="1989-03-12 23:00:02" attr="0x20">TTY.DRV</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK4.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK4.json" md5="34baf5482d9493aca4e225c21949199a" md5json="2756680f2a3748aa3d40959b6c527877">
+	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/WIN211-286-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-286-DISK4.json" md5="34baf5482d9493aca4e225c21949199a" md5json="2756680f2a3748aa3d40959b6c527877">
 		<name>Windows/286 2.11 (APPS)</name>
 		<file size="42" time="1989-03-12 23:00:02" attr="0x20">ABC.TXT</file>
 		<file size="19136" time="1989-03-12 23:00:02" attr="0x20">APPLETLK.DLL</file>
@@ -249,7 +249,7 @@
 		<file size="198368" time="1989-03-12 23:00:02" attr="0x20">WRITE.EXE</file>
 		<file size="22032" time="1989-03-12 23:00:02" attr="0x20">XER4020.DRV</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK1.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK1.json" md5="612c4e2647953e08e0049c3b2ca30476" md5json="171fe94b81407a3da88583b86c9dcf5c">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK1.json" md5="612c4e2647953e08e0049c3b2ca30476" md5json="171fe94b81407a3da88583b86c9dcf5c">
 		<name>Windows/386 2.11 (SETUP)</name>
 		<file size="2574" time="1989-03-12 23:00:02" attr="0x20">386LOGO.LGD</file>
 		<file size="122836" time="1989-03-12 23:00:02" attr="0x20">CGA.386</file>
@@ -312,7 +312,7 @@
 		<file size="2480" time="1989-03-12 23:00:02" attr="0x20">WIN.CNF</file>
 		<file size="3207" time="1989-03-12 23:00:02" attr="0x20">WIN.INI</file>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK2.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK2.json" md5="e34657d6facb1544affa109fd3ee155e" md5json="cfa8e29591259b2183bcbf091aa3fe38">
+	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK2.json" md5="e34657d6facb1544affa109fd3ee155e" md5json="cfa8e29591259b2183bcbf091aa3fe38">
 		<name>Windows/386 2.11 (UTIL 1)</name>
 		<file size="28736" time="1989-03-12 23:00:02" attr="0x20">ATTDC.DRV</file>
 		<file size="141195" time="1989-03-12 23:00:02" attr="0x20">CTVGA.386</file>
@@ -346,7 +346,7 @@
 		<file size="15594" time="1989-03-12 23:00:02" attr="0x20">READMEPL.TXT</file>
 		<file size="6224" time="1989-03-12 23:00:02" attr="0x20">TTY.DRV</file>
 	</disk>
-	<disk id="disk07" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK3.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK3.json" md5="a1e89f8d8d03d69863c8a69a90a254a7" md5json="ef4fb21f4a625bf3b533e9b090adfdd9">
+	<disk id="disk07" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK3.json" md5="a1e89f8d8d03d69863c8a69a90a254a7" md5json="ef4fb21f4a625bf3b533e9b090adfdd9">
 		<name>Windows/386 2.11 (UTIL 2)</name>
 		<file size="944" time="1989-03-12 23:00:02" attr="0x20">A4TRAY.TXT</file>
 		<file size="6544" time="1989-03-12 23:00:02" attr="0x20">CGA40.FON</file>
@@ -392,7 +392,7 @@
 		<file size="58304" time="1989-03-12 23:00:02" attr="0x20">TMSRE.FON</file>
 		<file size="138" time="1989-03-12 23:00:02" attr="0x20">WIN386.PS2</file>
 	</disk>
-	<disk id="disk08" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK4.img" href="/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK4.json" md5="83cc4a043e6ed7c089e4b269c1a44319" md5json="96a19289b21fd6615c82b18ddbe76b5b">
+	<disk id="disk08" size="1228800" chs="80:2:15" img="archive/WIN211-386-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/2.11/WIN211-386-DISK4.json" md5="83cc4a043e6ed7c089e4b269c1a44319" md5json="96a19289b21fd6615c82b18ddbe76b5b">
 		<name>Windows/386 2.11 (APPS)</name>
 		<file size="142432" time="1989-03-12 23:00:02" attr="0x20">8514.386</file>
 		<file size="37404" time="1989-03-12 23:00:02" attr="0x20">8514.3EX</file>

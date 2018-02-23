@@ -7,7 +7,7 @@
 	<category>Word Processor</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK1.img" href="/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK1.json" md5="78dd9e1b3ccc9f304631d890d4165200" md5json="0d150a1fef4736ca37be0e114c4b078c">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK1.json" md5="78dd9e1b3ccc9f304631d890d4165200" md5json="0d150a1fef4736ca37be0e114c4b078c">
 		<name>Word for Windows 2.0c (Disk 1)</name>
 		<file size="39121" time="1992-11-18 11:00:00" attr="0x20">DECOMP.EXE</file>
 		<file size="5949" time="1992-11-18 11:00:00" attr="0x20">DIALOG.FO$</file>
@@ -42,14 +42,14 @@
 		<file size="23690" time="1992-11-18 11:00:00" attr="0x20" dir="WORDART/">WORDART.HL$</file>
 		<file size="48700" time="1993-12-22 13:21:38" attr="0x20">WWORD20.INF</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK2.img" href="/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK2.json" md5="dd141fced7167dd0d5b073865287be35" md5json="f299476e028ba57adacda1f55d053f67">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK2.json" md5="dd141fced7167dd0d5b073865287be35" md5json="f299476e028ba57adacda1f55d053f67">
 		<name>Word for Windows 2.0c (Disk 2)</name>
 		<file size="136" time="1992-11-18 05:00:00" attr="0x10">MSGRAPH</file>
 		<file size="364891" time="1992-11-18 11:00:00" attr="0x20" dir="MSGRAPH/">GRAPH.EX$</file>
 		<file size="110307" time="1992-11-18 11:00:00" attr="0x20" dir="MSGRAPH/">MSGRAPH.HL$</file>
 		<file size="930429" time="1992-11-18 11:00:00" attr="0x20">WINWORD.EX$</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK3.img" href="/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK3.json" md5="44a2f1f314c6db9aefcd7bdbaa23c241" md5json="e21e18f8514a85a28e33ef2e947b4c16">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK3.json" md5="44a2f1f314c6db9aefcd7bdbaa23c241" md5json="e21e18f8514a85a28e33ef2e947b4c16">
 		<name>Word for Windows 2.0c (Disk 3)</name>
 		<file size="6305" time="1992-08-31 12:00:00" attr="0x20">ARTICLE2.DT$</file>
 		<file size="1598" time="1992-08-31 06:00:00" attr="0x10">CLIPART</file>
@@ -182,7 +182,7 @@
 		<file size="5784" time="1992-08-31 12:00:00" attr="0x20">TERM2.DT$</file>
 		<file size="4269" time="1992-08-31 12:00:00" attr="0x20">WINLD.FO$</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK4.img" href="/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK4.json" md5="11f3a4997497c8ed3b5fc5d7fcbbc94b" md5json="122999ce1c25ad65b232b363b2b608e7">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK4.json" md5="11f3a4997497c8ed3b5fc5d7fcbbc94b" md5json="122999ce1c25ad65b232b363b2b608e7">
 		<name>Word for Windows 2.0c (Disk 4)</name>
 		<file size="159569" time="1992-08-31 12:00:00" attr="0x20">GRAMMAR.DL$</file>
 		<file size="537668" time="1992-08-31 12:00:00" attr="0x20">GR_AM.LE$</file>
@@ -192,7 +192,7 @@
 		<file size="102" time="1992-08-31 06:00:06" attr="0x10">WINWORD.CBT</file>
 		<file size="299286" time="1992-08-31 12:00:00" attr="0x20" dir="WINWORD.CBT/">GSTART.LE$</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK5.img" href="/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK5.json" md5="76bf47ab014be6555f83b0253b96d10c" md5json="03514bcee20e46b50312b9e6cd575fbc">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK5.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK5.json" md5="76bf47ab014be6555f83b0253b96d10c" md5json="03514bcee20e46b50312b9e6cd575fbc">
 		<name>Word for Windows 2.0c (Disk 5)</name>
 		<file size="1211" time="1992-11-18 11:00:00" attr="0x20">40CONVRT.GL$</file>
 		<file size="1331" time="1992-11-18 11:00:00" attr="0x20">50CONVRT.GL$</file>
@@ -253,7 +253,7 @@
 		<file size="38715" time="1992-11-18 11:00:00" attr="0x20">WRITWIN.CN$</file>
 		<file size="48958" time="1992-11-18 11:00:00" attr="0x20">XLBIFF.CN$</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK6.img" href="/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK6.json" md5="c92afd38d21a8f2d92ae656116dfe7a4" md5json="50f5e426ce218383dbe3c00036198fe9">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/WINWORD20-DISK6.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/winword/2.0c/WINWORD20-DISK6.json" md5="c92afd38d21a8f2d92ae656116dfe7a4" md5json="50f5e426ce218383dbe3c00036198fe9">
 		<name>Word for Windows 2.0c (Disk 6)</name>
 		<file size="646" time="1992-08-31 06:00:00" attr="0x10">WINWORD.CBT</file>
 		<file size="1692" time="1992-08-31 12:00:00" attr="0x20" dir="WINWORD.CBT/">BUSLET.DO$</file>

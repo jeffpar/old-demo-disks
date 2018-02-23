@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft/COMPAQ</author>
 	<releaseDate/>
-	<disk id="disk01" size="327680" chs="40:2:8" img="archive/COMPAQ-DOS112.img" href="/pcjs-disks/pcx86/dos/compaq/1.12/COMPAQ-DOS112.json" md5="78669dbfd2c3a23e30353788fcbabdef" md5json="01be6d21197196c608ce492294ed0d1b">
+	<disk id="disk01" size="327680" chs="40:2:8" img="archive/COMPAQ-DOS112.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/compaq/1.12/COMPAQ-DOS112.json" md5="78669dbfd2c3a23e30353788fcbabdef" md5json="01be6d21197196c608ce492294ed0d1b">
 		<name>COMPAQ MS-DOS 1.12</name>
 		<file size="549" time="1983-11-28 11:00:00" attr="0x20">BASIC.COM</file>
 		<file size="547" time="1983-11-28 11:00:00" attr="0x20">BASICA.COM</file>

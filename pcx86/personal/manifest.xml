@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>PCjs Personal Disk Collection</title>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/JEFFPAR-DISK001.img" href="/pcjs-disks/pcx86/personal/JEFFPAR-DISK001.json" md5="69fa0304d04823d0631d07df846d9560" md5json="deb68108a2bafdf5c2867989b7c3de30">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/JEFFPAR-DISK001.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/personal/JEFFPAR-DISK001.json" md5="69fa0304d04823d0631d07df846d9560" md5json="deb68108a2bafdf5c2867989b7c3de30">
 		<name>JEFFPAR DISK001</name>
 		<file size="23612" time="1986-07-07 13:00:00" attr="0x20">COMMAND.COM</file>
 		<file size="15647" time="1986-11-26 22:24:54" attr="0x20">DEBUG.EXE</file>

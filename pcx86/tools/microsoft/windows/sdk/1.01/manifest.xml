@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>Windows SDK 1.01</title>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK1-UTILITIES.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK1-UTILITIES.json" md5="8da997772145fe3ebbfa57fdf0470c1a" md5json="37bbd585940e73046b18d6eefe1b746f">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK1-UTILITIES.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK1-UTILITIES.json" md5="8da997772145fe3ebbfa57fdf0470c1a" md5json="37bbd585940e73046b18d6eefe1b746f">
 		<name>Windows SDK 1.01 (Disk 1)</name>
 		<file size="408" time="1985-11-15 11:49:06" attr="0x10">BIN</file>
 		<file size="10408" time="1985-03-08 15:07:38" attr="0x20" dir="BIN/">EXEHDR.EXE</file>
@@ -17,7 +17,7 @@
 		<file size="571" time="1985-01-21 09:05:56" attr="0x20" dir="BIN/">WINSTUB.EXE</file>
 		<file size="9540" time="1985-12-05 13:22:08" attr="0x20">README.TXT</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK2-LIBSMALL.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK2-LIBSMALL.json" md5="43d77093103fc60a70046d5c509e40e5" md5json="d29d69afc37b82d253c13b13295565d7">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK2-LIBSMALL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK2-LIBSMALL.json" md5="43d77093103fc60a70046d5c509e40e5" md5json="d29d69afc37b82d253c13b13295565d7">
 		<name>Windows SDK 1.01 (Disk 2)</name>
 		<file size="39936" time="1985-07-22 20:24:58" attr="0x20">SLIBFA.LIB</file>
 		<file size="29696" time="1985-07-22 20:23:58" attr="0x20">SLIBFP.LIB</file>
@@ -25,7 +25,7 @@
 		<file size="97792" time="1985-10-31 09:39:58" attr="0x20">SWINLIBC.LIB</file>
 		<file size="91648" time="1985-10-04 16:09:54" attr="0x20">SWLIBC.LIB</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK3-LIBMEDIUM.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK3-LIBMEDIUM.json" md5="79882674b84c3d20c7b10fc54bd88443" md5json="628b5b3bc92c8d6d2ebe52be0ec07651">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK3-LIBMEDIUM.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK3-LIBMEDIUM.json" md5="79882674b84c3d20c7b10fc54bd88443" md5json="628b5b3bc92c8d6d2ebe52be0ec07651">
 		<name>Windows SDK 1.01 (Disk 3)</name>
 		<file size="50688" time="1985-10-31 09:42:36" attr="0x20">MLIBW.LIB</file>
 		<file size="103424" time="1985-10-31 10:55:34" attr="0x20">MWINLIBC.LIB</file>
@@ -33,7 +33,7 @@
 		<file size="42496" time="1985-10-29 20:39:58" attr="0x20">MWLIBFA.LIB</file>
 		<file size="31232" time="1985-10-29 20:39:00" attr="0x20">MWLIBFP.LIB</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK4-LIBLARGE.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK4-LIBLARGE.json" md5="c512b6e0448c602af66b2376ba7d456b" md5json="d3be4bf564787081600fa7376c328bdd">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK4-LIBLARGE.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK4-LIBLARGE.json" md5="c512b6e0448c602af66b2376ba7d456b" md5json="d3be4bf564787081600fa7376c328bdd">
 		<name>Windows SDK 1.01 (Disk 4)</name>
 		<file size="136" time="1985-11-15 12:03:18" attr="0x10">DEBUG</file>
 		<file size="96318" time="1985-11-13 15:06:08" attr="0x20" dir="DEBUG/">GDI.EXE</file>
@@ -46,7 +46,7 @@
 		<file size="5316" time="1985-11-12 16:42:30" attr="0x20" dir="SYM/">KERNEL.SYM</file>
 		<file size="19060" time="1985-11-14 12:00:00" attr="0x20" dir="SYM/">USER.SYM</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK5-LIBPASCAL.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK5-LIBPASCAL.json" md5="3e79c08ee37aaa5a9769d4e34b95afe9" md5json="b4593efcc286dd73e92cda10563d5c3e">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK5-LIBPASCAL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK5-LIBPASCAL.json" md5="3e79c08ee37aaa5a9769d4e34b95afe9" md5json="b4593efcc286dd73e92cda10563d5c3e">
 		<name>Windows SDK 1.01 (Disk 5)</name>
 		<file size="204" time="1985-11-15 12:06:46" attr="0x10">DEBUG</file>
 		<file size="41312" time="1985-11-12 16:40:30" attr="0x20" dir="DEBUG/">KERNEL.EXE</file>
@@ -56,7 +56,7 @@
 		<file size="72704" time="1985-04-17 17:49:52" attr="0x20">PASCAL.LIB</file>
 		<file size="52736" time="1985-12-04 10:36:56" attr="0x20">PASLIBW.LIB</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK6-INCPIF.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK6-INCPIF.json" md5="d3d65d6b495f4e4da51bfc877a3cd4be" md5json="41bc956996a9e8b62ed4068956ee520b">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK6-INCPIF.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK6-INCPIF.json" md5="d3d65d6b495f4e4da51bfc877a3cd4be" md5json="41bc956996a9e8b62ed4068956ee520b">
 		<name>Windows SDK 1.01 (Disk 6)</name>
 		<file size="13308" time="1985-06-17 11:17:06" attr="0x20">CMACROS.INC</file>
 		<file size="476" time="1985-12-05 11:39:00" attr="0x10">PIF</file>
@@ -84,7 +84,7 @@
 		<file size="2325" time="1985-06-18 14:48:04" attr="0x20">WINEXP.H</file>
 		<file size="17979" time="1985-12-03 12:59:10" attr="0x20">WINNAMES.INC</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK7-SAMPLES.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK7-SAMPLES.json" md5="5e6c8e8a95a2b7603afcbf49908cce2f" md5json="a0eb862782d3758c737265e7c4fc87f3">
+	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WINSDK101-DISK7-SAMPLES.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-DISK7-SAMPLES.json" md5="5e6c8e8a95a2b7603afcbf49908cce2f" md5json="a0eb862782d3758c737265e7c4fc87f3">
 		<name>Windows SDK 1.01 (Disk 7)</name>
 		<file size="1428" time="1985-12-05 11:26:20" attr="0x10">C</file>
 		<file size="327" time="1985-11-05 10:52:58" attr="0x20" dir="C/">FONTTEST</file>
@@ -165,14 +165,14 @@
 		<file size="28895" time="1985-12-04 12:16:14" attr="0x20" dir="PASCAL/">MUZZLE.PAS</file>
 		<file size="707" time="1985-12-04 10:20:28" attr="0x20" dir="PASCAL/">MUZZLE.RC</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" img="archive/WINSDK101-CUPDATE.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-CUPDATE.json" md5="4f157d340c07a8e34a60b9dfa2bb7da0" md5json="40425d41542e2c8bf5afbb61faebf7cd">
+	<disk id="disk08" size="368640" chs="40:2:9" img="archive/WINSDK101-CUPDATE.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINSDK101-CUPDATE.json" md5="4f157d340c07a8e34a60b9dfa2bb7da0" md5json="40425d41542e2c8bf5afbb61faebf7cd">
 		<name>Windows SDK 1.01 (C UPDATE)</name>
 		<file size="26184" time="1985-08-21 10:13:26" attr="0x20">CC.EXE</file>
 		<file size="123202" time="1985-08-21 10:15:58" attr="0x20">P1.EXE</file>
 		<file size="122348" time="1985-08-23 14:49:54" attr="0x20">P2.EXE</file>
 		<file size="73516" time="1985-08-21 10:13:58" attr="0x20">P3.EXE</file>
 	</disk>
-	<disk id="disk09" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK1-SETUP.json" md5="b64be0d3d36fc0c86b1799356403e44b" md5json="2a2ed835c5034be9cf58f3b2d36bfe5f">
+	<disk id="disk09" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK1-SETUP.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK1-SETUP.json" md5="b64be0d3d36fc0c86b1799356403e44b" md5json="2a2ed835c5034be9cf58f3b2d36bfe5f">
 		<name>Windows Runtime 1.01 (SETUP)</name>
 		<file size="13008" time="1985-10-24 13:22:18" attr="0x20">CGA.DRV</file>
 		<file size="4860" time="1985-11-12 15:55:18" attr="0x20">COMM.DRV</file>
@@ -211,7 +211,7 @@
 		<file size="5853" time="1985-10-23 15:04:40" attr="0x20">SOUND.DRV</file>
 		<file size="2594" time="1985-10-23 14:44:44" attr="0x20">SYSTEM.DRV</file>
 	</disk>
-	<disk id="disk10" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK2-BUILD.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK2-BUILD.json" md5="7c19e3188330a53bd81c5f9691ecbe7a" md5json="768f0fb0cacf9cabb31091d47262744e">
+	<disk id="disk10" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK2-BUILD.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK2-BUILD.json" md5="7c19e3188330a53bd81c5f9691ecbe7a" md5json="768f0fb0cacf9cabb31091d47262744e">
 		<name>Windows Runtime 1.01 (BUILD)</name>
 		<file size="7" time="1985-11-15 12:27:16" attr="0x20">BUILD.LBL</file>
 		<file size="1350" time="1985-11-06 12:03:44" attr="0x20">CGA.GRB</file>
@@ -235,7 +235,7 @@
 		<file size="2065" time="1985-11-12 16:23:48" attr="0x20">WIN.INI</file>
 		<file size="19392" time="1985-11-11 11:08:02" attr="0x20">WINOLDAP.MOD</file>
 	</disk>
-	<disk id="disk11" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK3-UTILITIES.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK3-UTILITIES.json" md5="bbe7623d573570a2d73414c379871d7f" md5json="9539305c12af6742b846f31354bde3dc">
+	<disk id="disk11" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK3-UTILITIES.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK3-UTILITIES.json" md5="bbe7623d573570a2d73414c379871d7f" md5json="9539305c12af6742b846f31354bde3dc">
 		<name>Windows Runtime 1.01 (UTILITY)</name>
 		<file size="10976" time="1985-11-12 10:55:18" attr="0x20">CITOH.DRV</file>
 		<file size="8720" time="1985-10-24 16:44:56" attr="0x20">COURA.FON</file>
@@ -267,7 +267,7 @@
 		<file size="11520" time="1985-11-14 14:21:48" attr="0x20">TOSH.DRV</file>
 		<file size="9" time="1985-11-15 12:31:18" attr="0x20">UTILITY.LBL</file>
 	</disk>
-	<disk id="disk12" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK4-SAMPLES.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK4-SAMPLES.json" md5="fe3af56c72b18cbeb00238959eebd14b" md5json="493fdf32cdbabae3841e5269c5f14f27">
+	<disk id="disk12" size="368640" chs="40:2:9" img="archive/WINRUN101-DISK4-SAMPLES.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/WINRUN101-DISK4-SAMPLES.json" md5="fe3af56c72b18cbeb00238959eebd14b" md5json="493fdf32cdbabae3841e5269c5f14f27">
 		<name>Windows Runtime 1.01 (APPS)</name>
 		<file size="42" time="1985-06-04 09:07:36" attr="0x20">ABC.TXT</file>
 		<file size="24992" time="1985-11-01 12:54:54" attr="0x20">CALC.EXE</file>

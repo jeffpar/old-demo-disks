@@ -7,7 +7,7 @@
 	<category>Assembler</category>
 	<language>x86</language>
 	<company>Microsoft</company>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MASM600-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK1.json" md5="80854f1d1019c4d1143dfda3cd60837b" md5json="3cbf433923d74f0999bf98fd02be88ce">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MASM600-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK1.json" md5="80854f1d1019c4d1143dfda3cd60837b" md5json="3cbf433923d74f0999bf98fd02be88ce">
 		<name>MS Macro Assembler 6.00 (Disk 1)</name>
 		<file size="442" time="1999-12-13 15:11:38" attr="0x10">BINB</file>
 		<file size="25614" time="1990-02-20 04:21:20" attr="0x20" dir="BINB/">BIND.EX$</file>
@@ -29,7 +29,7 @@
 		<file size="95155" time="1991-04-03 07:53:14" attr="0x20">SETUP.EXE</file>
 		<file size="1485" time="1990-08-07 12:01:34" attr="0x20">TOOLS.PR$</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MASM600-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK2.json" md5="64bfe09ecffdcda59e898ebd490024c6" md5json="b7fc9992d83aac3abc38a89f274f531f">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MASM600-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK2.json" md5="64bfe09ecffdcda59e898ebd490024c6" md5json="b7fc9992d83aac3abc38a89f274f531f">
 		<name>MS Macro Assembler 6.00 (Disk 2)</name>
 		<file size="170" time="1999-12-13 15:12:04" attr="0x10">BINB</file>
 		<file size="7025" time="1991-01-31 02:20:44" attr="0x20" dir="BINB/">H2INC.ER$</file>
@@ -42,7 +42,7 @@
 		<file size="48860" time="1991-03-22 14:55:32" attr="0x20">NMAKE.EX$</file>
 		<file size="44590" time="1991-02-07 09:49:24" attr="0x20">QH.EX$</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MASM600-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK3.json" md5="d1f8d7836227d898179ca39d7d360feb" md5json="9c46e88be94e4294f5d240a15aa14f5d">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MASM600-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK3.json" md5="d1f8d7836227d898179ca39d7d360feb" md5json="9c46e88be94e4294f5d240a15aa14f5d">
 		<name>MS Macro Assembler 6.00 (Disk 3)</name>
 		<file size="49727" time="1990-05-04 18:51:50" attr="0x20">API.LI$</file>
 		<file size="122" time="1989-03-16 12:25:04" attr="0x20">APILMR.OB$</file>
@@ -62,7 +62,7 @@
 		<file size="51492" time="1990-03-29 14:41:26" attr="0x20">OS2.LI$</file>
 		<file size="39474" time="1991-02-07 09:48:14" attr="0x20">QH.EX$</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MASM600-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK4.json" md5="caa20b2fed2069d4c94a2fdb355c89da" md5json="4d8fea13689a7aa2d035f08b23f35c81">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MASM600-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK4.json" md5="caa20b2fed2069d4c94a2fdb355c89da" md5json="4d8fea13689a7aa2d035f08b23f35c81">
 		<name>MS Macro Assembler 6.00 (Disk 4)</name>
 		<file size="272" time="1999-12-13 15:12:46" attr="0x10">BINP</file>
 		<file size="204495" time="1990-06-14 08:40:18" attr="0x20" dir="BINP/">PWB.EX$</file>
@@ -145,7 +145,7 @@
 		<file size="731" time="1991-02-06 14:34:26" attr="0x20" dir="SAMPLES/TSR/">TSR.H$</file>
 		<file size="1481" time="1991-02-15 05:29:30" attr="0x20" dir="SAMPLES/TSR/">TSR.IN$</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MASM600-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK5.json" md5="239b2d711a356af052f7751a82e7b885" md5json="b858eef81881211033093058386295be">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MASM600-DISK5.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK5.json" md5="239b2d711a356af052f7751a82e7b885" md5json="b858eef81881211033093058386295be">
 		<name>MS Macro Assembler 6.00 (Disk 5)</name>
 		<file size="574602" time="1991-03-15 11:11:14" attr="0x20">ALANG.HL$</file>
 		<file size="107458" time="1991-04-03 08:22:56" attr="0x20">ML.HL$</file>

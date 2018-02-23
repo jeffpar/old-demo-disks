@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows 3.00</title>
-	<disk id="disk08" size="1228800" chs="80:2:15" img="archive/WIN300-DISK1.img" href="/pcjs-disks/pcx86/windows/3.00/WIN300-DISK1.json" md5="ebbde1cf6c174f8157ea18ed3c1f26b7" md5json="5ddc3f3a8e0522b02bbce20fe24b64b1">
+	<disk id="disk08" size="1228800" chs="80:2:15" img="archive/WIN300-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/3.00/WIN300-DISK1.json" md5="ebbde1cf6c174f8157ea18ed3c1f26b7" md5json="5ddc3f3a8e0522b02bbce20fe24b64b1">
 		<name>Windows 3.00 (Disk 1)</name>
 		<file size="44718" time="1990-05-01 03:00:00" attr="0x20">8514.DRV</file>
 		<file size="3386" time="1990-05-01 03:00:00" attr="0x20">8514FIX.FON</file>
@@ -54,7 +54,7 @@
 		<file size="100335" time="1990-05-01 03:00:00" attr="0x20">WINHELP.EXE</file>
 		<file size="23614" time="1990-05-01 03:00:00" attr="0x20">WINHELP.HLP</file>
 	</disk>
-	<disk id="disk09" size="1228800" chs="80:2:15" img="archive/WIN300-DISK2.img" href="/pcjs-disks/pcx86/windows/3.00/WIN300-DISK2.json" md5="4d487a28c47247f1e05a4e9892b9510d" md5json="0046d2facb0102cdd17ee8f5a23f85eb">
+	<disk id="disk09" size="1228800" chs="80:2:15" img="archive/WIN300-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/3.00/WIN300-DISK2.json" md5="4d487a28c47247f1e05a4e9892b9510d" md5json="0046d2facb0102cdd17ee8f5a23f85eb">
 		<name>Windows 3.00 (Disk 2)</name>
 		<file size="26038" time="1990-05-01 03:00:00" attr="0x20">CALC.EXE</file>
 		<file size="39387" time="1990-05-01 03:00:00" attr="0x20">CALENDAR.EXE</file>
@@ -139,7 +139,7 @@
 		<file size="367" time="1990-05-01 03:00:00" attr="0x20">XLAT863.BIN</file>
 		<file size="365" time="1990-05-01 03:00:00" attr="0x20">XLAT865.BIN</file>
 	</disk>
-	<disk id="disk10" size="1228800" chs="80:2:15" img="archive/WIN300-DISK3.img" href="/pcjs-disks/pcx86/windows/3.00/WIN300-DISK3.json" md5="c559fd7450e69f14f03ff618706e4084" md5json="bc89d5429d3d65233549c9b7180d4b5e">
+	<disk id="disk10" size="1228800" chs="80:2:15" img="archive/WIN300-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/3.00/WIN300-DISK3.json" md5="c559fd7450e69f14f03ff618706e4084" md5json="bc89d5429d3d65233549c9b7180d4b5e">
 		<name>Windows 3.00 (Disk 3)</name>
 		<file size="4183" time="1990-05-01 03:00:00" attr="0x20">3270.TXT</file>
 		<file size="180" time="1990-05-01 03:00:00" attr="0x20">BOXES.BMP</file>
@@ -192,7 +192,7 @@
 		<file size="19393" time="1990-05-01 03:00:00" attr="0x20">WINOA386.MOD</file>
 		<file size="22769" time="1990-05-01 03:00:00" attr="0x20">WRITE.HLP</file>
 	</disk>
-	<disk id="disk11" size="1228800" chs="80:2:15" img="archive/WIN300-DISK4.img" href="/pcjs-disks/pcx86/windows/3.00/WIN300-DISK4.json" md5="94709bb288afc1a95abe295cf3fa257a" md5json="ebe6f1d23aa1e170658cf693d6bd6317">
+	<disk id="disk11" size="1228800" chs="80:2:15" img="archive/WIN300-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/3.00/WIN300-DISK4.json" md5="94709bb288afc1a95abe295cf3fa257a" md5json="ebe6f1d23aa1e170658cf693d6bd6317">
 		<name>Windows 3.00 (Disk 4)</name>
 		<file size="8478" time="1990-05-01 03:00:00" attr="0x20">8514.GR3</file>
 		<file size="973" time="1990-05-01 03:00:00" attr="0x20">BANINST.386</file>
@@ -254,7 +254,7 @@
 		<file size="5584" time="1990-05-01 03:00:00" attr="0x20">VIPX.386</file>
 		<file size="3486" time="1990-05-01 03:00:00" attr="0x20">VNETWARE.386</file>
 	</disk>
-	<disk id="disk12" size="1228800" chs="80:2:15" img="archive/WIN300-DISK5.img" href="/pcjs-disks/pcx86/windows/3.00/WIN300-DISK5.json" md5="a57ae770cea4a47aefef1eb1909ce0be" md5json="b97297cfe9c4fef36bd55610f07cdb95">
+	<disk id="disk12" size="1228800" chs="80:2:15" img="archive/WIN300-DISK5.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/3.00/WIN300-DISK5.json" md5="a57ae770cea4a47aefef1eb1909ce0be" md5json="b97297cfe9c4fef36bd55610f07cdb95">
 		<name>Windows 3.00 (Disk 5)</name>
 		<file size="203" time="1990-05-01 03:00:00" attr="0x20">123.PIF</file>
 		<file size="45211" time="1990-05-01 03:00:00" attr="0x20">CANONIII.DRV</file>

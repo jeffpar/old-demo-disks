@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="184320" chs="40:1:9" img="archive/PCDOS200-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/2.00/PCDOS200-DISK1.json" md5="4f3c59b73b6b9bf319ef2085b0063a02" md5json="3c4d27a06b98a0b3c22e9fb7ab1c75c6">
+	<disk id="disk01" size="184320" chs="40:1:9" img="archive/PCDOS200-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/2.00/PCDOS200-DISK1.json" md5="4f3c59b73b6b9bf319ef2085b0063a02" md5json="3c4d27a06b98a0b3c22e9fb7ab1c75c6">
 		<name>PC-DOS 2.00 (Disk 1)</name>
 		<file size="1664" time="1983-03-08 11:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="896" time="1983-03-08 11:00:00" attr="0x20">ASSIGN.COM</file>
@@ -35,7 +35,7 @@
 		<file size="1408" time="1983-03-08 11:00:00" attr="0x20">SYS.COM</file>
 		<file size="1513" time="1983-03-08 11:00:00" attr="0x20">TREE.COM</file>
 	</disk>
-	<disk id="disk02" size="184320" chs="40:1:9" img="archive/PCDOS200-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/2.00/PCDOS200-DISK2.json" md5="13af0ccfe0156dc9ec6e2b6c0b6cd095" md5json="63749186aa71e3f40192f845e9a40c34">
+	<disk id="disk02" size="184320" chs="40:1:9" img="archive/PCDOS200-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/2.00/PCDOS200-DISK2.json" md5="13af0ccfe0156dc9ec6e2b6c0b6cd095" md5json="63749186aa71e3f40192f845e9a40c34">
 		<name>PC-DOS 2.00 (Disk 2)</name>
 		<file size="1920" time="1983-03-08 11:00:00" attr="0x20">ART.BAS</file>
 		<file size="2048" time="1983-03-08 11:00:00" attr="0x20">BALL.BAS</file>

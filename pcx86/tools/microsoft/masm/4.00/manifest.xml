@@ -8,7 +8,7 @@
 	<language>x86</language>
 	<company>Microsoft</company>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM-016014-400.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/4.00/MASM-016014-400.json" md5="19fddc03d66a3a4dcdbb081cfb755df0" md5json="fd414c724dff728ef64748bc767d227d">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM-016014-400.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/masm/4.00/MASM-016014-400.json" md5="19fddc03d66a3a4dcdbb081cfb755df0" md5json="fd414c724dff728ef64748bc767d227d">
 		<name>MS Macro Assembler 4.00</name>
 		<file size="5965" time="1985-10-16 04:00:00" attr="0x20">COUNT.ASM</file>
 		<file size="15028" time="1985-10-16 04:00:00" attr="0x20">CREF.EXE</file>

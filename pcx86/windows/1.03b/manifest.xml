@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows 1.03b</title>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WIN103-DISK1-SETUP.img" href="/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK1-SETUP.json" md5="569455dfa4bf33f45d04a58e86cce135" md5json="0f64fa2c27f4b6a8f5ac3506a21acd16">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WIN103-DISK1-SETUP.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK1-SETUP.json" md5="569455dfa4bf33f45d04a58e86cce135" md5json="0f64fa2c27f4b6a8f5ac3506a21acd16">
 		<name>Windows 1.03b (SETUP)</name>
 		<file size="15776" time="1986-05-23 17:22:58" attr="0x20">ATTDC.DRV</file>
 		<file size="17824" time="1986-05-23 14:23:10" attr="0x20">ATTDEB.DRV</file>
@@ -48,7 +48,7 @@
 		<file size="4005" time="1986-07-20 17:27:14" attr="0x20">USA.DRV</file>
 		<file size="47" time="1986-08-11 12:02:32" attr="0x20">WRITE.DAT</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WIN103-DISK2-BUILD.img" href="/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK2-BUILD.json" md5="c38f994ae50a840ee2359dbc51783567" md5json="f3a952a0d1aea6d66f70573e47b48de6">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WIN103-DISK2-BUILD.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK2-BUILD.json" md5="c38f994ae50a840ee2359dbc51783567" md5json="f3a952a0d1aea6d66f70573e47b48de6">
 		<name>Windows 1.03b (BUILD)</name>
 		<file size="1307" time="1986-02-22 09:34:02" attr="0x20">ATTDC.GRB</file>
 		<file size="2916" time="1986-05-28 11:30:52" attr="0x20">ATTDC.LGO</file>
@@ -78,7 +78,7 @@
 		<file size="2093" time="1986-05-22 13:50:36" attr="0x20">WIN.INI</file>
 		<file size="19824" time="1986-08-01 03:16:58" attr="0x20">WINOLDAP.MOD</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WIN103-DISK3-UTILITY.img" href="/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK3-UTILITY.json" md5="a888a832e19afb98cd4b4367f27011c1" md5json="c16f34bac7fd9e31e6323b2d17e6077b">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WIN103-DISK3-UTILITY.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK3-UTILITY.json" md5="a888a832e19afb98cd4b4367f27011c1" md5json="c16f34bac7fd9e31e6323b2d17e6077b">
 		<name>Windows 1.03b (UTILITY)</name>
 		<file size="12016" time="1986-05-22 10:58:02" attr="0x20">CITOH.DRV</file>
 		<file size="14352" time="1986-05-22 11:07:52" attr="0x20">EPSON.DRV</file>
@@ -103,7 +103,7 @@
 		<file size="11" time="1986-08-14 20:41:06" attr="0x20">UTILITY.LBL</file>
 		<file size="21024" time="1986-08-14 20:05:26" attr="0x20">XER4020.DRV</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WIN103-DISK4-FONT.img" href="/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK4-FONT.json" md5="1b5cd601b72e65ea01c0d41ef5fc573e" md5json="c29d5575662ccad9004a85ffed512a09">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WIN103-DISK4-FONT.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK4-FONT.json" md5="1b5cd601b72e65ea01c0d41ef5fc573e" md5json="c29d5575662ccad9004a85ffed512a09">
 		<name>Windows 1.03b (FONT)</name>
 		<file size="8720" time="1986-07-29 16:43:18" attr="0x20">COURA.FON</file>
 		<file size="12304" time="1986-07-29 16:43:30" attr="0x20">COURB.FON</file>
@@ -122,7 +122,7 @@
 		<file size="25824" time="1986-07-29 16:47:06" attr="0x20">TMSRC.FON</file>
 		<file size="45200" time="1986-07-29 16:47:24" attr="0x20">TMSRD.FON</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WIN103-DISK5-APPS.img" href="/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK5-APPS.json" md5="0993a1ebd16f1abaf40c0b8c0f17c74a" md5json="8a0c7802ae6bbee1569dc88e47cb6859">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WIN103-DISK5-APPS.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK5-APPS.json" md5="0993a1ebd16f1abaf40c0b8c0f17c74a" md5json="8a0c7802ae6bbee1569dc88e47cb6859">
 		<name>Windows 1.03b (APPS)</name>
 		<file size="42" time="1985-06-04 09:07:36" attr="0x20">ABC.TXT</file>
 		<file size="25008" time="1986-05-22 04:33:36" attr="0x20">CALC.EXE</file>
@@ -137,7 +137,7 @@
 		<file size="14864" time="1986-05-22 04:28:28" attr="0x20">REVERSI.EXE</file>
 		<file size="47344" time="1986-06-12 11:22:48" attr="0x20">TERMINAL.EXE</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WIN103-DISK6-PROGRAM.img" href="/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK6-PROGRAM.json" md5="3b0d234453516beaffa5c07cdf60f53d" md5json="b5adf29c78200eef7b7e32293a1e218f">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WIN103-DISK6-PROGRAM.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.03b/WIN103-DISK6-PROGRAM.json" md5="3b0d234453516beaffa5c07cdf60f53d" md5json="b5adf29c78200eef7b7e32293a1e218f">
 		<name>Windows 1.03b (PROGRAM)</name>
 		<file size="1938" time="1986-08-11 12:12:36" attr="0x10">PIF</file>
 		<file size="369" time="1985-10-26 12:58:54" attr="0x20" dir="PIF/">123-2.PIF</file>

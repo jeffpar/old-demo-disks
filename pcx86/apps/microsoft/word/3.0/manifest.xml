@@ -7,7 +7,7 @@
 	<category>Word Processor</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WORD30-DISK1-PROGRAM.img" href="/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK1-PROGRAM.json" md5="b5bb17f18142185d862145275d976a8d" md5json="7570984c206558750642d9332986b6f5">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WORD30-DISK1-PROGRAM.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK1-PROGRAM.json" md5="b5bb17f18142185d862145275d976a8d" md5json="7570984c206558750642d9332986b6f5">
 		<name>MS Word 3.0 (Disk 1)</name>
 		<file size="24072" time="1986-04-10 11:00:06" attr="0x20">HYPH.DAT</file>
 		<file size="58732" time="1986-04-10 11:00:08" attr="0x20">MW.HLP</file>
@@ -15,7 +15,7 @@
 		<file size="852" time="1986-04-10 11:00:08" attr="0x20">TTY.PRD</file>
 		<file size="44498" time="1986-04-10 11:00:10" attr="0x20">WORD.COM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WORD30-DISK2-SPELL.img" href="/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK2-SPELL.json" md5="9575b22c3a5b514375d7f10499d4d5d9" md5json="6ce5b48f2e7da2849a3af43a604b0b94">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WORD30-DISK2-SPELL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK2-SPELL.json" md5="9575b22c3a5b514375d7f10499d4d5d9" md5json="6ce5b48f2e7da2849a3af43a604b0b94">
 		<name>MS Word 3.0 (Disk 2)</name>
 		<file size="2926" time="1986-03-24 11:00:00" attr="0x20">ANAGRAM.COM</file>
 		<file size="34944" time="1986-03-24 11:00:00" attr="0x20">CONVERTD.EXE</file>
@@ -31,7 +31,7 @@
 		<file size="2844" time="1986-03-24 11:00:00" attr="0x20">WORDFIND.COM</file>
 		<file size="6598" time="1986-03-24 11:00:00" attr="0x20">WORDFREQ.COM</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WORD30-DISK3-UTILITIES.img" href="/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK3-UTILITIES.json" md5="d197022ff2a56f71f5a873ee3f1feec8" md5json="615993c38d233f36b1d244763c2d4ba9">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WORD30-DISK3-UTILITIES.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK3-UTILITIES.json" md5="d197022ff2a56f71f5a873ee3f1feec8" md5json="615993c38d233f36b1d244763c2d4ba9">
 		<name>MS Word 3.0 (Disk 3)</name>
 		<file size="3002" time="1986-04-04 11:00:00" attr="0x20">APPLAND.INI</file>
 		<file size="5394" time="1986-04-04 11:00:00" attr="0x20">APPLAND.PRD</file>
@@ -57,7 +57,7 @@
 		<file size="48734" time="1986-04-04 11:00:00" attr="0x20">WORDTORF.EXE</file>
 		<file size="9039" time="1986-04-04 11:00:00" attr="0x20">X4045.PRD</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WORD30-DISK4-PRINTER.img" href="/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK4-PRINTER.json" md5="134266bfd72e8b7f8209b3890d92d414" md5json="f6a5edaf005f5c3fc9a4b33ec0eb4463">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WORD30-DISK4-PRINTER.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK4-PRINTER.json" md5="134266bfd72e8b7f8209b3890d92d414" md5json="f6a5edaf005f5c3fc9a4b33ec0eb4463">
 		<name>MS Word 3.0 (Disk 4)</name>
 		<file size="8272" time="1986-03-21 11:00:00" attr="0x20">ALPS2000.PRD</file>
 		<file size="1368" time="1986-03-21 11:00:00" attr="0x20">ANDX60CS.PRD</file>
@@ -167,7 +167,7 @@
 		<file size="2532" time="1986-03-21 11:00:00" attr="0x20">TWIN5DM.PRD</file>
 		<file size="8005" time="1986-03-21 11:00:00" attr="0x20">X2700.PRD</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WORD30-DISK5-LEARNMOU.img" href="/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK5-LEARNMOU.json" md5="a8c21451d1249a2ac675ed531f6f7f14" md5json="edad0ce4e289e5de848bc89b6888fcad">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WORD30-DISK5-LEARNMOU.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK5-LEARNMOU.json" md5="a8c21451d1249a2ac675ed531f6f7f14" md5json="edad0ce4e289e5de848bc89b6888fcad">
 		<name>MS Word 3.0 (Disk 5)</name>
 		<file size="39746" time="1986-03-31 11:00:00" attr="0x20">LEARN.COM</file>
 		<file size="369" time="1986-03-31 11:00:00" attr="0x20">LEARN.PIF</file>
@@ -176,7 +176,7 @@
 		<file size="46809" time="1986-03-31 11:00:00" attr="0x20">LESSONS.SOB</file>
 		<file size="43216" time="1986-03-31 11:00:00" attr="0x20">M3.PGM</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WORD30-DISK6-LEARNKBD.img" href="/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK6-LEARNKBD.json" md5="8fa0c05c5f4769d51dd6e950fb422d6f" md5json="86420e43cdf1302af55aca2009c2ef26">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WORD30-DISK6-LEARNKBD.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/3.0/WORD30-DISK6-LEARNKBD.json" md5="8fa0c05c5f4769d51dd6e950fb422d6f" md5json="86420e43cdf1302af55aca2009c2ef26">
 		<name>MS Word 3.0 (Disk 6)</name>
 		<file size="40512" time="1986-04-04 11:00:00" attr="0x20">K3.PGM</file>
 		<file size="39746" time="1986-04-04 11:00:00" attr="0x20">LEARN.COM</file>

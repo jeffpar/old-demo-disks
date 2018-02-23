@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>Windows SDK 1.03 </title>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK1-UTILS1.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK1-UTILS1.json" md5="6a6a56a4d8099b24e4e3fc110d0f03a4" md5json="5fdfcfb80990e576f8791d126b7d6795">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK1-UTILS1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK1-UTILS1.json" md5="6a6a56a4d8099b24e4e3fc110d0f03a4" md5json="5fdfcfb80990e576f8791d126b7d6795">
 		<name>Windows SDK 1.03 (Disk 1)</name>
 		<file size="32896" time="1986-06-11 08:43:52" attr="0x20">EXEHDR.EXE</file>
 		<file size="16128" time="1985-03-21 11:38:28" attr="0x20">IMPLIB.EXE</file>
@@ -15,7 +15,7 @@
 		<file size="41269" time="1986-08-27 14:14:24" attr="0x20">SYMDEB.EXE</file>
 		<file size="570" time="1986-09-15 11:58:20" attr="0x20">WINSTUB.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK2-UTILS2.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK2-UTILS2.json" md5="a4af9a40dcf06a023b46d81992101d66" md5json="9a4265807e45c4ef25d32f33375a5691">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK2-UTILS2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK2-UTILS2.json" md5="a4af9a40dcf06a023b46d81992101d66" md5json="9a4265807e45c4ef25d32f33375a5691">
 		<name>Windows SDK 1.03 (Disk 2)</name>
 		<file size="3515" time="1986-10-09 14:21:52" attr="0x20">ATRM1111.FNT</file>
 		<file size="49536" time="1986-10-02 18:53:18" attr="0x20">DIALOG.EXE</file>
@@ -30,7 +30,7 @@
 		<file size="2832" time="1986-09-30 17:56:12" attr="0x20">SLAPJR.EXE</file>
 		<file size="90439" time="1986-10-09 14:01:32" attr="0x20">UPDATE.TXT</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK3-LIBC.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK3-LIBC.json" md5="91df06909c7110afc61487c19e543002" md5json="307efd6f5ea8d4512c55d7c08da08c09">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK3-LIBC.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK3-LIBC.json" md5="91df06909c7110afc61487c19e543002" md5json="307efd6f5ea8d4512c55d7c08da08c09">
 		<name>Windows SDK 1.03 (Disk 3)</name>
 		<file size="136" time="1986-10-10 15:16:52" attr="0x10">INC</file>
 		<file size="4905" time="1986-10-10 13:47:14" attr="0x20" dir="INC/">STYLE.H</file>
@@ -45,7 +45,7 @@
 		<file size="51200" time="1986-07-18 04:00:10" attr="0x20" dir="LIB/">SLIBW.LIB</file>
 		<file size="14336" time="1986-07-18 04:00:10" attr="0x20" dir="LIB/">SWINLIBC.LIB</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK4-LIBPASCAL.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK4-LIBPASCAL.json" md5="694cf2a2302b92ad12d703a5c62335f4" md5json="3f1a947a55ca19b9816f97781d7a74c6">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK4-LIBPASCAL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK4-LIBPASCAL.json" md5="694cf2a2302b92ad12d703a5c62335f4" md5json="3f1a947a55ca19b9816f97781d7a74c6">
 		<name>Windows SDK 1.03 (Disk 4)</name>
 		<file size="119" time="1986-10-09 14:57:10" attr="0x20">103PATCH.BAT</file>
 		<file size="13308" time="1985-06-17 11:17:06" attr="0x20">CMACROS.INC</file>
@@ -61,7 +61,7 @@
 		<file size="56832" time="1986-09-30 18:16:12" attr="0x20">PASLIBW.LIB</file>
 		<file size="125687" time="1986-10-09 15:43:04" attr="0x20">WINDOWS.INC</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK5-SYMBOLS.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK5-SYMBOLS.json" md5="5ec5666c9697d11a61825ed74ee75323" md5json="c21e6c72b7ba60f578d279e4aa9110d3">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK5-SYMBOLS.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK5-SYMBOLS.json" md5="5ec5666c9697d11a61825ed74ee75323" md5json="c21e6c72b7ba60f578d279e4aa9110d3">
 		<name>Windows SDK 1.03 (Disk 5)</name>
 		<file size="272" time="1986-10-10 15:33:52" attr="0x10">DEBUG</file>
 		<file size="94750" time="1986-07-11 14:05:22" attr="0x20" dir="DEBUG/">GDI.EXE</file>
@@ -75,7 +75,7 @@
 		<file size="5572" time="1986-08-06 14:59:48" attr="0x20" dir="NODEBUG/">KERNEL.SYM</file>
 		<file size="19060" time="1986-05-22 03:49:18" attr="0x20" dir="NODEBUG/">USER.SYM</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK6-SAMPLES1.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK6-SAMPLES1.json" md5="4d161c4b40222cc1e2fd733d63b07093" md5json="fdc2d1f8357d0ba1873af421f589f384">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK6-SAMPLES1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK6-SAMPLES1.json" md5="4d161c4b40222cc1e2fd733d63b07093" md5json="fdc2d1f8357d0ba1873af421f589f384">
 		<name>Windows SDK 1.03 (Disk 6)</name>
 		<file size="952" time="1986-10-10 15:28:02" attr="0x10">CARDFILE</file>
 		<file size="1348" time="1986-09-30 13:09:04" attr="0x20" dir="CARDFILE/">ASMSUBS.ASM</file>
@@ -149,7 +149,7 @@
 		<file size="1038" time="1986-03-18 19:52:32" attr="0x20" dir="TYPE/">TYPE.ICO</file>
 		<file size="693" time="1986-09-29 09:42:30" attr="0x20" dir="TYPE/">TYPE.RC</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK7-SAMPLES2.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK7-SAMPLES2.json" md5="7274bfd9fd6835d226c9f1c3adb598e8" md5json="4115154b284a0b47d797000d711b34e1">
+	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WINSDK103-DISK7-SAMPLES2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/WINSDK103-DISK7-SAMPLES2.json" md5="7274bfd9fd6835d226c9f1c3adb598e8" md5json="4115154b284a0b47d797000d711b34e1">
 		<name>Windows SDK 1.03 (Disk 7)</name>
 		<file size="340" time="1986-10-10 15:30:52" attr="0x10">CLOCK</file>
 		<file size="770" time="1986-09-15 10:36:38" attr="0x20" dir="CLOCK/">CLOCK</file>

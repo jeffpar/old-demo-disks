@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS330-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/3.30/PCDOS330-DISK1.json" md5="7bf4880f06d232b8491ad5a0f7d966e5" md5json="1747d7a6e78c3c64ce417dbd9e5d7889">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS330-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/3.30/PCDOS330-DISK1.json" md5="7bf4880f06d232b8491ad5a0f7d966e5" md5json="1747d7a6e78c3c64ce417dbd9e5d7889">
 		<name>PC-DOS 3.30 (Disk 1)</name>
 		<file size="17089" time="1987-03-18 11:00:00" attr="0x20">4201.CPI</file>
 		<file size="459" time="1987-03-17 11:00:00" attr="0x20">5202.CPI</file>
@@ -35,7 +35,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
 		<file size="11247" time="1987-03-17 11:00:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS330-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/3.30/PCDOS330-DISK2.json" md5="afbbb6e7c1ce679cf6469c647fd72175" md5json="6dced3637bdd4f6ed9366978d7be5e72">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS330-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/3.30/PCDOS330-DISK2.json" md5="afbbb6e7c1ce679cf6469c647fd72175" md5json="6dced3637bdd4f6ed9366978d7be5e72">
 		<name>PC-DOS 3.30 (Disk 2)</name>
 		<file size="5825" time="1987-03-17 11:00:00" attr="0x20">APPEND.EXE</file>
 		<file size="1561" time="1987-03-17 11:00:00" attr="0x20">ASSIGN.COM</file>
@@ -71,7 +71,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
 		<file size="11247" time="1987-03-17 11:00:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk03" size="737280" chs="80:2:9" img="archive/PCDOS330-DISK1-720K.img" href="/pcjs-disks/pcx86/dos/ibm/3.30/PCDOS330-DISK1-720K.json" md5="497c26a4a8316806902f3a51a6ceb2be" md5json="a779a23e33ad7f93e71e01223cfe99ec">
+	<disk id="disk03" size="737280" chs="80:2:9" img="archive/PCDOS330-DISK1-720K.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/3.30/PCDOS330-DISK1-720K.json" md5="497c26a4a8316806902f3a51a6ceb2be" md5json="a779a23e33ad7f93e71e01223cfe99ec">
 		<name>PC-DOS 3.30 (720K)</name>
 		<file size="17089" time="1987-03-18 11:00:00" attr="0x20">4201.CPI</file>
 		<file size="459" time="1987-03-17 11:00:00" attr="0x20">5202.CPI</file>

@@ -7,7 +7,7 @@
 	<category>Mouse</category>
 	<author>Microsoft</author>
 	<releaseDate>1985</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSMOUSE-000099-400-DISK1-SYSTEM.img" href="/pcjs-disks/pcx86/tools/microsoft/mouse/4.00/MSMOUSE-000099-400-DISK1-SYSTEM.json" md5="ddfd85e6da9bbcc4bd9163d67d277180" md5json="aed8dde824e85858ec8a04841602ba3c">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSMOUSE-000099-400-DISK1-SYSTEM.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/mouse/4.00/MSMOUSE-000099-400-DISK1-SYSTEM.json" md5="ddfd85e6da9bbcc4bd9163d67d277180" md5json="aed8dde824e85858ec8a04841602ba3c">
 		<name>MS Mouse 4.00 (SYSTEM)</name>
 		<file size="3356" time="1985-05-01 12:00:00" attr="0x20">123.DEF</file>
 		<file size="1024" time="1985-05-01 12:00:00" attr="0x20">123.MNU</file>
@@ -47,7 +47,7 @@
 		<file size="13560" time="1985-05-01 12:00:00" attr="0x20">WS.DEF</file>
 		<file size="4608" time="1985-05-01 12:00:00" attr="0x20">WS.MNU</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSMOUSE-000099-400-DISK2-PROGRAM.img" href="/pcjs-disks/pcx86/tools/microsoft/mouse/4.00/MSMOUSE-000099-400-DISK2-PROGRAM.json" md5="39f948afa5894e9d2379b920a737fcbe" md5json="ee908fe2950238c591f6ba7f4cfe4fae">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSMOUSE-000099-400-DISK2-PROGRAM.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/mouse/4.00/MSMOUSE-000099-400-DISK2-PROGRAM.json" md5="39f948afa5894e9d2379b920a737fcbe" md5json="ee908fe2950238c591f6ba7f4cfe4fae">
 		<name>MS Mouse 4.00 (PROGRAM)</name>
 		<file size="5" time="1985-05-01 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="1154" time="1985-05-01 12:00:00" attr="0x20">BIT5X7.FNT</file>

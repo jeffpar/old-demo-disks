@@ -8,7 +8,7 @@
 	<author>Microsoft</author>
 	<releaseDate>April 1989</releaseDate>
 	<source url="http://www.hampa.ch/pub/software/DOS/DOS/MS-DOS%204.01%20360K.7z"/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK1.json" md5="cb4e0cc96d404acdb69ada92b0c5316a" md5json="be9653e4f5b9457e4254eb296d1134ba">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK1.json" md5="cb4e0cc96d404acdb69ada92b0c5316a" md5json="be9653e4f5b9457e4254eb296d1134ba">
 		<name>MS-DOS 4.01 (360K Disk 1)</name>
 		<file size="39" time="1989-04-07 00:00:04" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="37557" time="1989-04-07 00:00:04" attr="0x20">COMMAND.COM</file>
@@ -28,7 +28,7 @@
 		<file size="1329" time="1989-04-07 00:00:04" attr="0x20">SELECT.PRT</file>
 		<file size="11456" time="1989-04-07 00:00:04" attr="0x20">SYS.COM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK2.json" md5="489c38e4eff92bd935783dab5ad8631b" md5json="a9878b57bc24d9cbf4956b43ea0f11a1">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK2.json" md5="489c38e4eff92bd935783dab5ad8631b" md5json="a9878b57bc24d9cbf4956b43ea0f11a1">
 		<name>MS-DOS 4.01 (360K Disk 2)</name>
 		<file size="5753" time="1989-04-07 00:00:02" attr="0x20">ASSIGN.COM</file>
 		<file size="18263" time="1989-04-07 00:00:02" attr="0x20">ATTRIB.EXE</file>
@@ -52,7 +52,7 @@
 		<file size="6302" time="1989-04-07 00:00:02" attr="0x20">TREE.COM</file>
 		<file size="17055" time="1989-04-07 00:00:02" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK3.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK3.json" md5="a7f5a85946f4d135b6d23243f8a2fc0c" md5json="8df24a62ad1b4687934ac690aa243a82">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK3.json" md5="a7f5a85946f4d135b6d23243f8a2fc0c" md5json="8df24a62ad1b4687934ac690aa243a82">
 		<name>MS-DOS 4.01 (360K Disk 3)</name>
 		<file size="37557" time="1989-04-07 00:00:02" attr="0x20">COMMAND.COM</file>
 		<file size="87776" time="1989-04-07 00:00:02" attr="0x20">EMM386.SYS</file>
@@ -65,7 +65,7 @@
 		<file size="10224" time="1989-04-07 00:00:02" attr="0x20">SMARTDRV.SYS</file>
 		<file size="29211" time="1989-04-07 00:00:02" attr="0x20">XMA2EMS.SYS</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK4.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK4.json" md5="19f3c49775e7f2f260787cfda9f1e04a" md5json="9aed69f43d0433dac766f4712178fe6e">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK4.json" md5="19f3c49775e7f2f260787cfda9f1e04a" md5json="9aed69f43d0433dac766f4712178fe6e">
 		<name>MS-DOS 4.01 (360K Disk 4)</name>
 		<file size="6404" time="1989-04-07 00:00:04" attr="0x20">4201.CPI</file>
 		<file size="720" time="1989-04-07 00:00:04" attr="0x20">4208.CPI</file>
@@ -91,7 +91,7 @@
 		<file size="8235" time="1989-04-07 00:00:04" attr="0x20">RAMDRIVE.SYS</file>
 		<file size="10588" time="1989-04-07 00:00:04" attr="0x20">RECOVER.COM</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK5.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK5.json" md5="de1faca489fcd96d87a3608a4794844e" md5json="1dd455ba4f341cfebcab298a2474f7b8">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK5.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK5.json" md5="de1faca489fcd96d87a3608a4794844e" md5json="1dd455ba4f341cfebcab298a2474f7b8">
 		<name>MS-DOS 4.01 (360K Disk 5)</name>
 		<file size="36880" time="1989-04-07 00:00:02" attr="0x20">BACKUP.COM</file>
 		<file size="49068" time="1989-04-07 00:00:02" attr="0x20">EGA.CPI</file>
@@ -103,7 +103,7 @@
 		<file size="95107" time="1989-04-07 00:00:02" attr="0x20">SELECT.EXE</file>
 		<file size="29211" time="1989-04-07 00:00:02" attr="0x20">XMA2EMS.SYS</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK6.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK6.json" md5="a45744e414587c078594fa69a38266a5" md5json="1f1af6dd75f5795a68c03642166d521c">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/MSDOS401-DISK6.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/MSDOS401-DISK6.json" md5="a45744e414587c078594fa69a38266a5" md5json="1f1af6dd75f5795a68c03642166d521c">
 		<name>MS-DOS 4.01 (360K Disk 6)</name>
 		<file size="17787" time="1989-04-07 00:00:02" attr="0x20">CHKDSK.COM</file>
 		<file size="37557" time="1989-04-07 00:00:02" attr="0x20">COMMAND.COM</file>

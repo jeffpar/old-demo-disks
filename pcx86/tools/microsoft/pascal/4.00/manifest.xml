@@ -8,7 +8,7 @@
 	<language>Pascal</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" dir="archive/DISK1" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK1.json" md5="8ae03741d6b6a6a14861c64bcc657cba" md5json="b852c127999fda0a1e56daba5cf54d8a">
+	<disk id="disk01" size="368640" chs="40:2:9" dir="archive/DISK1" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK1.json" md5="8ae03741d6b6a6a14861c64bcc657cba" md5json="b852c127999fda0a1e56daba5cf54d8a">
 		<name>MS Pascal 4.00 (Disk 1)</name>
 		<file size="8798" time="1987-07-23 15:34:44" attr="0x20" md5="034a600449fece6446ce0294430d6e78">87.EXE</file>
 		<file size="36946" time="1987-10-26 17:01:18" attr="0x20" md5="73b98fcbf4ae4691394c3f186ef4d607">BIND.EXE</file>
@@ -24,14 +24,14 @@
 		<file size="10870" time="1987-11-09 17:43:58" attr="0x20" md5="6dcf9118f15db957a362fc7fd763497f">SETENV.EXE</file>
 		<file size="81181" time="1988-04-22 16:27:10" attr="0x20" md5="59158b0bdff2ee141f4eb052087f2a20">SETUP.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" dir="archive/DISK2" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK2.json" md5="6227a4ee957fc3ccafca9d3137bf7886" md5json="af9e8a91114df09baff67f26c39f64f3">
+	<disk id="disk02" size="368640" chs="40:2:9" dir="archive/DISK2" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK2.json" md5="6227a4ee957fc3ccafca9d3137bf7886" md5json="af9e8a91114df09baff67f26c39f64f3">
 		<name>MS Pascal 4.00 (Disk 2)</name>
 		<file size="38613" time="1988-01-29 11:26:00" attr="0x20" md5="f875c7e5dab3d09ffba63fc9dc78c2aa">MAKE.EXE</file>
 		<file size="139623" time="1988-04-22 00:05:18" attr="0x20" md5="18b30d4454000f873e4e0e24fd44af3d">PAS1.EXE</file>
 		<file size="131199" time="1988-04-22 00:05:44" attr="0x20" md5="c8c8898fff5cac9749063256233090c3">PAS2.EXE</file>
 		<file size="40401" time="1988-04-22 00:06:02" attr="0x20" md5="4ca1530aeff4696e3424da213d85b551">PAS3.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" dir="archive/DISK3" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK3.json" md5="40b28d54f2c07fbfdadc2ed3936e415d" md5json="eea215985b88d9859c5823e657964678">
+	<disk id="disk03" size="368640" chs="40:2:9" dir="archive/DISK3" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK3.json" md5="40b28d54f2c07fbfdadc2ed3936e415d" md5json="eea215985b88d9859c5823e657964678">
 		<name>MS Pascal 4.00 (Disk 3)</name>
 		<file size="1062" time="1988-01-15 21:46:16" attr="0x20" md5="65f1f6b16304dc9091878916f2c2a5ed">BSE.INT</file>
 		<file size="39921" time="1988-02-12 19:43:42" attr="0x20" md5="fff7d52db477ca384e57a4c9ad9377d7">BSEDOS.INT</file>
@@ -58,7 +58,7 @@
 		<file size="24884" time="1987-11-16 11:20:24" attr="0x20" md5="f4e4bdacd02ceecc2678c412e5f0ab23">RM.EXE</file>
 		<file size="27342" time="1988-02-02 11:31:32" attr="0x20" md5="84e7c845e75677f29f00b4fc7b5e509e">SORTDEMO.PAS</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" dir="archive/DISK4" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK4.json" md5="8d0dcae69b21da194a6477f4ee486768" md5json="cb8251268d2ef6ab3cc5f38e6bfe374a">
+	<disk id="disk04" size="368640" chs="40:2:9" dir="archive/DISK4" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK4.json" md5="8d0dcae69b21da194a6477f4ee486768" md5json="cb8251268d2ef6ab3cc5f38e6bfe374a">
 		<name>MS Pascal 4.00 (Disk 4)</name>
 		<file size="1320" time="1988-03-09 23:54:56" attr="0x20" md5="72054f27e9e333303cad116440007ea1">5ENTX6L.OBJ</file>
 		<file size="1302" time="1988-03-09 23:55:08" attr="0x20" md5="30744c5d37842b2f1ced9c261aab6e89">5ENTX6W.OBJ</file>
@@ -80,7 +80,7 @@
 		<file size="30046" time="1987-11-16 11:24:36" attr="0x20" md5="af2b883191561a9ea0d3b5a4019cd99a">UNDEL.EXE</file>
 		<file size="1055" time="1987-10-03 20:17:16" attr="0x20" md5="1a504485f37a4aa41c1c04dea7bc0022">WIN87EM.LIB</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" dir="archive/DISK5" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK5.json" md5="7da1b1cd53b9c4c4a9870ae4bd104a96" md5json="5276119815471c0388cb3f79a4ab3131">
+	<disk id="disk05" size="368640" chs="40:2:9" dir="archive/DISK5" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK5.json" md5="7da1b1cd53b9c4c4a9870ae4bd104a96" md5json="5276119815471c0388cb3f79a4ab3131">
 		<name>MS Pascal 4.00 (Disk 5)</name>
 		<file size="24849" time="1988-01-14 16:54:54" attr="0x20" md5="f206fd8318f7e0d2cf5bad722458492c">8087.LIB</file>
 		<file size="41989" time="1988-01-14 16:55:06" attr="0x20" md5="67c6eb864db220bafe22615f40451a4e">ALTMATH.LIB</file>
@@ -95,19 +95,19 @@
 		<file size="957" time="1987-01-06 16:42:06" attr="0x20" md5="df2b1f4d392296ae19ef4992cd3a04f3">NULF.OBJ</file>
 		<file size="56763" time="1988-04-21 23:31:02" attr="0x20" md5="4b916d60745e46a72b99a62dfd3f9961">PARTIAL.LIB</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" dir="archive/DISK6" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK6.json" md5="349bb2175803c26718f746789b24df9d" md5json="6eda92d9aa97e3e55fbbc0fa7881274d">
+	<disk id="disk06" size="368640" chs="40:2:9" dir="archive/DISK6" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK6.json" md5="349bb2175803c26718f746789b24df9d" md5json="6eda92d9aa97e3e55fbbc0fa7881274d">
 		<name>MS Pascal 4.00 (Disk 6)</name>
 		<file size="263890" time="1988-03-09 02:54:58" attr="0x20" md5="5c15b2e1d30638ad014f1e672fef7f88">CV.EXE</file>
 		<file size="22444" time="1988-01-12 17:57:02" attr="0x20" md5="23ca7c3a701c64b355e710b5090f7954">CV.HLP</file>
 		<file size="49400" time="1988-03-01 01:07:04" attr="0x20" md5="c80167951574b457c8b31b940dd55113">CVPACK.EXE</file>
 		<file size="14551" time="1988-03-06 10:41:20" attr="0x20" md5="bb10e311bb1f1d18dd3ff8a81974af26">MOUSE.COM</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" dir="archive/DISK7" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK7.json" md5="cf2e60c683492a5e45e7de7d032423ed" md5json="fbc30ac18f804b7eabcccbc45f3e1bde">
+	<disk id="disk07" size="368640" chs="40:2:9" dir="archive/DISK7" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK7.json" md5="cf2e60c683492a5e45e7de7d032423ed" md5json="fbc30ac18f804b7eabcccbc45f3e1bde">
 		<name>MS Pascal 4.00 (Disk 7)</name>
 		<file size="233249" time="1988-03-09 02:56:34" attr="0x20" md5="f53d810e72e7695f281cdb579dbb429b">CVP.EXE</file>
 		<file size="22444" time="1988-01-12 17:57:02" attr="0x20" md5="23ca7c3a701c64b355e710b5090f7954">CVP.HLP</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" dir="archive/DISK8" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK8.json" md5="d756c2efcd10783bc259f01b602dbeab" md5json="783e87685db8b3f8d7f91cf423fec0ad">
+	<disk id="disk08" size="368640" chs="40:2:9" dir="archive/DISK8" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK8.json" md5="d756c2efcd10783bc259f01b602dbeab" md5json="783e87685db8b3f8d7f91cf423fec0ad">
 		<name>MS Pascal 4.00 (Disk 8)</name>
 		<file size="2094" time="1988-01-14 23:38:40" attr="0x20" md5="a28952d3e7cdd362f7a92e1c5c89f888">BRIEF.INI</file>
 		<file size="31233" time="1987-12-29 17:03:18" attr="0x20" md5="ef373cfe841816b828cde2781fa53540">CALLTREE.EXE</file>
@@ -125,7 +125,7 @@
 		<file size="2609" time="1987-12-15 18:14:18" attr="0x20" md5="b26deedacde08c71843b506ce1d08ef8">WS.DLL</file>
 		<file size="2084" time="1987-12-15 18:14:16" attr="0x20" md5="b93b9eb7e11b2450f01cf70ad7b3b2f8">WS.ZXT</file>
 	</disk>
-	<disk id="disk09" size="368640" chs="40:2:9" dir="archive/DISK9" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK9.json" md5="ed72e1e6663e39c695d6c20b2aed9d1c" md5json="d3972d33af1e379d49c46f7dd0556d32">
+	<disk id="disk09" size="368640" chs="40:2:9" dir="archive/DISK9" href="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/PASCAL400-DISK9.json" md5="ed72e1e6663e39c695d6c20b2aed9d1c" md5json="d3972d33af1e379d49c46f7dd0556d32">
 		<name>MS Pascal 4.00 (Disk 9)</name>
 		<file size="784" time="1988-02-09 23:08:56" attr="0x20" md5="8e6089ffae51857da37fcdd3db42a7a5">BRKCTL.INC</file>
 		<file size="2044" time="1988-02-21 19:54:02" attr="0x20" md5="49b394ede2c380ac5016a845bf2aa4dc">CHKSTK.ASM</file>

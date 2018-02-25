@@ -7,7 +7,7 @@
 	<category>Word Processor</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WORD50-PROGRAM1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PROGRAM1.json" md5="e30eb282f81c7e7ace476cc9ff81d956" md5json="aa8f27594b6533b9e1703ea1045679c4">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WORD50-PROGRAM1.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PROGRAM1.json" md5="e30eb282f81c7e7ace476cc9ff81d956" md5json="aa8f27594b6533b9e1703ea1045679c4">
 		<name>MS Word 5.0 (Program 1)</name>
 		<file size="59247" time="1989-04-26 14:49:52" attr="0x20">CAPTURE.COM</file>
 		<file size="6144" time="1989-04-26 14:49:52" attr="0x20">CAPTURE.DOC</file>
@@ -18,11 +18,11 @@
 		<file size="220364" time="1989-04-26 14:49:54" attr="0x20">WORD.EXE</file>
 		<file size="369" time="1989-04-26 14:49:56" attr="0x20">WORD.PIF</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WORD50-PROGRAM2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PROGRAM2.json" md5="3c69ca5e6fa130ea9943b4102c1e37f8" md5json="629b3143f719b73781b83b5bc758c644">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WORD50-PROGRAM2.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PROGRAM2.json" md5="3c69ca5e6fa130ea9943b4102c1e37f8" md5json="629b3143f719b73781b83b5bc758c644">
 		<name>MS Word 5.0 (Program 2)</name>
 		<file size="354105" time="1989-04-26 14:52:32" attr="0x20">WORD.OVL</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WORD50-SPELL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-SPELL.json" md5="6bacfa72a7f611d89db0acde6d2056c2" md5json="098945a6436dfc0e8e7574d61e0e4363">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WORD50-SPELL.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-SPELL.json" md5="6bacfa72a7f611d89db0acde6d2056c2" md5json="098945a6436dfc0e8e7574d61e0e4363">
 		<name>MS Word 5.0 (Spell)</name>
 		<file size="16896" time="1989-04-26 14:54:34" attr="0x20">MACROCNV.DOC</file>
 		<file size="84580" time="1989-04-26 14:54:34" attr="0x20">MACROCNV.EXE</file>
@@ -32,11 +32,11 @@
 		<file size="47959" time="1989-04-26 14:54:36" attr="0x20">SPELL.OVL</file>
 		<file size="2560" time="1989-04-26 14:54:36" attr="0x20">TYPOS.DOC</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WORD50-THESAURUS.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-THESAURUS.json" md5="a6dfcf957939d3c82c8f71c124881bae" md5json="18ff18997d992a1277d91b4f169a9881">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WORD50-THESAURUS.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-THESAURUS.json" md5="a6dfcf957939d3c82c8f71c124881bae" md5json="18ff18997d992a1277d91b4f169a9881">
 		<name>MS Word 5.0 (Thesaurus)</name>
 		<file size="326976" time="1989-04-21 17:49:22" attr="0x20">WFBG.SYN</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WORD50-UTILITIES1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILITIES1.json" md5="19a91824af33a2ad480f76add375dcac" md5json="5e87a8ae269f043e64319a09e1a9ea77">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WORD50-UTILITIES1.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILITIES1.json" md5="19a91824af33a2ad480f76add375dcac" md5json="5e87a8ae269f043e64319a09e1a9ea77">
 		<name>MS Word 5.0 (Utilities 1)</name>
 		<file size="24072" time="1989-04-25 10:01:02" attr="0x20">HYPH.DAT</file>
 		<file size="256" time="1989-04-25 10:01:02" attr="0x20">KBD.ASC</file>
@@ -47,7 +47,7 @@
 		<file size="189706" time="1989-04-25 10:01:06" attr="0x20">SETUP.EXE</file>
 		<file size="1411" time="1989-04-25 10:01:06" attr="0x20">VID.ASC</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WORD50-UTILITIES2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILITIES2.json" md5="6b82e011c03249f541000e77c68dbcc2" md5json="16d8e78a0826aabc7c88ced4f502efe7">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WORD50-UTILITIES2.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILITIES2.json" md5="6b82e011c03249f541000e77c68dbcc2" md5json="16d8e78a0826aabc7c88ced4f502efe7">
 		<name>MS Word 5.0 (Utilities 2)</name>
 		<file size="1536" time="1989-04-26 14:56:12" attr="0x20">ACADEMIC.STY</file>
 		<file size="1024" time="1989-04-26 14:56:12" attr="0x20">APPEALS.STY</file>
@@ -100,7 +100,7 @@
 		<file size="3605" time="1989-04-26 14:56:34" attr="0x20">ZEN-TECM.CSD</file>
 		<file size="3871" time="1989-04-26 14:56:34" attr="0x20">ZEN549.CSD</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WORD50-UTILITIES3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILITIES3.json" md5="fb730283edc3891a442b35b7e0b94f55" md5json="c7ad00a58377651288a881d8c4a44e01">
+	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WORD50-UTILITIES3.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILITIES3.json" md5="fb730283edc3891a442b35b7e0b94f55" md5json="c7ad00a58377651288a881d8c4a44e01">
 		<name>MS Word 5.0 (Utilities 3)</name>
 		<file size="9021" time="1989-04-26 09:00:54" attr="0x20">CONFIG.DOC</file>
 		<file size="1513" time="1989-04-26 09:00:54" attr="0x20">DCAMS.FNT</file>
@@ -112,7 +112,7 @@
 		<file size="160329" time="1989-04-26 09:00:58" attr="0x20">WORD_DCA.EXE</file>
 		<file size="3929" time="1989-04-26 09:00:58" attr="0x20">WORD_RTF.DOC</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" img="archive/WORD50-UTILPRINT.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILPRINT.json" md5="d7d39b28333d5ff078b497ffd44f6124" md5json="8a3d0a552ba3c04c87cfe39cdc0eb87d">
+	<disk id="disk08" size="368640" chs="40:2:9" img="archive/WORD50-UTILPRINT.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-UTILPRINT.json" md5="d7d39b28333d5ff078b497ffd44f6124" md5json="8a3d0a552ba3c04c87cfe39cdc0eb87d">
 		<name>MS Word 5.0 (Utilities/Print)</name>
 		<file size="5087" time="1989-04-14 08:28:02" attr="0x20">DECDOWN.DAT</file>
 		<file size="10743" time="1989-04-14 08:28:08" attr="0x20">DECDOWN.INI</file>
@@ -151,7 +151,7 @@
 		<file size="2343" time="1989-04-14 08:27:56" attr="0x20">X4020.PRD</file>
 		<file size="21455" time="1989-04-14 08:27:56" attr="0x20">X4045.PRD</file>
 	</disk>
-	<disk id="disk09" size="368640" chs="40:2:9" img="archive/WORD50-PRINTERS1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PRINTERS1.json" md5="469a75ca3591a237e19063b3cb6a33a2" md5json="59cc60a10365e08d2e13c618b97ca83e">
+	<disk id="disk09" size="368640" chs="40:2:9" img="archive/WORD50-PRINTERS1.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PRINTERS1.json" md5="469a75ca3591a237e19063b3cb6a33a2" md5json="59cc60a10365e08d2e13c618b97ca83e">
 		<name>MS Word 5.0 (Printers 1)</name>
 		<file size="8393" time="1989-04-11 11:48:20" attr="0x20">ALQ20018.PRD</file>
 		<file size="6932" time="1989-04-11 11:48:22" attr="0x20">ALQ20024.PRD</file>
@@ -210,7 +210,7 @@
 		<file size="930" time="1989-04-11 11:48:30" attr="0x20">TTYFF.PRD</file>
 		<file size="978" time="1989-04-11 11:48:30" attr="0x20">TTYWHEEL.PRD</file>
 	</disk>
-	<disk id="disk10" size="368640" chs="40:2:9" img="archive/WORD50-PRINTERS2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PRINTERS2.json" md5="498f1b8759fea7277168c73e4bfcb2eb" md5json="aaeaef1bc71a4b33cfcedc2c00691ffb">
+	<disk id="disk10" size="368640" chs="40:2:9" img="archive/WORD50-PRINTERS2.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-PRINTERS2.json" md5="498f1b8759fea7277168c73e4bfcb2eb" md5json="aaeaef1bc71a4b33cfcedc2c00691ffb">
 		<name>MS Word 5.0 (Printers 2)</name>
 		<file size="1565" time="1989-04-12 16:14:56" attr="0x20">HPDWNACP.DAT</file>
 		<file size="12017" time="1989-04-12 16:14:56" attr="0x20">HPDWNACP.PRD</file>
@@ -272,7 +272,7 @@
 		<file size="2728" time="1989-04-12 16:15:06" attr="0x20">PAGERMN.PRD</file>
 		<file size="4120" time="1989-04-12 16:15:06" attr="0x20">PAGESNRN.PRD</file>
 	</disk>
-	<disk id="disk11" size="368640" chs="40:2:9" img="archive/WORD50-LEARNKBD.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-LEARNKBD.json" md5="01e00557ffc3f97cb423c4e89ccd4922" md5json="6fc69b519187462a5c4fc6ccad49d5cd">
+	<disk id="disk11" size="368640" chs="40:2:9" img="archive/WORD50-LEARNKBD.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-LEARNKBD.json" md5="01e00557ffc3f97cb423c4e89ccd4922" md5json="6fc69b519187462a5c4fc6ccad49d5cd">
 		<name>MS Word 5.0 (Learning Kbd)</name>
 		<file size="129959" time="1989-04-21 18:02:40" attr="0x20">KEYONE.CTX</file>
 		<file size="38020" time="1989-04-21 18:02:40" attr="0x20">KEYONE.SCN</file>
@@ -280,7 +280,7 @@
 		<file size="108306" time="1989-04-21 18:02:40" attr="0x20">LEARN.EXE</file>
 		<file size="369" time="1989-04-21 18:02:40" attr="0x20">LEARN.PIF</file>
 	</disk>
-	<disk id="disk12" size="368640" chs="40:2:9" img="archive/WORD50-LEARNMOU.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-LEARNMOU.json" md5="14c24dab241a2bca147b5b09abe8440e" md5json="e632eadd8083cfabdd943633d09e17ff">
+	<disk id="disk12" size="368640" chs="40:2:9" img="archive/WORD50-LEARNMOU.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-LEARNMOU.json" md5="14c24dab241a2bca147b5b09abe8440e" md5json="e632eadd8083cfabdd943633d09e17ff">
 		<name>MS Word 5.0 (Learning Mouse)</name>
 		<file size="108306" time="1989-04-21 18:07:44" attr="0x20">LEARN.EXE</file>
 		<file size="369" time="1989-04-21 18:07:44" attr="0x20">LEARN.PIF</file>
@@ -288,7 +288,7 @@
 		<file size="39586" time="1989-04-21 18:07:44" attr="0x20">MOUSEONE.SCN</file>
 		<file size="38848" time="1989-04-21 18:07:46" attr="0x20">MOUSEONE.SOB</file>
 	</disk>
-	<disk id="disk13" size="368640" chs="40:2:9" img="archive/WORD50-LEARNADV.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-LEARNADV.json" md5="7741d1208b27773f9850ea152d0a6e77" md5json="a173f43b66050182c71395a0436ddf28">
+	<disk id="disk13" size="368640" chs="40:2:9" img="archive/WORD50-LEARNADV.img" href="/pcjs-disks/pcx86/apps/microsoft/word/5.0/WORD50-LEARNADV.json" md5="7741d1208b27773f9850ea152d0a6e77" md5json="a173f43b66050182c71395a0436ddf28">
 		<name>MS Word 5.0 (Learning Adv)</name>
 		<file size="102322" time="1989-04-21 18:09:26" attr="0x20">KEYTWO.CTX</file>
 		<file size="36776" time="1989-04-21 18:09:26" attr="0x20">KEYTWO.SCN</file>

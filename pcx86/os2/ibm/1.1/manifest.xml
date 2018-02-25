@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM OS/2 1.1</title>
-	<disk id="disk00" size="1474560" chs="80:2:18" img="archive/OS211-INSTALL.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/ibm/1.1/OS211-INSTALL.json" md5="c8a3ca490384bcd633ddf076adcc236a" md5json="ea26c8054ac25f42043fd1bb5b644463">
+	<disk id="disk00" size="1474560" chs="80:2:18" img="archive/OS211-INSTALL.img" href="/pcjs-disks/pcx86/os2/ibm/1.1/OS211-INSTALL.json" md5="c8a3ca490384bcd633ddf076adcc236a" md5json="ea26c8054ac25f42043fd1bb5b644463">
 		<name>IBM OS/2 1.1 (1.44M Install)</name>
 		<file size="96" time="1988-10-26 12:00:00" attr="0x20">ABIOS.SYS</file>
 		<file size="3616" time="1988-10-26 12:00:00" attr="0x20">ANSICALL.DLL</file>
@@ -68,7 +68,7 @@
 		<file size="8578" time="1988-10-26 12:00:00" attr="0x20">SYSLABL.EXE</file>
 		<file size="14441" time="1988-10-26 12:00:00" attr="0x20">VIOCALLS.DLL</file>
 	</disk>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/OS211-DISK01.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK01.json" md5="fa1c1ca8010dad8cdc4b59b0f8b0b400" md5json="bf6065313a630eca7e0c16d9fbe5236d">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/OS211-DISK01.img" href="/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK01.json" md5="fa1c1ca8010dad8cdc4b59b0f8b0b400" md5json="bf6065313a630eca7e0c16d9fbe5236d">
 		<name>IBM OS/2 1.1 (1.44M Disk 1)</name>
 		<file size="1846" time="1988-10-26 12:00:00" attr="0x20">ANSI.SY@</file>
 		<file size="1672" time="1988-10-26 12:00:00" attr="0x20">ASSIGN.CO@</file>
@@ -111,7 +111,7 @@
 		<file size="33696" time="1988-10-26 12:00:00" attr="0x20">UNPACK.EXE</file>
 		<file size="2248" time="1988-10-26 12:00:00" attr="0x20">VDISK.SY@</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/OS211-DISK02.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK02.json" md5="862e43f3d79944bd2e372e97b402ac39" md5json="8c76c1bdff7f1d456e09a374e0394fef">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/OS211-DISK02.img" href="/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK02.json" md5="862e43f3d79944bd2e372e97b402ac39" md5json="8c76c1bdff7f1d456e09a374e0394fef">
 		<name>IBM OS/2 1.1 (1.44M Disk 2)</name>
 		<file size="8054" time="1988-10-26 12:00:00" attr="0x20">4201.DC@</file>
 		<file size="329" time="1988-10-26 12:00:00" attr="0x20">5202.DC@</file>
@@ -150,7 +150,7 @@
 		<file size="17780" time="1988-10-26 12:00:00" attr="0x20">VIOTBL.DC@</file>
 		<file size="34555" time="1988-10-26 12:00:00" attr="0x20">XCOPY.EX@</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/OS211-DISK03.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK03.json" md5="afab432d8aa7d39b114046633bd2b870" md5json="a5d6420e45f59b961260a76b82a67e0b">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/OS211-DISK03.img" href="/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK03.json" md5="afab432d8aa7d39b114046633bd2b870" md5json="a5d6420e45f59b961260a76b82a67e0b">
 		<name>IBM OS/2 1.1 (1.44M Disk 3)</name>
 		<file size="162745" time="1988-10-26 12:00:00" attr="0x20">COURIER.FO@</file>
 		<file size="170" time="1988-10-26 12:00:00" attr="0x10">INTRO</file>
@@ -180,7 +180,7 @@
 		<file size="7339" time="1988-10-26 12:00:00" attr="0x20">SPOOLCP.DL@</file>
 		<file size="4042" time="1988-10-26 12:00:00" attr="0x20">VIOHELP.EX@</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/OS211-DISK04.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK04.json" md5="ec155a50e17e594d8654cfd62aab14be" md5json="76aa66da39140d893e5fe170e87b7285">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/OS211-DISK04.img" href="/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DISK04.json" md5="ec155a50e17e594d8654cfd62aab14be" md5json="76aa66da39140d893e5fe170e87b7285">
 		<name>IBM OS/2 1.1 (1.44M Disk 4)</name>
 		<file size="229211" time="1988-10-26 12:00:00" attr="0x20">HELV.FO@</file>
 		<file size="56870" time="1988-10-26 12:00:00" attr="0x20">IBM4201.DR@</file>
@@ -212,14 +212,14 @@
 		<file size="273910" time="1988-10-26 12:00:00" attr="0x20">TIMES.FO@</file>
 		<file size="13624" time="1988-10-26 12:00:00" attr="0x20">TRSEL.EX@</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/OS211-DEVICES.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DEVICES.json" md5="6364b2d71a6653933e5aa3e97e9e62e2" md5json="023cc2d48e7740c96659a1eed67118a7">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/OS211-DEVICES.img" href="/pcjs-disks/pcx86/os2/ibm/1.1/OS211-DEVICES.json" md5="6364b2d71a6653933e5aa3e97e9e62e2" md5json="023cc2d48e7740c96659a1eed67118a7">
 		<name>IBM OS/2 1.1 (1.44M Devices)</name>
 		<file size="120320" time="1989-02-11 11:00:00" attr="0x20">IBMCGA.DLL</file>
 		<file size="89584" time="1989-02-11 11:00:00" attr="0x20">PLOTTERS.DRV</file>
 		<file size="3491" time="1989-02-11 11:00:00" attr="0x20">README.CGA</file>
 		<file size="14243" time="1989-02-11 11:00:00" attr="0x20">README.DD</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/OS211-PRINTERS.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/os2/ibm/1.1/OS211-PRINTERS.json" md5="4a4e84c569dfdbe5db4c4962bfc35736" md5json="124677757864d827d29013b9f8608135">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/OS211-PRINTERS.img" href="/pcjs-disks/pcx86/os2/ibm/1.1/OS211-PRINTERS.json" md5="4a4e84c569dfdbe5db4c4962bfc35736" md5json="124677757864d827d29013b9f8608135">
 		<name>IBM OS/2 1.1 (1.44M Printers)</name>
 		<file size="533" time="1989-02-11 11:00:00" attr="0x20">4208.DCP</file>
 		<file size="84480" time="1989-02-11 11:00:00" attr="0x20">IBM3852.DRV</file>

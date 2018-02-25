@@ -8,7 +8,7 @@
 	<language>C</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/Setup Disk (048-014-124).img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK1-SETUP.json" md5="def05b25b884967512e26d53bddc1494" md5json="cf255ed843a91119875b6f637888cba3">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/Setup Disk (048-014-124).img" href="/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK1-SETUP.json" md5="def05b25b884967512e26d53bddc1494" md5json="cf255ed843a91119875b6f637888cba3">
 		<name>MS C 5.00 (SETUP)</name>
 		<file size="109957" time="1987-10-15 05:00:00" attr="0x20">C1.EXE</file>
 		<file size="2159" time="1987-10-15 05:00:00" attr="0x20">CL.ERR</file>
@@ -25,7 +25,7 @@
 		<file size="28035" time="1987-10-15 05:00:00" attr="0x20">SETUP.EXE</file>
 		<file size="803" time="1987-10-15 05:00:00" attr="0x20">SETUP.HLP</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/Compiler Disk (048-014-116).img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK2-COMPILER.json" md5="06a5d57e3cde70862e1ad4ba4b3dcbb6" md5json="77550747f8111bc0805be4e475e847d0">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/Compiler Disk (048-014-116).img" href="/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK2-COMPILER.json" md5="06a5d57e3cde70862e1ad4ba4b3dcbb6" md5json="77550747f8111bc0805be4e475e847d0">
 		<name>MS C 5.00 (COMPILER)</name>
 		<file size="13577" time="1987-10-15 05:00:00" attr="0x20">C1.ERR</file>
 		<file size="199431" time="1987-10-15 05:00:00" attr="0x20">C2.EXE</file>
@@ -38,7 +38,7 @@
 		<file size="94" time="1987-10-15 05:00:00" attr="0x20" dir="PATCH/">STKPAT.BAT</file>
 		<file size="30" time="1987-10-15 05:00:00" attr="0x20" dir="PATCH/">STKPAT.SCR</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/Utilities Disk (048-014-117).img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK3-UTILITY1.json" md5="70757ea0eaa110eb6080d6fabef49577" md5json="5a96ded10e4618eefcc9e5cb7faa7be0">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/Utilities Disk (048-014-117).img" href="/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK3-UTILITY1.json" md5="70757ea0eaa110eb6080d6fabef49577" md5json="5a96ded10e4618eefcc9e5cb7faa7be0">
 		<name>MS C 5.00 (UTILITY1)</name>
 		<file size="10369" time="1987-10-15 05:00:00" attr="0x20">ERROUT.EXE</file>
 		<file size="11749" time="1987-10-15 05:00:00" attr="0x20">EXEMOD.EXE</file>
@@ -86,7 +86,7 @@
 		<file size="3692" time="1987-10-15 05:00:00" attr="0x20" dir="STARTUP/">STDENVP.ASM</file>
 		<file size="7182" time="1987-10-15 05:00:00" attr="0x20" dir="STARTUP/">WILD.C</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/Additional Utilities Disk (01287).img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK4-UTILITY2.json" md5="f1498d5a4061863ada8d3c4124bb7ad4" md5json="ca799a1e5be02a0440e0e1cbaba901c9">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/Additional Utilities Disk (01287).img" href="/pcjs-disks/pcx86/tools/microsoft/c/5.00/MSC500-DISK4-UTILITY2.json" md5="f1498d5a4061863ada8d3c4124bb7ad4" md5json="ca799a1e5be02a0440e0e1cbaba901c9">
 		<name>MS C 5.00 (UTILITY2)</name>
 		<file size="140667" time="1987-10-15 05:00:00" attr="0x20">C1L.EXE</file>
 		<file size="38241" time="1987-10-15 05:00:00" attr="0x20">CVPACK.EXE</file>

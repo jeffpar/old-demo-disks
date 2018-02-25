@@ -9,7 +9,7 @@
 	<releaseDate>1981</releaseDate>
 	<author>Gordon Letwin</author>
 	<machine href="/disks/pcx86/games/microsoft/adventure/machine.xml"/>
-	<disk id="disk01" href="https://jeffpar.github.io/pcjs-disks/pcx86/games/microsoft/adventure/ADVENTURE-1981.json" md5="88eed6b1cb7bafa1ab957fa9c6fc7105" md5json="c0b400918a442cd3a11315092a144c15">
+	<disk id="disk01" href="/pcjs-disks/pcx86/games/microsoft/adventure/ADVENTURE-1981.json" md5="88eed6b1cb7bafa1ab957fa9c6fc7105" md5json="c0b400918a442cd3a11315092a144c15">
 		<name>Microsoft Adventure</name>
 	</disk>
 </manifest>

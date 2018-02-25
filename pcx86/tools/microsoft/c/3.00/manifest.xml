@@ -7,7 +7,7 @@
 	<category>Compiler</category>
 	<language>C</language>
 	<author>Microsoft</author>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSC300-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/c/3.00/MSC300-DISK1.json" md5="bb018ee7eaf8a79c5bd792eccb4f0115" md5json="7e46b10a03198268aa9050990b583df3">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSC300-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/c/3.00/MSC300-DISK1.json" md5="bb018ee7eaf8a79c5bd792eccb4f0115" md5json="7e46b10a03198268aa9050990b583df3">
 		<name>MS C 3.00 (Disk 1)</name>
 		<file size="27044" time="1985-02-18 12:16:28" attr="0x20">CL.EXE</file>
 		<file size="27100" time="1985-02-18 12:16:52" attr="0x20">MSC.EXE</file>
@@ -17,7 +17,7 @@
 		<file size="69412" time="1985-02-14 16:37:12" attr="0x20">P3.EXE</file>
 		<file size="13183" time="1985-02-15 17:41:18" attr="0x20">README.DOC</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSC300-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/c/3.00/MSC300-DISK2.json" md5="45f64425fec26b2e29943641a5160b5d" md5json="322b671df95b85816f09dc4834f871ee">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSC300-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/c/3.00/MSC300-DISK2.json" md5="45f64425fec26b2e29943641a5160b5d" md5json="322b671df95b85816f09dc4834f871ee">
 		<name>MS C 3.00 (Disk 2)</name>
 		<file size="419" time="1984-12-29 10:07:40" attr="0x20">DEMO.C</file>
 		<file size="816" time="2010-02-21 15:25:56" attr="0x10">INCLUDE</file>
@@ -65,7 +65,7 @@
 		<file size="474" time="1985-02-21 13:59:48" attr="0x20" dir="LIB/">SVARSTCK.OBJ</file>
 		<file size="838" time="1984-12-16 13:14:00" attr="0x20">SIEVE.C</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSC300-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/c/3.00/MSC300-DISK3.json" md5="94d4844927c8a60fb8b603e2f991bff7" md5json="26db82ac4bbffe09260d667e08b4630d">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSC300-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/c/3.00/MSC300-DISK3.json" md5="94d4844927c8a60fb8b603e2f991bff7" md5json="26db82ac4bbffe09260d667e08b4630d">
 		<name>MS C 3.00 (Disk 3)</name>
 		<file size="11160" time="1985-02-05 15:12:42" attr="0x20">EXEMOD.EXE</file>
 		<file size="8400" time="1985-02-14 14:15:34" attr="0x20">EXEPACK.EXE</file>

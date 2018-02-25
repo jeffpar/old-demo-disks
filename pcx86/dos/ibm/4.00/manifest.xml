@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK1.json" md5="5b57cb48f46e3d0aa76b286ec40cf2ad" md5json="df4f6901222c6bc71c15b16017474f4e">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK1.json" md5="5b57cb48f46e3d0aa76b286ec40cf2ad" md5json="df4f6901222c6bc71c15b16017474f4e">
 		<name>PC-DOS 4.00 (Disk 1)</name>
 		<file size="109" time="1988-06-17 12:00:00" attr="0x20">012345.678</file>
 		<file size="39" time="1988-06-17 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
@@ -29,7 +29,7 @@
 		<file size="1594" time="1988-08-03 12:00:00" attr="0x20">SELECT.PRT</file>
 		<file size="11472" time="1988-06-17 12:00:00" attr="0x20">SYS.COM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK2.json" md5="91403cee04802a0b28ccfd3e22511c72" md5json="2b49f75fda1409a7d2856be05cba71da">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK2.json" md5="91403cee04802a0b28ccfd3e22511c72" md5json="2b49f75fda1409a7d2856be05cba71da">
 		<name>PC-DOS 4.00 (Disk 2)</name>
 		<file size="5785" time="1988-06-17 12:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="18247" time="1988-06-17 12:00:00" attr="0x20">ATTRIB.EXE</file>
@@ -56,7 +56,7 @@
 		<file size="6334" time="1988-06-17 12:00:00" attr="0x20">TREE.COM</file>
 		<file size="17087" time="1988-06-17 12:00:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK3.json" md5="ce397160ca9338aee2468ca19dbf0cec" md5json="d6d5cd469ee2e09ed9d4f14c8ebf66f8">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK3.img" href="/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK3.json" md5="ce397160ca9338aee2468ca19dbf0cec" md5json="d6d5cd469ee2e09ed9d4f14c8ebf66f8">
 		<name>PC-DOS 4.00 (Disk 3)</name>
 		<file size="109" time="1988-06-17 12:00:00" attr="0x20">012345.678</file>
 		<file size="17771" time="1988-06-17 12:00:00" attr="0x20">CHKDSK.COM</file>
@@ -74,7 +74,7 @@
 		<file size="3937" time="1988-08-03 12:00:00" attr="0x20">SHELLB.COM</file>
 		<file size="154377" time="1988-08-03 12:00:00" attr="0x20">SHELLC.EXE</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK4.json" md5="3e4a24bc28238076a3463e1565a20fb5" md5json="48f7fd02b9766f4371a370c53654c3e5">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK4.img" href="/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK4.json" md5="3e4a24bc28238076a3463e1565a20fb5" md5json="48f7fd02b9766f4371a370c53654c3e5">
 		<name>PC-DOS 4.00 (Disk 4)</name>
 		<file size="6404" time="1988-06-17 12:00:00" attr="0x20">4201.CPI</file>
 		<file size="641" time="1988-06-17 12:00:00" attr="0x20">4208.CPI</file>
@@ -100,7 +100,7 @@
 		<file size="10732" time="1988-06-17 12:00:00" attr="0x20">RECOVER.COM</file>
 		<file size="6376" time="1988-06-17 12:00:00" attr="0x20">VDISK.SYS</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK5.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK5.json" md5="950630f35cfc9296d859209290e30a9d" md5json="82b5e52fee161f5cee228a6783c45336">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK5.img" href="/pcjs-disks/pcx86/dos/ibm/4.00/PCDOS400-DISK5.json" md5="950630f35cfc9296d859209290e30a9d" md5json="82b5e52fee161f5cee228a6783c45336">
 		<name>PC-DOS 4.00 (Disk 5)</name>
 		<file size="33754" time="1988-06-17 12:00:00" attr="0x20">BACKUP.COM</file>
 		<file size="0" time="1988-06-17 12:00:00" attr="0x20">DOS04L.400</file>

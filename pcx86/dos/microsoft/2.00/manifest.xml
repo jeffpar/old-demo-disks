@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate>1983</releaseDate>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/bin/disk1" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-BIN-DISK1.json" md5="b482f28fc61fc86cb87c4cf744e91405" md5json="c9a7b659245453e1a79e13c36b18c265">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/bin/disk1" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-BIN-DISK1.json" md5="b482f28fc61fc86cb87c4cf744e91405" md5json="c9a7b659245453e1a79e13c36b18c265">
 		<name>MS-DOS 2.00 (Binary Disk 1)</name>
 		<file size="6784" time="1983-01-27 14:31:32" attr="0x20" md5="728592e7c08946994bfaf250d8f29024">ANSI.DOC</file>
 		<file size="6330" time="1983-02-01 08:16:44" attr="0x20" md5="bf14f40dd88f5eb8d43cc41e2797b2de">CHKDSK.COM</file>
@@ -33,7 +33,7 @@
 		<file size="4364" time="1983-01-14 17:42:42" attr="0x20" md5="a61a652eae194a8a073858e98b277a07">MORE.COM</file>
 		<file size="16690" time="1983-02-08 18:48:00" attr="0x20" md5="e67e33d4914a630e27dc72bf26874800">MSDOS.SYS</file>
 	</disk>
-	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/bin/disk2" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-BIN-DISK2.json" md5="143d7d9efeac031ef83ea2dab0666d1e" md5json="6af697dcbec7830f19ae1787ad96e668">
+	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/bin/disk2" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-BIN-DISK2.json" md5="143d7d9efeac031ef83ea2dab0666d1e" md5json="6af697dcbec7830f19ae1787ad96e668">
 		<name>MS-DOS 2.00 (Binary Disk 2)</name>
 		<file size="3808" time="1983-02-01 11:39:38" attr="0x20" md5="3a7ef0e177e9e72742f7476b8c2595f7">PRINT.COM</file>
 		<file size="2304" time="1982-10-28 17:32:50" attr="0x20" md5="e325a8ff2a04162981e4d3259a76d838">PROFIL.OBJ</file>
@@ -51,7 +51,7 @@
 		<file size="3328" time="1983-02-08 19:24:00" attr="0x20" md5="9922ac1db36ee55bbd3e89a8fd1dd7bc">SYSINIT.OBJ</file>
 		<file size="27776" time="1983-01-27 14:26:10" attr="0x20" md5="f40ca260478754977694d27cf9ef0542">UTILITY.DOC</file>
 	</disk>
-	<disk id="disk03" size="327680" chs="40:2:8" dir="archive/src/disk1" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK1.json" md5="3535f08c46ebef9aa2cb65317945fb21" md5json="25607fa3696af580ab77cf8fa825d2fb">
+	<disk id="disk03" size="327680" chs="40:2:8" dir="archive/src/disk1" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK1.json" md5="3535f08c46ebef9aa2cb65317945fb21" md5json="25607fa3696af580ab77cf8fa825d2fb">
 		<name>MS-DOS 2.00 (Source Disk 1)</name>
 		<file size="11648" time="1983-08-18 14:26:36" attr="0x20" md5="aa93fc4468525fe20d408178ee866a54">ALLOC.ASM</file>
 		<file size="6784" time="1983-01-27 14:31:32" attr="0x20" md5="728592e7c08946994bfaf250d8f29024">ANSI.TXT</file>
@@ -73,7 +73,7 @@
 		<file size="27008" time="1983-08-18 15:58:12" attr="0x20" md5="c02f9594f79156ebb131dbcd992b3b83">DEBCOM1.ASM</file>
 		<file size="37356" time="1983-10-20 10:28:10" attr="0x20" md5="56c93222a040a285b9560b26b6328cf9">DEBCOM2.ASM</file>
 	</disk>
-	<disk id="disk04" size="327680" chs="40:2:8" dir="archive/src/disk2" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK2.json" md5="6a17bed479e1ac310f41af6aff739f83" md5json="31f47720d96fab09d6e1ee4adc0db129">
+	<disk id="disk04" size="327680" chs="40:2:8" dir="archive/src/disk2" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK2.json" md5="6a17bed479e1ac310f41af6aff739f83" md5json="31f47720d96fab09d6e1ee4adc0db129">
 		<name>MS-DOS 2.00 (Source Disk 2)</name>
 		<file size="38912" time="1983-08-18 16:07:06" attr="0x20" md5="3e4097fab1f1604a7cca8d7cbf0950e4">DEBCONST.ASM</file>
 		<file size="2816" time="1983-08-18 16:07:40" attr="0x20" md5="df5a95339acf37ec8be8535a39debf50">DEBDATA.ASM</file>
@@ -96,7 +96,7 @@
 		<file size="357" time="1983-08-25 15:04:22" attr="0x20" md5="16414f4db42d34f72fc6e1bbe5c7dc90">DOSSEG.ASM</file>
 		<file size="44887" time="1983-08-25 15:05:44" attr="0x20" md5="57db46ac73e914d4183cbfd6f05162cb">DOSSYM.211</file>
 	</disk>
-	<disk id="disk05" size="327680" chs="40:2:8" dir="archive/src/disk3" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK3.json" md5="6bd8facf1ce6ab6836f3d473ab161a11" md5json="0b9db8936f765e7b707ca871c829fc91">
+	<disk id="disk05" size="327680" chs="40:2:8" dir="archive/src/disk3" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK3.json" md5="6bd8facf1ce6ab6836f3d473ab161a11" md5json="0b9db8936f765e7b707ca871c829fc91">
 		<name>MS-DOS 2.00 (Source Disk 3)</name>
 		<file size="42112" time="1980-01-01 00:00:02" attr="0x20" md5="348de7e8bbfdffba85a37723356d6910">DOSSYM.ASM</file>
 		<file size="56960" time="1980-01-01 01:08:10" attr="0x20" md5="2d58750913ef3803540403aa77e9b85d">EDLIN.ASM</file>
@@ -113,7 +113,7 @@
 		<file size="1408" time="1980-01-01 00:00:02" attr="0x20" md5="712412989b416655f23ca2b828a02a64">FINDMES.ASM</file>
 		<file size="16640" time="1983-02-03 14:37:24" attr="0x20" md5="a656432f2557ac61c44a139662b71cfc">FORMAT.TXT</file>
 	</disk>
-	<disk id="disk06" size="327680" chs="40:2:8" dir="archive/src/disk4" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK4.json" md5="d5799c5b95186a2a7afeeb941ea7005a" md5json="b1f991bdb121dd0a7a879dfc5218e9d8">
+	<disk id="disk06" size="327680" chs="40:2:8" dir="archive/src/disk4" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK4.json" md5="d5799c5b95186a2a7afeeb941ea7005a" md5json="b1f991bdb121dd0a7a879dfc5218e9d8">
 		<name>MS-DOS 2.00 (Source Disk 4)</name>
 		<file size="46720" time="1980-01-01 13:48:16" attr="0x20" md5="b33f1eaf97384542aa6d70e6cff415ce">FORMAT.ASM</file>
 		<file size="4529" time="1983-09-22 22:00:04" attr="0x20" md5="26fb9794c998443ae367b20af9ccfb08">FORMES.ASM</file>
@@ -136,7 +136,7 @@
 		<file size="48000" time="1980-01-01 01:42:56" attr="0x20" md5="27790f2c3ebb2f416879dd6278353856">PRINT.211</file>
 		<file size="48000" time="1983-02-01 11:37:30" attr="0x20" md5="e2c62cf89cf0de1b274537527eab608d">PRINT.ASM</file>
 	</disk>
-	<disk id="disk07" size="327680" chs="40:2:8" dir="archive/src/disk5" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK5.json" md5="261e5488df29d383619058eb6da0d0fe" md5json="0cd0af6fbb5525c85c3125c8cd5be74e">
+	<disk id="disk07" size="327680" chs="40:2:8" dir="archive/src/disk5" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK5.json" md5="261e5488df29d383619058eb6da0d0fe" md5json="0cd0af6fbb5525c85c3125c8cd5be74e">
 		<name>MS-DOS 2.00 (Source Disk 5)</name>
 		<file size="3222" time="1983-08-19 11:55:22" attr="0x20" md5="a9d2d472e6046150d5816688777640df">PROC.ASM</file>
 		<file size="21248" time="1982-10-28 17:31:38" attr="0x20" md5="c8d844d87742b591e6ebaedd47b581d0">PROFIL.ASM</file>
@@ -165,7 +165,7 @@
 		<file size="512" time="1980-01-01 00:00:02" attr="0x20" md5="0a7bfedb97df754ee69f0fc8cb985368">SYSIMES.ASM</file>
 		<file size="37644" time="1983-10-12 21:24:26" attr="0x20" md5="f1df1ed7b57a869563bb0aec8e340339">SYSINIT.ASM</file>
 	</disk>
-	<disk id="disk08" size="327680" chs="40:2:8" dir="archive/src/disk6" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK6.json" md5="86392cf4b6646942148e392cd2fb9dcd" md5json="90a2746c954885ddcb79dd73af729a14">
+	<disk id="disk08" size="327680" chs="40:2:8" dir="archive/src/disk6" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200-SRC-DISK6.json" md5="86392cf4b6646942148e392cd2fb9dcd" md5json="90a2746c954885ddcb79dd73af729a14">
 		<name>MS-DOS 2.00 (Source Disk 6)</name>
 		<file size="22784" time="1983-09-22 21:29:40" attr="0x20" md5="bd77096c6a916fda2eca73297e76bf78">SYS.ASM</file>
 		<file size="3072" time="1983-01-27 14:40:24" attr="0x20" md5="1a07aefe5ec1c4a33c1c32be74e1e648">SYSINIT.TXT</file>

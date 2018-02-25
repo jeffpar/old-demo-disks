@@ -7,7 +7,7 @@
 	<category>Database</category>
 	<author>Ashton-Tate</author>
 	<releaseDate>1983</releaseDate>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/DBII.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-PROG.json" md5="0d9bf4e016a85c5eef27a14a9f58a53d" md5json="3f2213968ec0f4b08b393fe6dbca16bc">
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/DBII.img" href="/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-PROG.json" md5="0d9bf4e016a85c5eef27a14a9f58a53d" md5json="3f2213968ec0f4b08b393fe6dbca16bc">
 		<name>dBASE II 2.4 (PROGRAM)</name>
 		<file size="32256" time="1980-01-01 01:38:58" attr="0x20">DBASE.COM</file>
 		<file size="51968" time="1980-01-01 00:45:10" attr="0x20">DBASEMSG.TXT</file>
@@ -15,7 +15,7 @@
 		<file size="10496" time="1980-01-01 00:00:02" attr="0x20">INSTALL.COM</file>
 		<file size="8960" time="1980-01-01 00:00:02" attr="0x20">STARTUP.PRG</file>
 	</disk>
-	<disk id="disk02" size="163840" chs="40:1:8" img="archive/DBIIDEMO.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-DEMO.json" md5="4abea66c09cfc2baf29b48aec4a3be98" md5json="60dfe7697d7324be897b6317fccf6eed">
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/DBIIDEMO.img" href="/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-DEMO.json" md5="4abea66c09cfc2baf29b48aec4a3be98" md5json="60dfe7697d7324be897b6317fccf6eed">
 		<name>dBASE II 2.4 (DEMO)</name>
 		<file size="32256" time="1980-01-01 01:51:02" attr="0x20">DBASE.COM</file>
 		<file size="51968" time="1980-01-01 00:45:10" attr="0x20">DBASEMSG.TXT</file>
@@ -24,7 +24,7 @@
 		<file size="10496" time="1980-01-01 00:00:02" attr="0x20">INSTALL.COM</file>
 		<file size="8960" time="1980-01-01 00:00:02" attr="0x20">STARTUP.PRG</file>
 	</disk>
-	<disk id="disk03" size="163840" chs="40:1:8" img="archive/DBIIODT1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-ODT1.json" md5="cb99c73f7acd37ca2cdbbfdbb5d3c385" md5json="363b9237ceea7f94af170e2165ef1339">
+	<disk id="disk03" size="163840" chs="40:1:8" img="archive/DBIIODT1.img" href="/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-ODT1.json" md5="cb99c73f7acd37ca2cdbbfdbb5d3c385" md5json="363b9237ceea7f94af170e2165ef1339">
 		<name>dBASE II 2.4 (TUTORIAL1)</name>
 		<file size="2560" time="1980-01-01 01:48:52" attr="0x20">CHECKC.PRG</file>
 		<file size="2048" time="1980-01-01 01:50:40" attr="0x20">CHECKC1.PRG</file>
@@ -41,7 +41,7 @@
 		<file size="8192" time="1980-01-01 01:09:18" attr="0x20">TEACHI.PRG</file>
 		<file size="1024" time="1980-01-01 01:51:46" attr="0x20">TEACHXC.PRG</file>
 	</disk>
-	<disk id="disk04" size="163840" chs="40:1:8" img="archive/DBIIODT2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-ODT2.json" md5="7e2e0959449320b64dfd15faad23fd83" md5json="18a50b11e3a5df3e67e22806253ea4af">
+	<disk id="disk04" size="163840" chs="40:1:8" img="archive/DBIIODT2.img" href="/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-ODT2.json" md5="7e2e0959449320b64dfd15faad23fd83" md5json="18a50b11e3a5df3e67e22806253ea4af">
 		<name>dBASE II 2.4 (TUTORIAL2)</name>
 		<file size="2560" time="1980-01-01 01:48:52" attr="0x20">CHECKC.PRG</file>
 		<file size="2048" time="1980-01-01 01:50:40" attr="0x20">CHECKC1.PRG</file>
@@ -97,7 +97,7 @@
 		<file size="1536" time="1980-01-01 01:55:50" attr="0x20">TUTNABK.DBF</file>
 		<file size="2048" time="1980-01-01 01:48:42" attr="0x20">WHITEHSE.PRG</file>
 	</disk>
-	<disk id="disk05" size="163840" chs="40:1:8" img="archive/DBIIODT3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-ODT3.json" md5="55f2b8c9b650bdc5f9ade047e14eaf33" md5json="42c3e00cc45fb2ede1976ddc6de66eb5">
+	<disk id="disk05" size="163840" chs="40:1:8" img="archive/DBIIODT3.img" href="/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-ODT3.json" md5="55f2b8c9b650bdc5f9ade047e14eaf33" md5json="42c3e00cc45fb2ede1976ddc6de66eb5">
 		<name>dBASE II 2.4 (TUTORIAL3)</name>
 		<file size="2560" time="1980-01-01 01:48:52" attr="0x20">CHECKC.PRG</file>
 		<file size="2048" time="1980-01-01 01:50:40" attr="0x20">CHECKC1.PRG</file>
@@ -115,7 +115,7 @@
 		<file size="7680" time="1983-08-07 03:03:00" attr="0x20">TEACH9.PRG</file>
 		<file size="1536" time="1980-01-01 01:51:38" attr="0x20">TEACHC.PRG</file>
 	</disk>
-	<disk id="disk06" size="163840" chs="40:1:8" img="archive/DBIISAMP.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-SAMP.json" md5="bfe79dad669fffcb39b35a8cc7b5ffda" md5json="0e9eb13c06dfd3b0c4d2278c3130d3e3">
+	<disk id="disk06" size="163840" chs="40:1:8" img="archive/DBIISAMP.img" href="/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-SAMP.json" md5="bfe79dad669fffcb39b35a8cc7b5ffda" md5json="0e9eb13c06dfd3b0c4d2278c3130d3e3">
 		<name>dBASE II 2.4 (SAMPLES)</name>
 		<file size="896" time="1980-01-01 00:00:02" attr="0x20">APPECARD.FMT</file>
 		<file size="1024" time="1980-01-01 00:00:02" attr="0x20">CHECKS.DBF</file>
@@ -164,7 +164,7 @@
 		<file size="256" time="1980-01-01 00:00:02" attr="0x20">TICKLE.FRM</file>
 		<file size="1024" time="1980-01-01 00:00:02" attr="0x20">TICKLE.NDX</file>
 	</disk>
-	<disk id="disk07" size="163840" chs="40:1:8" img="archive/DBIISCED.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-SCED.json" md5="23ad92507319a021d3a09791819bf94e" md5json="89c3c21ceb34be358711e56f92de83f4">
+	<disk id="disk07" size="163840" chs="40:1:8" img="archive/DBIISCED.img" href="/pcjs-disks/pcx86/apps/other/dbase2/2.4/DBII-240-SCED.json" md5="23ad92507319a021d3a09791819bf94e" md5json="89c3c21ceb34be358711e56f92de83f4">
 		<name>dBASE II 2.4 (EDITOR)</name>
 		<file size="2560" time="1980-01-01 00:10:28" attr="0x20">READ.ME</file>
 		<file size="34310" time="1980-01-01 00:34:58" attr="0x20">SED.EXE</file>

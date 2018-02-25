@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK1.json" md5="b44b2b5bd39c010ccdf285b8a386b780" md5json="fcd15177c052c5d1aa957cb2627314b8">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK1.json" md5="b44b2b5bd39c010ccdf285b8a386b780" md5json="fcd15177c052c5d1aa957cb2627314b8">
 		<name>MS-DOS 6.00 (1.2M Disk 1)</name>
 		<file size="6260" time="1993-03-10 05:00:00" attr="0x20">ANSI.SY_</file>
 		<file size="11165" time="1993-03-10 05:00:00" attr="0x20">ATTRIB.EXE</file>
@@ -40,7 +40,7 @@
 		<file size="9379" time="1993-03-10 05:00:00" attr="0x20">SYS.COM</file>
 		<file size="12738" time="1993-03-10 05:00:00" attr="0x20">UNFORMAT.COM</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK2.json" md5="e8439edee49aaf8226e10ec18d85ac5d" md5json="4dd5681705ae8156bfa0fbe3f6179030">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK2.json" md5="e8439edee49aaf8226e10ec18d85ac5d" md5json="4dd5681705ae8156bfa0fbe3f6179030">
 		<name>MS-DOS 6.00 (1.2M Disk 2)</name>
 		<file size="6421" time="1993-03-10 05:00:00" attr="0x20">8514.VI_</file>
 		<file size="7462" time="1993-03-10 05:00:00" attr="0x20">APPEND.EX_</file>
@@ -104,7 +104,7 @@
 		<file size="2661" time="1993-03-10 05:00:00" attr="0x20">WINA20.38_</file>
 		<file size="10368" time="1993-03-10 05:00:00" attr="0x20">XCOPY.EX_</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK3.json" md5="4c94f5d5d70bf97d3f5a990be886a8e6" md5json="9f09f95142038f26c7261bf1b756a40d">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK3.img" href="/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK3.json" md5="4c94f5d5d70bf97d3f5a990be886a8e6" md5json="9f09f95142038f26c7261bf1b756a40d">
 		<name>MS-DOS 6.00 (1.2M Disk 3)</name>
 		<file size="16770" time="1993-03-10 05:00:00" attr="0x20">CHKSTATE.SY_</file>
 		<file size="5980" time="1993-03-10 05:00:00" attr="0x20">MEMMAKER.HL_</file>
@@ -129,7 +129,7 @@
 		<file size="1289" time="1993-03-10 05:00:00" attr="0x20">VFINTD.38_</file>
 		<file size="1071" time="1993-03-10 05:00:00" attr="0x20">WNTOOLS.GR_</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK4.json" md5="dd15ecc200ecdaefb3100c192ce6fc8d" md5json="4cdbc8f4ad39f0d2fbb93cb86de4f999">
+	<disk id="disk04" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS600-DISK4.img" href="/pcjs-disks/pcx86/dos/microsoft/6.00/1200K/MSDOS600-DISK4.json" md5="dd15ecc200ecdaefb3100c192ce6fc8d" md5json="4cdbc8f4ad39f0d2fbb93cb86de4f999">
 		<name>MS-DOS 6.00 (1.2M Disk 4)</name>
 		<file size="3266" time="1993-03-10 05:00:00" attr="0x20">COUNTRY.IC_</file>
 		<file size="170947" time="1993-03-10 05:00:00" attr="0x20">DBLSPACE.EX_</file>
@@ -164,7 +164,7 @@
 		<file size="4136" time="1993-03-10 05:00:00" attr="0x20">SIZER.EX_</file>
 		<file size="33046" time="1993-03-10 05:00:00" attr="0x20">VSAFE.CO_</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS600-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.00/1440K/MSDOS600-DISK1.json" md5="eb5f72866ddfc8a185bed326a6137208" md5json="f4f87a2da47ed4ba67539a9a3c65a149">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS600-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/6.00/1440K/MSDOS600-DISK1.json" md5="eb5f72866ddfc8a185bed326a6137208" md5json="f4f87a2da47ed4ba67539a9a3c65a149">
 		<name>MS-DOS 6.00 (1.44M Disk 1)</name>
 		<file size="6421" time="1993-03-10 05:00:00" attr="0x20">8514.VI_</file>
 		<file size="6260" time="1993-03-10 05:00:00" attr="0x20">ANSI.SY_</file>
@@ -226,7 +226,7 @@
 		<file size="2661" time="1993-03-10 05:00:00" attr="0x20">WINA20.38_</file>
 		<file size="10368" time="1993-03-10 05:00:00" attr="0x20">XCOPY.EX_</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS600-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.00/1440K/MSDOS600-DISK2.json" md5="15d20f5393c77d8eb9e963729d84e75e" md5json="14443fc611211a2bc6269ae8b154b0c3">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS600-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/6.00/1440K/MSDOS600-DISK2.json" md5="15d20f5393c77d8eb9e963729d84e75e" md5json="14443fc611211a2bc6269ae8b154b0c3">
 		<name>MS-DOS 6.00 (1.44M Disk 2)</name>
 		<file size="7462" time="1993-03-10 05:00:00" attr="0x20">APPEND.EX_</file>
 		<file size="3266" time="1993-03-10 05:00:00" attr="0x20">COUNTRY.IC_</file>
@@ -273,7 +273,7 @@
 		<file size="4753" time="1993-03-10 05:00:00" attr="0x20">TREE.CO_</file>
 		<file size="1289" time="1993-03-10 05:00:00" attr="0x20">VFINTD.38_</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS600-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.00/1440K/MSDOS600-DISK3.json" md5="cb2d8bedfa3fec79d4231d054ef7b5b6" md5json="38dde59ad2a718e1bdad276f37ce1fff">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS600-DISK3.img" href="/pcjs-disks/pcx86/dos/microsoft/6.00/1440K/MSDOS600-DISK3.json" md5="cb2d8bedfa3fec79d4231d054ef7b5b6" md5json="38dde59ad2a718e1bdad276f37ce1fff">
 		<name>MS-DOS 6.00 (1.44M Disk 3)</name>
 		<file size="16770" time="1993-03-10 05:00:00" attr="0x20">CHKSTATE.SY_</file>
 		<file size="170947" time="1993-03-10 05:00:00" attr="0x20">DBLSPACE.EX_</file>

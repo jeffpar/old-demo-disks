@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-BOOT.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-BOOT.json" md5="eb73b32a4b9ec4cea00ba5fd086337da" md5json="1e1c19f991ba124efcc8d15f02e8b92c">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-BOOT.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-BOOT.json" md5="eb73b32a4b9ec4cea00ba5fd086337da" md5json="1e1c19f991ba124efcc8d15f02e8b92c">
 		<name>MS-DOS 6.22 (1.2M Boot)</name>
 		<file size="9065" time="1994-05-31 06:22:00" attr="0x20">ANSI.SYS</file>
 		<file size="10774" time="1994-05-31 06:22:00" attr="0x20">APPEND.EXE</file>
@@ -69,7 +69,7 @@
 		<file size="6945" time="1994-05-31 06:22:00" attr="0x20">TREE.COM</file>
 		<file size="16930" time="1994-05-31 06:22:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK1.json" md5="b73564ee83bdb1d82a6ed96ab26f5fdb" md5json="7b68d8f7d90253f4752bf60465e8044b">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK1.json" md5="b73564ee83bdb1d82a6ed96ab26f5fdb" md5json="7b68d8f7d90253f4752bf60465e8044b">
 		<name>MS-DOS 6.22 (1.2M Disk 1)</name>
 		<file size="11208" time="1994-05-31 06:22:00" attr="0x20">ATTRIB.EXE</file>
 		<file size="37" time="1994-05-31 06:22:00" attr="0x20">AUTOEXEC.BAT</file>
@@ -104,7 +104,7 @@
 		<file size="9432" time="1994-05-31 06:22:00" attr="0x20">SYS.COM</file>
 		<file size="11093" time="1994-05-31 06:22:00" attr="0x20">XCOPY.EX_</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK2.json" md5="98493b60fae7701440e6ab36824b8e7c" md5json="6820c9b470aaa194cd3ff19719e210d4">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK2.json" md5="98493b60fae7701440e6ab36824b8e7c" md5json="6820c9b470aaa194cd3ff19719e210d4">
 		<name>MS-DOS 6.22 (1.2M Disk 2)</name>
 		<file size="6261" time="1994-05-31 06:22:00" attr="0x20">ANSI.SY_</file>
 		<file size="7467" time="1994-05-31 06:22:00" attr="0x20">APPEND.EX_</file>
@@ -134,7 +134,7 @@
 		<file size="165864" time="1994-05-31 06:22:00" attr="0x20">MSD.EXE</file>
 		<file size="1289" time="1994-05-31 06:22:00" attr="0x20">VFINTD.38_</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK3.json" md5="182252ef03a3703f69237404508e5f35" md5json="ff91319282c59d3f0cb1201530140e0f">
+	<disk id="disk04" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK3.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK3.json" md5="182252ef03a3703f69237404508e5f35" md5json="ff91319282c59d3f0cb1201530140e0f">
 		<name>MS-DOS 6.22 (1.2M Disk 3)</name>
 		<file size="4032" time="1994-05-31 06:22:00" attr="0x20">DRIVER.SY_</file>
 		<file size="15709" time="1994-05-31 06:22:00" attr="0x20">EDIT.HL_</file>
@@ -181,7 +181,7 @@
 		<file size="12738" time="1994-05-31 06:22:00" attr="0x20">UNFORMAT.COM</file>
 		<file size="2661" time="1994-05-31 06:22:00" attr="0x20">WINA20.38_</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK4.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK4.json" md5="e57d3580a283672a7c09d6a48f2386f3" md5json="b0804a54e25e8b39b846aa5951d111ee">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="1200K/archive/MSDOS622-DISK4.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1200K/MSDOS622-DISK4.json" md5="e57d3580a283672a7c09d6a48f2386f3" md5json="b0804a54e25e8b39b846aa5951d111ee">
 		<name>MS-DOS 6.22 (1.2M Disk 4)</name>
 		<file size="172198" time="1994-05-31 06:22:00" attr="0x20">MSAV.EXE</file>
 		<file size="12230" time="1994-05-31 06:22:00" attr="0x20">MSAV.HL_</file>
@@ -211,7 +211,7 @@
 		<file size="33046" time="1994-05-31 06:22:00" attr="0x20">VSAFE.CO_</file>
 		<file size="1071" time="1994-05-31 06:22:00" attr="0x20">WNTOOLS.GR_</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-DISK1.json" md5="37d11d7902fc6a2043eb12d65dac355f" md5json="7ed9f7c001a1dfba7e16d9a809b08144">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-DISK1.json" md5="37d11d7902fc6a2043eb12d65dac355f" md5json="7ed9f7c001a1dfba7e16d9a809b08144">
 		<name>MS-DOS 6.22 (1.44M Disk 1)</name>
 		<file size="11208" time="1994-05-31 06:22:00" attr="0x20">ATTRIB.EXE</file>
 		<file size="37" time="1994-05-31 06:22:00" attr="0x20">AUTOEXEC.BAT</file>
@@ -255,7 +255,7 @@
 		<file size="9432" time="1994-05-31 06:22:00" attr="0x20">SYS.COM</file>
 		<file size="11093" time="1994-05-31 06:22:00" attr="0x20">XCOPY.EX_</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-DISK2.json" md5="2771a388a2c1c7940bbb36337ec08df4" md5json="b45ce145da4fe777f503ea728d4ffb21">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-DISK2.json" md5="2771a388a2c1c7940bbb36337ec08df4" md5json="b45ce145da4fe777f503ea728d4ffb21">
 		<name>MS-DOS 6.22 (1.44M Disk 2)</name>
 		<file size="6261" time="1994-05-31 06:22:00" attr="0x20">ANSI.SY_</file>
 		<file size="7467" time="1994-05-31 06:22:00" attr="0x20">APPEND.EX_</file>
@@ -318,7 +318,7 @@
 		<file size="1289" time="1994-05-31 06:22:00" attr="0x20">VFINTD.38_</file>
 		<file size="2661" time="1994-05-31 06:22:00" attr="0x20">WINA20.38_</file>
 	</disk>
-	<disk id="disk08" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-DISK3.json" md5="7550a7c03b714a1b6c30ddc8b635f749" md5json="5bcdd95397a67800b1ef65a1e657725a">
+	<disk id="disk08" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-DISK3.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-DISK3.json" md5="7550a7c03b714a1b6c30ddc8b635f749" md5json="5bcdd95397a67800b1ef65a1e657725a">
 		<name>MS-DOS 6.22 (1.44M Disk 3)</name>
 		<file size="172198" time="1994-05-31 06:22:00" attr="0x20">MSAV.EXE</file>
 		<file size="12230" time="1994-05-31 06:22:00" attr="0x20">MSAV.HL_</file>
@@ -350,7 +350,7 @@
 		<file size="33046" time="1994-05-31 06:22:00" attr="0x20">VSAFE.CO_</file>
 		<file size="1071" time="1994-05-31 06:22:00" attr="0x20">WNTOOLS.GR_</file>
 	</disk>
-	<disk id="disk09" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-SUPPDISK.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-SUPPDISK.json" md5="9993f3867033c4dbde0cd52363c8e69b" md5json="370c8c61dc489776adc589fd10770c44">
+	<disk id="disk09" size="1474560" chs="80:2:18" img="1440K/archive/MSDOS622-SUPPDISK.img" href="/pcjs-disks/pcx86/dos/microsoft/6.22/1440K/MSDOS622-SUPPDISK.json" md5="9993f3867033c4dbde0cd52363c8e69b" md5json="370c8c61dc489776adc589fd10770c44">
 		<name>MS-DOS 6.22 (1.44M Supp)</name>
 		<file size="2399" time="1994-05-31 06:22:00" attr="0x20">4201.CP_</file>
 		<file size="359" time="1994-05-31 06:22:00" attr="0x20">4208.CP_</file>

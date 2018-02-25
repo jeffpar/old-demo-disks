@@ -3,7 +3,7 @@
 <manifest type="software">
 	<title>Windows SDK 2.03</title>
 	<source href="http://os2museum.com">os2museum.com</source>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WINSDK203-DISK1-DEV.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/2.03/WINSDK203-DISK1-DEV.json" md5="240f27dbf30a4e1378f99e506597793b" md5json="566d69f1e342369c85786c908d8e97cd">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WINSDK203-DISK1-DEV.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/2.03/WINSDK203-DISK1-DEV.json" md5="240f27dbf30a4e1378f99e506597793b" md5json="566d69f1e342369c85786c908d8e97cd">
 		<name>Windows SDK 2.03 (1200K Disk 1)</name>
 		<file size="476" time="1988-01-28 23:00:58" attr="0x10">DEBUG</file>
 		<file size="104186" time="1988-01-28 23:00:02" attr="0x20" dir="DEBUG/">GDI.EXE</file>
@@ -51,7 +51,7 @@
 		<file size="11440" time="1988-01-28 23:00:02" attr="0x20">WIN87EM.EXE</file>
 		<file size="570" time="1988-01-28 23:00:02" attr="0x20">WINSTUB.EXE</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WINSDK203-DISK2-UTILS.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/2.03/WINSDK203-DISK2-UTILS.json" md5="26c488c8ccb704cd9014d67ef6edd61d" md5json="73de97be43a6c903d64e33864ada848a">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WINSDK203-DISK2-UTILS.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/2.03/WINSDK203-DISK2-UTILS.json" md5="26c488c8ccb704cd9014d67ef6edd61d" md5json="73de97be43a6c903d64e33864ada848a">
 		<name>Windows SDK 2.03 (1200K Disk 2)</name>
 		<file size="374" time="1988-01-28 23:00:58" attr="0x10">BINAPPS</file>
 		<file size="29822" time="1988-01-28 23:00:02" attr="0x20" dir="BINAPPS/">EXEHDR.EXE</file>
@@ -77,7 +77,7 @@
 		<file size="8208" time="1988-01-28 23:00:02" attr="0x20" dir="WINAPPS/">SNAP.EXE</file>
 		<file size="20160" time="1988-01-28 23:00:02" attr="0x20" dir="WINAPPS/">SPY.EXE</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WINSDK203-DISK3-SAMPLES.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/tools/microsoft/windows/sdk/2.03/WINSDK203-DISK3-SAMPLES.json" md5="98f2223c381352a07e084276c787be60" md5json="b6e27801a68741c7c690d6614e64de13">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WINSDK203-DISK3-SAMPLES.img" href="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/2.03/WINSDK203-DISK3-SAMPLES.json" md5="98f2223c381352a07e084276c787be60" md5json="b6e27801a68741c7c690d6614e64de13">
 		<name>Windows SDK 2.03 (1200K Disk 3)</name>
 		<file size="918" time="1988-01-28 23:00:58" attr="0x10">CARDFILE</file>
 		<file size="1770" time="1988-01-28 23:00:02" attr="0x20" dir="CARDFILE/">CARDFILE</file>

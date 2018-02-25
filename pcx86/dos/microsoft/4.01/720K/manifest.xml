@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate>April 1989</releaseDate>
-	<disk id="disk01" size="737280" chs="80:2:9" img="archive/MSDOS401-DISK1.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/720K/MSDOS401-DISK1.json" md5="039f7276df7b0ececdbbc90e7a2d559a" md5json="0c35cdf24083c81f440b97998c844310">
+	<disk id="disk01" size="737280" chs="80:2:9" img="archive/MSDOS401-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/720K/MSDOS401-DISK1.json" md5="039f7276df7b0ececdbbc90e7a2d559a" md5json="0c35cdf24083c81f440b97998c844310">
 		<name>MS-DOS 4.01 (720K Disk 1)</name>
 		<file size="6404" time="1989-04-07 00:00:04" attr="0x20">4201.CPI</file>
 		<file size="720" time="1989-04-07 00:00:04" attr="0x20">4208.CPI</file>
@@ -47,7 +47,7 @@
 		<file size="11456" time="1989-04-07 00:00:04" attr="0x20">SYS.COM</file>
 		<file size="29211" time="1989-04-07 00:00:02" attr="0x20">XMA2EMS.SYS</file>
 	</disk>
-	<disk id="disk02" size="737280" chs="80:2:9" img="archive/MSDOS401-DISK2.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/720K/MSDOS401-DISK2.json" md5="ff3a0c21fab0c765de6952d990f7808b" md5json="2c6f531878fc64bc3ee26d9e0ca73ede">
+	<disk id="disk02" size="737280" chs="80:2:9" img="archive/MSDOS401-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/720K/MSDOS401-DISK2.json" md5="ff3a0c21fab0c765de6952d990f7808b" md5json="2c6f531878fc64bc3ee26d9e0ca73ede">
 		<name>MS-DOS 4.01 (720K Disk 2)</name>
 		<file size="11154" time="1989-04-07 00:00:04" attr="0x20">APPEND.EXE</file>
 		<file size="5753" time="1989-04-07 00:00:02" attr="0x20">ASSIGN.COM</file>
@@ -83,7 +83,7 @@
 		<file size="6302" time="1989-04-07 00:00:02" attr="0x20">TREE.COM</file>
 		<file size="17055" time="1989-04-07 00:00:02" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk03" size="737280" chs="80:2:9" img="archive/MSDOS401-DISK3.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/microsoft/4.01/720K/MSDOS401-DISK3.json" md5="b26e886d9b76e48fc85e2ed92658d4a0" md5json="96cdf79af6e1c98acba45daddfe9be09">
+	<disk id="disk03" size="737280" chs="80:2:9" img="archive/MSDOS401-DISK3.img" href="/pcjs-disks/pcx86/dos/microsoft/4.01/720K/MSDOS401-DISK3.json" md5="b26e886d9b76e48fc85e2ed92658d4a0" md5json="96cdf79af6e1c98acba45daddfe9be09">
 		<name>MS-DOS 4.01 (720K Disk 3)</name>
 		<file size="6404" time="1989-04-07 00:00:04" attr="0x20">4201.CPI</file>
 		<file size="720" time="1989-04-07 00:00:04" attr="0x20">4208.CPI</file>

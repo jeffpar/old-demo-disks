@@ -7,7 +7,7 @@
 	<category>Productivity</category>
 	<author>Microsoft</author>
 	<releaseDate date="1986-02-10">Feb 10, 1986</releaseDate>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/INSTALL" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/multiplan/2.01/MULTIPLAN201-INSTALL.json" md5="3468ed28477c187beb561c9c26b9be46" md5json="a7b7bc8ad6e3078aac2700a58ae0d47d">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/INSTALL" href="/pcjs-disks/pcx86/apps/microsoft/multiplan/2.01/MULTIPLAN201-INSTALL.json" md5="3468ed28477c187beb561c9c26b9be46" md5json="a7b7bc8ad6e3078aac2700a58ae0d47d">
 		<name>MS Multiplan 2.01 (INSTALL)</name>
 		<file size="34944" time="1986-02-10 12:00:00" attr="0x20" md5="17ff4b7824527bd49159515719f673c2">CONVERTD.EXE</file>
 		<file size="19808" time="1987-01-05 16:24:44" attr="0x20" md5="64215461b053c281547429b80b5d6372">IBMSETUP.COM</file>
@@ -18,7 +18,7 @@
 		<file size="128" time="1986-02-10 12:00:00" attr="0x20" md5="d77bc7ca0b9bc69297ba8ccfbbf3a97e">INSTALL.SPC</file>
 		<file size="12040" time="1986-02-10 12:00:00" attr="0x20" md5="b75422e7569d92c2dd4fd45dbf814483">PATCH21.EXE</file>
 	</disk>
-	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/PROGRAM" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/multiplan/2.01/MULTIPLAN201-PROGRAM.json" md5="ecaabd751a559ab3c4429744e653fe08" md5json="cfc37910ce64da43e3a9850d0423f93d">
+	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/PROGRAM" href="/pcjs-disks/pcx86/apps/microsoft/multiplan/2.01/MULTIPLAN201-PROGRAM.json" md5="ecaabd751a559ab3c4429744e653fe08" md5json="cfc37910ce64da43e3a9850d0423f93d">
 		<name>MS Multiplan 2.01 (PROGRAM)</name>
 		<file size="7184" time="1986-02-10 12:00:04" attr="0x20" md5="03bf23d7409ac5ef95b150698c79318f">AMOR.MOD</file>
 		<file size="7480" time="1986-02-10 12:00:04" attr="0x20" md5="973a7181ee022ef69fa2aeac2330f436">DEPREC.MOD</file>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.50.8/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows 1.02</title>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WIN102-DISK1-SETUP.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.02/WIN102-DISK1-SETUP.json" md5="6edfcd3ce5eb7dc98600924774257963" md5json="c6d17898800aa0b13eed31453197b06c">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WIN102-DISK1-SETUP.img" href="/pcjs-disks/pcx86/windows/1.02/WIN102-DISK1-SETUP.json" md5="6edfcd3ce5eb7dc98600924774257963" md5json="c6d17898800aa0b13eed31453197b06c">
 		<name>Windows 1.02 (SETUP)</name>
 		<file size="13008" time="1986-01-15 17:00:06" attr="0x20">CGA.DRV</file>
 		<file size="4860" time="1986-01-15 17:00:08" attr="0x20">COMM.DRV</file>
@@ -41,7 +41,7 @@
 		<file size="3335" time="1986-01-15 17:00:36" attr="0x20">USA.DRV</file>
 		<file size="43" time="1986-01-15 17:00:38" attr="0x20">WRITE.DAT</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WIN102-DISK2-BUILD.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.02/WIN102-DISK2-BUILD.json" md5="26223c61321e6596f5594aefbadcdd3e" md5json="1bdc9ee6b7c1945993713b23d1a75c92">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WIN102-DISK2-BUILD.img" href="/pcjs-disks/pcx86/windows/1.02/WIN102-DISK2-BUILD.json" md5="26223c61321e6596f5594aefbadcdd3e" md5json="1bdc9ee6b7c1945993713b23d1a75c92">
 		<name>Windows 1.02 (BUILD)</name>
 		<file size="7" time="1986-01-16 15:00:06" attr="0x20">BUILD.LBL</file>
 		<file size="1350" time="1986-01-16 15:00:06" attr="0x20">CGA.GRB</file>
@@ -65,7 +65,7 @@
 		<file size="2067" time="1986-01-16 15:00:20" attr="0x20">WIN.INI</file>
 		<file size="19552" time="1986-01-16 15:00:20" attr="0x20">WINOLDAP.MOD</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WIN102-DISK3-UTILITY.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.02/WIN102-DISK3-UTILITY.json" md5="88d3a374982759da25c293c4041ed68c" md5json="c735dd9c72c82bb9903ee798b3840849">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WIN102-DISK3-UTILITY.img" href="/pcjs-disks/pcx86/windows/1.02/WIN102-DISK3-UTILITY.json" md5="88d3a374982759da25c293c4041ed68c" md5json="c735dd9c72c82bb9903ee798b3840849">
 		<name>Windows 1.02 (UTILITY)</name>
 		<file size="12048" time="1986-01-15 17:00:06" attr="0x20">CITOH.DRV</file>
 		<file size="14352" time="1986-01-15 17:00:06" attr="0x20">EPSON.DRV</file>
@@ -83,7 +83,7 @@
 		<file size="12432" time="1986-01-15 17:00:12" attr="0x20">TOSH.DRV</file>
 		<file size="9" time="1986-01-15 17:00:12" attr="0x20">UTILITY.LBL</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WIN102-DISK4-FONT.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.02/WIN102-DISK4-FONT.json" md5="5dc80aafa60b19763322bfe8eab86534" md5json="702442597ed75b03046d863e74e55e6f">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WIN102-DISK4-FONT.img" href="/pcjs-disks/pcx86/windows/1.02/WIN102-DISK4-FONT.json" md5="5dc80aafa60b19763322bfe8eab86534" md5json="702442597ed75b03046d863e74e55e6f">
 		<name>Windows 1.02 (FONT)</name>
 		<file size="8720" time="1986-01-15 17:00:06" attr="0x20">COURA.FON</file>
 		<file size="12304" time="1986-01-15 17:00:06" attr="0x20">COURB.FON</file>
@@ -162,7 +162,7 @@
 		<file size="8240" time="1986-01-15 17:00:16" attr="0x20">TMSRC.FON</file>
 		<file size="12608" time="1986-01-15 17:00:16" attr="0x20">TMSRD.FON</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WIN102-DISK5-APPS.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.02/WIN102-DISK5-APPS.json" md5="49ebe60f4faf3d3b0ad6c1d11ab0e601" md5json="260d38ae88f8fceed357b30ae776cda1">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WIN102-DISK5-APPS.img" href="/pcjs-disks/pcx86/windows/1.02/WIN102-DISK5-APPS.json" md5="49ebe60f4faf3d3b0ad6c1d11ab0e601" md5json="260d38ae88f8fceed357b30ae776cda1">
 		<name>Windows 1.02 (APPS)</name>
 		<file size="42" time="1986-01-15 17:00:06" attr="0x20">ABC.TXT</file>
 		<file size="25008" time="1986-01-15 17:00:06" attr="0x20">CALC.EXE</file>
@@ -177,7 +177,7 @@
 		<file size="15328" time="1986-01-15 17:00:12" attr="0x20">REVERSI.EXE</file>
 		<file size="47344" time="1986-01-15 17:00:12" attr="0x20">TERMINAL.EXE</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WIN102-DISK6-WRITE.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/windows/1.02/WIN102-DISK6-WRITE.json" md5="a9099d3d21b0031baf41713bc1a2629f" md5json="070e3ad85bef0342725b5ef1428b3d6d">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WIN102-DISK6-WRITE.img" href="/pcjs-disks/pcx86/windows/1.02/WIN102-DISK6-WRITE.json" md5="a9099d3d21b0031baf41713bc1a2629f" md5json="070e3ad85bef0342725b5ef1428b3d6d">
 		<name>Windows 1.02 (WRITE)</name>
 		<file size="2944" time="1986-01-15 17:00:06" attr="0x20">PRACTICE.DOC</file>
 		<file size="2922" time="1986-01-15 17:00:06" attr="0x20">README.DOC</file>

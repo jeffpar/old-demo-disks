@@ -7,7 +7,7 @@
 	<category>Productivity</category>
 	<author>Microsoft</author>
 	<releaseDate date="1983-02-28">Feb 28, 1983</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MULTIPLAN106.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/apps/microsoft/multiplan/1.06/MULTIPLAN106.json" md5="262d9169a64b30f73ecfdfad72ac2680" md5json="a006da508422a0255a8aabc445f56564">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MULTIPLAN106.img" href="/pcjs-disks/pcx86/apps/microsoft/multiplan/1.06/MULTIPLAN106.json" md5="262d9169a64b30f73ecfdfad72ac2680" md5json="a006da508422a0255a8aabc445f56564">
 		<name>MS Multiplan 1.06 (Modified)</name>
 		<file size="17792" time="1983-10-20 12:00:00" attr="0x20">COMMAND.COM</file>
 		<file size="4736" time="1983-10-20 12:00:00" attr="0x20">IBMBIO.COM</file>

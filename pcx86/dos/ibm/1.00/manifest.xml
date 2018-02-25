@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/PCDOS100.img" href="https://jeffpar.github.io/pcjs-disks/pcx86/dos/ibm/1.00/PCDOS100.json" md5="54acc6990af083f6256894b5a9815756" md5json="75e17ef46d45864bd538f49449bcd33d">
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/PCDOS100.img" href="/pcjs-disks/pcx86/dos/ibm/1.00/PCDOS100.json" md5="54acc6990af083f6256894b5a9815756" md5json="75e17ef46d45864bd538f49449bcd33d">
 		<file size="1920" time="1981-08-04 00:00:00" attr="0x20">ART.BAS</file>
 		<file size="2048" time="1981-08-04 00:00:00" attr="0x20">BALL.BAS</file>
 		<file size="10880" time="1981-08-04 00:00:00" attr="0x20">BASIC.COM</file>

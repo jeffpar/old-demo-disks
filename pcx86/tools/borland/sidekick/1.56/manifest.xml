@@ -9,6 +9,7 @@
 	<releaseDate>1985</releaseDate>
 	<serialNumber></serialNumber>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SIDEKICK-156.img" href="/pcjs-disks/pcx86/tools/borland/sidekick/1.56/SIDEKICK-156.json" md5="65fcdb3d37fdb7baddb3c181e6724566" md5json="ba17c21c56d5f28bb556a03091599d18">
+		<name>Borland Sidekick 1.56</name>
 		<link href="https://winworldpc.com/product/sidekick/1x" name="Borland Sidekick 1.56 (5.25)" file="Disk01.img">WinWorld</link>
 		<file size="1647" time="1984-09-02 04:58:32" attr="0x20">NOTES</file>
 		<file size="1358" time="1985-05-03 14:01:46" attr="0x20">PHONE.DIR</file>

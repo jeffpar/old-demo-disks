@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.60.1/manifest.xsl"?>
+<manifest type="software">
+	<title>Disk Optimizer</title>
+	<version>2.0.3</version>
+	<type>Utility</type>
+	<category>Multitasking</category>
+	<author>SoftLogic Solutions</author>
+	<releaseDate>1986</releaseDate>
+	<serialNumber>00529000</serialNumber>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DISK-OPTIMIZER.img" href="/pcjs-disks/pcx86/tools/softlogic/optimizer/2.0.3/DISK-OPTIMIZER.json" md5="f421eeedda6e4520b2f45748601060c9" md5json="876a6751124e6bbd543b6fc42cb95080"/>
+</manifest>

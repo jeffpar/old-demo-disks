@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.60.1/manifest.xsl"?>
+<manifest type="software">
+	<title>Software Carousel</title>
+	<version>2.0.3</version>
+	<type>Utility</type>
+	<category>Multitasking</category>
+	<author>SoftLogic Solutions</author>
+	<releaseDate>1986</releaseDate>
+	<serialNumber>00123030</serialNumber>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SOFTWARE-CAROUSEL.img" href="/pcjs-disks/pcx86/tools/softlogic/carousel/2.0.3/SOFTWARE-CAROUSEL.json" md5="2aed06ff45fda03d4a43c7336a1db0ed" md5json="1a9d9213207ca9ac5db41d3f6a8dd0eb"/>
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.60.1/manifest.xsl"?>
+<manifest type="software">
+	<title>Xenix 286</title>
+	<version>2.2.1e</version>
+	<type>Operating System</type>
+	<category>Unix</category>
+	<company>SCO</company>
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/N1-BOOT.img" href="/pcjs-disks/pcx86/unix/sco/xenix/286/2.2.1e/N1-BOOT.json" md5="c66848beaec0b07ac696e517805ac79c" md5json="77c510647341f2986c41c4d4df9859a5">
+		<name>SCO Xenix 286 2.2.1e (N1-BOOT)</name>
+	</disk>
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/N2.img" href="/pcjs-disks/pcx86/unix/sco/xenix/286/2.2.1e/N2.json" md5="cd2fa25ffa85842ba3c6514d8ca4213f" md5json="1c4ca14548bca874dc3a0ddfbf0429b8">
+		<name>SCO Xenix 286 2.2.1e (N2)</name>
+	</disk>
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/B1.img" href="/pcjs-disks/pcx86/unix/sco/xenix/286/2.2.1e/B1.json" md5="bc97106bd8a017628e5d446feb9906ad" md5json="91ed34a9453dd00bf04e18e1bdb77592">
+		<name>SCO Xenix 286 2.2.1e (B1)</name>
+	</disk>
+	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/X1.img" href="/pcjs-disks/pcx86/unix/sco/xenix/286/2.2.1e/X1.json" md5="73c0ea99b8aacfd18b9884ea0db01ab8" md5json="89d386ad36f1f19cdcaff67c9d36e2dc">
+		<name>SCO Xenix 286 2.2.1e (X1)</name>
+	</disk>
+	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/X2.img" href="/pcjs-disks/pcx86/unix/sco/xenix/286/2.2.1e/X2.json" md5="d2cbf2fffc6a7e90183242b154691cd3" md5json="2930cf28a035cf8c89174e1d34d83bea">
+		<name>SCO Xenix 286 2.2.1e (X2)</name>
+	</disk>
+	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/X3.img" href="/pcjs-disks/pcx86/unix/sco/xenix/286/2.2.1e/X3.json" md5="fcc6fdb53d8a3dc7c92a8e8d379f2d78" md5json="a57875fce3e80c8c313265a0df7f8f29">
+		<name>SCO Xenix 286 2.2.1e (X3)</name>
+	</disk>
+</manifest>

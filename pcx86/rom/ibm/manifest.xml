@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.60.1/manifest.xsl"?>
+<manifest type="software">
+	<title>IBM ROM BIOS Source Code</title>
+	<version/>
+	<type>ROM</type>
+	<category>Source Code</category>
+	<author>IBM</author>
+	<releaseDate/>
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V1" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5150V1.json" md5="cecd73f3600db47a084613911e487c8b" md5json="be2210b1f35d9b0b2823f95a3c67b721">
+		<name>IBM PC BIOS Sources (V1)</name>
+		<file size="4087" time="2014-07-27 10:53:54" attr="0x20" md5="76e9f3c6f12badd0336bced02d5da241">5150.TXT</file>
+		<file size="179480" time="2014-09-01 17:59:36" attr="0x20" md5="43843ab7e764e27708933c152c3433c8">5150V1.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+	</disk>
+	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V2" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5150V2.json" md5="7887744a7e3d1dc9f730ce9586094702" md5json="0438b6ae5e2781ec6b72ca13baeb6190">
+		<name>IBM PC BIOS Sources (V2)</name>
+		<file size="4087" time="2014-07-27 10:53:54" attr="0x20" md5="76e9f3c6f12badd0336bced02d5da241">5150.TXT</file>
+		<file size="179424" time="2014-09-01 17:59:36" attr="0x20" md5="1717240e29d18adacf543e30044be41d">5150V2.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+	</disk>
+	<disk id="disk03" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V3" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5150V3.json" md5="9e39e6c2e8834d5c37ccb1c492b7aafe" md5json="f2a1aa84cf70a87dc04f5fb71b5556f7">
+		<name>IBM PC BIOS Sources (V3)</name>
+		<file size="4087" time="2014-07-27 10:53:54" attr="0x20" md5="76e9f3c6f12badd0336bced02d5da241">5150.TXT</file>
+		<file size="193439" time="2014-09-01 17:59:38" attr="0x20" md5="52f5d0ec5aa5092a56c8a40262fbefd8">5150V3.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+	</disk>
+	<disk id="disk04" size="327680" chs="40:2:8" dir="archive/5160ROMS/5160V1" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5160V1.json" md5="ffcc6afac1b8b223bd6bca1242a844d7" md5json="a476a1483bbef754584196d17a71575c">
+		<name>IBM PC XT BIOS Sources (V1)</name>
+		<file size="980" time="2014-08-01 10:05:42" attr="0x20" md5="6cd8a7c9d4315b753534acd34f579850">5160V1.TXT</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+		<file size="184626" time="2014-09-01 17:59:42" attr="0x20" md5="5718795aa225ecc61680bd895924d88a">XTBIOS.ASM</file>
+	</disk>
+	<disk id="disk05" size="368640" chs="40:2:9" dir="archive/5160ROMS/5160V2" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5160V2.json" md5="891521fd8f1893fa92502c7a8310d8e1" md5json="07803751606fef06c635407a3073284a">
+		<name>IBM PC XT BIOS Sources (V2)</name>
+		<file size="542" time="2014-09-03 22:03:16" attr="0x20" md5="d9517c1c84591054f55b62da6a35bdcb">5160V2.TXT</file>
+		<file size="9426" time="2014-07-30 17:41:56" attr="0x20" md5="ccb02341ecccdb4c1c68f8b13459aece">BIOS1.ASM</file>
+		<file size="8182" time="2014-07-30 12:48:38" attr="0x20" md5="30f484bff94536b3ea32eb8a47376332">DSEG.INC</file>
+		<file size="85367" time="2014-09-01 18:02:06" attr="0x20" md5="ad7080754c8d3f8e16496f12711aa6d1">DSKETTE.ASM</file>
+		<file size="81" time="2014-07-30 18:32:08" attr="0x20" md5="66966044857b918cabeaa06058ff53b4">EXE2BIN</file>
+		<file size="123" time="2014-07-30 18:34:34" attr="0x20" md5="c2f53e912acb43775c2a60f884d0b88d">FILL.ASM</file>
+		<file size="3633" time="2014-07-30 18:41:40" attr="0x20" md5="297331c2febd901aa49801c3a753113e">HEADER.ASM</file>
+		<file size="31888" time="2014-08-30 21:12:42" attr="0x20" md5="50acb3b7beee3f624e422777c9096f96">KEYBRD.ASM</file>
+		<file size="87861" time="2014-08-07 15:00:18" attr="0x20" md5="6bd4ae1f03839801e4f995327ce05050">POST.ASM</file>
+		<file size="9421" time="2014-07-30 21:57:14" attr="0x20" md5="50a3edb1cb3c64ce4add3736ecf64772">POSTEQU.INC</file>
+		<file size="5498" time="2014-08-30 15:52:58" attr="0x20" md5="31fbb1c2fde106e1d92bf933fbed57b9">PRT.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="7834" time="2014-08-30 15:56:20" attr="0x20" md5="d51dc61d7fda0d61aa37ed76490a69dd">RS232.ASM</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+		<file size="66334" time="2014-08-31 09:35:04" attr="0x20" md5="a16f0e074e32decf20f55b84303478e9">VIDEO.ASM</file>
+		<file size="79" time="2014-07-30 18:28:12" attr="0x20" md5="6ae5f7abcf2a3bbb245a967442cea8ae">XTLINK</file>
+	</disk>
+	<disk id="disk06" size="368640" chs="40:2:9" dir="archive/5160ROMS/5160V3" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5160V3.json" md5="4929d74e63df6c484406ac013e2a6196" md5json="b74165015b8b2c832359855f7b5ba95c">
+		<name>IBM PC XT BIOS Sources (V3)</name>
+		<file size="563" time="2014-09-03 22:03:16" attr="0x20" md5="79068f2828c6ed07447da7d65bee19c7">5160V3.TXT</file>
+		<file size="9426" time="2014-07-30 17:41:56" attr="0x20" md5="ccb02341ecccdb4c1c68f8b13459aece">BIOS1.ASM</file>
+		<file size="8182" time="2014-07-30 12:48:38" attr="0x20" md5="30f484bff94536b3ea32eb8a47376332">DSEG.INC</file>
+		<file size="85323" time="2014-09-01 18:02:10" attr="0x20" md5="7fc83489f2cc82b0e10fd9fe18a083b6">DSKETTE.ASM</file>
+		<file size="81" time="2014-08-29 18:43:50" attr="0x20" md5="b664ba62eb1869addf1f991c34662695">EXE2BIN</file>
+		<file size="123" time="2014-08-29 13:53:22" attr="0x20" md5="e547dfd6ff44874a8f74e98961973164">FILL.ASM</file>
+		<file size="3624" time="2014-08-29 13:26:12" attr="0x20" md5="4b896810086687b033ce7b3d074d0ab3">HEADER.ASM</file>
+		<file size="32034" time="2014-08-30 21:12:46" attr="0x20" md5="d14d70ee2eed4f89b4c315c160085b9d">KEYBRD.ASM</file>
+		<file size="87457" time="2014-08-29 21:55:10" attr="0x20" md5="4633b97b7afe3055c3d4a0ffd2e8950c">POST.ASM</file>
+		<file size="9421" time="2014-08-29 17:38:38" attr="0x20" md5="45ac0e4069e5f7ec6bd8f3efb58f5dba">POSTEQU.INC</file>
+		<file size="5498" time="2014-08-30 15:52:58" attr="0x20" md5="31fbb1c2fde106e1d92bf933fbed57b9">PRT.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="7834" time="2014-08-30 15:56:20" attr="0x20" md5="d51dc61d7fda0d61aa37ed76490a69dd">RS232.ASM</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+		<file size="66337" time="2014-08-31 09:35:06" attr="0x20" md5="200e5ee0d64be29e6af2c53c13f5e1c3">VIDEO.ASM</file>
+		<file size="79" time="2014-08-29 13:19:40" attr="0x20" md5="331be967884c8d30445cb2d90bc73f76">XTLINK</file>
+	</disk>
+	<disk id="disk07" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V1" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5170V1.json" md5="36e04aaa1a7427236d906d77584518af" md5json="ce98658e67daf4ca8b905a4ace8c2d39">
+		<name>IBM PC AT BIOS Sources (V1)</name>
+		<file size="903" time="2014-09-03 22:02:10" attr="0x20" md5="386c66803a066d440474dfec1a90b50a">5170V1.TXT</file>
+		<file size="151" time="2014-08-30 17:48:12" attr="0x20" md5="fc1fc46ab31f017deda0e0f67d8909dd">ATLINK</file>
+		<file size="10150" time="2014-09-03 21:17:42" attr="0x20" md5="f1deeb5566a896d2a88f31456ba4615a">BIOS.ASM</file>
+		<file size="36439" time="2014-09-03 21:17:42" attr="0x20" md5="be5b6b0b08177ec9b55999181a728007">BIOS1.ASM</file>
+		<file size="16874" time="2014-09-03 13:49:08" attr="0x20" md5="92753174d74b58355cf4d4fc75eb8bd7">BIOS2.ASM</file>
+		<file size="35135" time="2014-09-03 21:17:44" attr="0x20" md5="5f1faa9b6b134822a1ee3f5eb8657704">DISK.ASM</file>
+		<file size="9064" time="2014-09-03 16:13:42" attr="0x20" md5="ebb19df9ea3502d7aa01a26103caa54f">DSEG.SRC</file>
+		<file size="50108" time="2014-09-03 16:24:14" attr="0x20" md5="8b696812f48815f82d7306e515d49453">DSKETTE.ASM</file>
+		<file size="77" time="2014-08-26 16:48:04" attr="0x20" md5="968e5be36a4b2de24f96fb234e79ee1c">EXE2BIN</file>
+		<file size="123" time="2014-08-26 16:55:58" attr="0x20" md5="5666cee1791919f4db50c649e5605185">FILL.ASM</file>
+		<file size="2313" time="2014-09-01 22:16:24" attr="0x20" md5="700fbcf6fecc365c6a85c8d11758e5bc">GDT_BLD.ASM</file>
+		<file size="4854" time="2014-09-03 21:44:54" attr="0x20" md5="75e0ad4c9de6885282a8a8e399d2bae7">IAPX286.MAC</file>
+		<file size="24576" time="2014-09-03 16:28:28" attr="0x20" md5="8ce6d1a1f2fe518884cfdbbcd96afb10">KYBD.ASM</file>
+		<file size="25030" time="2014-08-26 22:41:50" attr="0x20" md5="a87769bceab1c9377dcc2c3c947bfb5e">ORGS.ASM</file>
+		<file size="14712" time="2014-08-27 12:04:06" attr="0x20" md5="0cf5c53ac031dbbee62cb8b459ffc94b">POSTEQU.SRC</file>
+		<file size="3856" time="2014-08-30 14:31:50" attr="0x20" md5="074bcd08fec4edecef928032dbf99054">PRT.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="6979" time="2014-08-30 14:52:20" attr="0x20" md5="b28e9a70f8ce4f31c20a463235c367d1">RS232.ASM</file>
+		<file size="28" time="2014-08-27 10:14:38" attr="0x20" md5="4ff1d6a2b0b9ecc84ea7795cc34a8373">SEGMENT.SRC</file>
+		<file size="4935" time="2014-09-01 22:16:14" attr="0x20" md5="f396fdc8e54318cbf1f98e6d7237afb6">SIDT_BLD.ASM</file>
+		<file size="3369" time="2014-09-03 16:08:32" attr="0x20" md5="fb4e4d66f6f897e6c193b0d1da398a91">SYSDATA.INC</file>
+		<file size="1031" time="2014-09-01 21:54:18" attr="0x20" md5="6dfba1173de828769728c683787139f4">SYSDATA.MAC</file>
+		<file size="2316" time="2014-09-03 21:08:46" attr="0x20" md5="721ebbbb38a28dd7e395933bccd20a01">SYSINIT1.ASM</file>
+		<file size="64948" time="2014-09-03 16:41:34" attr="0x20" md5="eb7c81e8158abd2753bd81434df9ed57">TEST1.ASM</file>
+		<file size="53791" time="2014-09-03 15:46:06" attr="0x20" md5="70686b1a06863b775ec828c24a1d0d32">TEST2.ASM</file>
+		<file size="4385" time="2014-09-03 15:48:12" attr="0x20" md5="cc25823c6d61a201f1bc13224561aa2f">TEST3.ASM</file>
+		<file size="8204" time="2014-09-03 15:49:26" attr="0x20" md5="660739913b14266ae776cf1591a44350">TEST4.ASM</file>
+		<file size="6487" time="2014-09-03 15:50:36" attr="0x20" md5="1a141889461c0f72c509930a4d0be4c3">TEST5.ASM</file>
+		<file size="14336" time="2014-09-03 16:01:48" attr="0x20" md5="00a085ad1972c11015351f03d6d7874f">TEST6.ASM</file>
+		<file size="17478" time="2014-09-02 12:43:46" attr="0x20" md5="fe5c1a7b920811991a4845eed5fec626">TEST7.ASM</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+		<file size="59174" time="2014-09-03 16:37:28" attr="0x20" md5="f50d42d931a1a7e9eae5d44876e88e63">VIDEO1.ASM</file>
+	</disk>
+	<disk id="disk08" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V2" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5170V2.json" md5="d6c4361108354abad48c67ee361cbbd5" md5json="72373d7c89e9b49294e35ab7a52ec0c4">
+		<name>IBM PC AT BIOS Sources (V2)</name>
+		<file size="803" time="2014-09-03 22:02:12" attr="0x20" md5="23bd9a45384352529c1665852220983c">5170V2.TXT</file>
+		<file size="123" time="2014-08-30 16:02:52" attr="0x20" md5="27e87f57741375f508a77faa6dff5922">ATLINK</file>
+		<file size="7842" time="2014-08-30 15:51:34" attr="0x20" md5="13c76ee5b3d0f1dd23a277701d502b7f">BIOS.ASM</file>
+		<file size="45782" time="2014-08-30 15:51:48" attr="0x20" md5="5a99edbcd666363318c664acb1ee0671">BIOS1.ASM</file>
+		<file size="22408" time="2014-08-30 15:52:02" attr="0x20" md5="4355398026d48008012bb13c4dcd0afe">BIOS2.ASM</file>
+		<file size="38284" time="2014-08-31 12:23:00" attr="0x20" md5="6ab8d1a2a71ec5837da9038de52cdf4f">DISK.ASM</file>
+		<file size="7994" time="2014-04-27 10:34:26" attr="0x20" md5="830c5c20e4d8df360bcde83e9ada06fc">DSEG.INC</file>
+		<file size="71253" time="2014-09-01 18:02:10" attr="0x20" md5="ed61b2231bfe8572bb0c8b96cbb95b6a">DSKETTE.ASM</file>
+		<file size="81" time="2014-08-30 16:02:52" attr="0x20" md5="94673b8063f525bfa944cb4510429ebe">EXE2BIN</file>
+		<file size="123" time="2014-04-04 17:24:28" attr="0x20" md5="b2eedb171ed3469262bccd080a0873cc">FILL.ASM</file>
+		<file size="1855" time="2014-04-23 17:22:40" attr="0x20" md5="1d2a5c2d3f0492137e082cad772f9199">IAPX286.INC</file>
+		<file size="30294" time="2014-08-30 21:14:40" attr="0x20" md5="12005be1eaebd2d0eda575ee90b16789">KYBD.ASM</file>
+		<file size="34369" time="2014-04-24 12:04:32" attr="0x20" md5="0bbc96569e4ccf9a60aec2634d849e89">ORGS.ASM</file>
+		<file size="13474" time="2014-04-14 11:33:08" attr="0x20" md5="1f074526a702f645033159c1b2e0a976">POSTEQU.INC</file>
+		<file size="5278" time="2014-08-30 15:54:52" attr="0x20" md5="d615fec7d71fa5260035a2f5d6ef52f3">PRT.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="7981" time="2014-08-30 15:55:52" attr="0x20" md5="f3fb21a57b4b16b82cf155f28651dec0">RS232.ASM</file>
+		<file size="3369" time="2014-04-14 11:33:10" attr="0x20" md5="24915cadeb7f752ce3e5652843219d8a">SYSDATA.INC</file>
+		<file size="74982" time="2014-09-03 22:22:22" attr="0x20" md5="37b24b13e25b267e1a9c9175a0fab0ab">TEST1.ASM</file>
+		<file size="56150" time="2014-09-03 22:23:06" attr="0x20" md5="6ab820aa04fff293c6fd3c5650de4e6d">TEST2.ASM</file>
+		<file size="15698" time="2014-09-03 22:25:12" attr="0x20" md5="d28c1430986e361a82d9c90bd8e0a620">TEST3.ASM</file>
+		<file size="24560" time="2014-09-03 22:26:54" attr="0x20" md5="1bf00615a23bd952ef0facbbc4485f2d">TEST4.ASM</file>
+		<file size="16263" time="2014-09-03 22:33:56" attr="0x20" md5="749f4c7b28dd70d80a8e446ed1993341">TEST5.ASM</file>
+		<file size="12743" time="2014-09-03 22:36:58" attr="0x20" md5="2f1cedb59db8cd082d8b4b437707af86">TEST6.ASM</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+		<file size="64799" time="2014-08-31 09:35:00" attr="0x20" md5="d59777bc9f6a52d96f8b980e9c2ecbce">VIDEO1.ASM</file>
+	</disk>
+	<disk id="disk09" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V3" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5170V3.json" md5="d8d10467992ed11534ceaf608b9589d7" md5json="95c4a525dda33949db607d9b15452d4c">
+		<name>IBM PC AT BIOS Sources (V3)</name>
+		<file size="799" time="2014-09-03 22:02:12" attr="0x20" md5="f920622ceddf495bd25543629a81aa15">5170V3.TXT</file>
+		<file size="123" time="2014-07-14 20:14:16" attr="0x20" md5="2b6d89b583af58869a9fa10fe5235d8b">ATLINK</file>
+		<file size="7842" time="2014-08-30 15:51:40" attr="0x20" md5="8ade71451757cabf6ac7ddc551c156f5">BIOS.ASM</file>
+		<file size="45791" time="2014-08-30 15:51:52" attr="0x20" md5="11d6915eceb9d9f2c57008a12e3a169b">BIOS1.ASM</file>
+		<file size="22408" time="2014-08-30 15:52:04" attr="0x20" md5="6c03382b0dc05cbea497e795907d2db1">BIOS2.ASM</file>
+		<file size="38475" time="2014-08-31 12:23:00" attr="0x20" md5="6bce1649e2d10eb309f6c4b8c6fa39f1">DISK.ASM</file>
+		<file size="7994" time="2014-04-27 10:34:26" attr="0x20" md5="830c5c20e4d8df360bcde83e9ada06fc">DSEG.INC</file>
+		<file size="90867" time="2014-09-01 18:02:12" attr="0x20" md5="b770cd25ca94f72000edc4132e32588a">DSKETTE.ASM</file>
+		<file size="81" time="2014-07-15 14:12:50" attr="0x20" md5="6a5e78a5b6e2b5395b377f17a7506845">EXE2BIN</file>
+		<file size="123" time="2014-07-15 11:36:04" attr="0x20" md5="332838795172f11ceb3e9abf39c7682c">FILL.ASM</file>
+		<file size="1855" time="2014-04-23 17:22:40" attr="0x20" md5="1d2a5c2d3f0492137e082cad772f9199">IAPX286.INC</file>
+		<file size="38104" time="2014-08-30 21:14:42" attr="0x20" md5="57fd98dc4ec09d69dd0fa33581d27421">KYBD.ASM</file>
+		<file size="35847" time="2014-07-15 12:58:30" attr="0x20" md5="5130a17c63b223f2337ac8bca04d5f5c">ORGS.ASM</file>
+		<file size="14392" time="2014-07-15 12:53:44" attr="0x20" md5="1cd2f84a0196c858893d4bbf7ef46a55">POSTEQU.INC</file>
+		<file size="5345" time="2014-08-30 15:54:54" attr="0x20" md5="cbd50099fa21791bf68bb220bd25517e">PRT.ASM</file>
+		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
+		<file size="8054" time="2014-08-30 15:55:52" attr="0x20" md5="702f558915e6ef3b8843aae47b502f8f">RS232.ASM</file>
+		<file size="3369" time="2014-04-14 11:33:10" attr="0x20" md5="24915cadeb7f752ce3e5652843219d8a">SYSDATA.INC</file>
+		<file size="75049" time="2014-09-03 22:22:24" attr="0x20" md5="ce5db30052bba88ba7722920dbe66f63">TEST1.ASM</file>
+		<file size="56221" time="2014-09-03 22:23:08" attr="0x20" md5="75dc364d8b461ae1d3c10a3afbdbcae9">TEST2.ASM</file>
+		<file size="15701" time="2014-09-03 22:25:12" attr="0x20" md5="59f465e7b18046076ae8ee0eb0ffa74c">TEST3.ASM</file>
+		<file size="24580" time="2014-09-03 22:26:56" attr="0x20" md5="b235873f0d7bb7caa88910c8e1fe2373">TEST4.ASM</file>
+		<file size="16264" time="2014-09-03 22:33:58" attr="0x20" md5="8243ce8ff9df00ec4770a4a1845254af">TEST5.ASM</file>
+		<file size="12743" time="2014-09-03 22:36:58" attr="0x20" md5="045ab5fbf26fc47c8d9a20ef9ef9dc01">TEST6.ASM</file>
+		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
+		<file size="65455" time="2014-08-31 09:35:02" attr="0x20" md5="7167d467d19c0414c060041627822a40">VIDEO1.ASM</file>
+	</disk>
+</manifest>

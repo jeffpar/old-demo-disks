@@ -7,35 +7,35 @@
 	<category>Source Code</category>
 	<author>IBM</author>
 	<releaseDate/>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V1" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5150V1.json" md5="cecd73f3600db47a084613911e487c8b" md5json="be2210b1f35d9b0b2823f95a3c67b721">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V1" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5150V1.json" md5="cecd73f3600db47a084613911e487c8b" md5json="be2210b1f35d9b0b2823f95a3c67b721">
 		<name>IBM PC BIOS Sources (V1)</name>
 		<file size="4087" time="2014-07-27 10:53:54" attr="0x20" md5="76e9f3c6f12badd0336bced02d5da241">5150.TXT</file>
 		<file size="179480" time="2014-09-01 17:59:36" attr="0x20" md5="43843ab7e764e27708933c152c3433c8">5150V1.ASM</file>
 		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
 		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
 	</disk>
-	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V2" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5150V2.json" md5="7887744a7e3d1dc9f730ce9586094702" md5json="0438b6ae5e2781ec6b72ca13baeb6190">
+	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V2" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5150V2.json" md5="7887744a7e3d1dc9f730ce9586094702" md5json="0438b6ae5e2781ec6b72ca13baeb6190">
 		<name>IBM PC BIOS Sources (V2)</name>
 		<file size="4087" time="2014-07-27 10:53:54" attr="0x20" md5="76e9f3c6f12badd0336bced02d5da241">5150.TXT</file>
 		<file size="179424" time="2014-09-01 17:59:36" attr="0x20" md5="1717240e29d18adacf543e30044be41d">5150V2.ASM</file>
 		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
 		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
 	</disk>
-	<disk id="disk03" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V3" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5150V3.json" md5="9e39e6c2e8834d5c37ccb1c492b7aafe" md5json="f2a1aa84cf70a87dc04f5fb71b5556f7">
+	<disk id="disk03" size="327680" chs="40:2:8" dir="archive/5150ROMS/5150V3" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5150V3.json" md5="9e39e6c2e8834d5c37ccb1c492b7aafe" md5json="f2a1aa84cf70a87dc04f5fb71b5556f7">
 		<name>IBM PC BIOS Sources (V3)</name>
 		<file size="4087" time="2014-07-27 10:53:54" attr="0x20" md5="76e9f3c6f12badd0336bced02d5da241">5150.TXT</file>
 		<file size="193439" time="2014-09-01 17:59:38" attr="0x20" md5="52f5d0ec5aa5092a56c8a40262fbefd8">5150V3.ASM</file>
 		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
 		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
 	</disk>
-	<disk id="disk04" size="327680" chs="40:2:8" dir="archive/5160ROMS/5160V1" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5160V1.json" md5="ffcc6afac1b8b223bd6bca1242a844d7" md5json="a476a1483bbef754584196d17a71575c">
+	<disk id="disk04" size="327680" chs="40:2:8" dir="archive/5160ROMS/5160V1" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5160V1.json" md5="ffcc6afac1b8b223bd6bca1242a844d7" md5json="a476a1483bbef754584196d17a71575c">
 		<name>IBM PC XT BIOS Sources (V1)</name>
 		<file size="980" time="2014-08-01 10:05:42" attr="0x20" md5="6cd8a7c9d4315b753534acd34f579850">5160V1.TXT</file>
 		<file size="3460" time="2018-03-03 09:57:46" attr="0x20" md5="47830841bbd311ae3eb953c4926e034b">README.TXT</file>
 		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
 		<file size="184626" time="2014-09-01 17:59:42" attr="0x20" md5="5718795aa225ecc61680bd895924d88a">XTBIOS.ASM</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" dir="archive/5160ROMS/5160V2" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5160V2.json" md5="891521fd8f1893fa92502c7a8310d8e1" md5json="07803751606fef06c635407a3073284a">
+	<disk id="disk05" size="368640" chs="40:2:9" dir="archive/5160ROMS/5160V2" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5160V2.json" md5="891521fd8f1893fa92502c7a8310d8e1" md5json="07803751606fef06c635407a3073284a">
 		<name>IBM PC XT BIOS Sources (V2)</name>
 		<file size="542" time="2014-09-03 22:03:16" attr="0x20" md5="d9517c1c84591054f55b62da6a35bdcb">5160V2.TXT</file>
 		<file size="9426" time="2014-07-30 17:41:56" attr="0x20" md5="ccb02341ecccdb4c1c68f8b13459aece">BIOS1.ASM</file>
@@ -54,7 +54,7 @@
 		<file size="66334" time="2014-08-31 09:35:04" attr="0x20" md5="a16f0e074e32decf20f55b84303478e9">VIDEO.ASM</file>
 		<file size="79" time="2014-07-30 18:28:12" attr="0x20" md5="6ae5f7abcf2a3bbb245a967442cea8ae">XTLINK</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" dir="archive/5160ROMS/5160V3" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5160V3.json" md5="4929d74e63df6c484406ac013e2a6196" md5json="b74165015b8b2c832359855f7b5ba95c">
+	<disk id="disk06" size="368640" chs="40:2:9" dir="archive/5160ROMS/5160V3" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5160V3.json" md5="4929d74e63df6c484406ac013e2a6196" md5json="b74165015b8b2c832359855f7b5ba95c">
 		<name>IBM PC XT BIOS Sources (V3)</name>
 		<file size="563" time="2014-09-03 22:03:16" attr="0x20" md5="79068f2828c6ed07447da7d65bee19c7">5160V3.TXT</file>
 		<file size="9426" time="2014-07-30 17:41:56" attr="0x20" md5="ccb02341ecccdb4c1c68f8b13459aece">BIOS1.ASM</file>
@@ -73,7 +73,7 @@
 		<file size="66337" time="2014-08-31 09:35:06" attr="0x20" md5="200e5ee0d64be29e6af2c53c13f5e1c3">VIDEO.ASM</file>
 		<file size="79" time="2014-08-29 13:19:40" attr="0x20" md5="331be967884c8d30445cb2d90bc73f76">XTLINK</file>
 	</disk>
-	<disk id="disk07" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V1" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5170V1.json" md5="36e04aaa1a7427236d906d77584518af" md5json="ce98658e67daf4ca8b905a4ace8c2d39">
+	<disk id="disk07" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V1" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5170V1.json" md5="36e04aaa1a7427236d906d77584518af" md5json="ce98658e67daf4ca8b905a4ace8c2d39">
 		<name>IBM PC AT BIOS Sources (V1)</name>
 		<file size="903" time="2014-09-03 22:02:10" attr="0x20" md5="386c66803a066d440474dfec1a90b50a">5170V1.TXT</file>
 		<file size="151" time="2014-08-30 17:48:12" attr="0x20" md5="fc1fc46ab31f017deda0e0f67d8909dd">ATLINK</file>
@@ -108,7 +108,7 @@
 		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
 		<file size="59174" time="2014-09-03 16:37:28" attr="0x20" md5="f50d42d931a1a7e9eae5d44876e88e63">VIDEO1.ASM</file>
 	</disk>
-	<disk id="disk08" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V2" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5170V2.json" md5="d6c4361108354abad48c67ee361cbbd5" md5json="72373d7c89e9b49294e35ab7a52ec0c4">
+	<disk id="disk08" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V2" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5170V2.json" md5="d6c4361108354abad48c67ee361cbbd5" md5json="72373d7c89e9b49294e35ab7a52ec0c4">
 		<name>IBM PC AT BIOS Sources (V2)</name>
 		<file size="803" time="2014-09-03 22:02:12" attr="0x20" md5="23bd9a45384352529c1665852220983c">5170V2.TXT</file>
 		<file size="123" time="2014-08-30 16:02:52" attr="0x20" md5="27e87f57741375f508a77faa6dff5922">ATLINK</file>
@@ -137,7 +137,7 @@
 		<file size="8490" time="2018-03-03 09:59:23" attr="0x20" md5="631d38d810ec6ce970b649ac8c37cad7">VERSIONS.TXT</file>
 		<file size="64799" time="2014-08-31 09:35:00" attr="0x20" md5="d59777bc9f6a52d96f8b980e9c2ecbce">VIDEO1.ASM</file>
 	</disk>
-	<disk id="disk09" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V3" href="/pcjs-disks/pcx86/rom/ibm/IBM-BIOS-SRC-5170V3.json" md5="d8d10467992ed11534ceaf608b9589d7" md5json="95c4a525dda33949db607d9b15452d4c">
+	<disk id="disk09" size="1228800" chs="80:2:15" dir="archive/5170ROMS/5170V3" href="/pcjs-disks/pcx86/roms/ibm/IBM-BIOS-SRC-5170V3.json" md5="d8d10467992ed11534ceaf608b9589d7" md5json="95c4a525dda33949db607d9b15452d4c">
 		<name>IBM PC AT BIOS Sources (V3)</name>
 		<file size="799" time="2014-09-03 22:02:12" attr="0x20" md5="f920622ceddf495bd25543629a81aa15">5170V3.TXT</file>
 		<file size="123" time="2014-07-14 20:14:16" attr="0x20" md5="2b6d89b583af58869a9fa10fe5235d8b">ATLINK</file>

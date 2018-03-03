@@ -9,10 +9,10 @@
 		<name>IBM PC Diagnostics 1.02 (Adv)</name>
 		<from href="http://www.ibm-pc.org/diagnostic/ibm/5150/6081557.zip"/>
 	</disk>
-	<disk id="disk02" size="184320" chs="40:1:9" img="5150/2.05/archive/IBM-DIAG-205.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05/IBM-DIAG-205.json" md5="7d36a5db14175a90fec7d0e772d48853" md5json="729507e562dea1e06713ff8436cbe7af">
+	<disk id="disk02" size="184320" chs="40:1:9" img="5150/2.05/archive/5150-DIAG-205.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05/5150-DIAG-205.json" md5="7d36a5db14175a90fec7d0e772d48853" md5json="729507e562dea1e06713ff8436cbe7af">
 		<name>IBM PC Diagnostics 2.05</name>
 	</disk>
-	<disk id="disk03" size="184320" chs="40:1:9" img="5150/2.05a/archive/IBM-DIAG-205A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05a/IBM-DIAG-205A.json" md5="4cac3eede4c5713b5e50d1ee0680dd26" md5json="1b1a42e3419e6370e58a07c743e98f7f">
+	<disk id="disk03" size="184320" chs="40:1:9" img="5150/2.05a/archive/5150-DIAG-205A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05a/5150-DIAG-205A.json" md5="4cac3eede4c5713b5e50d1ee0680dd26" md5json="1b1a42e3419e6370e58a07c743e98f7f">
 		<name>IBM PC Diagnostics 2.05 (Adv)</name>
 	</disk>
 	<disk id="disk04" size="184320" chs="40:1:9" img="5150/2.20a/archive/5150-5155-5160-DIAG-220A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.20a/5150-5155-5160-DIAG-220A.json" md5="f1c6deb5474e3e8cb42bb705f71347b2" md5json="8a1a166f511c9de8efbe3aefbce681e3">

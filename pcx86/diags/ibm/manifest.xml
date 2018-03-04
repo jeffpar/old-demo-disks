@@ -26,7 +26,7 @@
 		<name>IBM PC AT Diagnostics 2.07 (Adv)</name>
 		<from href="http://www.ibm-pc.org/diagnostic/ibm/5170/5170_advanced_diagnostics_2.07.zip"/>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="fland/archive/FLAND.img" href="/pcjs-disks/pcx86/diags/ibm/fland/FLAND.json" md5="c6102b784b7285d122dc73f12a2afbe2" md5json="04438e766f20da4c5c67587b3b90a6b5">
+	<disk id="disk07" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/pcjs-disks/pcx86/diags/ibm/ega/FLAND.json" md5="c6102b784b7285d122dc73f12a2afbe2" md5json="04438e766f20da4c5c67587b3b90a6b5">
 		<name>IBM EGA FantasyLand Demo</name>
 		<file size="896" time="1983-03-08 12:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="65536" time="1984-07-23 13:42:36" attr="0x20">ATTR.MAP</file>
@@ -45,7 +45,7 @@
 		<file size="65536" time="1984-07-23 13:42:18" attr="0x20">SPEC.MAP</file>
 		<file size="11036" time="1980-01-01 02:11:06" attr="0x20">TABLE.MSG</file>
 	</disk>
-	<disk id="disk08" size="327680" chs="40:2:8" dir="archive/OLD-EGA-UTILITIES" href="/pcjs-disks/pcx86/diags/ibm/fland/OLD-EGA-UTILITIES.json" md5="413e5b2912a4cd3ec5346359f829de4f" md5json="de6be6f6e4f28d08fd9e982dc1455a58">
+	<disk id="disk08" size="327680" chs="40:2:8" dir="ega/archive/EGA-UTILITIES" href="/pcjs-disks/pcx86/diags/ibm/ega/EGA-UTILITIES.json" md5="ab5444602df17a1d34eda9143eb1714e" md5json="36cc3faa6390e9b7f5f712714a9693bf">
 		<name>IBM EGA Utilities</name>
 		<file size="1562" time="2018-02-28 14:40:10" attr="0x20" md5="c70ef4c62a5c4f5581816805fe0545fe">ALAMODE.COM</file>
 		<file size="4546" time="2018-02-28 14:40:10" attr="0x20" md5="41d08d1382e5091b97ea9fe90af7cb8d">DAZZLE.COM</file>

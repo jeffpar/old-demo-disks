@@ -27,7 +27,7 @@
 		<from href="http://www.ibm-pc.org/diagnostic/ibm/5170/5170_advanced_diagnostics_2.07.zip"/>
 	</disk>
 	<disk id="disk07" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/pcjs-disks/pcx86/diags/ibm/ega/FLAND.json" md5="c6102b784b7285d122dc73f12a2afbe2" md5json="04438e766f20da4c5c67587b3b90a6b5">
-		<name>IBM EGA FantasyLand Demo</name>
+		<name>IBM EGA Fantasy Land Demo</name>
 		<file size="896" time="1983-03-08 12:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="65536" time="1984-07-23 13:42:36" attr="0x20">ATTR.MAP</file>
 		<file size="65536" time="1980-01-01 02:06:54" attr="0x20">CHAR.MAP</file>

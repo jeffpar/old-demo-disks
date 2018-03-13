@@ -100,7 +100,7 @@
 		<file size="52162" time="1987-12-14 23:00:02" attr="0x20">VIOTBL.DCP</file>
 	</disk>
 	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/MSOS210-SUPP.img" href="/pcjs-disks/pcx86/os2/microsoft/1.0/MSOS210-SUPP.json" md5="7eecf112162929b04f5d041aa391d300" md5json="ed03919a87b305607e1ce4e02cc8bfb6">
-		<name>MS OS/2 1.0 (1.2M Supp)</name>
+		<name>MS OS/2 1.0 (1.2M Supplemental)</name>
 		<file size="9984" time="1987-12-14 23:00:02" attr="0x20">ANSI.EXE</file>
 		<file size="1694" time="1987-12-14 23:00:02" attr="0x20">ANSI.SYS</file>
 		<file size="6274" time="1987-12-14 23:00:02" attr="0x20">APPEND.EXE</file>

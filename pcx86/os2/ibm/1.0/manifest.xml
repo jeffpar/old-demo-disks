@@ -3,7 +3,7 @@
 <manifest type="software">
 	<title>IBM OS/2 1.0</title>
 	<disk id="disk00" size="1474560" chs="80:2:18" img="archive/OS210-INSTALL.img" href="/pcjs-disks/pcx86/os2/ibm/1.0/OS210-INSTALL.json" md5="7220004cba4be4be7941296a017f7ef9" md5json="8b2645c4884ad8d6a5e573d4e6869d2e">
-		<name>IBM OS/2 1.0 (1.44M Install)</name>
+		<name>IBM OS/2 1.0 (Install)</name>
 		<file size="49" time="1987-10-21 12:00:00" attr="0x20">ABIOS.SYS</file>
 		<file size="3637" time="1987-10-21 12:00:00" attr="0x20">ANSICALL.DLL</file>
 		<file size="5704" time="1987-10-21 12:00:00" attr="0x20">BKSCALLS.DLL</file>
@@ -62,7 +62,7 @@
 		<file size="13981" time="1987-10-21 12:00:00" attr="0x20">VIOCALLS.DLL</file>
 	</disk>
 	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/OS210-DISK1.img" href="/pcjs-disks/pcx86/os2/ibm/1.0/OS210-DISK1.json" md5="c9b714556472fb5aca760a28bf69c47d" md5json="c840990820cde5f84b2915e51c94982f">
-		<name>IBM OS/2 1.0 (1.44M Disk 1)</name>
+		<name>IBM OS/2 1.0 (Disk 1)</name>
 		<file size="17069" time="1987-10-21 12:00:00" attr="0x20">4201.DCP</file>
 		<file size="404" time="1987-10-21 12:00:00" attr="0x20">5202.DCP</file>
 		<file size="49" time="1987-10-21 12:00:00" attr="0x20">ABIOS.SYS</file>
@@ -120,7 +120,7 @@
 		<file size="52150" time="1987-10-21 12:00:00" attr="0x20">VIOTBL.DCP</file>
 	</disk>
 	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/OS210-DISK2.img" href="/pcjs-disks/pcx86/os2/ibm/1.0/OS210-DISK2.json" md5="34743e348b4d353f59f17668c4cbc87d" md5json="4f5a611b9ccb0993f6f4d8179ea43227">
-		<name>IBM OS/2 1.0 (1.44M Disk 2)</name>
+		<name>IBM OS/2 1.0 (Disk 2)</name>
 		<file size="9984" time="1987-10-21 12:00:00" attr="0x20">ANSI.EXE</file>
 		<file size="1694" time="1987-10-21 12:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="6258" time="1987-10-21 12:00:00" attr="0x20">APPEND.EXE</file>
@@ -162,7 +162,7 @@
 		<file size="40656" time="1987-10-21 12:00:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
 	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/OS210-DISK3.img" href="/pcjs-disks/pcx86/os2/ibm/1.0/OS210-DISK3.json" md5="50274ca9c34e7c34411f8e47068d99b8" md5json="e22372162ea98d3888ae484a14b58227">
-		<name>IBM OS/2 1.0 (1.44M Disk 3)</name>
+		<name>IBM OS/2 1.0 (Disk 3)</name>
 		<file size="49216" time="1987-10-21 12:00:00" attr="0x20">BACKUP.COM</file>
 		<file size="585" time="1987-10-21 12:00:00" attr="0x20">BASIC.COM</file>
 		<file size="36253" time="1987-10-21 12:00:00" attr="0x20">BASICA.COM</file>

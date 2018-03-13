@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.60.3/manifest.xsl"?>
+<manifest type="software">
+	<title>MS OS/2 1.21</title>
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK01.json" md5="e674e4ff83164683e3910c89f3a9aa68" md5json="a47acec9217fee0af82de0398d44a170">
+		<name>MS OS/2 1.21 (Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK02.json" md5="d43e9bf4bc83bde23eaf4102bf63e9a9" md5json="a01b5db750de453247e007f8ca6bbc29">
+		<name>MS OS/2 1.21 (Disk 2)</name>
+	</disk>
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK03.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK03.json" md5="4bcbf3444b1feb61c118a35630653091" md5json="805531bae15b1c879040634343fec49a">
+		<name>MS OS/2 1.21 (Disk 3)</name>
+	</disk>
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK04.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK04.json" md5="00968c39076db6f551cb8f107c3ee160" md5json="6f1e3a94fdea7b8aea0c996e63b038ba">
+		<name>MS OS/2 1.21 (Disk 4)</name>
+	</disk>
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK05.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK05.json" md5="d5746e924fd5c4c8cbc57ecd4bbadaa5" md5json="87e7027b4d00dc47cf15465123b63e2d">
+		<name>MS OS/2 1.21 (Disk 5)</name>
+	</disk>
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK06-INSTALLA.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK06-INSTALLA.json" md5="8ec8d5c378680669d925bdf59df614cc" md5json="40c4af456d6177e0eb57343d4f0f1ebf">
+		<name>MS OS/2 1.21 (Install A)</name>
+	</disk>
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK07-INSTALLB.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK07-INSTALLB.json" md5="35c5e4116998ce713d57590e49fa3b0d" md5json="e1e01d4fdc0b1bd62e2fd2a26d03b03f">
+		<name>MS OS/2 1.21 (Install B)</name>
+	</disk>
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK08-DRIVER1.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK08-DRIVER1.json" md5="97713bf11596279cd76c583131e515e7" md5json="c10bb9ec202d082a056745c9cb14c5e2">
+		<name>MS OS/2 1.21 (Driver 1)</name>
+	</disk>
+	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK09-DRIVER2.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK09-DRIVER2.json" md5="449d51cc5002578b33b1e4f466b4cfd9" md5json="5fbbb3f18736148ab08aee2a404b2896">
+		<name>MS OS/2 1.21 (Driver 2)</name>
+	</disk>
+</manifest>

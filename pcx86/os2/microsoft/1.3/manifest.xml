@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.60.3/manifest.xsl"?>
+<manifest type="software">
+	<title>MS OS/2 1.3</title>
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK01.json" md5="019debecaad129de89894aef86e88411" md5json="342359f33ffa7ba20bbb8591238a6f2c">
+		<name>MS OS/2 1.3 (Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK02.json" md5="c45213c6846768e164671200ff1697f8" md5json="caad8900dcba4510923988dee10f8fb6">
+		<name>MS OS/2 1.3 (Disk 2)</name>
+	</disk>
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK03.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK03.json" md5="6c053df7e78ea33007ed3d3fc2d00339" md5json="bdc93dde307c92a4c34159d79e5cadb8">
+		<name>MS OS/2 1.3 (Disk 3)</name>
+	</disk>
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK04.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK04.json" md5="8c32d3b78cdfdc98846f0faf87f8c127" md5json="e38ad6b33851ac519726b85bd10b8dc2">
+		<name>MS OS/2 1.3 (Disk 4)</name>
+	</disk>
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK05.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK05.json" md5="eae8a105cbaf4f8470916bec3c1423ae" md5json="41884d2867ec5b88085ed9fef9852d76">
+		<name>MS OS/2 1.3 (Disk 5)</name>
+	</disk>
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK06-INSTALLA.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK06-INSTALLA.json" md5="e1092864ae52b6da5992be251ea66b38" md5json="36d868b0b3c41b1efd7b313ba6263a55">
+		<name>MS OS/2 1.3 (Install A)</name>
+	</disk>
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK07-INSTALLB.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK07-INSTALLB.json" md5="a1684aec1db94e129cb0ea6e9e215dde" md5json="36113f54f208325a49c6af8a26d3c14c">
+		<name>MS OS/2 1.3 (Install B)</name>
+	</disk>
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK08-SUPP.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK08-SUPP.json" md5="785a99c99fe51cb70a77a4413a725a43" md5json="37bada4e0ce3c44300287e6718290b97">
+		<name>MS OS/2 1.3 (Supplemental)</name>
+	</disk>
+	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK09-DRIVER1.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK09-DRIVER1.json" md5="02d376a1f34dbcc1e038340778a38eea" md5json="5e308f37084934f1f1bfade1c4ed675b">
+		<name>MS OS/2 1.3 (Driver 1)</name>
+	</disk>
+	<disk id="disk10" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK10-DRIVER2.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK10-DRIVER2.json" md5="7ef0198544f9ae1960ff1eb9258773cf" md5json="1a5c2fd1ef7f75fdda214de884385e4a">
+		<name>MS OS/2 1.3 (Driver 2)</name>
+	</disk>
+	<disk id="disk11" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK11-FONT.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK11-FONT.json" md5="247783c1b6450b216202717f98eb90f1" md5json="bd3d596fcbbd3f08ddd6286b1dd43739">
+		<name>MS OS/2 1.3 (Font)</name>
+	</disk>
+</manifest>

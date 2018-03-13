@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.60.3/manifest.xsl"?>
+<manifest type="software">
+	<title>MS OS/2 1.1</title>
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/Disk01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK01.json" md5="3a6a7901abcc3bc593b100c664543bbc" md5json="f375d6546f45b9d3bcb0942fba2d61be">
+		<name>MS OS/2 1.1 (Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/Disk02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK02.json" md5="5385fb31d4fceda0897069175ff4a401" md5json="9b275e92326585e2706e9ff90a765f8a">
+		<name>MS OS/2 1.1 (Disk 2)</name>
+	</disk>
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/Disk03.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK03.json" md5="b86f8aee07f2bfb1d8e80158b643d3fd" md5json="d9af1262c4267a7d47aefe4b36f1cbf8">
+		<name>MS OS/2 1.1 (Disk 3)</name>
+	</disk>
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/Disk04.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK04.json" md5="be8d460615729f5e60ac9799a92139f8" md5json="9ce1bd94534fabc347b4ccc8ef3c76ba">
+		<name>MS OS/2 1.1 (Disk 4)</name>
+	</disk>
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/Drivers.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK05-DRIVERS.json" md5="47ba1102f1abc9ee0f36fc18aa52d7b9" md5json="a0865e8d8ff466446b091250d4bb5e85">
+		<name>MS OS/2 1.1 (Drivers)</name>
+	</disk>
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/Dualboot.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK06-DUALBOOT.json" md5="c4cb638cffa48e1f3991188c7062eb85" md5json="c730c272cc6605372030e2c6f0c1bd8a">
+		<name>MS OS/2 1.1 (Dual Boot)</name>
+	</disk>
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/Install.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK07-INSTALL.json" md5="8b42aca07ff00dbad4647a84bfac117c" md5json="233479eb5a4f24188f49eb0513ba1c3b">
+		<name>MS OS/2 1.1 (Install)</name>
+	</disk>
+	<disk id="disk08" size="737280" chs="80:2:9" img="archive/MS LAN Manager (DOS).img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK08-LANMAN-DOS.json" md5="a326c2de2d71883f26571fd34aff49dd" md5json="00a6295cd07caef65c35731f1975c596">
+		<name>MS OS/2 1.1 (LanMan DOS)</name>
+	</disk>
+	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/MS LAN Manager (OS2) Disk01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK09-LANMAN-OS2-1.json" md5="a052224ee50910c7bf0ee424506e9ca2" md5json="e5f5672f7879f3ae17af40ddda004815">
+		<name>MS OS/2 1.3 (LanMan OS/2 1)</name>
+	</disk>
+	<disk id="disk10" size="1474560" chs="80:2:18" img="archive/MS LAN Manager (OS2) Disk02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK10-LANMAN-OS2-2.json" md5="5f53876ac303a06d1cd5e11c8628326c" md5json="c0873f09f9375e049aeb4ae47fe45048">
+		<name>MS OS/2 1.3 (LanMan OS/2 2)</name>
+	</disk>
+</manifest>

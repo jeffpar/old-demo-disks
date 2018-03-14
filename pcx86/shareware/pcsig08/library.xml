@@ -2,6 +2,16 @@
 <fdc id="fdcNEC" pos="left" padLeft="8px" padBottom="8px">
 	<control type="list" binding="listDrives"/>
 	<control type="list" binding="listDisks">
+		<manifest ref="/apps/pcx86/1981/visicalc/manifest.xml"/>
+		<manifest ref="/apps/pcx86/1982/esuite/manifest.xml"/>
+		<manifest ref="/apps/pcx86/1982/ratbas/manifest.xml"/>
+		<manifest ref="/apps/pcx86/1983/adventmath/manifest.xml"/>
+		<manifest ref="/apps/pcx86/1985/castle_adventure/manifest.xml"/>
+		<manifest ref="/apps/pcx86/1985/rogue/manifest.xml"/>
+		<manifest ref="/apps/pcx86/1987/thinktank/manifest.xml"/>
+		<manifest ref="/apps/pcx86/1992/moria/manifest.xml"/>
+		<manifest ref="/pubs/pc/programming/manifest.xml"/>
+		<manifest ref="/tests/pcx86/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/empty/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/cpm/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/cpm/1.1b/manifest.xml"/>
@@ -158,21 +168,11 @@
 		<manifest ref="/pcjs-disks/pcx86/games/microsoft/flightsim/1982/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/games/microsoft/flightsim/1984/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/games/other/wizardry1/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/personal/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/roms/ibm/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pcmag/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pctj/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pcsig08/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/personal/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1981/visicalc/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1982/esuite/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1982/ratbas/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1983/adventmath/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1985/castle_adventure/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1985/rogue/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1987/thinktank/manifest.xml"/>
-		<manifest ref="/apps/pcx86/1992/moria/manifest.xml"/>
-		<manifest ref="/pubs/pc/programming/manifest.xml"/>
-		<disk path="/tests/pcx86/vga/VGABIN.json">VGA Tests (Black Book)</disk>
 	</control>
 	<control type="button" binding="loadDisk">Load</control>
 	<control type="button" binding="saveDisk" padRight="8px">Save</control>

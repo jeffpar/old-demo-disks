@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.61.0/manifest.xsl"?>
+<manifest type="software">
+	<title>MS QuickPascal</title>
+	<version>1.00</version>
+	<type>Utility</type>
+	<category>Compiler</category>
+	<language>Pascal</language>
+	<author>Microsoft</author>
+	<releaseDate/>
+	<disk id="disk01" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK1-SETUP.json" md5="7cbb21d116feef5d564e82b23c7d3321" md5json="a2a9f85b8a303167712d4c0bc6fcf00b">
+		<name>MS QuickPascal 1.00 (720K Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK2-ADVISOR.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK2-ADVISOR.json" md5="e21544674bc92e27ba67111040304da6" md5json="cba34a6c513d0061283ee7548fdab63d">
+		<name>MS QuickPascal 1.00 (720K Disk 2)</name>
+	</disk>
+	<disk id="disk03" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
+		<name>MS QuickPascal 1.00 (720K Disk 3)</name>
+	</disk>
+</manifest>

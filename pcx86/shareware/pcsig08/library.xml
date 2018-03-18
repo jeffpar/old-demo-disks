@@ -116,8 +116,13 @@
 		<manifest ref="/pcjs-disks/pcx86/apps/other/wordstar/pcjr/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/borland/sidekick/1.11c/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/borland/sidekick/1.56/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/tools/borland/tpascal/3.00b/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/tools/borland/tpascal/3.01a/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/2.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/3.00b/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/3.01a/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/4.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/5.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/5.50/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/6.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/dresearch/pascal/3.11/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/basic/compiler/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/basic/compiler/2.00/manifest.xml"/>
@@ -147,8 +152,9 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/mouse/5.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/mouse/6.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/pascal/3.31/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/pascal/4.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/pascal/compiler/3.31/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/pascal/compiler/4.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.01/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.03/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/windows/sdk/1.04/manifest.xml"/>

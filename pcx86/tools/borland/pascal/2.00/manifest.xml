@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.61.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Borland Turbo Pascal</title>
+	<version>2.00</version>
+	<disk id="disk01" size="184320" chs="40:1:9" img="archive/TURBO-PASCAL-200.img" href="/pcjs-disks/pcx86/tools/borland/pascal/2.00/TURBO-PASCAL-200.json" md5="63f979aebb246a502c7a1a63858b5188" md5json="4b708810332a2df959a4edc411c5e2b3">
+		<name>Borland Turbo Pascal 2.00</name>
+	</disk>
+</manifest>

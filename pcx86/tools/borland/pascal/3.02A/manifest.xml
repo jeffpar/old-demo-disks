@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.61.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Borland Turbo Pascal</title>
+	<version>3.01A</version>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-302A.img" href="/pcjs-disks/pcx86/tools/borland/pascal/3.02A/TURBO-PASCAL-302A.json" md5="5be9d963aa20b3b156ce90e93573e088" md5json="d5e998011fb26d722360ca0e02be30f7">
+		<name>Borland Turbo Pascal 3.02A</name>
+	</disk>
+</manifest>

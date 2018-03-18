@@ -6,13 +6,13 @@
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-550-INSTALL.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.50/TURBO-PASCAL-550-INSTALL.json" md5="f4972bcccce2f2ab0c215360338d2a17" md5json="0544cd399e10bb22ca1a7f07bbdb36b8">
 		<name>Borland Turbo Pascal 5.50 (INSTALL)</name>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-550-UTILS.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.50/TURBO-PASCAL-550-UTILS.json" md5="1ce78d8d265660d4f7b976ee69273603" md5json="9301d0b941372cfd8eb03a5e20db19eb">
-		<name>Borland Turbo Pascal 5.50 (UTILS)</name>
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-550-UTILITY.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.50/TURBO-PASCAL-550-UTILITY.json" md5="1ce78d8d265660d4f7b976ee69273603" md5json="9301d0b941372cfd8eb03a5e20db19eb">
+		<name>Borland Turbo Pascal 5.50 (UTILITY)</name>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-550-DEMOS.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.50/TURBO-PASCAL-550-DEMOS.json" md5="80b75c6a1e1c8fdce81be2b7f2c4e324" md5json="5c39afeda7749fdb3dcf05d3685a8560">
-		<name>Borland Turbo Pascal 5.50 (DEMOS)</name>
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-550-BGI.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.50/TURBO-PASCAL-550-BGI.json" md5="80b75c6a1e1c8fdce81be2b7f2c4e324" md5json="5c39afeda7749fdb3dcf05d3685a8560">
+		<name>Borland Turbo Pascal 5.50 (BGI)</name>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-550-TOUR.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.50/TURBO-PASCAL-550-TOUR.json" md5="0ef47621daa34a05447b7654389bfd69" md5json="89f1f82f7012c8f9498e7a3926fd64d2">
-		<name>Borland Turbo Pascal 5.50 (TOUR)</name>
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-550-HELP.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.50/TURBO-PASCAL-550-HELP.json" md5="0ef47621daa34a05447b7654389bfd69" md5json="89f1f82f7012c8f9498e7a3926fd64d2">
+		<name>Borland Turbo Pascal 5.50 (HELP)</name>
 	</disk>
 </manifest>

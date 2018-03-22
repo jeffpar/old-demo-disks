@@ -8,13 +8,28 @@
 	<language>Pascal</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK1-SETUP.json" md5="7cbb21d116feef5d564e82b23c7d3321" md5json="a2a9f85b8a303167712d4c0bc6fcf00b">
+	<disk id="disk01" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK1.json" md5="76d461d4454287effbb565433aab11ce" md5json="291bb123fe0d49910b0c2a61ddc1df8c">
+		<name>MS QuickPascal 1.00 (Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK2.json" md5="b8c03331806a62fc6ec1e082f4c583e2" md5json="6fd153eb6eab5d881bb31a32bcc8f1ad">
+		<name>MS QuickPascal 1.00 (Disk 2)</name>
+	</disk>
+	<disk id="disk03" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK3.json" md5="0e4ec27c0e253e975d0c1c89b3040473" md5json="47285a35622d0c38f0afe43273a424a8">
+		<name>MS QuickPascal 1.00 (Disk 3)</name>
+	</disk>
+	<disk id="disk04" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK4.json" md5="0d92d9b03c5b5584e0d8f798617853a9" md5json="3a690a4a1bd8aa1112c00d33a717c351">
+		<name>MS QuickPascal 1.00 (Disk 4)</name>
+	</disk>
+	<disk id="disk05" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK5.json" md5="1de9c17ab83deb4cfb33fa729eacdf59" md5json="5e76f0fd398488fe628feffb53b599e2">
+		<name>MS QuickPascal 1.00 (Disk 5)</name>
+	</disk>
+	<disk id="disk06" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK1-SETUP.json" md5="7cbb21d116feef5d564e82b23c7d3321" md5json="a2a9f85b8a303167712d4c0bc6fcf00b">
 		<name>MS QuickPascal 1.00 (720K Disk 1)</name>
 	</disk>
-	<disk id="disk02" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK2-ADVISOR.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK2-ADVISOR.json" md5="e21544674bc92e27ba67111040304da6" md5json="cba34a6c513d0061283ee7548fdab63d">
+	<disk id="disk07" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK2-ADVISOR.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK2-ADVISOR.json" md5="e21544674bc92e27ba67111040304da6" md5json="cba34a6c513d0061283ee7548fdab63d">
 		<name>MS QuickPascal 1.00 (720K Disk 2)</name>
 	</disk>
-	<disk id="disk03" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
+	<disk id="disk08" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
 		<name>MS QuickPascal 1.00 (720K Disk 3)</name>
 	</disk>
 </manifest>

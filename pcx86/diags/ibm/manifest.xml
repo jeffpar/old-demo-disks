@@ -75,4 +75,10 @@
 	<disk id="disk14" size="368640" chs="40:2:9" img="5170/2.00/archive/5170-DIAG-200.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.00/5170-DIAG-200.json" md5="72f5a003917c61ed1aea67fa44a39b73" md5json="11f8d5dec5275202ce2854666ac4884f">
 		<name>IBM PC AT Diagnostics 2.00</name>
 	</disk>
+	<disk id="disk15" size="163840" chs="40:1:8" img="5150/exploring/1.00/archive/EXPLORING-THE-IBM-PC-100.img" href="/pcjs-disks/pcx86/diags/ibm/5150/exploring/1.00/EXPLORING-THE-IBM-PC-100.json" md5="79cc5cb0d1d7a5d59f5a7c66ce02be77" md5json="a2171defca52c7246e9f05180fba0564">
+		<name>Exploring the IBM PC 1.00</name>
+	</disk>
+	<disk id="disk16" size="368640" chs="40:2:9" img="5170/exploring/1.00/archive/EXPLORING-THE-IBM-PC-AT-100.img" href="/pcjs-disks/pcx86/diags/ibm/5170/exploring/1.00/EXPLORING-THE-IBM-PC-AT-100.json" md5="4f64b05909f14a31948722c7a97816be" md5json="236900d39b4196e391ea776835fbb042">
+		<name>Exploring the IBM PC AT 1.00</name>
+	</disk>
 </manifest>

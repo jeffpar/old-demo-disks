@@ -167,27 +167,4 @@
 		<file size="3823" time="1986-08-14 12:00:00" attr="0x20">SYS.COM</file>
 		<file size="4" time="1986-08-14 12:00:00" attr="0x20">YCR</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/COMPAQ-DESKPRO386-SUPP-1986-08-08.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DESKPRO386-SUPP-1986-08-08.json" md5="e5a1bb4d2e3a59fe35d6f668e7b62181" md5json="f4dfc75b9d2af8ab2ffa0bad96ba471b">
-		<name>COMPAQ DESKPRO 386 (1986)</name>
-		<file size="74" time="1986-08-08 12:00:00" attr="0x20">1.BAT</file>
-		<file size="73" time="1986-08-08 12:00:00" attr="0x20">2.BAT</file>
-		<file size="71" time="1986-08-08 12:00:00" attr="0x20">3.BAT</file>
-		<file size="71" time="1986-08-08 12:00:00" attr="0x20">4.BAT</file>
-		<file size="71" time="1986-08-08 12:00:00" attr="0x20">5.BAT</file>
-		<file size="33" time="1986-08-08 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
-		<file size="963" time="1986-08-08 12:00:00" attr="0x20">CEMM.COM</file>
-		<file size="64736" time="1986-08-08 12:00:00" attr="0x20">CEMM.EXE</file>
-		<file size="397" time="1986-08-08 12:00:00" attr="0x20">CEMMC.SCR</file>
-		<file size="672" time="1986-08-08 12:00:00" attr="0x20">CEMME.SCR</file>
-		<file size="23210" time="1986-03-27 11:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="9259" time="1986-08-08 12:00:00" attr="0x20">DISKINIT.COM</file>
-		<file size="670" time="1986-08-08 12:00:00" attr="0x20">DISKINIT.SCR</file>
-		<file size="9728" time="1986-03-27 11:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="27760" time="1986-03-27 11:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="31808" time="1986-08-08 12:00:00" attr="0x20">INST386.EXE</file>
-		<file size="713" time="1986-08-08 12:00:00" attr="0x20">INST386.SCR</file>
-		<file size="1788" time="1986-08-08 12:00:00" attr="0x20">README.CPQ</file>
-		<file size="567" time="1986-08-08 12:00:00" attr="0x20">VDISK.SCR</file>
-		<file size="3420" time="1986-08-08 12:00:00" attr="0x20">VDISK.SYS</file>
-	</disk>
 </manifest>

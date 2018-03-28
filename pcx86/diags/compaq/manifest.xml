@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.61.0/manifest.xsl"?>
+<manifest type="software">
+	<title>COMPAQ Diagnostics and Utilities</title>
+	<type>Utilities</type>
+	<author>COMPAQ</author>
+	<disk id="disk01" size="368640" chs="40:2:9" img="5.06/archive/COMPAQ-UTILS-506-110387-REVG.img" href="/pcjs-disks/pcx86/diags/compaq/5.06/COMPAQ-UTILS-506-110387-REVG.json" md5="2e07a02907dcc90b56b1f649cfb442de" md5json="cac7728c3808aa70198b24dcf107701c">
+		<name>COMPAQ Utilities 5.06</name>
+	</disk>
+	<disk id="disk02" size="368640" chs="40:2:9" img="5.08/archive/COMPAQ-DIAGS-508-012988-REVK.img" href="/pcjs-disks/pcx86/diags/compaq/5.08/COMPAQ-DIAGS-508-012988-REVK.json" md5="a23cc98d904e01e233c9682b4d1cf413" md5json="658e35ede4a47db9ed85f97d98ab7cf8">
+		<name>COMPAQ Diagnostics 5.08</name>
+	</disk>
+</manifest>

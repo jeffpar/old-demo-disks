@@ -16,6 +16,7 @@
 		<manifest ref="/pcjs-disks/pcx86/cpm/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/cpm/1.1b/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/diags/ibm/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/diags/compaq/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/0.90/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/1.10/manifest.xml"/>

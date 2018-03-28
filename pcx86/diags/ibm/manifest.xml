@@ -5,28 +5,180 @@
 	<type>Diagnostics</type>
 	<category>Hardware Tests</category>
 	<author>IBM</author>
-	<disk id="disk01" size="163840" chs="40:1:8" img="5150/1.02a/archive/5150-DIAG-102A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.02a/5150-DIAG-102A.json" md5="47feef7debbb760ed889e882dd578248" md5json="5117281fcafb8e298954957b40aeebd6">
+	<disk id="disk01" size="163840" chs="40:1:8" img="5150/1.02a/archive/5150-DIAG-102A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.02a/5150-DIAG-102A.json" md5="a1714fc5af10e82d7a0c4424d3122893" md5json="f498cb7d77964e89a1c5b2187edb9fda">
 		<name>IBM PC Diagnostics 1.02 (Adv)</name>
 		<from href="http://www.ibm-pc.org/diagnostic/ibm/5150/6081557.zip"/>
+		<file size="2367" time="1982-02-09 17:37:32" attr="0x20">CMD99.COM</file>
+		<file size="943" time="1982-02-09 17:36:40" attr="0x20">COMMAND.COM</file>
+		<file size="3199" time="1982-02-09 17:38:34" attr="0x20">DCOPY.COM</file>
+		<file size="2688" time="1982-02-09 17:40:58" attr="0x20">DFORMAT.COM</file>
+		<file size="20031" time="1982-02-10 11:10:28" attr="0x20">DIAGS.COM</file>
+		<file size="1920" time="1981-07-23 00:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="6400" time="1981-08-13 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
 	<disk id="disk02" size="184320" chs="40:1:9" img="5150/2.05/archive/5150-DIAG-205.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05/5150-DIAG-205.json" md5="7d36a5db14175a90fec7d0e772d48853" md5json="729507e562dea1e06713ff8436cbe7af">
 		<name>IBM PC Diagnostics 2.05</name>
+		<file size="3582" time="1983-10-21 09:00:04" attr="0x20">COMMAND.COM</file>
+		<file size="2302" time="1983-10-21 09:04:02" attr="0x20">DCOPY.COM</file>
+		<file size="872" time="1983-10-21 09:05:12" attr="0x20">DFORMAT.COM</file>
+		<file size="3585" time="1983-10-21 09:10:38" attr="0x20">DIAGS.COM</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="436" time="1983-06-03 09:52:28" attr="0x20">SHIPDISK.COM</file>
+		<file size="5417" time="1983-06-03 08:47:56" attr="0x20">US0BSC.DGS</file>
+		<file size="695" time="1983-10-21 09:18:10" attr="0x20">US0CPU.DGS</file>
+		<file size="3977" time="1983-10-21 11:20:42" attr="0x20">US0CUA.DGS</file>
+		<file size="762" time="1983-10-21 11:14:50" attr="0x20">US0EXP.DGS</file>
+		<file size="1564" time="1983-06-03 09:32:08" attr="0x20">US0GCTL.DGS</file>
+		<file size="784" time="1983-06-03 09:27:42" attr="0x20">US0KBD.DGS</file>
+		<file size="2318" time="1983-10-21 09:44:22" attr="0x20">US0M87.DGS</file>
+		<file size="1242" time="1983-10-21 09:30:28" attr="0x20">US0PAR.DGS</file>
+		<file size="870" time="1983-10-21 09:28:30" attr="0x20">US0PRT.DGS</file>
+		<file size="557" time="1983-10-21 09:17:12" attr="0x20">US0STG.DGS</file>
+		<file size="3912" time="1983-06-03 09:04:36" attr="0x20">US1CDG.DGS</file>
+		<file size="2732" time="1983-10-21 09:56:58" attr="0x20">US1CPRT.DGS</file>
+		<file size="3455" time="1983-10-21 09:21:12" attr="0x20">US1DSK.DGS</file>
+		<file size="2301" time="1983-06-28 12:56:04" attr="0x20">US1FDK.DGS</file>
+		<file size="3029" time="1983-11-22 04:17:36" attr="0x20">US1PCL.DGS</file>
+		<file size="5045" time="1983-06-03 10:50:20" attr="0x20">US1SDL.DGS</file>
+		<file size="3661" time="1983-09-30 19:03:58" attr="0x20">US1SRL.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
+		<file size="78" time="1983-11-04 10:25:16" attr="0x20">VERSION.205</file>
 	</disk>
 	<disk id="disk03" size="184320" chs="40:1:9" img="5150/2.05a/archive/5150-DIAG-205A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05a/5150-DIAG-205A.json" md5="4cac3eede4c5713b5e50d1ee0680dd26" md5json="1b1a42e3419e6370e58a07c743e98f7f">
 		<name>IBM PC Diagnostics 2.05 (Adv)</name>
+		<file size="3598" time="1983-10-21 09:01:38" attr="0x20">COMMAND.COM</file>
+		<file size="2302" time="1983-10-21 09:04:02" attr="0x20">DCOPY.COM</file>
+		<file size="872" time="1983-10-21 09:05:12" attr="0x20">DFORMAT.COM</file>
+		<file size="3933" time="1983-10-21 09:16:24" attr="0x20">DIAGS.COM</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="436" time="1983-06-03 09:52:28" attr="0x20">SHIPDISK.COM</file>
+		<file size="5417" time="1983-06-03 08:47:56" attr="0x20">US0BSC.DGS</file>
+		<file size="695" time="1983-10-21 09:18:10" attr="0x20">US0CPU.DGS</file>
+		<file size="3977" time="1983-10-21 11:20:42" attr="0x20">US0CUA.DGS</file>
+		<file size="762" time="1983-10-21 11:14:50" attr="0x20">US0EXP.DGS</file>
+		<file size="1564" time="1983-06-03 09:32:08" attr="0x20">US0GCTL.DGS</file>
+		<file size="784" time="1983-06-03 09:27:42" attr="0x20">US0KBD.DGS</file>
+		<file size="2318" time="1983-10-21 09:44:22" attr="0x20">US0M87.DGS</file>
+		<file size="1242" time="1983-10-21 09:30:28" attr="0x20">US0PAR.DGS</file>
+		<file size="870" time="1983-10-21 09:28:30" attr="0x20">US0PRT.DGS</file>
+		<file size="557" time="1983-10-21 09:17:12" attr="0x20">US0STG.DGS</file>
+		<file size="4209" time="1983-06-03 09:06:28" attr="0x20">US2CDG.DGS</file>
+		<file size="2806" time="1983-10-21 09:59:38" attr="0x20">US2CPRT.DGS</file>
+		<file size="6232" time="1983-10-21 09:27:18" attr="0x20">US2DSK.DGS</file>
+		<file size="3033" time="1983-06-28 13:03:22" attr="0x20">US2FDK.DGS</file>
+		<file size="3207" time="1983-10-21 11:30:38" attr="0x20">US2PCL.DGS</file>
+		<file size="5367" time="1983-06-03 11:03:22" attr="0x20">US2SDL.DGS</file>
+		<file size="4404" time="1983-09-30 19:16:18" attr="0x20">US2SRL.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
+		<file size="78" time="1983-06-03 08:05:46" attr="0x20">VERSION.205</file>
 	</disk>
-	<disk id="disk04" size="184320" chs="40:1:9" img="5150/2.20a/archive/5150-5155-5160-DIAG-220A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.20a/5150-5155-5160-DIAG-220A.json" md5="f1c6deb5474e3e8cb42bb705f71347b2" md5json="8a1a166f511c9de8efbe3aefbce681e3">
+	<disk id="disk04" size="184320" chs="40:1:9" img="5150/2.20a/archive/5150-5155-5160-DIAG-220A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.20a/5150-5155-5160-DIAG-220A.json" md5="c8b5542a0e8699e695338e4351cc6e82" md5json="ed0352739e222a44488cd97f1c1e0eb5">
 		<name>IBM PC Diagnostics 2.20 (Adv)</name>
 		<from href="http://minuszerodegrees.net/software/5150_5155_5160_advanced_diagnostics_2.20/6139804.IMG"/>
+		<file size="4012" time="1985-11-12 09:44:32" attr="0x20">COMMAND.COM</file>
+		<file size="2293" time="1985-11-12 09:44:56" attr="0x20">DCOPY.COM</file>
+		<file size="940" time="1985-11-12 09:45:12" attr="0x20">DFORMAT.COM</file>
+		<file size="4444" time="1985-11-12 09:46:42" attr="0x20">DIAGS.COM</file>
+		<file size="4825" time="1985-11-12 09:52:08" attr="0x20">EXTDRV2.DGS</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="974" time="1986-01-08 10:06:36" attr="0x20">SHIPDISK.COM</file>
+		<file size="5417" time="1985-11-12 07:31:28" attr="0x20">US0BSC.DGS</file>
+		<file size="695" time="1985-11-12 07:31:56" attr="0x20">US0CPU.DGS</file>
+		<file size="3864" time="1985-11-12 08:13:04" attr="0x20">US0CUA.DGS</file>
+		<file size="762" time="1985-11-12 07:31:42" attr="0x20">US0EXP.DGS</file>
+		<file size="1590" time="1985-11-12 07:36:36" attr="0x20">US0GCTL.DGS</file>
+		<file size="1934" time="1985-11-12 07:36:18" attr="0x20">US0KBD.DGS</file>
+		<file size="2316" time="1985-11-12 07:58:54" attr="0x20">US0M87.DGS</file>
+		<file size="1021" time="1985-11-12 07:44:50" attr="0x20">US0PAR.DGS</file>
+		<file size="5811" time="1985-11-21 10:06:48" attr="0x20">US0PCN.DGS</file>
+		<file size="971" time="1985-11-12 07:34:34" attr="0x20">US0PRT.DGS</file>
+		<file size="557" time="1985-11-12 07:34:20" attr="0x20">US0STG.DGS</file>
+		<file size="9505" time="1985-11-15 15:03:02" attr="0x20">US2ADG2.DGS</file>
+		<file size="2779" time="1985-11-12 08:12:18" attr="0x20">US2CPRT.DGS</file>
+		<file size="6200" time="1985-11-12 08:42:28" attr="0x20">US2DAC.DGS</file>
+		<file size="6669" time="1985-11-12 07:37:52" attr="0x20">US2DSK.DGS</file>
+		<file size="4688" time="1986-01-08 10:12:14" attr="0x20">US2FDK.DGS</file>
+		<file size="6733" time="1985-11-12 08:40:28" attr="0x20">US2GPIB.DGS</file>
+		<file size="3310" time="1985-11-12 08:14:16" attr="0x20">US2PCL.DGS</file>
+		<file size="10180" time="1985-11-12 09:04:08" attr="0x20">US2PGC.DGS</file>
+		<file size="5367" time="1985-11-12 07:58:32" attr="0x20">US2SDL.DGS</file>
+		<file size="4414" time="1985-11-12 07:44:34" attr="0x20">US2SRL.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
+		<file size="35" time="1985-11-12 10:02:20" attr="0x20">VERSION.220</file>
+		<file size="8831" time="1985-12-04 08:12:52" attr="0x20">VOICE17.DGS</file>
 	</disk>
 	<disk id="disk05" size="368640" chs="40:2:9" img="5170/1.01a/archive/5170-DIAG-101A.img" href="/pcjs-disks/pcx86/diags/ibm/5170/1.01a/5170-DIAG-101A.json" md5="bc9cd367c9ee4d8d4deef2f01acc295a" md5json="5fd4bcf041df7ec0a89bd02248cc3cd0">
 		<name>IBM PC AT Diagnostics 1.01 (Adv)</name>
+		<file size="2358" time="1983-04-14 08:20:06" attr="0x20">ASYNC03.DGS</file>
+		<file size="5116" time="1983-08-10 13:26:00" attr="0x20">BSC03.DGS</file>
+		<file size="30032" time="1984-04-18 08:14:36" attr="0x20">COMMAND.COM</file>
+		<file size="4799" time="1984-04-23 08:34:30" attr="0x20">COPROC.DGS</file>
+		<file size="2731" time="1983-12-01 12:56:06" attr="0x20">CPS200.DGS</file>
+		<file size="1117" time="1983-12-01 09:15:06" attr="0x20">CPS80.DGS</file>
+		<file size="1567" time="1984-02-17 09:24:46" attr="0x20">DCOPY.COM</file>
+		<file size="1085" time="1984-02-01 09:42:46" attr="0x20">DFORMAT.COM</file>
+		<file size="3569" time="1984-02-16 10:15:32" attr="0x20">DIAGS.COM</file>
+		<file size="4898" time="1984-03-29 12:38:02" attr="0x20">DISPLAY2.DGS</file>
+		<file size="7795" time="1984-05-03 11:06:46" attr="0x20">DSETTUP.COM</file>
+		<file size="6208" time="1984-04-13 12:26:02" attr="0x20">EDSDSKT2.DGS</file>
+		<file size="25758" time="1984-03-22 10:45:58" attr="0x20">EDSFD2.DGS</file>
+		<file size="1476" time="1983-10-17 13:50:40" attr="0x20">GAME03.DGS</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="6148" time="1984-02-29 16:32:26" attr="0x20">KYBD.DGS</file>
+		<file size="690" time="1983-11-30 13:22:54" attr="0x20">PARA2.DGS</file>
+		<file size="1936" time="1984-04-09 09:13:06" attr="0x20">PCNET.DGS</file>
+		<file size="5824" time="1983-08-11 09:53:02" attr="0x20">SDLC03.DGS</file>
+		<file size="690" time="1983-10-10 08:25:14" attr="0x20">SHIPDISK.COM</file>
+		<file size="1280" time="1983-11-11 10:10:16" attr="0x20">SHUTDOWN.EXE</file>
+		<file size="1827" time="1984-04-26 16:16:50" attr="0x20">STORAGE.DGS</file>
+		<file size="7366" time="1984-05-03 11:28:04" attr="0x20">SYSTEST.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
+		<file size="44" time="1983-02-03 09:10:12" attr="0x20">VERSION.101</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="5170/2.07a/archive/5170-DIAG-207A.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.07a/5170-DIAG-207A.json" md5="e9dfb14f7c3b0788de6891fb58d288da" md5json="5efa50f5b15e60e18ccc63ba87122d88">
+	<disk id="disk06" size="368640" chs="40:2:9" img="5170/2.07a/archive/5170-DIAG-207A.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.07a/5170-DIAG-207A.json" md5="6adc89ce3f46c4c52f2439b784679a39" md5json="7465226d02d690521454f313df197c8e">
 		<name>IBM PC AT Diagnostics 2.07 (Adv)</name>
 		<from href="http://www.ibm-pc.org/diagnostic/ibm/5170/5170_advanced_diagnostics_2.07.zip"/>
+		<file size="2558" time="1987-01-20 09:57:08" attr="0x20">ASYNC.DGS</file>
+		<file size="5080" time="1987-01-20 09:58:00" attr="0x20">BSC03.DGS</file>
+		<file size="2792" time="1987-01-20 10:19:34" attr="0x20">CLUSTER2.DGS</file>
+		<file size="35104" time="1987-01-20 10:34:40" attr="0x20">COMMAND.COM</file>
+		<file size="4846" time="1987-01-20 10:20:30" attr="0x20">COPROC.DGS</file>
+		<file size="2731" time="1987-01-20 09:58:56" attr="0x20">CPS200.DGS</file>
+		<file size="1273" time="1987-01-20 09:59:18" attr="0x20">CPS80.DGS</file>
+		<file size="1585" time="1987-01-20 09:58:24" attr="0x20">DCOPY.COM</file>
+		<file size="1254" time="1987-01-20 09:59:40" attr="0x20">DFORMAT.COM</file>
+		<file size="3986" time="1987-01-20 09:56:30" attr="0x20">DIAGS.COM</file>
+		<file size="26432" time="1987-01-20 10:06:04" attr="0x20">DISK2.DGS</file>
+		<file size="11218" time="1987-01-20 10:11:02" attr="0x20">DISPLAY2.DGS</file>
+		<file size="8892" time="1987-01-20 10:18:32" attr="0x20">DSETTUP.COM</file>
+		<file size="7345" time="1987-01-20 11:16:16" attr="0x20">EDSDSKT2.DGS</file>
+		<file size="2078" time="1987-01-20 10:00:12" attr="0x20">GAME.DGS</file>
+		<file size="22358" time="1987-01-20 10:16:40" attr="0x20">HDISPD.DGS</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="9538" time="1987-01-20 10:04:06" attr="0x20">KYBD.DGS</file>
+		<file size="7755" time="1987-01-20 10:54:10" attr="0x20">MUSIC2.DGS</file>
+		<file size="746" time="1987-01-20 10:00:38" attr="0x20">PARA2.DGS</file>
+		<file size="5745" time="1987-01-20 10:01:52" attr="0x20">SDLC03.DGS</file>
+		<file size="690" time="1987-01-20 10:00:50" attr="0x20">SHIPDISK.COM</file>
+		<file size="1169" time="1987-01-20 10:02:00" attr="0x20">SHUTDOWN.EXE</file>
+		<file size="1875" time="1987-01-20 09:54:58" attr="0x20">STORAGE.DGS</file>
+		<file size="7382" time="1987-01-20 10:03:04" attr="0x20">SYSTEST.DGS</file>
+		<file size="6073" time="1987-01-20 10:42:22" attr="0x20">US0PCN.DGS</file>
+		<file size="3620" time="1987-01-20 10:46:02" attr="0x20">US0XMA2.DGS</file>
+		<file size="6200" time="1987-01-20 10:36:30" attr="0x20">US2DAC.DGS</file>
+		<file size="7546" time="1987-01-20 10:44:12" attr="0x20">US2EDRV.DGS</file>
+		<file size="6785" time="1987-01-20 10:38:46" attr="0x20">US2GPIB.DGS</file>
+		<file size="10196" time="1987-01-20 10:41:34" attr="0x20">US2PGC.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
+		<file size="35" time="1987-01-20 10:20:36" attr="0x20">VERSION.207</file>
+		<file size="8831" time="1987-01-20 10:45:26" attr="0x20">VOICE17.DGS</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/pcjs-disks/pcx86/diags/ibm/ega/FLAND.json" md5="c6102b784b7285d122dc73f12a2afbe2" md5json="04438e766f20da4c5c67587b3b90a6b5">
+	<disk id="disk07" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/pcjs-disks/pcx86/diags/ibm/ega/FLAND.json" md5="ac90a61fb7a3bf39751524246d211ee8" md5json="85d290e55bc3176a49956b536dc011b7">
 		<name>IBM EGA Fantasy Land Demo</name>
 		<file size="896" time="1983-03-08 12:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="65536" time="1984-07-23 13:42:36" attr="0x20">ATTR.MAP</file>
@@ -59,26 +211,214 @@
 	</disk>
 	<disk id="disk09" size="163840" chs="40:1:8" img="5150/1.00/archive/5150-DIAG-100.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.00/5150-DIAG-100.json" md5="9f2e754f6b1ad378662ec1522e78191c" md5json="9b140c81af28c0571bb35158c851cd87">
 		<name>IBM PC Diagnostics 1.00</name>
+		<file size="2399" time="1981-08-05 00:00:00" attr="0x20">CMD99.COM</file>
+		<file size="895" time="1981-07-22 00:00:00" attr="0x20">COMMAND.COM</file>
+		<file size="2943" time="1981-08-05 00:00:00" attr="0x20">DCOPY.COM</file>
+		<file size="2399" time="1981-08-05 00:00:00" attr="0x20">DFORMAT.COM</file>
+		<file size="15951" time="1981-08-07 00:00:00" attr="0x20">DIAGS.COM</file>
+		<file size="1920" time="1980-01-01 00:00:02" attr="0x20">IBMBIO.COM</file>
+		<file size="6211" time="1981-07-09 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
 	<disk id="disk10" size="163840" chs="40:1:8" img="5150/1.02/archive/5150-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.02/5150-DIAG-102.json" md5="19cbda277464d1f9afca2ded508b29d2" md5json="dd0da0f80d3eda238e89bf3a2f53b41c">
 		<name>IBM PC Diagnostics 1.02</name>
+		<file size="2367" time="1982-02-09 17:37:32" attr="0x20">CMD99.COM</file>
+		<file size="943" time="1982-02-09 17:36:14" attr="0x20">COMMAND.COM</file>
+		<file size="3199" time="1982-02-09 17:38:34" attr="0x20">DCOPY.COM</file>
+		<file size="2688" time="1982-02-09 17:40:58" attr="0x20">DFORMAT.COM</file>
+		<file size="16575" time="1982-02-09 20:37:26" attr="0x20">DIAGS.COM</file>
+		<file size="1920" time="1981-07-23 00:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="6400" time="1981-08-13 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
 	<disk id="disk11" size="163840" chs="40:1:8" img="5150/2.02/archive/5150-DIAG-202.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.02/5150-DIAG-202.json" md5="d6d14b05e17b2462981a58516b1abbaf" md5json="e044f543a97bd9787f3ce3aefa40509d">
 		<name>IBM PC Diagnostics 2.02</name>
+		<file size="3566" time="1983-02-28 10:00:16" attr="0x20">COMMAND.COM</file>
+		<file size="1280" time="1983-01-11 12:10:38" attr="0x20">DCOPY.COM</file>
+		<file size="780" time="1983-01-11 12:13:02" attr="0x20">DFORMAT.COM</file>
+		<file size="3241" time="1983-01-11 14:32:54" attr="0x20">DIAGS.COM</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17280" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="436" time="1983-02-26 11:14:34" attr="0x20">SHIPDISK.COM</file>
+		<file size="5417" time="1983-02-28 17:04:28" attr="0x20">US0BSC.DGS</file>
+		<file size="621" time="1983-01-31 13:23:22" attr="0x20">US0CPU.DGS</file>
+		<file size="762" time="1983-01-28 18:40:30" attr="0x20">US0EXP.DGS</file>
+		<file size="1558" time="1983-01-11 12:34:24" attr="0x20">US0GCTL.DGS</file>
+		<file size="784" time="1983-01-11 12:30:16" attr="0x20">US0KBD.DGS</file>
+		<file size="2310" time="1983-02-04 10:23:44" attr="0x20">US0M87.DGS</file>
+		<file size="617" time="1983-04-07 09:01:58" attr="0x20">US0PRT.DGS</file>
+		<file size="547" time="1983-01-11 12:20:04" attr="0x20">US0STG.DGS</file>
+		<file size="3912" time="1983-01-28 19:05:38" attr="0x20">US1CDG.DGS</file>
+		<file size="3239" time="1983-01-11 14:47:40" attr="0x20">US1DSK.DGS</file>
+		<file size="2301" time="1983-01-11 13:37:14" attr="0x20">US1FDK.DGS</file>
+		<file size="240" time="1983-01-28 18:22:50" attr="0x20">US1PAR.DGS</file>
+		<file size="5045" time="1983-01-11 13:57:14" attr="0x20">US1SDL.DGS</file>
+		<file size="1518" time="1983-01-28 18:16:32" attr="0x20">US1SRL.DGS</file>
+		<file size="78" time="1983-04-07 09:18:54" attr="0x20">VERSION.202</file>
 	</disk>
 	<disk id="disk12" size="184320" chs="40:1:9" img="5150/2.07/archive/5150-DIAG-207.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.07/5150-DIAG-207.json" md5="1d89ca43c69c1ff9eaa41a1ba1080309" md5json="318b4a2e5b80884b8c6c2e14b087b756">
 		<name>IBM PC Diagnostics 2.07</name>
+		<file size="3612" time="1984-06-12 12:00:00" attr="0x20">COMMAND.COM</file>
+		<file size="2293" time="1984-06-12 12:00:00" attr="0x20">DCOPY.COM</file>
+		<file size="872" time="1984-06-12 12:00:00" attr="0x20">DFORMAT.COM</file>
+		<file size="3888" time="1984-06-12 12:00:00" attr="0x20">DIAGS.COM</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="436" time="1984-06-12 12:00:00" attr="0x20">SHIPDISK.COM</file>
+		<file size="5417" time="1984-06-12 12:00:00" attr="0x20">US0BSC.DGS</file>
+		<file size="695" time="1984-06-12 12:00:00" attr="0x20">US0CPU.DGS</file>
+		<file size="3864" time="1984-06-12 12:00:00" attr="0x20">US0CUA.DGS</file>
+		<file size="762" time="1984-06-12 12:00:00" attr="0x20">US0EXP.DGS</file>
+		<file size="1575" time="1984-06-12 12:00:12" attr="0x20">US0GCTL.DGS</file>
+		<file size="784" time="1984-06-12 12:00:00" attr="0x20">US0KBD.DGS</file>
+		<file size="2318" time="1984-06-12 12:00:00" attr="0x20">US0M87.DGS</file>
+		<file size="1021" time="1984-06-12 12:00:00" attr="0x20">US0PAR.DGS</file>
+		<file size="1936" time="1984-06-12 12:00:00" attr="0x20">US0PCN.DGS</file>
+		<file size="870" time="1984-06-12 12:00:00" attr="0x20">US0PRT.DGS</file>
+		<file size="557" time="1984-06-12 12:00:00" attr="0x20">US0STG.DGS</file>
+		<file size="8692" time="1984-06-12 12:00:00" attr="0x20">US1ADG2.DGS</file>
+		<file size="2705" time="1984-06-12 12:00:00" attr="0x20">US1CPRT.DGS</file>
+		<file size="3455" time="1984-06-12 12:00:00" attr="0x20">US1DSK.DGS</file>
+		<file size="2301" time="1984-06-12 12:00:00" attr="0x20">US1FDK.DGS</file>
+		<file size="3092" time="1984-06-12 12:00:00" attr="0x20">US1PCL.DGS</file>
+		<file size="5045" time="1984-06-12 12:00:00" attr="0x20">US1SDL.DGS</file>
+		<file size="3661" time="1984-06-12 12:00:00" attr="0x20">US1SRL.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
+		<file size="78" time="1984-06-12 12:00:00" attr="0x20">VERSION.207</file>
 	</disk>
 	<disk id="disk13" size="368640" chs="40:2:9" img="5170/1.02/archive/5170-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5170/1.02/5170-DIAG-102.json" md5="9fbf7fdfcd14e8922e7acd8fe53514fe" md5json="d98e959e5a3d0121c35e26752de96cb0">
 		<name>IBM PC AT Diagnostics 1.02</name>
+		<file size="2680" time="1984-03-27 12:55:12" attr="0x20">ASYNC.DGS</file>
+		<file size="5116" time="1983-08-10 13:26:00" attr="0x20">BSC03.DGS</file>
+		<file size="30352" time="1984-06-13 13:48:08" attr="0x20">COMMAND.COM</file>
+		<file size="4799" time="1984-04-23 08:34:30" attr="0x20">COPROC.DGS</file>
+		<file size="2731" time="1983-12-01 12:56:06" attr="0x20">CPS200.DGS</file>
+		<file size="1117" time="1983-12-01 09:15:06" attr="0x20">CPS80.DGS</file>
+		<file size="1585" time="1984-06-07 09:28:46" attr="0x20">DCOPY.COM</file>
+		<file size="1085" time="1984-02-01 09:42:46" attr="0x20">DFORMAT.COM</file>
+		<file size="3329" time="1984-02-16 10:26:32" attr="0x20">DIAGS.COM</file>
+		<file size="9622" time="1984-06-18 09:59:30" attr="0x20">DISPLAY1.DGS</file>
+		<file size="7795" time="1984-05-03 11:06:46" attr="0x20">DSETTUP.COM</file>
+		<file size="3894" time="1984-02-24 14:24:54" attr="0x20">EDSDSKT1.DGS</file>
+		<file size="2804" time="1984-02-15 10:38:48" attr="0x20">EDSFD1.DGS</file>
+		<file size="1488" time="1984-06-21 07:22:32" attr="0x20">GAME.DGS</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="6148" time="1984-06-11 20:10:02" attr="0x20">KYBD.DGS</file>
+		<file size="237" time="1983-11-30 13:22:40" attr="0x20">PARA1.DGS</file>
+		<file size="5824" time="1983-08-11 09:53:02" attr="0x20">SDLC03.DGS</file>
+		<file size="690" time="1983-10-10 08:25:14" attr="0x20">SHIPDISK.COM</file>
+		<file size="1280" time="1983-11-11 10:10:16" attr="0x20">SHUTDOWN.EXE</file>
+		<file size="1827" time="1984-04-26 16:16:50" attr="0x20">STORAGE.DGS</file>
+		<file size="7366" time="1984-05-03 11:28:04" attr="0x20">SYSTEST.DGS</file>
+		<file size="1936" time="1984-04-25 20:13:32" attr="0x20">US0PCN.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
+		<file size="44" time="1983-02-03 09:10:12" attr="0x20">VERSION.102</file>
 	</disk>
 	<disk id="disk14" size="368640" chs="40:2:9" img="5170/2.00/archive/5170-DIAG-200.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.00/5170-DIAG-200.json" md5="72f5a003917c61ed1aea67fa44a39b73" md5json="11f8d5dec5275202ce2854666ac4884f">
 		<name>IBM PC AT Diagnostics 2.00</name>
+		<file size="2418" time="1985-06-12 07:31:14" attr="0x20">ASYNC.DGS</file>
+		<file size="5080" time="1985-04-05 11:25:36" attr="0x20">BSC03.DGS</file>
+		<file size="2475" time="1985-04-05 14:39:26" attr="0x20">CLUSTER1.DGS</file>
+		<file size="33696" time="1985-06-06 11:29:34" attr="0x20">COMMAND.COM</file>
+		<file size="4846" time="1985-05-29 10:32:26" attr="0x20">COPROC.DGS</file>
+		<file size="2731" time="1985-04-05 11:27:16" attr="0x20">CPS200.DGS</file>
+		<file size="1273" time="1985-06-06 08:40:48" attr="0x20">CPS80.DGS</file>
+		<file size="1585" time="1985-04-05 11:26:22" attr="0x20">DCOPY.COM</file>
+		<file size="1254" time="1985-04-05 11:28:36" attr="0x20">DFORMAT.COM</file>
+		<file size="3646" time="1985-07-03 10:20:50" attr="0x20">DIAGS.COM</file>
+		<file size="2803" time="1985-04-05 11:39:50" attr="0x20">DISK1.DGS</file>
+		<file size="10790" time="1985-08-01 18:45:56" attr="0x20">DISPLAY1.DGS</file>
+		<file size="8812" time="1985-07-09 15:10:58" attr="0x20">DSETTUP.COM</file>
+		<file size="3732" time="1985-06-05 08:45:22" attr="0x20">DSKETTE1.DGS</file>
+		<file size="2078" time="1985-06-05 16:49:28" attr="0x20">GAME.DGS</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="9526" time="1985-07-03 08:22:30" attr="0x20">KYBD.DGS</file>
+		<file size="237" time="1985-04-05 11:30:02" attr="0x20">PARA1.DGS</file>
+		<file size="5745" time="1985-04-05 11:32:38" attr="0x20">SDLC03.DGS</file>
+		<file size="690" time="1985-04-05 11:31:02" attr="0x20">SHIPDISK.COM</file>
+		<file size="1169" time="1985-04-05 11:32:58" attr="0x20">SHUTDOWN.EXE</file>
+		<file size="1829" time="1985-04-05 11:18:24" attr="0x20">STORAGE.DGS</file>
+		<file size="7431" time="1985-05-30 10:41:02" attr="0x20">SYSTEST.DGS</file>
+		<file size="6064" time="1985-06-05 10:58:36" attr="0x20">US0PCN.DGS</file>
+		<file size="6229" time="1985-04-05 15:13:08" attr="0x20">US1DAC.DGS</file>
+		<file size="6410" time="1985-04-05 15:16:50" attr="0x20">US1GPIB.DGS</file>
+		<file size="10276" time="1985-06-06 14:31:08" attr="0x20">US1PGC.DGS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
+		<file size="47" time="1985-02-13 12:48:24" attr="0x20">VERSION.200</file>
 	</disk>
 	<disk id="disk15" size="163840" chs="40:1:8" img="5150/exploring/1.00/archive/EXPLORING-THE-IBM-PC-100.img" href="/pcjs-disks/pcx86/diags/ibm/5150/exploring/1.00/EXPLORING-THE-IBM-PC-100.json" md5="79cc5cb0d1d7a5d59f5a7c66ce02be77" md5json="a2171defca52c7246e9f05180fba0564">
 		<name>Exploring the IBM PC 1.00</name>
+		<file size="17698" time="1983-03-07 00:01:40" attr="0x20">COMMAND.COM</file>
+		<file size="6656" time="1983-02-28 00:15:24" attr="0x20">DLSM01</file>
+		<file size="4864" time="1982-12-13 00:15:20" attr="0x20">DLSM02</file>
+		<file size="2304" time="1982-12-02 00:08:58" attr="0x20">DLSM03</file>
+		<file size="3968" time="1983-02-21 00:30:30" attr="0x20">DLSM04</file>
+		<file size="2304" time="1982-12-08 03:20:58" attr="0x20">DLSM05</file>
+		<file size="2688" time="1984-02-23 00:15:42" attr="0x20">DLSM06</file>
+		<file size="74752" time="1983-04-22 03:16:08" attr="0x20">DLSM99</file>
+		<file size="918" time="1983-01-19 00:20:56" attr="0x20">DLSS00</file>
+		<file size="3764" time="1983-01-17 00:58:32" attr="0x20">DLSS01</file>
+		<file size="1920" time="1982-05-07 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="6400" time="1982-05-07 12:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
 	<disk id="disk16" size="368640" chs="40:2:9" img="5170/exploring/1.00/archive/EXPLORING-THE-IBM-PC-AT-100.img" href="/pcjs-disks/pcx86/diags/ibm/5170/exploring/1.00/EXPLORING-THE-IBM-PC-AT-100.json" md5="4f64b05909f14a31948722c7a97816be" md5json="236900d39b4196e391ea776835fbb042">
 		<name>Exploring the IBM PC AT 1.00</name>
+		<file size="33" time="1983-11-08 15:37:52" attr="0x20">AUTOEXEC.BAT</file>
+		<file size="103552" time="1984-03-29 15:47:00" attr="0x20">BCOCTRL.EXE</file>
+		<file size="128" time="1984-02-28 00:28:58" attr="0x20">C0DUTBL.COL</file>
+		<file size="128" time="1984-02-28 00:28:14" attr="0x20">C0DUTBL.MON</file>
+		<file size="128" time="1984-02-28 00:28:58" attr="0x20">C0PGTBL.COL</file>
+		<file size="128" time="1984-02-28 00:28:12" attr="0x20">C0PGTBL.MON</file>
+		<file size="384" time="1984-02-03 00:48:44" attr="0x20">C1DUTBL.COL</file>
+		<file size="384" time="1984-02-03 00:47:40" attr="0x20">C1DUTBL.MON</file>
+		<file size="256" time="1984-02-03 00:48:42" attr="0x20">C1PGTBL.COL</file>
+		<file size="256" time="1984-02-03 00:47:38" attr="0x20">C1PGTBL.MON</file>
+		<file size="2688" time="1984-02-29 11:17:18" attr="0x20">C2DUTBL.COL</file>
+		<file size="2688" time="1984-02-29 11:09:54" attr="0x20">C2DUTBL.MON</file>
+		<file size="2176" time="1984-02-29 11:17:06" attr="0x20">C2PGTBL.COL</file>
+		<file size="2176" time="1984-02-29 11:09:42" attr="0x20">C2PGTBL.MON</file>
+		<file size="1536" time="1984-02-22 00:13:22" attr="0x20">C3DUTBL.COL</file>
+		<file size="1536" time="1984-02-22 00:09:56" attr="0x20">C3DUTBL.MON</file>
+		<file size="896" time="1984-02-22 00:13:16" attr="0x20">C3PGTBL.COL</file>
+		<file size="896" time="1984-02-22 00:09:50" attr="0x20">C3PGTBL.MON</file>
+		<file size="1024" time="1984-02-21 00:24:18" attr="0x20">C4DUTBL.COL</file>
+		<file size="1024" time="1984-02-21 00:21:42" attr="0x20">C4DUTBL.MON</file>
+		<file size="768" time="1984-02-21 00:24:14" attr="0x20">C4PGTBL.COL</file>
+		<file size="768" time="1984-02-21 00:21:36" attr="0x20">C4PGTBL.MON</file>
+		<file size="1920" time="1984-03-07 16:08:14" attr="0x20">C5DUTBL.COL</file>
+		<file size="1920" time="1984-03-29 10:12:52" attr="0x20">C5DUTBL.MON</file>
+		<file size="512" time="1984-03-07 16:08:04" attr="0x20">C5PGTBL.COL</file>
+		<file size="512" time="1984-03-29 10:12:44" attr="0x20">C5PGTBL.MON</file>
+		<file size="896" time="1984-02-24 00:15:38" attr="0x20">C6DUTBL.COL</file>
+		<file size="896" time="1984-02-24 00:08:34" attr="0x20">C6DUTBL.MON</file>
+		<file size="384" time="1984-02-24 00:15:34" attr="0x20">C6PGTBL.COL</file>
+		<file size="384" time="1984-02-24 00:08:30" attr="0x20">C6PGTBL.MON</file>
+		<file size="640" time="1984-02-13 14:38:12" attr="0x20">C7DUTBL.COL</file>
+		<file size="640" time="1980-01-01 00:06:50" attr="0x20">C7DUTBL.MON</file>
+		<file size="128" time="1984-02-13 14:38:10" attr="0x20">C7PGTBL.COL</file>
+		<file size="128" time="1980-01-01 00:06:46" attr="0x20">C7PGTBL.MON</file>
+		<file size="17664" time="1983-03-08 12:00:00" attr="0x20">COMMAND.COM</file>
+		<file size="1664" time="1984-02-28 00:27:24" attr="0x20">DU00</file>
+		<file size="4864" time="1984-02-03 00:46:34" attr="0x20">DU01</file>
+		<file size="16256" time="1984-02-29 11:02:24" attr="0x20">DU02</file>
+		<file size="7680" time="1984-02-22 00:06:28" attr="0x20">DU03</file>
+		<file size="13056" time="1984-02-21 00:19:00" attr="0x20">DU04</file>
+		<file size="25088" time="1984-03-07 16:01:48" attr="0x20">DU05</file>
+		<file size="18304" time="1984-02-24 00:02:24" attr="0x20">DU06</file>
+		<file size="2816" time="1980-01-01 00:05:04" attr="0x20">DU07</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="1813" time="1984-02-24 01:05:20" attr="0x20">KBCOMM.COM</file>
+		<file size="499" time="1984-03-29 09:55:30" attr="0x20">PRTSCNBT.CIM</file>
+		<file size="128" time="1984-02-28 00:27:22" attr="0x20">PTR00</file>
+		<file size="128" time="1984-02-03 00:46:32" attr="0x20">PTR01</file>
+		<file size="384" time="1984-02-29 11:02:20" attr="0x20">PTR02</file>
+		<file size="256" time="1984-02-22 00:06:24" attr="0x20">PTR03</file>
+		<file size="256" time="1984-02-21 00:18:56" attr="0x20">PTR04</file>
+		<file size="384" time="1984-03-07 16:01:42" attr="0x20">PTR05</file>
+		<file size="128" time="1984-02-24 00:02:18" attr="0x20">PTR06</file>
+		<file size="128" time="1980-01-01 00:05:02" attr="0x20">PTR07</file>
+		<file size="890" time="1983-10-19 14:01:48" attr="0x20">SCOREADU.CIM</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 	</disk>
 </manifest>

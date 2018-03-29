@@ -346,8 +346,8 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 		<file size="47" time="1985-02-13 12:48:24" attr="0x20">VERSION.200</file>
 	</disk>
-	<disk id="disk15" size="163840" chs="40:1:8" img="5150/exploring/1.00/archive/EXPLORING-THE-IBM-PC-100.img" href="/pcjs-disks/pcx86/diags/ibm/5150/exploring/1.00/EXPLORING-THE-IBM-PC-100.json" md5="79cc5cb0d1d7a5d59f5a7c66ce02be77" md5json="a2171defca52c7246e9f05180fba0564">
-		<name>Exploring the IBM PC 1.00</name>
+	<disk id="disk15" size="163840" chs="40:1:8" img="5150/exploring/1.00/mda/archive/EXPLORING-THE-IBM-PC-100-MDA.img" href="/pcjs-disks/pcx86/diags/ibm/5150/exploring/1.00/mda/EXPLORING-THE-IBM-PC-100-MDA.json" md5="79cc5cb0d1d7a5d59f5a7c66ce02be77" md5json="a2171defca52c7246e9f05180fba0564">
+		<name>Exploring the IBM PC 1.00 (MDA)</name>
 		<file size="17698" time="1983-03-07 00:01:40" attr="0x20">COMMAND.COM</file>
 		<file size="6656" time="1983-02-28 00:15:24" attr="0x20">DLSM01</file>
 		<file size="4864" time="1982-12-13 00:15:20" attr="0x20">DLSM02</file>
@@ -361,7 +361,25 @@
 		<file size="1920" time="1982-05-07 12:00:00" attr="0x20">IBMBIO.COM</file>
 		<file size="6400" time="1982-05-07 12:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
-	<disk id="disk16" size="368640" chs="40:2:9" img="5170/exploring/1.00/archive/EXPLORING-THE-IBM-PC-AT-100.img" href="/pcjs-disks/pcx86/diags/ibm/5170/exploring/1.00/EXPLORING-THE-IBM-PC-AT-100.json" md5="4f64b05909f14a31948722c7a97816be" md5json="236900d39b4196e391ea776835fbb042">
+	<disk id="disk16" size="163840" chs="40:1:8" img="5150/exploring/1.00/cga/archive/EXPLORING-THE-IBM-PC-100-CGA.img" href="/pcjs-disks/pcx86/diags/ibm/5150/exploring/1.00/cga/EXPLORING-THE-IBM-PC-100-CGA.json" md5="53751323a55f565077bb3675f347c7fe" md5json="1ec9fed8c9ceea82413aa2f30f8946e8">
+		<name>Exploring the IBM PC 1.00 (CGA)</name>
+		<file size="17698" time="1983-03-08 01:48:34" attr="0x20">COMMAND.COM</file>
+		<file size="8681" time="1983-02-28 01:49:34" attr="0x20">DLSC01</file>
+		<file size="5758" time="1983-03-14 01:59:22" attr="0x20">DLSC02</file>
+		<file size="1408" time="1983-01-19 00:32:06" attr="0x20">DLSC03</file>
+		<file size="5653" time="1983-03-02 01:31:32" attr="0x20">DLSC04</file>
+		<file size="1630" time="1982-11-30 03:28:24" attr="0x20">DLSC05</file>
+		<file size="1456" time="1983-02-07 00:03:22" attr="0x20">DLSC06</file>
+		<file size="2144" time="1983-02-10 01:18:06" attr="0x20">DLSC07</file>
+		<file size="5574" time="1983-01-27 11:13:44" attr="0x20">DLSC08</file>
+		<file size="73728" time="1983-04-22 03:16:20" attr="0x20">DLSC99</file>
+		<file size="918" time="1983-01-19 00:20:56" attr="0x20">DLSS00</file>
+		<file size="3764" time="1983-01-17 00:58:32" attr="0x20">DLSS01</file>
+		<file size="1920" time="1982-05-07 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="6400" time="1982-05-07 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
+	</disk>
+	<disk id="disk17" size="368640" chs="40:2:9" img="5170/exploring/1.00/archive/EXPLORING-THE-IBM-PC-AT-100.img" href="/pcjs-disks/pcx86/diags/ibm/5170/exploring/1.00/EXPLORING-THE-IBM-PC-AT-100.json" md5="4f64b05909f14a31948722c7a97816be" md5json="236900d39b4196e391ea776835fbb042">
 		<name>Exploring the IBM PC AT 1.00</name>
 		<file size="33" time="1983-11-08 15:37:52" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="103552" time="1984-03-29 15:47:00" attr="0x20">BCOCTRL.EXE</file>

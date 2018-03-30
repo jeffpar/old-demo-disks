@@ -2,16 +2,25 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
 <manifest type="software">
 	<title>Empty Diskettes</title>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/EMPTY-360K.img" href="/pcjs-disks/pcx86/empty/EMPTY-360K.json" md5="0eb5e6f6353fc8ad26b6797d70b68db3" md5json="7c921c4a1f4c593450fcec3d2c31be12">
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/EMPTY-160K.img" href="/pcjs-disks/pcx86/empty/EMPTY-160K.json" md5="ac5a7a038ffbfb225157ebd9aef48ae2" md5json="ef509620e3d3136d0f51c38a2437c236">
+		<name>Empty Diskette (160K)</name>
+	</disk>
+	<disk id="disk02" size="327680" chs="40:2:8" img="archive/EMPTY-320K.img" href="/pcjs-disks/pcx86/empty/EMPTY-320K.json" md5="f9fca7107f4dd1c80ed18b7f462f35af" md5json="369142c8964c76758bd4f0c1d52b5842">
+		<name>Empty Diskette (320K)</name>
+	</disk>
+	<disk id="disk03" size="184320" chs="40:1:9" img="archive/EMPTY-180K.img" href="/pcjs-disks/pcx86/empty/EMPTY-180K.json" md5="bb7a70f51e799b32f167dc4b6a4d62cd" md5json="913b014b1bd497bb6ea4c1799b9b423c">
+		<name>Empty Diskette (180K)</name>
+	</disk>
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/EMPTY-360K.img" href="/pcjs-disks/pcx86/empty/EMPTY-360K.json" md5="0eb5e6f6353fc8ad26b6797d70b68db3" md5json="7c921c4a1f4c593450fcec3d2c31be12">
 		<name>Empty Diskette (360K)</name>
 	</disk>
-	<disk id="disk02" size="737280" chs="80:2:9" img="archive/EMPTY-720K.img" href="/pcjs-disks/pcx86/empty/EMPTY-720K.json" md5="47e1407b2db85a28bf2e09a382625931" md5json="fcc0bf088cd2c17a6e5ab914d3a2c00d">
+	<disk id="disk05" size="737280" chs="80:2:9" img="archive/EMPTY-720K.img" href="/pcjs-disks/pcx86/empty/EMPTY-720K.json" md5="47e1407b2db85a28bf2e09a382625931" md5json="fcc0bf088cd2c17a6e5ab914d3a2c00d">
 		<name>Empty Diskette (720K)</name>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/EMPTY-1200K.img" href="/pcjs-disks/pcx86/empty/EMPTY-1200K.json" md5="83a86afcd82f0aa926b550dee6dd184d" md5json="d10e2de81b1d49db2c7a0b551f8dc6a0">
+	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/EMPTY-1200K.img" href="/pcjs-disks/pcx86/empty/EMPTY-1200K.json" md5="83a86afcd82f0aa926b550dee6dd184d" md5json="d10e2de81b1d49db2c7a0b551f8dc6a0">
 		<name>Empty Diskette (1.2M)</name>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/EMPTY-1440K.img" href="/pcjs-disks/pcx86/empty/EMPTY-1440K.json" md5="d34cf1c8b2c8f77d90b612bb9796cd1c" md5json="aaa6577aceffa56b1e9e427719a341c8">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/EMPTY-1440K.img" href="/pcjs-disks/pcx86/empty/EMPTY-1440K.json" md5="d34cf1c8b2c8f77d90b612bb9796cd1c" md5json="aaa6577aceffa56b1e9e427719a341c8">
 		<name>Empty Diskette (1.44M)</name>
 	</disk>
 </manifest>

@@ -17,13 +17,19 @@ if [ ! -d "$dir" ]; then
 	exit 1
 fi
 log=./extract.log
-find -L ${dir} -name "manifest.xml" -exec grep -H -e "<disk.*href=" {} \; | sed -E "s/^([^:]*)\/manifest\.xml:.*href=\"([^\"]*)\".*/\1;\2/" > disks
+verify=true
+find -L ${dir} -name "manifest.xml" -exec grep -H -e "<disk.*href=" {} \; > disks
 while read line; do
-	srcFile=`echo ${line} | sed -E "s/.*;(.*)/\1/"`
+	manFolder=`echo ${line} | sed -E "s/^([^:]*)\/manifest\.xml:.*/\1/"`
+	srcFile=`echo ${line} | sed -E "s/.*href=\"([^\"]*)\".*/\1/"`
 	echo "checking ${srcFile}..."
 	tmpFile=`echo ${srcFile} | sed -E "s/.*\/pcx86\/(.*)/\1/"`
 	if [[ ${srcFile} == http* ]]; then
 		if [ ! -f "${tmpFile}" ]; then
+			if [[ ${verify} == true ]]; then
+				echo "missing json file: ${tmpFile}"
+				continue
+			fi
 			tmpFolder=$(dirname "${tmpFile}")
 			if [ ! -d "${tmpFolder}" ]; then
 				mkdir -p ${tmpFolder}
@@ -42,32 +48,65 @@ while read line; do
 	fi
 	jsonFile=${tmpFile}
 	archiveFolder=$(dirname "${jsonFile}")/archive
+	diskName=$(basename "${jsonFile}" ".json")
+	diskFolder=${archiveFolder}/${diskName}
+	diskImage=${diskFolder}.img
+	if [[ ${line} == *img=* ]]; then
+		imgFile=`echo ${line} | sed -E "s/.*img=\"([^\"]*)\".*/\1/"`
+		archiveFolder=${manFolder}/$(dirname "${imgFile}")
+		diskName=$(basename "${imgFile}" ".img")
+		diskFolder=${archiveFolder}/${diskName}
+	elif [[ ${line} == *dir=* ]]; then
+		diskFolder=${manFolder}/`echo ${line} | sed -E "s/.*dir=\"([^\"]*)\".*/\1/"`
+		archiveFolder=$(dirname "${diskFolder}")
+		diskName=$(basename "${diskFolder}")
+		if [[ ${verify} == true ]]; then
+			diskImage=
+		else
+			diskImage=${diskFolder}.img
+		fi
+	fi
 	if [ ! -d "${archiveFolder}" ]; then
+		if [[ ${verify} == true ]]; then
+			echo "missing archive folder: ${archiveFolder}"
+			continue
+		fi
 		mkdir ${archiveFolder}
 		if [ $? -ne 0 ]; then
 			echo "unable to create folder: ${archiveFolder}"
 			break
 		fi
 	fi
-	diskName=$(basename "${jsonFile}" ".json")
-	diskFolder=${archiveFolder}/${diskName}
 	if [ ! -d "${diskFolder}" ]; then
+		if [[ ${verify} == true ]]; then
+			echo "missing disk folder: ${diskFolder}"
+			continue
+		fi
 		mkdir ${diskFolder}
 		if [ $? -ne 0 ]; then
 			echo "unable to create folder: ${diskFolder}"
 			break
 		fi
 	fi
-	diskImage=${archiveFolder}/${diskName}.img
-	if [ ! -f "${diskImage}" ]; then
-		node ../../modules/diskdump/bin/diskdump --disk="${jsonFile}" --format=img --output="${diskImage}" >> ${log}
-		if [ $? -ne 0 ]; then
-			echo "unable to create disk image: ${diskImage}"
-			break
+	if [ ! -z "${diskImage}" ]; then
+		if [ ! -f "${diskImage}" ]; then
+			if [[ ${verify} == true ]]; then
+				echo "missing disk image: ${diskImage}"
+				continue
+			fi
+			node ../../modules/diskdump/bin/diskdump --disk="${jsonFile}" --format=img --output="${diskImage}" >> ${log}
+			if [ $? -ne 0 ]; then
+				echo "unable to create disk image: ${diskImage}"
+				break
+			fi
+			chmod a-w ${diskImage}
 		fi
-		chmod a-w ${diskImage}
 	fi
 	if [ -z "$(ls -A ${diskFolder})" ]; then
+		if [[ ${verify} == true ]]; then
+			echo "empty disk folder: ${diskFolder}"
+			continue
+		fi
 		echo "mounting ${diskImage}..."
 		hdiutil mount "$diskImage" > disk
 		if grep -q -e "^/dev" disk; then
@@ -81,8 +120,9 @@ while read line; do
 			echo "WARNING: unable to mount ${diskImage}" >> ${log}
 		fi
 	else
-		echo "disk image already dumped: ${diskImage}"
-		continue
+		if [[ ${verify} != true ]]; then
+			echo "disk image already dumped: ${diskImage}"
+		fi
 	fi
 done < disks
 rm disks

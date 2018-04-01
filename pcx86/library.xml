@@ -169,6 +169,8 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/other/enhdebug/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/flickerfree/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/omniview/4.30/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/1.03/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/4.30/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/4.10/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/4.23/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/5.13/manifest.xml"/>

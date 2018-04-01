@@ -18,6 +18,10 @@ if [ ! -d "$dir" ]; then
 fi
 log=./extract.log
 verify=true
+master=false
+if [ -d "archive" ]; then
+	master=true
+fi
 find -L ${dir} -name "manifest.xml" -exec grep -H -e "<disk.*href=" {} \; > disks
 while read line; do
 	manFolder=`echo ${line} | sed -E "s/^([^:]*)\/manifest\.xml:.*/\1/"`
@@ -51,19 +55,21 @@ while read line; do
 	diskName=$(basename "${jsonFile}" ".json")
 	diskFolder=${archiveFolder}/${diskName}
 	diskImage=${diskFolder}.img
-	if [[ ${line} == *img=* ]]; then
-		imgFile=`echo ${line} | sed -E "s/.*img=\"([^\"]*)\".*/\1/"`
-		archiveFolder=${manFolder}/$(dirname "${imgFile}")
-		diskName=$(basename "${imgFile}" ".img")
-		diskFolder=${archiveFolder}/${diskName}
-	elif [[ ${line} == *dir=* ]]; then
-		diskFolder=${manFolder}/`echo ${line} | sed -E "s/.*dir=\"([^\"]*)\".*/\1/"`
-		archiveFolder=$(dirname "${diskFolder}")
-		diskName=$(basename "${diskFolder}")
-		if [[ ${verify} == true ]]; then
-			diskImage=
-		else
-			diskImage=${diskFolder}.img
+	if [[ ${master} == true ]]; then
+		if [[ ${line} == *img=* ]]; then
+			imgFile=`echo ${line} | sed -E "s/.*img=\"([^\"]*)\".*/\1/"`
+			archiveFolder=${manFolder}/$(dirname "${imgFile}")
+			diskName=$(basename "${imgFile}" ".img")
+			diskFolder=${archiveFolder}/${diskName}
+		elif [[ ${line} == *dir=* ]]; then
+			diskFolder=${manFolder}/`echo ${line} | sed -E "s/.*dir=\"([^\"]*)\".*/\1/"`
+			archiveFolder=$(dirname "${diskFolder}")
+			diskName=$(basename "${diskFolder}")
+			if [[ ${verify} == true ]]; then
+				diskImage=
+			else
+				diskImage=${diskFolder}.img
+			fi
 		fi
 	fi
 	if [ ! -d "${archiveFolder}" ]; then

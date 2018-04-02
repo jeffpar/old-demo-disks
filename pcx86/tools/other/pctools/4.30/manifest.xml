@@ -5,5 +5,7 @@
 	<version>4.30</version>
 	<type>Utility</type>
 	<company>Central Point Software</company>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCTOOLS430.img" href="/pcjs-disks/pcx86/tools/other/pctools/4.30/PCTOOLS430.json" md5="8d7216f1f7edeaace4e06acb55571a5b" md5json="202731bba5f2e37c9e9e3217cadf9338"/>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCTOOLS430.img" href="/pcjs-disks/pcx86/tools/other/pctools/4.30/PCTOOLS430.json" md5="8d7216f1f7edeaace4e06acb55571a5b" md5json="202731bba5f2e37c9e9e3217cadf9338">
+		<name>PC Tools Deluxe 4.30</name>
+	</disk>
 </manifest>

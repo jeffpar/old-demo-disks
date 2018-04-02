@@ -94,6 +94,7 @@
 		<manifest ref="/pcjs-disks/pcx86/unix/sco/xenix/386/2.2.3b/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.2f/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/apps/ibm/exploring/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/apps/ibm/topview/1.01/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/apps/ibm/topview/1.10/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/apps/lotus/123/1a/manifest.xml"/>

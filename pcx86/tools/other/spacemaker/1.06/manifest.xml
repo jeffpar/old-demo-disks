@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
 <manifest type="software">
-	<title>SPACEMAKER</title>
+	<title>Spacemaker</title>
 	<version>1.06</version>
 	<type>Utility</type>
 	<category>Compression</category>

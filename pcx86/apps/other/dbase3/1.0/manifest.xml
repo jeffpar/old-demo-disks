@@ -7,7 +7,7 @@
 	<category>Database</category>
 	<author>Ashton-Tate</author>
 	<releaseDate>1984</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/disk01.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK1.json" md5="fe4b1059c3db9088e032ca316c38e4bf" md5json="cb2a69cf2c632ae01c352532582e79c8">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK1.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK1.json" md5="fe4b1059c3db9088e032ca316c38e4bf" md5json="cb2a69cf2c632ae01c352532582e79c8">
 		<name>dBASE III 1.0 (Disk 1)</name>
 		<file size="15223" time="1984-07-15 08:29:08" attr="0x20">ASSIST.HLP</file>
 		<file size="22" time="1984-07-15 08:29:16" attr="0x20">CONFIG.SYS</file>
@@ -16,7 +16,7 @@
 		<file size="53760" time="1984-07-15 08:29:04" attr="0x20">HELP.DBS</file>
 		<file size="4224" time="1984-07-15 08:29:14" attr="0x20">READ.ME</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/disk02.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK2.json" md5="3a79fa930b5182464d8bc2e3a19e7843" md5json="03b1a1eb5b44719621c19a44de6cbbec">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK2.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK2.json" md5="3a79fa930b5182464d8bc2e3a19e7843" md5json="03b1a1eb5b44719621c19a44de6cbbec">
 		<name>dBASE III 1.0 (Disk 2)</name>
 		<file size="1408" time="1984-04-30 09:08:58" attr="0x20">ACCOUNTS.PRG</file>
 		<file size="1024" time="1984-11-13 08:27:10" attr="0x20">ADDRESS.NDX</file>

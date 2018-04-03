@@ -6,6 +6,16 @@
 	<type>Utility</type>
 	<company>Central Point Software</company>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCTOOLS430.img" href="/pcjs-disks/pcx86/tools/other/pctools/4.30/PCTOOLS430.json" md5="8d7216f1f7edeaace4e06acb55571a5b" md5json="202731bba5f2e37c9e9e3217cadf9338">
-		<name>PC Tools Deluxe 4.30</name>
+		<name>Central Point PC Tools Deluxe 4.30</name>
+		<file size="37831" time="1988-08-05 00:07:24" attr="0x20">COMPRESS.EXE</file>
+		<file size="12188" time="1988-08-05 00:09:40" attr="0x20">MIRROR.COM</file>
+		<file size="21856" time="1988-09-07 19:35:28" attr="0x20">PC-CACHE.COM</file>
+		<file size="75091" time="1988-08-05 00:24:14" attr="0x20">PCBACKUP.EXE</file>
+		<file size="13536" time="1988-08-08 11:42:10" attr="0x20">PCFORMAT.COM</file>
+		<file size="23" time="1988-08-05 12:35:24" attr="0x20">PCRESTOR.BAT</file>
+		<file size="11020" time="1988-08-05 21:18:40" attr="0x20">PCSETUP.COM</file>
+		<file size="171077" time="1988-08-05 00:54:00" attr="0x20">PCTOOLS.EXE</file>
+		<file size="1429" time="1988-09-07 22:40:26" attr="0x20">README.DOC</file>
+		<file size="13200" time="1988-08-06 00:02:28" attr="0x20">REBUILD.COM</file>
 	</disk>
 </manifest>

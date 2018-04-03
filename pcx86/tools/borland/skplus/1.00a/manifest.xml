@@ -9,7 +9,7 @@
 	<releaseDate>1988</releaseDate>
 	<serialNumber></serialNumber>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/Install 1.img" href="/pcjs-disks/pcx86/tools/borland/skplus/1.00a/SIDEKICK-PLUS-100A-INSTALL1.json" md5="9c2a9048e74b680d6c731d1b720de4aa" md5json="a40771a4943a47e8d4a57efd07a504bd">
-		<name>Borland SideKick Plus 1.00A (Disk1)</name>
+		<name>Borland SideKick Plus 1.00A (Disk 1)</name>
 		<file size="757" time="1988-03-10 01:00:00" attr="0x20">BUILD.SKI</file>
 		<file size="135632" time="1988-03-10 01:00:00" attr="0x20">INSTALL.EXE</file>
 		<file size="35" time="1988-03-10 01:00:00" attr="0x20">NEXTDISK</file>
@@ -19,19 +19,19 @@
 		<file size="4066" time="1988-03-10 01:00:00" attr="0x20">README.COM</file>
 	</disk>
 	<disk id="disk02" size="368640" chs="40:2:9" img="archive/Install 2.img" href="/pcjs-disks/pcx86/tools/borland/skplus/1.00a/SIDEKICK-PLUS-100A-INSTALL2.json" md5="1200629505319369ee11ddf92f783332" md5json="4923d749ec952f4181fcdff12fa1b54d">
-		<name>Borland SideKick Plus 1.00A (Disk2)</name>
+		<name>Borland SideKick Plus 1.00A (Disk 2)</name>
 		<file size="23" time="1988-03-10 01:00:00" attr="0x20">NEXTDISK</file>
 		<file size="303980" time="1988-03-10 01:00:00" attr="0x20">PART2.SKL</file>
 		<file size="358" time="1988-03-10 01:00:00" attr="0x20">SKBAT.COM</file>
 		<file size="40228" time="1988-03-10 01:00:00" attr="0x20">SKCONV.COM</file>
 	</disk>
 	<disk id="disk03" size="368640" chs="40:2:9" img="archive/Help.img" href="/pcjs-disks/pcx86/tools/borland/skplus/1.00a/SIDEKICK-PLUS-100A-HELP.json" md5="16470078104caa4b3d28175ebcb445d9" md5json="402d502abc7ef86f4e40526c2f9d4c1d">
-		<name>Borland SideKick Plus 1.00A (Disk3)</name>
+		<name>Borland SideKick Plus 1.00A (Disk 3)</name>
 		<file size="27" time="1988-03-10 01:00:00" attr="0x20">NEXTDISK</file>
 		<file size="328740" time="1988-03-10 01:00:00" attr="0x20">SKPLUS.HLP</file>
 	</disk>
 	<disk id="disk04" size="368640" chs="40:2:9" img="archive/Examples.img" href="/pcjs-disks/pcx86/tools/borland/skplus/1.00a/SIDEKICK-PLUS-100A-EXAMPLES.json" md5="129497f6e0644bdeb369f6b3f901e89c" md5json="87f311ce59016799cce6860a796c1160">
-		<name>Borland SideKick Plus 1.00A (Disk4)</name>
+		<name>Borland SideKick Plus 1.00A (Disk 4)</name>
 		<file size="19027" time="1988-03-10 01:00:00" attr="0x20">BIX.ADR</file>
 		<file size="843" time="1988-03-10 01:00:00" attr="0x20">COMMS.GLS</file>
 		<file size="37103" time="1988-03-10 01:00:00" attr="0x20">COMPANY.ADR</file>

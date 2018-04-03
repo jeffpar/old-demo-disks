@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>MS QuickPascal</title>
 	<version>1.00</version>
@@ -31,5 +31,127 @@
 	</disk>
 	<disk id="disk08" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
 		<name>MS QuickPascal 1.00 (720K Disk 3)</name>
+	</disk>
+	<disk id="disk09" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK1.json" md5="76d461d4454287effbb565433aab11ce" md5json="291bb123fe0d49910b0c2a61ddc1df8c">
+		<file size="273" time="1989-05-04 05:03:12" attr="0x20">BRIEF.KEY</file>
+		<file size="303" time="1989-05-04 05:04:18" attr="0x20">EMACS.KEY</file>
+		<file size="303" time="1989-05-04 05:04:04" attr="0x20">EPSILON.KEY</file>
+		<file size="690" time="1987-10-06 10:49:50" attr="0x20">FIXSHIFT.COM</file>
+		<file size="233" time="1989-05-04 05:03:44" attr="0x20">ME.KEY</file>
+		<file size="14674" time="1988-09-20 18:32:54" attr="0x20">MOUSE.COM</file>
+		<file size="6749" time="1988-10-26 19:37:58" attr="0x20">MSHERC.COM</file>
+		<file size="3027" time="1989-05-04 15:06:36" attr="0x20">PACKING.LST</file>
+		<file size="533" time="1989-05-04 05:03:34" attr="0x20">QP.KEY</file>
+		<file size="20367" time="1989-03-20 12:48:56" attr="0x20">QPMKKEY.EXE</file>
+		<file size="2405" time="1989-05-05 10:14:24" attr="0x20">README.DOC</file>
+		<file size="352" time="1989-05-05 10:32:28" attr="0x10">SAMPLES</file>
+		<file size="8399" time="1989-04-20 14:27:56" attr="0x20" dir="SAMPLES/">BIGHEAP.PAS</file>
+		<file size="1380" time="1989-04-20 14:28:48" attr="0x20" dir="SAMPLES/">BIGMEM.PAS</file>
+		<file size="8285" time="1989-05-01 16:32:18" attr="0x20" dir="SAMPLES/">CRLF.PAS</file>
+		<file size="21060" time="1989-05-02 12:49:16" attr="0x20" dir="SAMPLES/">GRDEMO.PAS</file>
+		<file size="13073" time="1989-05-02 12:52:28" attr="0x20" dir="SAMPLES/">MENU.PAS</file>
+		<file size="17973" time="1989-05-02 08:38:44" attr="0x20" dir="SAMPLES/">MOUSE.PAS</file>
+		<file size="19315" time="1989-05-03 08:45:04" attr="0x20" dir="SAMPLES/">OBJECTS.PAS</file>
+		<file size="30829" time="1989-05-02 14:11:20" attr="0x20" dir="SAMPLES/">SORTDEMO.PAS</file>
+		<file size="21152" time="1989-05-02 12:58:30" attr="0x20" dir="SAMPLES/">TURTLE.PAS</file>
+		<file size="54263" time="1989-05-05 05:23:08" attr="0x20">SETUP.EXE</file>
+	</disk>
+	<disk id="disk10" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK2.json" md5="b8c03331806a62fc6ec1e082f4c583e2" md5json="6fd153eb6eab5d881bb31a32bcc8f1ad">
+		<file size="19088" time="1987-11-12 13:23:36" attr="0x20">COURB.FON</file>
+		<file size="5152" time="1989-05-04 19:04:20" attr="0x20">CRT.QPU</file>
+		<file size="9104" time="1989-05-04 19:03:54" attr="0x20">DOS.QPU</file>
+		<file size="37664" time="1989-05-05 09:07:36" attr="0x20">GRAPH.QPU</file>
+		<file size="50880" time="1987-11-12 13:25:40" attr="0x20">HELVB.FON</file>
+		<file size="7584" time="1987-11-12 13:26:50" attr="0x20">MODERN.FON</file>
+		<file size="72368" time="1989-05-05 09:07:30" attr="0x20">MSGRAPH.QPU</file>
+		<file size="3504" time="1989-05-05 09:07:04" attr="0x20">MSGRUTIL.QPU</file>
+		<file size="304" time="1989-05-04 19:04:32" attr="0x20">PRINTER.QPU</file>
+		<file size="11120" time="1987-11-12 13:27:10" attr="0x20">ROMAN.FON</file>
+		<file size="10304" time="1987-11-12 13:27:20" attr="0x20">SCRIPT.FON</file>
+		<file size="44960" time="1989-05-04 19:01:02" attr="0x20">SYSTEM.QPU</file>
+		<file size="45936" time="1987-11-12 13:27:48" attr="0x20">TMSRB.FON</file>
+	</disk>
+	<disk id="disk11" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK3.json" md5="0e4ec27c0e253e975d0c1c89b3040473" md5json="47285a35622d0c38f0afe43273a424a8">
+		<file size="288970" time="1989-05-04 22:04:56" attr="0x20">QP.EXE</file>
+		<file size="64631" time="1989-05-04 21:51:40" attr="0x20">QPL.COM</file>
+		<file size="4848" time="1989-05-02 13:52:56" attr="0x20">QPL.ERR</file>
+	</disk>
+	<disk id="disk12" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK4.json" md5="0d92d9b03c5b5584e0d8f798617853a9" md5json="3a690a4a1bd8aa1112c00d33a717c351">
+		<file size="7464" time="1989-04-17 13:25:30" attr="0x20">ATT6300.VID</file>
+		<file size="3846" time="1989-04-17 13:25:30" attr="0x20">CGASNOW.VID</file>
+		<file size="10040" time="1989-04-17 13:25:30" attr="0x20">ERICSSON.VID</file>
+		<file size="7564" time="1989-04-17 13:25:30" attr="0x20">HERC102.VID</file>
+		<file size="14075" time="1989-04-17 13:25:30" attr="0x20">HERC112.VID</file>
+		<file size="64599" time="1989-04-27 23:01:28" attr="0x20">LEARN.EXE</file>
+		<file size="369" time="1989-04-14 08:53:10" attr="0x20">LEARN.PIF</file>
+		<file size="5396" time="1989-04-14 15:34:28" attr="0x20">NOTES.HLP</file>
+		<file size="57277" time="1989-04-28 16:57:30" attr="0x20">QPCBT.CTX</file>
+		<file size="35294" time="1989-04-28 16:57:30" attr="0x20">QPCBT.SCN</file>
+		<file size="31392" time="1989-04-28 16:57:30" attr="0x20">QPCBT.SOB</file>
+		<file size="27464" time="1989-05-04 10:46:38" attr="0x20">QPERR.HLP</file>
+		<file size="71827" time="1989-05-04 11:35:18" attr="0x20">QPGRAPH.HLP</file>
+	</disk>
+	<disk id="disk13" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK5.json" md5="1de9c17ab83deb4cfb33fa729eacdf59" md5json="5e76f0fd398488fe628feffb53b599e2">
+		<file size="304458" time="1989-05-03 16:21:06" attr="0x20">QP.HLP</file>
+		<file size="47883" time="1989-05-04 10:23:20" attr="0x20">QPENV.HLP</file>
+	</disk>
+	<disk id="disk14" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK1-SETUP.json" md5="7cbb21d116feef5d564e82b23c7d3321" md5json="a2a9f85b8a303167712d4c0bc6fcf00b">
+		<file size="273" time="1989-05-04 05:03:12" attr="0x20">BRIEF.KEY</file>
+		<file size="303" time="1989-05-04 05:04:18" attr="0x20">EMACS.KEY</file>
+		<file size="303" time="1989-05-04 05:04:04" attr="0x20">EPSILON.KEY</file>
+		<file size="690" time="1987-10-06 10:49:50" attr="0x20">FIXSHIFT.COM</file>
+		<file size="233" time="1989-05-04 05:03:44" attr="0x20">ME.KEY</file>
+		<file size="14674" time="1988-09-20 18:32:54" attr="0x20">MOUSE.COM</file>
+		<file size="6749" time="1988-10-26 19:37:58" attr="0x20">MSHERC.COM</file>
+		<file size="2866" time="1989-05-02 23:20:16" attr="0x20">PACKING.LST</file>
+		<file size="288970" time="1989-05-04 22:04:56" attr="0x20">QP.EXE</file>
+		<file size="533" time="1989-05-04 05:03:34" attr="0x20">QP.KEY</file>
+		<file size="64631" time="1989-05-04 21:51:40" attr="0x20">QPL.COM</file>
+		<file size="4848" time="1989-05-02 13:52:56" attr="0x20">QPL.ERR</file>
+		<file size="20367" time="1989-03-20 12:48:56" attr="0x20">QPMKKEY.EXE</file>
+		<file size="2405" time="1989-05-05 10:14:24" attr="0x20">README.DOC</file>
+		<file size="352" time="1989-05-05 11:17:40" attr="0x10">SAMPLES</file>
+		<file size="8399" time="1989-04-20 14:27:56" attr="0x20" dir="SAMPLES/">BIGHEAP.PAS</file>
+		<file size="1380" time="1989-04-20 14:28:48" attr="0x20" dir="SAMPLES/">BIGMEM.PAS</file>
+		<file size="8285" time="1989-05-01 16:32:18" attr="0x20" dir="SAMPLES/">CRLF.PAS</file>
+		<file size="21060" time="1989-05-02 12:49:16" attr="0x20" dir="SAMPLES/">GRDEMO.PAS</file>
+		<file size="13073" time="1989-05-02 12:52:28" attr="0x20" dir="SAMPLES/">MENU.PAS</file>
+		<file size="17973" time="1989-05-02 08:38:44" attr="0x20" dir="SAMPLES/">MOUSE.PAS</file>
+		<file size="19315" time="1989-05-03 08:45:04" attr="0x20" dir="SAMPLES/">OBJECTS.PAS</file>
+		<file size="30829" time="1989-05-02 14:11:20" attr="0x20" dir="SAMPLES/">SORTDEMO.PAS</file>
+		<file size="21152" time="1989-05-02 12:58:30" attr="0x20" dir="SAMPLES/">TURTLE.PAS</file>
+		<file size="54263" time="1989-05-05 05:23:08" attr="0x20">SETUP.EXE</file>
+	</disk>
+	<disk id="disk15" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK2-ADVISOR.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK2-ADVISOR.json" md5="e21544674bc92e27ba67111040304da6" md5json="cba34a6c513d0061283ee7548fdab63d">
+		<file size="7464" time="1989-04-17 13:25:30" attr="0x20">ATT6300.VID</file>
+		<file size="3846" time="1989-04-17 13:25:30" attr="0x20">CGASNOW.VID</file>
+		<file size="10040" time="1989-04-17 13:25:30" attr="0x20">ERICSSON.VID</file>
+		<file size="7564" time="1989-04-17 13:25:30" attr="0x20">HERC102.VID</file>
+		<file size="14075" time="1989-04-17 13:25:30" attr="0x20">HERC112.VID</file>
+		<file size="64599" time="1989-04-27 23:01:28" attr="0x20">LEARN.EXE</file>
+		<file size="369" time="1989-04-14 08:53:10" attr="0x20">LEARN.PIF</file>
+		<file size="5396" time="1989-04-14 15:34:28" attr="0x20">NOTES.HLP</file>
+		<file size="304458" time="1989-05-03 16:21:06" attr="0x20">QP.HLP</file>
+		<file size="57277" time="1989-04-28 16:57:30" attr="0x20">QPCBT.CTX</file>
+		<file size="35294" time="1989-04-28 16:57:30" attr="0x20">QPCBT.SCN</file>
+		<file size="31392" time="1989-04-28 16:57:30" attr="0x20">QPCBT.SOB</file>
+		<file size="47883" time="1989-05-04 10:23:20" attr="0x20">QPENV.HLP</file>
+		<file size="27464" time="1989-05-04 10:46:38" attr="0x20">QPERR.HLP</file>
+		<file size="71827" time="1989-05-04 11:35:18" attr="0x20">QPGRAPH.HLP</file>
+	</disk>
+	<disk id="disk16" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
+		<file size="19088" time="1987-11-12 13:23:36" attr="0x20">COURB.FON</file>
+		<file size="5152" time="1989-05-04 19:04:20" attr="0x20">CRT.QPU</file>
+		<file size="9104" time="1989-05-04 19:03:54" attr="0x20">DOS.QPU</file>
+		<file size="37664" time="1989-05-05 09:07:36" attr="0x20">GRAPH.QPU</file>
+		<file size="50880" time="1987-11-12 13:25:40" attr="0x20">HELVB.FON</file>
+		<file size="7584" time="1987-11-12 13:26:50" attr="0x20">MODERN.FON</file>
+		<file size="72368" time="1989-05-05 09:07:30" attr="0x20">MSGRAPH.QPU</file>
+		<file size="3504" time="1989-05-05 09:07:04" attr="0x20">MSGRUTIL.QPU</file>
+		<file size="304" time="1989-05-04 19:04:32" attr="0x20">PRINTER.QPU</file>
+		<file size="11120" time="1987-11-12 13:27:10" attr="0x20">ROMAN.FON</file>
+		<file size="10304" time="1987-11-12 13:27:20" attr="0x20">SCRIPT.FON</file>
+		<file size="44960" time="1989-05-04 19:01:02" attr="0x20">SYSTEM.QPU</file>
+		<file size="45936" time="1987-11-12 13:27:48" attr="0x20">TMSRB.FON</file>
 	</disk>
 </manifest>

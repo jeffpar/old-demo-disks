@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>Macro Assembler</title>
 	<version>1.00</version>
@@ -10,5 +10,19 @@
 	<author>Microsoft</author>
 	<disk id="disk01" size="163840" chs="40:1:8" img="archive/IBM-MASM-100.img" href="/pcjs-disks/pcx86/tools/ibm/masm/1.00/IBM-MASM-100.json" md5="36bcf031e16ba486b201909754d03113" md5json="c8fbb20995c34044228f5d2defe61dc7">
 		<name>IBM Macro Assembler 1.00</name>
+		<file size="137" time="1981-09-25 00:00:00" attr="0x20">$EDASM.BAT</file>
+		<file size="140" time="1981-09-25 00:00:00" attr="0x20">$EDMASM.BAT</file>
+		<file size="622" time="1981-10-29 00:00:00" attr="0x20">$ASML.BAT</file>
+		<file size="614" time="1981-10-29 00:00:00" attr="0x20">$EDASM.BAT</file>
+		<file size="614" time="1981-10-29 00:00:00" attr="0x20">$EDMASM.BAT</file>
+		<file size="23" time="1981-09-25 00:00:00" attr="0x20">$LINK.ARF</file>
+		<file size="615" time="1981-10-29 00:00:00" attr="0x20">$MASML.BAT</file>
+		<file size="52736" time="1981-12-08 00:00:00" attr="0x20">ASM.EXE</file>
+		<file size="13824" time="1981-10-05 00:00:00" attr="0x20">CREF.EXE</file>
+		<file size="6580" time="1981-11-09 00:00:00" attr="0x20">EXMP1M.ASM</file>
+		<file size="5621" time="1981-11-09 00:00:00" attr="0x20">EXMP1S.ASM</file>
+		<file size="2015" time="1981-09-16 00:00:00" attr="0x20">EXMP2M.ASM</file>
+		<file size="1861" time="1981-09-16 00:00:00" attr="0x20">EXMP2S.ASM</file>
+		<file size="67584" time="1981-12-08 00:00:00" attr="0x20">MASM.EXE</file>
 	</disk>
 </manifest>

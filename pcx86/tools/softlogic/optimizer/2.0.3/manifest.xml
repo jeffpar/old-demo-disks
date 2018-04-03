@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>Disk Optimizer</title>
 	<version>2.0.3</version>
@@ -8,5 +8,22 @@
 	<author>SoftLogic Solutions</author>
 	<releaseDate>1986</releaseDate>
 	<serialNumber>00529000</serialNumber>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DISK-OPTIMIZER.img" href="/pcjs-disks/pcx86/tools/softlogic/optimizer/2.0.3/DISK-OPTIMIZER.json" md5="f421eeedda6e4520b2f45748601060c9" md5json="876a6751124e6bbd543b6fc42cb95080"/>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DISK-OPTIMIZER.img" href="/pcjs-disks/pcx86/tools/softlogic/optimizer/2.0.3/DISK-OPTIMIZER.json" md5="f421eeedda6e4520b2f45748601060c9" md5json="876a6751124e6bbd543b6fc42cb95080">
+		<file size="7209" time="1986-02-18 10:56:16" attr="0x20">ANALYZE.EXE</file>
+		<file size="12864" time="1985-06-21 11:05:04" attr="0x20">CML0203.FCL</file>
+		<file size="9344" time="1985-06-19 16:06:12" attr="0x20">CML0203.HCL</file>
+		<file size="6449" time="1986-02-16 15:48:06" attr="0x20">FILEPEEK.EXE</file>
+		<file size="3916" time="1986-03-06 15:50:14" attr="0x20">INSTALL.BAT</file>
+		<file size="3352" time="1986-02-06 10:02:42" attr="0x20">LOCK.EXE</file>
+		<file size="2016" time="1985-04-18 10:01:06" attr="0x20">MNL0203.FML</file>
+		<file size="1840" time="1985-05-21 16:05:30" attr="0x20">MNL0203.HML</file>
+		<file size="16384" time="1986-06-30 16:19:16" attr="0x20">OPTIMIZ2.PGM</file>
+		<file size="2016" time="1985-04-18 10:01:06" attr="0x20">OPTIMIZE.COM</file>
+		<file size="18432" time="1985-09-30 11:37:10" attr="0x20">OPTIMIZE.EXE</file>
+		<file size="0" time="1985-09-30 11:49:00" attr="0x20">SGS0203.SUP</file>
+		<file size="50192" time="1985-06-21 13:10:46" attr="0x20">TRANSFER.COM</file>
+		<file size="3366" time="1986-03-05 16:06:02" attr="0x20">UNINSTAL.BAT</file>
+		<file size="3443" time="1986-02-06 10:24:18" attr="0x20">UNLOCK.EXE</file>
+		<file size="2192" time="1987-10-19 00:03:14" attr="0x20">VDF0203.VDF</file>
+	</disk>
 </manifest>

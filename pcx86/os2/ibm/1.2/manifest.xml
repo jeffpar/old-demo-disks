@@ -1,29 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM OS/2 1.2</title>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/std/Disk1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK01.json" md5="5c3a8c2e20fe8d410d9f4044221e87fa" md5json="0b49a1a26df98059e593c717d557a6a7">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/std/Disk1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK01.json" md5="5c3a8c2e20fe8d410d9f4044221e87fa" md5json="0b49a1a26df98059e593c717d557a6a7">
 		<name>IBM OS/2 1.2 STD (Disk 1)</name>
+		<file size="9521" time="1989-08-31 12:00:00" attr="0x20">ANSI.EX@</file>
+		<file size="2123" time="1989-08-31 12:00:00" attr="0x20">ANSI.SY@</file>
+		<file size="4486" time="1989-08-31 12:00:00" attr="0x20">APPEND.EX@</file>
+		<file size="1526" time="1989-08-31 12:00:00" attr="0x20">ASSIGN.CO@</file>
+		<file size="28076" time="1989-08-31 12:00:00" attr="0x20">ATTRIB.EX@</file>
+		<file size="29095" time="1989-08-31 12:00:00" attr="0x20">BACKUP.EXE</file>
+		<file size="31322" time="1989-08-31 12:00:00" attr="0x20">BOOT.CO@</file>
+		<file size="10391" time="1989-08-31 12:00:00" attr="0x20">CACHE.EX@</file>
+		<file size="67968" time="1989-08-31 12:00:00" attr="0x20">CHKDSK.COM</file>
+		<file size="22394" time="1989-08-31 12:00:00" attr="0x20">COMMAND.CO@</file>
+		<file size="30214" time="1989-08-31 12:00:00" attr="0x20">COMP.CO@</file>
+		<file size="50537" time="1989-08-31 12:00:00" attr="0x20">DDINSTAL.EX@</file>
+		<file size="32006" time="1989-08-31 12:00:00" attr="0x20">DISKCOMP.CO@</file>
+		<file size="32857" time="1989-08-31 12:00:00" attr="0x20">DISKCOPY.CO@</file>
+		<file size="29501" time="1989-08-31 12:00:00" attr="0x20">EAUTIL.EX@</file>
+		<file size="5674" time="1989-08-31 12:00:00" attr="0x20">EDLIN.CO@</file>
+		<file size="25510" time="1989-08-31 12:00:00" attr="0x20">FIND.EX@</file>
+		<file size="57552" time="1989-08-31 12:00:00" attr="0x20">FORMAT.COM</file>
+		<file size="5702" time="1989-08-31 12:00:00" attr="0x20">GRAFTABL.CO@</file>
+		<file size="18980" time="1989-08-31 12:00:00" attr="0x20">JOIN.EX@</file>
+		<file size="13481" time="1989-08-31 12:00:00" attr="0x20">KEYB.CO@</file>
+		<file size="94007" time="1989-08-31 12:00:00" attr="0x20">KEYBOARD.DCP</file>
+		<file size="25430" time="1989-08-31 12:00:00" attr="0x20">LABEL.CO@</file>
+		<file size="53696" time="1989-08-31 12:00:00" attr="0x20">RECOVER.COM</file>
+		<file size="38251" time="1989-08-31 12:00:00" attr="0x20">RESTORE.EXE</file>
+		<file size="174976" time="1989-08-31 12:00:00" attr="0x20">SIPANEL2.DLL</file>
+		<file size="1076" time="1989-08-31 12:00:00" attr="0x20">STARTLW.DLL</file>
+		<file size="6220" time="1989-08-31 12:00:00" attr="0x20">SYSINST.SCD</file>
+		<file size="54440" time="1989-08-31 12:00:00" attr="0x20">SYSLOG.EX@</file>
+		<file size="150336" time="1989-08-31 12:00:00" attr="0x20">UHPFS.DLL</file>
+		<file size="52096" time="1989-08-31 12:00:00" attr="0x20">UNPACK.EXE</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/std/Disk2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK02.json" md5="a4b094db5a0dc7b23654adf4029156bb" md5json="10b3a303ec6aaee2204d7ce628b05540">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/std/Disk2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK02.json" md5="a4b094db5a0dc7b23654adf4029156bb" md5json="10b3a303ec6aaee2204d7ce628b05540">
 		<name>IBM OS/2 1.2 STD (Disk 2)</name>
+		<file size="479" time="1989-08-31 12:00:00" attr="0x20">BASIC.CO@</file>
+		<file size="35573" time="1989-08-31 12:00:00" attr="0x20">BASICA.CO@</file>
+		<file size="6221" time="1989-08-31 12:00:00" attr="0x20">COM01.SY@</file>
+		<file size="9382" time="1989-08-31 12:00:00" attr="0x20">COM02.SY@</file>
+		<file size="15080" time="1989-08-31 12:00:00" attr="0x20">CONVERT.EX@</file>
+		<file size="21059" time="1989-08-31 12:00:00" attr="0x20">CREATEDD.EX@</file>
+		<file size="19261" time="1989-08-31 12:00:00" attr="0x20">E.EX@</file>
+		<file size="44773" time="1989-08-31 12:00:00" attr="0x20">EHXDDLGS.DL@</file>
+		<file size="11327" time="1989-08-31 12:00:00" attr="0x20">EHXDL.DL@</file>
+		<file size="19654" time="1989-08-31 12:00:00" attr="0x20">EHXHP.HL@</file>
+		<file size="52571" time="1989-08-31 12:00:00" attr="0x20">FDISKPM.EX@</file>
+		<file size="8260" time="1989-08-31 12:00:00" attr="0x20">FDISKPMH.HL@</file>
+		<file size="95293" time="1989-08-31 12:00:00" attr="0x20">HELPMGR.DL@</file>
+		<file size="13802" time="1989-08-31 12:00:00" attr="0x20">HMHELP.HL@</file>
+		<file size="1759" time="1989-08-31 12:00:00" attr="0x20">IBMMOU01.SY@</file>
+		<file size="2266" time="1989-08-31 12:00:00" attr="0x20">IBMMOU02.SY@</file>
+		<file size="99356" time="1989-08-31 12:00:00" attr="0x20">LINK.EX@</file>
+		<file size="18775" time="1989-08-31 12:00:00" attr="0x20">LOGDAEM.EX@</file>
+		<file size="38821" time="1989-08-31 12:00:00" attr="0x20">MODE.CO@</file>
+		<file size="26899" time="1989-08-31 12:00:00" attr="0x20">MORE.CO@</file>
+		<file size="4673" time="1989-08-31 12:00:00" attr="0x20">MORTGAGE.BA@</file>
+		<file size="12182" time="1989-08-31 12:00:00" attr="0x20">MOUSE.SY@</file>
+		<file size="2033" time="1989-08-31 12:00:00" attr="0x20">MSBUS01.SY@</file>
+		<file size="1702" time="1989-08-31 12:00:00" attr="0x20">MSINP01.SY@</file>
+		<file size="1796" time="1989-08-31 12:00:00" attr="0x20">MSPS201.SY@</file>
+		<file size="2404" time="1989-08-31 12:00:00" attr="0x20">MSPS202.SY@</file>
+		<file size="2294" time="1989-08-31 12:00:00" attr="0x20">MSSER01.SY@</file>
+		<file size="2687" time="1989-08-31 12:00:00" attr="0x20">MSSER02.SY@</file>
+		<file size="67177" time="1989-08-31 12:00:00" attr="0x20">OSO001H.MS@</file>
+		<file size="32494" time="1989-08-31 12:00:00" attr="0x20">PATCH.EX@</file>
+		<file size="2038" time="1989-08-31 12:00:00" attr="0x20">PCMOU01.SY@</file>
+		<file size="2476" time="1989-08-31 12:00:00" attr="0x20">PCMOU02.SY@</file>
+		<file size="2867" time="1989-08-31 12:00:00" attr="0x20">PMHINIT.DL@</file>
+		<file size="48775" time="1989-08-31 12:00:00" attr="0x20">PMMLE.DL@</file>
+		<file size="5563" time="1989-08-31 12:00:00" attr="0x20">POINTDD.SY@</file>
+		<file size="26941" time="1989-08-31 12:00:00" attr="0x20">PRINT.CO@</file>
+		<file size="12991" time="1989-08-31 12:00:00" attr="0x20">PSTAT.EX@</file>
+		<file size="31661" time="1989-08-31 12:00:00" attr="0x20">REPLACE.EX@</file>
+		<file size="7784" time="1989-08-31 12:00:00" attr="0x20">SETCOM40.EX@</file>
+		<file size="26560" time="1989-08-31 12:00:00" attr="0x20">SORT.EX@</file>
+		<file size="15872" time="1989-08-31 12:00:00" attr="0x20">SPOOL.EX@</file>
+		<file size="9751" time="1989-08-31 12:00:00" attr="0x20">STXTDMPC.DL@</file>
+		<file size="18529" time="1989-08-31 12:00:00" attr="0x20">SUBST.EX@</file>
+		<file size="26546" time="1989-08-31 12:00:00" attr="0x20">SYSLEVEL.EX@</file>
+		<file size="140" time="1989-08-31 12:00:00" attr="0x20">SYSLEVEL.OS@</file>
+		<file size="19612" time="1989-08-31 12:00:00" attr="0x20">TRACE.EX@</file>
+		<file size="33421" time="1989-08-31 12:00:00" attr="0x20">TRACEFMT.EX@</file>
+		<file size="27443" time="1989-08-31 12:00:00" attr="0x20">TREE.CO@</file>
+		<file size="17780" time="1989-08-31 12:00:00" attr="0x20">VIOTBL.DC@</file>
+		<file size="2053" time="1989-08-31 12:00:00" attr="0x20">VISION01.SY@</file>
+		<file size="2461" time="1989-08-31 12:00:00" attr="0x20">VISION02.SY@</file>
+		<file size="37979" time="1989-08-31 12:00:00" attr="0x20">XCOPY.EX@</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/std/Disk3.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK03.json" md5="b53095ebb5009d7f176b896a08071f9a" md5json="4f9f4468630c685eb50f27cb2287610c">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/std/Disk3.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK03.json" md5="b53095ebb5009d7f176b896a08071f9a" md5json="4f9f4468630c685eb50f27cb2287610c">
 		<name>IBM OS/2 1.2 STD (Disk 3)</name>
+		<file size="164344" time="1989-08-31 12:00:00" attr="0x20">CMDREF.IN@</file>
+		<file size="88475" time="1989-08-31 12:00:00" attr="0x20">CPISPFPC.DL@</file>
+		<file size="2093" time="1989-08-31 12:00:00" attr="0x20">DMPC.EX@</file>
+		<file size="1214" time="1989-08-31 12:00:00" attr="0x20">DOS.SY@</file>
+		<file size="16606" time="1989-08-31 12:00:00" attr="0x20">DOSCALLS.LI@</file>
+		<file size="958" time="1989-08-31 12:00:00" attr="0x20">DTM.DL@</file>
+		<file size="2534" time="1989-08-31 12:00:00" attr="0x20">EGA.SY@</file>
+		<file size="1765" time="1989-08-31 12:00:00" attr="0x20">EXTDSKDD.SY@</file>
+		<file size="361" time="1989-08-31 12:00:00" attr="0x20">HELP.BA@</file>
+		<file size="353" time="1989-08-31 12:00:00" attr="0x20">HELP.CM@</file>
+		<file size="28289" time="1989-08-31 12:00:00" attr="0x20">HELPMSG.EX@</file>
+		<file size="926" time="1989-08-31 12:00:00" attr="0x20">INACALL.DL@</file>
+		<file size="256" time="1989-08-31 12:00:00" attr="0x20">INSTAID.CM@</file>
+		<file size="250" time="1989-08-31 12:00:00" attr="0x20">INSTAID.CN@</file>
+		<file size="9179" time="1989-08-31 12:00:00" attr="0x20">INSTAID.LI@</file>
+		<file size="229" time="1989-08-31 12:00:00" attr="0x20">INSTAID.PR@</file>
+		<file size="66298" time="1989-08-31 12:00:00" attr="0x20">INSTAIDE.EX@</file>
+		<file size="1196" time="1989-08-31 12:00:00" attr="0x20">ISPD.MS@</file>
+		<file size="485" time="1989-08-31 12:00:00" attr="0x20">ISPM.MS@</file>
+		<file size="64886" time="1989-08-31 12:00:00" attr="0x20">PMCPL.EX@</file>
+		<file size="23582" time="1989-08-31 12:00:00" attr="0x20">PMCPLH.HL@</file>
+		<file size="48440" time="1989-08-31 12:00:00" attr="0x20">PMEXEC.EX@</file>
+		<file size="22145" time="1989-08-31 12:00:00" attr="0x20">PMEXECH.HL@</file>
+		<file size="157367" time="1989-08-31 12:00:00" attr="0x20">PMFILE.EX@</file>
+		<file size="48502" time="1989-08-31 12:00:00" attr="0x20">PMFILEH.HL@</file>
+		<file size="7186" time="1989-08-31 12:00:00" attr="0x20">PMSHELL.EX@</file>
+		<file size="1262" time="1989-08-31 12:00:00" attr="0x20">PMSHELLH.HL@</file>
+		<file size="3866" time="1989-08-31 12:00:00" attr="0x20">PMSHLTKT.DL@</file>
+		<file size="54349" time="1989-08-31 12:00:00" attr="0x20">PMSPOOL.EX@</file>
+		<file size="23857" time="1989-08-31 12:00:00" attr="0x20">PMSPOOLH.HL@</file>
+		<file size="13598" time="1989-08-31 12:00:00" attr="0x20">VIEW.EX@</file>
+		<file size="12901" time="1989-08-31 12:00:00" attr="0x20">VIEWDOC.EX@</file>
+		<file size="12710" time="1989-08-31 12:00:00" attr="0x20">VIEWH.HL@</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/std/Disk4.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK04.json" md5="6cbdcc1ca9909b8ec4604585cf1995a8" md5json="90ecc80358222611a3e70dda25e5a7f3">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/std/Disk4.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK04.json" md5="6cbdcc1ca9909b8ec4604585cf1995a8" md5json="90ecc80358222611a3e70dda25e5a7f3">
 		<name>IBM OS/2 1.2 STD (Disk 4)</name>
+		<file size="5150" time="1989-08-31 12:00:00" attr="0x20">4201.DC@</file>
+		<file size="329" time="1989-08-31 12:00:00" attr="0x20">5202.DC@</file>
+		<file size="163153" time="1989-08-31 12:00:00" attr="0x20">COURIER.FO@</file>
+		<file size="54892" time="1989-08-31 12:00:00" attr="0x20">IBM4201.DR@</file>
+		<file size="41548" time="1989-08-31 12:00:00" attr="0x20">MAKEINI.EX@</file>
+		<file size="27761" time="1989-08-31 12:00:00" attr="0x20">MOVESPL.EX@</file>
+		<file size="28975" time="1989-08-31 12:00:00" attr="0x20">OS2SM.DL@</file>
+		<file size="1340" time="1989-08-31 12:00:00" attr="0x20">OS2SM.PD@</file>
+		<file size="301" time="1989-08-31 12:00:00" attr="0x20">OS2SMDUM.DL@</file>
+		<file size="2515" time="1989-08-31 12:00:00" attr="0x20">OS2SPLFS.DL@</file>
+		<file size="9790" time="1989-08-31 12:00:00" attr="0x20">PICH.HL@</file>
+		<file size="17582" time="1989-08-31 12:00:00" attr="0x20">PICICHG.EX@</file>
+		<file size="23992" time="1989-08-31 12:00:00" attr="0x20">PICPH.HL@</file>
+		<file size="73096" time="1989-08-31 12:00:00" attr="0x20">PICPRINT.EX@</file>
+		<file size="25693" time="1989-08-31 12:00:00" attr="0x20">PICSHOW.EX@</file>
+		<file size="4105" time="1989-08-31 12:00:00" attr="0x20">PMAVIO.DL@</file>
+		<file size="37171" time="1989-08-31 12:00:00" attr="0x20">PMBIND.DL@</file>
+		<file size="2215" time="1989-08-31 12:00:00" attr="0x20">PMC00000.TF@</file>
+		<file size="3544" time="1989-08-31 12:00:00" attr="0x20">PMC10000.TF@</file>
+		<file size="10367" time="1989-08-31 12:00:00" attr="0x20">PMC20000.TF@</file>
+		<file size="719" time="1989-08-31 12:00:00" attr="0x20">PMC30000.TF@</file>
+		<file size="280" time="1989-08-31 12:00:00" attr="0x20">PMC40000.TF@</file>
+		<file size="8066" time="1989-08-31 12:00:00" attr="0x20">PMC50000.TF@</file>
+		<file size="1673" time="1989-08-31 12:00:00" attr="0x20">PMC60000.TF@</file>
+		<file size="2419" time="1989-08-31 12:00:00" attr="0x20">PMC70000.TF@</file>
+		<file size="371" time="1989-08-31 12:00:00" attr="0x20">PMC80000.TF@</file>
+		<file size="150569" time="1989-08-31 12:00:00" attr="0x20">PMGPI.DL@</file>
+		<file size="3056" time="1989-08-31 12:00:00" attr="0x20">PMGPI.PD@</file>
+		<file size="27475" time="1989-08-31 12:00:00" attr="0x20">PMPIC.DL@</file>
+		<file size="134" time="1989-08-31 12:00:00" attr="0x20">PMPIC.PD@</file>
+		<file size="8737" time="1989-08-31 12:00:00" attr="0x20">PMPRINT.QP@</file>
+		<file size="38830" time="1989-08-31 12:00:00" attr="0x20">PMSHAPI.DL@</file>
+		<file size="778" time="1989-08-31 12:00:00" attr="0x20">PMSHAPI.PD@</file>
+		<file size="5959" time="1989-08-31 12:00:00" attr="0x20">PMSPL.DL@</file>
+		<file size="698" time="1989-08-31 12:00:00" attr="0x20">PMSPL.PD@</file>
+		<file size="17942" time="1989-08-31 12:00:00" attr="0x20">PMTKT.DL@</file>
+		<file size="1418" time="1989-08-31 12:00:00" attr="0x20">PMTRACE.DL@</file>
+		<file size="27308" time="1989-08-31 12:00:00" attr="0x20">PMVIOP.DL@</file>
+		<file size="3299" time="1989-08-31 12:00:00" attr="0x20">PMVIOP.HL@</file>
+		<file size="637" time="1989-08-31 12:00:00" attr="0x20">PMWINDUM.DL@</file>
+		<file size="12427" time="1989-08-31 12:00:00" attr="0x20">PSHH.HL@</file>
+		<file size="35503" time="1989-08-31 12:00:00" attr="0x20">SPL1B.DL@</file>
+		<file size="1042" time="1989-08-31 12:00:00" attr="0x20">SPL1B.PD@</file>
+		<file size="2630" time="1989-08-31 12:00:00" attr="0x20">SPL2B.DL@</file>
+		<file size="176" time="1989-08-31 12:00:00" attr="0x20">SPL2B.PD@</file>
+		<file size="6529" time="1989-08-31 12:00:00" attr="0x20">SPLDVWRK.EX@</file>
+		<file size="11938" time="1989-08-31 12:00:00" attr="0x20">SPLPRM.EX@</file>
+		<file size="7093" time="1989-08-31 12:00:00" attr="0x20">SPOOLCP.DL@</file>
+		<file size="273845" time="1989-08-31 12:00:00" attr="0x20">TIMES.FO@</file>
+		<file size="13655" time="1989-08-31 12:00:00" attr="0x20">TRSEL.EX@</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/std/Disk5.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK05.json" md5="3d8a96f3df5d4fd3cc8832e45b728d34" md5json="53f3f85475cd1e956a3525a415a9a41a">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/std/Disk5.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK05.json" md5="3d8a96f3df5d4fd3cc8832e45b728d34" md5json="53f3f85475cd1e956a3525a415a9a41a">
 		<name>IBM OS/2 1.2 STD (Disk 5)</name>
+		<file size="6248" time="1989-08-31 12:00:00" attr="0x20">BVH8514A.DL@</file>
+		<file size="14575" time="1989-08-31 12:00:00" attr="0x20">BVHCGA.DL@</file>
+		<file size="20350" time="1989-08-31 12:00:00" attr="0x20">BVHEGA.DL@</file>
+		<file size="11456" time="1989-08-31 12:00:00" attr="0x20">BVHMPA.DL@</file>
+		<file size="23047" time="1989-08-31 12:00:00" attr="0x20">BVHVGA.DL@</file>
+		<file size="5878" time="1989-08-31 12:00:00" attr="0x20">BVHWNDW.DL@</file>
+		<file size="11173" time="1989-08-31 12:00:00" attr="0x20">FKA.DL@</file>
+		<file size="229361" time="1989-08-31 12:00:00" attr="0x20">HELV.FO@</file>
+		<file size="125911" time="1989-08-31 12:00:00" attr="0x20">IBMBGA.DL@</file>
+		<file size="68951" time="1989-08-31 12:00:00" attr="0x20">IBMCGA.DL@</file>
+		<file size="74348" time="1989-08-31 12:00:00" attr="0x20">IBMEGA.DL@</file>
+		<file size="75298" time="1989-08-31 12:00:00" attr="0x20">IBMVGA.DL@</file>
+		<file size="76396" time="1989-08-31 12:00:00" attr="0x20">INTROE.EX@</file>
+		<file size="26318" time="1989-08-31 12:00:00" attr="0x20">INTROI.TU@</file>
+		<file size="16543" time="1989-08-31 12:00:00" attr="0x20">INTROS.TU@</file>
+		<file size="2983" time="1989-08-31 12:00:00" attr="0x20">PMDD.SY@</file>
+		<file size="145955" time="1989-08-31 12:00:00" attr="0x20">PMGRE.DL@</file>
+		<file size="206" time="1989-08-31 12:00:00" attr="0x20">PMGRE.PD@</file>
+		<file size="185186" time="1989-08-31 12:00:00" attr="0x20">PMWIN.DL@</file>
+		<file size="3587" time="1989-08-31 12:00:00" attr="0x20">PMWIN.PD@</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/std/Install.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK06-INSTALL.json" md5="6f499a29d8f2343d7fabe8701f9dd815" md5json="2998f80e3443966275b2a562b8a0ca28">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/std/Install.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK06-INSTALL.json" md5="6f499a29d8f2343d7fabe8701f9dd815" md5json="2998f80e3443966275b2a562b8a0ca28">
 		<name>IBM OS/2 1.2 STD (Install)</name>
+		<file size="4898" time="1989-08-31 12:00:00" attr="0x20">8514.RC@</file>
+		<file size="4900" time="1989-08-31 12:00:00" attr="0x20">8514M.RC@</file>
+		<file size="120" time="1989-08-31 12:00:00" attr="0x20">ABIOS.SYS</file>
+		<file size="4133" time="1989-08-31 12:00:00" attr="0x20">ANSICALL.DLL</file>
+		<file size="57413" time="1989-08-31 12:00:00" attr="0x20">BASEDD01.SYS</file>
+		<file size="62933" time="1989-08-31 12:00:00" attr="0x20">BASEDD02.SYS</file>
+		<file size="57413" time="1989-08-31 12:00:00" attr="0x20">BASEDD03.SYS</file>
+		<file size="7175" time="1989-08-31 12:00:00" attr="0x20">BKSCALLS.DLL</file>
+		<file size="4157" time="1989-08-31 12:00:00" attr="0x20">BMSCALLS.DLL</file>
+		<file size="9758" time="1989-08-31 12:00:00" attr="0x20">BVHINIT.DLL</file>
+		<file size="20563" time="1989-08-31 12:00:00" attr="0x20">BVSCALLS.DLL</file>
+		<file size="4844" time="1989-08-31 12:00:00" attr="0x20">CGA.RC@</file>
+		<file size="86320" time="1989-08-31 12:00:00" attr="0x20">CMD.EXE</file>
+		<file size="329" time="1989-08-31 12:00:00" attr="0x20">CONFIG.SYS</file>
+		<file size="13676" time="1989-08-31 12:00:00" attr="0x20">COUNTRY.SYS</file>
+		<file size="14651" time="1989-08-31 12:00:00" attr="0x20">DOSCALL1.DLL</file>
+		<file size="4883" time="1989-08-31 12:00:00" attr="0x20">EGA.RC@</file>
+		<file size="9728" time="1989-08-31 12:00:00" attr="0x20">F80000.BIO</file>
+		<file size="9216" time="1989-08-31 12:00:00" attr="0x20">F80100.BIO</file>
+		<file size="1536" time="1989-08-31 12:00:00" attr="0x20">F80402.BIO</file>
+		<file size="1536" time="1989-08-31 12:00:00" attr="0x20">F80702.BIO</file>
+		<file size="1536" time="1989-08-31 12:00:00" attr="0x20">F80902.BIO</file>
+		<file size="1024" time="1989-08-31 12:00:00" attr="0x20">F80C00.BIO</file>
+		<file size="1536" time="1989-08-31 12:00:00" attr="0x20">F80D00.BIO</file>
+		<file size="9728" time="1989-08-31 12:00:00" attr="0x20">FC0400.BIO</file>
+		<file size="1536" time="1989-08-31 12:00:00" attr="0x20">FC0403.BIO</file>
+		<file size="9728" time="1989-08-31 12:00:00" attr="0x20">FC0500.BIO</file>
+		<file size="45440" time="1989-08-31 12:00:00" attr="0x20">FDISK.COM</file>
+		<file size="17088" time="1989-08-31 12:00:00" attr="0x20">HARDERR.EXE</file>
+		<file size="97306" time="1989-08-31 12:00:00" attr="0x20">HPFS.IFS</file>
+		<file size="3739" time="1989-08-31 12:00:00" attr="0x20">INI.RC@</file>
+		<file size="679" time="1989-08-31 12:00:00" attr="0x20">INISYS.RC@</file>
+		<file size="8265" time="1989-08-31 12:00:00" attr="0x20">KBDCALLS.DLL</file>
+		<file size="5177" time="1989-08-31 12:00:00" attr="0x20">KEYBOARD.DCP</file>
+		<file size="7348" time="1989-08-31 12:00:00" attr="0x20">MONCALLS.DLL</file>
+		<file size="5692" time="1989-08-31 12:00:00" attr="0x20">MOUCALLS.DLL</file>
+		<file size="6218" time="1989-08-31 12:00:00" attr="0x20">MSG.DLL</file>
+		<file size="1553" time="1989-08-31 12:00:00" attr="0x20">NAMPIPES.DLL</file>
+		<file size="5428" time="1989-08-31 12:00:00" attr="0x20">NLS.DLL</file>
+		<file size="339770" time="1989-08-31 12:00:00" attr="0x20">OS2KRNL</file>
+		<file size="14336" time="1989-08-31 12:00:00" attr="0x20">OS2LDR</file>
+		<file size="105387" time="1989-08-31 12:00:00" attr="0x20">OSO001.MSG</file>
+		<file size="4900" time="1989-08-31 12:00:00" attr="0x20">PLASMA.RC@</file>
+		<file size="10282" time="1989-08-31 12:00:00" attr="0x20">QUECALLS.DLL</file>
+		<file size="30017" time="1989-08-31 12:00:00" attr="0x20">SESMGR.DLL</file>
+		<file size="17696" time="1989-08-31 12:00:00" attr="0x20">SIPANEL1.DLL</file>
+		<file size="4660" time="1989-08-31 12:00:00" attr="0x20">SWAPPER.EXE</file>
+		<file size="3936" time="1989-08-31 12:00:00" attr="0x20">SYSINST1.EXE</file>
+		<file size="103888" time="1989-08-31 12:00:00" attr="0x20">SYSINST2.EXE</file>
+		<file size="45344" time="1989-08-31 12:00:00" attr="0x20">SYSINSTX.COM</file>
+		<file size="545" time="1989-08-31 12:00:00" attr="0x20">UPINI.RC@</file>
+		<file size="4660" time="1989-08-31 12:00:00" attr="0x20">VDISK.SYS</file>
+		<file size="4900" time="1989-08-31 12:00:00" attr="0x20">VGA.RC@</file>
+		<file size="4900" time="1989-08-31 12:00:00" attr="0x20">VGAM.RC@</file>
+		<file size="17430" time="1989-08-31 12:00:00" attr="0x20">VIOCALLS.DLL</file>
+		<file size="10478" time="1989-08-31 12:00:00" attr="0x20">VTBL850.DCP</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/std/Device Driver 1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK07-DRIVER1.json" md5="a191ad25358e7258a35a5b7cec192ac7" md5json="1b596bd6b31dba0265c1e8c9becc0d4c">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/std/Device Driver 1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK07-DRIVER1.json" md5="a191ad25358e7258a35a5b7cec192ac7" md5json="1b596bd6b31dba0265c1e8c9becc0d4c">
 		<name>IBM OS/2 1.2 STD (Driver 1)</name>
+		<file size="533" time="1989-08-31 12:00:00" attr="0x20">4208.DCP</file>
+		<file size="81472" time="1989-08-31 12:00:00" attr="0x20">IBM3852.DRV</file>
+		<file size="17069" time="1989-08-31 12:00:00" attr="0x20">IBM4201.DCP</file>
+		<file size="82000" time="1989-08-31 12:00:00" attr="0x20">IBM4202.DRV</file>
+		<file size="89488" time="1989-08-31 12:00:00" attr="0x20">IBM4207.DRV</file>
+		<file size="89504" time="1989-08-31 12:00:00" attr="0x20">IBM4208.DRV</file>
+		<file size="81520" time="1989-08-31 12:00:00" attr="0x20">IBM5152.DRV</file>
+		<file size="88272" time="1989-08-31 12:00:00" attr="0x20">IBM5182.DRV</file>
+		<file size="62704" time="1989-08-31 12:00:00" attr="0x20">IBM52011.DRV</file>
+		<file size="88320" time="1989-08-31 12:00:00" attr="0x20">IBM52012.DRV</file>
+		<file size="90672" time="1989-08-31 12:00:00" attr="0x20">IBM5202.DRV</file>
+		<file size="62864" time="1989-08-31 12:00:00" attr="0x20">IBM5216.DRV</file>
+		<file size="81760" time="1989-08-31 12:00:00" attr="0x20">IBMNULL.DRV</file>
+		<file size="97216" time="1989-08-31 12:00:00" attr="0x20">PLOTTERS.DRV</file>
+		<file size="27676" time="1989-08-31 12:00:00" attr="0x20">READMEDD.DAT</file>
 	</disk>
-	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/std/Device Driver 2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK08-DRIVER2.json" md5="ed8cc6988768fc47b8933c00ed19ce35" md5json="7228175bbcd12c093673ce04bda8dce5">
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/std/Device Driver 2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK08-DRIVER2.json" md5="ed8cc6988768fc47b8933c00ed19ce35" md5json="7228175bbcd12c093673ce04bda8dce5">
 		<name>IBM OS/2 1.2 STD (Driver 2)</name>
+		<file size="48640" time="1989-08-31 12:00:00" attr="0x20">EPSON.DRV</file>
+		<file size="17920" time="1989-08-31 12:00:00" attr="0x20">EPSON.HLP</file>
+		<file size="51200" time="1989-08-31 12:00:00" attr="0x20">EPSONDAT.DLL</file>
+		<file size="163840" time="1989-08-31 12:00:00" attr="0x20">IBM4019.DRV</file>
+		<file size="173665" time="1989-08-31 12:00:00" attr="0x20">IBM4019.PMF</file>
+		<file size="330752" time="1989-08-31 12:00:00" attr="0x20">PSCRIPT.DRV</file>
 	</disk>
 </manifest>

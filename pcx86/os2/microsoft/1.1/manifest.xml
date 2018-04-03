@@ -1,35 +1,379 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 1.1</title>
 	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/Disk01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK01.json" md5="3a6a7901abcc3bc593b100c664543bbc" md5json="f375d6546f45b9d3bcb0942fba2d61be">
 		<name>MS OS/2 1.1 (Disk 1)</name>
+		<file size="1846" time="1989-02-20 12:00:02" attr="0x20">ANSI.SY@</file>
+		<file size="1673" time="1989-02-20 12:00:02" attr="0x20">ASSIGN.CO@</file>
+		<file size="40514" time="1989-02-20 12:00:02" attr="0x20">BACKUP.CO@</file>
+		<file size="53616" time="1989-02-20 12:00:02" attr="0x20">CHKDSK.COM</file>
+		<file size="6119" time="1988-11-17 09:21:14" attr="0x20">COM01.SY@</file>
+		<file size="20611" time="1989-02-20 12:00:02" attr="0x20">COMMAND.CO@</file>
+		<file size="27778" time="1989-02-20 12:00:02" attr="0x20">COMP.CO@</file>
+		<file size="29921" time="1989-02-20 12:00:02" attr="0x20">DISKCOMP.CO@</file>
+		<file size="30731" time="1989-02-20 12:00:02" attr="0x20">DISKCOPY.CO@</file>
+		<file size="5821" time="1989-02-20 12:00:04" attr="0x20">EDLIN.CO@</file>
+		<file size="2173" time="1989-02-20 12:00:02" attr="0x20">EGA.SY@</file>
+		<file size="1711" time="1989-02-20 12:00:02" attr="0x20">EXTDSKDD.SY@</file>
+		<file size="4964" time="1989-02-20 12:00:02" attr="0x20">GRAFTABL.CO@</file>
+		<file size="73567" time="1989-02-20 12:00:02" attr="0x20">GWBASIC.EX@</file>
+		<file size="350" time="1989-02-20 12:00:02" attr="0x20">HELP.BA@</file>
+		<file size="349" time="1989-02-20 12:00:02" attr="0x20">HELP.CM@</file>
+		<file size="11035" time="1989-02-20 12:00:02" attr="0x20">KEYB.CO@</file>
+		<file size="23261" time="1989-02-20 12:00:02" attr="0x20">LABEL.CO@</file>
+		<file size="36044" time="1989-06-19 12:06:42" attr="0x20">MODE.CO@</file>
+		<file size="24365" time="1989-02-20 12:00:02" attr="0x20">MORE.CO@</file>
+		<file size="12070" time="1989-02-20 12:00:02" attr="0x20">MOUSEA00.SY@</file>
+		<file size="11948" time="1989-02-20 12:00:02" attr="0x20">MOUSEA01.SY@</file>
+		<file size="11984" time="1989-02-20 12:00:02" attr="0x20">MOUSEA02.SY@</file>
+		<file size="11962" time="1989-02-20 12:00:02" attr="0x20">MOUSEA03.SY@</file>
+		<file size="11909" time="1989-02-20 12:00:02" attr="0x20">MOUSEA04.SY@</file>
+		<file size="12004" time="1989-02-20 12:00:02" attr="0x20">MOUSEA05.SY@</file>
+		<file size="4901" time="1989-02-20 12:00:02" attr="0x20">POINTDD.SY@</file>
+		<file size="24061" time="1989-02-20 12:00:02" attr="0x20">PRINT.CO@</file>
+		<file size="32128" time="1989-02-20 12:00:02" attr="0x20">RECOVER.CO@</file>
+		<file size="43345" time="1989-02-20 12:00:02" attr="0x20">RESTORE.CO@</file>
+		<file size="25379" time="1989-02-20 12:00:02" attr="0x20">TREE.CO@</file>
+		<file size="33696" time="1989-02-20 12:00:02" attr="0x20">UNPACK.EXE</file>
+		<file size="2189" time="1989-02-20 12:00:04" attr="0x20">VDISK.SY@</file>
 	</disk>
 	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/Disk02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK02.json" md5="5385fb31d4fceda0897069175ff4a401" md5json="9b275e92326585e2706e9ff90a765f8a">
 		<name>MS OS/2 1.1 (Disk 2)</name>
+		<file size="7954" time="1989-02-20 12:00:02" attr="0x20">4201.DC@</file>
+		<file size="229" time="1989-02-20 12:00:02" attr="0x20">5202.DC@</file>
+		<file size="9023" time="1989-02-20 12:00:02" attr="0x20">ANSI.EX@</file>
+		<file size="3928" time="1989-02-20 12:00:02" attr="0x20">APPEND.EX@</file>
+		<file size="25280" time="1989-02-20 12:00:02" attr="0x20">ATTRIB.EX@</file>
+		<file size="67588" time="1989-02-20 12:00:02" attr="0x20">CGA.DL@</file>
+		<file size="14200" time="1989-02-20 12:00:02" attr="0x20">CONVERT.EX@</file>
+		<file size="20212" time="1989-02-20 12:00:02" attr="0x20">CREATEDD.EX@</file>
+		<file size="15338" time="1989-02-20 12:00:02" attr="0x20">DDINSTAL.EX@</file>
+		<file size="13351" time="1989-02-20 12:00:02" attr="0x20">DOSCALLS.LI@</file>
+		<file size="1912" time="1989-02-20 12:00:02" attr="0x20">E.DE@</file>
+		<file size="78122" time="1989-02-20 12:00:02" attr="0x20">E.EX@</file>
+		<file size="8998" time="1989-02-20 12:00:02" attr="0x20">E.MS@</file>
+		<file size="68093" time="1989-06-15 09:37:10" attr="0x20">ERIC.DL@</file>
+		<file size="23501" time="1989-02-20 12:00:02" attr="0x20">FIND.EX@</file>
+		<file size="23668" time="1989-02-20 12:00:02" attr="0x20">HELPMSG.EX@</file>
+		<file size="17483" time="1989-02-20 12:00:02" attr="0x20">JOIN.EX@</file>
+		<file size="17984" time="1989-02-20 12:00:02" attr="0x20">KEYBOARD.DC@</file>
+		<file size="75172" time="1989-02-20 12:00:00" attr="0x20">LINK.EX@</file>
+		<file size="950" time="1989-02-20 12:00:02" attr="0x20">NAMPIPES.DL@</file>
+		<file size="67067" time="1989-05-15 08:59:10" attr="0x20">NDC.DL@</file>
+		<file size="259" time="1989-02-20 12:00:02" attr="0x20">OS2SMDUM.DL@</file>
+		<file size="37733" time="1989-02-20 12:00:02" attr="0x20">OSO001H.MS@</file>
+		<file size="30043" time="1989-02-20 12:00:02" attr="0x20">PATCH.EX@</file>
+		<file size="373" time="1989-02-20 12:00:02" attr="0x20">PMWINDUM.DL@</file>
+		<file size="28463" time="1989-02-20 12:00:02" attr="0x20">REPLACE.EX@</file>
+		<file size="7370" time="1989-02-20 12:00:02" attr="0x20">SETCOM40.EX@</file>
+		<file size="24830" time="1989-02-20 12:00:02" attr="0x20">SORT.EX@</file>
+		<file size="15526" time="1989-02-20 12:00:02" attr="0x20">SPOOL.EX@</file>
+		<file size="9751" time="1989-02-20 12:00:02" attr="0x20">STXTDMPC.DL@</file>
+		<file size="17179" time="1989-02-20 12:00:02" attr="0x20">SUBST.EX@</file>
+		<file size="23087" time="1989-02-20 12:00:02" attr="0x20">SYSLEVEL.EX@</file>
+		<file size="140" time="1989-02-20 12:00:02" attr="0x20">SYSLEVEL.OS@</file>
+		<file size="11168" time="1989-02-20 12:00:02" attr="0x20">TRACE.EX@</file>
+		<file size="32582" time="1989-02-20 12:00:06" attr="0x20">TRACEFMT.EX@</file>
+		<file size="337" time="1989-02-20 12:00:02" attr="0x20">UNP.MS@</file>
+		<file size="608" time="1989-02-20 12:00:02" attr="0x20">UNPH.MS@</file>
+		<file size="17660" time="1989-02-20 12:00:02" attr="0x20">VIOTBL.DC@</file>
+		<file size="34562" time="1989-02-20 12:00:02" attr="0x20">XCOPY.EX@</file>
 	</disk>
 	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/Disk03.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK03.json" md5="b86f8aee07f2bfb1d8e80158b643d3fd" md5json="d9af1262c4267a7d47aefe4b36f1cbf8">
 		<name>MS OS/2 1.1 (Disk 3)</name>
+		<file size="162745" time="1989-02-20 12:00:02" attr="0x20">COURIER.FO@</file>
+		<file size="320" time="1989-10-30 13:33:42" attr="0x10">INTRO</file>
+		<file size="7979" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">ACLOCK.EX@</file>
+		<file size="506" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">APLTREE.BR@</file>
+		<file size="3308" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">ATHENS.BR@</file>
+		<file size="7385" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">ATLANTIS.BR@</file>
+		<file size="24127" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">BRICKS.EX@</file>
+		<file size="4021" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">PARIS.BR@</file>
+		<file size="9346" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">SEATTLE.BR@</file>
+		<file size="4217" time="1989-02-20 12:00:06" attr="0x20" dir="INTRO/">TOKYO.BR@</file>
+		<file size="7489" time="1989-02-20 12:00:02" attr="0x20">OS2.INI</file>
+		<file size="3728" time="1989-02-20 12:00:02" attr="0x20">OS2SPLFS.DL@</file>
+		<file size="116437" time="1989-02-21 13:18:12" attr="0x20">PMCPL.EX@</file>
+		<file size="2986" time="1989-02-20 12:00:02" attr="0x20">PMDD.SY@</file>
+		<file size="36416" time="1989-02-20 12:00:02" attr="0x20">PMEXEC.EX@</file>
+		<file size="91621" time="1989-02-20 12:00:02" attr="0x20">PMFILE.EX@</file>
+		<file size="135872" time="1989-02-20 12:00:02" attr="0x20">PMGPI.DL@</file>
+		<file size="134606" time="1989-02-20 12:00:02" attr="0x20">PMGRE.DL@</file>
+		<file size="13673" time="1989-02-20 12:00:02" attr="0x20">PMPRINT.QP@</file>
+		<file size="16664" time="1989-02-20 12:00:02" attr="0x20">PMSHELL.EX@</file>
+		<file size="10108" time="1989-02-20 12:00:02" attr="0x20">PMSPL.DL@</file>
+		<file size="29998" time="1989-02-20 12:00:02" attr="0x20">PMSPOOL.EX@</file>
+		<file size="16502" time="1989-02-20 12:00:02" attr="0x20">PMTKT.DL@</file>
+		<file size="1445" time="1989-02-20 12:00:02" attr="0x20">PMTRACE.DL@</file>
+		<file size="137464" time="1989-02-20 12:00:02" attr="0x20">PMWIN.DL@</file>
+		<file size="37567" time="1989-02-20 12:00:02" attr="0x20">SPL1B.DL@</file>
+		<file size="4141" time="1989-02-20 12:00:02" attr="0x20">SPL2B.DL@</file>
+		<file size="9035" time="1989-02-20 12:00:02" attr="0x20">SPLDVWRK.EX@</file>
+		<file size="14515" time="1989-02-20 12:00:02" attr="0x20">SPLPRM.EX@</file>
+		<file size="2110" time="1989-02-20 12:00:02" attr="0x20">SPLPRMAP.DL@</file>
+		<file size="7339" time="1989-02-20 12:00:02" attr="0x20">SPOOLCP.DL@</file>
+		<file size="4042" time="1989-02-20 12:00:02" attr="0x20">VIOHELP.EX@</file>
 	</disk>
 	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/Disk04.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK04.json" md5="be8d460615729f5e60ac9799a92139f8" md5json="9ce1bd94534fabc347b4ccc8ef3c76ba">
 		<name>MS OS/2 1.1 (Disk 4)</name>
+		<file size="84451" time="1989-02-20 12:00:04" attr="0x20">8514.DL@</file>
+		<file size="10925" time="1989-04-13 10:34:52" attr="0x20">ANSWER.EX@</file>
+		<file size="18382" time="1989-10-23 20:25:18" attr="0x20">CRTSAVER.EX@</file>
+		<file size="70654" time="1989-02-20 12:00:02" attr="0x20">EGA.DL@</file>
+		<file size="229211" time="1989-02-20 12:00:02" attr="0x20">HELV.FO@</file>
+		<file size="54148" time="1989-02-20 12:00:04" attr="0x20">IBM4201.DR@</file>
+		<file size="18521" time="1989-10-13 10:11:20" attr="0x20">MONTYPE.EX@</file>
+		<file size="20618" time="1989-02-20 12:00:02" attr="0x20">OS2SM.DL@</file>
+		<file size="1405" time="1989-02-20 12:00:02" attr="0x20">OS2SM.PD@</file>
+		<file size="3775" time="1989-02-20 12:00:02" attr="0x20">PMAVIO.DL@</file>
+		<file size="1331" time="1989-02-20 12:00:02" attr="0x20">PMC00000.TF@</file>
+		<file size="3422" time="1989-02-20 12:00:02" attr="0x20">PMC10000.TF@</file>
+		<file size="10519" time="1989-02-20 12:00:02" attr="0x20">PMC20000.TF@</file>
+		<file size="719" time="1989-02-20 12:00:02" attr="0x20">PMC30000.TF@</file>
+		<file size="8419" time="1989-02-20 12:00:02" attr="0x20">PMC50000.TF@</file>
+		<file size="1673" time="1989-02-20 12:00:02" attr="0x20">PMC60000.TF@</file>
+		<file size="2446" time="1989-02-20 12:00:02" attr="0x20">PMC70000.TF@</file>
+		<file size="371" time="1989-02-20 12:00:02" attr="0x20">PMC80000.TF@</file>
+		<file size="298" time="1989-02-20 12:00:02" attr="0x20">PMC90000.TF@</file>
+		<file size="3230" time="1989-02-20 12:00:02" attr="0x20">PMGPI.PD@</file>
+		<file size="214" time="1989-02-20 12:00:02" attr="0x20">PMGRE.PD@</file>
+		<file size="19327" time="1989-03-07 10:31:56" attr="0x20">PMSHAPI.DL@</file>
+		<file size="506" time="1989-02-20 12:00:02" attr="0x20">PMSHAPI.PD@</file>
+		<file size="724" time="1989-02-20 12:00:02" attr="0x20">PMSPL.PD@</file>
+		<file size="24803" time="1989-02-20 12:00:02" attr="0x20">PMVIOP.DL@</file>
+		<file size="3659" time="1989-02-20 12:00:02" attr="0x20">PMWIN.PD@</file>
+		<file size="2296" time="1989-10-13 11:09:40" attr="0x20">SELECT.BA@</file>
+		<file size="2296" time="1989-10-13 11:09:40" attr="0x20">SELECT.CM@</file>
+		<file size="1058" time="1989-02-20 12:00:02" attr="0x20">SPL1B.PD@</file>
+		<file size="176" time="1989-02-20 12:00:02" attr="0x20">SPL2B.PD@</file>
+		<file size="184" time="1989-02-20 12:00:02" attr="0x20">SPLPRMAP.PD@</file>
+		<file size="273910" time="1989-02-20 12:00:02" attr="0x20">TIMES.FO@</file>
+		<file size="13624" time="1989-02-20 12:00:02" attr="0x20">TRSEL.EX@</file>
+		<file size="71297" time="1989-02-20 12:00:02" attr="0x20">VGA.DL@</file>
+		<file size="71302" time="1989-04-06 14:25:44" attr="0x20">VGA800.DL@</file>
+		<file size="36170" time="1989-10-19 14:27:38" attr="0x20">XMODE.EX@</file>
 	</disk>
 	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/Drivers.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK05-DRIVERS.json" md5="47ba1102f1abc9ee0f36fc18aa52d7b9" md5json="a0865e8d8ff466446b091250d4bb5e85">
 		<name>MS OS/2 1.1 (Drivers)</name>
+		<file size="84480" time="1989-02-20 12:00:02" attr="0x20">IBM3852.DRV</file>
+		<file size="84992" time="1989-02-20 12:00:02" attr="0x20">IBM4202.DRV</file>
+		<file size="92672" time="1989-02-20 12:00:02" attr="0x20">IBM4207.DRV</file>
+		<file size="92672" time="1989-02-20 12:00:02" attr="0x20">IBM4208.DRV</file>
+		<file size="84480" time="1989-02-20 12:00:02" attr="0x20">IBM5152.DRV</file>
+		<file size="89600" time="1989-02-20 12:00:02" attr="0x20">IBM5182.DRV</file>
+		<file size="66048" time="1989-02-20 12:00:02" attr="0x20">IBM52011.DRV</file>
+		<file size="90112" time="1989-02-20 12:00:02" attr="0x20">IBM52012.DRV</file>
+		<file size="91648" time="1989-02-20 12:00:22" attr="0x20">IBM5202.DRV</file>
+		<file size="66048" time="1989-02-20 12:00:56" attr="0x20">IBM5216.DRV</file>
+		<file size="84992" time="1989-02-20 12:00:02" attr="0x20">IBMNULL.DRV</file>
+		<file size="89584" time="1989-02-20 12:00:02" attr="0x20">PLOTTERS.DRV</file>
+		<file size="398" time="1989-04-14 12:54:12" attr="0x20">README.2</file>
+		<file size="366" time="1989-10-16 14:02:58" attr="0x20">README.DD</file>
 	</disk>
 	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/Dualboot.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK06-DUALBOOT.json" md5="c4cb638cffa48e1f3991188c7062eb85" md5json="c730c272cc6605372030e2c6f0c1bd8a">
 		<name>MS OS/2 1.1 (Dual Boot)</name>
+		<file size="4964" time="1989-05-31 12:07:02" attr="0x20">DBMON.COM</file>
+		<file size="98563" time="1989-05-31 12:29:12" attr="0x20">DUALBOOT.EXE</file>
+		<file size="2786" time="1989-03-23 00:00:06" attr="0x20">README.TXT</file>
 	</disk>
 	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/Install.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK07-INSTALL.json" md5="8b42aca07ff00dbad4647a84bfac117c" md5json="233479eb5a4f24188f49eb0513ba1c3b">
 		<name>MS OS/2 1.1 (Install)</name>
+		<file size="3616" time="1989-02-20 12:00:02" attr="0x20">ANSICALL.DLL</file>
+		<file size="7171" time="1989-02-20 12:00:02" attr="0x20">BKSCALLS.DLL</file>
+		<file size="3623" time="1989-02-20 12:00:02" attr="0x20">BMSCALLS.DLL</file>
+		<file size="55798" time="1989-10-16 13:21:46" attr="0x20">BVSCALLS.DLL</file>
+		<file size="3086" time="1989-02-20 12:00:02" attr="0x20">CLOCK01.SYS</file>
+		<file size="68528" time="1989-02-20 12:00:02" attr="0x20">CMD.EXE</file>
+		<file size="110" time="1989-02-20 12:00:02" attr="0x20">CONFIG.SYS</file>
+		<file size="14504" time="1989-02-20 12:00:02" attr="0x20">COUNTRY.SYS</file>
+		<file size="129076" time="1989-02-20 12:00:02" attr="0x20">CPISPFPC.DLL</file>
+		<file size="29191" time="1989-03-20 12:25:40" attr="0x20">DISK01.SYS</file>
+		<file size="31351" time="1989-04-14 06:14:44" attr="0x20">DISKN1.SYS</file>
+		<file size="2798" time="1989-02-20 12:00:02" attr="0x20">DMPC.EXE</file>
+		<file size="8813" time="1989-02-20 12:00:02" attr="0x20">DOSCALL1.DLL</file>
+		<file size="1786" time="1989-02-20 12:00:02" attr="0x20">DTM.DLL</file>
+		<file size="39568" time="1989-02-20 12:00:02" attr="0x20">FDISK.COM</file>
+		<file size="48800" time="1989-02-20 12:00:02" attr="0x20">FORMAT.COM</file>
+		<file size="15808" time="1989-02-20 12:00:04" attr="0x20">HARDERR.EXE</file>
+		<file size="258" time="1989-02-20 12:00:02" attr="0x20">INSTAID.CMD</file>
+		<file size="224" time="1989-02-20 12:00:02" attr="0x20">INSTAID.CNF</file>
+		<file size="24576" time="1989-02-20 12:00:02" attr="0x20">INSTAID.LIB</file>
+		<file size="174" time="1989-02-20 12:00:02" attr="0x20">INSTAID.PRO</file>
+		<file size="51362" time="1989-10-09 14:53:28" attr="0x20">INSTAIDE.EXE</file>
+		<file size="1543" time="1989-02-20 12:00:02" attr="0x20">ISPD.MSG</file>
+		<file size="515" time="1989-02-20 12:00:02" attr="0x20">ISPM.MSG</file>
+		<file size="15499" time="1989-03-03 15:18:10" attr="0x20">KBD01.SYS</file>
+		<file size="7218" time="1989-02-20 12:00:02" attr="0x20">KBDCALLS.DLL</file>
+		<file size="7348" time="1989-02-20 12:00:02" attr="0x20">MONCALLS.DLL</file>
+		<file size="5171" time="1989-02-20 12:00:02" attr="0x20">MOUCALLS.DLL</file>
+		<file size="6218" time="1989-02-20 12:00:02" attr="0x20">MSG.DLL</file>
+		<file size="4166" time="1989-02-20 12:00:02" attr="0x20">NLS.DLL</file>
+		<file size="283493" time="1989-02-20 12:00:02" attr="0x20">OS2KRNL</file>
+		<file size="13433" time="1989-08-11 13:40:10" attr="0x20">OS2LDR</file>
+		<file size="71660" time="1989-02-20 12:00:02" attr="0x20">OSO001.MSG</file>
+		<file size="7925" time="1989-02-20 12:00:02" attr="0x20">PRINT01.SYS</file>
+		<file size="9757" time="1989-02-20 12:00:02" attr="0x20">QUECALLS.DLL</file>
+		<file size="1640" time="1989-02-20 12:00:02" attr="0x20">SCREEN01.SYS</file>
+		<file size="15" time="1989-04-14 12:26:48" attr="0x20">SEL.CMD</file>
+		<file size="27655" time="1989-02-20 12:00:02" attr="0x20">SESMGR.DLL</file>
+		<file size="4660" time="1989-02-20 12:00:02" attr="0x20">SWAPPER.EXE</file>
+		<file size="2826" time="1989-02-20 12:00:02" attr="0x20">SYSARCH.EXE</file>
+		<file size="3347" time="1989-02-20 12:00:02" attr="0x20">SYSBAS.EXE</file>
+		<file size="72" time="1989-02-20 12:00:02" attr="0x20">SYSDISP.CMD</file>
+		<file size="2798" time="1989-02-20 12:00:02" attr="0x20">SYSEXIST.EXE</file>
+		<file size="577" time="1989-02-20 12:00:02" attr="0x20">SYSINST.CMD</file>
+		<file size="151" time="1989-02-20 12:00:02" attr="0x20">SYSINST.CNF</file>
+		<file size="99328" time="1989-08-22 11:16:06" attr="0x20">SYSINST.LIB</file>
+		<file size="45108" time="1989-10-10 16:28:02" attr="0x20">SYSINST.PIP</file>
+		<file size="38658" time="1989-02-20 12:00:02" attr="0x20">SYSINSTX.COM</file>
+		<file size="8578" time="1989-02-20 12:00:02" attr="0x20">SYSLABL.EXE</file>
+		<file size="14441" time="1989-02-20 12:00:02" attr="0x20">VIOCALLS.DLL</file>
 	</disk>
 	<disk id="disk08" size="737280" chs="80:2:9" img="archive/MS LAN Manager (DOS).img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK08-LANMAN-DOS.json" md5="a326c2de2d71883f26571fd34aff49dd" md5json="00a6295cd07caef65c35731f1975c596">
 		<name>MS OS/2 1.1 (LanMan DOS)</name>
+		<file size="137" time="1989-05-11 12:51:20" attr="0x20">D00494E.NID</file>
+		<file size="192" time="1989-05-02 14:43:10" attr="0x10">DRIVERS</file>
+		<file size="960" time="1989-05-02 14:43:16" attr="0x10" dir="DRIVERS/">XNS</file>
+		<file size="74" time="1989-01-13 17:09:54" attr="0x20" dir="DRIVERS/">XNS.PIF</file>
+		<file size="5616" time="1987-03-13 17:46:30" attr="0x20" dir="DRIVERS/XNS/">BUF.SYS</file>
+		<file size="258" time="1989-02-07 22:06:24" attr="0x20" dir="DRIVERS/XNS/">ELNK.NIF</file>
+		<file size="264" time="1989-02-07 22:06:40" attr="0x20" dir="DRIVERS/XNS/">ELNKII.NIF</file>
+		<file size="256" time="1989-02-07 22:06:56" attr="0x20" dir="DRIVERS/XNS/">ELNKMC.NIF</file>
+		<file size="266" time="1989-02-07 22:07:24" attr="0x20" dir="DRIVERS/XNS/">ELNKPL.NIF</file>
+		<file size="7157" time="1988-05-26 15:23:00" attr="0x20" dir="DRIVERS/XNS/">ETH.SYS</file>
+		<file size="9052" time="1987-10-09 09:12:16" attr="0x20" dir="DRIVERS/XNS/">ETH503.SYS</file>
+		<file size="11062" time="1988-09-30 12:00:00" attr="0x20" dir="DRIVERS/XNS/">ETH505.SYS</file>
+		<file size="8400" time="1987-10-20 18:35:06" attr="0x20" dir="DRIVERS/XNS/">ETH523.SYS</file>
+		<file size="263" time="1989-02-07 22:07:40" attr="0x20" dir="DRIVERS/XNS/">IBMTOK.NIF</file>
+		<file size="9847" time="1988-02-10 11:05:36" attr="0x20" dir="DRIVERS/XNS/">IDP.SYS</file>
+		<file size="6019" time="1988-09-30 12:00:02" attr="0x20" dir="DRIVERS/XNS/">LGL.SYS</file>
+		<file size="8808" time="1987-04-22 11:18:24" attr="0x20" dir="DRIVERS/XNS/">MINSES12.EXE</file>
+		<file size="12637" time="1987-10-26 12:39:22" attr="0x20" dir="DRIVERS/XNS/">MMINDER.EXE</file>
+		<file size="27377" time="1988-09-30 12:00:02" attr="0x20" dir="DRIVERS/XNS/">NETBIOS.EXE</file>
+		<file size="1395" time="1988-10-21 00:00:02" attr="0x20" dir="DRIVERS/XNS/">PRO.MSG</file>
+		<file size="7333" time="1988-09-30 12:00:02" attr="0x20" dir="DRIVERS/XNS/">PRO.SYS</file>
+		<file size="5578" time="1988-10-21 00:00:02" attr="0x20" dir="DRIVERS/XNS/">PROH.MSG</file>
+		<file size="9816" time="1987-04-21 14:53:56" attr="0x20" dir="DRIVERS/XNS/">RUNMINDS.COM</file>
+		<file size="30672" time="1987-11-30 16:01:00" attr="0x20" dir="DRIVERS/XNS/">SPP.SYS</file>
+		<file size="262" time="1989-02-21 13:55:40" attr="0x20" dir="DRIVERS/XNS/">TLNK.NIF</file>
+		<file size="267" time="1989-02-21 13:56:04" attr="0x20" dir="DRIVERS/XNS/">TLNKPL.NIF</file>
+		<file size="8648" time="1988-09-30 12:00:02" attr="0x20" dir="DRIVERS/XNS/">TOK1060B.SYS</file>
+		<file size="10908" time="1988-09-30 12:00:02" attr="0x20" dir="DRIVERS/XNS/">TOK603B.SYS</file>
+		<file size="9320" time="1988-09-30 12:00:02" attr="0x20" dir="DRIVERS/XNS/">TOK605B.SYS</file>
+		<file size="7384" time="1988-09-30 12:00:00" attr="0x20" dir="DRIVERS/XNS/">TOKIBMB.SYS</file>
+		<file size="104" time="1989-02-28 10:57:40" attr="0x20" dir="DRIVERS/XNS/">XNSCMD.DOS</file>
+		<file size="236" time="1989-02-28 10:57:46" attr="0x20" dir="DRIVERS/XNS/">XNSCOPY.BAT</file>
+		<file size="32" time="1989-01-17 12:25:56" attr="0x20" dir="DRIVERS/">XNSARGS.DOS</file>
+		<file size="32483" time="1989-01-20 00:11:32" attr="0x20" dir="DRIVERS/">XNSSETUP.EXE</file>
+		<file size="14" time="1989-02-12 20:28:32" attr="0x20">LANMAN.DAT</file>
 	</disk>
 	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/MS LAN Manager (OS2) Disk01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK09-LANMAN-OS2-1.json" md5="a052224ee50910c7bf0ee424506e9ca2" md5json="e5f5672f7879f3ae17af40ddda004815">
 		<name>MS OS/2 1.3 (LanMan OS/2 1)</name>
+		<file size="137" time="1989-05-11 12:50:48" attr="0x20">C00265E.NID</file>
+		<file size="128" time="1989-05-02 11:19:20" attr="0x10">LANMAN</file>
+		<file size="14" time="1989-02-13 10:51:00" attr="0x20">LANMAN.DAT</file>
+		<file size="96" time="1989-05-02 11:19:20" attr="0x10" dir="LANMAN/">NETLIB</file>
+		<file size="12581" time="1988-09-30 12:00:08" attr="0x20" dir="LANMAN/NETLIB/">HOTKEY.DLL</file>
+		<file size="608" time="1989-05-02 11:19:22" attr="0x10" dir="LANMAN/">NETPROG</file>
+		<file size="50923" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">3F2.EXE</file>
+		<file size="53359" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">3M2.EXE</file>
+		<file size="98767" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">3N2.EXE</file>
+		<file size="34239" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">3NB2.EXE</file>
+		<file size="61867" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">3P2.EXE</file>
+		<file size="38431" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">LOGIN2.EXE</file>
+		<file size="19471" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">LOGOUT2.EXE</file>
+		<file size="196950" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">MAIL2.EXE</file>
+		<file size="26587" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">MAILHELP.OS2</file>
+		<file size="11298" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">MAILTEXT.BIN</file>
+		<file size="21868" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/NETPROG/">MMINDER2.EXE</file>
+		<file size="25873" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/NETPROG/">NETBIND.EXE</file>
+		<file size="30581" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/NETPROG/">PROTCHK.EXE</file>
+		<file size="24735" time="1988-09-30 12:00:08" attr="0x20" dir="LANMAN/NETPROG/">RECVMSG2.EXE</file>
+		<file size="1431" time="1989-02-28 17:44:36" attr="0x20" dir="LANMAN/NETPROG/">REMSERV.CMD</file>
+		<file size="856" time="1988-09-30 12:00:08" attr="0x20" dir="LANMAN/NETPROG/">RUNMAIL2.CMD</file>
+		<file size="53189" time="1988-09-30 12:00:08" attr="0x20" dir="LANMAN/NETPROG/">SENDMSG2.EXE</file>
 	</disk>
 	<disk id="disk10" size="1474560" chs="80:2:18" img="archive/MS LAN Manager (OS2) Disk02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.1/MSOS211-DISK10-LANMAN-OS2-2.json" md5="5f53876ac303a06d1cd5e11c8628326c" md5json="c0873f09f9375e049aeb4ae47fe45048">
 		<name>MS OS/2 1.3 (LanMan OS/2 2)</name>
+		<file size="135" time="1989-05-11 12:50:52" attr="0x20">C00275E.NID</file>
+		<file size="96" time="1989-05-02 11:21:38" attr="0x10">LANMAN</file>
+		<file size="14" time="1989-02-13 11:05:36" attr="0x20">LANMAN.DAT</file>
+		<file size="352" time="1989-05-02 11:21:38" attr="0x10" dir="LANMAN/">DRIVERS</file>
+		<file size="448" time="1989-05-02 11:22:58" attr="0x10" dir="LANMAN/DRIVERS/">CARDXNS</file>
+		<file size="106" time="1989-01-13 17:09:30" attr="0x20" dir="LANMAN/DRIVERS/">CARDXNS.PIF</file>
+		<file size="544" time="1989-05-02 11:23:26" attr="0x10" dir="LANMAN/DRIVERS/CARDXNS/">ADAPTER</file>
+		<file size="5616" time="1987-03-13 17:46:30" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">BUF.SYS</file>
+		<file size="1526" time="1989-05-02 10:25:54" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">ETH505.CFG</file>
+		<file size="12050" time="1987-11-24 19:04:38" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">ETH505E.SYS</file>
+		<file size="9847" time="1988-02-10 11:05:36" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">IDP.SYS</file>
+		<file size="1259" time="1988-09-30 12:00:02" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">LDR.CFG</file>
+		<file size="5580" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">LGLOS2.SYS</file>
+		<file size="14976" time="1988-04-08 13:12:52" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">LOCATOR.EXE</file>
+		<file size="12637" time="1987-10-26 12:39:22" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">MMINDER.EXE</file>
+		<file size="26068" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">NBA.EXE</file>
+		<file size="7333" time="1988-09-30 12:00:02" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">PRO.SYS</file>
+		<file size="8272" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">PTA.EXE</file>
+		<file size="10972" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">PUL.SYS</file>
+		<file size="30672" time="1987-11-30 16:01:00" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">SPP.SYS</file>
+		<file size="1534" time="1989-05-02 10:25:22" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">TOK605.CFG</file>
+		<file size="8473" time="1988-09-30 12:00:02" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/ADAPTER/">TOK605EB.SYS</file>
+		<file size="38" time="1989-01-16 09:25:18" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">CXNSCMD.OS2</file>
+		<file size="318" time="1989-01-16 11:47:28" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">ELNKPL.NIF</file>
+		<file size="8029" time="1988-09-30 12:00:02" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">LOCINIT.EXE</file>
+		<file size="8433" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">MINSES2.EXE</file>
+		<file size="14734" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">NPH.OS2</file>
+		<file size="1395" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">PRO.MSG</file>
+		<file size="5578" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">PROH.MSG</file>
+		<file size="27248" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">PSH.OS2</file>
+		<file size="24882" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">PTH.OS2</file>
+		<file size="318" time="1989-01-16 10:16:50" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">TLNKPL.NIF</file>
+		<file size="204" time="1989-05-02 10:37:00" attr="0x20" dir="LANMAN/DRIVERS/CARDXNS/">XNSCOPY.CMD</file>
+		<file size="96" time="1989-05-02 11:21:44" attr="0x10" dir="LANMAN/DRIVERS/">LBK</file>
+		<file size="81" time="1988-12-22 10:55:06" attr="0x20" dir="LANMAN/DRIVERS/">LBK.PIF</file>
+		<file size="158" time="1988-12-22 10:52:50" attr="0x20" dir="LANMAN/DRIVERS/LBK/">LOOPBACK.NIF</file>
+		<file size="320" time="1989-05-02 11:21:46" attr="0x10" dir="LANMAN/DRIVERS/">MACS</file>
+		<file size="12934" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/MACS/">ELNK.OS2</file>
+		<file size="16610" time="1988-09-30 12:00:00" attr="0x20" dir="LANMAN/DRIVERS/MACS/">ELNKII.OS2</file>
+		<file size="15204" time="1988-09-30 12:00:00" attr="0x20" dir="LANMAN/DRIVERS/MACS/">ELNKMC.OS2</file>
+		<file size="12257" time="1988-09-30 12:00:02" attr="0x20" dir="LANMAN/DRIVERS/MACS/">ELNKPL.OS2</file>
+		<file size="15839" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/MACS/">IBMTOK.OS2</file>
+		<file size="5854" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/MACS/">LOOPDRV.OS2</file>
+		<file size="15396" time="1988-07-12 12:17:50" attr="0x20" dir="LANMAN/DRIVERS/MACS/">MDGMAC.OS2</file>
+		<file size="14884" time="1988-07-12 11:47:26" attr="0x20" dir="LANMAN/DRIVERS/MACS/">TLNK.OS2</file>
+		<file size="10839" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/">PROTMAN.OS2</file>
+		<file size="800" time="1989-05-02 11:22:02" attr="0x10" dir="LANMAN/DRIVERS/">XNS</file>
+		<file size="74" time="1989-01-13 17:09:54" attr="0x20" dir="LANMAN/DRIVERS/">XNS.PIF</file>
+		<file size="96" time="1989-05-02 11:22:44" attr="0x10" dir="LANMAN/DRIVERS/XNS/">ELNK</file>
+		<file size="308" time="1989-01-16 10:33:20" attr="0x20" dir="LANMAN/DRIVERS/XNS/">ELNK.NIF</file>
+		<file size="730" time="1989-01-13 10:57:18" attr="0x20" dir="LANMAN/DRIVERS/XNS/ELNK/">PROTOCOL.INI</file>
+		<file size="96" time="1989-05-02 11:22:48" attr="0x10" dir="LANMAN/DRIVERS/XNS/">ELNKII</file>
+		<file size="315" time="1989-01-16 10:25:46" attr="0x20" dir="LANMAN/DRIVERS/XNS/">ELNKII.NIF</file>
+		<file size="758" time="1989-01-13 17:00:42" attr="0x20" dir="LANMAN/DRIVERS/XNS/ELNKII/">PROTOCOL.INI</file>
+		<file size="96" time="1989-05-02 11:22:50" attr="0x10" dir="LANMAN/DRIVERS/XNS/">ELNKMC</file>
+		<file size="315" time="1989-01-16 10:33:54" attr="0x20" dir="LANMAN/DRIVERS/XNS/">ELNKMC.NIF</file>
+		<file size="686" time="1989-01-13 11:03:00" attr="0x20" dir="LANMAN/DRIVERS/XNS/ELNKMC/">PROTOCOL.INI</file>
+		<file size="96" time="1989-05-02 11:22:52" attr="0x10" dir="LANMAN/DRIVERS/XNS/">ELNKPL</file>
+		<file size="317" time="1989-01-16 10:34:14" attr="0x20" dir="LANMAN/DRIVERS/XNS/">ELNKPL.NIF</file>
+		<file size="748" time="1989-01-13 11:02:40" attr="0x20" dir="LANMAN/DRIVERS/XNS/ELNKPL/">PROTOCOL.INI</file>
+		<file size="96" time="1989-05-02 11:22:56" attr="0x10" dir="LANMAN/DRIVERS/XNS/">IBMTOK</file>
+		<file size="304" time="1989-01-16 10:34:40" attr="0x20" dir="LANMAN/DRIVERS/XNS/">IBMTOK.NIF</file>
+		<file size="755" time="1989-01-13 11:05:48" attr="0x20" dir="LANMAN/DRIVERS/XNS/IBMTOK/">PROTOCOL.INI</file>
+		<file size="68978" time="1988-09-30 12:00:06" attr="0x20" dir="LANMAN/DRIVERS/XNS/">LGL.OS2</file>
+		<file size="42478" time="1988-09-30 12:00:00" attr="0x20" dir="LANMAN/DRIVERS/XNS/">LOCATOR2.EXE</file>
+		<file size="8029" time="1988-09-30 12:00:02" attr="0x20" dir="LANMAN/DRIVERS/XNS/">LOCINIT.EXE</file>
+		<file size="96" time="1989-05-02 11:22:36" attr="0x10" dir="LANMAN/DRIVERS/XNS/">MDGTOK</file>
+		<file size="304" time="1989-01-13 17:38:04" attr="0x20" dir="LANMAN/DRIVERS/XNS/">MDGTOK.NIF</file>
+		<file size="692" time="1989-01-13 11:07:54" attr="0x20" dir="LANMAN/DRIVERS/XNS/MDGTOK/">PROTOCOL.INI</file>
+		<file size="1395" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/XNS/">PRO.MSG</file>
+		<file size="5578" time="1988-10-21 00:00:02" attr="0x20" dir="LANMAN/DRIVERS/XNS/">PROH.MSG</file>
+		<file size="8357" time="1988-09-30 12:00:00" attr="0x20" dir="LANMAN/DRIVERS/XNS/">STARTXNS.EXE</file>
+		<file size="96" time="1989-05-02 11:22:40" attr="0x10" dir="LANMAN/DRIVERS/XNS/">TLNK</file>
+		<file size="308" time="1989-01-16 10:35:32" attr="0x20" dir="LANMAN/DRIVERS/XNS/">TLNK.NIF</file>
+		<file size="739" time="1989-01-13 11:09:36" attr="0x20" dir="LANMAN/DRIVERS/XNS/TLNK/">PROTOCOL.INI</file>
+		<file size="347" time="1989-02-13 15:47:10" attr="0x20" dir="LANMAN/DRIVERS/XNS/">XNSCMD.OS2</file>
+		<file size="41" time="1989-02-13 16:11:10" attr="0x20" dir="LANMAN/DRIVERS/XNS/">XNSCOPY.CMD</file>
+		<file size="96428" time="1989-01-31 12:00:04" attr="0x20" dir="LANMAN/DRIVERS/XNS/">XNSNB.OS2</file>
+		<file size="32483" time="1989-01-20 00:11:32" attr="0x20" dir="LANMAN/DRIVERS/">XNSSETUP.EXE</file>
 	</disk>
 </manifest>

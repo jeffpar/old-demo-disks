@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>DoubleDOS</title>
 	<version>2.0F</version>
@@ -9,5 +9,22 @@
 	<releaseDate>1984</releaseDate>
 	<disk id="disk01" size="163840" chs="40:1:8" img="archive/DOUBLEDOS-20F.img" href="/pcjs-disks/pcx86/tools/softlogic/doubledos/2.0f/DOUBLEDOS-20F.json" md5="46c704cf20c1c62e7b4e6a1adea31d82" md5json="10272bace95215175902812ed4adc670">
 		<name>DoubleDOS 2.0F</name>
+		<file size="675" time="1984-04-16 14:43:46" attr="0x20">123DRIVE.BAT</file>
+		<file size="17792" time="1983-10-20 12:00:00" attr="0x20">COMMAND.COM</file>
+		<file size="1698" time="1984-04-05 14:59:24" attr="0x20">DBLDANSI.SYS</file>
+		<file size="5363" time="1984-03-31 14:56:02" attr="0x20">DBLDB&amp;W.DRV</file>
+		<file size="5363" time="1984-04-05 14:58:32" attr="0x20">DBLDCOLO.DRV</file>
+		<file size="798" time="1984-03-31 16:47:08" attr="0x20">DBLDCPQ.DRV</file>
+		<file size="5330" time="1984-03-31 14:20:08" attr="0x20">DBLDHERC.DRV</file>
+		<file size="798" time="1984-04-05 14:58:58" attr="0x20">DBLDMONO.DRV</file>
+		<file size="11264" time="1980-01-01 00:14:20" attr="0x20">DOUBLED1.EXE</file>
+		<file size="23552" time="1984-04-16 15:36:12" attr="0x20">DOUBLED2.PGM</file>
+		<file size="38912" time="1985-02-28 21:13:34" attr="0x20">DOUBLEDO.EXE</file>
+		<file size="1920" time="1980-01-01 00:00:02" attr="0x20">IBMBIO.COM</file>
+		<file size="6400" time="1980-01-01 00:00:02" attr="0x20">IBMDOS.COM</file>
+		<file size="36" time="1984-04-16 15:37:22" attr="0x20">PRNAME8.VER</file>
+		<file size="4992" time="1984-04-16 15:14:30" attr="0x20">READ_ME.1ST</file>
+		<file size="1534" time="1984-04-16 15:40:04" attr="0x20">SWITCH.ASM</file>
+		<file size="1408" time="1984-04-16 15:22:34" attr="0x20">SWITCH.EXE</file>
 	</disk>
 </manifest>

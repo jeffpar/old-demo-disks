@@ -1,38 +1,522 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 1.3</title>
 	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK01.json" md5="019debecaad129de89894aef86e88411" md5json="342359f33ffa7ba20bbb8591238a6f2c">
 		<name>MS OS/2 1.3 (Disk 1)</name>
+		<file size="4895" time="1991-11-15 00:00:34" attr="0x20">8514.RC@</file>
+		<file size="4899" time="1991-11-15 00:00:34" attr="0x20">8514M.RC@</file>
+		<file size="24827" time="1991-11-15 00:00:34" attr="0x20">ATTRIB.EX@</file>
+		<file size="26329" time="1991-11-15 00:00:34" attr="0x20">BACKUP.EXE</file>
+		<file size="10980" time="1991-11-15 00:00:34" attr="0x20">CACHE.EX@</file>
+		<file size="4849" time="1991-11-15 00:00:34" attr="0x20">CGA.RC@</file>
+		<file size="63728" time="1991-11-15 00:00:34" attr="0x20">CHKDSK.COM</file>
+		<file size="15065" time="1991-11-15 00:00:34" attr="0x20">CONVERT.EX@</file>
+		<file size="1334" time="1991-11-15 00:00:34" attr="0x20">DISK1_35.SCD</file>
+		<file size="25624" time="1991-11-15 00:00:34" attr="0x20">DOSRFICO.DL@</file>
+		<file size="4888" time="1991-11-15 00:00:34" attr="0x20">EGA.RC@</file>
+		<file size="3816" time="1991-11-15 00:00:34" attr="0x20">FDISKPM.DL@</file>
+		<file size="52500" time="1991-11-15 00:00:34" attr="0x20">FDISKPM.EX@</file>
+		<file size="8284" time="1991-11-15 00:00:34" attr="0x20">FDISKPMH.HL@</file>
+		<file size="57136" time="1991-11-15 00:00:34" attr="0x20">FORMAT.COM</file>
+		<file size="3747" time="1991-11-15 00:00:34" attr="0x20">INI.RC@</file>
+		<file size="450" time="1991-11-15 00:00:34" attr="0x20">INISYS.RC@</file>
+		<file size="9980" time="1991-11-15 00:00:34" attr="0x20">KEYB.COM</file>
+		<file size="94007" time="1991-11-15 00:00:34" attr="0x20">KEYBOARD.DCP</file>
+		<file size="22237" time="1991-11-15 00:00:34" attr="0x20">LABEL.CO@</file>
+		<file size="717" time="1991-11-15 00:00:34" attr="0x20">LOCKDLL.DL@</file>
+		<file size="3136" time="1991-11-15 00:00:34" attr="0x20">LOCKUP.DL@</file>
+		<file size="19741" time="1991-11-15 00:00:34" attr="0x20">LOCKUP.EX@</file>
+		<file size="9119" time="1991-11-15 00:00:34" attr="0x20">LOCKUPH.HL@</file>
+		<file size="19029" time="1991-11-15 00:00:34" attr="0x20">LOGDAEM.EX@</file>
+		<file size="44621" time="1991-11-15 00:00:34" attr="0x20">MAKEINI.EX@</file>
+		<file size="38711" time="1991-11-15 00:00:34" attr="0x20">MOVESPL.EX@</file>
+		<file size="10005" time="1991-11-15 00:00:34" attr="0x20">OS2LOGO.BM@</file>
+		<file size="304" time="1991-11-15 00:00:34" attr="0x20">OS2SMDUM.DL@</file>
+		<file size="4885" time="1991-11-15 00:00:34" attr="0x20">PLASMA.RC@</file>
+		<file size="19493" time="1991-11-15 00:00:34" attr="0x20">PMDRAG.DL@</file>
+		<file size="159319" time="1991-11-15 00:00:34" attr="0x20">PMGRE.DL@</file>
+		<file size="601" time="1991-11-15 00:00:34" attr="0x20">PMWINDUM.DL@</file>
+		<file size="49072" time="1991-11-15 00:00:34" attr="0x20">RECOVER.COM</file>
+		<file size="30491" time="1991-11-15 00:00:34" attr="0x20">RESTORE.EXE</file>
+		<file size="182336" time="1991-11-15 00:00:34" attr="0x20">SIPANEL2.DLL</file>
+		<file size="72720" time="1991-11-15 00:00:34" attr="0x20">SIPANEL3.DLL</file>
+		<file size="23126" time="1991-11-15 00:00:34" attr="0x20">SORT.EX@</file>
+		<file size="8615" time="1991-11-15 00:00:34" attr="0x20">SPINBTN.DL@</file>
+		<file size="804" time="1991-11-15 00:00:34" attr="0x20">STARTLW.DLL</file>
+		<file size="25406" time="1991-11-15 00:00:34" attr="0x20">TREE.CO@</file>
+		<file size="162368" time="1991-11-15 00:00:34" attr="0x20">UHPFS.DLL</file>
+		<file size="57456" time="1991-11-15 00:00:34" attr="0x20">UNPACK.EXE</file>
+		<file size="477" time="1991-11-15 00:00:34" attr="0x20">UPINI.RC@</file>
+		<file size="4884" time="1991-11-15 00:00:34" attr="0x20">VGA.RC@</file>
+		<file size="4889" time="1991-11-15 00:00:34" attr="0x20">VGAM.RC@</file>
 	</disk>
 	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK02.json" md5="c45213c6846768e164671200ff1697f8" md5json="caad8900dcba4510923988dee10f8fb6">
 		<name>MS OS/2 1.3 (Disk 2)</name>
+		<file size="330" time="1991-11-15 00:00:38" attr="0x20">5202.DC@</file>
+		<file size="4347" time="1991-11-15 00:00:38" attr="0x20">ANSI.EX@</file>
+		<file size="3376" time="1991-11-15 00:00:38" attr="0x20">BMSCALLS.DL@</file>
+		<file size="31806" time="1991-11-15 00:00:38" attr="0x20">BOOT.CO@</file>
+		<file size="6180" time="1991-11-15 00:00:38" attr="0x20">COM01.SY@</file>
+		<file size="9705" time="1991-11-15 00:00:38" attr="0x20">COM02.SY@</file>
+		<file size="25617" time="1991-11-15 00:00:38" attr="0x20">COMP.CO@</file>
+		<file size="52725" time="1991-11-15 00:00:38" attr="0x20">DDINSTAL.EX@</file>
+		<file size="2062" time="1991-11-15 00:00:38" attr="0x20">DISK2_35.SCD</file>
+		<file size="30408" time="1991-11-15 00:00:38" attr="0x20">DISKCOMP.CO@</file>
+		<file size="35829" time="1991-11-15 00:00:38" attr="0x20">DISKCOPY.CO@</file>
+		<file size="2094" time="1991-11-15 00:00:38" attr="0x20">DMPC.EX@</file>
+		<file size="59483" time="1991-11-15 00:00:38" attr="0x20">E.EX@</file>
+		<file size="25106" time="1991-11-15 00:00:38" attr="0x20">EAUTIL.EX@</file>
+		<file size="9630" time="1991-11-15 00:00:38" attr="0x20">EHXDLMRI.DL@</file>
+		<file size="19555" time="1991-11-15 00:00:38" attr="0x20">EHXHP.HL@</file>
+		<file size="22820" time="1991-11-15 00:00:38" attr="0x20">FIND.EX@</file>
+		<file size="115245" time="1991-11-15 00:00:38" attr="0x20">HELPMGR.DL@</file>
+		<file size="2638" time="1991-11-15 00:00:38" attr="0x20">HILMOU01.SY@</file>
+		<file size="14237" time="1991-11-15 00:00:38" attr="0x20">HMHELP.HL@</file>
+		<file size="9108" time="1991-11-15 00:00:38" attr="0x20">HPMGRMRI.DL@</file>
+		<file size="1647" time="1991-11-15 00:00:38" attr="0x20">IBMMOU01.SY@</file>
+		<file size="2233" time="1991-11-15 00:00:38" attr="0x20">IBMMOU02.SY@</file>
+		<file size="257" time="1991-11-15 00:00:38" attr="0x20">INSTAID.CM@</file>
+		<file size="251" time="1991-11-15 00:00:38" attr="0x20">INSTAID.CN@</file>
+		<file size="9210" time="1991-11-15 00:00:38" attr="0x20">INSTAID.LI@</file>
+		<file size="230" time="1991-11-15 00:00:38" attr="0x20">INSTAID.PR@</file>
+		<file size="66340" time="1991-11-15 00:00:38" attr="0x20">INSTAIDE.EX@</file>
+		<file size="1197" time="1991-11-15 00:00:38" attr="0x20">ISPD.MS@</file>
+		<file size="486" time="1991-11-15 00:00:38" attr="0x20">ISPM.MS@</file>
+		<file size="103961" time="1991-11-15 00:00:38" attr="0x20">LINK.EX@</file>
+		<file size="35984" time="1991-11-15 00:00:38" attr="0x20">MODE.CO@</file>
+		<file size="3244" time="1991-11-15 00:00:38" attr="0x20">MONCALLS.DL@</file>
+		<file size="22904" time="1991-11-15 00:00:38" attr="0x20">MORE.CO@</file>
+		<file size="12457" time="1991-11-15 00:00:38" attr="0x20">MOUSE.SY@</file>
+		<file size="2009" time="1991-11-15 00:00:38" attr="0x20">MSBUS01.SY@</file>
+		<file size="1646" time="1991-11-15 00:00:38" attr="0x20">MSINP01.SY@</file>
+		<file size="1802" time="1991-11-15 00:00:38" attr="0x20">MSPS201.SY@</file>
+		<file size="2376" time="1991-11-15 00:00:38" attr="0x20">MSPS202.SY@</file>
+		<file size="2252" time="1991-11-15 00:00:38" attr="0x20">MSSER01.SY@</file>
+		<file size="2654" time="1991-11-15 00:00:38" attr="0x20">MSSER02.SY@</file>
+		<file size="922" time="1991-11-15 00:00:38" attr="0x20">NAMPIPES.DL@</file>
+		<file size="69329" time="1991-11-15 00:00:38" attr="0x20">OSO001H.MS@</file>
+		<file size="32824" time="1991-11-15 00:00:38" attr="0x20">PATCH.EX@</file>
+		<file size="2018" time="1991-11-15 00:00:38" attr="0x20">PCMOU01.SY@</file>
+		<file size="2456" time="1991-11-15 00:00:38" attr="0x20">PCMOU02.SY@</file>
+		<file size="50565" time="1991-11-15 00:00:38" attr="0x20">PMMLE.DL@</file>
+		<file size="5528" time="1991-11-15 00:00:38" attr="0x20">POINTDD.SY@</file>
+		<file size="24534" time="1991-11-15 00:00:38" attr="0x20">PRINT.CO@</file>
+		<file size="8800" time="1991-11-15 00:00:38" attr="0x20">PSTAT.EX@</file>
+		<file size="27275" time="1991-11-15 00:00:38" attr="0x20">REPLACE.EX@</file>
+		<file size="4381" time="1991-11-15 00:00:38" attr="0x20">SETCOM40.EX@</file>
+		<file size="9753" time="1991-11-15 00:00:38" attr="0x20">STXTDMPC.DL@</file>
+		<file size="18862" time="1991-11-15 00:00:38" attr="0x20">SUBST.EX@</file>
+		<file size="1545" time="1991-11-15 00:00:38" attr="0x20">SWAPPER.EX@</file>
+		<file size="27352" time="1991-11-15 00:00:38" attr="0x20">SYSLEVEL.EX@</file>
+		<file size="16531" time="1991-11-15 00:00:38" attr="0x20">TRACE.EX@</file>
+		<file size="33624" time="1991-11-15 00:00:38" attr="0x20">TRACEFMT.EX@</file>
+		<file size="12643" time="1991-11-15 00:00:38" attr="0x20">TRSEL.EX@</file>
+		<file size="2022" time="1991-11-15 00:00:38" attr="0x20">VISION01.SY@</file>
+		<file size="2433" time="1991-11-15 00:00:38" attr="0x20">VISION02.SY@</file>
+		<file size="36637" time="1991-11-15 00:00:38" attr="0x20">XCOPY.EX@</file>
 	</disk>
 	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK03.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK03.json" md5="6c053df7e78ea33007ed3d3fc2d00339" md5json="bdc93dde307c92a4c34159d79e5cadb8">
 		<name>MS OS/2 1.3 (Disk 3)</name>
+		<file size="2124" time="1991-11-15 00:00:30" attr="0x20">ANSI.SY@</file>
+		<file size="4465" time="1991-11-15 00:00:30" attr="0x20">APPEND.EX@</file>
+		<file size="1549" time="1991-11-15 00:00:30" attr="0x20">ASSIGN.CO@</file>
+		<file size="115468" time="1991-11-15 00:00:30" attr="0x20">CMDREF.IN@</file>
+		<file size="6449" time="1991-11-15 00:00:30" attr="0x20">COMHP01.SY@</file>
+		<file size="22979" time="1991-11-15 00:00:30" attr="0x20">COMMAND.CO@</file>
+		<file size="88282" time="1991-11-15 00:00:30" attr="0x20">CPISPFPC.DL@</file>
+		<file size="18591" time="1991-11-15 00:00:30" attr="0x20">CREATEDD.EX@</file>
+		<file size="28861" time="1991-11-15 00:00:30" attr="0x20">DISK01.SY@</file>
+		<file size="22412" time="1991-11-15 00:00:30" attr="0x20">DISK02.SY@</file>
+		<file size="1306" time="1991-11-15 00:00:30" attr="0x20">DISK3.SCD</file>
+		<file size="1186" time="1991-11-15 00:00:30" attr="0x20">DOS.SY@</file>
+		<file size="16699" time="1991-11-15 00:00:30" attr="0x20">DOSCALLS.LI@</file>
+		<file size="955" time="1991-11-15 00:00:30" attr="0x20">DTM.DL@</file>
+		<file size="5949" time="1991-11-15 00:00:30" attr="0x20">EDLIN.CO@</file>
+		<file size="2534" time="1991-11-15 00:00:30" attr="0x20">EGA.SY@</file>
+		<file size="1705" time="1991-11-15 00:00:30" attr="0x20">EXTDSKDD.SY@</file>
+		<file size="5718" time="1991-11-15 00:00:30" attr="0x20">GRAFTABL.CO@</file>
+		<file size="392" time="1991-11-15 00:00:30" attr="0x20">HELP.BA@</file>
+		<file size="387" time="1991-11-15 00:00:30" attr="0x20">HELP.CM@</file>
+		<file size="25842" time="1991-11-15 00:00:30" attr="0x20">HELPMSG.EX@</file>
+		<file size="932" time="1991-11-15 00:00:30" attr="0x20">INACALL.DL@</file>
+		<file size="19272" time="1991-11-15 00:00:30" attr="0x20">JOIN.EX@</file>
+		<file size="9976" time="1991-11-15 00:00:30" attr="0x20">PMCPL.DL@</file>
+		<file size="65072" time="1991-11-15 00:00:30" attr="0x20">PMCPL.EX@</file>
+		<file size="24107" time="1991-11-15 00:00:30" attr="0x20">PMCPLH.HL@</file>
+		<file size="7211" time="1991-11-15 00:00:30" attr="0x20">PMEXEC.DL@</file>
+		<file size="37518" time="1991-11-15 00:00:30" attr="0x20">PMEXEC.EX@</file>
+		<file size="24459" time="1991-11-15 00:00:30" attr="0x20">PMEXECH.HL@</file>
+		<file size="15986" time="1991-11-15 00:00:30" attr="0x20">PMFILE.DL@</file>
+		<file size="141164" time="1991-11-15 00:00:30" attr="0x20">PMFILE.EX@</file>
+		<file size="51731" time="1991-11-15 00:00:30" attr="0x20">PMFILEH.HL@</file>
+		<file size="791" time="1991-11-15 00:00:30" attr="0x20">PMSHELL.DL@</file>
+		<file size="8249" time="1991-11-15 00:00:30" attr="0x20">PMSHELL.EX@</file>
+		<file size="3087" time="1991-11-15 00:00:30" attr="0x20">PMSHELLH.HL@</file>
+		<file size="36168" time="1991-11-15 00:00:30" attr="0x20">PMSHLTKT.DL@</file>
+		<file size="50162" time="1991-11-15 00:00:30" attr="0x20">SYSLOG.EX@</file>
+		<file size="12482" time="1991-11-15 00:00:30" attr="0x20">VIEW.EX@</file>
+		<file size="12083" time="1991-11-15 00:00:30" attr="0x20">VIEWDOC.EX@</file>
+		<file size="13206" time="1991-11-15 00:00:30" attr="0x20">VIEWH.HL@</file>
+		<file size="17783" time="1991-11-15 00:00:30" attr="0x20">VIOTBL.DC@</file>
 	</disk>
 	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK04.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK04.json" md5="8c32d3b78cdfdc98846f0faf87f8c127" md5json="e38ad6b33851ac519726b85bd10b8dc2">
 		<name>MS OS/2 1.3 (Disk 4)</name>
+		<file size="43742" time="1991-11-15 00:00:30" attr="0x20">COURIER.FO@</file>
+		<file size="149907" time="1991-11-15 00:00:30" attr="0x20">COURIER.PS@</file>
+		<file size="1369" time="1991-11-15 00:00:30" attr="0x20">DISK4_35.SCD</file>
+		<file size="117467" time="1991-11-15 00:00:30" attr="0x20">HELV.FO@</file>
+		<file size="114619" time="1991-11-15 00:00:30" attr="0x20">HELVETIC.PS@</file>
+		<file size="29466" time="1991-11-15 00:00:30" attr="0x20">OS2SM.DL@</file>
+		<file size="1296" time="1991-11-15 00:00:30" attr="0x20">OS2SM.PD@</file>
+		<file size="12462" time="1991-11-15 00:00:30" attr="0x20">PICH.HL@</file>
+		<file size="23448" time="1991-11-15 00:00:30" attr="0x20">PICICHG.EX@</file>
+		<file size="24616" time="1991-11-15 00:00:30" attr="0x20">PICPH.HL@</file>
+		<file size="76900" time="1991-11-15 00:00:30" attr="0x20">PICPRINT.EX@</file>
+		<file size="30270" time="1991-11-15 00:00:30" attr="0x20">PICSHOW.EX@</file>
+		<file size="80517" time="1991-11-15 00:00:30" attr="0x20">PMATM.DL@</file>
+		<file size="2217" time="1991-11-15 00:00:30" attr="0x20">PMC00000.TF@</file>
+		<file size="3384" time="1991-11-15 00:00:30" attr="0x20">PMC10000.TF@</file>
+		<file size="10326" time="1991-11-15 00:00:30" attr="0x20">PMC20000.TF@</file>
+		<file size="724" time="1991-11-15 00:00:30" attr="0x20">PMC30000.TF@</file>
+		<file size="282" time="1991-11-15 00:00:30" attr="0x20">PMC40000.TF@</file>
+		<file size="8071" time="1991-11-15 00:00:30" attr="0x20">PMC50000.TF@</file>
+		<file size="1678" time="1991-11-15 00:00:30" attr="0x20">PMC60000.TF@</file>
+		<file size="2421" time="1991-11-15 00:00:30" attr="0x20">PMC70000.TF@</file>
+		<file size="376" time="1991-11-15 00:00:30" attr="0x20">PMC80000.TF@</file>
+		<file size="3066" time="1991-11-15 00:00:30" attr="0x20">PMGPI.PD@</file>
+		<file size="32022" time="1991-11-15 00:00:30" attr="0x20">PMPIC.DL@</file>
+		<file size="136" time="1991-11-15 00:00:30" attr="0x20">PMPIC.PD@</file>
+		<file size="5937" time="1991-11-15 00:00:30" attr="0x20">PMREXX.DL@</file>
+		<file size="36706" time="1991-11-15 00:00:30" attr="0x20">PMREXX.EX@</file>
+		<file size="11485" time="1991-11-15 00:00:30" attr="0x20">PMREXX.HL@</file>
+		<file size="786" time="1991-11-15 00:00:30" attr="0x20">PMSHAPI.PD@</file>
+		<file size="700" time="1991-11-15 00:00:30" attr="0x20">PMSPL.PD@</file>
+		<file size="35109" time="1991-11-15 00:00:30" attr="0x20">PMVIOP.DL@</file>
+		<file size="4055" time="1991-11-15 00:00:30" attr="0x20">PMVIOP.HL@</file>
+		<file size="13928" time="1991-11-15 00:00:30" attr="0x20">PSHH.HL@</file>
+		<file size="1901" time="1991-11-15 00:00:30" attr="0x20">REX.MS@</file>
+		<file size="8211" time="1991-11-15 00:00:30" attr="0x20">REXH.MS@</file>
+		<file size="198507" time="1991-11-15 00:00:30" attr="0x20">REXX.DL@</file>
+		<file size="29940" time="1991-11-15 00:00:30" attr="0x20">REXXAPI.DL@</file>
+		<file size="834" time="1991-11-15 00:00:30" attr="0x20">REXXINIT.DL@</file>
+		<file size="4227" time="1991-11-15 00:00:30" attr="0x20">REXXTRY.CM@</file>
+		<file size="9485" time="1991-11-15 00:00:30" attr="0x20">RXQUEUE.EX@</file>
+		<file size="16993" time="1991-11-15 00:00:30" attr="0x20">RXSUBCOM.EX@</file>
+		<file size="1039" time="1991-11-15 00:00:30" attr="0x20">SPL1B.PD@</file>
+		<file size="13608" time="1991-11-15 00:00:30" attr="0x20">SYSMONO.FO@</file>
+		<file size="118584" time="1991-11-15 00:00:30" attr="0x20">TIMES.FO@</file>
+		<file size="126519" time="1991-11-15 00:00:30" attr="0x20">TIMESNRM.PS@</file>
 	</disk>
 	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK05.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK05.json" md5="eae8a105cbaf4f8470916bec3c1423ae" md5json="41884d2867ec5b88085ed9fef9852d76">
 		<name>MS OS/2 1.3 (Disk 5)</name>
+		<file size="6199" time="1991-11-15 00:00:02" attr="0x20">BVH8514A.DL@</file>
+		<file size="14162" time="1991-11-15 00:00:02" attr="0x20">BVHCGA.DL@</file>
+		<file size="20579" time="1991-11-15 00:00:02" attr="0x20">BVHEGA.DL@</file>
+		<file size="11227" time="1991-11-15 00:00:02" attr="0x20">BVHMPA.DL@</file>
+		<file size="24650" time="1991-11-15 00:00:02" attr="0x20">BVHVGA.DL@</file>
+		<file size="5988" time="1991-11-15 00:00:02" attr="0x20">BVHWNDW.DL@</file>
+		<file size="1138" time="1991-11-15 00:00:02" attr="0x20">DISK5_35.SCD</file>
+		<file size="9208" time="1991-11-15 00:00:02" attr="0x20">FKA.DL@</file>
+		<file size="8860" time="1991-11-15 00:00:02" attr="0x20">HIL.SY@</file>
+		<file size="132629" time="1991-11-15 00:00:02" attr="0x20">IBMBGA.DL@</file>
+		<file size="76900" time="1991-11-15 00:00:02" attr="0x20">IBMCGA.DL@</file>
+		<file size="85468" time="1991-11-15 00:00:02" attr="0x20">IBMEGA.DL@</file>
+		<file size="98378" time="1991-11-15 00:00:02" attr="0x20">IBMVGA.DL@</file>
+		<file size="4126" time="1991-11-15 00:00:02" attr="0x20">PMAVIO.DL@</file>
+		<file size="34414" time="1991-11-15 00:00:02" attr="0x20">PMBIND.DL@</file>
+		<file size="2871" time="1991-11-15 00:00:02" attr="0x20">PMDD.SY@</file>
+		<file size="151015" time="1991-11-15 00:00:02" attr="0x20">PMGPI.DL@</file>
+		<file size="216" time="1991-11-15 00:00:02" attr="0x20">PMGRE.PD@</file>
+		<file size="26842" time="1991-11-15 00:00:02" attr="0x20">PMPRINST.EX@</file>
+		<file size="4021" time="1991-11-15 00:00:02" attr="0x20">PMPRINST.HL@</file>
+		<file size="9155" time="1991-11-15 00:00:02" attr="0x20">PMPRINT.QP@</file>
+		<file size="41172" time="1991-11-15 00:00:02" attr="0x20">PMSHAPI.DL@</file>
+		<file size="76024" time="1991-11-15 00:00:02" attr="0x20">PMSPL.DL@</file>
+		<file size="10241" time="1991-11-15 00:00:02" attr="0x20">PMSPOOL.DL@</file>
+		<file size="56611" time="1991-11-15 00:00:02" attr="0x20">PMSPOOL.EX@</file>
+		<file size="26946" time="1991-11-15 00:00:02" attr="0x20">PMSPOOLH.HL@</file>
+		<file size="17841" time="1991-11-15 00:00:02" attr="0x20">PMTKT.DL@</file>
+		<file size="1463" time="1991-11-15 00:00:02" attr="0x20">PMTRACE.DL@</file>
+		<file size="196995" time="1991-11-15 00:00:02" attr="0x20">PMWIN.DL@</file>
+		<file size="3595" time="1991-11-15 00:00:02" attr="0x20">PMWIN.PD@</file>
+		<file size="1469" time="1991-11-15 00:00:02" attr="0x20">SPL.MS@</file>
+		<file size="2919" time="1991-11-15 00:00:02" attr="0x20">SPL1B.DL@</file>
+		<file size="3860" time="1991-11-15 00:00:02" attr="0x20">SPLH.MS@</file>
+		<file size="10812" time="1991-11-15 00:00:02" attr="0x20">SPOOL.EX@</file>
+		<file size="7095" time="1991-11-15 00:00:02" attr="0x20">SPOOLCP.DL@</file>
 	</disk>
 	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK06-INSTALLA.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK06-INSTALLA.json" md5="e1092864ae52b6da5992be251ea66b38" md5json="36d868b0b3c41b1efd7b313ba6263a55">
 		<name>MS OS/2 1.3 (Install A)</name>
+		<file size="15053" time="1991-11-15 00:00:00" attr="0x20">ABIOS.BID</file>
+		<file size="11" time="1991-11-15 00:00:00" attr="0x20">ABIOS.SYS</file>
+		<file size="11354" time="1991-11-15 00:00:00" attr="0x20">AHA152X.BID</file>
+		<file size="5806" time="1991-11-15 00:00:00" attr="0x20">AHA154X.BID</file>
+		<file size="5454" time="1991-11-15 00:00:00" attr="0x20">AHA164X.BID</file>
+		<file size="5670" time="1991-11-15 00:00:00" attr="0x20">AHA174X.BID</file>
+		<file size="3349" time="1991-11-15 00:00:00" attr="0x20">ANSICALL.DLL</file>
+		<file size="35274" time="1991-11-15 00:00:00" attr="0x20">BASEDD01.SYS</file>
+		<file size="38537" time="1991-11-15 00:00:00" attr="0x20">BASEDD02.SYS</file>
+		<file size="6509" time="1991-11-15 00:00:00" attr="0x20">BKSCALLS.DLL</file>
+		<file size="8116" time="1991-11-15 00:00:00" attr="0x20">BVHINIT.DLL</file>
+		<file size="21697" time="1991-11-15 00:00:00" attr="0x20">BVSCALLS.DLL</file>
+		<file size="88160" time="1991-11-15 00:00:00" attr="0x20">CMD.EXE</file>
+		<file size="331" time="1991-11-15 00:00:00" attr="0x20">CONFIG.SYS</file>
+		<file size="24466" time="1991-11-15 00:00:00" attr="0x20">COUNTRY.SYS</file>
+		<file size="7041" time="1991-11-15 00:00:00" attr="0x20">CPQARRAY.BID</file>
+		<file size="5904" time="1991-11-15 00:00:00" attr="0x20">DELL001.BID</file>
+		<file size="9066" time="1991-11-15 00:00:00" attr="0x20">DISK.TSD</file>
+		<file size="1082" time="1991-11-15 00:00:00" attr="0x20">DISK0.SCD</file>
+		<file size="12943" time="1991-11-15 00:00:00" attr="0x20">DOSCALL1.DLL</file>
+		<file size="10946" time="1991-11-15 00:00:00" attr="0x20">ESDI-506.BID</file>
+		<file size="40272" time="1991-11-15 00:00:00" attr="0x20">FDISK.COM</file>
+		<file size="18036" time="1991-11-15 00:00:00" attr="0x20">FLOPPY01.SYS</file>
+		<file size="16644" time="1991-11-15 00:00:00" attr="0x20">FLOPPY02.SYS</file>
+		<file size="11392" time="1991-11-15 00:00:00" attr="0x20">HARDERR.EXE</file>
+		<file size="102842" time="1991-11-15 00:00:00" attr="0x20">HPFS.IFS</file>
+		<file size="143" time="1993-11-05 09:16:44" attr="0x20">INSTALL.LOG</file>
+		<file size="4607" time="1991-11-15 00:00:00" attr="0x20">IOCFG01.SYS</file>
+		<file size="4607" time="1991-11-15 00:00:00" attr="0x20">IOCFG02.SYS</file>
+		<file size="1359" time="1991-11-15 00:00:00" attr="0x20">IORUN.SYS</file>
+		<file size="15289" time="1991-11-15 00:00:00" attr="0x20">IOS1X.SYS</file>
+		<file size="7721" time="1991-11-15 00:00:00" attr="0x20">KBDCALLS.DLL</file>
+		<file size="5177" time="1991-11-15 00:00:00" attr="0x20">KEYBOARD.DCP</file>
+		<file size="4" time="1991-11-15 00:00:00" attr="0x20">LM</file>
+		<file size="4844" time="1991-11-15 00:00:00" attr="0x20">MOUCALLS.DLL</file>
+		<file size="5244" time="1991-11-15 00:00:00" attr="0x20">MSG.DLL</file>
+		<file size="8158" time="1991-11-15 00:00:00" attr="0x20">NCR_C700.BID</file>
+		<file size="5606" time="1991-11-15 00:00:00" attr="0x20">NCR_C90.BID</file>
+		<file size="4023" time="1991-11-15 00:00:00" attr="0x20">NLS.DLL</file>
+		<file size="293530" time="1991-11-15 00:00:00" attr="0x20">OS2KRNL</file>
+		<file size="18432" time="1991-11-14 12:00:00" attr="0x20">OS2LDR</file>
+		<file size="108095" time="1991-11-15 00:00:00" attr="0x20">OSO001.MSG</file>
+		<file size="9626" time="1991-11-15 00:00:00" attr="0x20">QUECALLS.DLL</file>
+		<file size="24052" time="1991-11-15 00:00:00" attr="0x20">SESMGR.DLL</file>
+		<file size="19920" time="1991-11-15 00:00:00" attr="0x20">SIPANEL1.DLL</file>
+		<file size="4432" time="1991-11-15 00:00:00" attr="0x20">STDDISK.VSD</file>
+		<file size="3216" time="1991-11-15 00:00:00" attr="0x20">SYSINST1.EXE</file>
+		<file size="132336" time="1991-11-15 00:00:00" attr="0x20">SYSINST2.EXE</file>
+		<file size="37062" time="1991-11-15 00:00:00" attr="0x20">SYSINSTX.COM</file>
+		<file size="169" time="1991-11-15 00:00:00" attr="0x20">SYSLEVEL.OS2</file>
+		<file size="2052" time="1991-11-15 00:00:00" attr="0x20">VDISK.SYS</file>
+		<file size="16087" time="1991-11-15 00:00:00" attr="0x20">VIOCALLS.DLL</file>
+		<file size="10478" time="1991-11-15 00:00:00" attr="0x20">VTBL850.DCP</file>
+		<file size="8274" time="1991-11-15 00:00:00" attr="0x20">WD7000AX.BID</file>
+		<file size="6463" time="1991-11-15 00:00:00" attr="0x20">WD7000EX.BID</file>
 	</disk>
 	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK07-INSTALLB.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK07-INSTALLB.json" md5="a1684aec1db94e129cb0ea6e9e215dde" md5json="36113f54f208325a49c6af8a26d3c14c">
 		<name>MS OS/2 1.3 (Install B)</name>
+		<file size="11" time="1991-11-15 00:00:00" attr="0x20">ABIOS.SYS</file>
+		<file size="3349" time="1991-11-15 00:00:00" attr="0x20">ANSICALL.DLL</file>
+		<file size="35274" time="1991-11-15 00:00:00" attr="0x20">BASEDD01.SYS</file>
+		<file size="38537" time="1991-11-15 00:00:00" attr="0x20">BASEDD02.SYS</file>
+		<file size="6509" time="1991-11-15 00:00:00" attr="0x20">BKSCALLS.DLL</file>
+		<file size="8116" time="1991-11-15 00:00:00" attr="0x20">BVHINIT.DLL</file>
+		<file size="21697" time="1991-11-15 00:00:00" attr="0x20">BVSCALLS.DLL</file>
+		<file size="88160" time="1991-11-15 00:00:00" attr="0x20">CMD.EXE</file>
+		<file size="331" time="1991-11-15 00:00:00" attr="0x20">CONFIG.SYS</file>
+		<file size="24466" time="1991-11-15 00:00:00" attr="0x20">COUNTRY.SYS</file>
+		<file size="9066" time="1991-11-15 00:00:00" attr="0x20">DISK.TSD</file>
+		<file size="1082" time="1991-11-15 00:00:00" attr="0x20">DISK0.SCD</file>
+		<file size="12943" time="1991-11-15 00:00:00" attr="0x20">DOSCALL1.DLL</file>
+		<file size="5948" time="1991-11-15 00:00:00" attr="0x20">DPT201X.BID</file>
+		<file size="28793" time="1991-11-15 00:00:00" attr="0x20">FD16-700.BID</file>
+		<file size="28377" time="1991-11-15 00:00:00" attr="0x20">FD8XX.BID</file>
+		<file size="40272" time="1991-11-15 00:00:00" attr="0x20">FDISK.COM</file>
+		<file size="18036" time="1991-11-15 00:00:00" attr="0x20">FLOPPY01.SYS</file>
+		<file size="16644" time="1991-11-15 00:00:00" attr="0x20">FLOPPY02.SYS</file>
+		<file size="11392" time="1991-11-15 00:00:00" attr="0x20">HARDERR.EXE</file>
+		<file size="102842" time="1991-11-15 00:00:00" attr="0x20">HPFS.IFS</file>
+		<file size="4607" time="1991-11-15 00:00:00" attr="0x20">IOCFG01.SYS</file>
+		<file size="4607" time="1991-11-15 00:00:00" attr="0x20">IOCFG02.SYS</file>
+		<file size="1359" time="1991-11-15 00:00:00" attr="0x20">IORUN.SYS</file>
+		<file size="15289" time="1991-11-15 00:00:00" attr="0x20">IOS1X.SYS</file>
+		<file size="7721" time="1991-11-15 00:00:00" attr="0x20">KBDCALLS.DLL</file>
+		<file size="5177" time="1991-11-15 00:00:00" attr="0x20">KEYBOARD.DCP</file>
+		<file size="4" time="1991-11-15 00:00:00" attr="0x20">LM</file>
+		<file size="4844" time="1991-11-15 00:00:00" attr="0x20">MOUCALLS.DLL</file>
+		<file size="5244" time="1991-11-15 00:00:00" attr="0x20">MSG.DLL</file>
+		<file size="8158" time="1991-11-15 00:00:00" attr="0x20">NCR_C700.BID</file>
+		<file size="9073" time="1991-11-15 00:00:00" attr="0x20">NCR_C710.BID</file>
+		<file size="5606" time="1991-11-15 00:00:00" attr="0x20">NCR_C90.BID</file>
+		<file size="4023" time="1991-11-15 00:00:00" attr="0x20">NLS.DLL</file>
+		<file size="293530" time="1991-11-15 00:00:00" attr="0x20">OS2KRNL</file>
+		<file size="18432" time="1991-11-14 12:00:00" attr="0x20">OS2LDR</file>
+		<file size="108095" time="1991-11-15 00:00:00" attr="0x20">OSO001.MSG</file>
+		<file size="9626" time="1991-11-15 00:00:00" attr="0x20">QUECALLS.DLL</file>
+		<file size="24052" time="1991-11-15 00:00:00" attr="0x20">SESMGR.DLL</file>
+		<file size="19920" time="1991-11-15 00:00:00" attr="0x20">SIPANEL1.DLL</file>
+		<file size="4432" time="1991-11-15 00:00:00" attr="0x20">STDDISK.VSD</file>
+		<file size="3216" time="1991-11-15 00:00:00" attr="0x20">SYSINST1.EXE</file>
+		<file size="132336" time="1991-11-15 00:00:00" attr="0x20">SYSINST2.EXE</file>
+		<file size="37062" time="1991-11-15 00:00:00" attr="0x20">SYSINSTX.COM</file>
+		<file size="169" time="1991-11-15 00:00:00" attr="0x20">SYSLEVEL.OS2</file>
+		<file size="2052" time="1991-11-15 00:00:00" attr="0x20">VDISK.SYS</file>
+		<file size="16087" time="1991-11-15 00:00:00" attr="0x20">VIOCALLS.DLL</file>
+		<file size="10478" time="1991-11-15 00:00:00" attr="0x20">VTBL850.DCP</file>
 	</disk>
 	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK08-SUPP.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK08-SUPP.json" md5="785a99c99fe51cb70a77a4413a725a43" md5json="37bada4e0ce3c44300287e6718290b97">
 		<name>MS OS/2 1.3 (Supplemental)</name>
+		<file size="31520" time="1991-11-15 00:00:00" attr="0x20">CDAUDIO.EXE</file>
+		<file size="34855" time="1991-11-15 00:00:00" attr="0x20">CDFS.IFS</file>
+		<file size="3775" time="1991-11-15 00:00:00" attr="0x20">CDROM.TSD</file>
+		<file size="12437" time="1991-11-15 00:00:00" attr="0x20">CLEANUP.EXE</file>
+		<file size="6098" time="1991-11-15 00:00:00" attr="0x20">DENON.VSD</file>
+		<file size="896" time="1991-11-15 00:00:00" attr="0x20">DISK.MSG</file>
+		<file size="304" time="1991-11-15 00:00:00" attr="0x20">DISK.TXB</file>
+		<file size="963" time="1991-11-15 00:00:00" attr="0x20">ESDI-506.MSG</file>
+		<file size="352" time="1991-11-15 00:00:00" attr="0x20">ESDI-506.TXB</file>
+		<file size="384" time="1991-11-15 00:00:00" attr="0x20">FATCACHE.MSG</file>
+		<file size="172" time="1991-11-15 00:00:00" attr="0x20">FATCACHE.TXB</file>
+		<file size="888" time="1991-11-15 00:00:00" attr="0x20">FT_VSD.MSG</file>
+		<file size="220" time="1991-11-15 00:00:00" attr="0x20">FT_VSD.TXB</file>
+		<file size="243" time="1991-11-15 00:00:00" attr="0x20">GLUE.CMD</file>
+		<file size="24115" time="1991-11-15 00:00:00" attr="0x20">LDSKSCAN.EXE</file>
+		<file size="3" time="1991-11-15 00:00:00" attr="0x20">LEVEL8.004</file>
+		<file size="3920" time="1991-11-15 00:00:00" attr="0x20">LMGLUE.EXE</file>
+		<file size="92105" time="1991-11-15 00:00:00" attr="0x20">LOGSHOW.EXE</file>
+		<file size="11297" time="1991-11-15 00:00:00" attr="0x20">LOGWRITE.EXE</file>
+		<file size="24115" time="1991-11-15 00:00:00" attr="0x20">PDSKSCAN.EXE</file>
+		<file size="3017" time="1991-11-15 00:00:00" attr="0x20">PPGLUE.EXE</file>
+		<file size="50365" time="1991-11-15 00:00:00" attr="0x20">README.TXT</file>
+		<file size="160" time="1991-11-15 00:00:00" attr="0x10">ROOT</file>
+		<file size="7726" time="1991-11-15 00:00:00" attr="0x20" dir="ROOT/">FATCACHE.VSD</file>
+		<file size="6806" time="1991-11-15 00:00:00" attr="0x20" dir="ROOT/">FT.VSD</file>
+		<file size="26" time="1991-11-15 00:00:00" attr="0x20" dir="ROOT/">STARTUP.CMD</file>
+		<file size="4997" time="1991-11-15 00:00:00" attr="0x20">STDCDROM.VSD</file>
+		<file size="448" time="1991-11-15 00:00:00" attr="0x10">SYFILES</file>
+		<file size="9960" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE0.DLL</file>
+		<file size="63" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE0.TXT</file>
+		<file size="17" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE0.VAR</file>
+		<file size="9960" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE1.DLL</file>
+		<file size="63" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE1.TXT</file>
+		<file size="17" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE1.VAR</file>
+		<file size="9960" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE2.DLL</file>
+		<file size="63" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE2.TXT</file>
+		<file size="17" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE2.VAR</file>
+		<file size="9960" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE3.DLL</file>
+		<file size="63" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE3.TXT</file>
+		<file size="17" time="1991-11-15 00:00:00" attr="0x20" dir="SYFILES/">LDRTAPE3.VAR</file>
+		<file size="160" time="1991-11-15 00:00:00" attr="0x10">TAPE</file>
+		<file size="3893" time="1991-11-15 00:00:00" attr="0x20">TAPE.TSD</file>
+		<file size="1332" time="1991-11-15 00:00:00" attr="0x20" dir="TAPE/">WANGTEK.MSG</file>
+		<file size="496" time="1991-11-15 00:00:00" attr="0x20" dir="TAPE/">WANGTEK.TXB</file>
+		<file size="5315" time="1991-11-15 00:00:00" attr="0x20" dir="TAPE/">WANGTEK.VSD</file>
+		<file size="1089" time="1991-11-15 00:00:00" attr="0x20">TAPETSD.MSG</file>
+		<file size="268" time="1991-11-15 00:00:00" attr="0x20">TAPETSD.TXB</file>
+		<file size="12240" time="1991-11-15 00:00:00" attr="0x20">UCDFS.DLL</file>
+		<file size="27122" time="1991-11-15 00:00:00" attr="0x20">VIEWCFG.EXE</file>
 	</disk>
 	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK09-DRIVER1.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK09-DRIVER1.json" md5="02d376a1f34dbcc1e038340778a38eea" md5json="5e308f37084934f1f1bfade1c4ed675b">
 		<name>MS OS/2 1.3 (Driver 1)</name>
+		<file size="653" time="1991-11-15 00:00:26" attr="0x20">52XXINST.CMD</file>
+		<file size="1065" time="1991-11-15 00:00:26" attr="0x20">ACOURIE0.FNT</file>
+		<file size="7570" time="1991-11-15 00:00:26" attr="0x20">BARCODE0.FNT</file>
+		<file size="5920" time="1991-11-15 00:00:26" attr="0x20">BTMSRMN0.FNT</file>
+		<file size="1410" time="1991-11-15 00:00:26" attr="0x20">CINTERN0.FNT</file>
+		<file size="1068" time="1991-11-15 00:00:26" attr="0x20">DPRESTI0.FNT</file>
+		<file size="22528" time="1991-11-14 16:28:00" attr="0x20">EA DATA. SF</file>
+		<file size="1067" time="1991-11-15 00:00:26" attr="0x20">ELETTER0.FNT</file>
+		<file size="49152" time="1991-11-15 00:00:26" attr="0x20">EPSON.DRV</file>
+		<file size="10825" time="1991-11-15 00:00:26" attr="0x20">EPSON.HLP</file>
+		<file size="58880" time="1991-11-15 00:00:26" attr="0x20">EPSONDAT.DLL</file>
+		<file size="9932" time="1991-11-15 00:00:26" attr="0x20">FORMSET0.FNT</file>
+		<file size="5903" time="1991-11-15 00:00:26" attr="0x20">FTMSRMN0.FNT</file>
+		<file size="76800" time="1991-11-15 00:00:26" attr="0x20">GENERIC.DLL</file>
+		<file size="3129" time="1991-11-15 00:00:26" attr="0x20">GLEGALE0.FNT</file>
+		<file size="6676" time="1991-11-15 00:00:26" attr="0x20">GLOBALT0.FNT</file>
+		<file size="4727" time="1991-11-15 00:00:26" attr="0x20">GREATST0.FNT</file>
+		<file size="3476" time="1991-11-15 00:00:26" attr="0x20">HLEGALC0.FNT</file>
+		<file size="93184" time="1991-11-15 00:00:26" attr="0x20">HP_ADDF.DLL</file>
+		<file size="91104" time="1991-11-15 00:00:26" attr="0x20">IBM3852.DRV</file>
+		<file size="90496" time="1991-11-15 00:00:26" attr="0x20">IBMNULL.DRV</file>
+		<file size="24099" time="1991-11-15 00:00:26" attr="0x20">INTERNA0.FNT</file>
+		<file size="4507" time="1991-11-15 00:00:26" attr="0x20">JMATHEL0.FNT</file>
+		<file size="14414" time="1991-11-15 00:00:26" attr="0x20">KMATHTM0.FNT</file>
+		<file size="164352" time="1991-11-15 00:00:26" attr="0x20">LASERJET.DRV</file>
+		<file size="1063" time="1991-11-15 00:00:26" attr="0x20">LCOURIE0.FNT</file>
+		<file size="11643" time="1991-11-15 00:00:26" attr="0x20">MATHSCI0.FNT</file>
+		<file size="1072" time="1991-11-15 00:00:26" attr="0x20">MPRESTI0.FNT</file>
+		<file size="1071" time="1991-11-15 00:00:26" attr="0x20">NLETTER0.FNT</file>
+		<file size="13256" time="1991-11-15 00:00:26" attr="0x20">PERSUAS0.FNT</file>
+		<file size="9339" time="1991-11-15 00:00:26" attr="0x20">POLISHE0.FNT</file>
+		<file size="4845" time="1991-11-15 00:00:26" attr="0x20">PRDESC.LST</file>
+		<file size="643" time="1991-11-15 00:00:26" attr="0x20">PRDRV.LST</file>
+		<file size="34443" time="1991-11-15 00:00:26" attr="0x20">PROCOLL0.FNT</file>
+		<file size="393408" time="1991-11-15 00:00:26" attr="0x20">PSCRIPT.DRV</file>
+		<file size="3350" time="1991-11-15 00:00:26" attr="0x20">PTMSRMN0.FNT</file>
+		<file size="1405" time="1991-11-15 00:00:26" attr="0x20">QMEMO1X0.FNT</file>
+		<file size="96" time="1991-11-15 00:00:26" attr="0x20">README.DAT</file>
+		<file size="5560" time="1991-11-15 00:00:26" attr="0x20">RPRESEN0.FNT</file>
+		<file size="1074" time="1991-11-15 00:00:26" attr="0x20">S1COURI0.FNT</file>
+		<file size="5573" time="1991-11-15 00:00:26" attr="0x20">S2TMSRM0.FNT</file>
+		<file size="7005" time="1991-11-15 00:00:26" attr="0x20">TTAX1XX0.FNT</file>
+		<file size="6252" time="1991-11-15 00:00:26" attr="0x20">UFORMSP0.FNT</file>
+		<file size="6253" time="1991-11-15 00:00:26" attr="0x20">VFORMSL0.FNT</file>
+		<file size="19952" time="1991-11-15 00:00:26" attr="0x20">WORDPER0.FNT</file>
+		<file size="3635" time="1991-11-15 00:00:26" attr="0x20">XBARCOD0.FNT</file>
+		<file size="3816" time="1991-11-15 00:00:26" attr="0x20">YPCCOUR0.FNT</file>
+		<file size="18106" time="1991-11-15 00:00:26" attr="0x20">Z1ACART0.FNT</file>
+		<file size="18082" time="1991-11-15 00:00:26" attr="0x20">ZMICROS0.FNT</file>
 	</disk>
 	<disk id="disk10" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK10-DRIVER2.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK10-DRIVER2.json" md5="7ef0198544f9ae1960ff1eb9258773cf" md5json="1a5c2fd1ef7f75fdda214de884385e4a">
 		<name>MS OS/2 1.3 (Driver 2)</name>
+		<file size="533" time="1991-11-15 00:00:12" attr="0x20">4208.DCP</file>
+		<file size="2560" time="1991-11-14 16:28:10" attr="0x20">EA DATA. SF</file>
+		<file size="177936" time="1991-11-15 00:00:12" attr="0x20">IBM4019.DRV</file>
+		<file size="191249" time="1991-11-15 00:00:12" attr="0x20">IBM4019.PMF</file>
+		<file size="17069" time="1991-11-15 00:00:12" attr="0x20">IBM4201.DCP</file>
+		<file size="286592" time="1991-11-15 00:00:12" attr="0x20">IBM42XX.DRV</file>
+		<file size="90320" time="1991-11-15 00:00:12" attr="0x20">IBM5152.DRV</file>
+		<file size="96672" time="1991-11-15 00:00:12" attr="0x20">IBM5182.DRV</file>
+		<file size="68384" time="1991-11-15 00:00:12" attr="0x20">IBM52011.DRV</file>
+		<file size="96992" time="1991-11-15 00:00:12" attr="0x20">IBM52012.DRV</file>
+		<file size="68400" time="1991-11-15 00:00:12" attr="0x20">IBM5216.DRV</file>
+		<file size="232592" time="1991-11-15 00:00:12" attr="0x20">IBM52XX.DRV</file>
+		<file size="57667" time="1991-11-15 00:00:12" attr="0x20">IBM52XX.PMF</file>
 	</disk>
 	<disk id="disk11" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK11-FONT.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK11-FONT.json" md5="247783c1b6450b216202717f98eb90f1" md5json="bd3d596fcbbd3f08ddd6286b1dd43739">
 		<name>MS OS/2 1.3 (Font)</name>
+		<file size="7673" time="1991-11-15 00:00:28" attr="0x20">4019.DAT</file>
+		<file size="19916" time="1991-11-15 00:00:28" attr="0x20">42XX.DAT</file>
+		<file size="10815" time="1991-11-15 00:00:28" attr="0x20">52XX.DAT</file>
+		<file size="23654" time="1991-11-15 00:00:28" attr="0x20">COU.AFM</file>
+		<file size="45692" time="1991-11-15 00:00:28" attr="0x20">COU.PFB</file>
+		<file size="23591" time="1991-11-15 00:00:28" attr="0x20">COUB.AFM</file>
+		<file size="46363" time="1991-11-15 00:00:28" attr="0x20">COUB.PFB</file>
+		<file size="23776" time="1991-11-15 00:00:28" attr="0x20">COUBI.AFM</file>
+		<file size="47270" time="1991-11-15 00:00:28" attr="0x20">COUBI.PFB</file>
+		<file size="23808" time="1991-11-15 00:00:28" attr="0x20">COUI.AFM</file>
+		<file size="46060" time="1991-11-15 00:00:28" attr="0x20">COUI.PFB</file>
+		<file size="6427" time="1991-11-15 00:00:28" attr="0x20">DCP.DAT</file>
+		<file size="27208" time="1991-11-15 00:00:28" attr="0x20">DDHELP.DAT</file>
+		<file size="1536" time="1991-11-14 16:28:20" attr="0x20">EA DATA. SF</file>
+		<file size="2718" time="1991-11-15 00:00:28" attr="0x20">EPSON.DAT</file>
+		<file size="25584" time="1991-11-15 00:00:28" attr="0x20">HEL.AFM</file>
+		<file size="40979" time="1991-11-15 00:00:28" attr="0x20">HEL.PFB</file>
+		<file size="25518" time="1991-11-15 00:00:28" attr="0x20">HELB.AFM</file>
+		<file size="42455" time="1991-11-15 00:00:28" attr="0x20">HELB.PFB</file>
+		<file size="25611" time="1991-11-15 00:00:28" attr="0x20">HELBI.AFM</file>
+		<file size="44635" time="1991-11-15 00:00:28" attr="0x20">HELBI.PFB</file>
+		<file size="25589" time="1991-11-15 00:00:28" attr="0x20">HELI.AFM</file>
+		<file size="44250" time="1991-11-15 00:00:28" attr="0x20">HELI.PFB</file>
+		<file size="90368" time="1991-11-15 00:00:28" attr="0x20">MSNULL.DRV</file>
+		<file size="5036" time="1991-11-15 00:00:28" attr="0x20">PCL.DAT</file>
+		<file size="6222" time="1991-11-15 00:00:28" attr="0x20">PLOT.DAT</file>
+		<file size="14142" time="1991-11-15 00:00:28" attr="0x20">PLOTQP.DAT</file>
+		<file size="105696" time="1991-11-15 00:00:28" attr="0x20">PLOTTERS.DRV</file>
+		<file size="11904" time="1991-11-15 00:00:28" attr="0x20">PMPLOT.QPR</file>
+		<file size="95664" time="1991-11-15 00:00:28" attr="0x20">PMPLOTPD.DRV</file>
+		<file size="2682" time="1991-11-15 00:00:28" attr="0x20">PROPS.DAT</file>
+		<file size="3538" time="1991-11-15 00:00:28" attr="0x20">PSCRPT.DAT</file>
+		<file size="9758" time="1991-11-15 00:00:28" attr="0x20">READMEDD.DAT</file>
+		<file size="25566" time="1991-11-15 00:00:28" attr="0x20">TNR.AFM</file>
+		<file size="46597" time="1991-11-15 00:00:28" attr="0x20">TNR.PFB</file>
+		<file size="25614" time="1991-11-15 00:00:28" attr="0x20">TNRB.AFM</file>
+		<file size="48226" time="1991-11-15 00:00:28" attr="0x20">TNRB.PFB</file>
+		<file size="25828" time="1991-11-15 00:00:28" attr="0x20">TNRBI.AFM</file>
+		<file size="51832" time="1991-11-15 00:00:28" attr="0x20">TNRBI.PFB</file>
+		<file size="25818" time="1991-11-15 00:00:28" attr="0x20">TNRI.AFM</file>
+		<file size="50940" time="1991-11-15 00:00:28" attr="0x20">TNRI.PFB</file>
 	</disk>
 </manifest>

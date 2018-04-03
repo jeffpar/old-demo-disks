@@ -26,7 +26,7 @@ find -L ${dir} -name "manifest.xml" -exec grep -H -e "<disk.*href=" {} \; > disk
 while read line; do
 	manFolder=`echo ${line} | sed -E "s/^([^:]*)\/manifest\.xml:.*/\1/"`
 	srcFile=`echo ${line} | sed -E "s/.*href=\"([^\"]*)\".*/\1/"`
-	echo "checking ${srcFile}..."
+	# echo "checking ${srcFile}..."
 	tmpFile=`echo ${srcFile} | sed -E "s/.*\/pcx86\/(.*)/\1/"`
 	if [[ ${srcFile} == http* ]]; then
 		if [ ! -f "${tmpFile}" ]; then
@@ -58,9 +58,10 @@ while read line; do
 	if [[ ${master} == true ]]; then
 		if [[ ${line} == *img=* ]]; then
 			imgFile=`echo ${line} | sed -E "s/.*img=\"([^\"]*)\".*/\1/"`
-			archiveFolder=${manFolder}/$(dirname "${imgFile}")
-			diskName=$(basename "${imgFile}" ".img")
-			diskFolder=${archiveFolder}/${diskName}
+			archiveFolder="${manFolder}/$(dirname "${imgFile}")"
+			diskName="$(basename "${imgFile}" ".img")"
+			diskFolder="${archiveFolder}/${diskName}"
+			diskImage="${diskFolder}.img"
 		elif [[ ${line} == *dir=* ]]; then
 			diskFolder=${manFolder}/`echo ${line} | sed -E "s/.*dir=\"([^\"]*)\".*/\1/"`
 			archiveFolder=$(dirname "${diskFolder}")
@@ -77,7 +78,7 @@ while read line; do
 			echo "missing archive folder: ${archiveFolder}"
 			continue
 		fi
-		mkdir ${archiveFolder}
+		mkdir "${archiveFolder}"
 		if [ $? -ne 0 ]; then
 			echo "unable to create folder: ${archiveFolder}"
 			break
@@ -88,7 +89,7 @@ while read line; do
 			echo "missing disk folder: ${diskFolder}"
 			continue
 		fi
-		mkdir ${diskFolder}
+		mkdir "${diskFolder}"
 		if [ $? -ne 0 ]; then
 			echo "unable to create folder: ${diskFolder}"
 			break
@@ -105,10 +106,10 @@ while read line; do
 				echo "unable to create disk image: ${diskImage}"
 				break
 			fi
-			chmod a-w ${diskImage}
+			chmod a-w "${diskImage}"
 		fi
 	fi
-	if [ -z "$(ls -A ${diskFolder})" ]; then
+	if [ -z "`ls -A "${diskFolder}"`" ]; then
 		if [[ ${verify} == true ]]; then
 			echo "empty disk folder: ${diskFolder}"
 			continue

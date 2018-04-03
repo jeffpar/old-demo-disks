@@ -1,15 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>Borland Turbo Pascal</title>
 	<version>4.00</version>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK1.img" href="/pcjs-disks/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK1.json" md5="369c36c690a5d18f1ac1cc38f401b0ae" md5json="125db755fd2ba630511c9bac1fcac9c6">
 		<name>Borland Turbo Pascal 4.00 (Disk 1)</name>
+		<file size="12086" time="1987-12-16 04:00:00" attr="0x20">README</file>
+		<file size="4066" time="1987-12-16 04:00:00" attr="0x20">README.COM</file>
+		<file size="63456" time="1987-12-16 04:00:00" attr="0x20">TINST.EXE</file>
+		<file size="41790" time="1987-12-16 04:00:00" attr="0x20">TPC.EXE</file>
+		<file size="115272" time="1987-12-16 04:00:00" attr="0x20">TURBO.EXE</file>
+		<file size="85344" time="1987-12-16 04:00:00" attr="0x20">TURBO.HLP</file>
+		<file size="36816" time="1987-12-16 04:00:00" attr="0x20">TURBO.TPL</file>
 	</disk>
 	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK2.img" href="/pcjs-disks/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK2.json" md5="4b055908325627c572b7b3ae0448bafb" md5json="fd4f5c4490ab2b511eb4a68052646671">
 		<name>Borland Turbo Pascal 4.00 (Disk 2)</name>
+		<file size="4868" time="1987-12-16 04:00:00" attr="0x20">BCD.PAS</file>
+		<file size="10578" time="1987-12-16 04:00:00" attr="0x20">BINOBJ.EXE</file>
+		<file size="1681" time="1987-12-16 04:00:00" attr="0x20">CPASDEMO.C</file>
+		<file size="4434" time="1987-12-16 04:00:00" attr="0x20">CPASDEMO.PAS</file>
+		<file size="2565" time="1987-12-16 04:00:00" attr="0x20">CRT.DOC</file>
+		<file size="4294" time="1987-12-16 04:00:00" attr="0x20">CRTDEMO.PAS</file>
+		<file size="1711" time="1987-12-16 04:00:00" attr="0x20">CTOPAS.TC</file>
+		<file size="3577" time="1987-12-16 04:00:00" attr="0x20">DOS.DOC</file>
+		<file size="15687" time="1987-12-16 04:00:00" attr="0x20">EMS.PAS</file>
+		<file size="1148" time="1987-12-16 04:00:00" attr="0x20">FIB8087.PAS</file>
+		<file size="6771" time="1987-12-16 04:00:00" attr="0x20">GR3DEMO.PAS</file>
+		<file size="2061" time="1987-12-16 04:00:00" attr="0x20">GRAPH3.DOC</file>
+		<file size="5930" time="1987-12-16 04:00:00" attr="0x20">GREP.COM</file>
+		<file size="6227" time="1987-12-16 04:00:00" attr="0x20">HILB.PAS</file>
+		<file size="5735" time="1987-12-16 04:00:00" attr="0x20">LISTER.PAS</file>
+		<file size="19094" time="1987-12-16 04:00:00" attr="0x20">MAKE.EXE</file>
+		<file size="557" time="1987-12-16 04:00:00" attr="0x20">PRINTER.DOC</file>
+		<file size="1319" time="1987-12-16 04:00:00" attr="0x20">PROCPTR.PAS</file>
+		<file size="20535" time="1987-12-16 04:00:00" attr="0x20">Q&amp;A</file>
+		<file size="1743" time="1987-12-16 04:00:00" attr="0x20">QSORT.PAS</file>
+		<file size="1550" time="1987-12-16 04:00:00" attr="0x20">SYSTEM.DOC</file>
+		<file size="3992" time="1987-12-16 04:00:00" attr="0x20">TOUCH.COM</file>
+		<file size="13670" time="1987-12-16 04:00:00" attr="0x20">TPCONFIG.EXE</file>
+		<file size="10688" time="1987-12-16 04:00:00" attr="0x20">TPMAP.EXE</file>
+		<file size="47232" time="1987-12-16 04:00:00" attr="0x20">TPUMOVER.EXE</file>
+		<file size="969" time="1987-12-16 04:00:00" attr="0x20">TURBO3.DOC</file>
+		<file size="76" time="1987-12-16 04:00:00" attr="0x20">TURBOC.CFG</file>
+		<file size="25495" time="1987-12-16 04:00:00" attr="0x20">UPGRADE.DTA</file>
+		<file size="43040" time="1987-12-16 04:00:00" attr="0x20">UPGRADE.EXE</file>
 	</disk>
 	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK3.img" href="/pcjs-disks/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK3.json" md5="3c08bea48da5e906e005b820faf56ff9" md5json="36a299cf1e3772db47ac3e2fc99f7d2e">
 		<name>Borland Turbo Pascal 4.00 (Disk 3)</name>
+		<file size="9353" time="1987-12-16 04:00:00" attr="0x20">ARTY4.PAS</file>
+		<file size="6029" time="1987-12-16 04:00:00" attr="0x20">ATT.BGI</file>
+		<file size="6029" time="1987-12-16 04:00:00" attr="0x20">CGA.BGI</file>
+		<file size="781" time="1987-12-16 04:00:00" attr="0x20">DRIVERS.PAS</file>
+		<file size="5139" time="1987-12-16 04:00:00" attr="0x20">EGAVGA.BGI</file>
+		<file size="701" time="1987-12-16 04:00:00" attr="0x20">FONTS.PAS</file>
+		<file size="8489" time="1987-12-16 04:00:00" attr="0x20">GOTH.CHR</file>
+		<file size="10097" time="1987-12-16 04:00:00" attr="0x20">GRAPH.DOC</file>
+		<file size="27184" time="1987-12-16 04:00:00" attr="0x20">GRAPH.TPU</file>
+		<file size="36317" time="1987-12-16 04:00:00" attr="0x20">GRDEMO.PAS</file>
+		<file size="17811" time="1987-12-16 04:00:00" attr="0x20">GREXAMPL.ARC</file>
+		<file size="902" time="1987-12-16 04:00:00" attr="0x20">GRLINK.MAK</file>
+		<file size="4491" time="1987-12-16 04:00:00" attr="0x20">GRLINK.PAS</file>
+		<file size="5933" time="1987-12-16 04:00:00" attr="0x20">HERC.BGI</file>
+		<file size="2126" time="1987-12-16 04:00:00" attr="0x20">LITT.CHR</file>
+		<file size="3655" time="1987-12-16 04:00:00" attr="0x20">MCALC.PAS</file>
+		<file size="8037" time="1987-12-16 04:00:00" attr="0x20">MCDISPLY.PAS</file>
+		<file size="5576" time="1987-12-16 04:00:00" attr="0x20">MCINPUT.PAS</file>
+		<file size="12516" time="1987-12-16 04:00:00" attr="0x20">MCLIB.PAS</file>
+		<file size="5042" time="1987-12-16 04:00:00" attr="0x20">MCMVSMEM.ASM</file>
+		<file size="303" time="1987-12-16 04:00:00" attr="0x20">MCMVSMEM.OBJ</file>
+		<file size="21352" time="1987-12-16 04:00:00" attr="0x20">MCOMMAND.PAS</file>
+		<file size="13863" time="1987-12-16 04:00:00" attr="0x20">MCPARSER.PAS</file>
+		<file size="9971" time="1987-12-16 04:00:00" attr="0x20">MCUTIL.PAS</file>
+		<file size="5045" time="1987-12-16 04:00:00" attr="0x20">MCVARS.PAS</file>
+		<file size="5837" time="1987-12-16 04:00:00" attr="0x20">PC3270.BGI</file>
+		<file size="5452" time="1987-12-16 04:00:00" attr="0x20">SANS.CHR</file>
+		<file size="7213" time="1987-12-16 04:00:00" attr="0x20">TRIP.CHR</file>
+		<file size="14710" time="1987-12-16 04:00:00" attr="0x20">UNPACK.COM</file>
 	</disk>
 </manifest>

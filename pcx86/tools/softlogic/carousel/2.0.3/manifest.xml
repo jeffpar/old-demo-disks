@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.62.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
 	<title>Software Carousel</title>
 	<version>2.0.3</version>
@@ -8,5 +8,28 @@
 	<author>SoftLogic Solutions</author>
 	<releaseDate>1986</releaseDate>
 	<serialNumber>00123030</serialNumber>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SOFTWARE-CAROUSEL.img" href="/pcjs-disks/pcx86/tools/softlogic/carousel/2.0.3/SOFTWARE-CAROUSEL.json" md5="2aed06ff45fda03d4a43c7336a1db0ed" md5json="1a9d9213207ca9ac5db41d3f6a8dd0eb"/>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SOFTWARE-CAROUSEL.img" href="/pcjs-disks/pcx86/tools/softlogic/carousel/2.0.3/SOFTWARE-CAROUSEL.json" md5="2aed06ff45fda03d4a43c7336a1db0ed" md5json="1a9d9213207ca9ac5db41d3f6a8dd0eb">
+		<file size="2016" time="1986-01-15 12:00:00" attr="0x20">CAROUSEL.COM</file>
+		<file size="18432" time="1986-03-17 17:07:58" attr="0x20">CAROUSEL.EXE</file>
+		<file size="4096" time="1986-03-17 17:07:28" attr="0x20">CAROUSEL.PGL</file>
+		<file size="32108" time="1986-06-18 12:41:44" attr="0x20">CAROUSEL.PGM</file>
+		<file size="13104" time="1986-01-15 12:00:00" attr="0x20">CML0203.FCL</file>
+		<file size="9632" time="1986-01-15 12:00:00" attr="0x20">CML0203.HCL</file>
+		<file size="256" time="1986-03-17 17:09:52" attr="0x10">ETC</file>
+		<file size="35" time="1986-03-11 15:55:42" attr="0x20" dir="ETC/">BOOT.COM</file>
+		<file size="46080" time="1986-04-29 12:09:46" attr="0x20" dir="ETC/">DOUBLED2.PGM</file>
+		<file size="1408" time="1986-03-14 16:00:42" attr="0x20" dir="ETC/">ETC.DOC</file>
+		<file size="32" time="1986-03-10 09:48:48" attr="0x20" dir="ETC/">INT15.COM</file>
+		<file size="4369" time="1986-03-12 10:34:24" attr="0x20" dir="ETC/">SWITCHC.ASM</file>
+		<file size="45" time="1986-03-12 10:34:46" attr="0x20" dir="ETC/">SWITCHC.COM</file>
+		<file size="0" time="1986-03-17 17:07:32" attr="0x20">ID.SC</file>
+		<file size="4129" time="1986-04-14 12:01:16" attr="0x20">INSTALL.BAT</file>
+		<file size="2016" time="1986-01-15 12:00:00" attr="0x20">MNL0203.FML</file>
+		<file size="1840" time="1986-01-15 12:00:00" attr="0x20">MNL0203.HML</file>
+		<file size="702" time="1986-03-17 17:07:30" attr="0x20">SERIALNO.COM</file>
+		<file size="0" time="1986-03-17 17:08:48" attr="0x20">SGS0203.SUP</file>
+		<file size="50288" time="1986-01-15 12:00:00" attr="0x20">TRANSFER.COM</file>
+		<file size="3454" time="1986-04-14 10:52:30" attr="0x20">UNINSTAL.BAT</file>
+		<file size="2192" time="1987-01-28 22:27:34" attr="0x20">VDF0203.VDF</file>
+	</disk>
 </manifest>

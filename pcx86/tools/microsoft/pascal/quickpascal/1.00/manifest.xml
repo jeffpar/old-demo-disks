@@ -8,31 +8,8 @@
 	<language>Pascal</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK1.json" md5="76d461d4454287effbb565433aab11ce" md5json="291bb123fe0d49910b0c2a61ddc1df8c">
+	<disk id="disk01" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK1.json" md5="76d461d4454287effbb565433aab11ce" md5json="291bb123fe0d49910b0c2a61ddc1df8c">
 		<name>MS QuickPascal 1.00 (360K Disk 1)</name>
-	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK2.json" md5="b8c03331806a62fc6ec1e082f4c583e2" md5json="6fd153eb6eab5d881bb31a32bcc8f1ad">
-		<name>MS QuickPascal 1.00 (360K Disk 2)</name>
-	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK3.json" md5="0e4ec27c0e253e975d0c1c89b3040473" md5json="47285a35622d0c38f0afe43273a424a8">
-		<name>MS QuickPascal 1.00 (360K Disk 3)</name>
-	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK4.json" md5="0d92d9b03c5b5584e0d8f798617853a9" md5json="3a690a4a1bd8aa1112c00d33a717c351">
-		<name>MS QuickPascal 1.00 (360K Disk 4)</name>
-	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL-100-DISK5.json" md5="1de9c17ab83deb4cfb33fa729eacdf59" md5json="5e76f0fd398488fe628feffb53b599e2">
-		<name>MS QuickPascal 1.00 (360K Disk 5)</name>
-	</disk>
-	<disk id="disk06" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK1-SETUP.json" md5="7cbb21d116feef5d564e82b23c7d3321" md5json="a2a9f85b8a303167712d4c0bc6fcf00b">
-		<name>MS QuickPascal 1.00 (720K Disk 1)</name>
-	</disk>
-	<disk id="disk07" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK2-ADVISOR.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK2-ADVISOR.json" md5="e21544674bc92e27ba67111040304da6" md5json="cba34a6c513d0061283ee7548fdab63d">
-		<name>MS QuickPascal 1.00 (720K Disk 2)</name>
-	</disk>
-	<disk id="disk08" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
-		<name>MS QuickPascal 1.00 (720K Disk 3)</name>
-	</disk>
-	<disk id="disk09" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK1.json" md5="76d461d4454287effbb565433aab11ce" md5json="291bb123fe0d49910b0c2a61ddc1df8c">
 		<file size="273" time="1989-05-04 05:03:12" attr="0x20">BRIEF.KEY</file>
 		<file size="303" time="1989-05-04 05:04:18" attr="0x20">EMACS.KEY</file>
 		<file size="303" time="1989-05-04 05:04:04" attr="0x20">EPSILON.KEY</file>
@@ -56,7 +33,8 @@
 		<file size="21152" time="1989-05-02 12:58:30" attr="0x20" dir="SAMPLES/">TURTLE.PAS</file>
 		<file size="54263" time="1989-05-05 05:23:08" attr="0x20">SETUP.EXE</file>
 	</disk>
-	<disk id="disk10" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK2.json" md5="b8c03331806a62fc6ec1e082f4c583e2" md5json="6fd153eb6eab5d881bb31a32bcc8f1ad">
+	<disk id="disk02" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK2.json" md5="b8c03331806a62fc6ec1e082f4c583e2" md5json="6fd153eb6eab5d881bb31a32bcc8f1ad">
+		<name>MS QuickPascal 1.00 (360K Disk 2)</name>
 		<file size="19088" time="1987-11-12 13:23:36" attr="0x20">COURB.FON</file>
 		<file size="5152" time="1989-05-04 19:04:20" attr="0x20">CRT.QPU</file>
 		<file size="9104" time="1989-05-04 19:03:54" attr="0x20">DOS.QPU</file>
@@ -71,12 +49,14 @@
 		<file size="44960" time="1989-05-04 19:01:02" attr="0x20">SYSTEM.QPU</file>
 		<file size="45936" time="1987-11-12 13:27:48" attr="0x20">TMSRB.FON</file>
 	</disk>
-	<disk id="disk11" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK3.json" md5="0e4ec27c0e253e975d0c1c89b3040473" md5json="47285a35622d0c38f0afe43273a424a8">
+	<disk id="disk03" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK3.json" md5="0e4ec27c0e253e975d0c1c89b3040473" md5json="47285a35622d0c38f0afe43273a424a8">
+		<name>MS QuickPascal 1.00 (360K Disk 3)</name>
 		<file size="288970" time="1989-05-04 22:04:56" attr="0x20">QP.EXE</file>
 		<file size="64631" time="1989-05-04 21:51:40" attr="0x20">QPL.COM</file>
 		<file size="4848" time="1989-05-02 13:52:56" attr="0x20">QPL.ERR</file>
 	</disk>
-	<disk id="disk12" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK4.json" md5="0d92d9b03c5b5584e0d8f798617853a9" md5json="3a690a4a1bd8aa1112c00d33a717c351">
+	<disk id="disk04" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK4.json" md5="0d92d9b03c5b5584e0d8f798617853a9" md5json="3a690a4a1bd8aa1112c00d33a717c351">
+		<name>MS QuickPascal 1.00 (360K Disk 4)</name>
 		<file size="7464" time="1989-04-17 13:25:30" attr="0x20">ATT6300.VID</file>
 		<file size="3846" time="1989-04-17 13:25:30" attr="0x20">CGASNOW.VID</file>
 		<file size="10040" time="1989-04-17 13:25:30" attr="0x20">ERICSSON.VID</file>
@@ -91,11 +71,13 @@
 		<file size="27464" time="1989-05-04 10:46:38" attr="0x20">QPERR.HLP</file>
 		<file size="71827" time="1989-05-04 11:35:18" attr="0x20">QPGRAPH.HLP</file>
 	</disk>
-	<disk id="disk13" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK5.json" md5="1de9c17ab83deb4cfb33fa729eacdf59" md5json="5e76f0fd398488fe628feffb53b599e2">
+	<disk id="disk05" size="368640" chs="40:2:9" img="360K/archive/QUICKPASCAL-100-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/360K/QUICKPASCAL-100-DISK5.json" md5="1de9c17ab83deb4cfb33fa729eacdf59" md5json="5e76f0fd398488fe628feffb53b599e2">
+		<name>MS QuickPascal 1.00 (360K Disk 5)</name>
 		<file size="304458" time="1989-05-03 16:21:06" attr="0x20">QP.HLP</file>
 		<file size="47883" time="1989-05-04 10:23:20" attr="0x20">QPENV.HLP</file>
 	</disk>
-	<disk id="disk14" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK1-SETUP.json" md5="7cbb21d116feef5d564e82b23c7d3321" md5json="a2a9f85b8a303167712d4c0bc6fcf00b">
+	<disk id="disk06" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK1-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK1-SETUP.json" md5="7cbb21d116feef5d564e82b23c7d3321" md5json="a2a9f85b8a303167712d4c0bc6fcf00b">
+		<name>MS QuickPascal 1.00 (720K Disk 1)</name>
 		<file size="273" time="1989-05-04 05:03:12" attr="0x20">BRIEF.KEY</file>
 		<file size="303" time="1989-05-04 05:04:18" attr="0x20">EMACS.KEY</file>
 		<file size="303" time="1989-05-04 05:04:04" attr="0x20">EPSILON.KEY</file>
@@ -122,7 +104,8 @@
 		<file size="21152" time="1989-05-02 12:58:30" attr="0x20" dir="SAMPLES/">TURTLE.PAS</file>
 		<file size="54263" time="1989-05-05 05:23:08" attr="0x20">SETUP.EXE</file>
 	</disk>
-	<disk id="disk15" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK2-ADVISOR.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK2-ADVISOR.json" md5="e21544674bc92e27ba67111040304da6" md5json="cba34a6c513d0061283ee7548fdab63d">
+	<disk id="disk07" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK2-ADVISOR.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK2-ADVISOR.json" md5="e21544674bc92e27ba67111040304da6" md5json="cba34a6c513d0061283ee7548fdab63d">
+		<name>MS QuickPascal 1.00 (720K Disk 2)</name>
 		<file size="7464" time="1989-04-17 13:25:30" attr="0x20">ATT6300.VID</file>
 		<file size="3846" time="1989-04-17 13:25:30" attr="0x20">CGASNOW.VID</file>
 		<file size="10040" time="1989-04-17 13:25:30" attr="0x20">ERICSSON.VID</file>
@@ -139,7 +122,8 @@
 		<file size="27464" time="1989-05-04 10:46:38" attr="0x20">QPERR.HLP</file>
 		<file size="71827" time="1989-05-04 11:35:18" attr="0x20">QPGRAPH.HLP</file>
 	</disk>
-	<disk id="disk16" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
+	<disk id="disk08" size="737280" chs="80:2:9" img="720K/archive/QUICKPASCAL100-720K-DISK3-LIBRARIES.img" href="/pcjs-disks/pcx86/tools/microsoft/pascal/quickpascal/1.00/720K/QUICKPASCAL100-720K-DISK3-LIBRARIES.json" md5="34a151447a28b65d7d73a1d99f2268f8" md5json="28cc93137a537658cf55fb9da1759990">
+		<name>MS QuickPascal 1.00 (720K Disk 3)</name>
 		<file size="19088" time="1987-11-12 13:23:36" attr="0x20">COURB.FON</file>
 		<file size="5152" time="1989-05-04 19:04:20" attr="0x20">CRT.QPU</file>
 		<file size="9104" time="1989-05-04 19:03:54" attr="0x20">DOS.QPU</file>

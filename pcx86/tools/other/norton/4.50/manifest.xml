@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Norton Utilities (Adv)</title>
+	<version>4.50</version>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK1.img" href="/pcjs-disks/pcx86/tools/other/norton/4.50/NU450-ADV-DISK1.json" md5="19322f8bda036a0ebaa006311be05c89" md5json="50a8e7a31d34c9d65f2a7344243f71f2">
+		<name>Norton Utilities 4.50 (Disk 1)</name>
+		<file size="44244" time="1988-10-16 16:50:00" attr="0x20">FR.EXE</file>
+		<file size="32320" time="1988-10-16 16:50:00" attr="0x20">INSTALL.EXE</file>
+		<file size="116276" time="1988-10-16 16:50:00" attr="0x20">NDD.EXE</file>
+		<file size="140616" time="1988-10-16 16:50:00" attr="0x20">NU.EXE</file>
+		<file size="10919" time="1988-10-16 16:50:00" attr="0x20">NU.HLP</file>
+		<file size="3864" time="1988-10-16 16:50:00" attr="0x20">READ.ME</file>
+	</disk>
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK2.img" href="/pcjs-disks/pcx86/tools/other/norton/4.50/NU450-ADV-DISK2.json" md5="c521fb8e3d9c71f493292b277cd48e43" md5json="0d1f5f070f57878903840293985f5c2d">
+		<name>Norton Utilities 4.50 (Disk 2)</name>
+		<file size="36000" time="1988-10-16 16:50:00" attr="0x20">DS.EXE</file>
+		<file size="21080" time="1988-10-16 16:50:00" attr="0x20">DT.EXE</file>
+		<file size="9020" time="1988-10-16 16:50:00" attr="0x20">FF.EXE</file>
+		<file size="50424" time="1988-10-16 16:50:00" attr="0x20">NCC.EXE</file>
+		<file size="35200" time="1988-10-16 16:50:00" attr="0x20">NCD.EXE</file>
+		<file size="42592" time="1988-10-16 16:50:00" attr="0x20">NI.EXE</file>
+		<file size="18448" time="1988-10-16 16:50:00" attr="0x20">QU.EXE</file>
+		<file size="66134" time="1988-10-16 16:50:00" attr="0x20">SD.EXE</file>
+		<file size="49060" time="1988-10-16 16:50:00" attr="0x20">SF.EXE</file>
+		<file size="19420" time="1988-10-16 16:50:00" attr="0x20">UD.EXE</file>
+	</disk>
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK3.img" href="/pcjs-disks/pcx86/tools/other/norton/4.50/NU450-ADV-DISK3.json" md5="a44ad7cdc82848342362d87b9c0cbb42" md5json="c27cc0f253ca82a3d058302bd22b5762">
+		<name>Norton Utilities 4.50 (Disk 3)</name>
+		<file size="22426" time="1988-10-16 16:50:00" attr="0x20">BE.EXE</file>
+		<file size="659" time="1988-10-16 16:50:00" attr="0x20">BEDEMO.BAT</file>
+		<file size="7640" time="1988-10-16 16:50:00" attr="0x20">BEDEMO.DAT</file>
+		<file size="9304" time="1988-10-16 16:50:00" attr="0x20">DI.EXE</file>
+		<file size="9300" time="1988-10-16 16:50:00" attr="0x20">FA.EXE</file>
+		<file size="10290" time="1988-10-16 16:50:00" attr="0x20">FD.EXE</file>
+		<file size="18434" time="1988-10-16 16:50:00" attr="0x20">FI.EXE</file>
+		<file size="3217" time="1988-10-16 16:50:00" attr="0x20">FILEINFO.FI</file>
+		<file size="9214" time="1988-10-16 16:50:00" attr="0x20">FS.EXE</file>
+		<file size="9546" time="1988-10-16 16:50:00" attr="0x20">LD.EXE</file>
+		<file size="13564" time="1988-10-16 16:50:00" attr="0x20">LP.EXE</file>
+		<file size="2980" time="1988-10-16 16:50:00" attr="0x20">MAKE-TUT.BAT</file>
+		<file size="143282" time="1988-10-16 16:50:00" attr="0x20">MAKE-TUT.BIN</file>
+		<file size="493" time="1988-10-16 16:50:00" attr="0x20">MARY</file>
+		<file size="850" time="1988-10-16 16:50:00" attr="0x20">MENU.DAT</file>
+		<file size="16484" time="1988-10-16 16:50:00" attr="0x20">SI.EXE</file>
+		<file size="7504" time="1988-10-16 16:50:00" attr="0x20">TM.EXE</file>
+		<file size="19126" time="1988-10-16 16:50:00" attr="0x20">TS.EXE</file>
+		<file size="3537" time="1988-10-16 16:50:00" attr="0x20">TUT-READ.ME</file>
+		<file size="11120" time="1988-10-16 16:50:00" attr="0x20">VL.EXE</file>
+		<file size="13410" time="1988-10-16 16:50:00" attr="0x20">WIPEDISK.EXE</file>
+		<file size="13176" time="1988-10-16 16:50:00" attr="0x20">WIPEFILE.EXE</file>
+	</disk>
+</manifest>

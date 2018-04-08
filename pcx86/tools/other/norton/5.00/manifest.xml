@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Norton Utilities</title>
+	<version>5.00</version>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU500-DISK1.img" href="/pcjs-disks/pcx86/tools/other/norton/5.00/NU500-DISK1.json" md5="3f5f6ab78172fb49a638bb79a0e0c1b4" md5json="c0b63918bff122bff0b880ec4255e298">
+		<name>Norton Utilities 5.00 (Disk 1)</name>
+		<file size="188062" time="1990-09-25 17:00:00" attr="0x20">NDD.EXE</file>
+		<file size="171297" time="1990-09-25 17:00:00" attr="0x20">UNERASE.EXE</file>
+	</disk>
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU500-DISK2.img" href="/pcjs-disks/pcx86/tools/other/norton/5.00/NU500-DISK2.json" md5="95f1a2d32040ae31eb0f93bec8f06249" md5json="3306ec5239f245083517aa5d66a7deb4">
+		<name>Norton Utilities 5.00 (Disk 2)</name>
+		<file size="124760" time="1990-09-25 17:00:00" attr="0x20">CALIBRAT.EXE</file>
+		<file size="137216" time="1990-09-25 17:00:00" attr="0x20">FILEFIX.EXE</file>
+		<file size="12168" time="1990-09-25 17:00:00" attr="0x20">IMAGE.EXE</file>
+		<file size="74398" time="1990-09-25 17:00:00" attr="0x20">UNFORMAT.EXE</file>
+	</disk>
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU500-DISK3.img" href="/pcjs-disks/pcx86/tools/other/norton/5.00/NU500-DISK3.json" md5="16a70d4dca9f8bf12d493920d5f3fa8e" md5json="678a395ce2fc9239184864e456c442cf">
+		<name>Norton Utilities 5.00 (Disk 3)</name>
+		<file size="216512" time="1990-09-25 17:00:00" attr="0x20">DISKEDIT.EXE</file>
+		<file size="122898" time="1990-09-25 17:00:00" attr="0x20">DISKTOOL.EXE</file>
+	</disk>
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/NU500-DISK4.img" href="/pcjs-disks/pcx86/tools/other/norton/5.00/NU500-DISK4.json" md5="a92fd19c4adf9161740ff327ce522b46" md5json="615d8d8837c7ed3e6d0b79dbb804b967">
+		<name>Norton Utilities 5.00 (Disk 4)</name>
+		<file size="357451" time="1990-09-25 17:00:00" attr="0x20">NU5_ARC1.EXE</file>
+	</disk>
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/NU500-DISK5.img" href="/pcjs-disks/pcx86/tools/other/norton/5.00/NU500-DISK5.json" md5="fee1692c2c85ab6c0eefa670bfa5b9ad" md5json="c2a09a8867c331e3ff9fe3853203ed13">
+		<name>Norton Utilities 5.00 (Disk 5)</name>
+		<file size="356122" time="1990-09-25 17:00:00" attr="0x20">NU5_ARC2.EXE</file>
+	</disk>
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/NU500-DISK6-INSTALL.img" href="/pcjs-disks/pcx86/tools/other/norton/5.00/NU500-DISK6-INSTALL.json" md5="34da560b4af2ef3496fc66d3217207e0" md5json="0883facbf2e8661fc260ddc6664c762c">
+		<name>Norton Utilities 5.00 (Install)</name>
+		<file size="111721" time="1990-09-25 17:00:00" attr="0x20">INSTALL.EXE</file>
+		<file size="226472" time="1990-09-25 17:00:00" attr="0x20">NU5_ARC3.EXE</file>
+		<file size="22505" time="1990-09-25 17:00:00" attr="0x20">READ.ME</file>
+	</disk>
+</manifest>

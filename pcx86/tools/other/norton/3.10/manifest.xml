@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Norton Utilities</title>
+	<version>3.10</version>
+	<disk id="disk01" size="368640" chs="40:2:9" img="1985-11-01/archive/NU310-1985-11-01.img" href="/pcjs-disks/pcx86/tools/other/norton/3.10/1985-11-01/NU310-1985-11-01.json" md5="8ad42b2c5d2fa22515b87ff87cf33c0f" md5json="1d0150f6f2765a20c4e38fb7ae185553">
+		<name>Norton Utilities 3.10 (1985-11-01)</name>
+		<file size="1303" time="1985-11-01 03:10:02" attr="0x20">DP.COM</file>
+		<file size="7772" time="1985-11-01 03:10:02" attr="0x20">DS.COM</file>
+		<file size="7522" time="1985-11-01 03:10:02" attr="0x20">DT.COM</file>
+		<file size="5682" time="1985-11-01 03:10:02" attr="0x20">FA.COM</file>
+		<file size="6498" time="1985-11-01 03:10:02" attr="0x20">FF.COM</file>
+		<file size="6918" time="1985-11-01 03:10:02" attr="0x20">FS.COM</file>
+		<file size="5282" time="1985-11-01 03:10:02" attr="0x20">LD.COM</file>
+		<file size="6918" time="1985-11-01 03:10:02" attr="0x20">LP.COM</file>
+		<file size="58096" time="1985-11-01 03:10:02" attr="0x20">NU.COM</file>
+		<file size="9956" time="1985-11-01 03:10:02" attr="0x20">QU.COM</file>
+		<file size="3528" time="1985-11-01 03:10:02" attr="0x20">SA.COM</file>
+		<file size="7056" time="1985-11-01 03:10:02" attr="0x20">SI.COM</file>
+		<file size="4320" time="1985-11-01 03:10:02" attr="0x20">TM.COM</file>
+		<file size="12472" time="1985-11-01 03:10:02" attr="0x20">TS.COM</file>
+		<file size="10400" time="1985-11-01 03:10:02" attr="0x20">UD.COM</file>
+		<file size="4536" time="1985-11-01 03:10:02" attr="0x20">VL.COM</file>
+		<file size="6762" time="1985-11-01 03:10:02" attr="0x20">WIPEDISK.COM</file>
+		<file size="7710" time="1985-11-01 03:10:02" attr="0x20">WIPEFILE.COM</file>
+	</disk>
+	<disk id="disk02" size="327680" chs="40:2:8" img="1986-01-21/archive/NU310-1986-01-21.img" href="/pcjs-disks/pcx86/tools/other/norton/3.10/1986-01-21/NU310-1986-01-21.json" md5="cbf7c5b6dd05f6e61d7c286fade7349f" md5json="baf1e3dc8f5ac74bf18f4d5349426b13">
+		<name>Norton Utilities 3.10 (1986-01-21)</name>
+		<file size="2604" time="1986-01-21 15:10:02" attr="0x20">BEEP.COM</file>
+		<file size="2471" time="1986-01-21 15:10:02" attr="0x20">DEMO.BAT</file>
+		<file size="7932" time="1986-01-21 15:10:02" attr="0x20">DS.COM</file>
+		<file size="7682" time="1986-01-21 15:10:02" attr="0x20">DT.COM</file>
+		<file size="5826" time="1986-01-21 15:10:02" attr="0x20">FA.COM</file>
+		<file size="6642" time="1986-01-21 15:10:02" attr="0x20">FF.COM</file>
+		<file size="7062" time="1986-01-21 15:10:02" attr="0x20">FS.COM</file>
+		<file size="5426" time="1986-01-21 15:10:02" attr="0x20">LD.COM</file>
+		<file size="1338" time="1986-01-21 15:10:02" attr="0x20">LONG.BAT</file>
+		<file size="7078" time="1986-01-21 15:10:02" attr="0x20">LP.COM</file>
+		<file size="58800" time="1986-01-21 15:10:02" attr="0x20">NU.COM</file>
+		<file size="10148" time="1986-01-21 15:10:02" attr="0x20">QU.COM</file>
+		<file size="404" time="1986-01-21 15:10:02" attr="0x20">READ.ME</file>
+		<file size="1060" time="1986-01-21 15:10:02" attr="0x20">README.BAT</file>
+		<file size="3672" time="1986-01-21 15:10:02" attr="0x20">SA.COM</file>
+		<file size="1325" time="1986-01-21 15:10:02" attr="0x20">SHORT.BAT</file>
+		<file size="7216" time="1986-01-21 15:10:02" attr="0x20">SI.COM</file>
+		<file size="4480" time="1986-01-21 15:10:02" attr="0x20">TM.COM</file>
+		<file size="12616" time="1986-01-21 15:10:02" attr="0x20">TS.COM</file>
+		<file size="10592" time="1986-01-21 15:10:02" attr="0x20">UD.COM</file>
+		<file size="4712" time="1986-01-21 15:10:02" attr="0x20">VL.COM</file>
+		<file size="6922" time="1986-01-21 15:10:02" attr="0x20">WIPEDISK.COM</file>
+		<file size="7870" time="1986-01-21 15:10:02" attr="0x20">WIPEFILE.COM</file>
+	</disk>
+</manifest>

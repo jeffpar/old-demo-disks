@@ -170,6 +170,12 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/softlogic/optimizer/2.0.3/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/enhdebug/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/flickerfree/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/3.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/3.10/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/4.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/4.50/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/5.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/6.01/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/omniview/4.30/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/1.03/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/4.30/manifest.xml"/>

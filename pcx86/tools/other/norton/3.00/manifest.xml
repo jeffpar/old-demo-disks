@@ -3,7 +3,7 @@
 <manifest type="software">
 	<title>Norton Utilities</title>
 	<version>3.00</version>
-	<disk id="disk01" size="163840" chs="40:1:8" dir="1985-01-14/archive/NU300-1985-01-14" href="/pcjs-disks/pcx86/tools/other/norton/3.00/1985-01-14/NU300-1985-01-14.json" md5="276f7d341f6b86e34f17693e452a171f" md5json="68f9ff99c8f2a28655ef58d6d2e4b8a9">
+	<disk id="disk01" size="163840" chs="40:1:8" dir="1985-01-14/archive/NU30-850114" href="/pcjs-disks/pcx86/tools/other/norton/3.00/1985-01-14/NU300-1985-01-14.json" md5="9f9411b517a28e527c735fdf059bc2bd" md5json="769a7b044a0688a9e71fb9fde6e5cd87">
 		<name>Norton Utilities 3.00 (1985-01-14)</name>
 		<file size="16" time="1985-01-14 14:00:00" attr="0x20" md5="d027e5571e0ad107368d4c97623b5c6d">BEEP.COM</file>
 		<file size="6180" time="1985-01-14 14:00:00" attr="0x20" md5="22a1910b3a61e14f86391d0f11ffce85">DIRSORT.COM</file>

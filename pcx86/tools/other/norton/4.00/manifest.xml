@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.63.0/manifest.xsl"?>
 <manifest type="software">
-	<title>Norton Utilities (Std)</title>
+	<title>Norton Utilities (Standard Edition)</title>
 	<version>4.00</version>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU400-STD-DISK1.img" href="/pcjs-disks/pcx86/tools/other/norton/4.00/NU400-STD-DISK1.json" md5="5d42de75531cba4c7079e53317c4bc82" md5json="e2c8a092215a0f82dad7b2e01385fd39">
 		<name>Norton Utilities 4.00 (Disk 1)</name>

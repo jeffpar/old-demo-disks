@@ -192,6 +192,7 @@
 		<manifest ref="/pcjs-disks/pcx86/roms/ibm/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pcmag/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pctj/manifest.xml"/>
+		<manifest ref="/pcjs-games/pcx86/gambling/manifest.xml"/>
 	</control>
 	<control type="button" binding="loadDisk">Load</control>
 	<control type="button" binding="saveDisk" padRight="8px">Save</control>

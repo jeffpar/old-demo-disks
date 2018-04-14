@@ -184,16 +184,16 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/5.13/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/6.02/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/spacemaker/1.06/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/games/id/wolf3d/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/games/microsoft/flightsim/1982/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/games/microsoft/flightsim/1984/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/games/other/wizardry1/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/personal/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/roms/ibm/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pcmag/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pctj/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pcsig08/manifest.xml"/>
-		<manifest ref="/pcjs-games/pcx86/gambling/manifest.xml"/>
+		<manifest ref="/pcjs-games/pcx86/id/wolf3d/manifest.xml"/>
+		<manifest ref="/pcjs-games/pcx86/microsoft/flightsim/1982/manifest.xml"/>
+		<manifest ref="/pcjs-games/pcx86/microsoft/flightsim/1984/manifest.xml"/>
+		<manifest ref="/pcjs-games/pcx86/other/1984/wizardry1/manifest.xml"/>
+		<manifest ref="/pcjs-games/pcx86/other/1988/gambling/manifest.xml"/>
 	</control>
 	<control type="button" binding="loadDisk">Load</control>
 	<control type="button" binding="saveDisk" padRight="8px">Save</control>

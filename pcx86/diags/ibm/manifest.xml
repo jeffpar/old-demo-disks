@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.1/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM PC Diagnostics</title>
 	<type>Diagnostics</type>
@@ -178,38 +178,7 @@
 		<file size="35" time="1987-01-20 10:20:36" attr="0x20">VERSION.207</file>
 		<file size="8831" time="1987-01-20 10:45:26" attr="0x20">VOICE17.DGS</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/pcjs-disks/pcx86/diags/ibm/ega/FLAND.json" md5="ac90a61fb7a3bf39751524246d211ee8" md5json="85d290e55bc3176a49956b536dc011b7">
-		<name>IBM EGA Fantasy Land Demo</name>
-		<file size="896" time="1983-03-08 12:00:00" attr="0x20">ASSIGN.COM</file>
-		<file size="65536" time="1984-07-23 13:42:36" attr="0x20">ATTR.MAP</file>
-		<file size="65536" time="1980-01-01 02:06:54" attr="0x20">CHAR.MAP</file>
-		<file size="17664" time="1983-03-08 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="2048" time="1980-01-01 02:03:40" attr="0x20">FL1.CS</file>
-		<file size="2048" time="1980-01-01 02:03:42" attr="0x20">FL2.CS</file>
-		<file size="2048" time="1980-01-01 02:03:44" attr="0x20">FL3.CS</file>
-		<file size="2048" time="1980-01-01 02:03:38" attr="0x20">FL4.CS</file>
-		<file size="38" time="1984-07-23 12:11:38" attr="0x20">FLAND.BAT</file>
-		<file size="9144" time="1980-01-01 00:14:32" attr="0x20">FLAND.DMO</file>
-		<file size="67410" time="1984-07-23 13:37:40" attr="0x20">FLAND.EXE</file>
-		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="834" time="1984-07-23 12:32:30" attr="0x20">READ.ME</file>
-		<file size="65536" time="1984-07-23 13:42:18" attr="0x20">SPEC.MAP</file>
-		<file size="11036" time="1980-01-01 02:11:06" attr="0x20">TABLE.MSG</file>
-	</disk>
-	<disk id="disk08" size="327680" chs="40:2:8" dir="ega/archive/EGA-UTILS" href="/pcjs-disks/pcx86/diags/ibm/ega/EGA-UTILS.json" md5="b740782b9fd631c62d6542b0aa4425ae" md5json="c7b507684caa00a376f3d938a5268a18">
-		<name>IBM EGA Utilities</name>
-		<file size="1562" time="2018-02-28 14:40:10" attr="0x20" md5="c70ef4c62a5c4f5581816805fe0545fe">ALAMODE.COM</file>
-		<file size="4546" time="2018-02-28 14:40:10" attr="0x20" md5="41d08d1382e5091b97ea9fe90af7cb8d">DAZZLE.COM</file>
-		<file size="181" time="2018-02-28 14:40:10" attr="0x20" md5="c15188fd29010a77288c8de198a093d3">EATER.COM</file>
-		<file size="90272" time="2018-02-28 14:40:13" attr="0x20" md5="22576b24fe87ed8cc98333fac4708de6">EGAD.EXE</file>
-		<file size="3596" time="2018-02-28 14:40:13" attr="0x20" md5="c27ea0086ad2f3a7aa817360b93902f8">FACE.COM</file>
-		<file size="25450" time="2018-02-28 14:40:13" attr="0x20" md5="de822fea25fad4328d8df840abb0edf5">PERSIAN.EXE</file>
-		<file size="94720" time="2018-02-28 14:40:16" attr="0x20" md5="0f2eef43f3d4ea57349a6a74d843d323">ROGUE.EXE</file>
-		<file size="29794" time="2018-02-28 14:40:15" attr="0x20" md5="303973819837ff882e99ae3d26bf84fa">VGAMAN.EXE</file>
-		<file size="1046" time="2018-02-28 14:40:15" attr="0x20" md5="c4edb884669ccfa840553e3669922681">VGAMAN.FOR</file>
-	</disk>
-	<disk id="disk09" size="163840" chs="40:1:8" img="5150/1.00/archive/5150-DIAG-100.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.00/5150-DIAG-100.json" md5="9f2e754f6b1ad378662ec1522e78191c" md5json="9b140c81af28c0571bb35158c851cd87">
+	<disk id="disk07" size="163840" chs="40:1:8" img="5150/1.00/archive/5150-DIAG-100.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.00/5150-DIAG-100.json" md5="9f2e754f6b1ad378662ec1522e78191c" md5json="9b140c81af28c0571bb35158c851cd87">
 		<name>IBM PC Diagnostics 1.00</name>
 		<file size="2399" time="1981-08-05 00:00:00" attr="0x20">CMD99.COM</file>
 		<file size="895" time="1981-07-22 00:00:00" attr="0x20">COMMAND.COM</file>
@@ -219,7 +188,7 @@
 		<file size="1920" time="1980-01-01 00:00:02" attr="0x20">IBMBIO.COM</file>
 		<file size="6211" time="1981-07-09 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
-	<disk id="disk10" size="163840" chs="40:1:8" img="5150/1.02/archive/5150-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.02/5150-DIAG-102.json" md5="19cbda277464d1f9afca2ded508b29d2" md5json="dd0da0f80d3eda238e89bf3a2f53b41c">
+	<disk id="disk08" size="163840" chs="40:1:8" img="5150/1.02/archive/5150-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.02/5150-DIAG-102.json" md5="19cbda277464d1f9afca2ded508b29d2" md5json="dd0da0f80d3eda238e89bf3a2f53b41c">
 		<name>IBM PC Diagnostics 1.02</name>
 		<file size="2367" time="1982-02-09 17:37:32" attr="0x20">CMD99.COM</file>
 		<file size="943" time="1982-02-09 17:36:14" attr="0x20">COMMAND.COM</file>
@@ -229,7 +198,7 @@
 		<file size="1920" time="1981-07-23 00:00:00" attr="0x20">IBMBIO.COM</file>
 		<file size="6400" time="1981-08-13 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
-	<disk id="disk11" size="163840" chs="40:1:8" img="5150/2.02/archive/5150-DIAG-202.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.02/5150-DIAG-202.json" md5="d6d14b05e17b2462981a58516b1abbaf" md5json="e044f543a97bd9787f3ce3aefa40509d">
+	<disk id="disk09" size="163840" chs="40:1:8" img="5150/2.02/archive/5150-DIAG-202.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.02/5150-DIAG-202.json" md5="d6d14b05e17b2462981a58516b1abbaf" md5json="e044f543a97bd9787f3ce3aefa40509d">
 		<name>IBM PC Diagnostics 2.02</name>
 		<file size="3566" time="1983-02-28 10:00:16" attr="0x20">COMMAND.COM</file>
 		<file size="1280" time="1983-01-11 12:10:38" attr="0x20">DCOPY.COM</file>
@@ -254,7 +223,7 @@
 		<file size="1518" time="1983-01-28 18:16:32" attr="0x20">US1SRL.DGS</file>
 		<file size="78" time="1983-04-07 09:18:54" attr="0x20">VERSION.202</file>
 	</disk>
-	<disk id="disk12" size="184320" chs="40:1:9" img="5150/2.07/archive/5150-DIAG-207.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.07/5150-DIAG-207.json" md5="1d89ca43c69c1ff9eaa41a1ba1080309" md5json="318b4a2e5b80884b8c6c2e14b087b756">
+	<disk id="disk10" size="184320" chs="40:1:9" img="5150/2.07/archive/5150-DIAG-207.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.07/5150-DIAG-207.json" md5="1d89ca43c69c1ff9eaa41a1ba1080309" md5json="318b4a2e5b80884b8c6c2e14b087b756">
 		<name>IBM PC Diagnostics 2.07</name>
 		<file size="3612" time="1984-06-12 12:00:00" attr="0x20">COMMAND.COM</file>
 		<file size="2293" time="1984-06-12 12:00:00" attr="0x20">DCOPY.COM</file>
@@ -284,7 +253,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 		<file size="78" time="1984-06-12 12:00:00" attr="0x20">VERSION.207</file>
 	</disk>
-	<disk id="disk13" size="368640" chs="40:2:9" img="5170/1.02/archive/5170-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5170/1.02/5170-DIAG-102.json" md5="9fbf7fdfcd14e8922e7acd8fe53514fe" md5json="d98e959e5a3d0121c35e26752de96cb0">
+	<disk id="disk11" size="368640" chs="40:2:9" img="5170/1.02/archive/5170-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5170/1.02/5170-DIAG-102.json" md5="9fbf7fdfcd14e8922e7acd8fe53514fe" md5json="d98e959e5a3d0121c35e26752de96cb0">
 		<name>IBM PC AT Diagnostics 1.02</name>
 		<file size="2680" time="1984-03-27 12:55:12" attr="0x20">ASYNC.DGS</file>
 		<file size="5116" time="1983-08-10 13:26:00" attr="0x20">BSC03.DGS</file>
@@ -313,7 +282,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 		<file size="44" time="1983-02-03 09:10:12" attr="0x20">VERSION.102</file>
 	</disk>
-	<disk id="disk14" size="368640" chs="40:2:9" img="5170/2.00/archive/5170-DIAG-200.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.00/5170-DIAG-200.json" md5="72f5a003917c61ed1aea67fa44a39b73" md5json="11f8d5dec5275202ce2854666ac4884f">
+	<disk id="disk12" size="368640" chs="40:2:9" img="5170/2.00/archive/5170-DIAG-200.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.00/5170-DIAG-200.json" md5="72f5a003917c61ed1aea67fa44a39b73" md5json="11f8d5dec5275202ce2854666ac4884f">
 		<name>IBM PC AT Diagnostics 2.00</name>
 		<file size="2418" time="1985-06-12 07:31:14" attr="0x20">ASYNC.DGS</file>
 		<file size="5080" time="1985-04-05 11:25:36" attr="0x20">BSC03.DGS</file>

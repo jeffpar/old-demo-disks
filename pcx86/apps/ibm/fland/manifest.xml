@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.1/manifest.xsl"?>
+<manifest type="software">
+	<title>IBM EGA Demos and Utilities</title>
+	<author>IBM</author>
+	<disk id="disk01" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/pcjs-disks/pcx86/apps/ibm/fland/FLAND.json" md5="ac90a61fb7a3bf39751524246d211ee8" md5json="85d290e55bc3176a49956b536dc011b7">
+		<name>IBM EGA Fantasy Land Demo</name>
+		<file size="896" time="1983-03-08 12:00:00" attr="0x20">ASSIGN.COM</file>
+		<file size="65536" time="1984-07-23 13:42:36" attr="0x20">ATTR.MAP</file>
+		<file size="65536" time="1980-01-01 02:06:54" attr="0x20">CHAR.MAP</file>
+		<file size="17664" time="1983-03-08 12:00:00" attr="0x20">COMMAND.COM</file>
+		<file size="2048" time="1980-01-01 02:03:40" attr="0x20">FL1.CS</file>
+		<file size="2048" time="1980-01-01 02:03:42" attr="0x20">FL2.CS</file>
+		<file size="2048" time="1980-01-01 02:03:44" attr="0x20">FL3.CS</file>
+		<file size="2048" time="1980-01-01 02:03:38" attr="0x20">FL4.CS</file>
+		<file size="38" time="1984-07-23 12:11:38" attr="0x20">FLAND.BAT</file>
+		<file size="9144" time="1980-01-01 00:14:32" attr="0x20">FLAND.DMO</file>
+		<file size="67410" time="1984-07-23 13:37:40" attr="0x20">FLAND.EXE</file>
+		<file size="4608" time="1983-03-08 12:00:00" attr="0x20">IBMBIO.COM</file>
+		<file size="17152" time="1983-03-08 12:00:00" attr="0x20">IBMDOS.COM</file>
+		<file size="834" time="1984-07-23 12:32:30" attr="0x20">READ.ME</file>
+		<file size="65536" time="1984-07-23 13:42:18" attr="0x20">SPEC.MAP</file>
+		<file size="11036" time="1980-01-01 02:11:06" attr="0x20">TABLE.MSG</file>
+	</disk>
+	<disk id="disk02" size="327680" chs="40:2:8" dir="ega/archive/EGA-UTILS" href="/pcjs-disks/pcx86/apps/ibm/fland/EGA-UTILS.json" md5="b740782b9fd631c62d6542b0aa4425ae" md5json="c7b507684caa00a376f3d938a5268a18">
+		<name>IBM EGA Utilities</name>
+		<file size="1562" time="2018-02-28 14:40:10" attr="0x20" md5="c70ef4c62a5c4f5581816805fe0545fe">ALAMODE.COM</file>
+		<file size="4546" time="2018-02-28 14:40:10" attr="0x20" md5="41d08d1382e5091b97ea9fe90af7cb8d">DAZZLE.COM</file>
+		<file size="181" time="2018-02-28 14:40:10" attr="0x20" md5="c15188fd29010a77288c8de198a093d3">EATER.COM</file>
+		<file size="90272" time="2018-02-28 14:40:13" attr="0x20" md5="22576b24fe87ed8cc98333fac4708de6">EGAD.EXE</file>
+		<file size="3596" time="2018-02-28 14:40:13" attr="0x20" md5="c27ea0086ad2f3a7aa817360b93902f8">FACE.COM</file>
+		<file size="25450" time="2018-02-28 14:40:13" attr="0x20" md5="de822fea25fad4328d8df840abb0edf5">PERSIAN.EXE</file>
+		<file size="94720" time="2018-02-28 14:40:16" attr="0x20" md5="0f2eef43f3d4ea57349a6a74d843d323">ROGUE.EXE</file>
+		<file size="29794" time="2018-02-28 14:40:15" attr="0x20" md5="303973819837ff882e99ae3d26bf84fa">VGAMAN.EXE</file>
+		<file size="1046" time="2018-02-28 14:40:15" attr="0x20" md5="c4edb884669ccfa840553e3669922681">VGAMAN.FOR</file>
+	</disk>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
+<manifest type="software">
+	<title>PC-DOS</title>
+	<version>4.01</version>
+	<type>Operating System</type>
+	<category>DOS</category>
+	<author>IBM/Microsoft</author>
+	<releaseDate/>
+	<disk id="disk01" size="737280" chs="80:2:9" img="archive/PCDOS401-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/4.01/PCDOS401-DISK1.json" md5="910d1def5de4c810907e653a032b121f" md5json="f37323eb0b2855147e9958c38e572880">
+		<name>PC-DOS 4.01 (Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="737280" chs="80:2:9" img="archive/PCDOS401-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/4.01/PCDOS401-DISK2.json" md5="c313c82ba61a74763e5e52971438c34e" md5json="50674f352ef94641b12f8d56169c3a99">
+		<name>PC-DOS 4.01 (Disk 2)</name>
+	</disk>
+</manifest>

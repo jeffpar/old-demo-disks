@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
+<manifest type="software">
+	<title>PC-DOS</title>
+	<version>5.02</version>
+	<type>Operating System</type>
+	<category>DOS</category>
+	<author>IBM/Microsoft</author>
+	<releaseDate/>
+	<disk id="disk01" size="737280" chs="80:2:9" img="archive/PCDOS502-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/5.02/PCDOS502-DISK1.json" md5="8a767d6a76380adbde1e7a7e901a3f4e" md5json="e0ac34983c1b9f0dc1ccb3ada3d431f0">
+		<name>PC-DOS 5.02 (Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="737280" chs="80:2:9" img="archive/PCDOS502-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/5.02/PCDOS502-DISK2.json" md5="91df29e81d4fe607ad82eb77915d1b59" md5json="aa31ed8c2bbf90c8a2a2989087de6b92">
+		<name>PC-DOS 5.02 (Disk 2)</name>
+	</disk>
+	<disk id="disk03" size="737280" chs="80:2:9" img="archive/PCDOS502-DISK3.img" href="/pcjs-disks/pcx86/dos/ibm/5.02/PCDOS502-DISK3.json" md5="05ca545ea571ae58c12c6e037ba9f367" md5json="5bfc77a094b767a9ff6c590a29def690">
+		<name>PC-DOS 5.02 (Disk 3)</name>
+	</disk>
+</manifest>

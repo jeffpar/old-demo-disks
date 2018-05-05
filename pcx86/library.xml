@@ -27,7 +27,9 @@
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/3.20/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/3.30/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/4.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/dos/ibm/4.01/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/5.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/dos/ibm/5.02/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/6.10/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/6.30/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/ibm/7.00/manifest.xml"/>

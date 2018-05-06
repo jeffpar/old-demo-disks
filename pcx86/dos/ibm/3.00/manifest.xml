@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
 <manifest type="software">
-	<title>PC-DOS</title>
+	<title>PC DOS</title>
 	<version>3.00</version>
 	<type>Operating System</type>
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS300-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/3.00/PCDOS300-DISK1.json" md5="0fdfd04e8410e421b23ec7cd35040848" md5json="db3d65f291503e4c3165108b3ae05125">
-		<name>PC-DOS 3.00 (Disk 1)</name>
+		<name>PC DOS 3.00 (Disk 1)</name>
 		<file size="1641" time="1984-08-14 08:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="988" time="1984-08-14 08:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="15123" time="1984-08-14 08:00:00" attr="0x20">ATTRIB.EXE</file>
@@ -47,7 +47,7 @@
 		<file size="3080" time="1984-08-14 08:00:00" attr="0x20">VDISK.SYS</file>
 	</disk>
 	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS300-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/3.00/PCDOS300-DISK2.json" md5="f9752f4e7b9fcdc7081aa80546de16a8" md5json="c2cf5937e3f5f7ff3a2897868041be4a">
-		<name>PC-DOS 3.00 (Disk 2)</name>
+		<name>PC DOS 3.00 (Disk 2)</name>
 		<file size="1920" time="1984-08-14 08:00:00" attr="0x20">ART.BAS</file>
 		<file size="2048" time="1984-08-14 08:00:00" attr="0x20">BALL.BAS</file>
 		<file size="1664" time="1984-08-14 08:00:00" attr="0x20">CIRCLE.BAS</file>

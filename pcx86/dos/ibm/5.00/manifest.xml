@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
 <manifest type="software">
-	<title>PC-DOS</title>
+	<title>PC DOS</title>
 	<version>5.00</version>
 	<type>Operating System</type>
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
 	<disk id="disk01" size="737280" chs="80:2:9" img="archive/PCDOS500-DISK1-720K.img" href="/pcjs-disks/pcx86/dos/ibm/5.00/PCDOS500-DISK1-720K.json" md5="9c2456c713457f435daaeec430f7241c" md5json="9c37be8cee7d3f3ff7fd7464423b842f">
-		<name>PC-DOS 5.00 (Disk 1)</name>
+		<name>PC DOS 5.00 (Disk 1)</name>
 		<file size="7177" time="1991-05-09 12:00:00" attr="0x20">ANSI.SY_</file>
 		<file size="36" time="1991-05-09 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="47987" time="1991-05-09 12:00:00" attr="0x20">COMMAND.COM</file>
@@ -44,7 +44,7 @@
 		<file size="11865" time="1991-05-09 12:00:00" attr="0x20">XCOPY.EX_</file>
 	</disk>
 	<disk id="disk02" size="737280" chs="80:2:9" img="archive/PCDOS500-DISK2-720K.img" href="/pcjs-disks/pcx86/dos/ibm/5.00/PCDOS500-DISK2-720K.json" md5="75d531492ca4758cdd988b029598fbce" md5json="2e1b6e19c97a7b74ac5dd350c13e0032">
-		<name>PC-DOS 5.00 (Disk 2)</name>
+		<name>PC DOS 5.00 (Disk 2)</name>
 		<file size="8494" time="1991-05-09 12:00:00" attr="0x20">APPNOTES.TXT</file>
 		<file size="1768" time="1991-05-09 12:00:00" attr="0x20">CGA.GR_</file>
 		<file size="3335" time="1991-05-09 12:00:00" attr="0x20">CGA.IN_</file>
@@ -78,7 +78,7 @@
 		<file size="3605" time="1991-05-09 12:00:00" attr="0x20">VGAMONO.GR_</file>
 	</disk>
 	<disk id="disk03" size="737280" chs="80:2:9" img="archive/PCDOS500-DISK3-720K.img" href="/pcjs-disks/pcx86/dos/ibm/5.00/PCDOS500-DISK3-720K.json" md5="81aaddd0dfab447003e562f0b5101fe4" md5json="80b6aaab174d9f7147538c05926cc164">
-		<name>PC-DOS 5.00 (Disk 3)</name>
+		<name>PC DOS 5.00 (Disk 3)</name>
 		<file size="7938" time="1991-05-09 12:00:00" attr="0x20">4201.CP_</file>
 		<file size="375" time="1991-05-09 12:00:00" attr="0x20">4208.CP_</file>
 		<file size="352" time="1991-05-09 12:00:00" attr="0x20">5202.CP_</file>

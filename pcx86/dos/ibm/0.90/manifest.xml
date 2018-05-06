@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
 <manifest type="software">
-	<title>PC-DOS</title>
+	<title>PC DOS</title>
 	<version>0.90</version>
 	<type>Operating System</type>
 	<category>DOS</category>

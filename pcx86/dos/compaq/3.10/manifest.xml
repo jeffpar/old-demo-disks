@@ -147,7 +147,7 @@
 		<file size="1306" time="1985-12-17 11:00:00" attr="0x20">WORDS</file>
 	</disk>
 	<disk id="disk04" size="368640" chs="40:2:9" img="archive/COMPAQ-PCDOS320-SUPP.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-PCDOS320-SUPP.json" md5="c48d8b01cd09764104f3ad356a567ca9" md5json="4ce5a82c1b24dbc0ccf273a5c67b6b51">
-		<name>COMPAQ PC-DOS 3.20 Support</name>
+		<name>COMPAQ PC DOS 3.20 Support</name>
 		<file size="33" time="1986-08-14 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="23210" time="1986-03-27 11:00:00" attr="0x20">COMMAND.COM</file>
 		<file size="3006" time="1986-08-14 12:00:00" attr="0x20">DISKCOPY.COM</file>

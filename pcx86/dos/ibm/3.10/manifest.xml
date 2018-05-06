@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
 <manifest type="software">
-	<title>PC-DOS</title>
+	<title>PC DOS</title>
 	<version>3.10</version>
 	<type>Operating System</type>
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate>1985-03-07</releaseDate>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS310-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/3.10/PCDOS310-DISK1.json" md5="588ab5b50f769593e2b67b9d0784752d" md5json="db9ac761ccc2e79a45fd8f91e6bd3381">
-		<name>PC-DOS 3.10 (Disk 1)</name>
+		<name>PC DOS 3.10 (Disk 1)</name>
 		<link href="https://winworldpc.com/product/pc-dos/3x" name="IBM PC-DOS 3.10 (03-07-1985) (5.25)" file="Disk1.img">WinWorld</link>
 		<file size="1651" time="1985-03-07 13:43:00" attr="0x20">ANSI.SYS</file>
 		<file size="1509" time="1985-03-07 13:43:00" attr="0x20">ASSIGN.COM</file>
@@ -51,7 +51,7 @@
 		<file size="0" time="1983-07-04 01:00:00" attr="0x20">VENDOR-#.DO1</file>
 	</disk>
 	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS310-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/3.10/PCDOS310-DISK2.json" md5="18eadfa38eddb3f6906a8b6f9deb41a9" md5json="f71991bb1ecab653ecf1a433c1589a84">
-		<name>PC-DOS 3.10 (Disk 2)</name>
+		<name>PC DOS 3.10 (Disk 2)</name>
 		<link href="https://winworldpc.com/product/pc-dos/3x" name="IBM PC-DOS 3.10 (03-07-1985) (5.25)" file="Disk2.img">WinWorld</link>
 		<file size="1879" time="1985-03-07 13:43:00" attr="0x20">ART.BAS</file>
 		<file size="1966" time="1985-03-07 13:43:00" attr="0x20">BALL.BAS</file>
@@ -74,7 +74,7 @@
 		<file size="0" time="1983-07-04 01:00:00" attr="0x20">VENDOR-#.DO1</file>
 	</disk>
 	<disk id="disk03" size="368640" chs="40:2:9" img="archive/PCDOS310-DISK1-PATCHED.img" href="/pcjs-disks/pcx86/dos/ibm/3.10/PCDOS310-DISK1-PATCHED.json" md5="08af3a895e75812b39809cde4c958e2f" md5json="867414d535fd4b34b805fc1ca24d4063">
-		<name>PC-DOS 3.10 (Patched Disk 1)</name>
+		<name>PC DOS 3.10 (Patched Disk 1)</name>
 		<link href="https://winworldpc.com/product/pc-dos/3x" name="IBM PC-DOS 3.10 (04-22-1985) (5.25)" file="Disk01.img">WinWorld</link>
 		<file size="1651" time="1985-03-07 13:43:00" attr="0x20">ANSI.SYS</file>
 		<file size="1509" time="1985-03-07 13:43:00" attr="0x20">ASSIGN.COM</file>

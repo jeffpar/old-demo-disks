@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
 <manifest type="software">
-	<title>PC-DOS</title>
+	<title>PC DOS</title>
 	<version>2.10</version>
 	<type>Operating System</type>
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
 	<disk id="disk01" size="184320" chs="40:1:9" img="archive/PCDOS210-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/2.10/PCDOS210-DISK1.json" md5="05cfd46815e7b9721d11d58540d0ce65" md5json="29db61146f5f54a0303ce81d8b343c15">
-		<name>PC-DOS 2.10 (Disk 1)</name>
+		<name>PC DOS 2.10 (Disk 1)</name>
 		<file size="1664" time="1983-10-20 12:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="896" time="1983-10-20 12:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="3687" time="1983-10-20 12:00:00" attr="0x20">BACKUP.COM</file>
@@ -37,7 +37,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 	</disk>
 	<disk id="disk02" size="184320" chs="40:1:9" img="archive/PCDOS210-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/2.10/PCDOS210-DISK2.json" md5="0f7761aea64a0ab8e0131124881fd0c3" md5json="42e4619bcafb782743d0b6cec27d54c2">
-		<name>PC-DOS 2.10 (Disk 2)</name>
+		<name>PC DOS 2.10 (Disk 2)</name>
 		<file size="1920" time="1983-10-20 12:00:00" attr="0x20">ART.BAS</file>
 		<file size="2048" time="1983-10-20 12:00:00" attr="0x20">BALL.BAS</file>
 		<file size="1664" time="1983-10-20 12:00:00" attr="0x20">CIRCLE.BAS</file>

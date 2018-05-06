@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
 <manifest type="software">
-	<title>PC-DOS</title>
+	<title>PC DOS</title>
 	<version>6.30</version>
 	<type>Operating System</type>
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
 	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/PCDOS630-DISK1-1440K.img" href="/pcjs-disks/pcx86/dos/ibm/6.30/PCDOS630-DISK1-1440K.json" md5="a22c3e841e6d074f939dce2b950865b5" md5json="f273b80715d955f28601404fc2d39af5">
-		<name>PC-DOS 6.30 (Disk 1)</name>
+		<name>PC DOS 6.30 (Disk 1)</name>
 		<file size="9522" time="1993-12-30 23:00:00" attr="0x20">4201.CP_</file>
 		<file size="115" time="1993-12-30 23:00:00" attr="0x20">4208.CPI</file>
 		<file size="6292" time="1993-12-30 23:00:00" attr="0x20">ANSI.SY_</file>
@@ -100,7 +100,7 @@
 		<file size="11653" time="1993-12-30 23:00:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
 	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/PCDOS630-DISK2-1440K.img" href="/pcjs-disks/pcx86/dos/ibm/6.30/PCDOS630-DISK2-1440K.json" md5="f9d05b2d3a723ac4b884cb3abea744c4" md5json="1dcc7591462ba1d7ca7e263b4af29c56">
-		<name>PC-DOS 6.30 (Disk 2)</name>
+		<name>PC DOS 6.30 (Disk 2)</name>
 		<file size="600" time="1993-12-30 23:00:00" attr="0x20">AV.GR$</file>
 		<file size="1240" time="1993-12-30 23:00:00" attr="0x20">AVBK.GR$</file>
 		<file size="1519" time="1993-12-30 23:00:00" attr="0x20">AVBKUD.GR$</file>
@@ -189,7 +189,7 @@
 		<file size="22311" time="1993-12-30 23:00:00" attr="0x20">WNUNDEL.HL_</file>
 	</disk>
 	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/PCDOS630-DISK3-1440K.img" href="/pcjs-disks/pcx86/dos/ibm/6.30/PCDOS630-DISK3-1440K.json" md5="75c60475318ab46947c24109bf5f3bf0" md5json="a0bd063f6dcba1a90ba781581d1970a9">
-		<name>PC-DOS 6.30 (Disk 3)</name>
+		<name>PC DOS 6.30 (Disk 3)</name>
 		<file size="10425" time="1993-12-30 23:00:00" attr="0x20">CPB1.OVL</file>
 		<file size="8495" time="1993-12-30 23:00:00" attr="0x20">CPB2.OVL</file>
 		<file size="28277" time="1993-12-30 23:00:00" attr="0x20">CPB3.OVL</file>
@@ -248,7 +248,7 @@
 		<file size="301" time="1993-12-30 23:00:00" attr="0x20">WORDPROC.SE_</file>
 	</disk>
 	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/PCDOS630-DISK4-1440K.img" href="/pcjs-disks/pcx86/dos/ibm/6.30/PCDOS630-DISK4-1440K.json" md5="d1c16eb915781c62eaeb68ddde9f2b1f" md5json="6eb5a9f5d380444f62aa46ae2efa6b03">
-		<name>PC-DOS 6.30 (Disk 4)</name>
+		<name>PC DOS 6.30 (Disk 4)</name>
 		<file size="715" time="1993-12-30 23:00:00" attr="0x20">ADMIN.PRF</file>
 		<file size="160" time="1993-12-30 23:00:00" attr="0x20">AUTORUN.PR_</file>
 		<file size="519" time="1993-12-30 23:00:00" attr="0x20">CONTACT.LS_</file>
@@ -317,7 +317,7 @@
 		<file size="35286" time="1993-12-30 23:00:00" attr="0x20">WNQR.DL_</file>
 	</disk>
 	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/PCDOS630-DISK5-1440K.img" href="/pcjs-disks/pcx86/dos/ibm/6.30/PCDOS630-DISK5-1440K.json" md5="97658b4e02bef9a7efa77e94dfa9fc41" md5json="8e774c3779d739004871bb6c2e41d0f3">
-		<name>PC-DOS 6.30 (Disk 5)</name>
+		<name>PC DOS 6.30 (Disk 5)</name>
 		<file size="6883" time="1993-12-30 23:00:00" attr="0x20">ADDHELP.OV_</file>
 		<file size="28962" time="1993-12-30 23:00:00" attr="0x20">DBLSPACE.BI_</file>
 		<file size="302" time="1993-12-30 23:00:00" attr="0x20">DBLSPACE.SYS</file>

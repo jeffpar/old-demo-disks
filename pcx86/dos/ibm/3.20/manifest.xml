@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
 <manifest type="software">
-	<title>PC-DOS</title>
+	<title>PC DOS</title>
 	<version>3.20</version>
 	<type>Operating System</type>
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS320-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/3.20/PCDOS320-DISK1.json" md5="11cba038cc7a025cf8af45602c20cff1" md5json="d543a1a15e96e23114de39317bf2ce86">
-		<name>PC-DOS 3.20 (Disk 1)</name>
+		<name>PC DOS 3.20 (Disk 1)</name>
 		<file size="1651" time="1985-12-30 11:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="1536" time="1985-12-30 11:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="8247" time="1985-12-30 11:00:00" attr="0x20">ATTRIB.EXE</file>
@@ -53,7 +53,7 @@
 		<file size="11200" time="1985-12-30 11:00:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
 	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS320-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/3.20/PCDOS320-DISK2.json" md5="386c9566bd64aadf2fcf488af4578c58" md5json="504d9e4684f7a99c21c6a2eabebac624">
-		<name>PC-DOS 3.20 (Disk 2)</name>
+		<name>PC DOS 3.20 (Disk 2)</name>
 		<file size="1879" time="1985-12-30 11:00:00" attr="0x20">ART.BAS</file>
 		<file size="1966" time="1985-12-30 11:00:00" attr="0x20">BALL.BAS</file>
 		<file size="369" time="1985-12-30 11:00:00" attr="0x20">BASIC.PIF</file>

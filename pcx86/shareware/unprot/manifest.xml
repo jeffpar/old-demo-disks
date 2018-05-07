@@ -3,7 +3,7 @@
 <manifest type="software">
 	<title>Unprotect Assortment</title>
 	<source href="https://www.pcorner.com/list/UNP/UNPROT-1.ZIP/INFO/">The Programmer's Corner: Unprotects for Games and Such</source>
-	<disk id="disk01" size="1228800" chs="80:2:15" dir="disk01" href="/pcjs-disks/pcx86/shareware/unprot/UNPROT.json" md5="80c9cc3b921aa84f6aa022d50ff1f830" md5json="2c9fa3cbede1bcca03a026bacfac4a20">
+	<disk id="disk01" size="1228800" chs="80:2:15" dir="disk01" href="/pcjs-disks/pcx86/shareware/unprot/UNPROT.json" md5="107728f52bafa7ae8a1d1e902edffbf1" md5json="85eaab6b67dfa5bb393b48f4a1e9a89a">
 		<name>Unprotect Files (UNPROT-1/UNPROT-2)</name>
 		<file size="706" time="1983-07-11 08:35:44" attr="0x20" md5="b5964dfcf2f0920c7dd4e8a2069d0598">123.UNP</file>
 		<file size="520" time="1983-07-12 08:17:20" attr="0x20" md5="8cf8e8d28f179fc67da4c2cf97de1019">123A.UNP</file>
@@ -134,8 +134,6 @@
 		<file size="1024" time="1985-11-27 01:57:40" attr="0x20" md5="08e2e177411aaab47b9713edde4c0ba9">MYM152.UNP</file>
 		<file size="3584" time="1986-04-24 19:48:52" attr="0x20" md5="d8591dba9d9f3e34ea13ce74cc25b5b1">MYMALL.UNP</file>
 		<file size="293" time="1986-03-08 11:17:08" attr="0x20" md5="36129f086d2b90a0bf184f77838fe830">MYMFIX.COM</file>
-		<file size="1550" time="1986-03-08 11:16:34" attr="0x20" md5="38935fc7fdd97e0cd4ab4ab7031beb8c">MYMFIX.DOC</file>
-		<file size="256" time="1986-02-17 02:01:42" attr="0x20" md5="d24a136e15afa798559cfd996735bfcc">MYMFIX3.COM</file>
 		<file size="1550" time="1986-03-08 11:16:34" attr="0x20" md5="38935fc7fdd97e0cd4ab4ab7031beb8c">MYMFIX.DOC</file>
 		<file size="256" time="1986-02-17 02:01:42" attr="0x20" md5="d24a136e15afa798559cfd996735bfcc">MYMFIX3.COM</file>
 		<file size="512" time="1986-04-24 19:48:34" attr="0x20" md5="dcaad83eb7105b15ae35533eee539411">NE.UNP</file>

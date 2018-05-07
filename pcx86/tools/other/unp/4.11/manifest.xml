@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
+<manifest type="software">
+	<title>UNP</title>
+	<version>4.11</version>
+	<source href="http://unp.bencastricum.nl/">UNP</source>
+	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/bin" href="/pcjs-disks/pcx86/tools/other/unp/4.11/UNP411.json" md5="e2416c96435818fbe308e8a511723264" md5json="182da4ebb58dbdb91d3391ed5369d178">
+		<name>UNP (Executable Unpacker) 4.11</name>
+		<file size="327" time="1995-04-10 05:38:54" attr="0x20" md5="5e19535a02b1c1bb9e5430af598701c2">FILE_ID.DIZ</file>
+		<file size="31148" time="1995-05-30 16:15:30" attr="0x20" md5="7d77e9ac739ea836002cb81b553341ab">UNP.DOC</file>
+		<file size="20106" time="1995-05-30 15:59:28" attr="0x20" md5="e077c3a036a8a9f073b2f2b68fd8eb45">UNP.EXE</file>
+		<file size="7525" time="1995-05-30 15:57:16" attr="0x20" md5="83c37313e88c0e844a8d815f71d469f7">WHATSNEW.411</file>
+	</disk>
+	<disk id="disk02" size="1228800" chs="80:2:15" dir="archive/src" href="/pcjs-disks/pcx86/tools/other/unp/4.11/UNP411-SRC.json" md5="1b31ed5827eb8fbbb7340eeb70ef5997" md5json="748a031803f7fdee78a8b20f42720c65">
+		<name>UNP (Executable Unpacker) Source</name>
+		<file size="1633" time="1995-03-15 16:35:52" attr="0x20" md5="ea65eb6a76c259638ff04edd52be51dd">COMPILER.H</file>
+		<file size="26370" time="1996-05-28 18:17:12" attr="0x20" md5="08e232abf879d6af310785bc20b053a4">DIET.EXE</file>
+		<file size="9654" time="1994-06-01 01:41:14" attr="0x20" md5="43d0e22a46070112fb3c78b2bee64c37">FICTION.EXE</file>
+		<file size="326" time="1996-07-22 21:07:46" attr="0x20" md5="9557741f3a72e1cbe817041961914302">FILE_ID.DIZ</file>
+		<file size="4547" time="1994-10-05 16:16:36" attr="0x20" md5="e4fffd01d4f5b121781049bb4f101eb7">FIND.ASM</file>
+		<file size="103" time="1993-10-30 01:15:04" attr="0x20" md5="08aea7b6335606b9bd00f4a55828ed9f">FIND.H</file>
+		<file size="1448" time="1997-05-19 18:23:16" attr="0x20" md5="34fd1a4ddec23158a20f44613cf87525">FIND.OBJ</file>
+		<file size="1825" time="1994-09-22 18:42:26" attr="0x20" md5="f5ae004221e30d32ecfce048ffa0c80a">FINDFILE.ASM</file>
+		<file size="7402" time="1996-05-26 15:48:34" attr="0x20" md5="d8957dc481c961a4d7c06d5da14fabaa">GI.ASM</file>
+		<file size="1829" time="1994-08-25 12:09:28" attr="0x20" md5="920feb224a1b648de5b8e6a9dfec7937">GS.ASM</file>
+		<file size="874" time="1994-08-23 00:25:24" attr="0x20" md5="ff7680e9dbdc127d33d35ff4e29c7da2">HANDLE.TXT</file>
+		<file size="16811" time="1996-12-09 10:45:00" attr="0x20" md5="f48ec532dc544391caa9d1dac8109a9d">HEADER.EXE</file>
+		<file size="3738" time="1995-02-17 09:35:50" attr="0x20" md5="dd37260c38958c3ca44eedbeae0671cd">INFO</file>
+		<file size="26515" time="1996-06-23 13:12:58" attr="0x20" md5="2f8d3ea48d9c50552a9a6e25ff84ae69">INIT.ASM</file>
+		<file size="15745" time="1997-05-19 18:23:16" attr="0x20" md5="4afd9ffa5ffb4bcab4d22430625e0fac">INIT.OBJ</file>
+		<file size="1954" time="1996-05-28 18:16:10" attr="0x20" md5="bae5bee7df417535c7a7179c9abc9c76">MAKEFILE</file>
+		<file size="1815" time="1994-05-22 00:41:38" attr="0x20" md5="d8ef050cb02f1de6ad0197c3324910ff">MAPMEM.ASM</file>
+		<file size="6467" time="1995-04-09 22:34:32" attr="0x20" md5="67898f4673ac7d9bf90fc7bf65a1d85d">MEM.ASM</file>
+		<file size="602" time="1993-10-30 01:15:04" attr="0x20" md5="e699317daa98aa3b42a63aa9ce25c92f">MEM.H</file>
+		<file size="2283" time="1997-05-19 18:23:14" attr="0x20" md5="c939c45fe394fde1a93fc16692d42ab0">MEM.OBJ</file>
+		<file size="7777" time="1994-03-18 23:23:14" attr="0x20" md5="a3ba4c76f34b32aa02671ed417a3ff36">PLAZMA.EXE</file>
+		<file size="23000" time="1995-05-13 19:12:58" attr="0x20" md5="c443a1dc9f2c4944061baa81f7be11ea">STDIO.ASM</file>
+		<file size="741" time="1994-10-14 10:27:30" attr="0x20" md5="e0601ea3feafab92e4877af7b0a7488b">STDIO.H</file>
+		<file size="6359" time="1997-05-19 18:23:16" attr="0x20" md5="2ea8524b08e86c97430d844218020d50">STDIO.OBJ</file>
+		<file size="4695" time="1996-12-09 14:23:26" attr="0x20" md5="ecb5c1927c139ac560517a2762662ca8">STRING.H</file>
+		<file size="514" time="1993-10-30 01:15:04" attr="0x20" md5="c137a48c02844576839e5fed4d97f33f">TDBREAK.ASM</file>
+		<file size="759" time="1995-11-01 12:45:12" attr="0x20" md5="5ea1b3296b16bffb96c19f131b8621bd">TDCONFIG.TD</file>
+		<file size="65292" time="1996-12-09 14:01:14" attr="0x20" md5="af10f113047bc943eb083b2b3813bc40">U4.ASM</file>
+		<file size="20707" time="1997-05-19 18:23:20" attr="0x20" md5="fadef623fd70f36c90380e753c1ee300">U4.EXE</file>
+		<file size="153936" time="1997-05-19 18:23:20" attr="0x20" md5="4ae82284655e0e95a22f8f113b2ecb34">U4.MAP</file>
+		<file size="92903" time="1997-05-19 18:23:14" attr="0x20" md5="a657b7e36dd0b1c1f8337567ec4b69a1">U4.OBJ</file>
+		<file size="30176" time="1996-05-26 15:51:12" attr="0x20" md5="4d3e0a96d7072900b110f634609ebb9e">U4.OLD</file>
+		<file size="29786" time="1996-11-20 12:44:44" attr="0x20" md5="39d716c7d85f75a9ecce3dcc184dc9de">UNP.DOC</file>
+		<file size="20837" time="1997-05-19 18:23:22" attr="0x20" md5="3f8cb8ada9e205cecc05da16201bdddb">UNP.EXE</file>
+		<file size="745" time="1997-05-19 18:22:52" attr="0x20" md5="41f726f520ef58e7b624f014666ac5a6">VERSION.H</file>
+		<file size="7800" time="1997-02-02 14:19:20" attr="0x20" md5="24811b8d268133ca363944af41fa4140">WHATSNEW.412</file>
+		<file size="1665" time="1994-04-19 23:30:32" attr="0x20" md5="b842cf5fbcae23a8e7ba6113651f3d89" dir="com/">CBWFP.ASM</file>
+		<file size="782" time="1994-05-02 12:55:48" attr="0x20" md5="9678c6ca411a48686863b300f1a43466" dir="com/">CC2CR.ASM</file>
+		<file size="1101" time="1994-04-07 08:09:46" attr="0x20" md5="2ce83716ce7e954cf9d69d6a8011a261" dir="com/">CCMPK.ASM</file>
+		<file size="988" time="1995-01-01 14:23:02" attr="0x20" md5="b7dbc7d08fcff62f1979c1d6784c2514" dir="com/">CCMPR.ASM</file>
+		<file size="885" time="1994-04-19 23:31:22" attr="0x20" md5="5309b0ba3c527f12269ca663f032ee1c" dir="com/">CCOML.ASM</file>
+		<file size="1623" time="1994-06-26 15:07:52" attr="0x20" md5="fd009881f87fd8ad844cde87cacb18a0" dir="com/">CCPAV.ASM</file>
+		<file size="972" time="1994-04-19 22:35:00" attr="0x20" md5="3c152a7c76f0373b146f4223b192f50e" dir="com/">CCRCM.ASM</file>
+		<file size="804" time="1994-04-19 22:49:38" attr="0x20" md5="f56e2c2125d492371a878593e917e6d9" dir="com/">CCRPT.ASM</file>
+		<file size="2493" time="1994-04-17 19:24:22" attr="0x20" md5="77f6b79c237d3836b39d447867694a4f" dir="com/">CDIET.ASM</file>
+		<file size="707" time="1994-10-23 13:17:08" attr="0x20" md5="d25c7b8511c93e1ecf757e51148aec8b" dir="com/">CELIT.ASM</file>
+		<file size="2082" time="1994-04-19 23:31:50" attr="0x20" md5="33fb65adf93ea3a21c00021cace7c60c" dir="com/">CEPW.ASM</file>
+		<file size="762" time="1994-03-20 13:08:48" attr="0x20" md5="cd77be1b582cb3922756c67574a3f1b0" dir="com/">CICE.ASM</file>
+		<file size="771" time="1994-04-19 23:32:06" attr="0x20" md5="033c19887231684dc70e7526c2d1c2d8" dir="com/">CMCLK.ASM</file>
+		<file size="925" time="1994-04-19 23:32:12" attr="0x20" md5="9cac3fe7fee6381c21be3aa3e986807a" dir="com/">CNTBD.ASM</file>
+		<file size="1188" time="1994-04-17 18:59:28" attr="0x20" md5="044b23005319e944d695aa268237dbd4" dir="com/">CNTCH.ASM</file>
+		<file size="1013" time="1996-07-22 20:31:34" attr="0x20" md5="673d13d5f25a1309a90d58110fee42a7" dir="com/">CPKLT.ASM</file>
+		<file size="713" time="1994-04-19 23:32:22" attr="0x20" md5="b080e21aa2d4f900ef817f74725c318c" dir="com/">CPOJC.ASM</file>
+		<file size="1112" time="1994-09-21 20:14:30" attr="0x20" md5="c847574d6b80dd7764a58cc398ad1934" dir="com/">CPPCK.ASM</file>
+		<file size="728" time="1994-04-19 19:06:40" attr="0x20" md5="c5dad7bff98b8173220e5100884f47a1" dir="com/">CPRCM.ASM</file>
+		<file size="8365" time="1995-04-23 19:16:22" attr="0x20" md5="2f65cc7f41eaf421dfce3a8d349efd2d" dir="com/">CPROT.ASM</file>
+		<file size="605" time="1993-10-30 01:15:04" attr="0x20" md5="23edda7903a63228e9c9954ee6b34794" dir="com/">CPSWD.ASM</file>
+		<file size="794" time="1994-04-17 19:05:34" attr="0x20" md5="a12b189bc315a815d03b62acd537a245" dir="com/">CSCAN.ASM</file>
+		<file size="1063" time="1994-06-03 23:32:56" attr="0x20" md5="b4b714ea2c967d258d422b13f19d8122" dir="com/">CSCRM.ASM</file>
+		<file size="863" time="1994-06-19 19:33:44" attr="0x20" md5="725b5d93030e11e2a5e91c93b3e3183f" dir="com/">CSCRN.ASM</file>
+		<file size="1724" time="1993-10-30 01:15:04" attr="0x20" md5="f2a703542b9c1951932fb2b6dc489e20" dir="com/">CSHRN.ASM</file>
+		<file size="786" time="1994-04-19 23:32:54" attr="0x20" md5="074cf824554998b3a0e0ec70f09bf85c" dir="com/">CSLFD.ASM</file>
+		<file size="1773" time="1994-12-28 13:58:06" attr="0x20" md5="ddad96a38b8eb22cc3480ee0ec365b39" dir="com/">CSPCM.ASM</file>
+		<file size="973" time="1993-12-23 18:40:54" attr="0x20" md5="1747774158f44c98d3644fd75043af10" dir="com/">CSPRT.ASM</file>
+		<file size="1101" time="1994-03-21 20:55:34" attr="0x20" md5="288db38d4151d34f1718340ece387042" dir="com/">CSYRN.ASM</file>
+		<file size="589" time="1994-04-19 22:43:02" attr="0x20" md5="9c847994df7be5c20543708223173235" dir="com/">CTPCS.ASM</file>
+		<file size="1913" time="1994-05-03 09:17:14" attr="0x20" md5="800a9c71f2bdbb5262a33c30326132ad" dir="com/">CU173.ASM</file>
+		<file size="2635" time="1994-04-22 18:48:46" attr="0x20" md5="cdc9ab7ca42e2b51d953d44f90540c82" dir="com/">CUSRN.ASM</file>
+		<file size="884" time="1993-10-30 01:15:04" attr="0x20" md5="06e5cc33ccb71d1e35a6ad3f89afab9f" dir="com/">CXLCK.ASM</file>
+		<file size="1103" time="1994-12-29 12:09:54" attr="0x20" md5="056e62c935d87035853fb9438c7d3cf4" dir="exe/">EAINX.ASM</file>
+		<file size="1778" time="1994-12-29 14:48:38" attr="0x20" md5="1b629e5654d7003c2c904355880c4703" dir="exe/">ECMPK.ASM</file>
+		<file size="1530" time="1995-01-01 14:26:20" attr="0x20" md5="8389d3ffcce2a422e917df48ff505c19" dir="exe/">ECMPR.ASM</file>
+		<file size="803" time="1994-11-05 15:52:12" attr="0x20" md5="fa9a9e81428158763b0e1096a2e709c8" dir="exe/">ECOM2.ASM</file>
+		<file size="4933" time="1995-04-08 17:40:38" attr="0x20" md5="d7183ae5fe61b066ee582bfe5a9c4c32" dir="exe/">ECPAV.ASM</file>
+		<file size="815" time="1994-08-25 12:20:02" attr="0x20" md5="093ecd52ca46d572f7b96e3652ad2c66" dir="exe/">ECRPT.ASM</file>
+		<file size="746" time="1994-07-30 11:51:36" attr="0x20" md5="659496377d4ccc74c4997ac3c3b56261" dir="exe/">EDELT.ASM</file>
+		<file size="7648" time="1995-08-27 20:08:08" attr="0x20" md5="8428467f833e99f9e18f550c2a1cf453" dir="exe/">EDIET.ASM</file>
+		<file size="2468" time="1995-04-08 17:44:50" attr="0x20" md5="97a562f675512962781a857bdd8f4743" dir="exe/">EELIT.ASM</file>
+		<file size="2124" time="1994-11-24 17:42:20" attr="0x20" md5="450ad9ed91de06ec88c0af5f73b6805e" dir="exe/">EEPW.ASM</file>
+		<file size="2389" time="1996-09-29 16:01:52" attr="0x20" md5="3ff31282b56d1f4785f8f67ecc447b0b" dir="exe/">EEXPK.ASM</file>
+		<file size="4354" time="1995-04-08 17:59:16" attr="0x20" md5="a6cc5c13e2c6038ddc533483ab7af1da" dir="exe/">EGNRC.ASM</file>
+		<file size="2286" time="1995-04-05 17:25:38" attr="0x20" md5="c3b8ab2cda502870a479edc1210e52ea" dir="exe/">EMKS.ASM</file>
+		<file size="1574" time="1994-08-16 19:33:04" attr="0x20" md5="964c8b25cd64bceaa7579623e663720c" dir="exe/">EOPTL.ASM</file>
+		<file size="1707" time="1994-06-03 15:33:12" attr="0x20" md5="815c3d119cdf304759dc2c693e0a92f5" dir="exe/">EPGMP.ASM</file>
+		<file size="837" time="1994-05-06 03:31:14" attr="0x20" md5="0694296ded9e92c4d69e6335ceef05f5" dir="exe/">EPKEX.ASM</file>
+		<file size="9739" time="1996-12-09 14:22:58" attr="0x20" md5="34bf9bebe7599ed1506eb1e9a0d8e5d6" dir="exe/">EPKLT.ASM</file>
+		<file size="714" time="1994-08-21 16:33:16" attr="0x20" md5="ea4fbb10d8dc9c30f0ec4ac2475a31e5" dir="exe/">EPKSG.ASM</file>
+		<file size="1554" time="1994-09-15 18:02:10" attr="0x20" md5="c001137dc9cf64e86bada0d4eb5a4338" dir="exe/">EPKTN.ASM</file>
+		<file size="4795" time="1994-08-19 23:20:28" attr="0x20" md5="93095d1d1ca616f925252c6a01ec7fa4" dir="exe/">EPROT.ASM</file>
+		<file size="1598" time="1995-04-08 18:03:12" attr="0x20" md5="a2e5093be2e38e99fb335cb9c5a89db8" dir="exe/">ESAXE.ASM</file>
+		<file size="859" time="1994-09-18 14:00:54" attr="0x20" md5="f46c21f99f5c608e769511541f827ec2" dir="exe/">ESCAN.ASM</file>
+		<file size="1763" time="1994-06-04 00:03:58" attr="0x20" md5="6b125c49d5c8efc4ca5b41c6b7243591" dir="exe/">ESCRM.ASM</file>
+		<file size="714" time="1994-06-19 19:50:18" attr="0x20" md5="d8621ab2d137a0f6525f9f860e083abc" dir="exe/">ESCRN.ASM</file>
+		<file size="3383" time="1995-04-08 18:06:16" attr="0x20" md5="ab8718e1bb3c81fdfa4211c353f2d2c3" dir="exe/">ETINY.ASM</file>
+		<file size="1487" time="1997-02-02 14:15:20" attr="0x20" md5="ebf542c41dbd64f5d6097eda27061f4c" dir="exe/">EUCEX.ASM</file>
+		<file size="2995" time="1995-05-04 17:18:20" attr="0x20" md5="af1467f854e5b040e56e7ff0c1c55b58" dir="exe/">EWWPP.ASM</file>
+		<file size="967" time="1994-09-22 14:07:42" attr="0x20" md5="e3016a317e1ca980f500bcdfba6def59" dir="exe/">EXLCK.ASM</file>
+		<file size="992" time="1994-08-28 13:28:42" attr="0x20" md5="e5c31dab9cb4d4b1f0a43405d1f07c64" dir="exe/">EZIVP.ASM</file>
+		<file size="432" time="1995-10-25 19:51:28" attr="0x20" md5="e116d5c7d15ace4863c83266a19d5a2d" dir="exe/">HEADER.ASM</file>
+	</disk>
+</manifest>

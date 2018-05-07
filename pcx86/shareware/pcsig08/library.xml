@@ -190,6 +190,7 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/5.13/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/6.02/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/spacemaker/1.06/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/unp/4.11/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/personal/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/roms/ibm/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/shareware/pcmag/manifest.xml"/>

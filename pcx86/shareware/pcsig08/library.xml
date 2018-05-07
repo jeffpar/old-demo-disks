@@ -148,6 +148,7 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/c/5.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/c/5.10/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/c/5.10-os2/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/dos/mgr/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/masm/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/masm/3.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/microsoft/masm/3.01/manifest.xml"/>

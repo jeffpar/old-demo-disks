@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.66.2/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.67.0/manifest.xsl"?>
 <manifest type="software">
 	<title>Empty Diskettes</title>
 	<disk id="disk01" size="163840" chs="40:1:8" img="archive/EMPTY-160K.img" href="/pcjs-disks/pcx86/empty/EMPTY-160K.json" md5="ac5a7a038ffbfb225157ebd9aef48ae2" md5json="ef509620e3d3136d0f51c38a2437c236">

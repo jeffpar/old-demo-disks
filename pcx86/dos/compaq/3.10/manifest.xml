@@ -78,7 +78,7 @@
 		<file size="1306" time="1986-10-31 11:00:00" attr="0x20">WORDS</file>
 	</disk>
 	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/COMPAQ-DOS310-PERSONAL.img" href="/pcjs-disks/pcx86/dos/compaq/3.10/COMPAQ-DOS310-PERSONAL.json" md5="4cda15c7c35b078a4ef40e2f4fb1b2e7" md5json="5b143ae48939e74b65611b5f5472ebe9">
-		<name>COMPAQ MS-DOS 3.10 (Personal)</name>
+		<name>COMPAQ MS-DOS 3.10 (12-17-85)</name>
 		<file size="1593" time="1985-12-17 11:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="1509" time="1985-12-17 11:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="15091" time="1985-12-17 11:00:00" attr="0x20">ATTRIB.EXE</file>

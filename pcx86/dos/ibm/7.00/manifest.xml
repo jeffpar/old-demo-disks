@@ -65,7 +65,7 @@
 	<disk id="disk05" size="1884160" chs="80:2:23" img="archive/PCDOS700-DISK5.xdf" href="/pcjs-disks/pcx86/dos/ibm/7.00/PCDOS700-DISK5.json" md5="e613544f161d0857fc3adf6a13eb9371" md5json="db19c311f807b70f43efcc9d59a313dd">
 		<name>PC DOS 7.00 (Disk 5)</name>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/PCDOS700-1200K.img" href="/pcjs-disks/pcx86/dos/ibm/7.00/PCDOS700-1200K.json" md5="8b283f326a69c80b9795bfc5197b0335" md5json="3a40870c22177dec598514f45c05e1f9">
+	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/PCDOS700-1200K.img" href="/pcjs-disks/pcx86/dos/ibm/7.00/PCDOS700-1200K.json" md5="36241cfa1e4678f56a33ff02f75eae82" md5json="d1ed4a815a8fdd9606999320def1651b">
 		<name>PC DOS 7.00 (1.2M Boot)</name>
 		<file size="22851" time="1994-11-17 12:00:00" attr="0x20">ACALC.EXE</file>
 		<file size="8906" time="1994-11-17 12:00:00" attr="0x20">ANSI.SYS</file>
@@ -134,7 +134,7 @@
 		<file size="5247" time="1994-11-17 12:00:00" attr="0x20">TREE.COM</file>
 		<file size="11603" time="1994-11-17 12:00:00" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/PCDOS700-1440K.img" href="/pcjs-disks/pcx86/dos/ibm/7.00/PCDOS700-1440K.json" md5="963677251bd9112bb442565c46382424" md5json="689d2cdabdf4e0873c47f89c11cd83f6">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/PCDOS700-1440K.img" href="/pcjs-disks/pcx86/dos/ibm/7.00/PCDOS700-1440K.json" md5="55ab49f7c75b7ee6ebb17c48d10d9007" md5json="9fcd3953cefc2b08c52dbd8de58b6079">
 		<name>PC DOS 7.00 (1.44M Boot)</name>
 		<file size="22851" time="1994-11-17 12:00:00" attr="0x20">ACALC.EXE</file>
 		<file size="8906" time="1994-11-17 12:00:00" attr="0x20">ANSI.SYS</file>

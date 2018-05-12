@@ -47,6 +47,7 @@
 		<manifest ref="/pcjs-disks/pcx86/dos/microsoft/6.22/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/compaq/1.11/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/compaq/1.12/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/dos/compaq/2.11/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/compaq/2.12/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/compaq/3.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/dos/compaq/3.10/manifest.xml"/>

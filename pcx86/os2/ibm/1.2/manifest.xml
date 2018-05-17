@@ -2,8 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.71.0/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM OS/2 1.2</title>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/std/Disk1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK01.json" md5="5c3a8c2e20fe8d410d9f4044221e87fa" md5json="0b49a1a26df98059e593c717d557a6a7">
-		<name>IBM OS/2 1.2 STD (Disk 1)</name>
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/Disk1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK01.json" md5="5c3a8c2e20fe8d410d9f4044221e87fa" md5json="0b49a1a26df98059e593c717d557a6a7">
+		<name>IBM OS/2 1.2 (Disk 1)</name>
 		<file size="9521" time="1989-08-31 12:00:00" attr="0x20">ANSI.EX@</file>
 		<file size="2123" time="1989-08-31 12:00:00" attr="0x20">ANSI.SY@</file>
 		<file size="4486" time="1989-08-31 12:00:00" attr="0x20">APPEND.EX@</file>
@@ -36,8 +36,8 @@
 		<file size="150336" time="1989-08-31 12:00:00" attr="0x20">UHPFS.DLL</file>
 		<file size="52096" time="1989-08-31 12:00:00" attr="0x20">UNPACK.EXE</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/std/Disk2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK02.json" md5="a4b094db5a0dc7b23654adf4029156bb" md5json="10b3a303ec6aaee2204d7ce628b05540">
-		<name>IBM OS/2 1.2 STD (Disk 2)</name>
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/Disk2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK02.json" md5="a4b094db5a0dc7b23654adf4029156bb" md5json="10b3a303ec6aaee2204d7ce628b05540">
+		<name>IBM OS/2 1.2 (Disk 2)</name>
 		<file size="479" time="1989-08-31 12:00:00" attr="0x20">BASIC.CO@</file>
 		<file size="35573" time="1989-08-31 12:00:00" attr="0x20">BASICA.CO@</file>
 		<file size="6221" time="1989-08-31 12:00:00" attr="0x20">COM01.SY@</file>
@@ -91,8 +91,8 @@
 		<file size="2461" time="1989-08-31 12:00:00" attr="0x20">VISION02.SY@</file>
 		<file size="37979" time="1989-08-31 12:00:00" attr="0x20">XCOPY.EX@</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/std/Disk3.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK03.json" md5="b53095ebb5009d7f176b896a08071f9a" md5json="4f9f4468630c685eb50f27cb2287610c">
-		<name>IBM OS/2 1.2 STD (Disk 3)</name>
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/Disk3.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK03.json" md5="b53095ebb5009d7f176b896a08071f9a" md5json="4f9f4468630c685eb50f27cb2287610c">
+		<name>IBM OS/2 1.2 (Disk 3)</name>
 		<file size="164344" time="1989-08-31 12:00:00" attr="0x20">CMDREF.IN@</file>
 		<file size="88475" time="1989-08-31 12:00:00" attr="0x20">CPISPFPC.DL@</file>
 		<file size="2093" time="1989-08-31 12:00:00" attr="0x20">DMPC.EX@</file>
@@ -127,8 +127,8 @@
 		<file size="12901" time="1989-08-31 12:00:00" attr="0x20">VIEWDOC.EX@</file>
 		<file size="12710" time="1989-08-31 12:00:00" attr="0x20">VIEWH.HL@</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/std/Disk4.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK04.json" md5="6cbdcc1ca9909b8ec4604585cf1995a8" md5json="90ecc80358222611a3e70dda25e5a7f3">
-		<name>IBM OS/2 1.2 STD (Disk 4)</name>
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/Disk4.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK04.json" md5="6cbdcc1ca9909b8ec4604585cf1995a8" md5json="90ecc80358222611a3e70dda25e5a7f3">
+		<name>IBM OS/2 1.2 (Disk 4)</name>
 		<file size="5150" time="1989-08-31 12:00:00" attr="0x20">4201.DC@</file>
 		<file size="329" time="1989-08-31 12:00:00" attr="0x20">5202.DC@</file>
 		<file size="163153" time="1989-08-31 12:00:00" attr="0x20">COURIER.FO@</file>
@@ -180,8 +180,8 @@
 		<file size="273845" time="1989-08-31 12:00:00" attr="0x20">TIMES.FO@</file>
 		<file size="13655" time="1989-08-31 12:00:00" attr="0x20">TRSEL.EX@</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/std/Disk5.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK05.json" md5="3d8a96f3df5d4fd3cc8832e45b728d34" md5json="53f3f85475cd1e956a3525a415a9a41a">
-		<name>IBM OS/2 1.2 STD (Disk 5)</name>
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/Disk5.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK05.json" md5="3d8a96f3df5d4fd3cc8832e45b728d34" md5json="53f3f85475cd1e956a3525a415a9a41a">
+		<name>IBM OS/2 1.2 (Disk 5)</name>
 		<file size="6248" time="1989-08-31 12:00:00" attr="0x20">BVH8514A.DL@</file>
 		<file size="14575" time="1989-08-31 12:00:00" attr="0x20">BVHCGA.DL@</file>
 		<file size="20350" time="1989-08-31 12:00:00" attr="0x20">BVHEGA.DL@</file>
@@ -203,8 +203,8 @@
 		<file size="185186" time="1989-08-31 12:00:00" attr="0x20">PMWIN.DL@</file>
 		<file size="3587" time="1989-08-31 12:00:00" attr="0x20">PMWIN.PD@</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/std/Install.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK06-INSTALL.json" md5="6f499a29d8f2343d7fabe8701f9dd815" md5json="2998f80e3443966275b2a562b8a0ca28">
-		<name>IBM OS/2 1.2 STD (Install)</name>
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/Install.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK06-INSTALL.json" md5="6f499a29d8f2343d7fabe8701f9dd815" md5json="2998f80e3443966275b2a562b8a0ca28">
+		<name>IBM OS/2 1.2 (Install)</name>
 		<file size="4898" time="1989-08-31 12:00:00" attr="0x20">8514.RC@</file>
 		<file size="4900" time="1989-08-31 12:00:00" attr="0x20">8514M.RC@</file>
 		<file size="120" time="1989-08-31 12:00:00" attr="0x20">ABIOS.SYS</file>
@@ -262,8 +262,8 @@
 		<file size="17430" time="1989-08-31 12:00:00" attr="0x20">VIOCALLS.DLL</file>
 		<file size="10478" time="1989-08-31 12:00:00" attr="0x20">VTBL850.DCP</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/std/Device Driver 1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK07-DRIVER1.json" md5="a191ad25358e7258a35a5b7cec192ac7" md5json="1b596bd6b31dba0265c1e8c9becc0d4c">
-		<name>IBM OS/2 1.2 STD (Driver 1)</name>
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/Device Driver 1.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK07-DRIVER1.json" md5="a191ad25358e7258a35a5b7cec192ac7" md5json="1b596bd6b31dba0265c1e8c9becc0d4c">
+		<name>IBM OS/2 1.2 (Driver 1)</name>
 		<file size="533" time="1989-08-31 12:00:00" attr="0x20">4208.DCP</file>
 		<file size="81472" time="1989-08-31 12:00:00" attr="0x20">IBM3852.DRV</file>
 		<file size="17069" time="1989-08-31 12:00:00" attr="0x20">IBM4201.DCP</file>
@@ -280,8 +280,8 @@
 		<file size="97216" time="1989-08-31 12:00:00" attr="0x20">PLOTTERS.DRV</file>
 		<file size="27676" time="1989-08-31 12:00:00" attr="0x20">READMEDD.DAT</file>
 	</disk>
-	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/std/Device Driver 2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/std/OS212-DISK08-DRIVER2.json" md5="ed8cc6988768fc47b8933c00ed19ce35" md5json="7228175bbcd12c093673ce04bda8dce5">
-		<name>IBM OS/2 1.2 STD (Driver 2)</name>
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/Device Driver 2.img" href="/pcjs-disks/pcx86/os2/ibm/1.2/OS212-DISK08-DRIVER2.json" md5="ed8cc6988768fc47b8933c00ed19ce35" md5json="7228175bbcd12c093673ce04bda8dce5">
+		<name>IBM OS/2 1.2 (Driver 2)</name>
 		<file size="48640" time="1989-08-31 12:00:00" attr="0x20">EPSON.DRV</file>
 		<file size="17920" time="1989-08-31 12:00:00" attr="0x20">EPSON.HLP</file>
 		<file size="51200" time="1989-08-31 12:00:00" attr="0x20">EPSONDAT.DLL</file>

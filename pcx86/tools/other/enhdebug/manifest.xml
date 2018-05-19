@@ -4,13 +4,12 @@
 	<title>Enhanced DEBUG</title>
 	<version>1.32b</version>
 	<source href="https://sites.google.com/site/pcdosretro/enhdebug">PC DOS Retro: Enhanced DEBUG for PC DOS and MS-DOS</source>
-	<disk id="disk01" size="368640" chs="40:2:9" dir="archive/ENHDEBUG" href="/pcjs-disks/pcx86/tools/other/enhdebug/ENHDEBUG.json" md5="bd25c6feb06eafac6180f17725c45ad6" md5json="3a81f92b090b2424d7f9608be54afe76">
-		<file size="230208" time="2016-05-14 10:32:56" attr="0x20" md5="a84acb52c51f5a6811141d542aa05056">DEBUG.ASM</file>
-		<file size="20788" time="2016-05-14 10:32:58" attr="0x20" md5="e32dedb56d8ec992b78d8043cadf3d67">DEBUG.COM</file>
-		<file size="27998" time="2016-04-12 11:44:02" attr="0x20" md5="42dca823821dc915dd94abedc5f19c65">DEBUG.TXT</file>
-		<file size="26164" time="2016-05-14 10:32:58" attr="0x20" md5="6ecd374c1626b480fad98d305b779ee8">DEBUGX.COM</file>
-		<file size="17574" time="2016-05-14 10:04:10" attr="0x20" md5="cce75e56413327d2e3282601a33b7d6c">HISTORY.TXT</file>
-		<file size="7095" time="2016-05-10 10:44:32" attr="0x20" md5="b378afcb56bddd56fe0ae697ff9c25fa">README.TXT</file>
-		<file size="278" time="2018-05-05 14:39:15" attr="0x20" md5="ea5cff02b5490aa1c909c0a44ad90778">README.MD</file>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/ENHDEBUG.img" href="/pcjs-disks/pcx86/tools/other/enhdebug/ENHDEBUG.json" md5="30b9f3b4b8f6d798c3d1fac5102e0d29" md5json="8d61d0cb453d16d4cc49aa2c157c8801">
+		<file size="230208" time="2016-05-14 10:32:56" attr="0x20">DEBUG.ASM</file>
+		<file size="20788" time="2016-05-14 10:32:58" attr="0x20">DEBUG.COM</file>
+		<file size="27998" time="2016-04-12 11:44:02" attr="0x20">DEBUG.TXT</file>
+		<file size="46060" time="2016-05-10 10:44:06" attr="0x20">DEBUGTBL.INC</file>
+		<file size="26164" time="2016-05-14 10:32:58" attr="0x20">DEBUGX.COM</file>
+		<file size="7908" time="2014-11-28 16:28:56" attr="0x20">FPTOSTR.INC</file>
 	</disk>
 </manifest>

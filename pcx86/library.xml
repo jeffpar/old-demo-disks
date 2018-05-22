@@ -203,6 +203,7 @@
 		<manifest ref="/pcjs-games/pcx86/microsoft/flightsim/1984/manifest.xml"/>
 		<manifest ref="/pcjs-games/pcx86/other/1984/wizardry1/manifest.xml"/>
 		<manifest ref="/pcjs-games/pcx86/other/1988/gambling/manifest.xml"/>
+		<manifest ref="/pcjs-games/pcx86/other/1991/lemmings/manifest.xml"/>
 	</control>
 	<control type="button" binding="loadDisk">Load</control>
 	<control type="button" binding="saveDisk" padRight="8px">Save</control>

@@ -140,6 +140,7 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/dresearch/pascal/3.11/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/basic/compiler/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/basic/compiler/2.00/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/ibm/debug/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/masm/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/masm/2.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/pascal/1.00/manifest.xml"/>

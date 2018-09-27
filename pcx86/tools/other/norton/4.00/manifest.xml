@@ -41,4 +41,42 @@
 		<file size="914" time="1987-03-01 16:00:10" attr="0x20">TUTORIAL.NTS</file>
 		<file size="48712" time="1987-03-01 16:00:00" attr="0x20">_FILE_0.DBD</file>
 	</disk>
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK1.img" href="/pcjs-disks/pcx86/tools/other/norton/4.00/NU400-ADV-DISK1.json" md5="c66432eb0ee268682a9477d8b2738937" md5json="5a5b59945cb56942bb66215ad63cc3ba">
+		<name>Norton Utilities 4.00 Advanced (Disk 1)</name>
+		<file size="1184" time="1987-05-15 16:00:00" attr="0x20">ASK.EXE</file>
+		<file size="6108" time="1987-05-15 16:00:00" attr="0x20">BEEP.EXE</file>
+		<file size="26672" time="1987-05-15 16:00:00" attr="0x20">DS.EXE</file>
+		<file size="17782" time="1987-05-15 16:00:00" attr="0x20">DT.EXE</file>
+		<file size="7346" time="1987-05-15 16:00:00" attr="0x20">FA.EXE</file>
+		<file size="7940" time="1987-05-15 16:00:00" attr="0x20">FF.EXE</file>
+		<file size="15178" time="1987-05-15 16:00:00" attr="0x20">FI.EXE</file>
+		<file size="11306" time="1987-05-15 16:00:00" attr="0x20">FILE1.BAT</file>
+		<file size="2678" time="1987-05-15 16:00:00" attr="0x20">FILEINFO.FI</file>
+		<file size="8560" time="1987-05-15 16:00:00" attr="0x20">FS.EXE</file>
+		<file size="8804" time="1987-05-15 16:00:00" attr="0x20">LD.EXE</file>
+		<file size="11722" time="1987-05-15 16:00:00" attr="0x20">LP.EXE</file>
+		<file size="618" time="1987-05-15 16:00:00" attr="0x20">MARY</file>
+		<file size="20438" time="1987-05-15 16:00:00" attr="0x20">NCD.EXE</file>
+		<file size="36546" time="1987-05-15 16:00:00" attr="0x20">NI.EXE</file>
+		<file size="10897" time="1987-05-15 16:00:00" attr="0x20">NU.HLP</file>
+		<file size="4912" time="1987-05-15 16:00:00" attr="0x20">NUDEMO.BAT</file>
+		<file size="1986" time="1987-05-15 16:00:00" attr="0x20">READ.ME</file>
+		<file size="4504" time="1987-05-15 16:00:00" attr="0x20">SA.EXE</file>
+		<file size="14944" time="1987-05-15 16:00:00" attr="0x20">SI.EXE</file>
+		<file size="6232" time="1987-05-15 16:00:00" attr="0x20">TM.EXE</file>
+		<file size="17378" time="1987-05-15 16:00:00" attr="0x20">TS.EXE</file>
+		<file size="15788" time="1987-05-15 16:00:00" attr="0x20">UD.EXE</file>
+		<file size="7454" time="1987-05-15 16:00:00" attr="0x20">VL.EXE</file>
+		<file size="10710" time="1987-05-15 16:00:00" attr="0x20">WIPEDISK.EXE</file>
+		<file size="11578" time="1987-05-15 16:00:00" attr="0x20">WIPEFILE.EXE</file>
+	</disk>
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK2.img" href="/pcjs-disks/pcx86/tools/other/norton/4.00/NU400-ADV-DISK2.json" md5="a80544ebdad06f68bfa36bec49a8c69e" md5json="4f1e4fedc851351b4f57718a4ad53b00">
+		<name>Norton Utilities 4.00 Advanced (Disk 2)</name>
+		<file size="36490" time="1987-05-15 16:00:00" attr="0x20">NCDEMO.EXE</file>
+		<file size="107278" time="1987-05-15 16:00:00" attr="0x20">NU.EXE</file>
+		<file size="10897" time="1987-05-15 16:00:00" attr="0x20">NU.HLP</file>
+		<file size="14546" time="1987-05-15 16:00:00" attr="0x20">QU.EXE</file>
+		<file size="914" time="1987-05-15 16:00:58" attr="0x20">TUTORIAL.NTS</file>
+		<file size="48712" time="1987-05-15 16:00:00" attr="0x20">_FILE_0.DBD</file>
+	</disk>
 </manifest>

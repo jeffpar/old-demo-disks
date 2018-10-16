@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.2/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.3/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 1.3</title>
 	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MSOS213-DISK01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.3/MSOS213-DISK01.json" md5="019debecaad129de89894aef86e88411" md5json="342359f33ffa7ba20bbb8591238a6f2c">

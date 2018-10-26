@@ -137,7 +137,6 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/5.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/5.50/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/borland/pascal/6.00/manifest.xml"/>
-		<manifest ref="/pcjs-disks/pcx86/tools/compaq/pfm/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/dresearch/pascal/3.11/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/basic/compiler/1.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/ibm/basic/compiler/2.00/manifest.xml"/>
@@ -192,6 +191,7 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/other/omniview/4.30/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/1.03/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/4.30/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/pfm/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/4.10/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/4.23/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/qemm386/5.13/manifest.xml"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.4/manifest.xsl"?>
+<manifest type="software">
+	<title>Macro Assembler</title>
+	<version>1.10</version>
+	<type>Utility</type>
+	<category>Assembler</category>
+	<language>x86</language>
+	<company>Microsoft</company>
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/MASM110/" href="/pcjs-disks/pcx86/tools/microsoft/masm/1.10/MASM110.json" md5="57eb30e30a52ed8cd496832d38c37c0a" md5json="8c1d9d17705bd00b69af8ca72c563489">
+		<name>MS Macro Assembler 1.10</name>
+		<file size="13824" time="1982-06-02 20:06:42" attr="0x20" md5="061e25b3efed385f274bb46e9c12d71e">CREF.EXE</file>
+		<file size="11764" time="1983-02-01 10:13:10" attr="0x20" md5="d683173a4231456e6fedc73c3ddb0e64">DEBUG.COM</file>
+		<file size="4389" time="1983-02-01 09:31:22" attr="0x20" md5="d12449609ce3079073f46a2a064b8786">EDLIN.COM</file>
+		<file size="1649" time="1983-02-01 09:19:44" attr="0x20" md5="874ceb8f943a4b0acb607b6bed3831b9">EXE2BIN.EXE</file>
+		<file size="32128" time="1981-12-18 00:00:00" attr="0x20" md5="3caa23f1aca6d254517386f3135ac00f">LIB.EXE</file>
+		<file size="42368" time="1983-01-06 16:36:48" attr="0x20" md5="501f4e608afd200f571d25096fc3f0e8">LINK.EXE</file>
+		<file size="77440" time="1983-02-01 13:13:10" attr="0x20" md5="a9f9df1d0afd30c46f8facffffc72c64">MASM.EXE</file>
+	</disk>
+</manifest>

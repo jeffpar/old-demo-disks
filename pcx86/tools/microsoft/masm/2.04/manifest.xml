@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.4/manifest.xsl"?>
+<manifest type="software">
+	<title>Macro Assembler</title>
+	<version>2.04</version>
+	<type>Utility</type>
+	<category>Assembler</category>
+	<language>x86</language>
+	<company>Microsoft</company>
+	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/MASM204/" href="/pcjs-disks/pcx86/tools/microsoft/masm/2.04/MASM204.json" md5="355c7ff196bddbe3e6f8c969471976ee" md5json="52cb7a58b84c26bfa4380766805e53f7">
+		<name>MS Macro Assembler 2.04</name>
+		<file size="13824" time="1982-04-21 00:00:01" attr="0x20" md5="1df8dcecba10b3484339a5d57088937f">CREF.EXE</file>
+		<file size="1280" time="1982-03-03 00:00:01" attr="0x20" md5="5eae5c9c3d9e4b8cdedc84917913e6b4">EXE2BIN.EXE</file>
+		<file size="32128" time="1982-02-18 00:00:01" attr="0x20" md5="3caa23f1aca6d254517386f3135ac00f">LIB.EXE</file>
+		<file size="41856" time="1982-03-15 00:00:01" attr="0x20" md5="7e2ddea8a71df43470255a5dddf5d226">LINK.EXE</file>
+		<file size="67968" time="1982-03-16 00:00:01" attr="0x20" md5="8e97eff1ceb2a0120188b8d855e125cf">MASM.EXE</file>
+	</disk>
+</manifest>

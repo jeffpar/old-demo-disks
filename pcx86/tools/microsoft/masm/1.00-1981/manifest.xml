@@ -7,11 +7,11 @@
 	<category>Assembler</category>
 	<language>x86</language>
 	<company>Microsoft</company>
-	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/MASM100-1981/" href="/pcjs-disks/pcx86/tools/microsoft/masm/1.00-1981/MASM100-1981.json" md5="644f1c99b0aed73eb28a65b21210ea7a" md5json="837ea52c2feebb357b8e67d873a0cc6a">
+	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/MASM100-1981/" href="/pcjs-disks/pcx86/tools/microsoft/masm/1.00-1981/MASM100-1981.json" md5="8f4a77d9e83f0aa4c1595329947f5525" md5json="d0d979e31e079927380f2d0a222bed6e">
 		<name>MS Macro Assembler 1.00 (1981)</name>
-		<file size="13824" time="1981-10-05 01:00:00" attr="0x20" md5="9d7c17fa6df6698524b78bd793e19b18">CREF.EXE</file>
-		<file size="32128" time="1981-12-18 00:00:00" attr="0x20" md5="3caa23f1aca6d254517386f3135ac00f">LIB.EXE</file>
-		<file size="41216" time="1981-11-03 00:00:00" attr="0x20" md5="d5f658f03bfc9254f338cdab6be3dc8e">LINK.EXE</file>
-		<file size="67456" time="1981-11-04 00:00:00" attr="0x20" md5="20f53bc248fa9e528840d50e930279d1">M.EXE</file>
+		<file size="13824" time="1981-10-05 00:00:02" attr="0x0" md5="9d7c17fa6df6698524b78bd793e19b18">CREF.EXE</file>
+		<file size="32128" time="1981-12-18 00:00:02" attr="0x0" md5="3caa23f1aca6d254517386f3135ac00f">LIB.EXE</file>
+		<file size="41216" time="1981-11-03 00:00:02" attr="0x0" md5="d5f658f03bfc9254f338cdab6be3dc8e">LINK.EXE</file>
+		<file size="67456" time="1981-11-04 00:00:02" attr="0x0" md5="20f53bc248fa9e528840d50e930279d1">M.EXE</file>
 	</disk>
 </manifest>

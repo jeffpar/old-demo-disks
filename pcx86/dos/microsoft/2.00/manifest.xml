@@ -187,4 +187,56 @@
 		<file size="25984" time="1980-01-03 05:57:14" attr="0x20" md5="1523d253cc0c397dffd3fa3e52fe82bc">XENIX.ASM</file>
 		<file size="17792" time="1983-08-18 14:51:18" attr="0x20" md5="8fb94b81061dd847d33e506369431ae2">XENIX2.ASM</file>
 	</disk>
+	<disk id="disk09" size="327680" chs="40:2:8" dir="archive/tmp/disk1" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200T01.json" md5="395765706af6fa8fb2a520e3eda5280a" md5json="a77d69963d366ffcdb4469097cd50692">
+		<name>MS-DOS 2.00 (Test Disk 1)</name>
+		<file size="3311" time="2018-10-20 22:32:00" attr="0x0" md5="7fac8484658de77e102b03a73654a7b0">ABSDISK.ASM</file>
+		<file size="13047" time="2018-10-20 22:31:32" attr="0x0" md5="078fcbb2becd9e03d78dcb1c166b8546">ALLOC.ASM</file>
+		<file size="14716" time="2018-10-20 22:32:16" attr="0x0" md5="97971f53ee0219717387b9057fb2bc74">BUF.ASM</file>
+		<file size="1159" time="2018-10-20 22:53:42" attr="0x0" md5="21f47891207fe691078c8d9fe27a231b">COPYING.TXT</file>
+		<file size="15146" time="2018-10-20 22:33:20" attr="0x0" md5="17a573dda511073c347396e2cbb430c9">CTRLC.ASM</file>
+		<file size="11928" time="2018-10-20 22:31:38" attr="0x0" md5="02f73415d625e3e954368ece3293aefe">DEV.ASM</file>
+		<file size="2644" time="2018-10-20 22:29:50" attr="0x0" md5="8ad8413c1c2c469e0e339bf5aa1d2954">DEVSYM.ASM</file>
+		<file size="29476" time="2018-10-20 22:31:40" attr="0x0" md5="0a5fcd610301d3b3403eea4f931e1b53">DIR.ASM</file>
+		<file size="14997" time="2018-10-20 22:30:54" attr="0x0" md5="63b470c55cb5fdf358a18f89e362beee">DIRCALL.ASM</file>
+		<file size="38045" time="2018-10-20 22:31:44" attr="0x0" md5="ad76ad1f3b154f3e44912fefb8a04897">DISK.ASM</file>
+		<file size="170" time="2018-11-02 17:55:22" attr="0x0" md5="eb246e5dd6c664a41f4c7f907fb0330d">DOSLINK</file>
+		<file size="4395" time="2018-10-20 22:29:46" attr="0x0" md5="e2c013e1dff95f125670666de681dd02">DOSMAC.ASM</file>
+		<file size="14054" time="2018-10-20 22:30:46" attr="0x0" md5="8bf05def1d1db7354054b3faf4eafd59">DOSMES.ASM</file>
+		<file size="357" time="2018-10-20 22:30:40" attr="0x0" md5="16414f4db42d34f72fc6e1bbe5c7dc90">DOSSEG.ASM</file>
+		<file size="44925" time="2018-10-20 22:29:40" attr="0x0" md5="46bb9c26f9a1d454b8dac264e0026dae">DOSSYM.ASM</file>
+		<file size="31011" time="2018-10-20 22:46:06" attr="0x0" md5="9c8f4a1e4163977f251287b6da9e8df5">EXEC.ASM</file>
+		<file size="10112" time="2018-10-20 22:31:46" attr="0x0" md5="49ccbd1a1dbe5f3cf745e44d44ceda52">FAT.ASM</file>
+		<file size="13432" time="2018-10-20 22:33:52" attr="0x0" md5="5ff93c4044032a62349941c32730aa42">FCB.ASM</file>
+		<file size="8997" time="2018-10-20 22:29:12" attr="0x0" md5="3198df8ee3855098e4f750daad5eb26c">GETSET.ASM</file>
+		<file size="3021" time="2018-10-20 22:29:12" attr="0x0" md5="7f3864cb3a9a6c83ee3df5aa3eacbf56">GETSET2.ASM</file>
+		<file size="5436" time="2018-10-20 22:29:12" attr="0x0" md5="55a9e165680cdbec7b4dccb92b985215">GETSET3.ASM</file>
+		<file size="6164" time="2018-10-21 00:21:00" attr="0x0" md5="0e5335d4063da451f7cc288071b3604c">IO.ASM</file>
+		<file size="720" time="2018-10-20 22:32:34" attr="0x0" md5="cef593e130b9d4629966d9cc63d41856">IO2.ASM</file>
+		<file size="1213" time="2018-11-02 18:30:29" attr="0x0" md5="eab69998781213e632f6a2640b66e4d5">MK.BAT</file>
+		<file size="1419" time="2018-11-02 17:55:36" attr="0x0" md5="fc339ba843b356dd3490ab00fa9f1323">README.TXT</file>
+	</disk>
+	<disk id="disk10" size="327680" chs="40:2:8" dir="archive/tmp/disk2" href="/pcjs-disks/pcx86/dos/microsoft/2.00/MSDOS200T02.json" md5="e6f97bc8e4cc9902d2d8411a8594135d" md5json="06ea8a60cbc37041d5a559417024c462">
+		<name>MS-DOS 2.00 (Test Disk 2)</name>
+		<file size="7449" time="2018-11-02 17:57:47" attr="0x0" md5="a6428933ab848aeb96334781505b8912">MISC.ASM</file>
+		<file size="14905" time="2018-11-02 17:57:47" attr="0x0" md5="4784a27fc111177a389659176ef9cc70">MISC2.ASM</file>
+		<file size="17879" time="2018-10-20 22:29:04" attr="0x0" md5="3e0e4a1dc3df153d1ecf9836eeb75b95">MSCODE.ASM</file>
+		<file size="11464" time="2018-10-20 22:29:58" attr="0x0" md5="c2899bfe2b606fc29c8c8a8a91a851a2">MSDATA.ASM</file>
+		<file size="176" time="2018-10-20 22:29:02" attr="0x0" md5="58892c30cbf18f7db75f1b95c8015746">MSDOS.ASM</file>
+		<file size="9179" time="2018-10-20 22:29:36" attr="0x0" md5="0ec18a9a1c65236a9efbdd1e1f7f6ebf">MSHEAD.ASM</file>
+		<file size="13500" time="2018-10-20 22:30:34" attr="0x0" md5="58f55ae167478ef2cee31eb5b285abdd">MSINIT.ASM</file>
+		<file size="3222" time="2018-10-20 22:45:56" attr="0x0" md5="a9d2d472e6046150d5816688777640df">PROC.ASM</file>
+		<file size="14336" time="2018-10-20 22:31:50" attr="0x0" md5="3940e8babd6208590d7c31fb8d4c584e">ROM.ASM</file>
+		<file size="2799" time="2018-10-20 22:29:08" attr="0x0" md5="862df2b0a4416d30da3556e1728b08eb">SLEAZE.ASM</file>
+		<file size="256" time="2018-10-20 22:32:08" attr="0x0" md5="6ea45199bda7a02e15a457d455364d1d">STDBUF.ASM</file>
+		<file size="256" time="2018-10-20 22:32:48" attr="0x0" md5="8732fe47c72bc6f2bf3dffad7c28c1fd">STDCALL.ASM</file>
+		<file size="176" time="2018-10-20 22:33:24" attr="0x0" md5="83c64647ff597a6cd4e8ea5ef3461476">STDCTRLC.ASM</file>
+		<file size="193" time="2018-10-20 22:33:32" attr="0x0" md5="97b5f1084566d3d192220cc9cb44fae6">STDFCB.ASM</file>
+		<file size="303" time="2018-10-20 22:32:30" attr="0x0" md5="b9f48aab6480880083aac74ba7e4022c">STDIO.ASM</file>
+		<file size="185" time="2018-10-20 22:33:38" attr="0x0" md5="951a22e7d37cb6bfd2c5b7e07f595115">STDPROC.ASM</file>
+		<file size="1339" time="2018-10-20 22:29:30" attr="0x0" md5="2728dfe3f091f7b4ed019a00af6e671c">STDSW.ASM</file>
+		<file size="10268" time="2018-10-20 22:45:26" attr="0x0" md5="ba1932c6f1a486542570f06ddaea1c74">STRIN.ASM</file>
+		<file size="21220" time="2018-10-20 22:32:56" attr="0x0" md5="eb8d669695dcb741df54d999a28fbf0d">SYSCALL.ASM</file>
+		<file size="7040" time="2018-10-20 22:33:40" attr="0x0" md5="24baa51caccb7e9e759106274c957243">TIME.ASM</file>
+		<file size="42612" time="2018-10-20 22:32:44" attr="0x0" md5="8c721d403f1845bc91067946e2a29f35">XENIX.ASM</file>
+	</disk>
 </manifest>

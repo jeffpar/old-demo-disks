@@ -9,147 +9,147 @@
 	<company>Microsoft</company>
 	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MASM600-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK1.json" md5="80854f1d1019c4d1143dfda3cd60837b" md5json="3cbf433923d74f0999bf98fd02be88ce">
 		<name>MS Macro Assembler 6.00 (Disk 1)</name>
-		<file size="442" time="1999-12-13 15:11:38" attr="0x10">BINB</file>
-		<file size="25614" time="1990-02-20 04:21:20" attr="0x20" dir="BINB/">BIND.EX$</file>
-		<file size="30769" time="1990-02-13 07:59:36" attr="0x20" dir="BINB/">CVPACK.EX$</file>
-		<file size="28904" time="1990-02-20 16:12:10" attr="0x20" dir="BINB/">EXEHDR.EX$</file>
-		<file size="27044" time="1990-02-20 04:22:52" attr="0x20" dir="BINB/">EXP.EX$</file>
-		<file size="42033" time="1991-01-24 13:18:42" attr="0x20" dir="BINB/">HELPMAKE.EX$</file>
-		<file size="23066" time="1990-02-20 16:09:20" attr="0x20" dir="BINB/">IMPLIB.EX$</file>
-		<file size="35464" time="1991-02-26 13:16:02" attr="0x20" dir="BINB/">LIB.EX$</file>
-		<file size="89879" time="1991-03-08 11:07:30" attr="0x20" dir="BINB/">LINK.EX$</file>
-		<file size="36148" time="1990-06-14 08:36:30" attr="0x20" dir="BINB/">PWBRMAKE.EX$</file>
-		<file size="21677" time="1990-02-20 04:22:36" attr="0x20" dir="BINB/">RM.EX$</file>
-		<file size="27576" time="1990-02-20 04:23:00" attr="0x20" dir="BINB/">UNDEL.EX$</file>
-		<file size="3823" time="1990-06-01 14:01:34" attr="0x20">BRIEF.IN$</file>
-		<file size="35921" time="1990-12-03 17:13:32" attr="0x20">DECOMP.EXE</file>
-		<file size="50294" time="1991-04-05 13:57:06" attr="0x20">MASM600.INF</file>
-		<file size="7307" time="1991-04-03 07:51:40" attr="0x20">PACKING.LST</file>
-		<file size="18070" time="1991-04-03 08:01:36" attr="0x20">Readme.txt</file>
-		<file size="95155" time="1991-04-03 07:53:14" attr="0x20">SETUP.EXE</file>
-		<file size="1485" time="1990-08-07 12:01:34" attr="0x20">TOOLS.PR$</file>
+		<file size="416" time="1999-12-13 15:11:38" attr="0x10">BINB</file>
+		<file size="25614" time="1990-02-20 04:21:20" attr="0x20" md5="3ba618cb1928f1fc5dd7f93e52120faf" dir="BINB/">BIND.EX$</file>
+		<file size="30769" time="1990-02-13 07:59:36" attr="0x20" md5="cb7330d370c56854f688521f7d7db9c6" dir="BINB/">CVPACK.EX$</file>
+		<file size="28904" time="1990-02-20 16:12:10" attr="0x20" md5="34ecbe3b097cc3086f07337ccb788066" dir="BINB/">EXEHDR.EX$</file>
+		<file size="27044" time="1990-02-20 04:22:52" attr="0x20" md5="feff92afdff61947f7b88e0eb5e0ff05" dir="BINB/">EXP.EX$</file>
+		<file size="42033" time="1991-01-24 13:18:42" attr="0x20" md5="7e826fb1810af8a884d4323dfb6c490d" dir="BINB/">HELPMAKE.EX$</file>
+		<file size="23066" time="1990-02-20 16:09:20" attr="0x20" md5="0c69241efb9f87ebb9b073f0548c75dc" dir="BINB/">IMPLIB.EX$</file>
+		<file size="35464" time="1991-02-26 13:16:02" attr="0x20" md5="8325dcb595f0b797887b6813ad33298e" dir="BINB/">LIB.EX$</file>
+		<file size="89879" time="1991-03-08 11:07:30" attr="0x20" md5="c45fc665b9bba3e50f389ce6de344ad9" dir="BINB/">LINK.EX$</file>
+		<file size="36148" time="1990-06-14 07:36:30" attr="0x20" md5="0fc1ff2dd7282d5e4c3ad83292c32f69" dir="BINB/">PWBRMAKE.EX$</file>
+		<file size="21677" time="1990-02-20 04:22:36" attr="0x20" md5="ad066485fc3291294b312ee4b1e31c59" dir="BINB/">RM.EX$</file>
+		<file size="27576" time="1990-02-20 04:23:00" attr="0x20" md5="23d68eafc9bba843b23804a4d8128cac" dir="BINB/">UNDEL.EX$</file>
+		<file size="3823" time="1990-06-01 13:01:34" attr="0x20" md5="fc94a22c19bae2aa9838746618b10e41">BRIEF.IN$</file>
+		<file size="35921" time="1990-12-03 17:13:32" attr="0x20" md5="4d018f308108e6cbdd6f38e50e06148d">DECOMP.EXE</file>
+		<file size="50294" time="1991-04-05 13:57:06" attr="0x20" md5="3a76afbdff94d0a63b7540790b50ad9a">MASM600.INF</file>
+		<file size="7307" time="1991-04-03 07:51:40" attr="0x20" md5="c0d008b860a40f8fd7bec41555854db9">PACKING.LST</file>
+		<file size="18070" time="1991-04-03 08:01:36" attr="0x20" md5="f1e789817e48105f7f81c1363834ddaf">Readme.txt</file>
+		<file size="95155" time="1991-04-03 07:53:14" attr="0x20" md5="9ffae71e085b220716d863950579a372">SETUP.EXE</file>
+		<file size="1485" time="1990-08-07 11:01:34" attr="0x20" md5="a32283a29bb07cfdb793ac9eaab1d7ba">TOOLS.PR$</file>
 	</disk>
 	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MASM600-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK2.json" md5="64bfe09ecffdcda59e898ebd490024c6" md5json="b7fc9992d83aac3abc38a89f274f531f">
 		<name>MS Macro Assembler 6.00 (Disk 2)</name>
-		<file size="170" time="1999-12-13 15:12:04" attr="0x10">BINB</file>
-		<file size="7025" time="1991-01-31 02:20:44" attr="0x20" dir="BINB/">H2INC.ER$</file>
-		<file size="87543" time="1991-04-03 07:38:36" attr="0x20" dir="BINB/">H2INC.EX$</file>
-		<file size="13774" time="1991-04-02 12:52:12" attr="0x20" dir="BINB/">MASM.EX$</file>
-		<file size="276698" time="1991-03-19 13:00:44" attr="0x20">CV.EX$</file>
-		<file size="3338" time="1991-04-03 13:28:56" attr="0x20">ML.ER$</file>
-		<file size="151197" time="1991-04-03 13:59:12" attr="0x20">ML.EX$</file>
-		<file size="18799" time="1991-04-03 08:53:06" attr="0x20">MLX.EX$</file>
-		<file size="48860" time="1991-03-22 14:55:32" attr="0x20">NMAKE.EX$</file>
-		<file size="44590" time="1991-02-07 09:49:24" attr="0x20">QH.EX$</file>
+		<file size="160" time="1999-12-13 15:12:04" attr="0x10">BINB</file>
+		<file size="7025" time="1991-01-31 02:20:44" attr="0x20" md5="2f2fc932b01dfcd09db94ff02da4be37" dir="BINB/">H2INC.ER$</file>
+		<file size="87543" time="1991-04-03 07:38:36" attr="0x20" md5="bff15fa99ea69f2eccf4e37acfac7ae2" dir="BINB/">H2INC.EX$</file>
+		<file size="13774" time="1991-04-02 12:52:12" attr="0x20" md5="95a110490998a22532549f9065f261c2" dir="BINB/">MASM.EX$</file>
+		<file size="276698" time="1991-03-19 13:00:44" attr="0x20" md5="3ab676efc7247cfb14b9f602ac479dd4">CV.EX$</file>
+		<file size="3338" time="1991-04-03 13:28:56" attr="0x20" md5="768d86d7f9433599faa363f0b295d02f">ML.ER$</file>
+		<file size="151197" time="1991-04-03 13:59:12" attr="0x20" md5="f078f2f99cab2f6ee397a28926a701e3">ML.EX$</file>
+		<file size="18799" time="1991-04-03 08:53:06" attr="0x20" md5="1e4c019b05c4ab0af26df642d99340be">MLX.EX$</file>
+		<file size="48860" time="1991-03-22 14:55:32" attr="0x20" md5="162ce8ad7b139c97cb5b69d7c4693dc0">NMAKE.EX$</file>
+		<file size="44590" time="1991-02-07 09:49:24" attr="0x20" md5="91b75f834e0f0d7b9f411e2484a26f31">QH.EX$</file>
 	</disk>
 	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MASM600-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK3.json" md5="d1f8d7836227d898179ca39d7d360feb" md5json="9c46e88be94e4294f5d240a15aa14f5d">
 		<name>MS Macro Assembler 6.00 (Disk 3)</name>
-		<file size="49727" time="1990-05-04 18:51:50" attr="0x20">API.LI$</file>
-		<file size="122" time="1989-03-16 12:25:04" attr="0x20">APILMR.OB$</file>
-		<file size="237321" time="1991-02-20 00:06:40" attr="0x20">CVP.EX$</file>
-		<file size="306" time="1999-12-13 15:12:22" attr="0x10">INCLUDE</file>
-		<file size="583" time="1991-02-28 15:06:44" attr="0x20" dir="INCLUDE/">BSE.IN$</file>
-		<file size="4330" time="1991-02-28 15:06:46" attr="0x20" dir="INCLUDE/">BSEDEV.IN$</file>
-		<file size="15717" time="1991-02-28 15:06:48" attr="0x20" dir="INCLUDE/">BSEDOS.IN$</file>
-		<file size="9125" time="1991-02-28 15:06:52" attr="0x20" dir="INCLUDE/">BSEERR.IN$</file>
-		<file size="5590" time="1991-02-28 15:06:54" attr="0x20" dir="INCLUDE/">BSESUB.IN$</file>
-		<file size="468" time="1991-02-28 15:07:10" attr="0x20" dir="INCLUDE/">OS2.IN$</file>
-		<file size="1730" time="1991-02-28 15:07:10" attr="0x20" dir="INCLUDE/">OS2DEF.IN$</file>
-		<file size="3338" time="1991-04-03 13:28:56" attr="0x20">ML.ER$</file>
-		<file size="144441" time="1991-04-03 13:58:26" attr="0x20">ML.EX$</file>
-		<file size="5587" time="1990-10-02 16:39:20" attr="0x20">MSHELP.DL$</file>
-		<file size="52224" time="1991-03-22 14:53:54" attr="0x20">NMAKE.EX$</file>
-		<file size="51492" time="1990-03-29 14:41:26" attr="0x20">OS2.LI$</file>
-		<file size="39474" time="1991-02-07 09:48:14" attr="0x20">QH.EX$</file>
+		<file size="49727" time="1990-05-04 17:51:50" attr="0x20" md5="d157be9459a411c0afa4bcf3a5ac41a5">API.LI$</file>
+		<file size="122" time="1989-03-16 12:25:04" attr="0x20" md5="2a0a3b258af2c31f04bba800e459a17a">APILMR.OB$</file>
+		<file size="237321" time="1991-02-20 00:06:40" attr="0x20" md5="17f5dea68c4b027d679771f73c3269a1">CVP.EX$</file>
+		<file size="288" time="1999-12-13 15:12:22" attr="0x10">INCLUDE</file>
+		<file size="583" time="1991-02-28 15:06:44" attr="0x20" md5="2650d269668977f5e9eb70403944f108" dir="INCLUDE/">BSE.IN$</file>
+		<file size="4330" time="1991-02-28 15:06:46" attr="0x20" md5="effa956170780af9e9ac2300996e6b78" dir="INCLUDE/">BSEDEV.IN$</file>
+		<file size="15717" time="1991-02-28 15:06:48" attr="0x20" md5="2bf73314db1f6cff8d19056d2db9fca7" dir="INCLUDE/">BSEDOS.IN$</file>
+		<file size="9125" time="1991-02-28 15:06:52" attr="0x20" md5="e9f5e523b91c17ec5afd235298ccd719" dir="INCLUDE/">BSEERR.IN$</file>
+		<file size="5590" time="1991-02-28 15:06:54" attr="0x20" md5="08e70d326776a30112f92dd91c7ec132" dir="INCLUDE/">BSESUB.IN$</file>
+		<file size="468" time="1991-02-28 15:07:10" attr="0x20" md5="db97b42c563fa7a14a590f584509d35c" dir="INCLUDE/">OS2.IN$</file>
+		<file size="1730" time="1991-02-28 15:07:10" attr="0x20" md5="c4861248bd295a38392e22d454e351c0" dir="INCLUDE/">OS2DEF.IN$</file>
+		<file size="3338" time="1991-04-03 13:28:56" attr="0x20" md5="768d86d7f9433599faa363f0b295d02f">ML.ER$</file>
+		<file size="144441" time="1991-04-03 13:58:26" attr="0x20" md5="58bb0b4260bd0456752ea4c6af07c095">ML.EX$</file>
+		<file size="5587" time="1990-10-02 15:39:20" attr="0x20" md5="cb3e8c516408b3625f1ebfacbe2af8c1">MSHELP.DL$</file>
+		<file size="52224" time="1991-03-22 14:53:54" attr="0x20" md5="cb59efb99dba45ae9e84e1f396761211">NMAKE.EX$</file>
+		<file size="51492" time="1990-03-29 14:41:26" attr="0x20" md5="57253f6dcafa5377e37cbcdbb1a51936">OS2.LI$</file>
+		<file size="39474" time="1991-02-07 09:48:14" attr="0x20" md5="597f882ebaf13447f01766cb94efd972">QH.EX$</file>
 	</disk>
 	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MASM600-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK4.json" md5="caa20b2fed2069d4c94a2fdb355c89da" md5json="4d8fea13689a7aa2d035f08b23f35c81">
 		<name>MS Macro Assembler 6.00 (Disk 4)</name>
-		<file size="272" time="1999-12-13 15:12:46" attr="0x10">BINP</file>
-		<file size="204495" time="1990-06-14 08:40:18" attr="0x20" dir="BINP/">PWB.EX$</file>
-		<file size="11024" time="1990-08-17 08:43:06" attr="0x20" dir="BINP/">PWBC.PX$</file>
-		<file size="10921" time="1990-06-14 08:43:08" attr="0x20" dir="BINP/">PWBHELP.PX$</file>
-		<file size="6981" time="1991-02-19 14:49:18" attr="0x20" dir="BINP/">PWBMASM.PX$</file>
-		<file size="19929" time="1990-06-14 08:42:28" attr="0x20" dir="BINP/">PWBROWSE.PX$</file>
-		<file size="8419" time="1990-06-14 08:43:44" attr="0x20" dir="BINP/">PWBUTILS.PX$</file>
-		<file size="510" time="1999-12-13 15:12:46" attr="0x10">BINR</file>
-		<file size="588" time="1987-10-06 10:49:50" attr="0x20" dir="BINR/">FIXSHIFT.CO$</file>
-		<file size="5690" time="1990-04-06 10:24:38" attr="0x20" dir="BINR/">HIMEM.SY$</file>
-		<file size="17103" time="1990-02-16 07:25:30" attr="0x20" dir="BINR/">MOUSE.CO$</file>
-		<file size="2509" time="1990-06-14 08:52:18" attr="0x20" dir="BINR/">NMK.CO$</file>
-		<file size="2546" time="1990-06-14 08:51:50" attr="0x20" dir="BINR/">PWB.CO$</file>
-		<file size="11588" time="1990-08-17 08:42:48" attr="0x20" dir="BINR/">PWBC.MX$</file>
-		<file size="220938" time="1990-12-10 14:19:04" attr="0x20" dir="BINR/">PWBED.EX$</file>
-		<file size="16556" time="1990-06-14 08:49:52" attr="0x20" dir="BINR/">PWBHELP.MX$</file>
-		<file size="7307" time="1991-02-19 14:29:46" attr="0x20" dir="BINR/">PWBMASM.MX$</file>
-		<file size="20062" time="1990-06-14 08:49:22" attr="0x20" dir="BINR/">PWBROWSE.MX$</file>
-		<file size="8981" time="1990-06-14 08:50:32" attr="0x20" dir="BINR/">PWBUTILS.MX$</file>
-		<file size="3180" time="1990-02-05 13:16:14" attr="0x20" dir="BINR/">RAMDRIVE.SY$</file>
-		<file size="5213" time="1990-10-31 02:00:00" attr="0x20" dir="BINR/">SMARTDRV.SY$</file>
-		<file size="204" time="1999-12-13 15:12:46" attr="0x10">HELP</file>
-		<file size="214027" time="1991-02-14 14:53:08" attr="0x20" dir="HELP/">CV.HL$</file>
-		<file size="83284" time="1991-02-14 16:45:04" attr="0x20" dir="HELP/">LINK.HL$</file>
-		<file size="22301" time="1990-07-22 09:22:58" attr="0x20" dir="HELP/">QH.HL$</file>
-		<file size="137783" time="1991-02-20 10:56:34" attr="0x20" dir="HELP/">UTILS.HL$</file>
-		<file size="238" time="1999-12-13 15:12:46" attr="0x10">SAMPLES</file>
-		<file size="476" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">DEMOS</file>
-		<file size="4519" time="1991-03-13 14:08:50" attr="0x20" dir="SAMPLES/DEMOS/">COMMON.AS$</file>
-		<file size="1812" time="1991-02-14 07:59:48" attr="0x20" dir="SAMPLES/DEMOS/">DEMO.H$</file>
-		<file size="3304" time="1991-02-14 07:59:50" attr="0x20" dir="SAMPLES/DEMOS/">DEMO.IN$</file>
-		<file size="9797" time="1991-02-14 07:59:52" attr="0x20" dir="SAMPLES/DEMOS/">FILE.AS$</file>
-		<file size="5617" time="1991-02-14 07:59:54" attr="0x20" dir="SAMPLES/DEMOS/">FILEDEMO.C$</file>
-		<file size="769" time="1991-01-15 09:50:38" attr="0x20" dir="SAMPLES/DEMOS/">FILEDEMO.MA$</file>
-		<file size="3685" time="1991-02-14 08:00:00" attr="0x20" dir="SAMPLES/DEMOS/">MATH.AS$</file>
-		<file size="4244" time="1991-02-14 13:14:26" attr="0x20" dir="SAMPLES/DEMOS/">MATHDEMO.C$</file>
-		<file size="849" time="1991-03-15 09:41:44" attr="0x20" dir="SAMPLES/DEMOS/">MATHDEMO.MA$</file>
-		<file size="11711" time="1991-02-14 13:14:26" attr="0x20" dir="SAMPLES/DEMOS/">MISC.AS$</file>
-		<file size="11432" time="1991-02-14 13:14:28" attr="0x20" dir="SAMPLES/DEMOS/">MISCDEMO.AS$</file>
-		<file size="718" time="1991-01-15 09:50:54" attr="0x20" dir="SAMPLES/DEMOS/">MISCDEMO.MA$</file>
-		<file size="238" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">INCLUDE</file>
-		<file size="836" time="1991-02-28 15:06:44" attr="0x20" dir="SAMPLES/INCLUDE/">BIOS.IN$</file>
-		<file size="5712" time="1991-04-01 14:18:06" attr="0x20" dir="SAMPLES/INCLUDE/">CMACROS.IN$</file>
-		<file size="2780" time="1991-02-28 15:07:08" attr="0x20" dir="SAMPLES/INCLUDE/">DOS.IN$</file>
-		<file size="2266" time="1991-02-28 15:07:08" attr="0x20" dir="SAMPLES/INCLUDE/">MACROS.IN$</file>
-		<file size="2342" time="1991-02-28 15:07:12" attr="0x20" dir="SAMPLES/INCLUDE/">PROLOGUE.IN$</file>
-		<file size="408" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">MIXED</file>
-		<file size="295" time="1991-02-14 10:18:18" attr="0x20" dir="SAMPLES/MIXED/">BASIC.AS$</file>
-		<file size="205" time="1991-02-14 10:18:20" attr="0x20" dir="SAMPLES/MIXED/">BASMAIN.BA$</file>
-		<file size="292" time="1991-02-14 10:18:20" attr="0x20" dir="SAMPLES/MIXED/">C.AS$</file>
-		<file size="224" time="1991-02-14 10:18:22" attr="0x20" dir="SAMPLES/MIXED/">CMAIN.C$</file>
-		<file size="228" time="1991-02-14 10:18:22" attr="0x20" dir="SAMPLES/MIXED/">FMAIN.FO$</file>
-		<file size="250" time="1991-02-14 10:18:22" attr="0x20" dir="SAMPLES/MIXED/">FORTRAN.AS$</file>
-		<file size="288" time="1991-02-14 10:18:24" attr="0x20" dir="SAMPLES/MIXED/">PASCAL.AS$</file>
-		<file size="263" time="1991-02-14 10:20:48" attr="0x20" dir="SAMPLES/MIXED/">PASMAIN.PA$</file>
-		<file size="280" time="1991-02-14 10:18:26" attr="0x20" dir="SAMPLES/MIXED/">QPEX.AS$</file>
-		<file size="239" time="1991-02-14 10:18:26" attr="0x20" dir="SAMPLES/MIXED/">QPMAIN.PA$</file>
-		<file size="442" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">SHOW</file>
-		<file size="632" time="1991-02-15 05:27:30" attr="0x20" dir="SAMPLES/SHOW/">MAKESHOS.BA$</file>
-		<file size="629" time="1991-02-14 13:15:38" attr="0x20" dir="SAMPLES/SHOW/">MAKESHOS.CM$</file>
-		<file size="2126" time="1991-02-14 13:15:40" attr="0x20" dir="SAMPLES/SHOW/">PAGERP.AS$</file>
-		<file size="3535" time="1991-02-14 13:15:40" attr="0x20" dir="SAMPLES/SHOW/">PAGERR.AS$</file>
-		<file size="37" time="1991-02-14 13:15:42" attr="0x20" dir="SAMPLES/SHOW/">SHOW.DE$</file>
-		<file size="876" time="1991-02-14 13:15:42" attr="0x20" dir="SAMPLES/SHOW/">SHOW.IN$</file>
-		<file size="4741" time="1991-02-14 13:15:44" attr="0x20" dir="SAMPLES/SHOW/">SHOWP.AS$</file>
-		<file size="721" time="1991-02-14 13:15:44" attr="0x20" dir="SAMPLES/SHOW/">SHOWP.MA$</file>
-		<file size="5074" time="1991-02-14 13:15:46" attr="0x20" dir="SAMPLES/SHOW/">SHOWR.AS$</file>
-		<file size="715" time="1991-02-14 13:15:46" attr="0x20" dir="SAMPLES/SHOW/">SHOWR.MA$</file>
-		<file size="2296" time="1991-02-15 05:27:32" attr="0x20" dir="SAMPLES/SHOW/">SHOWUTIL.AS$</file>
-		<file size="408" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">TSR</file>
-		<file size="3257" time="1991-02-14 10:15:46" attr="0x20" dir="SAMPLES/TSR/">ALARM.AS$</file>
-		<file size="637" time="1991-02-06 14:33:54" attr="0x20" dir="SAMPLES/TSR/">ALARM.MA$</file>
-		<file size="3090" time="1991-02-14 10:15:56" attr="0x20" dir="SAMPLES/TSR/">BELL.C$</file>
-		<file size="741" time="1991-02-06 14:34:02" attr="0x20" dir="SAMPLES/TSR/">BELL.MA$</file>
-		<file size="16002" time="1991-03-09 15:58:16" attr="0x20" dir="SAMPLES/TSR/">HANDLERS.AS$</file>
-		<file size="3404" time="1991-03-09 16:00:42" attr="0x20" dir="SAMPLES/TSR/">INSTALL.AS$</file>
-		<file size="6373" time="1991-03-13 14:12:26" attr="0x20" dir="SAMPLES/TSR/">SNAP.AS$</file>
-		<file size="763" time="1991-02-06 14:34:22" attr="0x20" dir="SAMPLES/TSR/">SNAP.MA$</file>
-		<file size="731" time="1991-02-06 14:34:26" attr="0x20" dir="SAMPLES/TSR/">TSR.H$</file>
-		<file size="1481" time="1991-02-15 05:29:30" attr="0x20" dir="SAMPLES/TSR/">TSR.IN$</file>
+		<file size="256" time="1999-12-13 15:12:46" attr="0x10">BINP</file>
+		<file size="204495" time="1990-06-14 07:40:18" attr="0x20" md5="94356ae64126de6673de57b3d2fc483c" dir="BINP/">PWB.EX$</file>
+		<file size="11024" time="1990-08-17 07:43:06" attr="0x20" md5="1cadcec80726d6e95624c7befbbf9635" dir="BINP/">PWBC.PX$</file>
+		<file size="10921" time="1990-06-14 07:43:08" attr="0x20" md5="f75f8404d632aa81ee379e859c6f53f9" dir="BINP/">PWBHELP.PX$</file>
+		<file size="6981" time="1991-02-19 14:49:18" attr="0x20" md5="21a95aca27eb6f3f549ef7a024b44cae" dir="BINP/">PWBMASM.PX$</file>
+		<file size="19929" time="1990-06-14 07:42:28" attr="0x20" md5="d62cd5e37cb692048bc94fde498b5d88" dir="BINP/">PWBROWSE.PX$</file>
+		<file size="8419" time="1990-06-14 07:43:44" attr="0x20" md5="73e8b40c3265b7719579cdfc20f9f289" dir="BINP/">PWBUTILS.PX$</file>
+		<file size="480" time="1999-12-13 15:12:46" attr="0x10">BINR</file>
+		<file size="588" time="1987-10-06 09:49:50" attr="0x20" md5="1049d65421eb07b80dc455e33a2c5db9" dir="BINR/">FIXSHIFT.CO$</file>
+		<file size="5690" time="1990-04-06 09:24:38" attr="0x20" md5="8376e15a4e68b4de9818a71455f39476" dir="BINR/">HIMEM.SY$</file>
+		<file size="17103" time="1990-02-16 07:25:30" attr="0x20" md5="c686fa77a591c30ce7ac85c0df6ae790" dir="BINR/">MOUSE.CO$</file>
+		<file size="2509" time="1990-06-14 07:52:18" attr="0x20" md5="6100edb7a2c6fa62c5d83e04998ae57c" dir="BINR/">NMK.CO$</file>
+		<file size="2546" time="1990-06-14 07:51:50" attr="0x20" md5="ed46e8bc531a64446ffa699c7f110118" dir="BINR/">PWB.CO$</file>
+		<file size="11588" time="1990-08-17 07:42:48" attr="0x20" md5="3c4812a35cf4a6d241b5bf423898be0e" dir="BINR/">PWBC.MX$</file>
+		<file size="220938" time="1990-12-10 14:19:04" attr="0x20" md5="ad1f0fa6695b71d2d222bd5f212b9f4f" dir="BINR/">PWBED.EX$</file>
+		<file size="16556" time="1990-06-14 07:49:52" attr="0x20" md5="351d3a8427a4ae809fce17fb941e9d58" dir="BINR/">PWBHELP.MX$</file>
+		<file size="7307" time="1991-02-19 14:29:46" attr="0x20" md5="bbb25f5b3a53c0bb157524f742cdbf58" dir="BINR/">PWBMASM.MX$</file>
+		<file size="20062" time="1990-06-14 07:49:22" attr="0x20" md5="fd0a40007c09813762533575479a903c" dir="BINR/">PWBROWSE.MX$</file>
+		<file size="8981" time="1990-06-14 07:50:32" attr="0x20" md5="89fc7d45ca1f71f85d50276c9c83d7f7" dir="BINR/">PWBUTILS.MX$</file>
+		<file size="3180" time="1990-02-05 13:16:14" attr="0x20" md5="9576e9fd207d19e638608d36af0e26e0" dir="BINR/">RAMDRIVE.SY$</file>
+		<file size="5213" time="1990-10-31 02:00:00" attr="0x20" md5="c2b6a1686ad1f953ffa48165fc0c93c8" dir="BINR/">SMARTDRV.SY$</file>
+		<file size="192" time="1999-12-13 15:12:46" attr="0x10">HELP</file>
+		<file size="214027" time="1991-02-14 14:53:08" attr="0x20" md5="e888a390b1478e6253e0f32222edcc14" dir="HELP/">CV.HL$</file>
+		<file size="83284" time="1991-02-14 16:45:04" attr="0x20" md5="f115d67fde4c451c46e613a5deb72e07" dir="HELP/">LINK.HL$</file>
+		<file size="22301" time="1990-07-22 08:22:58" attr="0x20" md5="cd0ac4ff7a376af606b26e32ac276baf" dir="HELP/">QH.HL$</file>
+		<file size="137783" time="1991-02-20 10:56:34" attr="0x20" md5="b0e76e629d929c5f27202875764e5556" dir="HELP/">UTILS.HL$</file>
+		<file size="224" time="1999-12-13 15:12:46" attr="0x10">SAMPLES</file>
+		<file size="448" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">DEMOS</file>
+		<file size="4519" time="1991-03-13 14:08:50" attr="0x20" md5="6953d4741b06dbebf389b77f50d75b65" dir="SAMPLES/DEMOS/">COMMON.AS$</file>
+		<file size="1812" time="1991-02-14 07:59:48" attr="0x20" md5="be68010edce34b8788a1ab087c9e20bf" dir="SAMPLES/DEMOS/">DEMO.H$</file>
+		<file size="3304" time="1991-02-14 07:59:50" attr="0x20" md5="6f5c459dad9756cd246312bce3975ccf" dir="SAMPLES/DEMOS/">DEMO.IN$</file>
+		<file size="9797" time="1991-02-14 07:59:52" attr="0x20" md5="e2e3cfba88dbcd9973e62ddb01ba6f89" dir="SAMPLES/DEMOS/">FILE.AS$</file>
+		<file size="5617" time="1991-02-14 07:59:54" attr="0x20" md5="031c934c164c0e04e9bb69068897491c" dir="SAMPLES/DEMOS/">FILEDEMO.C$</file>
+		<file size="769" time="1991-01-15 09:50:38" attr="0x20" md5="306112bcccbf7aeca8bd8b8ae81c3cb8" dir="SAMPLES/DEMOS/">FILEDEMO.MA$</file>
+		<file size="3685" time="1991-02-14 08:00:00" attr="0x20" md5="00dd8cf1015fca6ac317856e6b4f9be6" dir="SAMPLES/DEMOS/">MATH.AS$</file>
+		<file size="4244" time="1991-02-14 13:14:26" attr="0x20" md5="69ac209f45a8a5019057ffe4e3c3192c" dir="SAMPLES/DEMOS/">MATHDEMO.C$</file>
+		<file size="849" time="1991-03-15 09:41:44" attr="0x20" md5="3d81d43428b12ce1d9f3fd4e5f2be0a6" dir="SAMPLES/DEMOS/">MATHDEMO.MA$</file>
+		<file size="11711" time="1991-02-14 13:14:26" attr="0x20" md5="a7efcbb13687ecaaaf1084037c93003f" dir="SAMPLES/DEMOS/">MISC.AS$</file>
+		<file size="11432" time="1991-02-14 13:14:28" attr="0x20" md5="01e1778e6995408bbc6f837518a685e4" dir="SAMPLES/DEMOS/">MISCDEMO.AS$</file>
+		<file size="718" time="1991-01-15 09:50:54" attr="0x20" md5="1d2e2c374c3d5a330b68b2248e82fb0b" dir="SAMPLES/DEMOS/">MISCDEMO.MA$</file>
+		<file size="224" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">INCLUDE</file>
+		<file size="836" time="1991-02-28 15:06:44" attr="0x20" md5="64864e6e7e824871998cd0813b3243a0" dir="SAMPLES/INCLUDE/">BIOS.IN$</file>
+		<file size="5712" time="1991-04-01 14:18:06" attr="0x20" md5="c175d4b4ca4b30c8c8a44d7996d83ca3" dir="SAMPLES/INCLUDE/">CMACROS.IN$</file>
+		<file size="2780" time="1991-02-28 15:07:08" attr="0x20" md5="258f959a708ca04bce66ab360809ad38" dir="SAMPLES/INCLUDE/">DOS.IN$</file>
+		<file size="2266" time="1991-02-28 15:07:08" attr="0x20" md5="c6d40e5cc542dac9c07f15e595631c4d" dir="SAMPLES/INCLUDE/">MACROS.IN$</file>
+		<file size="2342" time="1991-02-28 15:07:12" attr="0x20" md5="8d87487dd03c7974df3310da920d1817" dir="SAMPLES/INCLUDE/">PROLOGUE.IN$</file>
+		<file size="384" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">MIXED</file>
+		<file size="295" time="1991-02-14 10:18:18" attr="0x20" md5="200ece396222195a4f51306379534f93" dir="SAMPLES/MIXED/">BASIC.AS$</file>
+		<file size="205" time="1991-02-14 10:18:20" attr="0x20" md5="ecf49d9199cbd3836bb3a9b2ce1a1c53" dir="SAMPLES/MIXED/">BASMAIN.BA$</file>
+		<file size="292" time="1991-02-14 10:18:20" attr="0x20" md5="1a0f6b321b3e424d4df8dbfbf6bc8713" dir="SAMPLES/MIXED/">C.AS$</file>
+		<file size="224" time="1991-02-14 10:18:22" attr="0x20" md5="5ed0118e7d3a3a3087cd56de831a4a2e" dir="SAMPLES/MIXED/">CMAIN.C$</file>
+		<file size="228" time="1991-02-14 10:18:22" attr="0x20" md5="ce1868895b276c9fe4fa56eb497c2f9c" dir="SAMPLES/MIXED/">FMAIN.FO$</file>
+		<file size="250" time="1991-02-14 10:18:22" attr="0x20" md5="c4dee949b4517430c3354100460ea756" dir="SAMPLES/MIXED/">FORTRAN.AS$</file>
+		<file size="288" time="1991-02-14 10:18:24" attr="0x20" md5="9b1c40bf16127fd5c8ff12a12850fd02" dir="SAMPLES/MIXED/">PASCAL.AS$</file>
+		<file size="263" time="1991-02-14 10:20:48" attr="0x20" md5="74e20529f58e1dbc786cd6897fb3fa79" dir="SAMPLES/MIXED/">PASMAIN.PA$</file>
+		<file size="280" time="1991-02-14 10:18:26" attr="0x20" md5="32df31887806b3ce7ada7eff8db6634b" dir="SAMPLES/MIXED/">QPEX.AS$</file>
+		<file size="239" time="1991-02-14 10:18:26" attr="0x20" md5="28f66c84c2dca256fdde5037a6332c4d" dir="SAMPLES/MIXED/">QPMAIN.PA$</file>
+		<file size="416" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">SHOW</file>
+		<file size="632" time="1991-02-15 05:27:30" attr="0x20" md5="fe72c1a78b75784c0a8602367bdd9ad4" dir="SAMPLES/SHOW/">MAKESHOS.BA$</file>
+		<file size="629" time="1991-02-14 13:15:38" attr="0x20" md5="bbf2972ebc13e50f5caf108cf1337c06" dir="SAMPLES/SHOW/">MAKESHOS.CM$</file>
+		<file size="2126" time="1991-02-14 13:15:40" attr="0x20" md5="bae61ea59d7ebecfb7bb30437b691c4e" dir="SAMPLES/SHOW/">PAGERP.AS$</file>
+		<file size="3535" time="1991-02-14 13:15:40" attr="0x20" md5="be992b11146ce0b71f99f05217f4c436" dir="SAMPLES/SHOW/">PAGERR.AS$</file>
+		<file size="37" time="1991-02-14 13:15:42" attr="0x20" md5="49b690b8584b2d988bef40b002339640" dir="SAMPLES/SHOW/">SHOW.DE$</file>
+		<file size="876" time="1991-02-14 13:15:42" attr="0x20" md5="7e1727fe445fa708f2c65e70de2210db" dir="SAMPLES/SHOW/">SHOW.IN$</file>
+		<file size="4741" time="1991-02-14 13:15:44" attr="0x20" md5="1eb699ccdd9ab212b5efe90a4c866fd0" dir="SAMPLES/SHOW/">SHOWP.AS$</file>
+		<file size="721" time="1991-02-14 13:15:44" attr="0x20" md5="b185d49e47f1fe7ce6e9562359a9a8d9" dir="SAMPLES/SHOW/">SHOWP.MA$</file>
+		<file size="5074" time="1991-02-14 13:15:46" attr="0x20" md5="c03560948804e48916bcc63b21b47ce0" dir="SAMPLES/SHOW/">SHOWR.AS$</file>
+		<file size="715" time="1991-02-14 13:15:46" attr="0x20" md5="656ef2eb58dfd72e79dabdd7c995c892" dir="SAMPLES/SHOW/">SHOWR.MA$</file>
+		<file size="2296" time="1991-02-15 05:27:32" attr="0x20" md5="6cb5d6f4498c2e009f7f4a44655e1d90" dir="SAMPLES/SHOW/">SHOWUTIL.AS$</file>
+		<file size="384" time="1999-12-13 15:12:46" attr="0x10" dir="SAMPLES/">TSR</file>
+		<file size="3257" time="1991-02-14 10:15:46" attr="0x20" md5="741bd0706ffb389ccadeb8df193b1b79" dir="SAMPLES/TSR/">ALARM.AS$</file>
+		<file size="637" time="1991-02-06 14:33:54" attr="0x20" md5="ea7614391abe208a992ec3c048f8b345" dir="SAMPLES/TSR/">ALARM.MA$</file>
+		<file size="3090" time="1991-02-14 10:15:56" attr="0x20" md5="608b6f5b47ff52062459cc4fc9980df1" dir="SAMPLES/TSR/">BELL.C$</file>
+		<file size="741" time="1991-02-06 14:34:02" attr="0x20" md5="c64d33a7c491ac662f52a0ede26643d5" dir="SAMPLES/TSR/">BELL.MA$</file>
+		<file size="16002" time="1991-03-09 15:58:16" attr="0x20" md5="1feccb39ef2f95c6e1c7268f15e7ad84" dir="SAMPLES/TSR/">HANDLERS.AS$</file>
+		<file size="3404" time="1991-03-09 16:00:42" attr="0x20" md5="9215a6e1d6e6eb5332ad490378b3dc5b" dir="SAMPLES/TSR/">INSTALL.AS$</file>
+		<file size="6373" time="1991-03-13 14:12:26" attr="0x20" md5="639e159c163e6d0ee44313a80eb51cf9" dir="SAMPLES/TSR/">SNAP.AS$</file>
+		<file size="763" time="1991-02-06 14:34:22" attr="0x20" md5="9c2c321aa882e7eef0ee2e5dd2d03b82" dir="SAMPLES/TSR/">SNAP.MA$</file>
+		<file size="731" time="1991-02-06 14:34:26" attr="0x20" md5="82a82ea6993e0aae62be23d740873c0b" dir="SAMPLES/TSR/">TSR.H$</file>
+		<file size="1481" time="1991-02-15 05:29:30" attr="0x20" md5="1393c188c9d0988d296933a5418d0539" dir="SAMPLES/TSR/">TSR.IN$</file>
 	</disk>
 	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MASM600-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/6.00/MASM600-DISK5.json" md5="239b2d711a356af052f7751a82e7b885" md5json="b858eef81881211033093058386295be">
 		<name>MS Macro Assembler 6.00 (Disk 5)</name>
-		<file size="574602" time="1991-03-15 11:11:14" attr="0x20">ALANG.HL$</file>
-		<file size="107458" time="1991-04-03 08:22:56" attr="0x20">ML.HL$</file>
-		<file size="304963" time="1991-02-14 17:27:02" attr="0x20">PWB.HL$</file>
-		<file size="79695" time="1991-02-14 10:22:34" attr="0x20">UTILERR.HL$</file>
+		<file size="574602" time="1991-03-15 11:11:14" attr="0x20" md5="3b4c4704c00b5e2db84276eda8b33b10">ALANG.HL$</file>
+		<file size="107458" time="1991-04-03 08:22:56" attr="0x20" md5="9b3b728ce196811502fda6ebfda394ad">ML.HL$</file>
+		<file size="304963" time="1991-02-14 17:27:02" attr="0x20" md5="8e2d80f8e2819c58841d8c27a5ec8b43">PWB.HL$</file>
+		<file size="79695" time="1991-02-14 10:22:34" attr="0x20" md5="34912b66585b534ea555db6ad1006029">UTILERR.HL$</file>
 	</disk>
 </manifest>

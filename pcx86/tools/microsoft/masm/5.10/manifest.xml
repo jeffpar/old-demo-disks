@@ -7,119 +7,120 @@
 	<category>Assembler</category>
 	<language>x86</language>
 	<company>Microsoft</company>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/private/MASM51-01510-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01510-DISK1.json" md5="729e44f570e41d3b9e9d2cc95129b198" md5json="b8d9f983e8b87435203faf10799cdcf1">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM51-01510-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01510-DISK1.json" md5="c278d73a35d9cd4eca53b51b77a2df74" md5json="d83047a4325a115d6366d1dd5b9daa28">
 		<name>MS Macro Assembler 5.10 (Disk 1)</name>
-		<file size="28427" time="1988-02-01 12:00:00" attr="0x20">CREF.EXE</file>
-		<file size="110703" time="1988-02-01 12:00:00" attr="0x20">MASM.EXE</file>
-		<file size="442" time="1988-02-01 12:00:22" attr="0x10">MIXED</file>
-		<file size="1138" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">BA.ASM</file>
-		<file size="567" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">BAMAIN.BAS</file>
-		<file size="298" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">CA.ASM</file>
-		<file size="111" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">CAMAIN.C</file>
-		<file size="426" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">FA.ASM</file>
-		<file size="190" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">FAMAIN.FOR</file>
-		<file size="9107" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">MIXED.DOC</file>
-		<file size="3179" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">MIXED.INC</file>
-		<file size="388" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">PA.ASM</file>
-		<file size="164" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">PAMAIN.PAS</file>
-		<file size="2065" time="1988-02-01 12:00:00" attr="0x20" dir="MIXED/">POWER2.ASM</file>
-		<file size="5170" time="1988-02-01 12:00:00" attr="0x20">PACKING.LST</file>
-		<file size="39353" time="1988-02-01 12:00:00" attr="0x20">README.DOC</file>
-		<file size="31701" time="1988-02-01 12:00:00" attr="0x20">RUNME.EXE</file>
-		<file size="33" time="1988-02-01 12:00:00" attr="0x20">SETUP.BAT</file>
-		<file size="7353" time="1988-02-01 12:00:00" attr="0x20">SETUP.SUS</file>
-		<file size="4964" time="1988-02-01 12:00:00" attr="0x20">SHOW.EXE</file>
+		<file size="28427" time="1988-01-31 22:00:00" attr="0x20" md5="f245ba52ab2b0340cffe0a6c28b7015d">CREF.EXE</file>
+		<file size="110703" time="1988-01-31 22:00:00" attr="0x20" md5="6828fe2509ebad3ca10d2f51c71a2d94">MASM.EXE</file>
+		<file size="416" time="1988-01-31 22:00:00" attr="0x10">MIXED</file>
+		<file size="1138" time="1988-01-31 22:00:00" attr="0x20" md5="2f75ba2cdad153af653034ef63b7f37a" dir="MIXED/">BA.ASM</file>
+		<file size="567" time="1988-01-31 22:00:00" attr="0x20" md5="1700a3a16e398f4513facbddf1e99f6e" dir="MIXED/">BAMAIN.BAS</file>
+		<file size="298" time="1988-01-31 22:00:00" attr="0x20" md5="ba3f68095c71013c9031bf9d317c4f6b" dir="MIXED/">CA.ASM</file>
+		<file size="111" time="1988-01-31 22:00:00" attr="0x20" md5="6759a7bec2ed34a081d71163153c2c3f" dir="MIXED/">CAMAIN.C</file>
+		<file size="426" time="1988-01-31 22:00:00" attr="0x20" md5="0e6c0485d9d08f04a8b3e8c85787e0d4" dir="MIXED/">FA.ASM</file>
+		<file size="190" time="1988-01-31 22:00:00" attr="0x20" md5="714dc169570de645758ac1c69200c489" dir="MIXED/">FAMAIN.FOR</file>
+		<file size="9107" time="1988-01-31 22:00:00" attr="0x20" md5="34f915f75e885663589532d5a87c9f8b" dir="MIXED/">MIXED.DOC</file>
+		<file size="3179" time="1988-01-31 22:00:00" attr="0x20" md5="854ea76fd52dff1eed7518e530214a13" dir="MIXED/">MIXED.INC</file>
+		<file size="388" time="1988-01-31 22:00:00" attr="0x20" md5="13dd346a1a78b2a56e8eb627edacc147" dir="MIXED/">PA.ASM</file>
+		<file size="164" time="1988-01-31 22:00:00" attr="0x20" md5="0cff3c0a6964e002ca9193180848c4ba" dir="MIXED/">PAMAIN.PAS</file>
+		<file size="2065" time="1988-01-31 22:00:00" attr="0x20" md5="d359549529bd7b5d5117d881da439203" dir="MIXED/">POWER2.ASM</file>
+		<file size="5212" time="1988-01-31 22:00:00" attr="0x20" md5="35ec1666b44b2b755b5a6d2396cc5eb0">PACKING.LST</file>
+		<file size="39353" time="1988-01-31 22:00:00" attr="0x20" md5="3501c3676b6f4cc4e8882866c67dd14c">README.DOC</file>
+		<file size="29497" time="1988-01-31 22:00:00" attr="0x20" md5="f933c7b47d7aad12a8f65e956c98b9db">RUNME.EXE</file>
+		<file size="33" time="1988-01-31 22:00:00" attr="0x20" md5="a95da915b9af44525019366244f97948">SETUP.BAT</file>
+		<file size="5157" time="1988-01-31 22:00:00" attr="0x20" md5="ebb411c8f1a58b0e375fe8ddf867ea9a">SETUP.SUS</file>
+		<file size="4964" time="1988-01-31 22:00:00" attr="0x20" md5="fd4312a8a38c638a0e43b05d113c1aee">SHOW.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/private/MASM51-01511-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01511-DISK2.json" md5="28221e0540d940ec090325a27e85f245" md5json="e5272abe7d2257ec8005d26709a79e54">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MASM51-01511-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01511-DISK2.json" md5="bc6633d513c74414647ac8d130b3852e" md5json="3fecddcea887937b824707d2e9e5d41c">
 		<name>MS Macro Assembler 5.10 (Disk 2)</name>
-		<file size="49400" time="1988-02-01 12:00:00" attr="0x20">CVPACK.EXE</file>
-		<file size="10729" time="1988-02-01 12:00:00" attr="0x20">ERROUT.EXE</file>
-		<file size="29942" time="1988-02-01 12:00:00" attr="0x20">EXEHDR.EXE</file>
-		<file size="11765" time="1988-02-01 12:00:00" attr="0x20">EXEMOD.EXE</file>
-		<file size="14803" time="1988-02-01 12:00:00" attr="0x20">EXEPACK.EXE</file>
-		<file size="49661" time="1988-02-01 12:00:00" attr="0x20">LIB.EXE</file>
-		<file size="65475" time="1988-02-01 12:00:00" attr="0x20">LINK.EXE</file>
-		<file size="38613" time="1988-02-01 12:00:00" attr="0x20">MAKE.EXE</file>
-		<file size="14551" time="1988-02-01 12:00:00" attr="0x20">MOUSE.COM</file>
-		<file size="10313" time="1988-02-01 12:00:00" attr="0x20">SETENV.EXE</file>
+		<file size="57437" time="1988-01-31 22:00:00" attr="0x20" md5="a0cb3beb0f9ce742303d0b70d27ab540">CVPACK.EXE</file>
+		<file size="10729" time="1988-01-31 22:00:00" attr="0x20" md5="c6a86509dfb07ae576525e01332c9864">ERROUT.EXE</file>
+		<file size="29942" time="1988-01-31 22:00:00" attr="0x20" md5="ee878c7ab6f11681cd76dd756111ec67">EXEHDR.EXE</file>
+		<file size="11765" time="1988-01-31 22:00:00" attr="0x20" md5="fa7667d9d3c745224ae04cc7dc35ce88">EXEMOD.EXE</file>
+		<file size="14803" time="1988-01-31 22:00:00" attr="0x20" md5="7f56f212c62b7a4d776b6991967a76a4">EXEPACK.EXE</file>
+		<file size="49661" time="1988-01-31 22:00:00" attr="0x20" md5="527db2e52d55db669cc5a06c27fdb6fb">LIB.EXE</file>
+		<file size="65475" time="1988-01-31 22:00:00" attr="0x20" md5="46cd82f569d50b179189fa3c2c1b1dd9">LINK.EXE</file>
+		<file size="38613" time="1988-01-31 22:00:00" attr="0x20" md5="f875c7e5dab3d09ffba63fc9dc78c2aa">MAKE.EXE</file>
+		<file size="14455" time="1988-01-31 22:00:00" attr="0x20" md5="58a49486ccf3a6ec7192c6107cdd1eac">MOUSE.COM</file>
+		<file size="10313" time="1988-01-31 22:00:00" attr="0x20" md5="604c185af9c4f4d6ea8a5c16fab352e1">SETENV.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/private/MASM51-01512-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01512-DISK3.json" md5="b3c429500e5a809122cc337532f39f3d" md5json="824688fc738e0044dbd2bf2db61f0fae">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MASM51-01512-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01512-DISK3.json" md5="26415ae61bddc81d032fb563d33efc2d" md5json="8cd0cebcbc1a0a95bd3ce39ffa4d2ce5">
 		<name>MS Macro Assembler 5.10 (Disk 3)</name>
-		<file size="2302" time="1988-02-01 12:00:00" attr="0x20">BIOS.INC</file>
-		<file size="232896" time="1988-02-01 12:00:00" attr="0x20">CV.EXE</file>
-		<file size="21552" time="1988-02-01 12:00:00" attr="0x20">CV.HLP</file>
-		<file size="14725" time="1988-02-01 12:00:00" attr="0x20">DEMO.EXE</file>
-		<file size="9862" time="1988-02-01 12:00:00" attr="0x20">DOS.INC</file>
-		<file size="7409" time="1988-02-01 12:00:00" attr="0x20">E_AUTO.CV</file>
-		<file size="17983" time="1988-02-01 12:00:00" attr="0x20">MACRO.DOC</file>
-		<file size="570" time="1988-02-01 12:00:00" attr="0x20">M_AUTO.CV</file>
-		<file size="11192" time="1988-02-01 12:00:00" attr="0x20">PAGERR.ASM</file>
-		<file size="16" time="1988-02-01 12:00:00" attr="0x20">Q_AUTO.CV</file>
-		<file size="3680" time="1988-02-01 12:00:00" attr="0x20">SETUP.SUS</file>
-		<file size="8944" time="1988-02-01 12:00:00" attr="0x20">SHOWR.ASM</file>
-		<file size="5419" time="1988-02-01 12:00:00" attr="0x20">SHOWR.EXE</file>
-		<file size="5153" time="1988-02-01 12:00:00" attr="0x20">U_AUTO.CV</file>
-		<file size="9641" time="1988-02-01 12:00:00" attr="0x20">W_AUTO.CV</file>
+		<file size="2302" time="1988-01-31 22:00:00" attr="0x20" md5="e9fb41bbdfbc25ee37a621b42478202e">BIOS.INC</file>
+		<file size="232896" time="1988-01-31 22:00:00" attr="0x20" md5="e95601011699466f65de9f1a4c4aa5d9">CV.EXE</file>
+		<file size="21552" time="1988-01-31 22:00:00" attr="0x20" md5="487882463360658cf878a98f3c6db021">CV.HLP</file>
+		<file size="14725" time="1988-01-31 22:00:00" attr="0x20" md5="e1ba696c371b0a9fd176be17797af660">DEMO.EXE</file>
+		<file size="9862" time="1988-01-31 22:00:00" attr="0x20" md5="eafba0843e19f977a705ee26e7bc8ae4">DOS.INC</file>
+		<file size="7409" time="1988-01-31 22:00:00" attr="0x20" md5="1c7d2caaa3d0e7f479e90588a1153e9c">E_AUTO.CV</file>
+		<file size="17983" time="1988-01-31 22:00:00" attr="0x20" md5="4970f22c3c271ca0530512b47ac84879">MACRO.DOC</file>
+		<file size="570" time="1988-01-31 22:00:00" attr="0x20" md5="6210f29ed8e08738a642a558173526e1">M_AUTO.CV</file>
+		<file size="11192" time="1988-01-31 22:00:00" attr="0x20" md5="d7bc56b12fd374383ed52e51ccfb01d6">PAGERR.ASM</file>
+		<file size="16" time="1988-01-31 22:00:00" attr="0x20" md5="26a2ddfd681d41f224b2d8a113a5d792">Q_AUTO.CV</file>
+		<file size="3680" time="1988-01-31 22:00:00" attr="0x20" md5="2aae5704552e610e7614d1da14641842">SETUP.SUS</file>
+		<file size="8944" time="1988-01-31 22:00:00" attr="0x20" md5="31c096d5f8eba12c1bf9417d41e72941">SHOWR.ASM</file>
+		<file size="5419" time="1988-01-31 22:00:00" attr="0x20" md5="be14496400dc2d320eb64c5731971f68">SHOWR.EXE</file>
+		<file size="5153" time="1988-01-31 22:00:00" attr="0x20" md5="2289bcd8866f2a84fcd67edf3c654b4d">U_AUTO.CV</file>
+		<file size="9641" time="1988-01-31 22:00:00" attr="0x20" md5="19592dbbd62ccd40f5fd390e1563e980">W_AUTO.CV</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/private/MASM51-01514-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01514-DISK4.json" md5="290d56cd6cfad116a46fd605ceb790b9" md5json="0fda2647df5f1dacd1aca3e49395ae02">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MASM51-01514-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01514-DISK4.json" md5="8448b3d024fff14cb9f92ad016430e25" md5json="b59175c5ee9312ab860658e65900561e">
 		<name>MS Macro Assembler 5.10 (Disk 4)</name>
-		<file size="31233" time="1988-02-01 12:00:00" attr="0x20">CALLTREE.EXE</file>
-		<file size="19351" time="1988-02-01 12:00:00" attr="0x20">ECH.EXE</file>
-		<file size="32220" time="1988-02-01 12:00:00" attr="0x20">EXP.EXE</file>
-		<file size="272" time="1988-02-01 12:00:12" attr="0x10">EXT</file>
-		<file size="15877" time="1988-02-01 12:00:00" attr="0x20" dir="EXT/">EXT.DOC</file>
-		<file size="8730" time="1988-02-01 12:00:00" attr="0x20" dir="EXT/">EXT.H</file>
-		<file size="1893" time="1988-02-01 12:00:00" attr="0x20" dir="EXT/">EXTHDR.OBJ</file>
-		<file size="2021" time="1988-02-01 12:00:00" attr="0x20" dir="EXT/">EXTHDRP.OBJ</file>
-		<file size="2457" time="1988-02-01 12:00:00" attr="0x20" dir="EXT/">SKEL.C</file>
-		<file size="211" time="1988-02-01 12:00:00" attr="0x20" dir="EXT/">SKEL.DEF</file>
-		<file size="690" time="1988-02-01 12:00:00" attr="0x20">FIXSHIFT.COM</file>
-		<file size="238" time="1988-02-01 12:00:06" attr="0x10">INI</file>
-		<file size="2094" time="1988-02-01 12:00:00" attr="0x20" dir="INI/">BRIEF.INI</file>
-		<file size="978" time="1988-02-01 12:00:00" attr="0x20" dir="INI/">EPSILON.INI</file>
-		<file size="1058" time="1988-02-01 12:00:00" attr="0x20" dir="INI/">QUICK.INI</file>
-		<file size="2609" time="1988-02-01 12:00:00" attr="0x20" dir="INI/">WS.DLL</file>
-		<file size="2084" time="1988-02-01 12:00:00" attr="0x20" dir="INI/">WS.ZXT</file>
-		<file size="94821" time="1988-02-01 12:00:00" attr="0x20">M.EXE</file>
-		<file size="31915" time="1988-02-01 12:00:00" attr="0x20">MEGREP.EXE</file>
-		<file size="24884" time="1988-02-01 12:00:00" attr="0x20">RM.EXE</file>
-		<file size="30046" time="1988-02-01 12:00:00" attr="0x20">UNDEL.EXE</file>
+		<file size="31233" time="1988-01-31 22:00:00" attr="0x20" md5="ef373cfe841816b828cde2781fa53540">CALLTREE.EXE</file>
+		<file size="19351" time="1988-01-31 22:00:00" attr="0x20" md5="e1e04f079de368484ba99270fa2b3526">ECH.EXE</file>
+		<file size="2123" time="1988-01-31 22:00:00" attr="0x20" md5="918841baceb8c6f4b24238f8e6b860a3">EDITOR.SUS</file>
+		<file size="32220" time="1988-01-31 22:00:00" attr="0x20" md5="97471a1698c4e7d7c95bbb79fc48b884">EXP.EXE</file>
+		<file size="256" time="1988-01-31 22:00:00" attr="0x10">EXT</file>
+		<file size="15877" time="1988-01-31 22:00:00" attr="0x20" md5="a9b63c822d2bdb6db10d8ea48758a4a9" dir="EXT/">EXT.DOC</file>
+		<file size="8730" time="1988-01-31 22:00:00" attr="0x20" md5="8d3e0d01d15c395c594738800ef9a6d9" dir="EXT/">EXT.H</file>
+		<file size="1893" time="1988-01-31 22:00:00" attr="0x20" md5="e6ede6982fe8b36765307659112114c7" dir="EXT/">EXTHDR.OBJ</file>
+		<file size="2021" time="1988-01-31 22:00:00" attr="0x20" md5="975128db7834a5348120c560db17a839" dir="EXT/">EXTHDRP.OBJ</file>
+		<file size="2457" time="1988-01-31 22:00:00" attr="0x20" md5="6b368a55acc6884314782eb6c326572b" dir="EXT/">SKEL.C</file>
+		<file size="211" time="1988-01-31 22:00:00" attr="0x20" md5="0baaaf5d17f424470780eadef019f9c9" dir="EXT/">SKEL.DEF</file>
+		<file size="690" time="1988-01-31 22:00:00" attr="0x20" md5="68e092e9c5ec1b408d7662f4295be80d">FIXSHIFT.COM</file>
+		<file size="224" time="1988-01-31 22:00:00" attr="0x10">INI</file>
+		<file size="2094" time="1988-01-31 22:00:00" attr="0x20" md5="a28952d3e7cdd362f7a92e1c5c89f888" dir="INI/">BRIEF.INI</file>
+		<file size="978" time="1988-01-31 22:00:00" attr="0x20" md5="600842832f3940b4b9305a216b48a0ca" dir="INI/">EPSILON.INI</file>
+		<file size="1058" time="1988-01-31 22:00:00" attr="0x20" md5="91594a63d01d44755fcf59e4db8cab90" dir="INI/">QUICK.INI</file>
+		<file size="2609" time="1988-01-31 22:00:00" attr="0x20" md5="b26deedacde08c71843b506ce1d08ef8" dir="INI/">WS.DLL</file>
+		<file size="2084" time="1988-01-31 22:00:00" attr="0x20" md5="b93b9eb7e11b2450f01cf70ad7b3b2f8" dir="INI/">WS.ZXT</file>
+		<file size="94821" time="1988-01-31 22:00:00" attr="0x20" md5="97a3fd884d60a951da609b0ec168c369">M.EXE</file>
+		<file size="31915" time="1988-01-31 22:00:00" attr="0x20" md5="35a5f9c9b8515b6f27bc3f0d45bde0ad">MEGREP.EXE</file>
+		<file size="24884" time="1988-01-31 22:00:00" attr="0x20" md5="f4e4bdacd02ceecc2678c412e5f0ab23">RM.EXE</file>
+		<file size="30046" time="1988-01-31 22:00:00" attr="0x20" md5="af2b883191561a9ea0d3b5a4019cd99a">UNDEL.EXE</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/private/MASM51-03159-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-03159-DISK5.json" md5="c61288bc2b6dd6445ddd54bce1479c51" md5json="ce36d0d09785bb5d44470a113462bf26">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/MASM51-03159-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-03159-DISK5.json" md5="2d8c54c2eec100914424f5b1f227b1d7" md5json="146a1fc411ec1ead060ce6e6a6eb76d6">
 		<name>MS Macro Assembler 5.10 (Disk 5)</name>
-		<file size="81408" time="1988-02-01 12:00:00" attr="0x20">API.LIB</file>
-		<file size="105" time="1988-02-01 12:00:00" attr="0x20">APILMR.OBJ</file>
-		<file size="36946" time="1988-02-01 12:00:00" attr="0x20">BIND.EXE</file>
-		<file size="768" time="1988-02-01 12:00:00" attr="0x20">BSE.INC</file>
-		<file size="17479" time="1988-02-01 12:00:00" attr="0x20">BSEDOS.INC</file>
-		<file size="6723" time="1988-02-01 12:00:00" attr="0x20">BSEERR.INC</file>
-		<file size="10693" time="1988-02-01 12:00:00" attr="0x20">BSESUB.INC</file>
-		<file size="222505" time="1988-02-01 12:00:00" attr="0x20">CVP.EXE</file>
-		<file size="21552" time="1988-02-01 12:00:00" attr="0x20">CVP.HLP</file>
-		<file size="29184" time="1988-02-01 12:00:00" attr="0x20">DOSCALLS.LIB</file>
-		<file size="9299" time="1988-02-01 12:00:00" attr="0x20">EXEC.EXE</file>
-		<file size="88929" time="1988-02-01 12:00:00" attr="0x20">ILINK.EXE</file>
-		<file size="30166" time="1988-02-01 12:00:00" attr="0x20">IMPLIB.EXE</file>
-		<file size="117001" time="1988-02-01 12:00:00" attr="0x20">LINK.EXE</file>
-		<file size="2054" time="1988-02-01 12:00:00" attr="0x20">MAKESHOW.BAT</file>
-		<file size="1991" time="1988-02-01 12:00:00" attr="0x20">MAKESHOW.CMD</file>
-		<file size="124712" time="1988-02-01 12:00:00" attr="0x20">MASM.EXE</file>
-		<file size="97063" time="1988-02-01 12:00:00" attr="0x20">MEP.EXE</file>
-		<file size="33751" time="1988-02-01 12:00:00" attr="0x20">OS2.DOC</file>
-		<file size="391" time="1988-02-01 12:00:00" attr="0x20">OS2.INC</file>
-		<file size="5119" time="1988-02-01 12:00:00" attr="0x20">OS2DEF.INC</file>
-		<file size="1069" time="1988-02-01 12:00:00" attr="0x20">OS2PATCH.EXE</file>
-		<file size="11504" time="1988-02-01 12:00:00" attr="0x20">PAGERP.ASM</file>
-		<file size="188" time="1988-02-01 12:00:00" attr="0x20">PTRACE87.PAT</file>
-		<file size="379" time="1988-02-01 12:00:00" attr="0x20">SHOW</file>
-		<file size="15079" time="1988-02-01 12:00:00" attr="0x20">SHOWP.ASM</file>
-		<file size="18" time="1988-02-01 12:00:00" attr="0x20">SHOWS.DEF</file>
+		<file size="81408" time="1988-01-31 22:00:00" attr="0x20" md5="ca881eb7f5fe2e9bcc4ce15475bc1995">API.LIB</file>
+		<file size="105" time="1988-01-31 22:00:00" attr="0x20" md5="5223d220a23c87ab9fd0a758cd6408e5">APILMR.OBJ</file>
+		<file size="36946" time="1988-01-31 22:00:00" attr="0x20" md5="73b98fcbf4ae4691394c3f186ef4d607">BIND.EXE</file>
+		<file size="768" time="1988-01-31 22:00:00" attr="0x20" md5="6222a85723e14bcbb94c2aa23370cfc3">BSE.INC</file>
+		<file size="17479" time="1988-01-31 22:00:00" attr="0x20" md5="6ca037e545b164a67085507063157a91">BSEDOS.INC</file>
+		<file size="6723" time="1988-01-31 22:00:00" attr="0x20" md5="ad8a70de69208f6bf71ea68822d98035">BSEERR.INC</file>
+		<file size="10693" time="1988-01-31 22:00:00" attr="0x20" md5="79d934d2d702d5c9d43b82804dfa5fff">BSESUB.INC</file>
+		<file size="222505" time="1988-01-31 22:00:00" attr="0x20" md5="5ddde8869a75f0f9ba2279ba01e1bafd">CVP.EXE</file>
+		<file size="21552" time="1988-01-31 22:00:00" attr="0x20" md5="487882463360658cf878a98f3c6db021">CVP.HLP</file>
+		<file size="29184" time="1988-01-31 22:00:00" attr="0x20" md5="82d560a33537c9b43bd62c9c2c486cc4">DOSCALLS.LIB</file>
+		<file size="9299" time="1988-01-31 22:00:00" attr="0x20" md5="cba08d02fe01a53444e32bb48068d132">EXEC.EXE</file>
+		<file size="88929" time="1988-01-31 22:00:00" attr="0x20" md5="85693413daae7a1382aa75cb091c656c">ILINK.EXE</file>
+		<file size="30166" time="1988-01-31 22:00:00" attr="0x20" md5="de8eeaf031ce80d0bf42c81a27dc5a8e">IMPLIB.EXE</file>
+		<file size="117001" time="1988-01-31 22:00:00" attr="0x20" md5="939aef20288504d9347c5ccbdb6fcd78">LINK.EXE</file>
+		<file size="2054" time="1988-01-31 22:00:00" attr="0x20" md5="f22eb70530a46b21dfe08d7d4d30957c">MAKESHOW.BAT</file>
+		<file size="1991" time="1988-01-31 22:00:00" attr="0x20" md5="3058de838ae20717f9a059614e1c9435">MAKESHOW.CMD</file>
+		<file size="124712" time="1988-01-31 22:00:00" attr="0x20" md5="c1a93ab5293080614af1fe0302e5420a">MASM.EXE</file>
+		<file size="97063" time="1988-01-31 22:00:00" attr="0x20" md5="167acd0d784c63f07dfbdf2ac1e3aa7f">MEP.EXE</file>
+		<file size="33751" time="1988-01-31 22:00:00" attr="0x20" md5="55066a10e5903137568ae843639fd719">OS2.DOC</file>
+		<file size="391" time="1988-01-31 22:00:00" attr="0x20" md5="3ab97fcd63d56183c71bbb43cf331176">OS2.INC</file>
+		<file size="5119" time="1988-01-31 22:00:00" attr="0x20" md5="512b686caf37af26b64482678b628d22">OS2DEF.INC</file>
+		<file size="1069" time="1988-01-31 22:00:00" attr="0x20" md5="34aa7941dbb0937cb2e1e3bf0815e72e">OS2PATCH.EXE</file>
+		<file size="11504" time="1988-01-31 22:00:00" attr="0x20" md5="a25e8fbc8571efb7c7a20bec90668523">PAGERP.ASM</file>
+		<file size="188" time="1988-01-31 22:00:00" attr="0x20" md5="61ba5a2f462542f2f91f623348901b1e">PTRACE87.PAT</file>
+		<file size="379" time="1988-01-31 22:00:00" attr="0x20" md5="a2d58836f721bc6c790e7dc833122218">SHOW</file>
+		<file size="15079" time="1988-01-31 22:00:00" attr="0x20" md5="3c5e5b90619fdb6df80e73a10aaae7bf">SHOWP.ASM</file>
+		<file size="18" time="1988-01-31 22:00:00" attr="0x20" md5="24248611fa31c75acd7cfaf01069047a">SHOWS.DEF</file>
 	</disk>
 	<disk id="disk06" size="368640" chs="40:2:9" img="archive/private/MASM51A-UPDATE.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51A-UPDATE.json" md5="5048f31119457f3d6a46018e93f5c8b9" md5json="e27a58274843028ea62c7dabed142d5b">
 		<name>MS Macro Assembler 5.10A</name>
-		<file size="102" time="1990-03-19 11:15:40" attr="0x10">BINB</file>
-		<file size="124448" time="1989-01-16 10:11:18" attr="0x20" dir="BINB/">MASM.EXE</file>
-		<file size="110937" time="1989-01-16 10:16:52" attr="0x20">MASM.EXE</file>
-		<file size="3951" time="1990-03-10 15:06:28" attr="0x20">README.DOC</file>
+		<file size="96" time="1990-03-19 11:15:40" attr="0x10">BINB</file>
+		<file size="124448" time="1989-01-16 10:11:18" attr="0x20" md5="20ca57a959cd487ddb1eeeafd3f99964" dir="BINB/">MASM.EXE</file>
+		<file size="110937" time="1989-01-16 10:16:52" attr="0x20" md5="03671c1240696672ef413817c62a8e6e">MASM.EXE</file>
+		<file size="3951" time="1990-03-10 15:06:28" attr="0x20" md5="c464d2701c53d7b3e9ce9128e41e282a">README.DOC</file>
 	</disk>
 </manifest>

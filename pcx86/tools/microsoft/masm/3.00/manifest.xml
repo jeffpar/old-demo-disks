@@ -9,13 +9,13 @@
 	<company>Microsoft</company>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM-016014-300.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/3.00/MASM-016014-300.json" md5="4051aa0ca1d19c1e30623b8aac9d3e74" md5json="c7ed72242b137fca677c25e0e77021b8">
 		<name>MS Macro Assembler 3.00</name>
-		<file size="10544" time="1984-11-21 13:51:20" attr="0x20">CREF.EXE</file>
-		<file size="24138" time="1984-10-31 15:57:24" attr="0x20">LIB.EXE</file>
-		<file size="41114" time="1984-11-14 13:48:18" attr="0x20">LINK.EXE</file>
-		<file size="18675" time="1984-08-13 01:24:48" attr="0x20">MAKE.EXE</file>
-		<file size="17290" time="1984-11-09 15:22:42" attr="0x20">MAPSYM.EXE</file>
-		<file size="77362" time="1984-11-21 13:49:36" attr="0x20">MASM.EXE</file>
-		<file size="4085" time="1984-12-07 13:30:46" attr="0x20">README.DOC</file>
-		<file size="27136" time="1984-12-07 12:39:20" attr="0x20">SYMDEB.EXE</file>
+		<file size="10544" time="1984-11-21 13:51:20" attr="0x20" md5="90b38e765d0ee2c6246b8d02673e2142">CREF.EXE</file>
+		<file size="24138" time="1984-10-31 15:57:24" attr="0x20" md5="4b24d4a230a9c8e80a9efc3ca42f7a96">LIB.EXE</file>
+		<file size="41114" time="1984-11-14 13:48:18" attr="0x20" md5="f65977533cb8bd660fbeb50da0f4ada4">LINK.EXE</file>
+		<file size="18675" time="1984-08-13 00:24:48" attr="0x20" md5="c29cc08d0755df1e9780b29fa82dc89b">MAKE.EXE</file>
+		<file size="17290" time="1984-11-09 15:22:42" attr="0x20" md5="f264d1b5c492f53d5685f06daee38ddb">MAPSYM.EXE</file>
+		<file size="77362" time="1984-11-21 13:49:36" attr="0x20" md5="3ba4307324e6595fe2dcf621b21f0b15">MASM.EXE</file>
+		<file size="4085" time="1984-12-07 13:30:46" attr="0x20" md5="532bb75376211539302966ce81854579">README.DOC</file>
+		<file size="27136" time="1984-12-07 12:39:20" attr="0x20" md5="ac47f062a577efbf6ff3eeef6f1e4397">SYMDEB.EXE</file>
 	</disk>
 </manifest>

@@ -7,9 +7,9 @@
 	<category>Assembler</category>
 	<language>x86</language>
 	<company>Microsoft</company>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/MASM100.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/1.00/MASM100.json" md5="5bd35dfd065544c2fc602974ea9b4186" md5json="698926f454c3a30f8d6f25bc2fec2177">
-		<name>MS Macro Assembler 1.00</name>
-		<file size="41216" time="1982-02-04 12:47:30" attr="0x20">LINK.EXE</file>
-		<file size="67840" time="1982-02-05 11:49:50" attr="0x20">M.EXE</file>
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/MASM100.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/1.00/MASM100.json" md5="62fff5ff7809b692d3102fd9ff600e03" md5json="5fce39bd05e68e1658f2ce33a057a95e">
+		<name>MS Macro Assembler 1.00 (1982)</name>
+		<file size="41216" time="1982-02-04 12:47:30" attr="0x20" md5="4b7103c786e1f34431db0940bf2d9b95">LINK.EXE</file>
+		<file size="67840" time="1982-02-05 11:49:50" attr="0x20" md5="82e78c6a076a3c581c5df33bc7766de8">M.EXE</file>
 	</disk>
 </manifest>

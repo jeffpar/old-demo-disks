@@ -10,16 +10,16 @@
 	<releaseDate/>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM-016014-400.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/4.00/MASM-016014-400.json" md5="19fddc03d66a3a4dcdbb081cfb755df0" md5json="fd414c724dff728ef64748bc767d227d">
 		<name>MS Macro Assembler 4.00</name>
-		<file size="5965" time="1985-10-16 04:00:00" attr="0x20">COUNT.ASM</file>
-		<file size="15028" time="1985-10-16 04:00:00" attr="0x20">CREF.EXE</file>
-		<file size="11034" time="1985-10-16 04:00:00" attr="0x20">EXEMOD.EXE</file>
-		<file size="10848" time="1985-10-16 04:00:00" attr="0x20">EXEPACK.EXE</file>
-		<file size="28716" time="1985-10-16 04:00:00" attr="0x20">LIB.EXE</file>
-		<file size="43988" time="1985-10-16 04:00:00" attr="0x20">LINK.EXE</file>
-		<file size="24300" time="1985-10-16 04:00:00" attr="0x20">MAKE.EXE</file>
-		<file size="18026" time="1985-10-16 04:00:00" attr="0x20">MAPSYM.EXE</file>
-		<file size="85566" time="1985-10-16 04:00:00" attr="0x20">MASM.EXE</file>
-		<file size="7630" time="1985-10-16 04:00:04" attr="0x20">README.DOC</file>
-		<file size="37021" time="1985-10-16 04:00:00" attr="0x20">SYMDEB.EXE</file>
+		<file size="5965" time="1985-10-16 03:00:00" attr="0x20" md5="d64ef892e36adca8110bfd11d8cde7df">COUNT.ASM</file>
+		<file size="15028" time="1985-10-16 03:00:00" attr="0x20" md5="623326ef32092eae00ae66157924583f">CREF.EXE</file>
+		<file size="11034" time="1985-10-16 03:00:00" attr="0x20" md5="20d3a56c3af48ba71ca3a98640d23861">EXEMOD.EXE</file>
+		<file size="10848" time="1985-10-16 03:00:00" attr="0x20" md5="b861320fbbf550efa0ea287a18560334">EXEPACK.EXE</file>
+		<file size="28716" time="1985-10-16 03:00:00" attr="0x20" md5="678af0b257c39a0ffc6e84ba2b0c998d">LIB.EXE</file>
+		<file size="43988" time="1985-10-16 03:00:00" attr="0x20" md5="3852ab474b22e0045dad6b2753d30921">LINK.EXE</file>
+		<file size="24300" time="1985-10-16 03:00:00" attr="0x20" md5="3ba94076b767a5764b7ec8acef3e8e47">MAKE.EXE</file>
+		<file size="18026" time="1985-10-16 03:00:00" attr="0x20" md5="5a4cfb4ad216ee035c0bc54c868b5a35">MAPSYM.EXE</file>
+		<file size="85566" time="1985-10-16 03:00:00" attr="0x20" md5="51dc11f7a303f3d25809e5e9f36d05eb">MASM.EXE</file>
+		<file size="7630" time="1985-10-16 03:00:04" attr="0x20" md5="ac8da802101c6f102243a6cd1ab04174">README.DOC</file>
+		<file size="37021" time="1985-10-16 03:00:00" attr="0x20" md5="ab822e626dbd9880a500d1ed01419115">SYMDEB.EXE</file>
 	</disk>
 </manifest>

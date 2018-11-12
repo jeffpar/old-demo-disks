@@ -192,6 +192,7 @@
 		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/4.50/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/5.00/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/norton/6.01/manifest.xml"/>
+		<manifest ref="/pcjs-disks/pcx86/tools/other/objasm/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/omniview/4.30/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/1.03/manifest.xml"/>
 		<manifest ref="/pcjs-disks/pcx86/tools/other/pctools/4.30/manifest.xml"/>

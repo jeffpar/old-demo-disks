@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.5/manifest.xsl"?>
+<manifest type="software">
+	<title>OBJASM</title>
+	<version>2.0</version>
+	<releaseDate>January 3, 1991</releaseDate>
+	<author>Robert F. Day</author>
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/bin" href="/pcjs-disks/pcx86/tools/other/objasm/OBJASM-BIN.json" md5="b2ba98042f78e9567be4d75492875db8" md5json="49562aae428a3c0c4d983ef603834103">
+		<name>OBJASM 2.0 (Bin)</name>
+		<file size="20019" time="1990-12-22 15:54:10" attr="0x20" md5="d61ac4f369a9260c125757ff6d266ca8">OBJASM.DOC</file>
+		<file size="98915" time="1993-08-13 10:51:22" attr="0x20" md5="3b726d9075fda31d5a97b7b11aa2623a">OBJASM.EXE</file>
+		<file size="125440" time="1993-08-13 07:49:14" attr="0x20" md5="239f0f79562a83e1b2dc418b7d0ac5c4">OBJUNARC.EXE</file>
+		<file size="5986" time="1991-01-28 12:59:20" attr="0x20" md5="aa294fb11f0d3d802d9ec5224fdd040d">READ.ME</file>
+	</disk>
+	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/src" href="/pcjs-disks/pcx86/tools/other/objasm/OBJASM-SRC.json" md5="21be4a8ec5dcb9225d210a629d976672" md5json="eb9ae9d8c7cba9c11822b1d3f516689e">
+		<name>OBJASM 2.0 (Src)</name>
+		<file size="2592" time="1990-11-09 13:25:42" attr="0x20" md5="61b897434720739f8cc480c60337a8ad">O</file>
+		<file size="17544" time="1990-12-12 14:29:00" attr="0x20" md5="f6d5897d78b64cb9478c821b10163c56">O.H</file>
+		<file size="335" time="1990-11-09 13:26:00" attr="0x20" md5="79b976d98a0f5ff110475871432ef3e8">OBJASM.LRF</file>
+		<file size="59149" time="1991-01-12 09:59:04" attr="0x20" md5="6325306aa0c64fb7080c6e4e4042e2ac">ODISASM.C</file>
+		<file size="3553" time="1990-11-15 06:36:44" attr="0x20" md5="0836fe37fe9f650626c85c9b6357105b">ODISFP.C</file>
+		<file size="10583" time="1990-12-19 11:28:16" attr="0x20" md5="fb17c62fa3a18dbf20443eb72d7ccef8">OEXTRA.C</file>
+		<file size="17392" time="1991-01-03 14:02:30" attr="0x20" md5="ca279985d5b7ba713bd47ed43dfb92cd">OMAIN.C</file>
+		<file size="3573" time="1990-10-02 01:05:26" attr="0x20" md5="c694f9bc4d18f7107ec14a26d3b9e084">OOUTPUT.C</file>
+		<file size="35990" time="1990-12-19 11:35:34" attr="0x20" md5="b2856de8ced41f0cdfcf1d2a7006b484">OPROCESS.C</file>
+		<file size="1823" time="1990-07-02 14:25:18" attr="0x20" md5="a39ece7471070d044499c47cce066c6e">ORCOMDEF.C</file>
+		<file size="5041" time="1990-11-17 07:37:58" attr="0x20" md5="52a58e7603852d1caaf9deca107fbbf9">ORCOMENT.C</file>
+		<file size="6802" time="1990-11-03 07:26:52" attr="0x20" md5="cbcb69ff081985382c1e7995e549b648">OREPORT.C</file>
+		<file size="1649" time="1990-09-28 00:55:52" attr="0x20" md5="79ffdf9e7987ce7512f9a38402239964">OREXTDEF.C</file>
+		<file size="6728" time="1990-10-14 09:30:42" attr="0x20" md5="b61002ec7d8987ece43fe2f1a91fe430">ORFIXUPP.C</file>
+		<file size="4293" time="1990-10-04 10:30:08" attr="0x20" md5="fbbe451f6ec6b44578080ff66997b51b">ORGRPDEF.C</file>
+		<file size="2567" time="1990-11-02 10:04:56" attr="0x20" md5="a23f5be541b7acb2e51d83712370f590">ORLEDATA.C</file>
+		<file size="1215" time="1990-09-15 06:56:14" attr="0x20" md5="4f89ae800c8586c2b51b3a7fbb32e3b2">ORLIDATA.C</file>
+		<file size="1018" time="1990-02-25 08:03:18" attr="0x20" md5="c34c59c429b72c568a662d0a34c922a5">ORLNAMES.C</file>
+		<file size="481" time="1990-02-25 10:19:56" attr="0x20" md5="314ce99e9a4ec9c795a1e97947b9ad6f">ORMODEND.C</file>
+		<file size="2122" time="1990-11-03 03:17:54" attr="0x20" md5="a1fd6e18af64e697c66eef12df50a672">ORPUBDEF.C</file>
+		<file size="5909" time="1990-11-15 06:27:26" attr="0x20" md5="116d7366ba43911a3d8407441c95335d">ORSEGDEF.C</file>
+		<file size="397" time="1989-05-23 16:57:10" attr="0x20" md5="76e87fcb18025aa03f487e908b574267">ORTHEADR.C</file>
+		<file size="7362" time="1990-10-08 01:05:34" attr="0x20" md5="4c46c3045b3ab5cb033954a2bd886222">OUBUFF.C</file>
+		<file size="1752" time="1990-11-15 08:41:10" attr="0x20" md5="a518c6f984154991c77571b7b21ad3dd">OUFIND.C</file>
+		<file size="194" time="1990-02-25 07:40:52" attr="0x20" md5="1fcca27a95d289533db4e96191c81cdc">OUFMTERR.C</file>
+		<file size="1409" time="1990-02-25 07:33:16" attr="0x20" md5="4ea5ee94122948fa154fea2ab12bc730">OUGET.C</file>
+		<file size="3547" time="1990-12-05 16:05:10" attr="0x20" md5="7d6d5fc6340b2be49334cab4ac3f21e3">OUINITRE.C</file>
+		<file size="6585" time="1990-05-18 15:48:50" attr="0x20" md5="63df839c29e66a78beb2ac64b666b46d">OUINSERT.C</file>
+		<file size="324" time="1990-02-25 07:36:30" attr="0x20" md5="47354a879dc4a2f7ad203164a9151386">OUMALLOC.C</file>
+		<file size="670" time="1989-05-23 16:57:12" attr="0x20" md5="9baa9655be08b3d94c88bbfe6d17bb0a">OUNEWTRE.C</file>
+		<file size="1053" time="1990-09-27 14:22:04" attr="0x20" md5="d6df4748e07236c6327e90bfffce6d55">OUSEGEXT.C</file>
+		<file size="2660" time="1990-12-10 17:56:56" attr="0x20" md5="2964d2991a364db35d9b7714ac876ffb">OUSIZE.C</file>
+		<file size="996" time="1990-11-03 03:20:54" attr="0x20" md5="5b0313d035ade1049a2eb1f31e2036fd">OUSTRUCT.C</file>
+		<file size="44081" time="1991-01-03 13:33:44" attr="0x20" md5="bee3f1e9dad35733dce136de36bd8daa">OUTABLE.C</file>
+		<file size="20940" time="1990-11-10 04:15:34" attr="0x20" md5="0c7b230a3dd449dff619686b496a5071">OUTARGET.C</file>
+		<file size="826" time="1989-05-23 16:57:12" attr="0x20" md5="5b92a075fca50048d4cbaa94c85839c1">OUTRAVER.C</file>
+	</disk>
+</manifest>

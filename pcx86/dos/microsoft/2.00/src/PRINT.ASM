@@ -23,9 +23,9 @@
 FALSE   EQU     0
 TRUE    EQU     NOT FALSE
 
-IBM     EQU     FALSE
+IBM     EQU     TRUE
 IBMVER  EQU     IBM
-MSVER   EQU     TRUE
+MSVER   EQU     FALSE
 
         IF      MSVER
 HARDINT EQU     FALSE           ;No hardware ints
@@ -104,7 +104,7 @@ COMINT  EQU     2FH             ;Communications interrupt used by PRINT
 BLKSIZ  EQU     512             ;Size of the PRINT I/O block in bytes
 FCBSIZ  EQU     40              ;Size of an FCB
 
-        INCLUDE DOST:DOSSYM.ASM
+        INCLUDE DOSSYM.ASM
 
 FCB     EQU     5CH
 PARMS   EQU     80H
@@ -1240,7 +1240,7 @@ TRANSIENT:
 ;       INT     21H
 
 DOSVER_LOW      EQU  0136H   ;1.54 in hex
-DOSVER_HIGH     EQU  0200H   ;2.00 in hex
+DOSVER_HIGH     EQU  020BH   ;2.11 in hex
         MOV     AH,GET_VERSION
         INT     21H
         XCHG    AH,AL           ;Turn it around to AH.AL
@@ -1642,4 +1642,4 @@ move_char endp
 
 CODE    ENDS
         END     START
-                                                                                                  
+

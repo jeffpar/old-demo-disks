@@ -54,8 +54,8 @@ ASSUME  ES:DOSGROUP
 ;
 ; set up memory arena
 ;SPECIAL NOTE FOR HIGHMEM VERSION
-; At this point a process header has been built where the start of the 
-; CONSTANTS segment as refed by CS is. From this point until the return 
+; At this point a process header has been built where the start of the
+; CONSTANTS segment as refed by CS is. From this point until the return
 ; below be careful about references off of CS.
 ;
         PUSH    AX
@@ -273,7 +273,7 @@ ASSUME  DS:NOTHING,ES:NOTHING
         MOV     WORD PTR DS:[ENTRYPOINT+1],OFFSET DOSGROUP:CALL_ENTRY
         MOV     WORD PTR DS:[ENTRYPOINT+3],AX
         EXTRN   DIVOV:near
-        MOV     WORD PTR DS:[0],OFFSET DOSGROUP:DIVOV   ; Set default divide 
+        MOV     WORD PTR DS:[0],OFFSET DOSGROUP:DIVOV   ; Set default divide
 							; trap address
         MOV     DS:[2],AX
         MOV     CX,17
@@ -289,7 +289,7 @@ ASSUME  DS:NOTHING,ES:NOTHING
         MOV     WORD PTR DS:[addr_int_command],OFFSET DOSGROUP:COMMAND
         MOV     WORD PTR DS:[addr_int_terminate],100H
         MOV     WORD PTR DS:[addr_int_terminate+2],DX
-        MOV     WORD PTR DS:[addr_int_ctrl_c],OFFSET DOSGROUP:IRET   
+        MOV     WORD PTR DS:[addr_int_ctrl_c],OFFSET DOSGROUP:IRET
 							; Ctrl-C exit
         MOV     WORD PTR DS:[addr_int_fatal_abort],OFFSET DOSGROUP:IRET
 							; Fatal error exit
@@ -365,7 +365,7 @@ ASSUME  ES:DOSGROUP
         MOV     DI,WORD PTR [DPBHEAD]   ; Place to move DPBs to
         SUB     CX,DI                   ; Total length of DPBs
         CMP     DI,SI
-        JBE     MOVJMP                  ; Are we moving to higher or 
+        JBE     MOVJMP                  ; Are we moving to higher or
 					; lower memory?
         DEC     CX                      ; Move backwards to higher memory
         ADD     DI,CX
@@ -405,4 +405,3 @@ ADJFAC  EQU     MEMSTRT-SYSBUF
 
         do_ext
 LAST    ENDS
-

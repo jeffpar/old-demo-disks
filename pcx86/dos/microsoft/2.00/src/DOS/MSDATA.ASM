@@ -102,7 +102,7 @@ SYSINITVAR  LABEL   WORD
 MAXSEC      DW      0                   ; Maximum allowed sector size
         I_AM    BUFFHEAD,DWORD          ; Pointer to head of buffer queue
 DEVHEAD LABEL   DWORD
-        I_AM    NULDEV,DWORD            ; Set to list start passed by 
+        I_AM    NULDEV,DWORD            ; Set to list start passed by
 					; BIOS at DOS Init
 
         DW      DEVTYP OR ISNULL
@@ -198,7 +198,7 @@ DSKSTCNT        DW      1
         i_am    MONTAB,12
         ORG     $-CONSTRT-12
         DB      31                      ; January
-        DB      28                      ; February--reset each 
+        DB      28                      ; February--reset each
 					; time year changes
         DB      31                      ; March
         DB      30                      ; April
@@ -259,7 +259,7 @@ DEVFCB  LABEL   BYTE                ; Uses NAME1, NAME2, NAME3 combined
         I_AM    user_SP,WORD
         I_AM    user_SS,WORD
         I_AM    CONTSTK,WORD
-        I_AM    SECCLUSPOS,BYTE         ; Position of first sector 
+        I_AM    SECCLUSPOS,BYTE         ; Position of first sector
 					; within cluster
         I_AM    DSKERR,BYTE
         I_AM    TRANS,BYTE
@@ -338,5 +338,3 @@ NSP         DW      ?
 
 PAGE
         INCLUDE MSINIT.ASM
-
-

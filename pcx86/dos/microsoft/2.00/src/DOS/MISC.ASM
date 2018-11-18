@@ -429,7 +429,7 @@ entry   RAWOUT
         PUSH    DS
         PUSH    SI
         LDS     SI,DWORD PTR [SI.fcb_FIRCLUS]   ; output to special?
-        TEST    BYTE PTR [SI+SDEVATT],ISSPEC
+        TEST    BYTE PTR [SI+SDEVATT],ISIBM
         POP     SI
         POP     DS
         JZ      RAWNORM                         ; if not, do normally
@@ -645,4 +645,3 @@ $CREATE_PROCESS_DATA_BLOCK ENDP
 
  CODE   ENDS
         END
-                                                                            

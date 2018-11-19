@@ -57,7 +57,7 @@ ASSUME  CS:TRANGROUP,DS:NOTHING,ES:NOTHING,SS:NOTHING
         PUBLIC  $MKDIR,VERSION,RESTUDIR1
         PUBLIC  RESTUDIR,CRLF2,ERASE
         PUBLIC  volume,date,P_date,PAUSE
- 
+
 
 CATALOG:
         CALL    OKVOLARG
@@ -999,4 +999,3 @@ NEXT:
 
 TRANCODE        ENDS
                 END
-                                                                                                                   

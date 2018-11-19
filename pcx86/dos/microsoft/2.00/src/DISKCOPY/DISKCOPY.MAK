@@ -1,5 +1,5 @@
 .ASM.OBJ:
-    MASM /I..\INC $*,$@;
+    MASM /DOEM$(OEM) /DVER$(VER) /I..\INC $*.ASM,$@,$*.LST;
 
 DISKCOPY.OBJ: DISKCOPY.ASM
 

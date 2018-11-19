@@ -3,9 +3,9 @@
 
 IF1
     IF IBM
-        %OUT IBM version
+;;      %OUT IBM version
     ELSE
-        %OUT Normal version
+;;      %OUT Normal version
     ENDIF
 
     IF   HIGHMEM

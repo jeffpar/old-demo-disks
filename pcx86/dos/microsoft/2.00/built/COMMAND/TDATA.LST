@@ -1,0 +1,686 @@
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-1
+                                                            
+
+                                TITLE   COMMAND Transient Initialized DATA 
+                                 
+                             C          INCLUDE COMSW.ASM 
+                             C  ; Use the following booleans to set assembly fl
+				ags 
+ = 0000                      C  FALSE   EQU     0 
+ = FFFF                      C  TRUE    EQU     NOT FALSE 
+                             C   
+                             C  ENDIF 
+                             C   
+ =                           C  IBMVER  EQU     IBM  	; Switch to build IBM ver
+				sion of Command 
+ = 0000                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
+				S version of Command 
+                             C   
+ =                           C  HIGHMEM EQU     FALSE   ; Run resident part abo
+				ve transient (high memory) 
+ =                           C  KANJI   EQU     FALSE   ; Support for dual byte
+				 Microsoft KANJI standard 
+ =                           C  IBMJAPAN        EQU     FALSE   ;MUST BE TRUE (
+				along with IBM and KANJI) 
+                                 
+                                .list 
+                                .cref 
+                                 
+                             C          INCLUDE IFEQU.ASM 
+                             C  ;************************************* 
+                             C  ; COMMAND EQUs which are switch dependant 
+                             C   
+                             C  ENDIF 
+                                 
+                                 
+ 0000                           TRANCODE        SEGMENT PUBLIC 
+                                        EXTRN   PRINT_DATE:NEAR,PRINT_TIME:NEAR
+				,PRINT_DEFAULT_DIRECTORY:NEAR 
+                                        EXTRN   PRINT_DRIVE:NEAR,PRINT_VERSION:
+				NEAR,PRINT_G:NEAR 
+                                        EXTRN   PRINT_L:NEAR,PRINT_B:NEAR,CRLF2
+				:NEAR,OUT:NEAR,PRINT_ESC:NEAR 
+                                        EXTRN   PRINT_BACK:NEAR,PRINT_EQ:NEAR 
+                                 
+                                        EXTRN   IFNOT:NEAR,IFERLEV:NEAR,IFEXIST
+				S:NEAR 
+                                 
+                                        EXTRN   CATALOG:NEAR,CRENAME:NEAR,ERASE
+				:NEAR,TYPEFIL:NEAR 
+                                        EXTRN   TCOMMAND:NEAR,COPY:NEAR,PAUSE:N
+				EAR,DATE:NEAR,CTIME:NEAR 
+                                        EXTRN   VERSION:NEAR,VOLUME:NEAR,$CHDIR
+				:NEAR,$MKDIR:NEAR,$RMDIR:NEAR 
+                                        EXTRN   CNTRLC:NEAR,VERIFY:NEAR,ADD_NAM
+				E_TO_ENVIRONMENT:NEAR 
+                                        EXTRN   ADD_PROMPT:NEAR,PATH:NEAR,$EXIT
+				:NEAR,CTTY:NEAR,ECHO:NEAR 
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-2
+                                                            
+
+                                        EXTRN   GOTO:NEAR,SHIFT:NEAR,$IF:NEAR,$
+				FOR:NEAR,CLS:NEAR 
+ 0000                           TRANCODE        ENDS 
+                                 
+                                ; Data for transient portion 
+                                 
+ 0000                           TRANDATA        SEGMENT PUBLIC BYTE 
+                                 
+                                        PUBLIC  BADBAT,NEEDBAT,BADNAM,RENERR,NO
+				TFND,NOSPACE,ENVERR,FULDIR 
+                                        PUBLIC  OVERWR,LOSTERR,DIRMES_PRE,DIRME
+				S_POST,BADDRV,PAUSEMES,BADSWT 
+                                        PUBLIC  COPIED_PRE,COPIED_POST,BYTMES_P
+				RE,BYTMES_POST 
+                                        PUBLIC  WEEKTAB,BADDAT,NEWDAT,BADTIM,NE
+				WTIM,SUREMES,CURDAT_MID 
+                                        PUBLIC  CURDAT_PRE,CURDAT_POST,CURTIM_P
+				RE,CURTIM_POST,VERMES_POST 
+                                        PUBLIC  DMES,VERMES_PRE,VOLMES,GOTVOL,N
+				OVOL,BADCD,BADMKD,BADRMD 
+                                        PUBLIC  BAD_ON_OFF,NULPATH,PATH_TEXT,PR
+				OMPT_TEXT,BADPMES 
+                                        PUBLIC  BADDEV,BADLAB,SYNTMES,FORNESTME
+				S,PIPEEMES,INBDEV,OFFMES 
+                                        PUBLIC  ONMES,CTRLCMES,VERIMES,ECHOMES,
+				BADCPMES,BADARGS,DEVWMES 
+                                        PUBLIC  ACRLF,DBACK,CLSSTRING,PROMPT_TA
+				BLE,IFTAB,COMTAB 
+                                        PUBLIC  TRANDATAEND,DIRHEAD_PRE,DIRHEAD
+				_POST 
+                                 
+ 0000                                   ORG     0 
+ = 0000                         ZERO    =       $ 
+ 0000  0D 0A 42 61 74 63 68     BADBAT  DB      13,10,"Batch file missing",13,1
+				0,"$" 
+       20 66 69 6C 65 20 6D     
+       69 73 73 69 6E 67 0D     
+       0A 24                    
+ 0017  0D 0A 49 6E 73 65 72     NEEDBAT DB      13,10,"Insert disk with batch f
+				ile" 
+       74 20 64 69 73 6B 20     
+       77 69 74 68 20 62 61     
+       74 63 68 20 66 69 6C     
+       65                       
+ 0034  0D 0A 61 6E 64 20 70             DB      13,10,"and press any key when r
+				eady",13,10,"$" 
+       72 65 73 73 20 61 6E     
+       79 20 6B 65 79 20 77     
+       68 65 6E 20 72 65 61     
+       64 79 0D 0A 24           
+ 0055  42 61 64 20 63 6F 6D     BADNAM  DB      "Bad command or file name",13,1
+				0,"$" 
+       6D 61 6E 64 20 6F 72     
+       20 66 69 6C 65 20 6E     
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-3
+                                                            
+
+       61 6D 65 0D 0A 24        
+ 0070  44 75 70 6C 69 63 61     RENERR  DB      "Duplicate file name or " 
+       74 65 20 66 69 6C 65     
+       20 6E 61 6D 65 20 6F     
+       72 20                    
+ 0087  46 69 6C 65 20 6E 6F     NOTFND  DB      "File not found",13,10,"$" 
+       74 20 66 6F 75 6E 64     
+       0D 0A 24                 
+ 0098  49 6E 73 75 66 66 69     NOSPACE DB      "Insufficient disk space",13,10
+				,"$" 
+       63 69 65 6E 74 20 64     
+       69 73 6B 20 73 70 61     
+       63 65 0D 0A 24           
+ 00B2  4F 75 74 20 6F 66 20     ENVERR  DB      "Out of environment space",13,1
+				0,"$" 
+       65 6E 76 69 72 6F 6E     
+       6D 65 6E 74 20 73 70     
+       61 63 65 0D 0A 24        
+ 00CD  46 69 6C 65 20 63 72     FULDIR  DB      "File creation error",13,10,"$"
+				 
+       65 61 74 69 6F 6E 20     
+       65 72 72 6F 72 0D 0A     
+       24                       
+ 00E3  46 69 6C 65 20 63 61     OVERWR  DB      "File cannot be copied onto its
+				elf",13,10,"$" 
+       6E 6E 6F 74 20 62 65     
+       20 63 6F 70 69 65 64     
+       20 6F 6E 74 6F 20 69     
+       74 73 65 6C 66 0D 0A     
+       24                       
+ 0107  43 6F 6E 74 65 6E 74     LOSTERR DB      "Content of destination lost be
+				fore copy",13,10,"$" 
+       20 6F 66 20 64 65 73     
+       74 69 6E 61 74 69 6F     
+       6E 20 6C 6F 73 74 20     
+       62 65 66 6F 72 65 20     
+       63 6F 70 79 0D 0A 24     
+                                 
+                                ;"COPIED_PRE<# files copied>COPIED_POST" 
+ 0131  20 46 69 6C 65 28 73     COPIED_POST  DB      " File(s) copied",13,10 
+       29 20 63 6F 70 69 65     
+       64 0D 0A                 
+ 0142  24                       COPIED_PRE   DB      "$" 
+                                 
+                                ;"DIRMES_PRE<# files in dir>DIRMES_POST" 
+ 0143  20 46 69 6C 65 28 73     DIRMES_POST  DB      " File(s) " 
+       29 20                    
+ 014C  24                       DIRMES_PRE   DB      "$" 
+                                 
+                                ;"BYTMES_PRE<# free bytes>BYTMES_POST" 
+ 014D  20 62 79 74 65 73 20     BYTMES_POST  DB      " bytes free",13,10 
+       66 72 65 65 0D 0A        
+ 015A  24                       BYTMES_PRE   DB      "$" 
+                                 
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-4
+                                                            
+
+ 015B  49 6E 76 61 6C 69 64     BADDRV  DB      "Invalid drive specification",1
+				3,10,"$" 
+       20 64 72 69 76 65 20     
+       73 70 65 63 69 66 69     
+       63 61 74 69 6F 6E 0D     
+       0A 24                    
+ 0179  53 74 72 69 6B 65 20     PAUSEMES DB      "Strike a key when ready . . .
+				 $" 
+       61 20 6B 65 79 20 77     
+       68 65 6E 20 72 65 61     
+       64 79 20 2E 20 2E 20     
+       2E 20 24                 
+ 0198  49 6E 76 61 6C 69 64     BADSWT  DB      "Invalid parameter",13,10,"$" 
+       20 70 61 72 61 6D 65     
+       74 65 72 0D 0A 24        
+ 01AC  53 75 6E 4D 6F 6E 54     WEEKTAB DB      "SunMonTueWedThuFriSat" 
+       75 65 57 65 64 54 68     
+       75 46 72 69 53 61 74     
+                                
+ 01C1  0D 0A 49 6E 76 61 6C     BADDAT  DB      13,10,"Invalid date$" 
+       69 64 20 64 61 74 65     
+       24                       
+                                 
+                                ;"CURDAT_PRE<day of week>CURDAT_MID<MO,DAY,YR>C
+				URDAT_POST" 
+                                ;Note: CURDAT_MID also appears in the date prin
+				ted via PROMPT command 
+ 01D0  43 75 72 72 65 6E 74     CURDAT_PRE   DB      "Current date is " 
+       20 64 61 74 65 20 69     
+       73 20                    
+ 01E0                           CURDAT_MID   LABEL   BYTE 
+ 01E0  24                       CURDAT_POST  DB      "$" 
+                                 
+ 01E1  0D 0A 45 6E 74 65 72     NEWDAT  DB      13,10,"Enter new date: $" 
+       20 6E 65 77 20 64 61     
+       74 65 3A 20 24           
+ 01F4  0D 0A 49 6E 76 61 6C     BADTIM  DB      13,10,"Invalid time$" 
+       69 64 20 74 69 6D 65     
+       24                       
+                                 
+                                ;"CURTIM_PRE<HR,MIN,SEC,HSEC>CURTIM_POST" 
+ 0203  43 75 72 72 65 6E 74     CURTIM_PRE   DB      "Current time is " 
+       20 74 69 6D 65 20 69     
+       73 20                    
+ 0213  24                       CURTIM_POST  DB      "$" 
+                                 
+ 0214  0D 0A 45 6E 74 65 72     NEWTIM  DB      13,10,"Enter new time: $" 
+       20 6E 65 77 20 74 69     
+       6D 65 3A 20 24           
+ 0227  41 72 65 20 79 6F 75     SUREMES DB      "Are you sure (Y/N)? $" 
+       20 73 75 72 65 20 28     
+       59 2F 4E 29 3F 20 24     
+                                
+ 023C  20 3C 44 49 52 3E 20     DMES    DB      " <DIR>   $" 
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-5
+                                                            
+
+       20 20 24                 
+                                 
+                                ;"VERMES_PRE<version #>VERMES_POST" 
+                                        IF      IBMVER 
+ 0246  54 65 6C 65 56 69 64     VERMES_PRE  DB      "TeleVideo Personal Compute
+				r DOS Version " 
+       65 6F 20 50 65 72 73     
+       6F 6E 61 6C 20 43 6F     
+       6D 70 75 74 65 72 20     
+       44 4F 53 20 56 65 72     
+       73 69 6F 6E 20           
+                                        ENDIF 
+                                        ENDIF 
+ 026E  24                       VERMES_POST DB      "$" 
+                                 
+ 026F  20 56 6F 6C 75 6D 65     VOLMES  DB      " Volume in drive $" 
+       20 69 6E 20 64 72 69     
+       76 65 20 24              
+ 0281  20 69 73 20 24           GOTVOL  DB      " is $" 
+ 0286  20 68 61 73 20 6E 6F     NOVOL   DB      " has no label$" 
+       20 6C 61 62 65 6C 24     
+                                
+                                 
+ 0294  49 6E 76 61 6C 69 64     BADCD   DB      "Invalid directory",13,10,"$" 
+       20 64 69 72 65 63 74     
+       6F 72 79 0D 0A 24        
+ 02A8  55 6E 61 62 6C 65 20     BADMKD  DB      "Unable to create directory",13
+				,10,"$" 
+       74 6F 20 63 72 65 61     
+       74 65 20 64 69 72 65     
+       63 74 6F 72 79 0D 0A     
+       24                       
+ 02C5  49 6E 76 61 6C 69 64     BADRMD  DB      "Invalid path, not directory,",
+				13,10 
+       20 70 61 74 68 2C 20     
+       6E 6F 74 20 64 69 72     
+       65 63 74 6F 72 79 2C     
+       0D 0A                    
+ 02E3  6F 72 20 64 69 72 65             DB      "or directory not empty",13,10,
+				"$" 
+       63 74 6F 72 79 20 6E     
+       6F 74 20 65 6D 70 74     
+       79 0D 0A 24              
+ 02FC  4D 75 73 74 20 73 70     BAD_ON_OFF DB   "Must specify ON or OFF"       
+				 ;Note Run over to next message 
+       65 63 69 66 79 20 4F     
+       4E 20 6F 72 20 4F 46     
+       46                       
+                                 
+                                ;"DIRHEAD_PRE<path of dir>DIRHEAD_POST" 
+ 0312  0D 0A 24                 DIRHEAD_POST DB      13,10,"$" 
+ 0315  20 44 69 72 65 63 74     DIRHEAD_PRE  DB      " Directory of  $" 
+       6F 72 79 20 6F 66 20     
+       20 24                    
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-6
+                                                            
+
+                                 
+ 0325  4E 6F 20 50 61 74 68     NULPATH DB      "No Path $" 
+       20 24                    
+ 032E  50 41 54 48 3D           PATH_TEXT    DB "PATH=" 
+ 0333  50 52 4F 4D 50 54 3D     PROMPT_TEXT  DB "PROMPT=" 
+                                
+ 033A  49 6E 76 61 6C 69 64     BADPMES DB      "Invalid drive in search path",
+				13,10,"$" 
+       20 64 72 69 76 65 20     
+       69 6E 20 73 65 61 72     
+       63 68 20 70 61 74 68     
+       0D 0A 24                 
+ 0359  49 6E 76 61 6C 69 64     BADDEV  DB      "Invalid device",13,10,"$" 
+       20 64 65 76 69 63 65     
+       0D 0A 24                 
+ 036A  4C 61 62 65 6C 20 6E     BADLAB  DB      "Label not found",13,10,"$" 
+       6F 74 20 66 6F 75 6E     
+       64 0D 0A 24              
+ 037C  53 79 6E 74 61 78 20     SYNTMES DB      "Syntax error",13,10,"$" 
+       65 72 72 6F 72 0D 0A     
+       24                       
+ 038B  0D 46 4F 52 20 63 61     FORNESTMES DB   13,"FOR cannot be nested",13,10
+				,"$" 
+       6E 6E 6F 74 20 62 65     
+       20 6E 65 73 74 65 64     
+       0D 0A 24                 
+ 03A3  49 6E 74 65 72 6D 65     PIPEEMES DB     "Intermediate file error during
+				 pipe",13,10,"$" 
+       64 69 61 74 65 20 66     
+       69 6C 65 20 65 72 72     
+       6F 72 20 64 75 72 69     
+       6E 67 20 70 69 70 65     
+       0D 0A 24                 
+ 03C9  43 61 6E 6E 6F 74 20     INBDEV  DB      "Cannot do binary reads from a 
+				device",13,10,"$" 
+       64 6F 20 62 69 6E 61     
+       72 79 20 72 65 61 64     
+       73 20 66 72 6F 6D 20     
+       61 20 64 65 76 69 63     
+       65 0D 0A 24              
+ 03F0  6F 66 66 0D 0A 24        OFFMES  DB      "off",13,10,"$" 
+ 03F6  6F 6E 0D 0A 24           ONMES   DB      "on",13,10,"$" 
+ 03FB  42 52 45 41 4B 20 69     CTRLCMES DB     "BREAK is $" 
+       73 20 24                 
+ 0405  56 45 52 49 46 59 20     VERIMES DB      "VERIFY is $" 
+       69 73 20 24              
+ 0410  45 43 48 4F 20 69 73     ECHOMES DB      "ECHO is $" 
+       20 24                    
+ 0419  49 6E 76 61 6C 69 64     BADCPMES DB     "Invalid path or file name",13,
+				10,"$" 
+       20 70 61 74 68 20 6F     
+       72 20 66 69 6C 65 20     
+       6E 61 6D 65 0D 0A 24     
+ 0435  49 6E 76 61 6C 69 64     BADARGS DB      "Invalid number of parameters",
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-7
+                                                            
+
+				13,10,"$" 
+       20 6E 75 6D 62 65 72     
+       20 6F 66 20 70 61 72     
+       61 6D 65 74 65 72 73     
+       0D 0A 24                 
+ 0454  45 72 72 6F 72 20 77     DEVWMES DB      "Error writing to device" 
+       72 69 74 69 6E 67 20     
+       74 6F 20 64 65 76 69     
+       63 65                    
+ 046B  0D 0A 24                 ACRLF   DB      13,10,"$" 
+ 046E  08 20 08 00              DBACK   DB      8," ",8,0               ; DESTR
+				UCTIVE BACK SPACE 
+                                 
+ 0472  04 1B 5B 32 4A           CLSSTRING DB    4,01BH,"[2J"            ; ANSI 
+				Clear screen 
+                                 
+ 0477                           PROMPT_TABLE LABEL BYTE 
+ 0477  44                               DB      "D" 
+ 0478  0000 E                           DW      OFFSET TRANGROUP:PRINT_DATE 
+ 047A  54                               DB      "T" 
+ 047B  0000 E                           DW      OFFSET TRANGROUP:PRINT_TIME 
+ 047D  50                               DB      "P" 
+ 047E  0000 E                           DW      OFFSET TRANGROUP:PRINT_DEFAULT_
+				DIRECTORY 
+ 0480  4E                               DB      "N" 
+ 0481  0000 E                           DW      OFFSET TRANGROUP:PRINT_DRIVE 
+ 0483  56                               DB      "V" 
+ 0484  0000 E                           DW      OFFSET TRANGROUP:PRINT_VERSION 
+ 0486  47                               DB      "G" 
+ 0487  0000 E                           DW      OFFSET TRANGROUP:PRINT_G 
+ 0489  4C                               DB      "L" 
+ 048A  0000 E                           DW      OFFSET TRANGROUP:PRINT_L 
+ 048C  42                               DB      "B" 
+ 048D  0000 E                           DW      OFFSET TRANGROUP:PRINT_B 
+ 048F  5F                               DB      "_" 
+ 0490  0000 E                           DW      OFFSET TRANGROUP:CRLF2 
+ 0492  24                               DB      "$" 
+ 0493  0000 E                           DW      OFFSET TRANGROUP:OUT 
+ 0495  45                               DB      "E" 
+ 0496  0000 E                           DW      OFFSET TRANGROUP:PRINT_ESC 
+ 0498  48                               DB      "H" 
+ 0499  0000 E                           DW      OFFSET TRANGROUP:PRINT_BACK 
+ 049B  51                               DB      "Q" 
+ 049C  0000 E                           DW      OFFSET TRANGROUP:PRINT_EQ 
+ 049E  00                               DB      0                       ; NUL T
+				ERMINATED 
+                                 
+ 049F                           IFTAB   LABEL   BYTE                    ; Table
+				 of IF conditionals 
+ 049F  03 4E 4F 54                      DB      3,"NOT"                 ; First
+				 byte is count 
+ 04A3  0000 E                           DW      OFFSET TRANGROUP:IFNOT 
+ 04A5  0A 45 52 52 4F 52 4C             DB      10,"ERRORLEVEL" 
+       45 56 45 4C              
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-8
+                                                            
+
+ 04B0  0000 E                           DW      OFFSET TRANGROUP:IFERLEV 
+ 04B2  05 45 58 49 53 54                DB      5,"EXIST" 
+ 04B8  0000 E                           DW      OFFSET TRANGROUP:IFEXISTS 
+ 04BA  00                               DB      0 
+                                 
+ 04BB  04 44 49 52 01           COMTAB  DB      4,"DIR",1               ; Table
+				 for internal command names 
+ 04C0  0000 E                           DW      OFFSET TRANGROUP:CATALOG 
+ 04C2  07 52 45 4E 41 4D 45             DB      7,"RENAME",1 
+       01                       
+ 04CA  0000 E                           DW      OFFSET TRANGROUP:CRENAME 
+ 04CC  04 52 45 4E 01                   DB      4,"REN",1 
+ 04D1  0000 E                           DW      OFFSET TRANGROUP:CRENAME 
+ 04D3  06 45 52 41 53 45 01             DB      6,"ERASE",1 
+ 04DA  0000 E                           DW      OFFSET TRANGROUP:ERASE 
+ 04DC  04 44 45 4C 01                   DB      4,"DEL",1 
+ 04E1  0000 E                           DW      OFFSET TRANGROUP:ERASE 
+ 04E3  05 54 59 50 45 01                DB      5,"TYPE",1 
+ 04E9  0000 E                           DW      OFFSET TRANGROUP:TYPEFIL 
+ 04EB  04 52 45 4D 00                   DB      4,"REM",0 
+ 04F0  0000 E                           DW      OFFSET TRANGROUP:TCOMMAND 
+ 04F2  05 43 4F 50 59 01                DB      5,"COPY",1 
+ 04F8  0000 E                           DW      OFFSET TRANGROUP:COPY 
+ 04FA  06 50 41 55 53 45 00             DB      6,"PAUSE",0 
+ 0501  0000 E                           DW      OFFSET TRANGROUP:PAUSE 
+ 0503  05 44 41 54 45 00                DB      5,"DATE",0 
+ 0509  0000 E                           DW      OFFSET TRANGROUP:DATE 
+ 050B  05 54 49 4D 45 00                DB      5,"TIME",0 
+ 0511  0000 E                           DW      OFFSET TRANGROUP:CTIME 
+ 0513  04 56 45 52 00                   DB      4,"VER",0 
+ 0518  0000 E                           DW      OFFSET TRANGROUP:VERSION 
+ 051A  04 56 4F 4C 01                   DB      4,"VOL",1 
+ 051F  0000 E                           DW      OFFSET TRANGROUP:VOLUME 
+ 0521  03 43 44 01                      DB      3,"CD",1 
+ 0525  0000 E                           DW      OFFSET TRANGROUP:$CHDIR 
+ 0527  06 43 48 44 49 52 01             DB      6,"CHDIR",1 
+ 052E  0000 E                           DW      OFFSET TRANGROUP:$CHDIR 
+ 0530  03 4D 44 01                      DB      3,"MD",1 
+ 0534  0000 E                           DW      OFFSET TRANGROUP:$MKDIR 
+ 0536  06 4D 4B 44 49 52 01             DB      6,"MKDIR",1 
+ 053D  0000 E                           DW      OFFSET TRANGROUP:$MKDIR 
+ 053F  03 52 44 01                      DB      3,"RD",1 
+ 0543  0000 E                           DW      OFFSET TRANGROUP:$RMDIR 
+ 0545  06 52 4D 44 49 52 01             DB      6,"RMDIR",1 
+ 054C  0000 E                           DW      OFFSET TRANGROUP:$RMDIR 
+ 054E  06 42 52 45 41 4B 00             DB      6,"BREAK",0 
+ 0555  0000 E                           DW      OFFSET TRANGROUP:CNTRLC 
+ 0557  07 56 45 52 49 46 59             DB      7,"VERIFY",0 
+       00                       
+ 055F  0000 E                           DW      OFFSET TRANGROUP:VERIFY 
+ 0561  04 53 45 54 00                   DB      4,"SET",0 
+ 0566  0000 E                           DW      OFFSET TRANGROUP:ADD_NAME_TO_EN
+				VIRONMENT 
+ 0568  07 50 52 4F 4D 50 54             DB      7,"PROMPT",0 
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Page     1-9
+                                                            
+
+       00                       
+ 0570  0000 E                           DW      OFFSET TRANGROUP:ADD_PROMPT 
+ 0572  05 50 41 54 48 00                DB      5,"PATH",0 
+ 0578  0000 E                           DW      OFFSET TRANGROUP:PATH 
+ 057A  05 45 58 49 54 00                DB      5,"EXIT",0 
+ 0580  0000 E                           DW      OFFSET TRANGROUP:$EXIT 
+ 0582  05 43 54 54 59 01                DB      5,"CTTY",1 
+ 0588  0000 E                           DW      OFFSET TRANGROUP:CTTY 
+ 058A  05 45 43 48 4F 00                DB      5,"ECHO",0 
+ 0590  0000 E                           DW      OFFSET TRANGROUP:ECHO 
+ 0592  05 47 4F 54 4F 00                DB      5,"GOTO",0 
+ 0598  0000 E                           DW      OFFSET TRANGROUP:GOTO 
+ 059A  06 53 48 49 46 54 00             DB      6,"SHIFT",0 
+ 05A1  0000 E                           DW      OFFSET TRANGROUP:SHIFT 
+ 05A3  03 49 46 00                      DB      3,"IF",0 
+ 05A7  0000 E                           DW      OFFSET TRANGROUP:$IF 
+ 05A9  04 46 4F 52 00                   DB      4,"FOR",0 
+ 05AE  0000 E                           DW      OFFSET TRANGROUP:$FOR 
+ 05B0  04 43 4C 53 00                   DB      4,"CLS",0 
+ 05B5  0000 E                           DW      OFFSET TRANGROUP:CLS 
+ 05B7  00                               DB      0               ; Terminate com
+				mand table 
+                                 
+ 05B8                           TRANDATAEND     LABEL   BYTE 
+                                 
+ 05B8                           TRANDATA        ENDS 
+                                        END 
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Symbols-1
+                                                             
+
+Segments and Groups:
+
+                N a m e         	Size	Align	Combine Class
+
+EGROUP . . . . . . . . . . . . .  	GROUP
+  ZEXEC_CODE . . . . . . . . . .  	0000	PARA	PUBLIC	
+  ZEXEC_DATA . . . . . . . . . .  	0000	PARA	PUBLIC	
+RESGROUP . . . . . . . . . . . .  	GROUP
+  CODERES  . . . . . . . . . . .  	0000	PARA	PUBLIC	
+  DATARES  . . . . . . . . . . .  	0000	PARA	PUBLIC	
+  ENVIRONMENT  . . . . . . . . .  	0000	PARA	PUBLIC	
+  INIT . . . . . . . . . . . . .  	0000	PARA	PUBLIC	
+  TAIL . . . . . . . . . . . . .  	0000	PARA	PUBLIC	
+TRANGROUP  . . . . . . . . . . .  	GROUP
+  TRANCODE . . . . . . . . . . .  	0000	PARA	PUBLIC	
+  TRANDATA . . . . . . . . . . .  	05B8	BYTE	PUBLIC	
+  TRANSPACE  . . . . . . . . . .  	0000	PARA	PUBLIC	
+  TRANTAIL . . . . . . . . . . .  	0000	PARA	PUBLIC	
+
+Symbols:            
+
+                N a m e         	Type	Value	Attr         
+
+ACRLF  . . . . . . . . . . . . .  	L BYTE 	046B	TRANDATA	Global
+ADD_NAME_TO_ENVIRONMENT  . . . .  	L NEAR	0000	TRANCODE	External
+ADD_PROMPT . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+
+BADARGS  . . . . . . . . . . . .  	L BYTE 	0435	TRANDATA	Global
+BADBAT . . . . . . . . . . . . .  	L BYTE 	0000	TRANDATA	Global
+BADCD  . . . . . . . . . . . . .  	L BYTE 	0294	TRANDATA	Global
+BADCPMES . . . . . . . . . . . .  	L BYTE 	0419	TRANDATA	Global
+BADDAT . . . . . . . . . . . . .  	L BYTE 	01C1	TRANDATA	Global
+BADDEV . . . . . . . . . . . . .  	L BYTE 	0359	TRANDATA	Global
+BADDRV . . . . . . . . . . . . .  	L BYTE 	015B	TRANDATA	Global
+BADLAB . . . . . . . . . . . . .  	L BYTE 	036A	TRANDATA	Global
+BADMKD . . . . . . . . . . . . .  	L BYTE 	02A8	TRANDATA	Global
+BADNAM . . . . . . . . . . . . .  	L BYTE 	0055	TRANDATA	Global
+BADPMES  . . . . . . . . . . . .  	L BYTE 	033A	TRANDATA	Global
+BADRMD . . . . . . . . . . . . .  	L BYTE 	02C5	TRANDATA	Global
+BADSWT . . . . . . . . . . . . .  	L BYTE 	0198	TRANDATA	Global
+BADTIM . . . . . . . . . . . . .  	L BYTE 	01F4	TRANDATA	Global
+BAD_ON_OFF . . . . . . . . . . .  	L BYTE 	02FC	TRANDATA	Global
+BYTMES_POST  . . . . . . . . . .  	L BYTE 	014D	TRANDATA	Global
+BYTMES_PRE . . . . . . . . . . .  	L BYTE 	015A	TRANDATA	Global
+
+CATALOG  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+CLS  . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+CLSSTRING  . . . . . . . . . . .  	L BYTE 	0472	TRANDATA	Global
+CNTRLC . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+COMTAB . . . . . . . . . . . . .  	L BYTE 	04BB	TRANDATA	Global
+COPIED_POST  . . . . . . . . . .  	L BYTE 	0131	TRANDATA	Global
+COPIED_PRE . . . . . . . . . . .  	L BYTE 	0142	TRANDATA	Global
+COPY . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+CRENAME  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Symbols-2
+                                                             
+
+CRLF2  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+CTIME  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+CTRLCMES . . . . . . . . . . . .  	L BYTE 	03FB	TRANDATA	Global
+CTTY . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+CURDAT_MID . . . . . . . . . . .  	L BYTE 	01E0	TRANDATA	Global
+CURDAT_POST  . . . . . . . . . .  	L BYTE 	01E0	TRANDATA	Global
+CURDAT_PRE . . . . . . . . . . .  	L BYTE 	01D0	TRANDATA	Global
+CURTIM_POST  . . . . . . . . . .  	L BYTE 	0213	TRANDATA	Global
+CURTIM_PRE . . . . . . . . . . .  	L BYTE 	0203	TRANDATA	Global
+
+DATE . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+DBACK  . . . . . . . . . . . . .  	L BYTE 	046E	TRANDATA	Global
+DEVWMES  . . . . . . . . . . . .  	L BYTE 	0454	TRANDATA	Global
+DIRHEAD_POST . . . . . . . . . .  	L BYTE 	0312	TRANDATA	Global
+DIRHEAD_PRE  . . . . . . . . . .  	L BYTE 	0315	TRANDATA	Global
+DIRMES_POST  . . . . . . . . . .  	L BYTE 	0143	TRANDATA	Global
+DIRMES_PRE . . . . . . . . . . .  	L BYTE 	014C	TRANDATA	Global
+DMES . . . . . . . . . . . . . .  	L BYTE 	023C	TRANDATA	Global
+
+ECHO . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+ECHOMES  . . . . . . . . . . . .  	L BYTE 	0410	TRANDATA	Global
+ENVERR . . . . . . . . . . . . .  	L BYTE 	00B2	TRANDATA	Global
+ERASE  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+
+FALSE  . . . . . . . . . . . . .  	Number	0000	
+FORNESTMES . . . . . . . . . . .  	L BYTE 	038B	TRANDATA	Global
+FULDIR . . . . . . . . . . . . .  	L BYTE 	00CD	TRANDATA	Global
+
+GOTO . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+GOTVOL . . . . . . . . . . . . .  	L BYTE 	0281	TRANDATA	Global
+
+HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
+
+IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
+IBMVER . . . . . . . . . . . . .  	Alias	 IBM		
+IFERLEV  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+IFEXISTS . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+IFNOT  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+IFTAB  . . . . . . . . . . . . .  	L BYTE 	049F	TRANDATA	Global
+INBDEV . . . . . . . . . . . . .  	L BYTE 	03C9	TRANDATA	Global
+
+KANJI  . . . . . . . . . . . . .  	Alias	 FALSE		
+
+LOSTERR  . . . . . . . . . . . .  	L BYTE 	0107	TRANDATA	Global
+
+MSVER  . . . . . . . . . . . . .  	Number	0000	
+
+NEEDBAT  . . . . . . . . . . . .  	L BYTE 	0017	TRANDATA	Global
+NEWDAT . . . . . . . . . . . . .  	L BYTE 	01E1	TRANDATA	Global
+NEWTIM . . . . . . . . . . . . .  	L BYTE 	0214	TRANDATA	Global
+NOSPACE  . . . . . . . . . . . .  	L BYTE 	0098	TRANDATA	Global
+NOTFND . . . . . . . . . . . . .  	L BYTE 	0087	TRANDATA	Global
+NOVOL  . . . . . . . . . . . . .  	L BYTE 	0286	TRANDATA	Global
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Symbols-3
+                                                             
+
+NULPATH  . . . . . . . . . . . .  	L BYTE 	0325	TRANDATA	Global
+
+OEMIBM . . . . . . . . . . . . .  	Text  		
+OFFMES . . . . . . . . . . . . .  	L BYTE 	03F0	TRANDATA	Global
+ONMES  . . . . . . . . . . . . .  	L BYTE 	03F6	TRANDATA	Global
+OUT  . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+OVERWR . . . . . . . . . . . . .  	L BYTE 	00E3	TRANDATA	Global
+
+PATH . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PATH_TEXT  . . . . . . . . . . .  	L BYTE 	032E	TRANDATA	Global
+PAUSE  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PAUSEMES . . . . . . . . . . . .  	L BYTE 	0179	TRANDATA	Global
+PIPEEMES . . . . . . . . . . . .  	L BYTE 	03A3	TRANDATA	Global
+PRINT_B  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_BACK . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_DATE . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_DEFAULT_DIRECTORY  . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_DRIVE  . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_EQ . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_ESC  . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_G  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_L  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_TIME . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PRINT_VERSION  . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+PROMPT_TABLE . . . . . . . . . .  	L BYTE 	0477	TRANDATA	Global
+PROMPT_TEXT  . . . . . . . . . .  	L BYTE 	0333	TRANDATA	Global
+
+RENERR . . . . . . . . . . . . .  	L BYTE 	0070	TRANDATA	Global
+
+SHIFT  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+SUREMES  . . . . . . . . . . . .  	L BYTE 	0227	TRANDATA	Global
+SYNTMES  . . . . . . . . . . . .  	L BYTE 	037C	TRANDATA	Global
+
+TCOMMAND . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+TRANDATAEND  . . . . . . . . . .  	L BYTE 	05B8	TRANDATA	Global
+TRUE . . . . . . . . . . . . . .  	Number	FFFF	
+TYPEFIL  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+
+VER200 . . . . . . . . . . . . .  	Text  		
+VERIFY . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+VERIMES  . . . . . . . . . . . .  	L BYTE 	0405	TRANDATA	Global
+VERMES_POST  . . . . . . . . . .  	L BYTE 	026E	TRANDATA	Global
+VERMES_PRE . . . . . . . . . . .  	L BYTE 	0246	TRANDATA	Global
+VERSION  . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+VOLMES . . . . . . . . . . . . .  	L BYTE 	026F	TRANDATA	Global
+VOLUME . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+
+WEEKTAB  . . . . . . . . . . . .  	L BYTE 	01AC	TRANDATA	Global
+
+ZERO . . . . . . . . . . . . . .  	NEAR 	0000	TRANDATA
+
+$CHDIR . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+$EXIT  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+$FOR . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:01
+COMMAND Transient Initialized DATA                          Symbols-4
+                                                             
+
+$IF  . . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+$MKDIR . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+$RMDIR . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
+
+
+    320 Source  Lines
+    323 Total   Lines
+    156 Symbols
+
+  45422 Bytes symbol space free
+
+      0 Warning Errors
+      0 Severe  Errors

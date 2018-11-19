@@ -4,11 +4,44 @@ IF2
 ENDIF
 
 IFNDEF  ALTVECT
-ALTVECT EQU     0       ;FALSE
+ALTVECT EQU    	0       ;FALSE
 ENDIF
 
-DOS_MAJOR_VERSION   EQU      2
-DOS_MINOR_VERSION   EQU     11
+IFNDEF IBM		;STDSW.ASM (and COMSW.ASM) may have already set IBM
+  IFDEF OEMIBM
+    IF1
+      %OUT IBM release selected
+    ENDIF
+    IBM EQU NOT 0
+  ENDIF
+ELSE
+  IF IBM
+    IF1
+      %OUT IBM release pre-selected
+    ENDIF
+  ELSE
+    IF1
+      %OUT Non-IBM release pre-selected
+    ENDIF
+  ENDIF
+ENDIF
+
+IFNDEF VER
+  IFDEF VER200
+    VER EQU 200
+    IF1
+      %OUT VERSION 2.00 selected
+    ENDIF
+  ELSE
+    VER EQU 211
+    IF1
+      %OUT VERSION 2.11 pre-selected
+    ENDIF
+  ENDIF
+ENDIF
+
+DOS_MAJOR_VERSION   EQU	    (VER / 100)
+DOS_MINOR_VERSION   EQU     (VER MOD 100)
 
 BREAK <Control character definitions>
 

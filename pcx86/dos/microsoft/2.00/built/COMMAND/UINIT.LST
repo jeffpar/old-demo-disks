@@ -1,0 +1,126 @@
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:30:01
+COMMAND Initialization messages                             Page     1-1
+                                                            
+
+                                TITLE   COMMAND Initialization messages 
+                                 
+                             C          INCLUDE COMSW.ASM 
+                             C  ; Use the following booleans to set assembly fl
+				ags 
+ = 0000                      C  FALSE   EQU     0 
+ = FFFF                      C  TRUE    EQU     NOT FALSE 
+                             C   
+                             C  ENDIF 
+                             C   
+ =                           C  IBMVER  EQU     IBM  	; Switch to build IBM ver
+				sion of Command 
+ = 0000                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
+				S version of Command 
+                             C   
+ =                           C  HIGHMEM EQU     FALSE   ; Run resident part abo
+				ve transient (high memory) 
+ =                           C  KANJI   EQU     FALSE   ; Support for dual byte
+				 Microsoft KANJI standard 
+ =                           C  IBMJAPAN        EQU     FALSE   ;MUST BE TRUE (
+				along with IBM and KANJI) 
+                                 
+                                 
+                             C          INCLUDE IFEQU.ASM 
+                             C  ;************************************* 
+                             C  ; COMMAND EQUs which are switch dependant 
+                             C   
+                             C  ENDIF 
+                                 
+                                 
+ 0000                           INIT    SEGMENT PUBLIC BYTE 
+                                 
+                                        PUBLIC  BADCOMLKMES 
+                                 
+                                        PUBLIC  HEADER 
+                                        ENDIF 
+                                        IF IBM 
+ 0000  0D 0A 0D 0A 54 65 6C     HEADER  DB      13,10,13,10,"TeleVideo Personal
+				 Computer DOS Vers. 2.11",13,10 
+       65 56 69 64 65 6F 20     
+       50 65 72 73 6F 6E 61     
+       6C 20 43 6F 6D 70 75     
+       74 65 72 20 44 4F 53     
+       20 56 65 72 73 2E 20     
+       32 2E 31 31 0D 0A        
+ 0030  28 43 29 20 43 6F 70             DB      "(C) Copyright TeleVideo System
+				s, Inc. 1983",13,10 
+       79 72 69 67 68 74 20     
+       54 65 6C 65 56 69 64     
+       65 6F 20 53 79 73 74     
+       65 6D 73 2C 20 49 6E     
+       63 2E 20 31 39 38 33     
+       0D 0A                    
+ 005C  28 43 29 20 43 6F 70     	DB	"(C) Copyright Microsoft Corp. 1981, 1982, 
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:30:01
+COMMAND Initialization messages                             Page     1-2
+                                                            
+
+				1983",13,10,"$" 
+       79 72 69 67 68 74 20     
+       4D 69 63 72 6F 73 6F     
+       66 74 20 43 6F 72 70     
+       2E 20 31 39 38 31 2C     
+       20 31 39 38 32 2C 20     
+       31 39 38 33 0D 0A 24     
+                                        ENDIF 
+                                 
+ 008D  53 70 65 63 69 66 69     BADCOMLKMES DB  "Specified COMMAND search direc
+				tory bad",13,10,"$" 
+       65 64 20 43 4F 4D 4D     
+       41 4E 44 20 73 65 61     
+       72 63 68 20 64 69 72     
+       65 63 74 6F 72 79 20     
+       62 61 64 0D 0A 24        
+                                 
+ 00B6                           INIT    ENDS 
+                                 
+                                        END 
+Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:30:01
+COMMAND Initialization messages                             Symbols-1
+                                                             
+
+Segments and Groups:
+
+                N a m e         	Size	Align	Combine Class
+
+INIT . . . . . . . . . . . . . .  	00B6	BYTE	PUBLIC	
+
+Symbols:            
+
+                N a m e         	Type	Value	Attr         
+
+BADCOMLKMES  . . . . . . . . . .  	L BYTE 	008D	INIT	Global
+
+FALSE  . . . . . . . . . . . . .  	Number	0000	
+
+HEADER . . . . . . . . . . . . .  	L BYTE 	0000	INIT	Global
+HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
+
+IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
+IBMVER . . . . . . . . . . . . .  	Alias	 IBM		
+
+KANJI  . . . . . . . . . . . . .  	Alias	 FALSE		
+
+MSVER  . . . . . . . . . . . . .  	Number	0000	
+
+OEMIBM . . . . . . . . . . . . .  	Text  		
+
+TRUE . . . . . . . . . . . . . .  	Number	FFFF	
+
+VER200 . . . . . . . . . . . . .  	Text  		
+
+
+     65 Source  Lines
+     67 Total   Lines
+     34 Symbols
+
+  49500 Bytes symbol space free
+
+      0 Warning Errors
+      0 Severe  Errors

@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-1
                                                             
 
@@ -56,7 +56,7 @@
  = 0002                         VOLSW   EQU     2               ; Volume ID pro
 				mpt 
  = 0004                         OLDSW   EQU     4               ; E5 dir termin
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-2
                                                             
 
@@ -114,7 +114,7 @@
                                         PUBLIC  SYSSIZ,BADSIZ 
                                  
  0100                           START: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-3
                                                             
 
@@ -172,7 +172,7 @@
 				or later 
  0138  04 41                            ADD     AL,"A" 
  013A  A2 0B97 R                        MOV     [BIODRV],AL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-4
                                                             
 
@@ -230,7 +230,7 @@
  0186  80 3E 0B33 R 00                  CMP     BYTE PTR DBLFLG,0       ;Is is 
 				the only drive specifier we've seen 
  018B  75 27                            JNZ     INVALID                 ;No -- 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-5
                                                             
 
@@ -288,7 +288,7 @@
  01D1                           SAVSWT: 
                                  
                                         ENDIF 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-6
                                                             
 
@@ -346,7 +346,7 @@
  022C  89 16 0C64 R                     MOV     SWITCHCOPY,DX 
                                  
  0230                           SYSLOOP: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-7
                                                             
 
@@ -404,7 +404,7 @@
  0293                           CLRTEST: 
  0293  A3 0C7C R                        MOV     SECTORS,AX              ;Save t
 				he number of sectors on the track 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-8
                                                             
 
@@ -462,7 +462,7 @@
  02F0  8B CB                            MOV     CX,BX 
  02F2  03 0E 0C7C R                     ADD     CX,SECTORS 
  02F6  49                               DEC     CX                      ; CX is
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-9
                                                             
 
@@ -520,7 +520,7 @@
  0328  73 04                            JNB     BAD150 
  032A  FF 06 0C78 R                     INC     WORD PTR BADSIZ+2 
  032E                           BAD150: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-10
                                                             
 
@@ -578,7 +578,7 @@
 				tem requested, calculate size 
  0375  74 0E                            JZ      CLEARED 
  0377  80 3E 0B33 R 00                  CMP     BYTE PTR DBLFLG,0       ;Have w
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-11
                                                             
 
@@ -636,7 +636,7 @@
                                  
  03D5                           DISP32BITS: 
  03D5  53                               PUSH    BX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-12
                                                             
 
@@ -694,7 +694,7 @@
  042E  2A D1                            SUB     DL,CL 
  0430  B4 02                            MOV     AH,STD_CON_OUTPUT 
  0432  CD 21                            INT     21H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-13
                                                             
 
@@ -752,7 +752,7 @@
  047E  F7 DA                            NEG     DX 
  0480  03 C2                            ADD     AX,DX                   ; Round
 				 up sector count to cluster 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-14
                                                             
 
@@ -810,7 +810,7 @@
  04BE  E8 048F R                        CALL    PRINT                   ;Print 
 				first line 
  04C1  E8 04EF R                        CALL    WAITKY                  ;Wait f
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-15
                                                             
 
@@ -868,7 +868,7 @@
  050C  4A                               DEC     DX 
  050D  8A 47 04                         MOV     AL,BYTE PTR [BX+4] 
  0510  FE C0                            INC     AL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-16
                                                             
 
@@ -926,7 +926,7 @@
  0578  A2 0C16 R                        MOV     ALLDRV,AL 
  057B  B4 13                            MOV     AH,FCB_DELETE 
  057D  BA 0C0F R                        MOV     DX,OFFSET ALLFILE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-17
                                                             
 
@@ -984,7 +984,7 @@
  05E2  07                               POP     ES 
  05E3                           VOL_LOOP: 
  05E3  A0 0B35 R                        MOV     AL,DRIVE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-18
                                                             
 
@@ -1042,7 +1042,7 @@
  0647                           READDOS: 
  0647  E8 099E R                        CALL    TESTSYSDISK 
  064A  73 01                            JNC     RDFILS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-19
                                                             
 
@@ -1100,7 +1100,7 @@
 				om left? 
  06B7  74 DB                            JZ      CLSALL                  ; Yes 
  06B9  8B 0E 0BA3 R                     MOV     CX,[DOSSIZP] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-20
                                                             
 
@@ -1158,7 +1158,7 @@
  072E  72 D0                            JC      CLSALLJ 
  0730  33 D2                            XOR     DX,DX 
  0732  8B CA                            MOV     CX,DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-21
                                                             
 
@@ -1216,7 +1216,7 @@
  079B                           BIOSDONE: 
  079B  8B 1E 0B3F R                     MOV     BX,[TempHandle] 
  079F  8B 0E 0B95 R                     MOV     CX,BTIME 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-22
                                                             
 
@@ -1274,7 +1274,7 @@
  0828                           GOTNCOM: 
  0828  89 1E 0B3F R                     MOV     [TempHandle],BX 
  082C  F6 06 0B41 R 20                  TEST    BYTE PTR FILSTAT,00100000B 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-23
                                                             
 
@@ -1332,7 +1332,7 @@
 				to do with writes 
                                 ;   from the end of memory. In order to circumv
 				ent it this routine 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-24
                                                             
 
@@ -1390,7 +1390,7 @@
                                  
  08D8                           RESTUDIR: 
  08D8  F7 06 0C62 R 0001                TEST    SWITCHMAP,SYSSW 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-25
                                                             
 
@@ -1448,7 +1448,7 @@
  0921  C3                               RET                             ; Carry
 				 clear from CMP 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-26
                                                             
 
@@ -1506,7 +1506,7 @@
  0989                           GETOFFS: 
  0989  33 D2                            XOR     DX,DX 
  098B  8B CA                            MOV     CX,DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-27
                                                             
 
@@ -1564,7 +1564,7 @@
  09F5  74 10                            JZ      SETDOSSIZ 
  09F7  39 06 0BA3 R                     CMP     [DOSSIZP],AX 
  09FB  74 0A                            JZ      SETDOSSIZ 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-28
                                                             
 
@@ -1622,7 +1622,7 @@
  0A65  05 000F                          ADD     AX,15           ; Para round up
 				 
  0A68  83 D2 00                         ADC     DX,0 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-29
                                                             
 
@@ -1680,7 +1680,7 @@
  0AA1  0E                               PUSH    CS 
  0AA2  1F                               POP     DS 
  0AA3  C3                               RET 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-30
                                                             
 
@@ -1738,7 +1738,7 @@
  0AFB  E8 0B18 R                        CALL    NORMALIZE       ; Clears carry 
  0AFE  59                               POP     CX 
  0AFF  E2 CE                            LOOP    K64M1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-31
                                                             
 
@@ -1796,7 +1796,7 @@
 				gs to zero 
  0B34  00                       CLEARFLG DB     0 
  0B35  00                       DRIVE   DB      0 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-32
                                                             
 
@@ -1854,7 +1854,7 @@
                                         IF MSVER 
  0B9A  49 4F 2E 53 59 53                DB      "IO.SYS" 
                                         ENDIF 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-33
                                                             
 
@@ -1912,7 +1912,7 @@
                                 
                                  
  0C0F  FF 00 00 00 00 00 FF     ALLFILE DB      -1,0,0,0,0,0,0FFH 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-34
                                                             
 
@@ -1970,7 +1970,7 @@
                                  
                                         ENDIF 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Page     1-35
                                                             
 
@@ -1978,7 +1978,7 @@
                                  
                                         END     START 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-1
                                                              
 
@@ -2036,7 +2036,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-2
                                                              
 
@@ -2094,7 +2094,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-3
                                                              
 
@@ -2152,7 +2152,7 @@ PROCESS_DATA_BLOCK . . . . . . .  	005B	000E
   PDB_PAD1 . . . . . . . . . . .  	0032
   PDB_CALL_SYSTEM  . . . . . . .  	0050
   PDB_PAD2 . . . . . . . . . . .  	0055
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-4
                                                              
 
@@ -2205,7 +2205,7 @@ Segments and Groups:
                 N a m e         	Size	Align	Combine Class
 
 CODE . . . . . . . . . . . . . .  	0DD0	PARA	PUBLIC	'CODE'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-5
                                                              
 
@@ -2263,7 +2263,7 @@ BIOSOFFS . . . . . . . . . . . .  	L DWORD	0B8D	CODE
 BIOSSIZB . . . . . . . . . . . .  	L DWORD	0B89	CODE
 BIOSSIZP . . . . . . . . . . . .  	L WORD 	0B87	CODE
 BIOSSTRT . . . . . . . . . . . .  	L WORD 	0B91	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-6
                                                              
 
@@ -2321,7 +2321,7 @@ CTIME  . . . . . . . . . . . . .  	L WORD 	0BD0	CODE
 CURDIR_INVALID_DRIVE . . . . . .  	Alias	 ERROR_INVALID_DRIVE		
 CURRENT_DIR  . . . . . . . . . .  	Number	0047	
 C_BS . . . . . . . . . . . . . .  	Number	0008	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-7
                                                              
 
@@ -2379,16 +2379,17 @@ DOSFIL . . . . . . . . . . . . .  	L BYTE 	0BB3	CODE
 DOSHANDLE  . . . . . . . . . . .  	L WORD 	0BA1	CODE
 DOSOFFS  . . . . . . . . . . . .  	L DWORD	0BA9	CODE
 DOSOPNOK . . . . . . . . . . . .  	L NEAR	09E8	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-8
                                                              
 
 DOSSIZB  . . . . . . . . . . . .  	L DWORD	0BA5	CODE
 DOSSIZP  . . . . . . . . . . . .  	L WORD 	0BA3	CODE
 DOSSTRT  . . . . . . . . . . . .  	L WORD 	0BAD	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOSVER_HIGH  . . . . . . . . . .  	Number	020B	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DOVOL  . . . . . . . . . . . . .  	L NEAR	05DD	CODE
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRIVE  . . . . . . . . . . . . .  	L BYTE 	0B35	CODE	Global
@@ -2436,11 +2437,11 @@ EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D
 EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
 EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
-EXIT_HARD_ERROR  . . . . . . . .  	Number	0002	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-9
                                                              
 
+EXIT_HARD_ERROR  . . . . . . . .  	Number	0002	
 EXIT_KEEP_PROCESS  . . . . . . .  	Number	0003	
 EXIT_TERMINATE . . . . . . . . .  	Number	0000	
 
@@ -2494,11 +2495,11 @@ GETPARM  . . . . . . . . . . . .  	L NEAR	0193	CODE
 GETSIZE  . . . . . . . . . . . .  	L NEAR	044A	CODE
 GETSYS3  . . . . . . . . . . . .  	L NEAR	0922	CODE
 GETTRK . . . . . . . . . . . . .  	L NEAR	0278	CODE
-GET_CURRENT_PDB  . . . . . . . .  	Number	0051	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-10
                                                              
 
+GET_CURRENT_PDB  . . . . . . . .  	Number	0051	
 GET_DATE . . . . . . . . . . . .  	Number	002A	
 GET_DEFAULT_DPB  . . . . . . . .  	Number	001F	
 GET_DEFAULT_DRIVE  . . . . . . .  	Number	0019	
@@ -2534,7 +2535,6 @@ HEADER . . . . . . . . . . . . .  	L BYTE 	0102	CODE
 HRDDRV . . . . . . . . . . . . .  	V BYTE 	0000	CODE	External
 HRDMSG . . . . . . . . . . . . .  	V BYTE 	0000	CODE	External
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IBMJAPVER  . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 FALSE		
 INBUFF . . . . . . . . . . . . .  	L BYTE 	0C7E	CODE
@@ -2553,7 +2553,7 @@ INT_DISK_READ  . . . . . . . . .  	Number	0025
 INT_DISK_WRITE . . . . . . . . .  	Number	0026	
 INT_FASTCON  . . . . . . . . . .  	Number	0029	
 INT_FATAL_ABORT  . . . . . . . .  	Number	0024	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-11
                                                              
 
@@ -2611,11 +2611,11 @@ NOUSE  . . . . . . . . . . . . .  	V BYTE 	0000	CODE	External
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NXTSWT . . . . . . . . . . . . .  	L NEAR	0173	CODE
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-12
                                                              
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -2669,7 +2669,7 @@ RET2 . . . . . . . . . . . . . .  	L NEAR	043F	CODE
 RET25  . . . . . . . . . . . . .  	L NEAR	05D2	CODE
 RET3 . . . . . . . . . . . . . .  	L NEAR	0409	CODE
 RET34  . . . . . . . . . . . . .  	L NEAR	076A	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-13
                                                              
 
@@ -2727,7 +2727,7 @@ STDIN  . . . . . . . . . . . . .  	Number	0000
 STDOUT . . . . . . . . . . . . .  	Number	0001	
 STDPRN . . . . . . . . . . . . .  	Number	0004	
 STD_AUX_INPUT  . . . . . . . . .  	Number	0003	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-14
                                                              
 
@@ -2773,8 +2773,7 @@ UNSCALE  . . . . . . . . . . . .  	L NEAR	0440	CODE	Global
 USERDIRS . . . . . . . . . . . .  	L BYTE 	0B42	CODE	Length = 0043
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VOLFCB . . . . . . . . . . . . .  	L BYTE 	0BE1	CODE
 VOLID  . . . . . . . . . . . . .  	L NEAR	05D3	CODE
 VOLNAM . . . . . . . . . . . . .  	L BYTE 	0BE9	CODE
@@ -2785,11 +2784,11 @@ VRET . . . . . . . . . . . . . .  	L NEAR	05DB	CODE
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WAITKY . . . . . . . . . . . . .  	L NEAR	04EF	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:07:17
+WAITYN . . . . . . . . . . . . .  	L NEAR	0000	CODE	External
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:22:50
                                                             Symbols-15
                                                              
 
-WAITYN . . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 WPRI . . . . . . . . . . . . . .  	Number	0008	
 WRITE  . . . . . . . . . . . . .  	Number	0040	
 WRITEDOS . . . . . . . . . . . .  	L NEAR	0758	CODE
@@ -2806,7 +2805,7 @@ XDUP2  . . . . . . . . . . . . .  	Number	0046
 
    2896 Source  Lines
    2963 Total   Lines
-    744 Symbols
+    743 Symbols
 
   15052 Bytes symbol space free
 

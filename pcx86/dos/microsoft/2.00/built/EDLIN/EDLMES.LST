@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ EDLIN Messages                                              Page     1-1
  0012  E9 0000 E                        JMP     CRLF 
  0015                           NOCRLF: 
  0015  BA 0000 E                        MOV     DX,OFFSET DG:FCB2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ EDLIN Messages                                              Page     1-2
        76 65 72 73 69 6F 6E     
        24                       
  004D  49 6E 76 61 6C 69 64     opt_err db      "Invalid Parameter$" 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Page     1-3
                                                             
 
@@ -172,7 +172,7 @@ EDLIN Messages                                              Page     1-3
        0A 24                    
  0159  45 6E 64 20 6F 66 20     EOF     DB      "End of input file",13,10,"$" 
        69 6E 70 75 74 20 66     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Page     1-4
                                                             
 
@@ -199,7 +199,7 @@ EDLIN Messages                                              Page     1-4
  01D2                           CONST   ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-1
                                                              
 
@@ -257,7 +257,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-2
                                                              
 
@@ -315,7 +315,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-3
                                                              
 
@@ -373,7 +373,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-4
                                                              
 
@@ -431,7 +431,7 @@ ADDR_INT_COMMAND . . . . . . . .  	Number	0084
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
 ADDR_INT_DISK_WRITE  . . . . . .  	Number	0098	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-5
                                                              
 
@@ -489,7 +489,7 @@ CURDIR_INVALID_DRIVE . . . . . .  	Alias	 ERROR_INVALID_DRIVE
 CURRENT_DIR  . . . . . . . . . .  	Number	0047	
 C_BS . . . . . . . . . . . . . .  	Number	0008	
 C_CR . . . . . . . . . . . . . .  	Number	000D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-6
                                                              
 
@@ -528,8 +528,9 @@ DIRSTRLEN  . . . . . . . . . . .  	Number	0040
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DSKFUL . . . . . . . . . . . . .  	L BYTE 	00D4	CONST	Global
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
@@ -546,11 +547,11 @@ ERROR_BAD_ENVIRONMENT  . . . . .  	Number	000A
 ERROR_BAD_FORMAT . . . . . . . .  	Number	000B	
 ERROR_CURRENT_DIRECTORY  . . . .  	Number	0010	
 ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002	
-ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-7
                                                              
 
+ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
 ERROR_INVALID_BLOCK  . . . . . .  	Number	0009	
 ERROR_INVALID_DATA . . . . . . .  	Number	000D	
 ERROR_INVALID_DRIVE  . . . . . .  	Number	000F	
@@ -604,10 +605,10 @@ FINDNEXT_NO_MORE_FILES . . . . .  	Alias	 ERROR_NO_MORE_FILES
 FIND_FIRST . . . . . . . . . . .  	Number	004E	
 FIND_NEXT  . . . . . . . . . . .  	Number	004F	
 FREEPRI  . . . . . . . . . . . .  	Number	0000	
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-8
                                                              
+
 
 GETEXTENDEDERROR . . . . . . . .  	Number	0059	
 GET_CURRENT_PDB  . . . . . . . .  	Number	0051	
@@ -626,7 +627,6 @@ GET_TIME . . . . . . . . . . . .  	Number	002C
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -663,7 +663,7 @@ MI_LONG_JMP  . . . . . . . . . .  	Number	00EA
 MI_LONG_RET  . . . . . . . . . .  	Number	00CB	
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-9
                                                              
 
@@ -678,7 +678,7 @@ NODIR  . . . . . . . . . . . . .  	L BYTE 	00B6	CONST	Global
 NOSUCH . . . . . . . . . . . . .  	L BYTE 	0136	CONST	Global
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -721,7 +721,7 @@ RMDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND
 RO_ERR . . . . . . . . . . . . .  	L BYTE 	005F	CONST	Global
 RPRI . . . . . . . . . . . . . .  	Number	0006	
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:01:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:17:13
 EDLIN Messages                                              Symbols-10
                                                              
 
@@ -766,8 +766,7 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -781,9 +780,9 @@ XDUP2  . . . . . . . . . . . . .  	Number	0046
 
    1377 Source  Lines
    1439 Total   Lines
-    518 Symbols
+    517 Symbols
 
-  22866 Bytes symbol space free
+  22868 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

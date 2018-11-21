@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:17:52
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:34:34
 LOCATE (EXE2BIN) Messages                                   Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ LOCATE (EXE2BIN) Messages                                   Page     1-1
        20 74 68 61 6E 20 73     
        69 7A 65 20 69 6E 20     
        68 65 61 64 65 72 2E     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:17:52
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:34:34
 LOCATE (EXE2BIN) Messages                                   Page     1-2
                                                             
 
@@ -65,7 +65,7 @@ LOCATE (EXE2BIN) Messages                                   Page     1-2
                                  
  00FC                           DATA    ENDS 
                                         END 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:17:52
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:34:34
 LOCATE (EXE2BIN) Messages                                   Symbols-1
                                                              
 
@@ -92,7 +92,7 @@ FULL . . . . . . . . . . . . . .  	L BYTE 	004D	DATA	Global
 NOROOM . . . . . . . . . . . . .  	L BYTE 	0025	DATA	Global
 NOTFND . . . . . . . . . . . . .  	L BYTE 	0016	DATA	Global
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 
 PROMPT . . . . . . . . . . . . .  	L BYTE 	0065	DATA	Global
 
@@ -100,7 +100,7 @@ RDBAD  . . . . . . . . . . . . .  	L BYTE 	00A7	DATA	Global
 
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 
      24 Source  Lines

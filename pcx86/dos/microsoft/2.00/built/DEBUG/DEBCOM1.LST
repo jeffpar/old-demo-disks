@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-1
                                 ; RANGE - Looks for parameters defining an addr
 				ess range. 
                                 ; The first parameter is the starting address. 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-2
  0035  C3                               RET 
  0036                           GetDef: 
  0036  59                               POP     CX                      ; get o
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-3
                                                             
 
@@ -172,7 +172,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-3
  006C  8B D0                            MOV     DX,AX 
  006E  AD                               LODSW                           ; Get d
 				efault segment 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-4
                                                             
 
@@ -230,7 +230,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-4
  00A4                           InRow: 
  00A4  56                               PUSH    SI                      ; Save 
 				address for ASCII dump 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-5
                                                             
 
@@ -288,7 +288,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-5
  00E1  8B C6                            MOV     AX,SI                   ; Curre
 				nt dump address 
  00E3  8B F2                            MOV     SI,DX                   ; ASCII
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-6
                                                             
 
@@ -346,7 +346,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-6
                                 ; overwritten until after it has been moved. 
                                  
  011C                           MOVE: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-7
                                                             
 
@@ -404,7 +404,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-7
                                 ; list is smaller, repeat it as many times as n
 				ecessary. 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-8
                                                             
 
@@ -462,7 +462,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-8
  0163  1F                               POP     DS                      ; requi
 				res different segment reg. 
  0164  EB D8                            JMP     SHORT COPYLIST          ; Do th
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-9
                                                             
 
@@ -520,7 +520,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-9
 				re list length 
  0188  75 08                            JNZ     TEST                    ; Conti
 				nue search if no match 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-10
                                                             
 
@@ -578,7 +578,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-10
  01B8  E8 0196 R                        CALL    GETHX                   ; Scan 
 				to next parameter 
  01BB  EB 03                            JMP     SHORT GETHX2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-11
                                                             
 
@@ -636,7 +636,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-11
 				he byte value 
  01E9  88 17                            MOV     [BX],DL                 ; Add t
 				o list 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-12
                                                             
 
@@ -694,7 +694,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-12
  0210  BB 0000 E                        MOV     BX,OFFSET DG:BYTEBUF    ; Put b
 				yte list in the byte buffer 
  0213                           LISTLP: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-13
                                                             
 
@@ -752,7 +752,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-13
                                  
  0231                           PRINT: 
  0231  E8 0000 E                        CALL    PRINTMES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-14
                                                             
 
@@ -810,7 +810,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-14
                                  
  0281  43 53 45 44              SEGLET  DB      "CSED" 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-15
                                                             
 
@@ -868,7 +868,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-15
                                  
  0292                           ENTER: 
  0292  8B 2E 0000 E                     MOV     BP,[DSSAVE]             ; Set d
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-16
                                                             
 
@@ -926,7 +926,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-16
  02CE  E8 0339 R                        CALL    IN                      ; Get c
 				ommand character 
  02D1                           NOHEX: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-17
                                                             
 
@@ -984,7 +984,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-17
                                 ; Rotate DH left 4 bits to combine with DL and 
 				make a byte value 
  030B  51                               PUSH    CX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-18
                                                             
 
@@ -1042,7 +1042,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-18
  0339  B4 01                            MOV     AH,1 
  033B  CD 21                            INT     21H 
  033D  C3                               RET 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Page     1-19
                                                             
 
@@ -1051,7 +1051,7 @@ PART1 DEBUGGER COMMANDS                                     Page     1-19
  033E                           CODE    ENDS 
                                         END     DEBCOM1 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-1
                                                              
 
@@ -1109,7 +1109,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-2
                                                              
 
@@ -1167,7 +1167,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-3
                                                              
 
@@ -1225,7 +1225,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-4
                                                              
 
@@ -1283,7 +1283,7 @@ ADDR_INT_ABORT . . . . . . . . .  	Number	0080
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-5
                                                              
 
@@ -1341,7 +1341,7 @@ CLOSE  . . . . . . . . . . . . .  	Number	003E
 CLOSE_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 CLOSE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 COMMA  . . . . . . . . . . . . .  	Number	2C00	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-6
                                                              
 
@@ -1399,14 +1399,15 @@ DIRSTRLEN  . . . . . . . . . . .  	Number	0040
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-7
                                                              
 
 DISPB  . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
 DOSCAN . . . . . . . . . . . . .  	L NEAR	0179	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DSIZ . . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
@@ -1456,11 +1457,11 @@ EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D
 EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
 EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
-EXIT_HARD_ERROR  . . . . . . . .  	Number	0002	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-8
                                                              
 
+EXIT_HARD_ERROR  . . . . . . . .  	Number	0002	
 EXIT_KEEP_PROCESS  . . . . . . .  	Number	0003	
 EXIT_TERMINATE . . . . . . . . .  	Number	0000	
 
@@ -1514,11 +1515,11 @@ GET_DEFAULT_DPB  . . . . . . . .  	Number	001F
 GET_DEFAULT_DRIVE  . . . . . . .  	Number	0019	
 GET_DMA  . . . . . . . . . . . .  	Number	002F	
 GET_DPB  . . . . . . . . . . . .  	Number	0032	
-GET_DRIVE_FREESPACE  . . . . . .  	Number	0036	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-9
                                                              
 
+GET_DRIVE_FREESPACE  . . . . . .  	Number	0036	
 GET_FCB_FILE_LENGTH  . . . . . .  	Number	0023	
 GET_FCB_POSITION . . . . . . . .  	Number	0024	
 GET_INDOS_FLAG . . . . . . . . .  	Number	0034	
@@ -1534,7 +1535,6 @@ HEXCHK . . . . . . . . . . . . .  	L NEAR	01C6	CODE	Global
 HEXIN  . . . . . . . . . . . . .  	L NEAR	01C4	CODE	Global
 HXERR  . . . . . . . . . . . . .  	L NEAR	01C3	CODE
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 TRUE		
 IN . . . . . . . . . . . . . . .  	L NEAR	0339	CODE
@@ -1573,7 +1573,7 @@ LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 
 MI_INT . . . . . . . . . . . . .  	Number	00CD	
 MI_LONG_CALL . . . . . . . . . .  	Number	009A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-10
                                                              
 
@@ -1592,7 +1592,7 @@ NOPRT  . . . . . . . . . . . . .  	L NEAR	0106	CODE
 NOSTO  . . . . . . . . . . . . .  	L NEAR	0316	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1631,7 +1631,7 @@ READ . . . . . . . . . . . . . .  	Number	003F
 READ_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 READ_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 REGTABLEN  . . . . . . . . . . .  	Number	000E	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-11
                                                              
 
@@ -1689,7 +1689,7 @@ STD_AUX_OUTPUT . . . . . . . . .  	Number	0004
 STD_CON_INPUT  . . . . . . . . .  	Number	0001	
 STD_CON_INPUT_FLUSH  . . . . . .  	Number	000C	
 STD_CON_INPUT_NO_ECHO  . . . . .  	Number	0008	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:49:33
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:05:06
 PART1 DEBUGGER COMMANDS                                     Symbols-12
                                                              
 
@@ -1717,8 +1717,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 USEDEF . . . . . . . . . . . . .  	L NEAR	0069	CODE
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -1734,7 +1733,7 @@ ZIBO . . . . . . . . . . . . . .  	Alias	 TRUE
 
    1994 Source  Lines
    2057 Total   Lines
-    610 Symbols
+    609 Symbols
 
   19788 Bytes symbol space free
 

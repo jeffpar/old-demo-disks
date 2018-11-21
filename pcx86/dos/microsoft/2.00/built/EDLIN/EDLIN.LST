@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ EDLIN for MSDOS 2.0                                         Page     1-1
 				                         ; 
                                 ;               9/17/82  M.A. Ulloa            
 				                         ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ EDLIN for MSDOS 2.0                                         Page     1-2
 				                         ; 
                                 ;               10/20/82 Rev. 6         M.A.Ull
 				oa                       ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-3
                                                             
 
@@ -172,7 +172,7 @@ EDLIN for MSDOS 2.0                                         Page     1-3
 				t char if not ^Z.        ; 
                                 ;                  Fixed bug in Copy to correct
 				ly check                 ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-4
                                                             
 
@@ -211,7 +211,7 @@ EDLIN for MSDOS 2.0                                         Page     1-4
 				r = ^V 
                                  
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-5
                                                             
 
@@ -221,7 +221,7 @@ EDLIN for MSDOS 2.0                                         Page     1-5
                                  
                                  
                                 SUBTTL  Contants and Data areas 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-6
 Contants and Data areas                                     
 
@@ -279,7 +279,7 @@ Contants and Data areas
                                  
  0027  00                       the_root db     0                       ;root d
 				irectory flag 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-7
 Contants and Data areas                                     
 
@@ -337,7 +337,7 @@ Contants and Data areas
 				table, ergo it 
                                 ; is indexed thru a pointer, and random additio
 				ns will cause the 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-8
 Contants and Data areas                                     
 
@@ -395,7 +395,7 @@ Contants and Data areas
  0014  0001[                    LSTFND  DW      1 DUP (?) 
             ????                
                          ]      
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-9
 Contants and Data areas                                     
 
@@ -453,7 +453,7 @@ Contants and Data areas
                          ]      
                                 
  01B0  0001[                    EOL     DB      1 DUP (?) 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-10
 Contants and Data areas                                     
 
@@ -511,7 +511,7 @@ Contants and Data areas
                                                                         ; buffe
 				r to the end (old way). 
  0228  0001[                    MOVFLG  DB      1 DUP (?) 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-11
 Contants and Data areas                                     
 
@@ -529,7 +529,7 @@ Contants and Data areas
  02A9                           DATA    ENDS 
                                  
                                 SUBTTL  Main Body 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-12
 Main Body                                                   
 
@@ -587,7 +587,7 @@ Main Body
  0F1D  CD 21                            int     21h 
  0F1F  3C 02                            cmp     al,2 
  0F21  73 05                            jae     vers_ok                        
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-13
 Main Body                                                   
 
@@ -645,7 +645,7 @@ Main Body
                                  
  0F63                           xx1: 
  0F63  4E                               dec     si 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-14
 Main Body                                                   
 
@@ -703,7 +703,7 @@ Main Body
  0F9C  A0 002B R                        mov     al,dg:[dirchar]         ;get di
 				rectory separator character 
  0F9F  FD                               std                             ;scan b
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-15
 Main Body                                                   
 
@@ -761,7 +761,7 @@ Main Body
  0FCC  74 10                            jz      same_drive 
  0FCE  FE CA                            dec     dl                      ;adjust
 				 to real drive (a=0,b=1,...) 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-16
 Main Body                                                   
 
@@ -819,7 +819,7 @@ Main Body
  1011  CD 21                            int     21h 
  1013  BA 0000 E                        mov     dx,offset dg:baddrv 
  1016  73 03                            jnc     no_errors 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-17
 Main Body                                                   
 
@@ -877,7 +877,7 @@ Main Body
  1065  A2 0221 R                        MOV     [HAVEOF],AL 
  1068  0A C0                            OR      AL,AL 
  106A  74 26                            JZ      HAVFIL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-18
 Main Body                                                   
 
@@ -935,7 +935,7 @@ Main Body
  10BC  E9 149A R                        JMP     xERROR 
  10BF                           NOTBAK: 
  10BF  BA 0000 E                        MOV     DX,OFFSET DG:NOBAK 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-19
 Main Body                                                   
 
@@ -993,7 +993,7 @@ Main Body
  112F  C6 06 01B0 R 0A                  MOV     BYTE PTR [EOL],10 
  1134  C7 06 001E R 02A9 R              MOV     [POINTER],OFFSET DG:START 
  113A  C7 06 001C R 0001                MOV     [CURRENT],1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-20
 Main Body                                                   
 
@@ -1051,7 +1051,7 @@ Main Body
  11BF                           UPCASE: 
  11BF  BF 12C3 R                        MOV     DI,OFFSET DG:COMTAB 
  11C2  B9 000F 90                       MOV     CX,NUMCOM 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-21
 Main Body                                                   
 
@@ -1109,7 +1109,7 @@ Main Body
  1218  74 FB                            JZ      SKIP 
  121A  C3                       RET1:   RET 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-22
 Main Body                                                   
 
@@ -1167,7 +1167,7 @@ Main Body
  1274  EB DE                            JMP     SHORT NUMLP 
  1276                           NUMCHK: 
  1276  80 F9 00                         CMP     CL,0 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-23
 Main Body                                                   
 
@@ -1225,7 +1225,7 @@ Main Body
                                  
                                 ;----------------------------------------------
 				-------------------------; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-24
 Main Body                                                   
 
@@ -1283,7 +1283,7 @@ Main Body
  12FE  01                               db      1               ;QUIT 
                                  
                                 ;----------------------------------------------
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-25
 Main Body                                                   
 
@@ -1341,7 +1341,7 @@ Main Body
                                 ;----- Load till first ^Z is found 
  133E                           sj52: 
  133E  57                               PUSH    DI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-26
 Main Body                                                   
 
@@ -1399,7 +1399,7 @@ Main Body
  1369  74 0A                            je      check_done              ;yes, e
 				xit 
  136B                           check_no: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-27
 Main Body                                                   
 
@@ -1457,7 +1457,7 @@ Main Body
 				ag if 1AH found in file 
  13BD                           NOTEND: 
  13BD  33 D2                            XOR     DX,DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-28
 Main Body                                                   
 
@@ -1515,7 +1515,7 @@ Main Body
  1417  C3                       RET3:   RET 
  1418                           EOFCHK: 
  1418  F6 06 0221 R FF                  TEST    BYTE PTR [HAVEOF],-1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-29
 Main Body                                                   
 
@@ -1573,7 +1573,7 @@ Main Body
  147E  8B 0E 0026 R                     MOV     CX,[ENDTXT] 
  1482  2B CE                            SUB     CX,SI 
  1484  41                               INC     CX              ;Amount of text
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-30
 Main Body                                                   
 
@@ -1631,7 +1631,7 @@ Main Body
 				nd line to be the 
  14CF  83 C2 16                         add     dx,22           ;  start line +
 				 23 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-31
 Main Body                                                   
 
@@ -1689,7 +1689,7 @@ Main Body
                                  
                                  
  1525                           DISPONE: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-32
 Main Body                                                   
 
@@ -1747,7 +1747,7 @@ Main Body
  1562  BF 00B0 R                        MOV     DI,2 + OFFSET DG:EDITBUF 
  1565  B9 00FF                          MOV     CX,255 
  1568  BA FFFF                          MOV     DX,-1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-33
 Main Body                                                   
 
@@ -1805,7 +1805,7 @@ Main Body
 				art of line 
  15C8  56                               PUSH    SI 
  15C9  BE 0171 R                        MOV     SI,1+ OFFSET DG:TXT2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-34
 Main Body                                                   
 
@@ -1863,7 +1863,7 @@ Main Body
 				from curr+1 line 
  162A  EB 05                            jmp     short sj7 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-35
 Main Body                                                   
 
@@ -1921,7 +1921,7 @@ Main Body
  169D  8B 1E 0002 R                     MOV     BX,[PARAM2] 
  16A1  0B DB                            OR      BX,BX 
  16A3  75 02                            JNZ     DELFIN2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-36
 Main Body                                                   
 
@@ -1979,7 +1979,7 @@ Main Body
                                 ;----------------------------------------------
 				------------------------- 
  1717  E8 0000 E                        call    unquote                 ;scan f
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-37
 Main Body                                                   
 
@@ -2037,7 +2037,7 @@ Main Body
  1752  C3                       RET12:  RET 
                                  
  1753                           MEMERR: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-38
 Main Body                                                   
 
@@ -2095,7 +2095,7 @@ Main Body
  17AE  3B 16 0002 R                     CMP     DX,[PARAM2] 
  17B2  76 A9                            JBE     MOVERR 
  17B4                           NOERROR: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-39
 Main Body                                                   
 
@@ -2153,7 +2153,7 @@ Main Body
  181F  8B 36 0008 R                     MOV     SI,[PTR_1] 
  1823  EB 04                            JMP     SHORT COPY_TEXT 
  1825                           GET_PTR_2: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-40
 Main Body                                                   
 
@@ -2211,7 +2211,7 @@ Main Body
  18A2  8B FA                            MOV     DI,DX 
  18A4  FD                               STD 
  18A5  F3/ A4                           REP     MOVSB                   ;Copy C
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-41
 Main Body                                                   
 
@@ -2269,7 +2269,7 @@ Main Body
  1907  CD 21                            INT     21H 
  1909  33 C0                            XOR     AX,AX 
  190B  A3 01F7 R                        MOV     WORD PTR DS:[FCB3+fcb_RR],AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-42
 Main Body                                                   
 
@@ -2327,7 +2327,7 @@ Main Body
  197B  E8 121B R                        CALL    CHKRANGE 
  197E                           INS: 
  197E  E8 0000 E                        CALL    FINDLIN 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-43
 Main Body                                                   
 
@@ -2385,7 +2385,7 @@ Main Body
  19D7  FB                               STI 
  19D8  E8 0000 E                        CALL    CRLF 
  19DB  E8 19E1 R                        CALL    ENDINS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-44
 Main Body                                                   
 
@@ -2443,7 +2443,7 @@ Main Body
  1A44  BE 0000 R                        MOV     SI,OFFSET DG:BAK 
  1A47  A5                               MOVSW 
  1A48  A4                               MOVSB 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Page     1-45
 Main Body                                                   
 
@@ -2491,7 +2491,7 @@ Main Body
  1A91                           CODE    ENDS 
                                         END     EDLIN 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-1
                                                              
 
@@ -2549,7 +2549,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-2
                                                              
 
@@ -2607,7 +2607,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-3
                                                              
 
@@ -2665,7 +2665,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-4
                                                              
 
@@ -2723,7 +2723,7 @@ ABORTINS . . . . . . . . . . . .  	L NEAR	19CC	CODE
 ABORTMERGE . . . . . . . . . . .  	L NEAR	19C5	CODE
 ADDR_INT_ABORT . . . . . . . . .  	Number	0080	
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-5
                                                              
 
@@ -2781,7 +2781,7 @@ CHKRANGE . . . . . . . . . . . .  	L NEAR	121B	CODE	Global
 CHMOD  . . . . . . . . . . . . .  	Number	0043	
 CHMOD_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 CHMOD_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-6
                                                              
 
@@ -2839,7 +2839,7 @@ DELETE . . . . . . . . . . . . .  	L NEAR	1687	CODE
 DELFIN1  . . . . . . . . . . . .  	L NEAR	1696	CODE
 DELFIN2  . . . . . . . . . . . .  	L NEAR	16A7	CODE
 DELFLG . . . . . . . . . . . . .  	L BYTE 	01F1	CONST
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-7
                                                              
 
@@ -2877,8 +2877,9 @@ DISPLAY  . . . . . . . . . . . .  	L NEAR	1528	CODE
 DISPLN . . . . . . . . . . . . .  	L NEAR	1534	CODE
 DISPONE  . . . . . . . . . . . .  	L NEAR	1525	CODE
 DOMOV  . . . . . . . . . . . . .  	L NEAR	1749	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRVISOK  . . . . . . . . . . . .  	L NEAR	0FEC	CODE
 DSKFUL . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
@@ -2896,11 +2897,11 @@ ENDING . . . . . . . . . . . . .  	L BYTE 	0222	DATA
 ENDINS . . . . . . . . . . . . .  	L NEAR	19E1	CODE
 ENDTXT . . . . . . . . . . . . .  	L WORD 	0026	DATA	Global
 END_INS  . . . . . . . . . . . .  	L NEAR	19E5	CODE
-ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-8
                                                              
 
+ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
 EOF  . . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 EOFCHK . . . . . . . . . . . . .  	L NEAR	1418	CODE
 EOL  . . . . . . . . . . . . . .  	L BYTE 	01B0	DATA
@@ -2954,11 +2955,11 @@ FCB_OPEN . . . . . . . . . . . .  	Number	000F
 FCB_RANDOM_READ  . . . . . . . .  	Number	0021	
 FCB_RANDOM_READ_BLOCK  . . . . .  	Number	0027	
 FCB_RANDOM_WRITE . . . . . . . .  	Number	0022	
-FCB_RANDOM_WRITE_BLOCK . . . . .  	Number	0028	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-9
                                                              
 
+FCB_RANDOM_WRITE_BLOCK . . . . .  	Number	0028	
 FCB_RENAME . . . . . . . . . . .  	Number	0017	
 FCB_SEQ_READ . . . . . . . . . .  	Number	0014	
 FCB_SEQ_WRITE  . . . . . . . . .  	Number	0015	
@@ -3012,12 +3013,11 @@ HAVFIL . . . . . . . . . . . . .  	L NEAR	1092	CODE
 HAVLIN . . . . . . . . . . . . .  	L NEAR	16D5	CODE
 HAV_ROOM . . . . . . . . . . . .  	L NEAR	17F3	CODE
 HEADER . . . . . . . . . . . . .  	L BYTE 	0F03	CODE
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-10
                                                              
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
+
 INFILE . . . . . . . . . . . . .  	L NEAR	14C5	CODE
 INFILE2  . . . . . . . . . . . .  	L NEAR	14DD	CODE
 INLP . . . . . . . . . . . . . .  	L NEAR	198A	CODE
@@ -3071,7 +3071,7 @@ MEMERR . . . . . . . . . . . . .  	L NEAR	1753	CODE
 MEMERRJ1 . . . . . . . . . . . .  	L NEAR	19B7	CODE
 MEMFUL . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 MEMOK  . . . . . . . . . . . . .  	L NEAR	19BD	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-11
                                                              
 
@@ -3124,12 +3124,12 @@ NUMLP  . . . . . . . . . . . . .  	L NEAR	1254	CODE
 NUMPOS . . . . . . . . . . . . .  	L WORD 	0018	DATA	Global
 NXTARG . . . . . . . . . . . . .  	L NEAR	178D	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
 OEM_C4 . . . . . . . . . . . . .  	Number	00FC	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-12
                                                              
 
@@ -3187,7 +3187,7 @@ READ_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 RENAME . . . . . . . . . . . . .  	Number	0056	
 RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-13
                                                              
 
@@ -3245,7 +3245,7 @@ SET_INTERRUPT_VECTOR . . . . . .  	Number	0025
 SET_OEM_HANDLER  . . . . . . . .  	Number	00F8	
 SET_TIME . . . . . . . . . . . .  	Number	002D	
 SET_VERIFY_ON_WRITE  . . . . . .  	Number	002E	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-14
                                                              
 
@@ -3303,7 +3303,7 @@ TRUE . . . . . . . . . . . . . .  	Number	FFFF
 TRUNCLP  . . . . . . . . . . . .  	L NEAR	1578	CODE
 TXT1 . . . . . . . . . . . . . .  	L BYTE 	00EF	CONST	Global
 TXT2 . . . . . . . . . . . . . .  	L BYTE 	0170	CONST	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:59:21
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:14:54
 EDLIN for MSDOS 2.0                                         Symbols-15
                                                              
 
@@ -3317,8 +3317,7 @@ USERDIR  . . . . . . . . . . . .  	L BYTE 	002D	CONST	Global
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 USER_DRIVE . . . . . . . . . . .  	L BYTE 	0029	CONST	Global
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VERS_OK  . . . . . . . . . . . .  	L NEAR	0F28	CODE
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -3339,7 +3338,7 @@ XX1  . . . . . . . . . . . . . .  	L NEAR	0F63	CODE
 
    3115 Source  Lines
    3177 Total   Lines
-    763 Symbols
+    762 Symbols
 
   11962 Bytes symbol space free
 

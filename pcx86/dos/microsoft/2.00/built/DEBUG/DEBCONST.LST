@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-1
                                                             
 
@@ -56,7 +56,7 @@
 				AR,INT_OPER:NEAR,IN_OPER:NEAR 
                                         EXTRN       DISP8_OPER:NEAR,JMP_OPER:NE
 				AR,L_OPER:NEAR,MOV_OPER:NEAR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-2
                                                             
 
@@ -114,7 +114,7 @@
                                         PUBLIC  LINEBUF,PFLAG,COLPOS 
                                  
                                         ENDIF 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-3
                                                             
 
@@ -172,7 +172,7 @@
  00B6  044C R 0000 E                    DW      OFFSET DG:ANDMN,ALUFROMREG 
  00BA  044C R 0000 E                    DW      OFFSET DG:ANDMN,ALUFROMREG 
  00BE  044C R 0000 E                    DW      OFFSET DG:ANDMN,ALUTOREG 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-4
                                                             
 
@@ -230,7 +230,7 @@
  0182  06BC R 0000 E                    DW      OFFSET DG:PUSHMN,REGOP 
  0186  06BC R 0000 E                    DW      OFFSET DG:PUSHMN,REGOP 
  018A  06BC R 0000 E                    DW      OFFSET DG:PUSHMN,REGOP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-5
                                                             
 
@@ -288,7 +288,7 @@
  024E  071A R 0000 E                    DW      OFFSET DG:XCHGMN,ALUFROMREG 
  0252  071A R 0000 E                    DW      OFFSET DG:XCHGMN,ALUFROMREG 
  0256  069E R 0000 E                    DW      OFFSET DG:MOVMN,ALUFROMREG 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-6
                                                             
 
@@ -346,7 +346,7 @@
  031A  069E R 0000 E                    DW      OFFSET DG:MOVMN,REGIMMW 
  031E  069E R 0000 E                    DW      OFFSET DG:MOVMN,REGIMMW 
  0322  069E R 0000 E                    DW      OFFSET DG:MOVMN,REGIMMW 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-7
                                                             
 
@@ -404,7 +404,7 @@
  03E6  05FE R 0000 E                    DW      OFFSET DG:INMN,INVARB 
  03EA  05FE R 0000 E                    DW      OFFSET DG:INMN,INVARW 
  03EE  06AD R 0000 E                    DW      OFFSET DG:OUTMN,OUTVARB 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-8
                                                             
 
@@ -462,7 +462,7 @@
  048D  46 58 43 C8                      DB      "FXC","H"+80H 
  0491  46 46 52 45 C5                   DB      "FFRE","E"+80H 
  0496  46 43 4F 4D 50 D0                DB      "FCOMP","P"+80H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-9
                                                             
 
@@ -520,7 +520,7 @@
  05A5  46 4D 55 CC                      DB      "FMU","L"+80H 
  05A9  46 49 4D 55 CC                   DB      "FIMU","L"+80H 
  05AE  46 44 49 56 52 D0                DB      "FDIVR","P"+80H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-10
                                                             
 
@@ -578,7 +578,7 @@
  065D  4A D0                            DB      "J","P"+80H 
  065F  4C 41 48 C6              LAHFMN  DB      "LAH","F"+80H 
  0663  4C 44 D3                 LDSMN   DB      "LD","S"+80H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-11
                                                             
 
@@ -636,7 +636,7 @@
 				+80H 
  0712  54 45 53 D4              TESTMN  DB      "TES","T"+80H 
  0716  57 41 49 D4              WAITMN  DB      "WAI","T"+80H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-12
                                                             
 
@@ -694,7 +694,7 @@
        54 24                    
  081B  40 24 44 45 43 53 54               DB "@$DECSTP$INCSTP$PREM$YL2XP1$SQRT$
 				@$RNDINT$SCALE$@$@$" 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-13
                                                             
 
@@ -752,7 +752,7 @@
  08E4  0000 E                           DW      GROUP2 
  08E6  20                               DB      4 * 8                   ; AND 
  08E7  0000 E                           DW      GROUP2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-14
                                                             
 
@@ -810,7 +810,7 @@
  092F  0000 E                           DW      FGROUPX 
  0931  13                               DB      00010011B               ; FICOM
 				P 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-15
                                                             
 
@@ -868,7 +868,7 @@
  096D  F6                               DB      11110110B               ; FDECS
 				TP 
  096E  0000 E                           DW      FD9_OPER 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-16
                                                             
 
@@ -926,7 +926,7 @@
  09A4  0000 E                           DW      FGROUP3 
  09A6  30                               DB      00110000B               ; FADDP
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-17
                                                             
 
@@ -984,7 +984,7 @@
  09DF  18                               DB      00011000B               ; FILD 
  09E0  0000 E                           DW      FGROUPZ 
  09E2  08                               DB      00001000B               ; FLD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-18
                                                             
 
@@ -1042,7 +1042,7 @@
  0A2E  0000 E                           DW      DISP8_OPER 
  0A30  7D                               DB      01111101B               ; JGE 
  0A31  0000 E                           DW      DISP8_OPER 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-19
                                                             
 
@@ -1100,7 +1100,7 @@
 				Z 
  0A7F  0000 E                           DW      DISP8_OPER 
  0A81  E1                               DB      11100001B               ; LOOPZ
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-20
                                                             
 
@@ -1158,7 +1158,7 @@
  0AC6  CB                               DB      11001011B               ; RETF 
  0AC7  0000 E                           DW      GET_DATA16 
  0AC9  C3                               DB      11000011B               ; RET 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-21
                                                             
 
@@ -1216,7 +1216,7 @@
  0B0B  06E2 R 06E5 R 06C0 R     SHFTAB  DW             OFFSET DG:ROLMN,OFFSET D
 				G:RORMN,OFFSET DG:RCLMN 
  0B11  06C3 R 06F9 R 06FC R             DW             OFFSET DG:RCRMN,OFFSET D
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-22
                                                             
 
@@ -1274,7 +1274,7 @@
  0B7D  0000                             DW      0 
  0B7F  4E 47                            DB      "NG" 
  0B81  5A 52                            DB      "ZR" 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-23
                                                             
 
@@ -1332,7 +1332,7 @@
                                  
                                 ; RAM area. 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Page     1-24
                                                             
 
@@ -1379,7 +1379,7 @@
  0CC4                           CONST   ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-1
                                                              
 
@@ -1437,7 +1437,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-2
                                                              
 
@@ -1495,7 +1495,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-3
                                                              
 
@@ -1553,7 +1553,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-4
                                                              
 
@@ -1611,7 +1611,7 @@ AAMMN  . . . . . . . . . . . . .  	L BYTE 	0455	CONST
 AASMN  . . . . . . . . . . . . .  	L BYTE 	0458	CONST	Global
 AA_OPER  . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 ABORT  . . . . . . . . . . . . .  	Number	0000	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-5
                                                              
 
@@ -1669,7 +1669,7 @@ CBWMN  . . . . . . . . . . . . .  	L BYTE 	045F	CONST	Global
 CHAR_OPER  . . . . . . . . . . .  	Number	0037	
 CHDIR  . . . . . . . . . . . . .  	Number	003B	
 CHDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-6
                                                              
 
@@ -1727,7 +1727,7 @@ DEALLOC_ARENA_TRASHED  . . . . .  	Alias	 ERROR_ARENA_TRASHED
 DEALLOC_INVALID_BLOCK  . . . . .  	Alias	 ERROR_INVALID_BLOCK		
 DECMN  . . . . . . . . . . . . .  	L BYTE 	0484	CONST	Global
 DEVID_BLOCK_DEV  . . . . . . . .  	Number	001F	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-7
                                                              
 
@@ -1761,8 +1761,9 @@ DISP8_OPER . . . . . . . . . . .  	L NEAR	0000	CODE	External
 DISPB  . . . . . . . . . . . . .  	L WORD 	0C4F	CONST	Global
 DISTAB . . . . . . . . . . . . .  	L WORD 	0036	CONST	Global
 DIVMN  . . . . . . . . . . . . .  	L BYTE 	0487	CONST	Global
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DOWNMN . . . . . . . . . . . . .  	L BYTE 	0702	CONST	Global
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DSIZ . . . . . . . . . . . . . .  	L BYTE 	0C4D	CONST	Global
@@ -1784,11 +1785,11 @@ ERROR_ARENA_TRASHED  . . . . . .  	Number	0007
 ERROR_BAD_ENVIRONMENT  . . . . .  	Number	000A	
 ERROR_BAD_FORMAT . . . . . . . .  	Number	000B	
 ERROR_CURRENT_DIRECTORY  . . . .  	Number	0010	
-ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-8
                                                              
 
+ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002	
 ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
 ERROR_INVALID_BLOCK  . . . . . .  	Number	0009	
 ERROR_INVALID_DATA . . . . . . .  	Number	000D	
@@ -1842,11 +1843,11 @@ FCB_SEQ_WRITE  . . . . . . . . .  	Number	0015
 FD9_OPER . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 FDB_OPER . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 FDE_OPER . . . . . . . . . . . .  	L NEAR	0000	CODE	External
-FGROUP . . . . . . . . . . . . .  	L NEAR	0000	CODE	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-9
                                                              
 
+FGROUP . . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 FGROUP3  . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 FGROUP3W . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 FGROUPB  . . . . . . . . . . . .  	L NEAR	0000	CODE	External
@@ -1897,11 +1898,10 @@ GRP2TAB  . . . . . . . . . . . .  	L WORD 	0B3B	CONST	Global
 HEADSAVE . . . . . . . . . . . .  	L WORD 	0CAC	CONST	Global
 HLTMN  . . . . . . . . . . . . .  	L BYTE 	05E9	CONST	Global
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 TRUE		
 IDIVMN . . . . . . . . . . . . .  	L BYTE 	05EC	CONST	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-10
                                                              
 
@@ -1959,7 +1959,7 @@ JNZMN  . . . . . . . . . . . . .  	L BYTE 	0644	CONST	Global
 JOMN . . . . . . . . . . . . . .  	L BYTE 	0659	CONST	Global
 JPEMN  . . . . . . . . . . . . .  	L BYTE 	064A	CONST	Global
 JPOMN  . . . . . . . . . . . . .  	L BYTE 	064D	CONST	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-11
                                                              
 
@@ -2017,7 +2017,7 @@ MOVBMN . . . . . . . . . . . . .  	L BYTE 	0694	CONST	Global
 MOVMN  . . . . . . . . . . . . .  	L BYTE 	069E	CONST	Global
 MOVSEGFROM . . . . . . . . . . .  	L NEAR	0000	CODE	External
 MOVSEGTO . . . . . . . . . . . .  	L NEAR	0000	CODE	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-12
                                                              
 
@@ -2035,7 +2035,7 @@ NOTMN  . . . . . . . . . . . . .  	L BYTE 	06AA	CONST	Global
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NO_OPER  . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -2075,7 +2075,7 @@ PUSH_OPER  . . . . . . . . . . .  	L NEAR	0000	CODE	External
 QFLAG  . . . . . . . . . . . . .  	L BYTE 	0CA6	CONST	Global
 
 RAW_CON_INPUT  . . . . . . . . .  	Number	0007	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-13
                                                              
 
@@ -2133,7 +2133,7 @@ SETBLOCK_NOT_ENOUGH_MEMORY . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY
 SETCNTC  . . . . . . . . . . . .  	Alias	 TRUE		
 SETDPB . . . . . . . . . . . . .  	Number	0053	
 SET_CTRL_C_TRAPPING  . . . . . .  	Number	0033	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-14
                                                              
 
@@ -2191,7 +2191,7 @@ TRUE . . . . . . . . . . . . . .  	Number	FFFF
 TST_OPER . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 
 UNLINK . . . . . . . . . . . . .  	Number	0041	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:52:42
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:08:15
                                                             Symbols-15
                                                              
 
@@ -2201,8 +2201,7 @@ UPMN . . . . . . . . . . . . . .  	L BYTE 	0465	CONST	Global
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 USER_PROC_PDB  . . . . . . . . .  	L WORD 	0CAA	CONST	Global
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WAITMN . . . . . . . . . . . . .  	L BYTE 	0716	CONST	Global
@@ -2225,7 +2224,7 @@ ZZOPCODE . . . . . . . . . . . .  	L BYTE 	0B0B	CONST
 
    2403 Source  Lines
    2466 Total   Lines
-    759 Symbols
+    758 Symbols
 
   14794 Bytes symbol space free
 

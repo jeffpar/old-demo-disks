@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ DEBASM                                                      Page     1-1
 				B,FGROUP3,FGROUP3W 
                                         PUBLIC  FGROUPDS,INT_OPER,IN_OPER,DISP8
 				_OPER,JMP_OPER,NO_OPER 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ DEBASM                                                      Page     1-2
  0033  33 DB                    OPSCAN: XOR     BX,BX 
  0035  8A 01                    OPLOOP: MOV     AL,[DI+BX] 
  0037  24 7F                            AND     AL,7FH 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-3
                                                             
 
@@ -172,7 +172,7 @@ DEBASM                                                      Page     1-3
  0084                           FDB_OPER: 
  0084  B4 DB                            MOV     AH,0DBH 
  0086  EB 02                            JMP     SHORT FDX_OPER 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-4
                                                             
 
@@ -230,7 +230,7 @@ DEBASM                                                      Page     1-4
  00DC  24 07                    POP2:   AND     AL,111B 
  00DE  0C 50                            OR      AL,01010000B 
  00E0  80 3E 0000 E 00                  CMP     BYTE PTR [MIDFLD],0 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-5
                                                             
 
@@ -288,7 +288,7 @@ DEBASM                                                      Page     1-5
  014D  8A C2                            MOV     AL,DL 
  014F  E9 0243 R                        JMP     DISPX 
                                 ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-6
                                                             
 
@@ -346,7 +346,7 @@ DEBASM                                                      Page     1-6
                                 ;   DIRECT JUMPS OR CALLS 
                                 ; 
  01BD  A1 0000 E                CALLJ2: MOV     AX,[LOWNUM] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-7
                                                             
 
@@ -404,7 +404,7 @@ DEBASM                                                      Page     1-7
  0226  89 45 02                         MOV     [DI+2],AX 
  0229  FE 0D                            DEC     BYTE PTR [DI] 
  022B  E9 05BF R                ASMEX4: JMP     ASSEM_EXIT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-8
                                                             
 
@@ -462,7 +462,7 @@ DEBASM                                                      Page     1-8
  0294  0C 40                            OR      AL,01000000B 
  0296  88 45 01                         MOV     [DI+1],AL 
  0299  FE 0D                            DEC     BYTE PTR [DI] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-9
                                                             
 
@@ -520,7 +520,7 @@ DEBASM                                                      Page     1-9
  02EF  EB 03                            JMP     SHORT FGRP2 
  02F1                           FGROUP: 
  02F1  E8 090D R                        CALL    SETMID 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-10
                                                             
 
@@ -578,7 +578,7 @@ DEBASM                                                      Page     1-10
  034C  E8 0634 R                        CALL    GETREGMEM 
  034F  80 3E 0000 E C0                  CMP     BYTE PTR [MODE],11000000B 
  0354  74 EB                            JZ      FGRPERR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-11
                                                             
 
@@ -636,7 +636,7 @@ DEBASM                                                      Page     1-11
                                 ; 
  03A7                           GROUP2: 
  03A7  C6 06 0000 E 80                  MOV     BYTE PTR [ASSEM1],10000000B 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-12
                                                             
 
@@ -694,7 +694,7 @@ DEBASM                                                      Page     1-12
  0410  D0 E0                            SHL     AL,1 
  0412  0A 45 02                         OR      AL,BYTE PTR [DI+2]      ; SET R
 				EGISTER 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-13
                                                             
 
@@ -752,7 +752,7 @@ DEBASM                                                      Page     1-13
  0483  32 FF                    GRP23X: XOR     BH,BH 
  0485  03 DF                            ADD     BX,DI 
  0487  43                               INC     BX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-14
                                                             
 
@@ -810,7 +810,7 @@ DEBASM                                                      Page     1-14
  04F9  80 3E 0000 E 00                  CMP     BYTE PTR [MOVFLG],0 
  04FE  74 A8                            JZ      ERRV3 
  0500  C6 45 01 8C                      MOV     BYTE PTR [DI+1],10001100B 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-15
                                                             
 
@@ -868,7 +868,7 @@ DEBASM                                                      Page     1-15
  056A  0A 06 0000 E             GRP222: OR      AL,BYTE PTR [MODE] 
  056E  0A 06 0000 E                     OR      AL,BYTE PTR [REGMEM] 
  0572  88 45 02                         MOV     BYTE PTR [DI+2],AL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-16
                                                             
 
@@ -926,7 +926,7 @@ DEBASM                                                      Page     1-16
  05C5  81 EE FFF6 E                     SUB     SI,OFFSET DG:(BYTEBUF-10)   ; H
 				ow many char processed so far? 
  05C9  8B CE                            MOV     CX,SI                   ; Param
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-17
                                                             
 
@@ -984,7 +984,7 @@ DEBASM                                                      Page     1-17
  0630  89 45 03                         MOV     WORD PTR [DI+3],AX 
  0633  C3                               RET 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-18
                                                             
 
@@ -1042,7 +1042,7 @@ DEBASM                                                      Page     1-18
  069F  8A 45 01                         MOV     AL,[DI+1] 
  06A2  0A 06 0000 E                     OR      AL,[DIRFLG] 
  06A6  3C DC                            CMP     AL,0DCH                 ; ARITH
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-19
                                                             
 
@@ -1100,7 +1100,7 @@ DEBASM                                                      Page     1-19
  0714  FE C2                            INC     DL 
  0716  0A ED                            OR      CH,CH 
  0718  75 1E                            JNZ     GOGO 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-20
                                                             
 
@@ -1158,7 +1158,7 @@ DEBASM                                                      Page     1-20
  0787  74 BE                            JZ      GETREG1 
                                  
  0789  3D 4146                          CMP     AX,"AF"                 ; FAR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-21
                                                             
 
@@ -1216,7 +1216,7 @@ DEBASM                                                      Page     1-21
  07FE  B9 0014                          MOV     CX,20 
  0801  BF 0000 E                        MOV     DI,OFFSET DG:REG8 
  0804  E8 08A6 R                        CALL    CHKREG 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-22
                                                             
 
@@ -1274,7 +1274,7 @@ DEBASM                                                      Page     1-22
  0872  B9 0004                  GTRG119:MOV     CX,4 
  0875  E8 0000 E                GTRG120:CALL    GETHX 
  0878  EB 13                            JMP     SHORT GTRG122 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-23
                                                             
 
@@ -1332,7 +1332,7 @@ DEBASM                                                      Page     1-23
  08DD  E9 082B R                        JMP     ASMPOP 
  08E0  88 16 0000 E             SETSIZ2:MOV     BYTE PTR [AWORD],DL 
  08E4  C3                               RET 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-24
                                                             
 
@@ -1390,7 +1390,7 @@ DEBASM                                                      Page     1-24
                                 ; 
  0936  A0 0000 E                SETMF:  MOV     AL,[AWORD] 
  0939  F6 45 01 02                      TEST    BYTE PTR [DI+1],10B 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-25
                                                             
 
@@ -1448,7 +1448,7 @@ DEBASM                                                      Page     1-25
  098E  E8 0000 E                        CALL    SCANP 
  0991  75 03                            JNZ     DB1 
  0993  E9 05BF R                DBEX:   JMP     ASSEM_EXIT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Page     1-26
                                                             
 
@@ -1491,7 +1491,7 @@ DEBASM                                                      Page     1-26
  09E2                           CODE    ENDS 
                                         END ASSEM 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-1
                                                              
 
@@ -1549,7 +1549,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-2
                                                              
 
@@ -1607,7 +1607,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-3
                                                              
 
@@ -1665,7 +1665,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-4
                                                              
 
@@ -1723,7 +1723,7 @@ ADDR_INT_ABORT . . . . . . . . .  	Number	0080
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-5
                                                              
 
@@ -1781,7 +1781,7 @@ BPMAX  . . . . . . . . . . . . .  	Number	000A
 BPREG  . . . . . . . . . . . . .  	Number	5042	
 BUFINSIZ . . . . . . . . . . . .  	Number	0010	
 BUFLEN . . . . . . . . . . . . .  	Number	0050	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-6
                                                              
 
@@ -1839,7 +1839,7 @@ DB0  . . . . . . . . . . . . . .  	L NEAR	098C	CODE
 DB1  . . . . . . . . . . . . . .  	L NEAR	0996	CODE
 DB2  . . . . . . . . . . . . . .  	L NEAR	09A6	CODE
 DB3  . . . . . . . . . . . . . .  	L NEAR	09A9	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-7
                                                              
 
@@ -1886,8 +1886,9 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DISP8_OPER . . . . . . . . . . .  	L NEAR	022E	CODE	Global
 DISPX  . . . . . . . . . . . . .  	L NEAR	0243	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DUP2_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -1896,11 +1897,11 @@ DUP_PDB  . . . . . . . . . . . .  	Number	0055
 DUP_TOO_MANY_OPEN_FILES  . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES		
 DW_OPER  . . . . . . . . . . . .  	L NEAR	097F	CODE	Global
 
-ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-8
                                                              
 
+ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
 ERRET  . . . . . . . . . . . . .  	L NEAR	06AF	CODE
 ERROR_ACCESS_DENIED  . . . . . .  	Number	0005	
 ERROR_ARENA_TRASHED  . . . . . .  	Number	0007	
@@ -1954,11 +1955,11 @@ FCB_CREATE . . . . . . . . . . .  	Number	0016
 FCB_DELETE . . . . . . . . . . .  	Number	0013	
 FCB_OPEN . . . . . . . . . . . .  	Number	000F	
 FCB_RANDOM_READ  . . . . . . . .  	Number	0021	
-FCB_RANDOM_READ_BLOCK  . . . . .  	Number	0027	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-9
                                                              
 
+FCB_RANDOM_READ_BLOCK  . . . . .  	Number	0027	
 FCB_RANDOM_WRITE . . . . . . . .  	Number	0022	
 FCB_RANDOM_WRITE_BLOCK . . . . .  	Number	0028	
 FCB_RENAME . . . . . . . . . . .  	Number	0017	
@@ -2012,11 +2013,11 @@ GETREG13 . . . . . . . . . . . .  	L NEAR	089B	CODE
 GETREG3  . . . . . . . . . . . .  	L NEAR	0754	CODE
 GETREG41 . . . . . . . . . . . .  	L NEAR	0765	CODE
 GETREG5  . . . . . . . . . . . .  	L NEAR	0784	CODE
-GETREG6  . . . . . . . . . . . .  	L NEAR	079F	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-10
                                                              
 
+GETREG6  . . . . . . . . . . . .  	L NEAR	079F	CODE
 GETREG7  . . . . . . . . . . . .  	L NEAR	07A7	CODE
 GETREG8  . . . . . . . . . . . .  	L NEAR	07BF	CODE
 GETREG9  . . . . . . . . . . . .  	L NEAR	0834	CODE
@@ -2070,15 +2071,14 @@ GRPSIZ . . . . . . . . . . . . .  	L NEAR	057B	CODE
 GTRG119  . . . . . . . . . . . .  	L NEAR	0872	CODE
 GTRG120  . . . . . . . . . . . .  	L NEAR	0875	CODE
 GTRG121  . . . . . . . . . . . .  	L NEAR	087A	CODE
-GTRG122  . . . . . . . . . . . .  	L NEAR	088D	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-11
                                                              
 
+GTRG122  . . . . . . . . . . . .  	L NEAR	088D	CODE
 
 HINUM  . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 TRUE		
 IMMACC . . . . . . . . . . . . .  	L NEAR	0466	CODE
@@ -2129,7 +2129,7 @@ MIDFLD . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 MI_INT . . . . . . . . . . . . .  	Number	00CD	
 MI_LONG_CALL . . . . . . . . . .  	Number	009A	
 MI_LONG_JMP  . . . . . . . . . .  	Number	00EA	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-12
                                                              
 
@@ -2157,7 +2157,7 @@ NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                      
 NO_OPER  . . . . . . . . . . . .  	L NEAR	0093	CODE	Global
 NUMFLG . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -2187,7 +2187,7 @@ OUT_0  . . . . . . . . . . . . .  	L NEAR	015F	CODE
 OUT_1  . . . . . . . . . . . . .  	L NEAR	0174	CODE
 OUT_OPER . . . . . . . . . . . .  	L NEAR	0152	CODE	Global
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-13
                                                              
 
@@ -2245,7 +2245,7 @@ SETMFERR . . . . . . . . . . . .  	L NEAR	097C	CODE
 SETMFI . . . . . . . . . . . . .  	L NEAR	0957	CODE
 SETMFRET . . . . . . . . . . . .  	L NEAR	097B	CODE
 SETMFRET2  . . . . . . . . . . .  	L NEAR	0977	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-14
                                                              
 
@@ -2300,14 +2300,13 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:46:12
+WAIT . . . . . . . . . . . . . .  	Number	004D	
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:01:46
 DEBASM                                                      Symbols-15
                                                              
 
-WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
 WRITE  . . . . . . . . . . . . .  	Number	0040	
 WRITE_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
@@ -2322,7 +2321,7 @@ ZLOOP  . . . . . . . . . . . . .  	L NEAR	07FB	CODE
 
    2564 Source  Lines
    2627 Total   Lines
-    745 Symbols
+    744 Symbols
 
   15906 Bytes symbol space free
 

@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ XENIX - IO system to mimic UNIX                             Page     1-1
  0000                         1  DATA ENDS
                                         i_need  DIRSTART,WORD 
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -105,7 +105,7 @@ DEVICE TABLE AND SRH DEFINITION
  0000                         1  DATA ENDS
                                  
                                 BREAK <Local data> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-3
 Local data                                                  
 
@@ -135,7 +135,7 @@ Local data
                                  
                                 BREAK <Validate_path - check to see if there ar
 				e meta characters in path> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-4
 Validate_path - check to see if there are meta characters in
 
@@ -193,7 +193,7 @@ Validate_path - check to see if there are meta characters in
                                         invoke  PathChrCmp 
  0032  E8 0000 E              1  CALL PathChrCmp
  0035  75 E3                            JNZ     validate_loop1          ;Double
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-5
 Validate_path - check to see if there are meta characters in
 
@@ -241,7 +241,7 @@ Validate_path - check to see if there are meta characters in
                                 validate_path   ENDP 
                                  
                                 BREAK <Access_path - determine if file found> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-6
 Access_path - determine if file found                       
 
@@ -275,7 +275,7 @@ Access_path - determine if file found
                                  
                                 BREAK <Find_free_jfn - return a free jfn in use
 				rs PDB> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-7
 Find_free_jfn - return a free jfn in users PDB              
 
@@ -326,7 +326,7 @@ Find_free_jfn - return a free jfn in users PDB
                                  
                                 BREAK <find_free_sfn - return a free sfn and sf
 				 pointer> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-8
 find_free_sfn - return a free sfn and sf pointer            
 
@@ -384,7 +384,7 @@ find_free_sfn - return a free sfn and sf pointer
  00B5                           Find_got_sfn: 
  00B5  03 FB                            ADD     DI,BX 
  00B7  F8                               CLC 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-9
 find_free_sfn - return a free sfn and sf pointer            
 
@@ -395,7 +395,7 @@ find_free_sfn - return a free sfn and sf pointer
                                 Find_free_sfn   ENDP 
                                  
                                 BREAK <$Open - open a file handle> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-10
 $Open - open a file handle                                  
 
@@ -453,7 +453,7 @@ $Open - open a file handle
  00DD  B0 04                  1  MOV AL,error_too_many_open_files
  00DF                         3  ??0008:
  00DF  EB E6                  3  JMP SYS_RET_ERR_J
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-11
 $Open - open a file handle                                  
 
@@ -511,7 +511,7 @@ $Open - open a file handle
  0122  75 F8                            JNZ     open_bad_access 
  0124  A8 01                            TEST    AL,attr_read_only       ; check
 				 write on read only 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-12
 $Open - open a file handle                                  
 
@@ -569,7 +569,7 @@ $Open - open a file handle
  0160  8A 26 000F R                     MOV     AH,open_devid 
                                         invoke  DOOPEN                  ; let o
 				pen code fill in blanks 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-13
 $Open - open a file handle                                  
 
@@ -605,7 +605,7 @@ $Open - open a file handle
                                  
                                  
                                 BREAK <$UNLINK - delete a file entry> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-14
 $UNLINK - delete a file entry                               
 
@@ -663,7 +663,7 @@ $UNLINK - delete a file entry
                                         transfer    SYS_RET_OK 
  01CD                         2  ??0010:
  01CD  EB C6                  2  JMP SYS_RET_OK_J
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-15
 $UNLINK - delete a file entry                               
 
@@ -671,7 +671,7 @@ $UNLINK - delete a file entry
                                  
                                 BREAK <$CREAT - creat a new file and open him f
 				or input> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-16
 $CREAT - creat a new file and open him for input            
 
@@ -729,7 +729,7 @@ $CREAT - creat a new file and open him for input
  0206  B0 05                  1  MOV AL,error_access_denied
  0208                         3  ??0014:
  0208  EB CC                  3  JMP SYS_RET_ERR_J
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-17
 $CREAT - creat a new file and open him for input            
 
@@ -741,7 +741,7 @@ $CREAT - creat a new file and open him for input
                                  
                                  
                                 BREAK <$DUP - duplicate a jfn> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-18
 $DUP - duplicate a jfn                                      
 
@@ -799,14 +799,14 @@ $DUP - duplicate a jfn
  0234                         3  ??0019:
  0234  EB FA                  3  JMP SYS_RET_ERR_J
                                 $DUP    ENDP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-19
 $DUP - duplicate a jfn                                      
 
                                  
                                 BREAK <$DUP2 - force a dup on a particular jfn>
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-20
 $DUP2 - force a dup on a particular jfn                     
 
@@ -847,7 +847,7 @@ $DUP2 - force a dup on a particular jfn
                                  
                                  
                                 BREAK <$CHMOD - change file attributes> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-21
 $CHMOD - change file attributes                             
 
@@ -905,7 +905,7 @@ $CHMOD - change file attributes
  0286  B0 FF                            MOV     AL,-1 
                                         invoke  FlushBuf 
  0288  E8 0000 E              1  CALL FlushBuf
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-22
 $CHMOD - change file attributes                             
 
@@ -925,7 +925,7 @@ $CHMOD - change file attributes
                                  
                                 BREAK <$CURRENT_DIR - dump the current director
 				y into user space> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-23
 $CURRENT_DIR - dump the current directory into user space   
 
@@ -983,7 +983,7 @@ $CURRENT_DIR - dump the current directory into user space
  02C3  E8 0000 E              1  CALL GETCURRDIR
  02C6  5F                               POP     DI 
  02C7  5B                               POP     BX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-24
 $CURRENT_DIR - dump the current directory into user space   
 
@@ -1015,7 +1015,7 @@ $CURRENT_DIR - dump the current directory into user space
                                  
                                 BREAK <$RENAME - move directory entries around>
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-25
 $RENAME - move directory entries around                     
 
@@ -1073,7 +1073,7 @@ $RENAME - move directory entries around
  033B  B0 11                  1  MOV AL,error_not_same_device
  033D                         3  ??002A:
  033D  EB F0                  3  JMP SYS_RET_ERR_J
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-26
 $RENAME - move directory entries around                     
 
@@ -1119,7 +1119,7 @@ $RENAME - move directory entries around
                                  
                                 BREAK <$FIND_FIRST - find first matching xenix 
 				filename> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-27
 $FIND_FIRST - find first matching xenix filename            
 
@@ -1177,7 +1177,7 @@ $FIND_FIRST - find first matching xenix filename
 				buf 0 = attribute in search 
  03E5  36: A0 0000 E                    MOV     AL,[ThisDrv] 
  03E9  AA                               STOSB                           ; find_
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-28
 $FIND_FIRST - find first matching xenix filename            
 
@@ -1235,7 +1235,7 @@ $FIND_FIRST - find first matching xenix filename
  042E  80 3C 20                         CMP     BYTE PTR [SI]," " 
  0431  74 0F                            JZ      find_done 
  0433  B0 2E                            MOV     AL,"." 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-29
 $FIND_FIRST - find first matching xenix filename            
 
@@ -1258,7 +1258,7 @@ $FIND_FIRST - find first matching xenix filename
                                  
                                 BREAK <$FIND_NEXT - scan for match in directory
 				> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-30
 $FIND_NEXT - scan for match in directory                    
 
@@ -1316,13 +1316,13 @@ $FIND_NEXT - scan for match in directory
                                 do_ext 
                                  
  048E                           CODE    ENDS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Page     1-31
 $FIND_NEXT - scan for match in directory                    
 
                                     END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-1
                                                              
 
@@ -1380,7 +1380,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-2
                                                              
 
@@ -1438,7 +1438,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-3
                                                              
 
@@ -1496,7 +1496,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-4
                                                              
 
@@ -1554,7 +1554,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	048E	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0019	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-5
                                                              
 
@@ -1612,7 +1612,7 @@ CHMOD_FETCH  . . . . . . . . . .  	L NEAR	028D	CODE
 CHMOD_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 CHMOD_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 CHMOD_SAVE . . . . . . . . . . .  	L NEAR	0254	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-6
                                                              
 
@@ -1670,7 +1670,7 @@ DEVID_FILE_MASK_DRIVE  . . . . .  	Number	003F
 DEVID_ISCIN  . . . . . . . . . .  	Number	0001	
 DEVID_ISCLK  . . . . . . . . . .  	Number	0008	
 DEVID_ISCOT  . . . . . . . . . .  	Number	0002	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-7
                                                              
 
@@ -1702,8 +1702,9 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DMAADD . . . . . . . . . . . . .  	V DWORD	0000	DATA	External
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -1727,11 +1728,11 @@ ERROR_CURRENT_DIRECTORY  . . . .  	Number	0010
 ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002	
 ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
 ERROR_INVALID_BLOCK  . . . . . .  	Number	0009	
-ERROR_INVALID_DATA . . . . . . .  	Number	000D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-8
                                                              
 
+ERROR_INVALID_DATA . . . . . . .  	Number	000D	
 ERROR_INVALID_DRIVE  . . . . . .  	Number	000F	
 ERROR_INVALID_FUNCTION . . . . .  	Number	0001	
 ERROR_INVALID_HANDLE . . . . . .  	Number	0006	
@@ -1785,11 +1786,11 @@ FIND_DONE  . . . . . . . . . . .  	L NEAR	0442	CODE
 FIND_FIRST . . . . . . . . . . .  	Number	004E	
 FIND_FREE_JFN  . . . . . . . . .  	N PROC	0073	CODE	Global	Length = 0019
 FIND_FREE_SFN  . . . . . . . . .  	N PROC	008C	CODE	Global	Length = 002F
-FIND_GET . . . . . . . . . . . .  	L NEAR	03A3	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-9
                                                              
 
+FIND_GET . . . . . . . . . . . .  	L NEAR	03A3	CODE
 FIND_GOT_SFN . . . . . . . . . .  	L NEAR	00B5	CODE
 FIND_IT_NEXT . . . . . . . . . .  	L NEAR	047B	CODE
 FIND_JFN_RET . . . . . . . . . .  	L NEAR	0089	CODE
@@ -1822,7 +1823,6 @@ GET_TIME . . . . . . . . . . . .  	Number	002C
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -1844,7 +1844,7 @@ IOCTL_INVALID_DATA . . . . . . .  	Alias	 ERROR_INVALID_DATA
 IOCTL_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 IOCTL_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 IOMED  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-10
                                                              
 
@@ -1881,7 +1881,7 @@ NAME1  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 NOSETDIR . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1902,7 +1902,7 @@ OPEN_FOR_BOTH  . . . . . . . . .  	Number	0002
 OPEN_FOR_READ  . . . . . . . . .  	Number	0000	
 OPEN_FOR_WRITE . . . . . . . . .  	Number	0001	
 OPEN_GET_JFN . . . . . . . . . .  	L NEAR	00CA	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-11
                                                              
 
@@ -1960,7 +1960,7 @@ SET_DEFAULT_DRIVE  . . . . . . .  	Number	000E
 SET_DMA  . . . . . . . . . . . .  	Number	001A	
 SET_INTERRUPT_VECTOR . . . . . .  	Number	0025	
 SET_OEM_HANDLER  . . . . . . . .  	Number	00F8	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-12
                                                              
 
@@ -2013,16 +2013,15 @@ VALIDATE_MALFORMED . . . . . . .  	L NEAR	0037	CODE
 VALIDATE_OK  . . . . . . . . . .  	L NEAR	0059	CODE
 VALIDATE_PATH  . . . . . . . . .  	N PROC	0000	CODE	Global	Length = 005D
 VALIDATE_SET_CARRY . . . . . . .  	L NEAR	0058	CODE
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:41:09
+WRECODE  . . . . . . . . . . . .  	Number	0000	
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:57:26
 XENIX - IO system to mimic UNIX                             Symbols-13
                                                              
 
-WRECODE  . . . . . . . . . . . .  	Number	0000	
 WRITE  . . . . . . . . . . . . .  	Number	0040	
 WRITE_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 WRITE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -2077,7 +2076,7 @@ $UNLINK  . . . . . . . . . . . .  	N PROC	0198	CODE	Global	Length = 0037
 
    2251 Source  Lines
    3653 Total   Lines
-    699 Symbols
+    698 Symbols
 
   16200 Bytes symbol space free
 

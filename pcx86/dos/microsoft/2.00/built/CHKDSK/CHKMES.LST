@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ CHKDSK Messages                                             Page     1-1
                                  
  0019                           RDSKERR: 
  0019  BE 017D R                        MOV     SI,OFFSET DG:READING 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ CHKDSK Messages                                             Page     1-2
  0071                           EEXIT: 
  0071  07                               POP     ES 
  0072  5F                               POP     DI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-3
                                                             
 
@@ -172,7 +172,7 @@ CHKDSK Messages                                             Page     1-3
 				er case 
  00C1  80 FC 66                         CMP     AH,'f' 
  00C4  75 06                            JNZ     CHECKV 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-4
                                                             
 
@@ -230,7 +230,7 @@ CHKDSK Messages                                             Page     1-4
  0104  8B 36 0000 E                     MOV     SI,[ORPHCNT] 
  0108  33 FF                            XOR     DI,DI 
  010A  E8 0000 E                        CALL    DISP16BITS              ;Tell u
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-5
                                                             
 
@@ -288,7 +288,7 @@ CHKDSK Messages                                             Page     1-5
  016B                           ORPHLIN: 
  016B  A1 0000 E                        MOV     AX,[ORPHSIZ] 
  016E  0B C0                            OR      AX,AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-6
                                                             
 
@@ -346,7 +346,7 @@ CHKDSK Messages                                             Page     1-6
                                  
                                  
  0000                           CONST   SEGMENT PUBLIC BYTE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-7
                                                             
 
@@ -404,7 +404,7 @@ CHKDSK Messages                                             Page     1-7
        76 65 72 73 69 6F 6E     
        0D 0A 24                 
  0037  49 6E 76 61 6C 69 64     BADDRV  DB      "Invalid drive specification$" 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-8
                                                             
 
@@ -462,7 +462,7 @@ CHKDSK Messages                                             Page     1-8
        6C 6F 63 61 74 69 6F     
        6E 20 74 61 62 6C 65     
        20 62 61 64 20 64 72     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-9
                                                             
 
@@ -520,7 +520,7 @@ CHKDSK Messages                                             Page     1-9
        75 6C 74 24              
  0239  44 69 73 6B 24           ERR12   DB      "Disk$" 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-10
                                                             
 
@@ -578,7 +578,7 @@ CHKDSK Messages                                             Page     1-10
 				revios message!!! 
  0332  56 6F 6C 75 6D 65 20     IDMES1  DB      "Volume " 
                                 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-11
                                                             
 
@@ -636,7 +636,7 @@ CHKDSK Messages                                             Page     1-11
                                 ;CHAINREPORT messages 
  03EC  20 6C 6F 73 74 20 63     ORPHMES2 DB     " lost clusters found in $" 
        6C 75 73 74 65 72 73     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-12
                                                             
 
@@ -694,7 +694,7 @@ CHKDSK Messages                                             Page     1-12
        24                       
  04FD  20 62 79 74 65 73 20     FREMEM  DB      " bytes free",13,10,13,10,"$" 
        66 72 65 65 0D 0A 0D     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-13
                                                             
 
@@ -752,7 +752,7 @@ CHKDSK Messages                                             Page     1-13
  05FB  0D 0A 43 6F 72 72 65             DB      13,10,"Corrections will not be 
 				written to disk.",13,10,13,10,"$" 
        63 74 69 6F 6E 73 20     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-14
                                                             
 
@@ -810,14 +810,14 @@ CHKDSK Messages                                             Page     1-14
        75 6E 64 2E 0D 0A 24     
                                  
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Page     1-15
                                                             
 
  0712                           CONST   ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-1
                                                              
 
@@ -875,7 +875,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-2
                                                              
 
@@ -933,7 +933,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-3
                                                              
 
@@ -991,7 +991,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-4
                                                              
 
@@ -1049,7 +1049,7 @@ ADDR_INT_COMMAND . . . . . . . .  	Number	0084
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
 ADDR_INT_DISK_WRITE  . . . . . .  	Number	0098	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-5
                                                              
 
@@ -1107,7 +1107,7 @@ BADWRITE_POST  . . . . . . . . .  	L BYTE 	03CA	CONST	Global
 BADWRITE_PRE . . . . . . . . . .  	L BYTE 	038B	CONST	Global
 BUFINSIZ . . . . . . . . . . . .  	Number	0010	
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-6
                                                              
 
@@ -1165,7 +1165,7 @@ DEVID_DEVICE_CON_OUT . . . . . .  	Number	0002
 DEVID_DEVICE_EOF . . . . . . . .  	Number	0040	
 DEVID_DEVICE_NULL  . . . . . . .  	Number	0004	
 DEVID_DEVICE_RAW . . . . . . . .  	Number	0020	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-7
                                                              
 
@@ -1196,8 +1196,9 @@ DISPCLUS . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 DOCRLF . . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 DOFIX  . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 DOINT26  . . . . . . . . . . . .  	L NEAR	0000	CODE	Global
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRVMES . . . . . . . . . . . . .  	L BYTE 	018F	CONST
 DSIZE  . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
@@ -1222,11 +1223,11 @@ ERR3 . . . . . . . . . . . . . .  	L BYTE 	01D5	CONST
 ERR4 . . . . . . . . . . . . . .  	L BYTE 	01E1	CONST
 ERR5 . . . . . . . . . . . . . .  	L BYTE 	01E6	CONST
 ERR6 . . . . . . . . . . . . . .  	L BYTE 	01F6	CONST
-ERR7 . . . . . . . . . . . . . .  	L BYTE 	01FB	CONST
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-8
                                                              
 
+ERR7 . . . . . . . . . . . . . .  	L BYTE 	01FB	CONST
 ERR8 . . . . . . . . . . . . . .  	L BYTE 	0208	CONST
 ERR9 . . . . . . . . . . . . . .  	L BYTE 	0219	CONST
 ERRMES . . . . . . . . . . . . .  	L BYTE 	0187	CONST
@@ -1280,11 +1281,11 @@ FCB_RENAME . . . . . . . . . . .  	Number	0017
 FCB_SEQ_READ . . . . . . . . . .  	Number	0014	
 FCB_SEQ_WRITE  . . . . . . . . .  	Number	0015	
 FILCNT . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
-FILDIRENT  . . . . . . . . . . .  	Number	0010	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-9
                                                              
 
+FILDIRENT  . . . . . . . . . . .  	Number	0010	
 FILEMES  . . . . . . . . . . . .  	L BYTE 	0485	CONST
 FILETIMES_INVALID_FUNCTION . . .  	Alias	 ERROR_INVALID_FUNCTION		
 FILETIMES_INVALID_HANDLE . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -1332,14 +1333,13 @@ HIDCNT . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
 HIDMES . . . . . . . . . . . . .  	L BYTE 	04AB	CONST
 HIDSIZ . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IDMES1 . . . . . . . . . . . . .  	L BYTE 	0332	CONST	Global
 IDPOST . . . . . . . . . . . . .  	L BYTE 	032F	CONST	Global
 INDENT . . . . . . . . . . . . .  	L BYTE 	055C	CONST	Global
 INMES  . . . . . . . . . . . . .  	L BYTE 	045B	CONST
 INMES2 . . . . . . . . . . . . .  	L BYTE 	0466	CONST
 INTBASE  . . . . . . . . . . . .  	Number	0080	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-10
                                                              
 
@@ -1392,12 +1392,12 @@ NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                      
 NULDMES  . . . . . . . . . . . .  	L BYTE 	028F	CONST	Global
 NULNZ  . . . . . . . . . . . . .  	L BYTE 	0253	CONST	Global
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
 OEM_C4 . . . . . . . . . . . . .  	Number	00FC	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-11
                                                              
 
@@ -1455,7 +1455,7 @@ SETBLOCK_ARENA_TRASHED . . . . .  	Alias	 ERROR_ARENA_TRASHED
 SETBLOCK_INVALID_BLOCK . . . . .  	Alias	 ERROR_INVALID_BLOCK		
 SETBLOCK_INVALID_FUNCTION  . . .  	Alias	 ERROR_INVALID_FUNCTION		
 SETBLOCK_NOT_ENOUGH_MEMORY . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-12
                                                              
 
@@ -1500,8 +1500,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 USERLIN  . . . . . . . . . . . .  	L NEAR	0133	CODE
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VNAME  . . . . . . . . . . . . .  	L BYTE 	0339	CONST	Global	Length = 000C
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -1513,20 +1512,20 @@ WRITE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 WRITING  . . . . . . . . . . . .  	L BYTE 	0182	CONST
 
 XDUP . . . . . . . . . . . . . .  	Number	0045	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:20:13
+XDUP2  . . . . . . . . . . . . .  	Number	0046	
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:36:54
 CHKDSK Messages                                             Symbols-13
                                                              
 
-XDUP2  . . . . . . . . . . . . .  	Number	0046	
 
 YES_NO . . . . . . . . . . . . .  	L BYTE 	0585	CONST
 
 
    1746 Source  Lines
    1808 Total   Lines
-    630 Symbols
+    629 Symbols
 
-  19854 Bytes symbol space free
+  19856 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

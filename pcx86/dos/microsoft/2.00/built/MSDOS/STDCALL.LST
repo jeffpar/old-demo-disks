@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ STDCALL - system calls for MSDOS                            Page     1-1
  0000                        C1  DATA ENDS
                              C          i_need  BCLOCK,DWORD 
  0000                        C1  DATA SEGMENT BYTE PUBLIC 'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -109,7 +109,7 @@ DEVICE TABLE AND SRH DEFINITION
                              C   
                              C  SUBTTL DATE AND TIME - SYSTEM CALLS 42,43,44,45
 				; S/G DATE,TIME 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-3
 DATE AND TIME - SYSTEM CALLS 42,43,44,45; S/G DATE,TIME     
 
@@ -167,7 +167,7 @@ DATE AND TIME - SYSTEM CALLS 42,43,44,45; S/G DATE,TIME
  0025  83 F9 77              C          CMP     CX,119          ;Year must be l
 				ess than 2100 
  0028  77 12                 C          JA      RET24 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-4
 DATE AND TIME - SYSTEM CALLS 42,43,44,45; S/G DATE,TIME     
 
@@ -225,7 +225,7 @@ DATE AND TIME - SYSTEM CALLS 42,43,44,45; S/G DATE,TIME
                              C  ; Function: 
                              C  ;       Set time 
                              C  ; Returns: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-5
 DATE AND TIME - SYSTEM CALLS 42,43,44,45; S/G DATE,TIME     
 
@@ -276,7 +276,7 @@ DATE AND TIME - SYSTEM CALLS 42,43,44,45; S/G DATE,TIME
                              C  $SET_TIME ENDP 
                              C   
                              C  SUBTTL DISK R/W ROUTINES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-6
 DISK R/W ROUTINES                                           
 
@@ -334,7 +334,7 @@ DISK R/W ROUTINES
                              C      entry   $FCB_RANDOM_READ                ; S
 				ystem call 33 
  00AD                        C1 $FCB_RANDOM_READ:
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-7
 DISK R/W ROUTINES                                           
 
@@ -392,7 +392,7 @@ DISK R/W ROUTINES
                              C  ;       DS:DX Points to openned FCB 
                              C  ;       CX = Record count 
                              C  ; Function: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-8
 DISK R/W ROUTINES                                           
 
@@ -450,7 +450,7 @@ DISK R/W ROUTINES
  00D6  83 D2 00              C          ADC     DX,0 
  00D9                        C  FINRND: 
  00D9  26: 89 45 21          C          MOV     WORD PTR ES:[DI.fcb_RR],AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-9
 DISK R/W ROUTINES                                           
 
@@ -475,7 +475,7 @@ DISK R/W ROUTINES
                              C  $FCB_SEQ_READ   ENDP 
                              C   
                              C  SUBTTL $FCB_DELETE -- SYSTEM CALL 19 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-10
 $FCB_DELETE -- SYSTEM CALL 19                               
 
@@ -533,7 +533,7 @@ $FCB_DELETE -- SYSTEM CALL 19
  013F  1E                    C          PUSH    DS 
  0140  C5 3E 0000 E          C          LDS     DI,[CURBUF] 
                              C  ASSUME  DS:NOTHING 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-11
 $FCB_DELETE -- SYSTEM CALL 19                               
 
@@ -574,7 +574,7 @@ $FCB_DELETE -- SYSTEM CALL 19
                              C   
                              C  SUBTTL $FCB_RENAME -- SYSTEM CALL 23; RENAME FI
 				LES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-12
 $FCB_RENAME -- SYSTEM CALL 23; RENAME FILES                 
 
@@ -632,7 +632,7 @@ $FCB_RENAME -- SYSTEM CALL 23; RENAME FILES
  01B6  8E 1E 0002 E          C          MOV     DS,WORD PTR [CURBUF+2] 
  01BA  8A 07                 C          MOV     AL,[BX] 
  01BC  1F                    C          POP     DS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-13
 $FCB_RENAME -- SYSTEM CALL 23; RENAME FILES                 
 
@@ -690,14 +690,14 @@ $FCB_RENAME -- SYSTEM CALL 23; RENAME FILES
  020C  B0 FF                 C          MOV     AL,-1 
  020E  C3                    C          RET 
                              C  $FCB_RENAME  ENDP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-14
 $FCB_RENAME -- SYSTEM CALL 23; RENAME FILES                 
 
                              C   
                              C  SUBTTL $FCB_OPEN -- SYSTEM CALL 15; OPEN A FILE
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-15
 $FCB_OPEN -- SYSTEM CALL 15; OPEN A FILE                    
 
@@ -755,7 +755,7 @@ $FCB_OPEN -- SYSTEM CALL 15; OPEN A FILE
                              C  ENDIF 
  022B  B0 80                 C          MOV     AL,128          ; Default recor
 				d size 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-16
 $FCB_OPEN -- SYSTEM CALL 15; OPEN A FILE                    
 
@@ -813,7 +813,7 @@ $FCB_OPEN -- SYSTEM CALL 15; OPEN A FILE
                              C   
  026B                        C  SAVDEVPT: 
                              C  ASSUME  DS:DOSGROUP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-17
 $FCB_OPEN -- SYSTEM CALL 15; OPEN A FILE                    
 
@@ -826,7 +826,7 @@ $FCB_OPEN -- SYSTEM CALL 15; OPEN A FILE
                              C   
                              C  SUBTTL $FCB_CLOSE -- SYSTEM CALL 16; CLOSE FILE
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-18
 $FCB_CLOSE -- SYSTEM CALL 16; CLOSE FILE                    
 
@@ -884,7 +884,7 @@ $FCB_CLOSE -- SYSTEM CALL 16; CLOSE FILE
  02A4  72 3E                 C          JC      BADCLOSE 
  02A6  C5 1E 0000 E          C          LDS     BX,[CURBUF] 
                              C  ASSUME  DS:NOTHING 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-19
 $FCB_CLOSE -- SYSTEM CALL 16; CLOSE FILE                    
 
@@ -924,7 +924,7 @@ $FCB_CLOSE -- SYSTEM CALL 16; CLOSE FILE
                              C   
                              C  SUBTTL $FCB_CREATE -- SYSTEM CALL 22; MAKE AND 
 				OPEN A NEW FILE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-20
 $FCB_CREATE -- SYSTEM CALL 22; MAKE AND OPEN A NEW FILE     
 
@@ -982,7 +982,7 @@ $FCB_CREATE -- SYSTEM CALL 22; MAKE AND OPEN A NEW FILE
  0317                        C1 NEWENTRY:
  0317  5A                    C          POP     DX      ; Return address 
  0318  07                    C          POP     ES      ; ES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-21
 $FCB_CREATE -- SYSTEM CALL 22; MAKE AND OPEN A NEW FILE     
 
@@ -1040,7 +1040,7 @@ $FCB_CREATE -- SYSTEM CALL 22; MAKE AND OPEN A NEW FILE
  0366  A4                    C          MOVSB 
  0367  F3/ A5                C          REP     MOVSW 
  0369  A0 0000 E             C          MOV     AL,[ATTRIB] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Page     1-22
 $FCB_CREATE -- SYSTEM CALL 22; MAKE AND OPEN A NEW FILE     
 
@@ -1086,7 +1086,7 @@ $FCB_CREATE -- SYSTEM CALL 22; MAKE AND OPEN A NEW FILE
  03A1                        C  CODE    ENDS 
                              C      END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-1
                                                              
 
@@ -1144,7 +1144,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-2
                                                              
 
@@ -1202,7 +1202,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-3
                                                              
 
@@ -1260,7 +1260,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-4
                                                              
 
@@ -1318,7 +1318,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	03A1	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-5
                                                              
 
@@ -1363,7 +1363,7 @@ BADCLOSE . . . . . . . . . . . .  	L NEAR	02E4	CODE
 BCLOCK . . . . . . . . . . . . .  	V DWORD	0000	DATA	External
 BUFINSIZ . . . . . . . . . . . .  	Number	0010	
 
-CANCEL . . . . . . . . . . . . .  	Number	001B	
+CANCEL . . . . . . . . . . . . .  	Number	0018	
 CHAR_OPER  . . . . . . . . . . .  	Number	0037	
 CHDIR  . . . . . . . . . . . . .  	Number	003B	
 CHDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
@@ -1376,7 +1376,7 @@ CLOSE_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION
 CLOSE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 COUNTRY_NOT_FOUND  . . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 CREAT  . . . . . . . . . . . . .  	Number	003C	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-6
                                                              
 
@@ -1434,7 +1434,7 @@ DEVIST . . . . . . . . . . . . .  	Number	0006
 DEVMDCH  . . . . . . . . . . . .  	Number	0001	
 DEVOFL . . . . . . . . . . . . .  	Number	000B	
 DEVOST . . . . . . . . . . . . .  	Number	000A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-7
                                                              
 
@@ -1457,8 +1457,9 @@ DISK_RESET . . . . . . . . . . .  	Number	000D
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
 DODELETE . . . . . . . . . . . .  	L NEAR	0155	CODE
 DOOPEN . . . . . . . . . . . . .  	L NEAR	0212	CODE	Global
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -1491,12 +1492,12 @@ ERROR_NOT_SAME_DEVICE  . . . . .  	Number	0011
 ERROR_NO_MORE_FILES  . . . . . .  	Number	0012	
 ERROR_PATH_NOT_FOUND . . . . . .  	Number	0003	
 ERROR_TOO_MANY_OPEN_FILES  . . .  	Number	0004	
-ERRPOP . . . . . . . . . . . . .  	L NEAR	0313	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-8
                                                              
 
-ESCCH  . . . . . . . . . . . . .  	Number	0000	
+ERRPOP . . . . . . . . . . . . .  	L NEAR	0313	CODE
+ESCCH  . . . . . . . . . . . . .  	Number	001B	
 EXEC . . . . . . . . . . . . . .  	Number	004B	
 EXEC_BAD_ENVIRONMENT . . . . . .  	Alias	 ERROR_BAD_ENVIRONMENT		
 EXEC_BAD_FORMAT  . . . . . . . .  	Alias	 ERROR_BAD_FORMAT		
@@ -1549,11 +1550,11 @@ FREEPRI  . . . . . . . . . . . .  	Number	0000
 FREESPOT . . . . . . . . . . . .  	L NEAR	034C	CODE
 
 GETEXTENDEDERROR . . . . . . . .  	Number	0059	
-GET_CURRENT_PDB  . . . . . . . .  	Number	0051	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-9
                                                              
 
+GET_CURRENT_PDB  . . . . . . . .  	Number	0051	
 GET_DATE . . . . . . . . . . . .  	Number	002A	
 GET_DEFAULT_DPB  . . . . . . . .  	Number	001F	
 GET_DEFAULT_DRIVE  . . . . . . .  	Number	0019	
@@ -1571,7 +1572,7 @@ GET_VERSION  . . . . . . . . . .  	Number	0030
 
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -1607,10 +1608,10 @@ LOCKOPER . . . . . . . . . . . .  	Number	005C
 LSEEK  . . . . . . . . . . . . .  	Number	0042	
 LSEEK_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-10
                                                              
+
 
 MI_INT . . . . . . . . . . . . .  	Number	00CD	
 MI_LONG_CALL . . . . . . . . . .  	Number	009A	
@@ -1619,7 +1620,7 @@ MI_LONG_RET  . . . . . . . . . .  	Number	00CB
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-MSVER  . . . . . . . . . . . . .  	Alias	 FALSE		
+MSVER  . . . . . . . . . . . . .  	Alias	 TRUE		
 
 NAME1  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 NAME2  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
@@ -1633,7 +1634,7 @@ NOTVOLID . . . . . . . . . . . .  	L NEAR	035A	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NWENTY . . . . . . . . . . . . .  	L NEAR	0303	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1665,11 +1666,11 @@ RENAME . . . . . . . . . . . . .  	Number	0056
 RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
-RENERR . . . . . . . . . . . . .  	L NEAR	0209	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-11
                                                              
 
+RENERR . . . . . . . . . . . . .  	L NEAR	0209	CODE
 RENFIL . . . . . . . . . . . . .  	L NEAR	01A7	CODE
 RET24  . . . . . . . . . . . . .  	L NEAR	003C	CODE
 RET26  . . . . . . . . . . . . .  	L NEAR	004D	CODE
@@ -1722,12 +1723,12 @@ STERR  . . . . . . . . . . . . .  	Number	8000
 THISDPB  . . . . . . . . . . . .  	V DWORD	0000	DATA	External
 THISDRV  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 TIMEBUF  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
-TOGLINS  . . . . . . . . . . . .  	Alias	 TRUE		
-TOGLPRN  . . . . . . . . . . . .  	Alias	 TRUE		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:33:43
+TOGLINS  . . . . . . . . . . . .  	Alias	 WANG		
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:49:13
 STDCALL - system calls for MSDOS                            Symbols-12
                                                              
 
+TOGLPRN  . . . . . . . . . . . .  	Alias	 FALSE		
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
 UNLINK . . . . . . . . . . . . .  	Number	0041	
@@ -1735,8 +1736,7 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VOLID  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	

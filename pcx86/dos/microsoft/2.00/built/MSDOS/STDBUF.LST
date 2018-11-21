@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-1
                                                             
 
@@ -56,14 +56,14 @@ STDBUF - MSDOS buffer management                            Page     1-1
                              C          i_need  WPErr,BYTE 
  0000                        C1  DATA SEGMENT BYTE PUBLIC 'DATA'
  0000                        C1  DATA ENDS
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
                              C   
                              C  SUBTTL SETVISIT,SKIPVISIT -- MANAGE BUFFER SCAN
 				S 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-3
 SETVISIT,SKIPVISIT -- MANAGE BUFFER SCANS                   
 
@@ -121,7 +121,7 @@ SETVISIT,SKIPVISIT -- MANAGE BUFFER SCANS
                              C          retnz 
  0022  75 F4                 C2  ??0003: jnz ret_l
  0024  C5 3D                 C          LDS     DI,[DI.NEXTBUF] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-4
 SETVISIT,SKIPVISIT -- MANAGE BUFFER SCANS                   
 
@@ -134,7 +134,7 @@ SETVISIT,SKIPVISIT -- MANAGE BUFFER SCANS
                              C   
                              C  SUBTTL SCANPLACE, PLACEBUF -- PUT A BUFFER BACK
 				 IN THE POOL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-5
 SCANPLACE, PLACEBUF -- PUT A BUFFER BACK IN THE POOL        
 
@@ -188,16 +188,14 @@ SCANPLACE, PLACEBUF -- PUT A BUFFER BACK IN THE POOL
                              C  ; AL    -- Inserted, Buf has been inserted 
                              C  ; AH    -- Removed, Buf has been removed 
                              C   
-                             C          IF      IBM 
-                             C          ENDIF 
                              C          ENDIF 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+                             C          invoke  save_world 
+ 0037  E8 0000 E             C1  CALL save_world
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-6
 SCANPLACE, PLACEBUF -- PUT A BUFFER BACK IN THE POOL        
 
-                             C          invoke  save_world 
- 0037  E8 0000 E             C1  CALL save_world
  003A  C4 0D                 C          LES     CX,[DI.NEXTBUF] 
  003C  83 F9 FF              C          CMP     CX,-1           ; Buf is LAST? 
  003F  74 4D                 C          JZ      NRET            ; Buffer alread
@@ -250,12 +248,12 @@ SCANPLACE, PLACEBUF -- PUT A BUFFER BACK IN THE POOL
 				 ; Curbuf.nextbuf = Buf 
  0083  26: C7 05 FFFF        C          MOV     WORD PTR ES:[DI.NEXTBUF],-1 
  0088  26: C7 45 02 FFFF     C          MOV     WORD PTR ES:[DI.NEXTBUF+2],-1  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+				    ; Buf is LAST 
+ 008E                        C  NRET: 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-7
 SCANPLACE, PLACEBUF -- PUT A BUFFER BACK IN THE POOL        
 
-				    ; Buf is LAST 
- 008E                        C  NRET: 
                              C          invoke  restore_world 
  008E  E8 0000 E             C1  CALL restore_world
                              C          return 
@@ -301,7 +299,7 @@ SCANPLACE, PLACEBUF -- PUT A BUFFER BACK IN THE POOL
                              C  PLACEHEAD   ENDP 
                              C   
                              C  SUBTTL POINTCOMP -- 20 BIT POINTER COMPARE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-8
 POINTCOMP -- 20 BIT POINTER COMPARE                         
 
@@ -331,7 +329,7 @@ POINTCOMP -- 20 BIT POINTER COMPARE
                              C  PointComp   ENDP 
                              C   
                              C  SUBTTL GETBUFFR -- GET A SECTOR INTO A BUFFER 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-9
 GETBUFFR -- GET A SECTOR INTO A BUFFER                      
 
@@ -389,7 +387,7 @@ GETBUFFR -- GET A SECTOR INTO A BUFFER
  010A  75 ED                 C          JNZ     NXTBFF 
  010C  36: C5 3E 0000 E      C          LDS     DI,[BUFFHEAD] 
  0111  56                    C          PUSH    SI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-10
 GETBUFFR -- GET A SECTOR INTO A BUFFER                      
 
@@ -447,7 +445,7 @@ GETBUFFR -- GET A SECTOR INTO A BUFFER
  0163  36: 8C 1E 0002 E      C          MOV     WORD PTR [CURBUF+2],DS 
  0168  36: 8C 1E 0002 E      C          MOV     WORD PTR [LASTBUFFER+2],DS 
  016D  16                    C          PUSH    SS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-11
 GETBUFFR -- GET A SECTOR INTO A BUFFER                      
 
@@ -462,7 +460,7 @@ GETBUFFR -- GET A SECTOR INTO A BUFFER
                              C   
                              C   
                              C  SUBTTL FLUSHBUF -- WRITE OUT DIRTY BUFFERS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-12
 FLUSHBUF -- WRITE OUT DIRTY BUFFERS                         
 
@@ -520,7 +518,7 @@ FLUSHBUF -- WRITE OUT DIRTY BUFFERS
                              C          return 
  01B2                        C1 ??000C:
  01B2  C3                    C1  RET
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-13
 FLUSHBUF -- WRITE OUT DIRTY BUFFERS                         
 
@@ -528,7 +526,7 @@ FLUSHBUF -- WRITE OUT DIRTY BUFFERS
                              C   
                              C   
                              C  SUBTTL BUFWRITE -- WRITE OUT A BUFFER IF DIRTY 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-14
 BUFWRITE -- WRITE OUT A BUFFER IF DIRTY                     
 
@@ -586,7 +584,7 @@ BUFWRITE -- WRITE OUT A BUFFER IF DIRTY
  01E8  59                    C          POP     CX 
  01E9  03 D0                 C          ADD     DX,AX 
  01EB  E2 EE                 C          LOOP    WRTAGAIN 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Page     1-15
 BUFWRITE -- WRITE OUT A BUFFER IF DIRTY                     
 
@@ -601,7 +599,7 @@ BUFWRITE -- WRITE OUT A BUFFER IF DIRTY
  01EF                        C  CODE    ENDS 
                              C      END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-1
                                                              
 
@@ -659,7 +657,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-2
                                                              
 
@@ -717,7 +715,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-3
                                                              
 
@@ -775,7 +773,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-4
                                                              
 
@@ -833,7 +831,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	01EF	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-5
                                                              
 
@@ -879,7 +877,7 @@ BUFLOOP  . . . . . . . . . . . .  	L NEAR	005B	CODE
 BUFWRITE . . . . . . . . . . . .  	N PROC	01B3	CODE	Global	Length = 003C
 BUMP . . . . . . . . . . . . . .  	L NEAR	0105	CODE
 
-CANCEL . . . . . . . . . . . . .  	Number	001B	
+CANCEL . . . . . . . . . . . . .  	Number	0018	
 CHAR_OPER  . . . . . . . . . . .  	Number	0037	
 CHDIR  . . . . . . . . . . . . .  	Number	003B	
 CHDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
@@ -891,7 +889,7 @@ CLOSE  . . . . . . . . . . . . .  	Number	003E
 CLOSE_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 CLOSE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 COUNTRY_NOT_FOUND  . . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-6
                                                              
 
@@ -949,7 +947,7 @@ DEVRD  . . . . . . . . . . . . .  	Number	0004
 DEVRDIOCTL . . . . . . . . . . .  	Number	0003	
 DEVRDND  . . . . . . . . . . . .  	Number	0005	
 DEVTYP . . . . . . . . . . . . .  	Number	8000	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-7
                                                              
 
@@ -965,8 +963,9 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
 DOBUFFER . . . . . . . . . . . .  	L NEAR	018C	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -995,7 +994,7 @@ ERROR_NOT_SAME_DEVICE  . . . . .  	Number	0011
 ERROR_NO_MORE_FILES  . . . . . .  	Number	0012	
 ERROR_PATH_NOT_FOUND . . . . . .  	Number	0003	
 ERROR_TOO_MANY_OPEN_FILES  . . .  	Number	0004	
-ESCCH  . . . . . . . . . . . . .  	Number	0000	
+ESCCH  . . . . . . . . . . . . .  	Number	001B	
 EXEC . . . . . . . . . . . . . .  	Number	004B	
 EXEC_BAD_ENVIRONMENT . . . . . .  	Alias	 ERROR_BAD_ENVIRONMENT		
 EXEC_BAD_FORMAT  . . . . . . . .  	Alias	 ERROR_BAD_FORMAT		
@@ -1006,11 +1005,11 @@ EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION
 EXEC_NOT_ENOUGH_MEMORY . . . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
 EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A	
 EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
-EXIT . . . . . . . . . . . . . .  	Number	004C	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-8
                                                              
 
+EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
 EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
 EXIT_HARD_ERROR  . . . . . . . .  	Number	0002	
@@ -1064,15 +1063,15 @@ GET_VERSION  . . . . . . . . . .  	Number	0030
 GOTHEEND . . . . . . . . . . . .  	L NEAR	007C	CODE
 GOTHEEND2  . . . . . . . . . . .  	L NEAR	00BA	CODE
 GOTTHEBUF  . . . . . . . . . . .  	L NEAR	0068	CODE
-GOTTHESEC  . . . . . . . . . . .  	L NEAR	0139	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-9
                                                              
 
+GOTTHESEC  . . . . . . . . . . .  	L NEAR	0139	CODE
 
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -1120,13 +1119,13 @@ MI_LONG_RET  . . . . . . . . . .  	Number	00CB
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-MSVER  . . . . . . . . . . . . .  	Alias	 FALSE		
+MSVER  . . . . . . . . . . . . .  	Alias	 TRUE		
 
-NORMSEC  . . . . . . . . . . . .  	L NEAR	0136	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-10
                                                              
 
+NORMSEC  . . . . . . . . . . . .  	L NEAR	0136	CODE
 NOZAP  . . . . . . . . . . . . .  	L NEAR	01A5	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NRET . . . . . . . . . . . . . .  	L NEAR	008E	CODE
@@ -1134,7 +1133,7 @@ NRETJ  . . . . . . . . . . . . .  	L NEAR	0035	CODE
 NXTBFF . . . . . . . . . . . . .  	L NEAR	00F9	CODE
 NXTBUFF  . . . . . . . . . . . .  	L NEAR	017E	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1180,11 +1179,11 @@ SCANPLACE  . . . . . . . . . . .  	N PROC	0029	CODE	Global	Length = 000C
 SERVERCALL . . . . . . . . . . .  	Number	005D	
 SETBLOCK . . . . . . . . . . . .  	Number	004A	
 SETBLOCK_ARENA_TRASHED . . . . .  	Alias	 ERROR_ARENA_TRASHED		
-SETBLOCK_INVALID_BLOCK . . . . .  	Alias	 ERROR_INVALID_BLOCK		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-11
                                                              
 
+SETBLOCK_INVALID_BLOCK . . . . .  	Alias	 ERROR_INVALID_BLOCK		
 SETBLOCK_INVALID_FUNCTION  . . .  	Alias	 ERROR_INVALID_FUNCTION		
 SETBLOCK_NOT_ENOUGH_MEMORY . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
 SETBUF . . . . . . . . . . . . .  	L NEAR	013C	CODE
@@ -1226,8 +1225,8 @@ STD_PRINTER_OUTPUT . . . . . . .  	Number	0005
 STECODE  . . . . . . . . . . . .  	Number	00FF	
 STERR  . . . . . . . . . . . . .  	Number	8000	
 
-TOGLINS  . . . . . . . . . . . .  	Alias	 TRUE		
-TOGLPRN  . . . . . . . . . . . .  	Alias	 TRUE		
+TOGLINS  . . . . . . . . . . . .  	Alias	 WANG		
+TOGLPRN  . . . . . . . . . . . .  	Alias	 FALSE		
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
 UNLINK . . . . . . . . . . . . .  	Number	0041	
@@ -1235,11 +1234,10 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:32:30
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:48:00
 STDBUF - MSDOS buffer management                            Symbols-12
                                                              
 

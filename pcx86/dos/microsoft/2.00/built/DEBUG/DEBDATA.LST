@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Page     1-1
                                                             
 
@@ -56,7 +56,7 @@
                                 
  0011  0004[                    DISADD  DB      4 DUP (?) 
             ??                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Page     1-2
                                                             
 
@@ -114,7 +114,7 @@
  00B2  0032[                    BPTAB   DB      BPLEN   DUP (?)         ; Break
 				point table 
             ??                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Page     1-3
                                                             
 
@@ -146,7 +146,7 @@
  022B                           DATA    ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-1
                                                              
 
@@ -204,7 +204,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-2
                                                              
 
@@ -262,7 +262,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-3
                                                              
 
@@ -320,7 +320,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-4
                                                              
 
@@ -378,7 +378,7 @@ ADDR_INT_COMMAND . . . . . . . .  	Number	0084
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
 ADDR_INT_DISK_WRITE  . . . . . .  	Number	0098	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-5
                                                              
 
@@ -436,7 +436,7 @@ CHDIR  . . . . . . . . . . . . .  	Number	003B
 CHDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 CHMOD  . . . . . . . . . . . . .  	Number	0043	
 CHMOD_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-6
                                                              
 
@@ -494,7 +494,7 @@ DIFLG  . . . . . . . . . . . . .  	L BYTE 	00E4	DATA	Global
 DIREG  . . . . . . . . . . . . .  	Number	4944	
 DIRFLG . . . . . . . . . . . . .  	L BYTE 	00F4	DATA	Global
 DIRPRI . . . . . . . . . . . . .  	Number	000F	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-7
                                                              
 
@@ -504,8 +504,9 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISADD . . . . . . . . . . . . .  	L BYTE 	0011	DATA	Global	Length = 0004
 DISCNT . . . . . . . . . . . . .  	L WORD 	0015	DATA	Global
 DISK_RESET . . . . . . . . . . .  	Number	000D	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DUP2_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -551,11 +552,11 @@ EXIT_TERMINATE . . . . . . . . .  	Number	0000
 EXTPTR . . . . . . . . . . . . .  	L WORD 	0004	DATA	Global
 
 F8087  . . . . . . . . . . . . .  	L BYTE 	00F3	DATA	Global
-FALSE  . . . . . . . . . . . . .  	Number	0000	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-8
                                                              
 
+FALSE  . . . . . . . . . . . . .  	Number	0000	
 FATPRI . . . . . . . . . . . . .  	Number	001E	
 FCB  . . . . . . . . . . . . . .  	Number	005C	
 FCB_CLOSE  . . . . . . . . . . .  	Number	0010	
@@ -601,7 +602,6 @@ GET_VERSION  . . . . . . . . . .  	Number	0030
 HANDLE . . . . . . . . . . . . .  	L WORD 	0006	DATA	Global
 HINUM  . . . . . . . . . . . . .  	L WORD 	00F1	DATA	Global
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 TRUE		
 INDEX  . . . . . . . . . . . . .  	L WORD 	0019	DATA	Global
@@ -610,7 +610,7 @@ INTERNATIONAL  . . . . . . . . .  	Number	0038
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
 INTERNAT_BLOCK_MAX . . . . . . .  	Number	0020	
 INTTAB . . . . . . . . . . . . .  	Number	0020	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-9
                                                              
 
@@ -657,7 +657,7 @@ NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                      
 NSEG . . . . . . . . . . . . . .  	L WORD 	0032	DATA	Global
 NUMFLG . . . . . . . . . . . . .  	L BYTE 	00E9	DATA	Global
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -668,7 +668,7 @@ OEM_C7 . . . . . . . . . . . . .  	Number	00FF
 OFFSAVE  . . . . . . . . . . . .  	L WORD 	0025	DATA	Global
 OPBUF  . . . . . . . . . . . . .  	L BYTE 	0034	DATA	Global	Length = 0023
 OPBUFLEN . . . . . . . . . . . .  	Number	0023	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-10
                                                              
 
@@ -726,7 +726,7 @@ SET_INTERRUPT_VECTOR . . . . . .  	Number	0025
 SET_OEM_HANDLER  . . . . . . . .  	Number	00F8	
 SET_TIME . . . . . . . . . . . .  	Number	002D	
 SET_VERIFY_ON_WRITE  . . . . . .  	Number	002E	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:54:36
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:09
                                                             Symbols-11
                                                              
 
@@ -762,8 +762,7 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -781,7 +780,7 @@ ZIBO . . . . . . . . . . . . . .  	Alias	 TRUE
 
    1394 Source  Lines
    1457 Total   Lines
-    566 Symbols
+    565 Symbols
 
   21416 Bytes symbol space free
 

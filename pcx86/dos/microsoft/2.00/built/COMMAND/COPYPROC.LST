@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-1
                                                             
 
@@ -15,7 +15,7 @@ COPYRPOC             ;Procedures called by COPY             Page     1-1
                              C   
  =                           C  IBMVER  EQU     IBM  	; Switch to build IBM ver
 				sion of Command 
- = 0000                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
+ = FFFF                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
 				S version of Command 
                              C   
  =                           C  HIGHMEM EQU     FALSE   ; Run resident part abo
@@ -56,7 +56,7 @@ COPYRPOC             ;Procedures called by COPY             Page     1-1
  = 005C                      C  FCB     EQU     5CH 
                              C   
                              C  VARSTRUC        STRUC 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -114,7 +114,7 @@ DEVICE TABLE AND SRH DEFINITION
 				F:BYTE 
                                         EXTRN   USERDIR1:BYTE,NOWRITE:BYTE 
                                         EXTRN   SRCHAND:WORD,CPDATE:WORD,CPTIME
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-3
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -172,7 +172,7 @@ DEVICE TABLE AND SRH DEFINITION
  0022  BA 0000 E                        mov     dx,offset trangroup:SRCBUF 
  0025  B8 3D00                          mov     ax,OPEN SHL 8 
  0028  CD 21                            INT     int_command 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-4
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -230,7 +230,7 @@ DEVICE TABLE AND SRH DEFINITION
 				ount 
  0086  E3 51                            jcxz    CLOSESRC                ; No mo
 				re to read 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-5
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -288,7 +288,7 @@ DEVICE TABLE AND SRH DEFINITION
 				 double close 
  00E7  75 F8                  2  ??0005: jnz ret_l
  00E9  A0 0000 E                        MOV     AL,BYTE PTR [DESTSWITCH] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-6
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -346,7 +346,7 @@ DEVICE TABLE AND SRH DEFINITION
 				justify min in CL 
  014E  D1 E1                            SHL     CX,1 
  0150  D1 E1                            SHL     CX,1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-7
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -404,7 +404,7 @@ DEVICE TABLE AND SRH DEFINITION
  0198  C7 06 0000 E 0000                MOV     [FILECNT],0             ; No fi
 				les transferred 
  019E  EB E8                            JMP     RET50 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-8
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -462,7 +462,7 @@ DEVICE TABLE AND SRH DEFINITION
  01F0  72 3E                            JC      COPERRJ 
  01F2  A3 0000 E                        mov     [DESTHAND],ax           ; Save 
 				handle 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-9
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -520,7 +520,7 @@ DEVICE TABLE AND SRH DEFINITION
 				t, go ahead 
  0248  80 3E 0000 E 00                  CMP     [SRCISDEV],0 
  024D  75 11                            JNZ     NOCHECKING              ; Same 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-10
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -578,7 +578,7 @@ DEVICE TABLE AND SRH DEFINITION
  0298  75 0A                            jnz     DEVWRTERR               ; Is a 
 				raw device, error 
  029A  80 3E 0000 E 00                  cmp     [INEXACT],0 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-11
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -636,7 +636,7 @@ DEVICE TABLE AND SRH DEFINITION
                                 ;       Set ASCII switch if A is set 
                                 ;       Clear ASCII switch if B is set 
                                 ;       BINARY set if B specified 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-12
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -694,7 +694,7 @@ DEVICE TABLE AND SRH DEFINITION
 				current ASCII setting 
  0335  2C 40                            sub     al,'@' 
  0337  A2 0000 E                        mov     [DESTFCB],al 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-13
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -752,7 +752,7 @@ DEVICE TABLE AND SRH DEFINITION
  038A  33 FF                            XOR     DI,DI 
  038C  8E 06 0000 E                     MOV     ES,[TPA] 
  0390  F2/ AE                           REPNE   SCASB                   ; Scan 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-14
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -810,7 +810,7 @@ DEVICE TABLE AND SRH DEFINITION
  03D6                           NOSTOREE: 
  03D6  43                               inc     bx 
  03D7  E2 F1                            loop    BUILDEXT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Page     1-15
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -825,7 +825,7 @@ DEVICE TABLE AND SRH DEFINITION
  03DD                           TRANCODE    ENDS 
                                             END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-1
                                                              
 
@@ -883,7 +883,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-2
                                                              
 
@@ -941,7 +941,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-3
                                                              
 
@@ -999,7 +999,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-4
                                                              
 
@@ -1054,7 +1054,7 @@ VARSTRUC . . . . . . . . . . . .  	0059	0005
   TTAIL  . . . . . . . . . . . .  	0002
   INFO . . . . . . . . . . . . .  	0004
   BUF  . . . . . . . . . . . . .  	0005
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-5
                                                              
 
@@ -1112,7 +1112,7 @@ ATTR_IGNORE  . . . . . . . . . .  	Number	0021
 ATTR_READ_ONLY . . . . . . . . .  	Number	0001	
 ATTR_SYSTEM  . . . . . . . . . .  	Number	0004	
 ATTR_VOLUME_ID . . . . . . . . .  	Number	0008	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-6
                                                              
 
@@ -1170,7 +1170,7 @@ C_HT . . . . . . . . . . . . . .  	Number	0009
 C_LF . . . . . . . . . . . . . .  	Number	000A	
 C_NAK  . . . . . . . . . . . . .  	Number	0015	
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-7
                                                              
 
@@ -1228,7 +1228,7 @@ DFLSHL . . . . . . . . . . . . .  	Number	000F
 DINITHL  . . . . . . . . . . . .  	Number	001A	
 DIRBUF . . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
 DIRCHAR  . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-8
                                                              
 
@@ -1241,8 +1241,9 @@ DMEDHL . . . . . . . . . . . . .  	Number	000F
 DOCOPY . . . . . . . . . . . . .  	L NEAR	001D	TRANCODE	Global
 DODCLOSE . . . . . . . . . . . .  	L NEAR	0177	TRANCODE
 DODESTOPEN . . . . . . . . . . .  	L NEAR	01E8	TRANCODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -1285,11 +1286,11 @@ EXEC_FUNC_OVERLAY  . . . . . . .  	Number	0002
 EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 EXEC_NOT_ENOUGH_MEMORY . . . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
 EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A	
-EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-9
                                                              
 
+EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
 EXISTS . . . . . . . . . . . . .  	L NEAR	023C	TRANCODE
 EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
@@ -1343,11 +1344,11 @@ GET_FCB_FILE_LENGTH  . . . . . .  	Number	0023
 GET_FCB_POSITION . . . . . . . .  	Number	0024	
 GET_INDOS_FLAG . . . . . . . . .  	Number	0034	
 GET_INTERRUPT_VECTOR . . . . . .  	Number	0035	
-GET_IN_VARS  . . . . . . . . . .  	Number	0052	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-10
                                                              
 
+GET_IN_VARS  . . . . . . . . . .  	Number	0052	
 GET_TIME . . . . . . . . . . . .  	Number	002C	
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
@@ -1357,7 +1358,7 @@ GOTSWITCH  . . . . . . . . . . .  	Number	8000
 
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 IBM		
 INBDEV . . . . . . . . . . . . .  	V BYTE 	0000	TRANDATA	External
@@ -1401,10 +1402,10 @@ LOSTERR  . . . . . . . . . . . .  	V BYTE 	0000	TRANDATA	External
 LSEEK  . . . . . . . . . . . . .  	Number	0042	
 LSEEK_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-11
                                                              
+
 
 MELCOPY  . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
 MI_INT . . . . . . . . . . . . .  	Number	00CD	
@@ -1414,7 +1415,7 @@ MI_LONG_RET  . . . . . . . . . .  	Number	00CB
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-MSVER  . . . . . . . . . . . . .  	Number	0000	
+MSVER  . . . . . . . . . . . . .  	Number	FFFF	
 
 NOCHECKING . . . . . . . . . . .  	L NEAR	0260	TRANCODE
 NOCONC . . . . . . . . . . . . .  	L NEAR	0102	TRANCODE
@@ -1432,7 +1433,7 @@ NOWRITE  . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NXTADD . . . . . . . . . . . . .  	V WORD 	0000	TRANSPACE	External
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1459,11 +1460,11 @@ PUTZ . . . . . . . . . . . . . .  	L NEAR	0104	TRANCODE
 
 RAW_CON_INPUT  . . . . . . . . .  	Number	0007	
 RAW_CON_IO . . . . . . . . . . .  	Number	0006	
-RDEOF  . . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-12
                                                              
 
+RDEOF  . . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
 READ . . . . . . . . . . . . . .  	Number	003F	
 READ_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 READ_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -1517,11 +1518,11 @@ STDERR . . . . . . . . . . . . .  	Number	0002
 STDIN  . . . . . . . . . . . . .  	Number	0000	
 STDON  . . . . . . . . . . . . .  	Number	0100	
 STDOUT . . . . . . . . . . . . .  	Number	0001	
-STDPRN . . . . . . . . . . . . .  	Number	0004	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-13
                                                              
 
+STDPRN . . . . . . . . . . . . .  	Number	0004	
 STD_AUX_INPUT  . . . . . . . . .  	Number	0003	
 STD_AUX_OUTPUT . . . . . . . . .  	Number	0004	
 STD_CON_INPUT  . . . . . . . . .  	Number	0001	
@@ -1550,8 +1551,7 @@ USEALL . . . . . . . . . . . . .  	L NEAR	00AD	TRANCODE
 USERDIR1 . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VSWITCH  . . . . . . . . . . . .  	Number	0010	
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -1576,7 +1576,7 @@ XDUP2  . . . . . . . . . . . . .  	Number	0046
 ??0008 . . . . . . . . . . . . .  	L NEAR	0189	TRANCODE
 ??0009 . . . . . . . . . . . . .  	L NEAR	01AC	TRANCODE
 ??000A . . . . . . . . . . . . .  	L NEAR	025F	TRANCODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:40:37
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:56:13
 COPYRPOC             ;Procedures called by COPY             Symbols-14
                                                              
 

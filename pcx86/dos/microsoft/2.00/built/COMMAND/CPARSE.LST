@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-1
                                                             
 
@@ -14,7 +14,7 @@ CPARSE                                                      Page     1-1
                              C   
  =                           C  IBMVER  EQU     IBM  	; Switch to build IBM ver
 				sion of Command 
- = 0000                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
+ = FFFF                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
 				S version of Command 
                              C   
  =                           C  HIGHMEM EQU     FALSE   ; Run resident part abo
@@ -56,7 +56,7 @@ CPARSE                                                      Page     1-1
                              C   
                              C  VARSTRUC        STRUC 
  0000  ??                    C  ISDIR   DB      ? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -114,7 +114,7 @@ DEVICE TABLE AND SRH DEFINITION
                                         PUBLIC  CPARSE 
                                  
  0000                           CPARSE: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-3
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -172,7 +172,7 @@ DEVICE TABLE AND SRH DEFINITION
                                 ;           if CR on input                     
 				                         ; 
                                 ;               token buffer not altered       
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-4
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -230,7 +230,7 @@ DEVICE TABLE AND SRH DEFINITION
 				al delimiter? 
  0030  75 05                            jnz     nospec 
  0032  80 CF 80                         or      bh,80H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-5
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -288,7 +288,7 @@ DEVICE TABLE AND SRH DEFINITION
  0087  75 09                            jnz     testquest 
  0089  FE 06 0000 E                     inc     [ELPOS]                 ; flag 
 				in extension 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-6
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -346,7 +346,7 @@ DEVICE TABLE AND SRH DEFINITION
  00E8  E8 0000 E                        call    DELIM 
  00EB  74 26                            je      x_done 
  00ED  3C 0D                            cmp     al,0DH 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-7
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -404,7 +404,7 @@ DEVICE TABLE AND SRH DEFINITION
 				 the character 
  0128  E8 0000 E                        CALL    UPCONV 
  012B  06                               PUSH    ES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Page     1-8
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -452,7 +452,7 @@ DEVICE TABLE AND SRH DEFINITION
  0152                           TRANCODE        ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-1
                                                              
 
@@ -510,7 +510,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-2
                                                              
 
@@ -568,7 +568,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-3
                                                              
 
@@ -626,7 +626,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-4
                                                              
 
@@ -681,7 +681,7 @@ VARSTRUC . . . . . . . . . . . .  	0059	0005
   TTAIL  . . . . . . . . . . . .  	0002
   INFO . . . . . . . . . . . . .  	0004
   BUF  . . . . . . . . . . . . .  	0005
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-5
                                                              
 
@@ -739,7 +739,7 @@ ATTR_DIRECTORY . . . . . . . . .  	Number	0010
 ATTR_HIDDEN  . . . . . . . . . .  	Number	0002	
 ATTR_IGNORE  . . . . . . . . . .  	Number	0021	
 ATTR_READ_ONLY . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-6
                                                              
 
@@ -797,7 +797,7 @@ DEVBPB . . . . . . . . . . . . .  	Number	0002
 DEVID_BLOCK_DEV  . . . . . . . .  	Number	001F	
 DEVID_DEVICE . . . . . . . . . .  	Number	0080	
 DEVID_DEVICE_CLOCK . . . . . . .  	Number	0008	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-7
                                                              
 
@@ -839,8 +839,9 @@ DIR_SEARCH_FIRST . . . . . . . .  	Number	0011
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -854,11 +855,11 @@ DUP_TOO_MANY_OPEN_FILES  . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES
 
 ELCNT  . . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
 ELPOS  . . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
-ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-8
                                                              
 
+ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
 ERROR_ACCESS_DENIED  . . . . . .  	Number	0005	
 ERROR_ARENA_TRASHED  . . . . . .  	Number	0007	
 ERROR_BAD_ENVIRONMENT  . . . . .  	Number	000A	
@@ -912,11 +913,11 @@ FILETIMES_INVALID_FUNCTION . . .  	Alias	 ERROR_INVALID_FUNCTION
 FILETIMES_INVALID_HANDLE . . . .  	Alias	 ERROR_INVALID_HANDLE		
 FILE_TIMES . . . . . . . . . . .  	Number	0057	
 FILPERPROC . . . . . . . . . . .  	Number	0014	
-FINDFIRST_FILE_NOT_FOUND . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-9
                                                              
 
+FINDFIRST_FILE_NOT_FOUND . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 FINDFIRST_NO_MORE_FILES  . . . .  	Alias	 ERROR_NO_MORE_FILES		
 FINDNEXT_NO_MORE_FILES . . . . .  	Alias	 ERROR_NO_MORE_FILES		
 FIND_FIRST . . . . . . . . . . .  	Number	004E	
@@ -944,7 +945,7 @@ GOTSWITCH  . . . . . . . . . . .  	Number	8000
 
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 IBM		
 INTBASE  . . . . . . . . . . . .  	Number	0080	
@@ -970,11 +971,11 @@ ISCIN  . . . . . . . . . . . . .  	Number	0001
 ISCLOCK  . . . . . . . . . . . .  	Number	0008	
 ISCOUT . . . . . . . . . . . . .  	Number	0002	
 ISFATBYDEV . . . . . . . . . . .  	Number	2000	
-ISIBM  . . . . . . . . . . . . .  	Number	0010	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-10
                                                              
 
+ISIBM  . . . . . . . . . . . . .  	Number	0010	
 ISNULL . . . . . . . . . . . . .  	Number	0004	
 
 KANJI  . . . . . . . . . . . . .  	Alias	 FALSE		
@@ -997,7 +998,7 @@ MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 MOREDELIM  . . . . . . . . . . .  	L NEAR	0012	TRANCODE
 MOVE_CHAR  . . . . . . . . . . .  	L NEAR	014B	TRANCODE
-MSVER  . . . . . . . . . . . . .  	Number	0000	
+MSVER  . . . . . . . . . . . . .  	Number	FFFF	
 
 NA_SWITCH  . . . . . . . . . . .  	L NEAR	0047	TRANCODE
 NCPERROR . . . . . . . . . . . .  	L NEAR	003E	TRANCODE
@@ -1006,7 +1007,7 @@ NOSPEC . . . . . . . . . . . . .  	L NEAR	0037	TRANCODE
 NOTSPECIAL . . . . . . . . . . .  	L NEAR	00E1	TRANCODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1028,10 +1029,10 @@ OUT_TOKENP . . . . . . . . . . .  	L NEAR	0141	TRANCODE
 PARSE_FILE_DESCRIPTOR  . . . . .  	Number	0029	
 PATHCHRCMP . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
 PSWITCH  . . . . . . . . . . . .  	Number	0002	
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-11
                                                              
+
 
 QMOVE  . . . . . . . . . . . . .  	L NEAR	00B7	TRANCODE
 
@@ -1086,11 +1087,11 @@ STD_CON_INPUT_FLUSH  . . . . . .  	Number	000C
 STD_CON_INPUT_NO_ECHO  . . . . .  	Number	0008	
 STD_CON_INPUT_STATUS . . . . . .  	Number	000B	
 STD_CON_OUTPUT . . . . . . . . .  	Number	0002	
-STD_CON_STRING_INPUT . . . . . .  	Number	000A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:41:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:57:35
 CPARSE                                                      Symbols-12
                                                              
 
+STD_CON_STRING_INPUT . . . . . .  	Number	000A	
 STD_CON_STRING_OUTPUT  . . . . .  	Number	0009	
 STD_PRINTER_OUTPUT . . . . . . .  	Number	0005	
 STECODE  . . . . . . . . . . . .  	Number	00FF	
@@ -1112,8 +1113,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 UPCONV . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VSWITCH  . . . . . . . . . . . .  	Number	0010	
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	

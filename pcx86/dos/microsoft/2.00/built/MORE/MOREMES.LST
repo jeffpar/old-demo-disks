@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:13:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:28:42
 MORE Messages                                               Page     1-1
                                                             
 
@@ -24,7 +24,7 @@ MORE Messages                                               Page     1-1
                                  
  102C                           CODE    ENDS 
                                         END 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:13:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:28:42
 MORE Messages                                               Symbols-1
                                                              
 
@@ -45,9 +45,9 @@ CRLFTXT  . . . . . . . . . . . .  	L BYTE 	0027	CODE	Global
 
 MORETXT  . . . . . . . . . . . .  	L BYTE 	0000	CODE	Global
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 
      15 Source  Lines

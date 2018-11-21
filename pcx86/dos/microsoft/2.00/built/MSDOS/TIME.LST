@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ TIME - time and date functions                              Page     1-1
                                     i_need  DAYCNT,WORD 
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
  0000                         1  DATA ENDS
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -71,7 +71,7 @@ DEVICE TABLE AND SRH DEFINITION
                                  
                                 SUBTTL DATE16, READTIME, DODATE -- GUTS OF TIME
 				 AND DATE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Page     1-3
 DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE           
 
@@ -129,7 +129,7 @@ DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE
  002F  8B C2                            MOV     AX,DX 
                                         invoke  SETREAD 
  0031  E8 0000 E              1  CALL SETREAD
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Page     1-4
 DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE           
 
@@ -187,7 +187,7 @@ DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE
 				 month we're in 
  0083  88 0E 0000 E                     MOV     [MONTH],CL 
  0087  42                               INC     DX              ;Remainder is d
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Page     1-5
 DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE           
 
@@ -245,7 +245,7 @@ DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE
 				n month 
  00B9  3A C2                            CMP     AL,DL 
  00BB  B0 FF                            MOV     AL,-1           ;Restore error 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Page     1-6
 DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE           
 
@@ -303,7 +303,7 @@ DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE
  010E  5B                               POP     BX 
                                 ASSUME  DS:DOSGROUP 
                                         invoke  SETWRITE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Page     1-7
 DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE           
 
@@ -348,7 +348,7 @@ DATE16, READTIME, DODATE -- GUTS OF TIME AND DATE
  013E                           CODE         ENDS 
                                     END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-1
                                                              
 
@@ -406,7 +406,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-2
                                                              
 
@@ -464,7 +464,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-3
                                                              
 
@@ -522,7 +522,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-4
                                                              
 
@@ -580,7 +580,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	013E	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-5
                                                              
 
@@ -638,7 +638,7 @@ COUNTRY_NOT_FOUND  . . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 CREAT  . . . . . . . . . . . . .  	Number	003C	
 CREATENEWFILE  . . . . . . . . .  	Number	005B	
 CREATETEMPFILE . . . . . . . . .  	Number	005A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-6
                                                              
 
@@ -696,7 +696,7 @@ DEVRDIOCTL . . . . . . . . . . .  	Number	0003
 DEVRDND  . . . . . . . . . . . .  	Number	0005	
 DEVTYP . . . . . . . . . . . . .  	Number	8000	
 DEVWRIOCTL . . . . . . . . . . .  	Number	000C	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-7
                                                              
 
@@ -711,8 +711,9 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
 DODATE . . . . . . . . . . . . .  	N PROC	00B0	CODE	Global	Length = 0084
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -753,11 +754,11 @@ EXEC_FUNC_NO_EXECUTE . . . . . .  	Number	0001
 EXEC_FUNC_OVERLAY  . . . . . . .  	Number	0002	
 EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 EXEC_NOT_ENOUGH_MEMORY . . . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
-EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-8
                                                              
 
+EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A	
 EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
 EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
@@ -808,11 +809,10 @@ GET_TIME . . . . . . . . . . . .  	Number	002C
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-9
                                                              
 
@@ -860,7 +860,7 @@ MONTH  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -870,7 +870,7 @@ OEM_C6 . . . . . . . . . . . . .  	Number	00FE
 OEM_C7 . . . . . . . . . . . . .  	Number	00FF	
 OPEN . . . . . . . . . . . . . .  	Number	003D	
 OPEN_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-10
                                                              
 
@@ -928,7 +928,7 @@ STDERR . . . . . . . . . . . . .  	Number	0002
 STDIN  . . . . . . . . . . . . .  	Number	0000	
 STDON  . . . . . . . . . . . . .  	Number	0100	
 STDOUT . . . . . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:40:10
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:56:28
 TIME - time and date functions                              Symbols-11
                                                              
 
@@ -953,8 +953,7 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WEEKDAY  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
@@ -974,7 +973,7 @@ YRTAB  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
    1575 Source  Lines
    1798 Total   Lines
-    562 Symbols
+    561 Symbols
 
   21026 Bytes symbol space free
 

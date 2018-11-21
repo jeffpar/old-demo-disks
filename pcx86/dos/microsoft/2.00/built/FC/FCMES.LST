@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:05:53
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:21:25
 File Compare Routine for MSDOS 2.0                          Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ File Compare Routine for MSDOS 2.0                          Page     1-1
  004B  0E                       read_err_pre_len   db     $ - read_err_pre 
  004C                           read_err_post      label  byte 
  004C  00                       read_err_post_len  db     $ - read_err_post 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:05:53
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:21:25
 File Compare Routine for MSDOS 2.0                          Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ File Compare Routine for MSDOS 2.0                          Page     1-2
                                  
  0117  0D 0A 2D 2D 41 44 44     bhead   db      CR,LF,'--ADDRS----F1---F2-',CR,
 				LF 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:05:53
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:21:25
 File Compare Routine for MSDOS 2.0                          Page     1-3
                                                             
 
@@ -125,7 +125,7 @@ File Compare Routine for MSDOS 2.0                          Page     1-3
                                  
  012F                           const   ends 
                                         end 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:05:53
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:21:25
 File Compare Routine for MSDOS 2.0                          Symbols-1
                                                              
 
@@ -172,7 +172,7 @@ INT_ERR_LEN  . . . . . . . . . .  	L BYTE 	0064	CONST	Global
 
 LF . . . . . . . . . . . . . . .  	Number	000A	
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OPT_E  . . . . . . . . . . . . .  	L BYTE 	0028	CONST	Global
 OPT_ERR  . . . . . . . . . . . .  	L BYTE 	0016	CONST	Global
 OPT_ERR_LEN  . . . . . . . . . .  	L BYTE 	002B	CONST	Global
@@ -183,12 +183,12 @@ READ_ERR_PRE . . . . . . . . . .  	L BYTE 	003D	CONST	Global
 READ_ERR_PRE_LEN . . . . . . . .  	L BYTE 	004B	CONST	Global
 
 TRUE . . . . . . . . . . . . . .  	Number	00FF	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:05:53
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:21:25
 File Compare Routine for MSDOS 2.0                          Symbols-2
                                                              
 
 
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VERS_ERR . . . . . . . . . . . .  	L BYTE 	0000	CONST	Global
 
 

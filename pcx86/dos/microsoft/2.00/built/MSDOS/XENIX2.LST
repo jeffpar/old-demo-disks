@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ XENIX - IO system to mimic UNIX                             Page     1-1
  0000                         1  DATA ENDS
                                         i_need  DIRSTART,WORD 
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -105,7 +105,7 @@ DEVICE TABLE AND SRH DEFINITION
  0000                         1  DATA ENDS
                                  
                                 BREAK <Local data> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-3
 Local data                                                  
 
@@ -126,7 +126,7 @@ Local data
                                  
                                 BREAK <get_sf_from_sfn - translate a sfn into s
 				f pointer> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-4
 get_sf_from_sfn - translate a sfn into sf pointer           
 
@@ -184,14 +184,14 @@ get_sf_from_sfn - translate a sfn into sf pointer
 				ber him? 
  002A  C3                               RET 
                                 get_sf_from_sfn ENDP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-5
 get_sf_from_sfn - translate a sfn into sf pointer           
 
                                  
                                 BREAK <get_sf_from_jfn - translate a jfn into s
 				f pointer> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-6
 get_sf_from_jfn - translate a jfn into sf pointer           
 
@@ -229,7 +229,7 @@ get_sf_from_jfn - translate a jfn into sf pointer
                                  
                                 BREAK <get_jfn_pointer - map a jfn into a point
 				er to jfn> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-7
 get_jfn_pointer - map a jfn into a pointer to jfn           
 
@@ -259,7 +259,7 @@ get_jfn_pointer - map a jfn into a pointer to jfn
                                  
                                  
                                 BREAK <$Close - release a handle> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-8
 $Close - release a handle                                   
 
@@ -317,7 +317,7 @@ $Close - release a handle
  007F  E8 0000 E              1  CALL MOVNAMENOSET
  0082  5B                               POP     BX 
  0083  36: 88 1E 0000 E                 MOV     [Attrib],BL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-9
 $Close - release a handle                                   
 
@@ -340,7 +340,7 @@ $Close - release a handle
                                  
                                 BREAK <PushDMA, PopDMA, ptr_normalize - set up 
 				local dma and save old> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-10
 PushDMA, PopDMA, ptr_normalize - set up local dma and save o
 
@@ -398,7 +398,7 @@ PushDMA, PopDMA, ptr_normalize - set up local dma and save o
 				CX 
  00DF  52                               PUSH    DX                      ; T2 = 
 				DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-11
 PushDMA, PopDMA, ptr_normalize - set up local dma and save o
 
@@ -435,7 +435,7 @@ PushDMA, PopDMA, ptr_normalize - set up local dma and save o
                                 ptr_normalize   ENDP 
                                  
                                 BREAK <$Read - Do file/device I/O> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-12
 $Read - Do file/device I/O                                  
 
@@ -493,7 +493,7 @@ $Read - Do file/device I/O
                                 $Read   ENDP 
                                  
                                 BREAK <$Write - Do file/device I/O> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-13
 $Write - Do file/device I/O                                 
 
@@ -546,7 +546,7 @@ $Write - Do file/device I/O
  0146  C3                               RET 
                                  
                                 BREAK <$LSEEK - set random record field> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-14
 $LSEEK - set random record field                            
 
@@ -604,7 +604,7 @@ $LSEEK - set random record field
  016D  87 D1                            XCHG    DX,CX               ; DX <- hig
 				h 
                                         ASSUME  DS:NOTHING 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-15
 $LSEEK - set random record field                            
 
@@ -652,7 +652,7 @@ $LSEEK - set random record field
                                  
                                 BREAK <$IOCTL - return/set device dependent stu
 				ff> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-16
 $IOCTL - return/set device dependent stuff                  
 
@@ -710,7 +710,7 @@ $IOCTL - return/set device dependent stuff
                                         error   error_invalid_data      ; no DH
 				 <> 0 
  01BC  B0 0D                  1  MOV AL,error_invalid_data
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-17
 $IOCTL - return/set device dependent stuff                  
 
@@ -768,7 +768,7 @@ $IOCTL - return/set device dependent stuff
  01FB  2C 04                            SUB     AL,4                    ;6=0,7=
 				1 
  01FD  74 06                            JZ      ioctl_get_status 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-18
 $IOCTL - return/set device dependent stuff                  
 
@@ -826,7 +826,7 @@ $IOCTL - return/set device dependent stuff
  0238                           ioctl_bad_drv: 
  0238  5E                               POP     SI 
  0239  58                               POP     AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-19
 $IOCTL - return/set device dependent stuff                  
 
@@ -877,7 +877,7 @@ $IOCTL - return/set device dependent stuff
                                  
                                 BREAK <File_Times - modify write times on a han
 				dle> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-20
 File_Times - modify write times on a handle                 
 
@@ -935,7 +935,7 @@ File_Times - modify write times on a handle
  02AF  26: 89 4D 19                     MOV     ES:[DI.sf_fcb.fcb_FTIME],CX 
  02B3  26: 89 55 17                     MOV     ES:[DI.sf_fcb.fcb_FDATE],DX 
  02B7  26: 80 65 1B BF                  AND     ES:[DI.sf_fcb.fcb_DEVID],NOT de
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Page     1-21
 File_Times - modify write times on a handle                 
 
@@ -950,7 +950,7 @@ File_Times - modify write times on a handle
  02BE                           CODE    ENDS 
                                     END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-1
                                                              
 
@@ -1008,7 +1008,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-2
                                                              
 
@@ -1066,7 +1066,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-3
                                                              
 
@@ -1124,7 +1124,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-4
                                                              
 
@@ -1182,7 +1182,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	02BE	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0008	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-5
                                                              
 
@@ -1240,7 +1240,7 @@ CLOSE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 CLOSE_JFN  . . . . . . . . . . .  	L NEAR	005D	CODE
 CLOSE_OK . . . . . . . . . . . .  	L NEAR	0093	CODE
 COUNTRY_NOT_FOUND  . . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-6
                                                              
 
@@ -1298,7 +1298,7 @@ DEVMDCH  . . . . . . . . . . . .  	Number	0001
 DEVOFL . . . . . . . . . . . . .  	Number	000B	
 DEVOST . . . . . . . . . . . . .  	Number	000A	
 DEVRD  . . . . . . . . . . . . .  	Number	0004	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-7
                                                              
 
@@ -1318,8 +1318,9 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DMAADD . . . . . . . . . . . . .  	V DWORD	0000	DATA	External
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -1355,11 +1356,11 @@ EXEC_BAD_FORMAT  . . . . . . . .  	Alias	 ERROR_BAD_FORMAT
 EXEC_FILE_NOT_FOUND  . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 EXEC_FUNC_NO_EXECUTE . . . . . .  	Number	0001	
 EXEC_FUNC_OVERLAY  . . . . . . .  	Number	0002	
-EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-8
                                                              
 
+EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 EXEC_NOT_ENOUGH_MEMORY . . . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
 EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A	
 EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
@@ -1413,11 +1414,11 @@ GET_IN_VARS  . . . . . . . . . .  	Number	0052
 GET_JFN_BAD  . . . . . . . . . .  	L NEAR	004F	CODE
 GET_JFN_POINTER  . . . . . . . .  	N PROC	003F	CODE	Global	Length = 0012
 GET_SFN_LOOP . . . . . . . . . .  	L NEAR	0005	CODE
-GET_SF_FROM_JFN  . . . . . . . .  	N PROC	002B	CODE	Global	Length = 0014
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-9
                                                              
 
+GET_SF_FROM_JFN  . . . . . . . .  	N PROC	002B	CODE	Global	Length = 0014
 GET_SF_FROM_SFN  . . . . . . . .  	N PROC	0000	CODE	Global	Length = 002B
 GET_SF_GOTTEN  . . . . . . . . .  	L NEAR	0015	CODE
 GET_SF_INVALID . . . . . . . . .  	L NEAR	0028	CODE
@@ -1428,7 +1429,6 @@ GET_TIME . . . . . . . . . . . .  	Number	002C
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -1472,7 +1472,7 @@ IO_DONE  . . . . . . . . . . . .  	L NEAR	010A	CODE
 IO_ERR . . . . . . . . . . . . .  	L NEAR	0102	CODE
 IO_SETUP . . . . . . . . . . . .  	L NEAR	0132	CODE
 ISCIN  . . . . . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-10
                                                              
 
@@ -1511,7 +1511,7 @@ NAME1  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 NOSETDIR . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1530,7 +1530,7 @@ OPEN_TOO_MANY_OPEN_FILES . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES
 
 PARSE_FILE_DESCRIPTOR  . . . . .  	Number	0029	
 POPDMA . . . . . . . . . . . . .  	N PROC	00C9	CODE	Global	Length = 0015
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-11
                                                              
 
@@ -1588,7 +1588,7 @@ STD_CON_INPUT_FLUSH  . . . . . .  	Number	000C
 STD_CON_INPUT_NO_ECHO  . . . . .  	Number	0008	
 STD_CON_INPUT_STATUS . . . . . .  	Number	000B	
 STD_CON_OUTPUT . . . . . . . . .  	Number	0002	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-12
                                                              
 
@@ -1609,8 +1609,7 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -1646,18 +1645,18 @@ $WRITE . . . . . . . . . . . . .  	N PROC	011E	CODE	Global	Length = 0014
 ??0016 . . . . . . . . . . . . .  	L NEAR	021F	CODE
 ??0017 . . . . . . . . . . . . .  	L NEAR	0283	CODE
 ??0019 . . . . . . . . . . . . .  	L NEAR	028B	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:42:59
+??001B . . . . . . . . . . . . .  	L NEAR	0296	CODE
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:59:16
 XENIX - IO system to mimic UNIX                             Symbols-13
                                                              
 
-??001B . . . . . . . . . . . . .  	L NEAR	0296	CODE
 ??001C . . . . . . . . . . . . .  	L NEAR	02AD	CODE
 ??001D . . . . . . . . . . . . .  	L NEAR	02BC	CODE
 
 
    1970 Source  Lines
    3052 Total   Lines
-    644 Symbols
+    643 Symbols
 
   18066 Bytes symbol space free
 

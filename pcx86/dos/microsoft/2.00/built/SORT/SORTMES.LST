@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:52:20
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:08:38
 SORT Messages                                               Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ SORT Messages                                               Page     1-1
 				for a new character. 
                                 ;If this is done be sure to equate the foreign 
 				characters to the new 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:52:20
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:08:38
 SORT Messages                                               Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ SORT Messages                                               Page     1-2
  010C  B0 B1 B2 B3 B4 B5 B6     	db	176,177,178,179,180,181,182,183 
        B7                       
  0114  B8 B9 BA BB BC BD BE     	db	184,185,186,187,188,189,190,191 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:52:20
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:08:38
 SORT Messages                                               Page     1-3
                                                             
 
@@ -143,7 +143,7 @@ SORT Messages                                               Page     1-3
                                  
  015C                           CONST   ENDS 
                                         END 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:52:20
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:08:38
 SORT Messages                                               Symbols-1
                                                              
 
@@ -172,12 +172,12 @@ MSG1TXT  . . . . . . . . . . . .  	L BYTE 	0020	CONST
 MSG2TXT  . . . . . . . . . . . .  	L BYTE 	003D	CONST
 MSVER  . . . . . . . . . . . . .  	Alias	 FALSE		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 
 TABLE  . . . . . . . . . . . . .  	L BYTE 	005C	CONST	Global
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 
      87 Source  Lines

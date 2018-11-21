@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ SORT FILTER FOR MS-DOS                                      Page     1-1
 				t MAXREC in the allocated block 
                                  
                                 SUBTTL  Segments used in load order 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-2
 Segments used in load order                                 
 
@@ -114,7 +114,7 @@ Segments used in load order
  001D                           LONG_RET    PROC    FAR 
  001D  CB                               RET                             ; long 
 				return to OS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-3
 Segments used in load order                                 
 
@@ -172,7 +172,7 @@ Segments used in load order
 				upposed digit 
  005C  2C 30                            SUB     AL,'0'                  ; conve
 				rt to number 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-4
 Segments used in load order                                 
 
@@ -230,7 +230,7 @@ Segments used in load order
  0095  CD 21                  1         INT     21h
  0097  73 07                            JNC     GOT_MEM                 ; if er
 				ror, BX has amount free, try to get it 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-5
 Segments used in load order                                 
 
@@ -288,7 +288,7 @@ Segments used in load order
 				ars read -> end of file 
  00CA  75 F0                            JNZ     SORTL                   ; there
 				 were chars read. go read again 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-6
 Segments used in load order                                 
 
@@ -346,7 +346,7 @@ Segments used in load order
 				for a CR LF at end 
  00FC  81 3F 0A0D                       CMP     WORD PTR [BX],0A0Dh     ; Was t
 				here one there? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-7
 Segments used in load order                                 
 
@@ -404,7 +404,7 @@ Segments used in load order
  012C  2B C3                            SUB     AX,BX                   ; AX is
 				 length of line found 
  012E  89 07                            MOV     [BX],AX                 ; stuff
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-8
 Segments used in load order                                 
 
@@ -462,7 +462,7 @@ Segments used in load order
  0154  56                     2         PUSH    SI
  0155  57                     2         PUSH    DI
  0156  8B FB                            MOV     DI,BX                   ; DI = 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-9
 Segments used in load order                                 
 
@@ -520,7 +520,7 @@ Segments used in load order
 				ead pointers back 
  019C  5F                     2         POP     DI
  019D  5E                     2         POP     SI
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-10
 Segments used in load order                                 
 
@@ -578,7 +578,7 @@ Segments used in load order
  01BE  F3/ A4                           REP     MOVSB                   ; blam.
 				 Move every one up 
  01C0  FC                               CLD                             ; back 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-11
 Segments used in load order                                 
 
@@ -636,7 +636,7 @@ Segments used in load order
                                  
  01E4                           END_INSERT: 
  01E4  03 3D                            ADD     DI,[DI]                 ; link 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-12
 Segments used in load order                                 
 
@@ -694,7 +694,7 @@ Segments used in load order
                                         sys     EXIT                    ; bye! 
  0217  B4 4C                  1         MOV     AH,EXIT
  0219  CD 21                  1         INT     21h
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-13
 Segments used in load order                                 
 
@@ -710,7 +710,7 @@ Segments used in load order
  0000                           CONST   ENDS 
                                  
                                 SUBTTL  Initialized Data 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Page     1-14
 Initialized Data                                            
 
@@ -724,7 +724,7 @@ Initialized Data
                                  
                                         END     SORT 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-1
                                                              
 
@@ -782,7 +782,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   VISIT  . . . . . . . . . . . .  	0007
   BUFSECNO . . . . . . . . . . .  	0008
   BUFWRTCNT  . . . . . . . . . .  	000A
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-2
                                                              
 
@@ -840,7 +840,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_RLE_COUNT  . . . . . . . .  	0006
   EXE_PAR_DIR  . . . . . . . . .  	0008
   EXE_MIN_BSS  . . . . . . . . .  	000A
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-3
                                                              
 
@@ -898,7 +898,7 @@ SFT  . . . . . . . . . . . . . .  	0008	0003
   SFT_TABLE  . . . . . . . . . .  	0006
 SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_REF_COUNT . . . . . . . . .  	0000
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-4
                                                              
 
@@ -956,7 +956,7 @@ Symbols:
 ABORT  . . . . . . . . . . . . .  	Number	0000	
 ADDR_INT_ABORT . . . . . . . . .  	Number	0080	
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-5
                                                              
 
@@ -1014,7 +1014,7 @@ CREAT_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 CREAT_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 CREAT_TOO_MANY_OPEN_FILES  . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES		
 CURDIR_INVALID_DRIVE . . . . . .  	Alias	 ERROR_INVALID_DRIVE		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-6
                                                              
 
@@ -1055,8 +1055,9 @@ DIRSTRLEN  . . . . . . . . . . .  	Number	0040
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DUP2_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -1071,11 +1072,11 @@ END_INSERT . . . . . . . . . . .  	L NEAR	01E4	CODE
 END_OUTER_SORT_LOOP  . . . . . .  	L NEAR	01E9	CODE
 END_REPLACE_LOOP . . . . . . . .  	L NEAR	0136	CODE
 END_SWITCH . . . . . . . . . . .  	L NEAR	007D	CODE
-ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-7
                                                              
 
+ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
 ERRMSG . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 ERRMSG2  . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 ERROR_ACCESS_DENIED  . . . . . .  	Number	0005	
@@ -1129,11 +1130,11 @@ FCB_SEQ_WRITE  . . . . . . . . .  	Number	0015
 FILDIRENT  . . . . . . . . . . .  	Number	0010	
 FILETIMES_INVALID_FUNCTION . . .  	Alias	 ERROR_INVALID_FUNCTION		
 FILETIMES_INVALID_HANDLE . . . .  	Alias	 ERROR_INVALID_HANDLE		
-FILE_TIMES . . . . . . . . . . .  	Number	0057	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-8
                                                              
 
+FILE_TIMES . . . . . . . . . . .  	Number	0057	
 FILPERPROC . . . . . . . . . . .  	Number	0014	
 FINDFIRST_FILE_NOT_FOUND . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 FINDFIRST_NO_MORE_FILES  . . . .  	Alias	 ERROR_NO_MORE_FILES		
@@ -1164,7 +1165,6 @@ GOTEND . . . . . . . . . . . . .  	L NEAR	010A	CODE
 GOT_COL  . . . . . . . . . . . .  	L NEAR	0090	CODE
 GOT_MEM  . . . . . . . . . . . .  	L NEAR	00A0	CODE
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 INNER_SORT_LOOP  . . . . . . . .  	L NEAR	014C	CODE
 INSERT_LOOP  . . . . . . . . . .  	L NEAR	01EE	CODE
 INTBASE  . . . . . . . . . . . .  	Number	0080	
@@ -1188,7 +1188,7 @@ IOCTL_INVALID_DATA . . . . . . .  	Alias	 ERROR_INVALID_DATA
 IOCTL_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 IOCTL_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-9
                                                              
 
@@ -1214,7 +1214,7 @@ MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND
 NOBACK . . . . . . . . . . . . .  	L NEAR	00F7	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1246,7 +1246,7 @@ RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
 REPLACE_LOOP . . . . . . . . . .  	L NEAR	0118	CODE
 REPLACE_SCAN . . . . . . . . . .  	L NEAR	011F	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-10
                                                              
 
@@ -1304,7 +1304,7 @@ TABLE  . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 TESTED_NOT_EQUAL . . . . . . . .  	L NEAR	01A2	CODE
 TLOOP  . . . . . . . . . . . . .  	L NEAR	018B	CODE
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:51:15
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:07:33
 SORT FILTER FOR MS-DOS                                      Symbols-11
                                                              
 
@@ -1314,8 +1314,7 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -1331,9 +1330,9 @@ XDUP2  . . . . . . . . . . . . .  	Number	0046
 
    1687 Source  Lines
    1816 Total   Lines
-    540 Symbols
+    539 Symbols
 
-  22646 Bytes symbol space free
+  22648 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

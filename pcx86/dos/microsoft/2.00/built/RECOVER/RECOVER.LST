@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-1
                                                             
 
@@ -40,7 +40,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-1
                              C   
                              C  SUBTTL BREAK a listing into pages and give new 
 				subtitles 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-2
 BREAK a listing into pages and give new subtitles           
 
@@ -52,7 +52,7 @@ BREAK a listing into pages and give new subtitles
                              C   
                              C  BREAK <I_NEED: declare a variable external, if 
 				necessary, and allocate a size> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-3
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -90,7 +90,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   CALL name 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-4
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -148,13 +148,13 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  procedure MACRO name,distance 
                              C   PUBLIC name 
                              C  name PROC distance 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-5
 I_NEED: declare a variable external, if necessary, and alloc
 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-6
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -181,7 +181,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   ENDIF 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-7
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -192,7 +192,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  do_ext macro 
                              C  endm 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-8
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -208,7 +208,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   
                              C  BREAK <ERROR - print a message and then jump to
 				 a label> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-9
 ERROR - print a message and then jump to a label            
 
@@ -223,7 +223,7 @@ ERROR - print a message and then jump to a label
                              C   
                              C  BREAK <JUMP - real jump that links up shortwise
 				> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-10
 JUMP - real jump that links up shortwise                    
 
@@ -256,7 +256,7 @@ JUMP - real jump that links up shortwise
                              C  endm 
                              C   
                              C  BREAK <RETURN - return from a function> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-11
 RETURN - return from a function                             
 
@@ -271,7 +271,7 @@ RETURN - return from a function
                              C  endm 
                              C   
                              C  BREAK <CONDRET - conditional return> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-12
 CONDRET - conditional return                                
 
@@ -329,7 +329,7 @@ CONDRET - conditional return
                              C  ; endif 
                              C  ; j&ncc a ; j<NCC> a: 
                              C  ; return ; return 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-13
 CONDRET - conditional return                                
 
@@ -340,7 +340,7 @@ CONDRET - conditional return
                              C  ; 
                              C  BREAK <RETZ - return if zero, links up shortwis
 				e if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-14
 RETZ - return if zero, links up shortwise if necessary      
 
@@ -351,7 +351,7 @@ RETZ - return if zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETNZ - return if not zero, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-15
 RETNZ - return if not zero, links up shortwise if necessary 
 
@@ -362,7 +362,7 @@ RETNZ - return if not zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETC - return if carry set, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-16
 RETC - return if carry set, links up shortwise if necessary 
 
@@ -373,7 +373,7 @@ RETC - return if carry set, links up shortwise if necessary
                              C   
                              C  BREAK <RETNC - return if not carry, links up sh
 				ortwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-17
 RETNC - return if not carry, links up shortwise if necessary
 
@@ -384,7 +384,7 @@ RETNC - return if not carry, links up shortwise if necessary
                              C   
                              C  BREAK <CONTEXT - set the DOS context to a parti
 				cular register> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-18
 CONTEXT - set the DOS context to a particular register      
 
@@ -401,19 +401,18 @@ CONTEXT - set the DOS context to a particular register
                              C   
                              C  ENDIF 
                              C   
-                             C  ELSE 
-                             C    IF IBM 
-                             C      ENDIF 
+                             C  IFNDEF IBM		;STDSW.ASM (and COMSW.ASM) may have
+				 already set IBM 
                              C    ENDIF 
                              C  ENDIF 
                              C   
                              C  ENDIF 
                              C   
- = 0002                      C  DOS_MAJOR_VERSION   EQU	    (VER / 100) 
- = 0000                      C  DOS_MINOR_VERSION   EQU     (VER MOD 100) 
+ = 0002                      C  DOS_MAJOR_VERSION   EQU	    (DOSVER / 100) 
+ = 000B                      C  DOS_MINOR_VERSION   EQU     (DOSVER MOD 100) 
                              C   
                              C  BREAK <Control character definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-19
 Control character definitions                               
 
@@ -435,7 +434,7 @@ Control character definitions
  = 0009                      C  c_HT        EQU     09h         ; ^I ASCII tab 
                              C   
                              C  BREAK <BPB Definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-20
 BPB Definition                                              
 
@@ -475,7 +474,7 @@ BPB Definition
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK  <Bios Parameter Block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-21
 Bios Parameter Block                                        
 
@@ -513,7 +512,7 @@ Bios Parameter Block
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk I/O Buffer Header> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-22
 Disk I/O Buffer Header                                      
 
@@ -571,12 +570,12 @@ Disk I/O Buffer Header
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-23
 Disk I/O Buffer Header                                      
 
                              C  BREAK <User stack inside of system call> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-24
 User stack inside of system call                            
 
@@ -599,7 +598,7 @@ User stack inside of system call
  0018                        C  user_environ    ENDS 
                              C   
                              C  BREAK <interrupt definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-25
 interrupt definitions                                       
 
@@ -657,7 +656,7 @@ interrupt definitions
  = 008C                      C  addr_int_ctrl_c         EQU    4 * int_ctrl_c 
  = 0090                      C  addr_int_fatal_abort    EQU    4 * int_fatal_ab
 				ort 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-26
 interrupt definitions                                       
 
@@ -683,7 +682,7 @@ interrupt definitions
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk map> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-27
 Disk map                                                    
 
@@ -711,7 +710,7 @@ Disk map
 				le. 
                              C   
                              C  BREAK <Directory entry> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-28
 Directory entry                                             
 
@@ -769,7 +768,7 @@ Directory entry
  001A  ????                  C  dir_first   DW      ?                   ; first
 				 allocation unit of file 
  001C  ????                  C  dir_size_l  DW      ?                   ; low 1
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-29
 Directory entry                                             
 
@@ -803,7 +802,7 @@ Directory entry
 				eable via CHMOD 
                              C   
                              C  BREAK <File allocation Table information> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-30
 File allocation Table information                           
 
@@ -845,7 +844,7 @@ File allocation Table information
 				in is not an error). 
                              C   
                              C  BREAK <DPB structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-31
 DPB structure                                               
 
@@ -903,7 +902,7 @@ DPB structure
                          ]   C  
                              C  
                              C                                  ; ASCIZ string 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-32
 DPB structure                                               
 
@@ -923,7 +922,7 @@ DPB structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <File Control Block definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-33
 File Control Block definition                               
 
@@ -981,7 +980,7 @@ File Control Block definition
                              C  ;       |   random record number    | 
                              C  ;       +---------------------------+ 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-34
 File Control Block definition                               
 
@@ -1039,7 +1038,7 @@ File Control Block definition
  001D  ????                  C  fcb_LSTCLUS DW      ?       ; Last cluster acce
 				ssed and directory pack 2 12 
  001F  ??                    C              DB      ?       ; bit numbers into 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-35
 File Control Block definition                               
 
@@ -1097,7 +1096,7 @@ File Control Block definition
                              C  ;       BIT     7   6   5   4   3   2   1   0 
                              C  ;             |---|---|---|---|---|---|---|---|
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-36
 File Control Block definition                               
 
@@ -1155,7 +1154,7 @@ File Control Block definition
                              C  ; 
                              C  ; find first/next buffer 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-37
 File Control Block definition                               
 
@@ -1195,7 +1194,7 @@ File Control Block definition
  002B                        C  find_buf    ENDS 
                              C   
                              C  BREAK <Process data block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-38
 Process data block                                          
 
@@ -1253,7 +1252,7 @@ Process data block
 				                            ; 
  002E  ????????              C  PDB_User_stack      DD      ?           ; stack
 				 of self during system calls 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-39
 Process data block                                          
 
@@ -1291,7 +1290,7 @@ Process data block
  005B                        C  Process_data_block  ENDS 
                              C   
                              C  BREAK <EXEC and EXE file structures> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-40
 EXEC and EXE file structures                                
 
@@ -1349,7 +1348,7 @@ EXEC and EXE file structures
  0004                        C  Exec3           ENDS 
                              C   
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-41
 EXEC and EXE file structures                                
 
@@ -1407,7 +1406,7 @@ EXEC and EXE file structures
  0006  ??                    C  sym_len         DB  ? 
  0007  00FF[                 C  sym_name        DB  255 dup (?) 
             ??               C  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-42
 EXEC and EXE file structures                                
 
@@ -1416,7 +1415,7 @@ EXEC and EXE file structures
  0106                        C  symbol_entry    ENDS 
                              C   
                              C  BREAK <Internal system file table format> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-43
 Internal system file table format                           
 
@@ -1466,7 +1465,7 @@ Internal system file table format
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Memory arena structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-44
 Memory arena structure                                      
 
@@ -1524,7 +1523,7 @@ Memory arena structure
 				 0 if No space after currency symbol 
                              C                                      ;         =
 				 1 if space after currency symbol 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-45
 Memory arena structure                                      
 
@@ -1571,7 +1570,7 @@ Memory arena structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Machine instruction definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-46
 Machine instruction definitions                             
 
@@ -1582,7 +1581,7 @@ Machine instruction definitions
  = 00CB                      C  mi_Long_RET     EQU     0CBh 
                              C   
                              C  BREAK <Standard I/O assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-47
 Standard I/O assignments                                    
 
@@ -1594,7 +1593,7 @@ Standard I/O assignments
  = 0004                      C  stdprn      EQU     4 
                              C   
                              C  BREAK <Xenix subfunction assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-48
 Xenix subfunction assignments                               
 
@@ -1604,7 +1603,7 @@ Xenix subfunction assignments
  = 0002                      C  open_for_both   EQU 2 
                              C   
                              C  BREAK <Xenix error codes> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-49
 Xenix error codes                                           
 
@@ -1662,7 +1661,7 @@ Xenix error codes
 				ccess_denied 
  =                           C  chmod_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-50
 Xenix error codes                                           
 
@@ -1720,7 +1719,7 @@ Xenix error codes
 				nvalid_handle 
  =                           C  ioctl_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-51
 Xenix error codes                                           
 
@@ -1778,7 +1777,7 @@ Xenix error codes
 				ile_not_found 
  =                           C  unlink_access_denied            EQU     error_a
 				ccess_denied 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-52
 Xenix error codes                                           
 
@@ -1789,7 +1788,7 @@ Xenix error codes
 				ccess_denied 
                              C   
                              C  BREAK <system call definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-53
 system call definitions                                     
 
@@ -1847,7 +1846,7 @@ system call definitions
  = 001A                      C  Set_DMA                         EQU 26  ; 26   
 				  1A 
                              C  ;----+----+----+----+----+----+----+----+----+-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-54
 system call definitions                                     
 
@@ -1905,7 +1904,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;                                              
 				                            ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-55
 system call definitions                                     
 
@@ -1963,7 +1962,7 @@ system call definitions
 				  47 
                              C  ;    Memory Group 
  = 0048                      C  Alloc                           EQU 72  ; 72   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-56
 system call definitions                                     
 
@@ -2021,7 +2020,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-57
 system call definitions                                     
 
@@ -2079,7 +2078,7 @@ system call definitions
  = 005C                         fcb     equ     5ch 
                                  
  0000                           code    segment public 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-58
                                                             
 
@@ -2137,7 +2136,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-58
                                 ;----------------------------------------------
 				-------------------------; 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-59
                                                             
 
@@ -2195,7 +2194,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-59
  0237  80 FA 30                         cmp     dl,30h 
  023A  7C D4                            jl      ret2 
  023C  B4 02                            mov     ah,STD_CON_OUTPUT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-60
                                                             
 
@@ -2253,7 +2252,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-60
  028B  EB F4                            jmp     setfat1 
                                  
  028D  8B 16 0028 R             load:   mov     dx,firfat 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-61
                                                             
 
@@ -2311,7 +2310,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-61
                                  
                                 ;Code to print header 
                                 ;       PUSH    AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-62
                                                             
 
@@ -2369,7 +2368,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-62
  032E  FE C8                            dec     al 
  0330  3C FF                            cmp     al,-1 
  0332  75 03                            jnz     drvok1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-63
                                                             
 
@@ -2427,7 +2426,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-63
  03B2                           slashok: 
  03B2  BE 0081                          mov     si,81h                  ;point 
 				to cammand line 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-64
                                                             
 
@@ -2485,7 +2484,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-64
  03E6  E9 047E R                        jmp     same_dir                ;no dir
 				 separator char. found, the 
                                                                         ; file 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-65
                                                             
 
@@ -2543,7 +2542,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-65
                                  
                                 assume  ds:nothing 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-66
                                                             
 
@@ -2601,7 +2600,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-66
 				 or 23h 
  0465  BA 0705 R                        mov     dx,offset dg: int_23 
  0468  CD 21                            int     21h 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-67
                                                             
 
@@ -2659,7 +2658,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-67
 				cord of first fat 
  04BA  8A 4F 0F                         mov     cl,byte ptr [bx+15]     ;get si
 				ze of fat 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-68
                                                             
 
@@ -2717,7 +2716,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-68
  053B  83 16 003E R 00                  adc     word ptr filsiz+2,0 
  0540  E8 024C R                step3:  call    getfat 
  0543  3B 1E 002E R                     cmp     bx,target 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-69
                                                             
 
@@ -2775,7 +2774,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-69
  05A4  0A F1                            or      dh,cl 
  05A6  88 36 0016 R                     mov     byte ptr dirent+22,dh 
  05AA  88 2E 0017 R                     mov     byte ptr dirent+23,ch 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-70
                                                             
 
@@ -2833,7 +2832,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-70
                                  
  0622  C7 06 0040 R 0001        recfil0:mov     lastfat,1               ;indica
 				te location of list head 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-71
                                                             
 
@@ -2891,7 +2890,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-71
                                  
  0695  A1 002A R                recfil3:mov     ax,fatptr               ;mark s
 				ector bad 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-72
                                                             
 
@@ -2949,7 +2948,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-72
  0700  CD 21                            int     bdos 
  0702  E8 02CD R                        call    wrtfat          ;save the fat 
  0705  E8 070A R                int_23: call    rest_dir 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-73
                                                             
 
@@ -3007,7 +3006,7 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-73
                                  
  0746  E8 070A R                        call    rest_dir 
  0749  CD 20                            int     20h 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-74
                                                             
 
@@ -3065,14 +3064,14 @@ RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-74
  0044  00                       fattbl  db      0 
                                  
  0045                           data    ends 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Page     1-75
                                                             
 
                                  
                                         end     recover 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-1
                                                              
 
@@ -3130,7 +3129,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-2
                                                              
 
@@ -3188,7 +3187,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-3
                                                              
 
@@ -3246,7 +3245,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-4
                                                              
 
@@ -3304,7 +3303,7 @@ ADDR_INT_COMMAND . . . . . . . .  	Number	0084
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
 ADDR_INT_DISK_WRITE  . . . . . .  	Number	0098	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-5
                                                              
 
@@ -3362,7 +3361,7 @@ CR . . . . . . . . . . . . . . .  	Number	000D
 CREAT  . . . . . . . . . . . . .  	Number	003C	
 CREATENEWFILE  . . . . . . . . .  	Number	005B	
 CREATETEMPFILE . . . . . . . . .  	Number	005A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-6
                                                              
 
@@ -3416,14 +3415,15 @@ DIR_SAVE_LOOP  . . . . . . . . .  	L NEAR	0434	CODE
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOSVER_HIGH  . . . . . . . . . .  	Number	0200	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
-DPBSIZ . . . . . . . . . . . . .  	Number	005E	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-7
                                                              
 
+DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRIVE  . . . . . . . . . . . . .  	L BYTE 	0113	CODE
 DRVERR . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 DRVISOK  . . . . . . . . . . . .  	L NEAR	0426	CODE
@@ -3477,11 +3477,11 @@ EXIT_HARD_ERROR  . . . . . . . .  	Number	0002
 EXIT_KEEP_PROCESS  . . . . . . .  	Number	0003	
 EXIT_TERMINATE . . . . . . . . .  	Number	0000	
 
-FALSE  . . . . . . . . . . . . .  	Number	0000	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-8
                                                              
 
+FALSE  . . . . . . . . . . . . .  	Number	0000	
 FATCNT . . . . . . . . . . . . .  	L BYTE 	0024	DATA
 FATNUM . . . . . . . . . . . . .  	L BYTE 	0025	DATA
 FATPRI . . . . . . . . . . . . .  	Number	001E	
@@ -3535,11 +3535,11 @@ GET_FCB_FILE_LENGTH  . . . . . .  	Number	0023
 GET_FCB_POSITION . . . . . . . .  	Number	0024	
 GET_INDOS_FLAG . . . . . . . . .  	Number	0034	
 GET_INTERRUPT_VECTOR . . . . . .  	Number	0035	
-GET_IN_VARS  . . . . . . . . . .  	Number	0052	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-9
                                                              
 
+GET_IN_VARS  . . . . . . . . . .  	Number	0052	
 GET_TIME . . . . . . . . . . . .  	Number	002C	
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
@@ -3549,7 +3549,6 @@ GOTPARM  . . . . . . . . . . . .  	L NEAR	031E	CODE
 HARDCH . . . . . . . . . . . . .  	L DWORD	010C	CODE
 HEADER . . . . . . . . . . . . .  	L BYTE 	0103	CODE
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IBMVER . . . . . . . . . . . . .  	Alias	 TRUE		
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
@@ -3594,7 +3593,7 @@ LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 MAXENT . . . . . . . . . . . . .  	L WORD 	0030	DATA
 MI_INT . . . . . . . . . . . . .  	Number	00CD	
 MI_LONG_CALL . . . . . . . . . .  	Number	009A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-10
                                                              
 
@@ -3616,7 +3615,7 @@ NO_ERRORS  . . . . . . . . . . .  	L NEAR	0455	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NO_FUDGE . . . . . . . . . . . .  	L NEAR	072B	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -3652,7 +3651,7 @@ READIT . . . . . . . . . . . . .  	L NEAR	02A5	CODE
 READ_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 READ_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 RECDSK . . . . . . . . . . . . .  	L NEAR	0508	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-11
                                                              
 
@@ -3710,7 +3709,7 @@ SET_OEM_HANDLER  . . . . . . . .  	Number	00F8
 SET_TIME . . . . . . . . . . . .  	Number	002D	
 SET_VERIFY_ON_WRITE  . . . . . .  	Number	002E	
 SF_DEFAULT_NUMBER  . . . . . . .  	Number	0005	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-12
                                                              
 
@@ -3754,8 +3753,7 @@ USERDIR  . . . . . . . . . . . .  	L BYTE 	0116	CODE
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 USER_DRIVE . . . . . . . . . . .  	L BYTE 	0112	CODE
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -3768,15 +3766,15 @@ WRTOK  . . . . . . . . . . . . .  	L NEAR	02DB	CODE
 
 XDUP . . . . . . . . . . . . . .  	Number	0045	
 XDUP2  . . . . . . . . . . . . .  	Number	0046	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:48:09
+
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:04:28
 RECOVER MS-DOS File/Disk Recovery Utility                   Symbols-13
                                                              
 
 
-
    2145 Source  Lines
    2207 Total   Lines
-    628 Symbols
+    627 Symbols
 
   19706 Bytes symbol space free
 

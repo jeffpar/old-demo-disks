@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-1
                                                             
 
@@ -14,7 +14,7 @@ PART5 - COMMAND Transient routines.                         Page     1-1
                              C   
  =                           C  IBMVER  EQU     IBM  	; Switch to build IBM ver
 				sion of Command 
- = 0000                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
+ = FFFF                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
 				S version of Command 
                              C   
  =                           C  HIGHMEM EQU     FALSE   ; Run resident part abo
@@ -56,7 +56,7 @@ PART5 - COMMAND Transient routines.                         Page     1-1
                              C   
                              C  VARSTRUC        STRUC 
  0000  ??                    C  ISDIR   DB      ? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -85,8 +85,6 @@ DEVICE TABLE AND SRH DEFINITION
                                  
  0000                           CODERES SEGMENT PUBLIC 
                                  
-                                        IF      IBMVER 
-                                        EXTRN   EXEC_WAIT:NEAR 
                                         ENDIF 
                                  
  0000                           CODERES ENDS 
@@ -114,12 +112,12 @@ DEVICE TABLE AND SRH DEFINITION
                                         EXTRN   DESTISDIR:BYTE,DESTTAIL:WORD,DE
 				STINFO:BYTE 
                                         EXTRN   BATHAND:WORD,RESSEG:WORD,TPA:WO
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+				RD,SWITCHAR:BYTE 
+                                        EXTRN   BYTCNT:WORD,COMBUF:BYTE,DIRBUF:
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-3
 DEVICE TABLE AND SRH DEFINITION                             
 
-				RD,SWITCHAR:BYTE 
-                                        EXTRN   BYTCNT:WORD,COMBUF:BYTE,DIRBUF:
 				BYTE,CHARBUF:BYTE 
                                  
                                  
@@ -172,12 +170,12 @@ DEVICE TABLE AND SRH DEFINITION
  000A                         1 ??0000:
  000A  C3                     1  RET
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 000B                           ALLOC_TPA: 
+                                ASSUME DS:TRANGROUP,ES:RESGROUP 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-4
 DEVICE TABLE AND SRH DEFINITION                             
 
- 000B                           ALLOC_TPA: 
-                                ASSUME DS:TRANGROUP,ES:RESGROUP 
  000B  BB FFFF                          MOV     BX,0FFFFH       ; Re-allocate t
 				he transient 
  000E  B4 48                            MOV     AH,ALLOC 
@@ -230,12 +228,12 @@ DEVICE TABLE AND SRH DEFINITION
                                  
                                         ENDIF 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 004B  8B F7                            MOV     SI,DI                   ; resto
+				re pointer to begining 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-5
 DEVICE TABLE AND SRH DEFINITION                             
 
- 004B  8B F7                            MOV     SI,DI                   ; resto
-				re pointer to begining 
  004D                           PRESCANLP: 
  004D  AC                               LODSB 
                                  
@@ -288,12 +286,12 @@ DEVICE TABLE AND SRH DEFINITION
  0098                           NOOUT: 
  0098  3C 3C                            CMP     AL,'<' 
  009A  75 16                            JNZ     CHKPIPE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 009C  E8 026A R                        CALL    SCANOFF 
+ 009F  3C 0D                            CMP     AL,0DH 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-6
 DEVICE TABLE AND SRH DEFINITION                             
 
- 009C  E8 026A R                        CALL    SCANOFF 
- 009F  3C 0D                            CMP     AL,0DH 
  00A1  75 09                            JNZ     GOTREIFIL 
  00A3  26: C7 06 0000 E 0009            MOV     WORD PTR [RE_INSTR],09H ; Cause
 				 an error later 
@@ -346,12 +344,12 @@ DEVICE TABLE AND SRH DEFINITION
  00F1  BF 0000 E                        MOV     DI,OFFSET RESGROUP:PIPESTR 
  00F4  26: 89 3E 0000 E                 MOV     [PIPEPTR],DI 
  00F9  BE 0002 E                        MOV     SI,OFFSET TRANGROUP:COMBUF+2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 00FC  E8 026A R                        CALL    SCANOFF 
+ 00FF                           PIPESETLP:                      ; Transfer the 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-7
 DEVICE TABLE AND SRH DEFINITION                             
 
- 00FC  E8 026A R                        CALL    SCANOFF 
- 00FF                           PIPESETLP:                      ; Transfer the 
 				pipe into the resident pipe buffer 
  00FF  AC                               LODSB 
  0100  AA                               STOSB 
@@ -404,12 +402,12 @@ DEVICE TABLE AND SRH DEFINITION
  0133  CD 21                            INT     int_command 
  0135  72 10                            JC      TRYPEEL 
  0137  E8 0000 E                        CALL    SETREST1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 013A  B0 3F                            MOV     AL,"?"          ; *.* is defaul
+				t file spec if pure dir 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-8
 DEVICE TABLE AND SRH DEFINITION                             
 
- 013A  B0 3F                            MOV     AL,"?"          ; *.* is defaul
-				t file spec if pure dir 
  013C  BF 005D                          MOV     DI,5DH 
  013F  B9 000B                          MOV     CX,11 
  0142  F3/ AA                           REP     STOSB 
@@ -462,12 +460,12 @@ DEVICE TABLE AND SRH DEFINITION
  0176                           NOTDOUBLESL: 
  0176  C6 04 00                         MOV     BYTE PTR [SI],0 
  0179  B4 3B                            MOV     AH,CHDIR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 017B  CD 21                            INT     int_command 
+ 017D  73 17                            JNC     CDSUCC 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-9
 DEVICE TABLE AND SRH DEFINITION                             
 
- 017B  CD 21                            INT     int_command 
- 017D  73 17                            JNC     CDSUCC 
                                         return 
  017F                         1 ??0008:
  017F  C3                     1  RET
@@ -520,12 +518,12 @@ DEVICE TABLE AND SRH DEFINITION
  01C0  95                               XCHG    AX,BP 
  01C1  93                               XCHG    AX,BX 
  01C2  E8 020F R                        CALL    CONVWRD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 01C5  93                               XCHG    AX,BX 
+ 01C6  14 00                            ADC     AL,0 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-10
 DEVICE TABLE AND SRH DEFINITION                             
 
- 01C5  93                               XCHG    AX,BX 
- 01C6  14 00                            ADC     AL,0 
  01C8  E2 EE                            LOOP    CONVLP 
                                  
                                 ; Conversion complete. Print 9-digit number. 
@@ -578,12 +576,12 @@ DEVICE TABLE AND SRH DEFINITION
  0212  86 C4                            XCHG    AL,AH 
  0214  12 C0                            ADC     AL,AL 
  0216  27                               DAA 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 0217  86 C4                            XCHG    AL,AH 
+                                        return 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-11
 DEVICE TABLE AND SRH DEFINITION                             
 
- 0217  86 C4                            XCHG    AL,AH 
-                                        return 
  0219                         1 ??000F:
  0219  C3                     1  RET
                                  
@@ -636,12 +634,12 @@ DEVICE TABLE AND SRH DEFINITION
                                         return 
  0269                         1 ??0012:
  0269  C3                     1  RET
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+                                ASSUME  DS:TRANGROUP 
+                                 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-12
 DEVICE TABLE AND SRH DEFINITION                             
 
-                                ASSUME  DS:TRANGROUP 
-                                 
  026A                           SCANOFF: 
  026A  AC                               LODSB 
  026B  E8 0272 R                        CALL    DELIM 
@@ -694,12 +692,12 @@ DEVICE TABLE AND SRH DEFINITION
                                  
  029E                           PP1: 
  029E  26: 8A 05                        MOV     AL,ES:[DI]      ; GET A CHAR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 02A1  47                               INC     DI 
+ 02A2  0A C0                            OR      AL,AL 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-13
 DEVICE TABLE AND SRH DEFINITION                             
 
- 02A1  47                               INC     DI 
- 02A2  0A C0                            OR      AL,AL 
  02A4  74 30                            JZ      PP5             ; NUL TERMINATE
 				D 
  02A6  3C 24                            CMP     AL,"$"          ; META CHARACTE
@@ -752,12 +750,12 @@ DEVICE TABLE AND SRH DEFINITION
  02DF  B0 3D                            MOV     AL,"=" 
  02E1  EB 0E                            JMP     SHORT OUTV 
  02E3                           PRINT_ESC: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 02E3  B0 1B                            MOV     AL,1BH 
+ 02E5  EB 0A                            JMP     SHORT OUTV 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-14
 DEVICE TABLE AND SRH DEFINITION                             
 
- 02E3  B0 1B                            MOV     AL,1BH 
- 02E5  EB 0A                            JMP     SHORT OUTV 
  02E7                           PRINT_G: 
  02E7  B0 3E                            MOV     AL,">" 
  02E9  EB 06                            JMP     SHORT OUTV 
@@ -810,12 +808,12 @@ DEVICE TABLE AND SRH DEFINITION
  0330  FE 06 0000 E                     INC     [DESTISDIR] 
  0334                           TESTPMETA: 
  0334  3C 3F                            CMP     AL,'?' 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 0336  75 05                            JNZ     TESTPSTAR 
+ 0338  80 0E 0000 E 02                  OR      [DESTINFO],2 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-15
 DEVICE TABLE AND SRH DEFINITION                             
 
- 0336  75 05                            JNZ     TESTPSTAR 
- 0338  80 0E 0000 E 02                  OR      [DESTINFO],2 
  033D                           TESTPSTAR: 
  033D  3C 2A                            CMP     AL,'*' 
  033F  75 05                            JNZ     TESTPDELIM 
@@ -868,12 +866,12 @@ DEVICE TABLE AND SRH DEFINITION
  037F                         1 ??0022:
  037F  C3                     1  RET
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 0380                           PATH: 
+ 0380  E8 0000 E                        CALL    FIND_PATH 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-16
 DEVICE TABLE AND SRH DEFINITION                             
 
- 0380                           PATH: 
- 0380  E8 0000 E                        CALL    FIND_PATH 
  0383  E8 0366 R                        CALL    PGETARG         ; Pre scan for 
 				arguments 
  0386  74 2A                            JZ      DISPPATH        ; Print the cur
@@ -926,12 +924,12 @@ DEVICE TABLE AND SRH DEFINITION
  03BF  BA 0000 E                        MOV     DX,OFFSET TRANGROUP:NULPATH 
  03C2  0E                               PUSH    CS 
  03C3  1F                               POP     DS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 03C4  E9 0464 R                        JMP     PRINT 
+ 03C7                           PATH1: 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-17
 DEVICE TABLE AND SRH DEFINITION                             
 
- 03C4  E9 0464 R                        JMP     PRINT 
- 03C7                           PATH1: 
  03C7  06                               PUSH    ES 
  03C8  1F                               POP     DS 
  03C9  83 EF 05                         SUB     DI,5 
@@ -984,12 +982,12 @@ DEVICE TABLE AND SRH DEFINITION
 				git 
  0407  E8 0413 R                        CALL    INDIG           ; Another digit
 				? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 040A  72 04                            JC      OKRET 
+ 040C  D5 0A                            AAD                     ; Convert unpac
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-18
 DEVICE TABLE AND SRH DEFINITION                             
 
- 040A  72 04                            JC      OKRET 
- 040C  D5 0A                            AAD                     ; Convert unpac
 				ked BCD to decimal 
  040E  8A E0                            MOV     AH,AL 
  0410                           OKRET: 
@@ -1042,12 +1040,12 @@ DEVICE TABLE AND SRH DEFINITION
                                         return 
  0438                         1 ??002F:
  0438  C3                     1  RET
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+                                 
+ 0439                           OUT_CHAR: 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-19
 DEVICE TABLE AND SRH DEFINITION                             
 
-                                 
- 0439                           OUT_CHAR: 
  0439  1E                               PUSH    DS 
  043A  52                               PUSH    DX 
  043B  51                               PUSH    CX 
@@ -1100,12 +1098,12 @@ DEVICE TABLE AND SRH DEFINITION
 				DS:DX points to string 
                                 ; 
  0470                           STRING_OUT: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+ 0470  51                               PUSH    CX 
+ 0471  57                               PUSH    DI 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Page     1-20
 DEVICE TABLE AND SRH DEFINITION                             
 
- 0470  51                               PUSH    CX 
- 0471  57                               PUSH    DI 
  0472  8B FA                            MOV     DI,DX 
  0474  B9 FFFF                          MOV     CX,-1 
  0477  06                               PUSH    ES 
@@ -1152,7 +1150,7 @@ DEVICE TABLE AND SRH DEFINITION
  04AD                           TRANCODE    ENDS 
                                             END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-1
                                                              
 
@@ -1210,7 +1208,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-2
                                                              
 
@@ -1268,7 +1266,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-3
                                                              
 
@@ -1326,7 +1324,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-4
                                                              
 
@@ -1381,7 +1379,7 @@ VARSTRUC . . . . . . . . . . . .  	0059	0005
   TTAIL  . . . . . . . . . . . .  	0002
   INFO . . . . . . . . . . . . .  	0004
   BUF  . . . . . . . . . . . . .  	0005
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-5
                                                              
 
@@ -1439,7 +1437,7 @@ ATTR_IGNORE  . . . . . . . . . .  	Number	0021
 ATTR_READ_ONLY . . . . . . . . .  	Number	0001	
 ATTR_SYSTEM  . . . . . . . . . .  	Number	0004	
 ATTR_VOLUME_ID . . . . . . . . .  	Number	0008	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-6
                                                              
 
@@ -1497,7 +1495,7 @@ C_ETX  . . . . . . . . . . . . .  	Number	0003
 C_HT . . . . . . . . . . . . . .  	Number	0009	
 C_LF . . . . . . . . . . . . . .  	Number	000A	
 C_NAK  . . . . . . . . . . . . .  	Number	0015	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-7
                                                              
 
@@ -1555,7 +1553,7 @@ DIRPRI . . . . . . . . . . . . .  	Number	000F
 DIRSTRLEN  . . . . . . . . . . .  	Number	0040	
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-8
                                                              
 
@@ -1564,8 +1562,9 @@ DISP32BITS . . . . . . . . . . .  	L NEAR	01AF	TRANCODE	Global
 DISPPATH . . . . . . . . . . . .  	L NEAR	03B2	TRANCODE
 DISPSIZE . . . . . . . . . . . .  	L NEAR	01A7	TRANCODE	Global
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -1607,13 +1606,12 @@ EXEC_FUNC_NO_EXECUTE . . . . . .  	Number	0001
 EXEC_FUNC_OVERLAY  . . . . . . .  	Number	0002	
 EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 EXEC_NOT_ENOUGH_MEMORY . . . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
-EXEC_WAIT  . . . . . . . . . . .  	L NEAR	0000	CODERES	External
 EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A	
 EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
 EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
 EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-9
                                                              
 
@@ -1671,7 +1669,7 @@ GET_IN_VARS  . . . . . . . . . .  	Number	0052
 GET_TIME . . . . . . . . . . . .  	Number	002C	
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-10
                                                              
 
@@ -1685,7 +1683,7 @@ GO_TO_ERROR  . . . . . . . . . .  	L NEAR	04AA	TRANCODE
 
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 IBM		
 INDIG  . . . . . . . . . . . . .  	L NEAR	0413	TRANCODE
@@ -1729,7 +1727,7 @@ LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 LTPA . . . . . . . . . . . . . .  	V WORD 	0000	DATARES	External
 
 MAINNAME . . . . . . . . . . . .  	L NEAR	03DD	TRANCODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-11
                                                              
 
@@ -1741,7 +1739,7 @@ MKDIR  . . . . . . . . . . . . .  	Number	0039
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 MOVE_NAME  . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
-MSVER  . . . . . . . . . . . . .  	Number	0000	
+MSVER  . . . . . . . . . . . . .  	Number	FFFF	
 
 NOAPPND  . . . . . . . . . . . .  	L NEAR	0071	TRANCODE
 NOOUT  . . . . . . . . . . . . .  	L NEAR	0098	TRANCODE
@@ -1757,7 +1755,7 @@ NOTTRAILCOL  . . . . . . . . . .  	L NEAR	00D8	TRANCODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NULPATH  . . . . . . . . . . . .  	V BYTE 	0000	TRANDATA	External
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1787,7 +1785,7 @@ PATH . . . . . . . . . . . . . .  	L NEAR	0380	TRANCODE	Global
 PATH0  . . . . . . . . . . . . .  	L NEAR	03BF	TRANCODE
 PATH1  . . . . . . . . . . . . .  	L NEAR	03C7	TRANCODE
 PATHCHRCMP . . . . . . . . . . .  	L NEAR	0112	TRANCODE	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-12
                                                              
 
@@ -1845,7 +1843,7 @@ RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
 RESSEG . . . . . . . . . . . . .  	V WORD 	0000	TRANSPACE	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-13
                                                              
 
@@ -1903,7 +1901,7 @@ STD_CON_INPUT  . . . . . . . . .  	Number	0001
 STD_CON_INPUT_FLUSH  . . . . . .  	Number	000C	
 STD_CON_INPUT_NO_ECHO  . . . . .  	Number	0008	
 STD_CON_INPUT_STATUS . . . . . .  	Number	000B	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-14
                                                              
 
@@ -1934,8 +1932,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 UPCONV . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VSWITCH  . . . . . . . . . . . .  	Number	0010	
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -1961,11 +1958,11 @@ ZPRINT . . . . . . . . . . . . .  	L NEAR	0469	TRANCODE	Global
 ??0006 . . . . . . . . . . . . .  	L NEAR	0146	TRANCODE
 ??0007 . . . . . . . . . . . . .  	L NEAR	0175	TRANCODE
 ??0008 . . . . . . . . . . . . .  	L NEAR	017F	TRANCODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:36:31
+??0009 . . . . . . . . . . . . .  	L NEAR	0186	TRANCODE
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:52:06
 PART5 - COMMAND Transient routines.                         Symbols-15
                                                              
 
-??0009 . . . . . . . . . . . . .  	L NEAR	0186	TRANCODE
 ??000B . . . . . . . . . . . . .  	L NEAR	0191	TRANCODE
 ??000D . . . . . . . . . . . . .  	L NEAR	01A6	TRANCODE
 ??000E . . . . . . . . . . . . .  	L NEAR	020E	TRANCODE
@@ -1999,7 +1996,7 @@ PART5 - COMMAND Transient routines.                         Symbols-15
 
    2387 Source  Lines
    2824 Total   Lines
-    761 Symbols
+    760 Symbols
 
   13546 Bytes symbol space free
 

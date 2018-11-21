@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ DISK - Disk utility routines                                Page     1-1
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
  0000                         1  DATA ENDS
                                         i_need  DMAADD,DWORD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -114,7 +114,7 @@ DEVICE TABLE AND SRH DEFINITION
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
  0000                         1  DATA ENDS
                                         i_need  NxtClusNum,WORD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-3
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -168,7 +168,7 @@ DEVICE TABLE AND SRH DEFINITION
                                  
                                 SUBTTL LOAD -- MAIN READ ROUTINE AND DEVICE IN 
 				ROUTINES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-4
 LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES            
 
@@ -226,7 +226,7 @@ LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES
                                 SWAPBACK    ENDP 
                                  
                                         procedure   SWAPCON,NEAR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-5
 LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES            
 
@@ -284,7 +284,7 @@ LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES
  00CD  E9 004B R                        JMP     SWAPRET 
                                 SWAPCON ENDP 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-6
 LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES            
 
@@ -342,7 +342,7 @@ LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES
  00F6  E8 0000 E              1  CALL SETREAD
  00F9  36: C5 36 0000 E                 LDS     SI,[THISFCB] 
                                         invoke  DEVIOCALL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-7
 LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES            
 
@@ -400,7 +400,7 @@ LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES
  0157  F7 C7 8000                       TEST    DI,STERR 
  015B  74 13                            JZ      CRDOK 
                                         invoke  CHARHARD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-8
 LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES            
 
@@ -458,7 +458,7 @@ LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES
  01B1  1F                               POP     DS 
                                 ASSUME  DS:DOSGROUP 
  01B2  E8 0000 R                        CALL    SWAPBACK 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-9
 LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES            
 
@@ -516,7 +516,7 @@ LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES
  0203  33 F6                            XOR     SI,SI 
  0205  EB A9                            JMP     SHORT ENDRDCON 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-10
 LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES            
 
@@ -524,7 +524,7 @@ LOAD -- MAIN READ ROUTINE AND DEVICE IN ROUTINES
                                  
                                 SUBTTL STORE -- MAIN WRITE ROUTINE AND DEVICE O
 				UT ROUTINES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-11
 STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES         
 
@@ -582,7 +582,7 @@ STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES
 				 
  0232  2B C1                            SUB     AX,CX                   ; Amoun
 				t actually written 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-12
 STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES         
 
@@ -640,7 +640,7 @@ STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES
  027D  C5 1E 0000 E                     LDS     BX,[DMAADD] 
                                 ASSUME  DS:NOTHING 
  0281  8B FB                            MOV     DI,BX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-13
 STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES         
 
@@ -698,7 +698,7 @@ STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES
  02F0  E2 B6                            LOOP    DVWRTLP 
  02F2                           WRTCOOKDONE: 
  02F2  8B C2                            MOV     AX,DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-14
 STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES         
 
@@ -738,7 +738,7 @@ STORE -- MAIN WRITE ROUTINE AND DEVICE OUT ROUTINES
                                 get_io_fcb  ENDP 
                                  
                                 SUBTTL GETTHISDRV -- FIND CURRENT DRIVE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-15
 GETTHISDRV -- FIND CURRENT DRIVE                            
 
@@ -765,7 +765,7 @@ GETTHISDRV -- FIND CURRENT DRIVE
                                 GetThisDrv  ENDP 
                                  
                                 SUBTTL DIRREAD -- READ A DIRECTORY SECTOR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-16
 DIRREAD -- READ A DIRECTORY SECTOR                          
 
@@ -823,7 +823,7 @@ DIRREAD -- READ A DIRECTORY SECTOR
  035C  32 C0                            XOR     AL,AL           ; Indicate pre-
 				read 
  035E  B4 0F                            MOV     AH,DIRPRI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-17
 DIRREAD -- READ A DIRECTORY SECTOR                          
 
@@ -833,7 +833,7 @@ DIRREAD -- READ A DIRECTORY SECTOR
                                 DirRead ENDP 
                                  
                                 SUBTTL FATSECRD -- READ A FAT SECTOR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-18
 FATSECRD -- READ A FAT SECTOR                               
 
@@ -875,7 +875,7 @@ FATSECRD -- READ A FAT SECTOR
                                 ; NOTE FALL THROUGH 
                                  
                                 SUBTTL DREAD -- DO A DISK READ 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-19
 DREAD -- DO A DISK READ                                     
 
@@ -917,7 +917,7 @@ DREAD -- DO A DISK READ
                                 FATSecRd    ENDP 
                                  
                                 SUBTTL DSKREAD -- PHYSICAL DISK READ 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-20
 DSKREAD -- PHYSICAL DISK READ                               
 
@@ -953,7 +953,7 @@ DSKREAD -- PHYSICAL DISK READ
  03A8  EB 22 90                         JMP     DODSKOP 
                                  
                                 SUBTTL DWRITE -- SEE ABOUT WRITING 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-21
 DWRITE -- SEE ABOUT WRITING                                 
 
@@ -988,7 +988,7 @@ DWRITE -- SEE ABOUT WRITING
  03BD  C3                     1  RET
                                  
                                 SUBTTL DSKWRITE -- PHYSICAL DISK WRITE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-22
 DSKWRITE -- PHYSICAL DISK WRITE                             
 
@@ -1046,12 +1046,12 @@ DSKWRITE -- PHYSICAL DISK WRITE
                                 DskRead ENDP 
                                  
                                 SUBTTL SETUP -- SETUP A DISK READ OR WRITE FROM
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-23
 SETUP -- SETUP A DISK READ OR WRITE FROM USER               
 
 				 USER 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-24
 SETUP -- SETUP A DISK READ OR WRITE FROM USER               
 
@@ -1109,7 +1109,7 @@ SETUP -- SETUP A DISK READ OR WRITE FROM USER
  040D  89 3E 0000 E                     MOV     WORD PTR [THISFCB],DI 
  0411  0A C0                            OR      AL,AL           ; Is it a devic
 				e? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-25
 SETUP -- SETUP A DISK READ OR WRITE FROM USER               
 
@@ -1167,7 +1167,7 @@ SETUP -- SETUP A DISK READ OR WRITE FROM USER
  047D  A2 0000 E                        MOV     [SECCLUSPOS],AL 
  0480  8B C1                            MOV     AX,CX           ; Record count 
  0482  26: 8A 4E 05                     MOV     CL,ES:[BP.dpb_cluster_shift] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-26
 SETUP -- SETUP A DISK READ OR WRITE FROM USER               
 
@@ -1218,7 +1218,7 @@ SETUP -- SETUP A DISK READ OR WRITE FROM USER
                                  
                                 SUBTTL BREAKDOWN -- CUT A USER READ OR WRITE IN
 				TO PIECES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-27
 BREAKDOWN -- CUT A USER READ OR WRITE INTO PIECES           
 
@@ -1276,7 +1276,7 @@ BREAKDOWN -- CUT A USER READ OR WRITE INTO PIECES
  04FD  26: 8B 46 02                     MOV     AX,ES:[BP.dpb_sector_size]     
 				  ; Buffer EXACT one sector I/O 
  0501  A3 0000 E                        MOV     [BYTCNT2],AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-28
 BREAKDOWN -- CUT A USER READ OR WRITE INTO PIECES           
 
@@ -1288,7 +1288,7 @@ BREAKDOWN -- CUT A USER READ OR WRITE INTO PIECES
                                 BreakDown   ENDP 
                                  
                                 SUBTTL DISKREAD -- PERFORM USER DISK READ 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-29
 DISKREAD -- PERFORM USER DISK READ                          
 
@@ -1346,7 +1346,7 @@ DISKREAD -- PERFORM USER DISK READ
  0559  74 E1                            JZ      RDLASTJ 
                                         invoke  NEXTSEC 
  055B  E8 0000 E              1  CALL NEXTSEC
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-30
 DISKREAD -- PERFORM USER DISK READ                          
 
@@ -1404,7 +1404,7 @@ DISKREAD -- PERFORM USER DISK READ
  05A8  2B 55 08                         SUB     DX,[DI.BUFSECNO]   ; How far in
 				to transfer? 
  05AB  F7 DA                            NEG     DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-31
 DISKREAD -- PERFORM USER DISK READ                          
 
@@ -1462,7 +1462,7 @@ DISKREAD -- PERFORM USER DISK READ
                                  
                                         entry   SETFCB 
  0607                         1 SETFCB:
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-32
 DISKREAD -- PERFORM USER DISK READ                          
 
@@ -1520,7 +1520,7 @@ DISKREAD -- PERFORM USER DISK READ
                                         entry   AddRec 
  0663                         1 AddRec:
  0663  A1 0000 E                        MOV     AX,WORD PTR [RECPOS] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-33
 DISKREAD -- PERFORM USER DISK READ                          
 
@@ -1538,7 +1538,7 @@ DISKREAD -- PERFORM USER DISK READ
                                 DISKREAD    ENDP 
                                  
                                 SUBTTL DISKWRITE -- PERFORM USER DISK WRITE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-34
 DISKWRITE -- PERFORM USER DISK WRITE                        
 
@@ -1596,7 +1596,7 @@ DISKWRITE -- PERFORM USER DISK WRITE
 				l sector of current file 
  06B7  0B D2                            OR      DX,DX 
  06B9  74 01                            JZ      NORNDUP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-35
 DISKWRITE -- PERFORM USER DISK WRITE                        
 
@@ -1654,7 +1654,7 @@ DISKWRITE -- PERFORM USER DISK WRITE
  0706  2B C2                            SUB     AX,DX 
  0708  76 09                            JBE     NOGROW 
  070A  33 D2                            XOR     DX,DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-36
 DISKWRITE -- PERFORM USER DISK WRITE                        
 
@@ -1712,7 +1712,7 @@ DISKWRITE -- PERFORM USER DISK WRITE
  0770  8B 0E 0000 E                     MOV     CX,[SECCNT] 
  0774                           WRTLP: 
                                         invoke  OPTIMIZE 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-37
 DISKWRITE -- PERFORM USER DISK WRITE                        
 
@@ -1770,7 +1770,7 @@ DISKWRITE -- PERFORM USER DISK WRITE
  07C1  A1 0000 E                        MOV     AX,[BYTCNT2] 
  07C4  0B C0                            OR      AX,AX 
  07C6  74 0F                            JZ      FINWRT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-38
 DISKWRITE -- PERFORM USER DISK WRITE                        
 
@@ -1828,7 +1828,7 @@ DISKWRITE -- PERFORM USER DISK WRITE
  0835  E8 0000 E              1  CALL RELBLKS
  0838  EB E1                            JMP     SHORT UPDATE 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Page     1-39
 DISKWRITE -- PERFORM USER DISK WRITE                        
 
@@ -1851,7 +1851,7 @@ DISKWRITE -- PERFORM USER DISK WRITE
  0859                           CODE    ENDS 
                                     END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-1
                                                              
 
@@ -1909,7 +1909,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-2
                                                              
 
@@ -1967,7 +1967,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-3
                                                              
 
@@ -2025,7 +2025,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-4
                                                              
 
@@ -2083,7 +2083,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	0859	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-5
                                                              
 
@@ -2141,7 +2141,7 @@ CHECKRECLEN  . . . . . . . . . .  	L NEAR	0426	CODE
 CHMOD  . . . . . . . . . . . . .  	Number	0043	
 CHMOD_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 CHMOD_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-6
                                                              
 
@@ -2199,7 +2199,7 @@ DEVID_DEVICE_EOF . . . . . . . .  	Number	0040
 DEVID_DEVICE_NULL  . . . . . . .  	Number	0004	
 DEVID_DEVICE_RAW . . . . . . . .  	Number	0020	
 DEVID_DEVICE_SPECIAL . . . . . .  	Number	0010	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-7
                                                              
 
@@ -2243,8 +2243,9 @@ DMEDHL . . . . . . . . . . . . .  	Number	000F
 DODSKOP  . . . . . . . . . . . .  	L NEAR	03CC	CODE
 DONEXTBUFF . . . . . . . . . . .  	L NEAR	07A1	CODE
 DONXTBUF . . . . . . . . . . . .  	L NEAR	05D5	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DOWRT  . . . . . . . . . . . . .  	L NEAR	0747	CODE
 DOWRTJ . . . . . . . . . . . . .  	L NEAR	0700	CODE
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
@@ -2256,11 +2257,11 @@ DSKREAD  . . . . . . . . . . . .  	N PROC	039A	CODE	Global	Length = 0053
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DSKSTACK . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 DSKWRITE . . . . . . . . . . . .  	L NEAR	03BE	CODE	Global
-DSTATHL  . . . . . . . . . . . .  	Number	000D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-8
                                                              
 
+DSTATHL  . . . . . . . . . . . .  	Number	000D	
 DUP2_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 DUP_INVALID_HANDLE . . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 DUP_PDB  . . . . . . . . . . . .  	Number	0055	
@@ -2314,11 +2315,11 @@ EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A
 EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
 EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
-EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-9
                                                              
 
+EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
 EXIT_HARD_ERROR  . . . . . . . .  	Number	0002	
 EXIT_KEEP_PROCESS  . . . . . . .  	Number	0003	
 EXIT_TERMINATE . . . . . . . . .  	Number	0000	
@@ -2372,15 +2373,14 @@ GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 GROWCNT  . . . . . . . . . . . .  	V DWORD	0000	DATA	External
 
-HAVESKIPPED  . . . . . . . . . .  	L NEAR	0351	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-10
                                                              
 
+HAVESKIPPED  . . . . . . . . . .  	L NEAR	0351	CODE
 HAVRECSIZ  . . . . . . . . . . .  	L NEAR	0406	CODE
 HAVSTART . . . . . . . . . . . .  	L NEAR	06E1	CODE
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IDLEINT  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 INDOS  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 INTBASE  . . . . . . . . . . . .  	Number	0080	
@@ -2431,7 +2431,7 @@ MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND
 
 NEXTADD  . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 NEXTBUFF . . . . . . . . . . . .  	L NEAR	0786	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-11
                                                              
 
@@ -2448,7 +2448,7 @@ NXTBUF . . . . . . . . . . . . .  	L NEAR	058B	CODE
 NXTCLUSNUM . . . . . . . . . . .  	V WORD 	0000	DATA	External
 NXTFAT . . . . . . . . . . . . .  	L NEAR	0373	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -2489,7 +2489,7 @@ RECPOS . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 RELFILE  . . . . . . . . . . . .  	L NEAR	0832	CODE
 RENAME . . . . . . . . . . . . .  	Number	0056	
 RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-12
                                                              
 
@@ -2547,7 +2547,7 @@ STDON  . . . . . . . . . . . . .  	Number	0100
 STDOUT . . . . . . . . . . . . .  	Number	0001	
 STDPRN . . . . . . . . . . . . .  	Number	0004	
 STD_AUX_INPUT  . . . . . . . . .  	Number	0003	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-13
                                                              
 
@@ -2585,8 +2585,7 @@ USER_SP  . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 USER_SS  . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 
 VALSEC . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -2605,11 +2604,11 @@ WRTERRJ  . . . . . . . . . . . .  	L NEAR	07BE	CODE
 WRTLAST  . . . . . . . . . . . .  	L NEAR	07C1	CODE
 WRTLP  . . . . . . . . . . . . .  	L NEAR	0774	CODE
 WRTMID . . . . . . . . . . . . .  	L NEAR	0755	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:18:46
+WRTNUL . . . . . . . . . . . . .  	L NEAR	02F8	CODE
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:34:19
 DISK - Disk utility routines                                Symbols-14
                                                              
 
-WRTNUL . . . . . . . . . . . . .  	L NEAR	02F8	CODE
 
 XDUP . . . . . . . . . . . . . .  	Number	0045	
 XDUP2  . . . . . . . . . . . . .  	Number	0046	
@@ -2640,7 +2639,7 @@ XDUP2  . . . . . . . . . . . . .  	Number	0046
 
    2646 Source  Lines
    3856 Total   Lines
-    736 Symbols
+    735 Symbols
 
   15100 Bytes symbol space free
 

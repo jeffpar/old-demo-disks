@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-1
                                                             
 
@@ -32,9 +32,9 @@
                              C  ; Use the switches below to produce the standar
 				d Microsoft version or the IBM 
                              C  ; version of the operating system 
-                             C  IFDEF OEMIBM 
- =                           C  MSVER   EQU     FALSE 
- =                           C  IBM     EQU     TRUE 
+                             C  ELSE 
+ =                           C  MSVER   EQU     TRUE 
+ =                           C  IBM     EQU     FALSE 
                              C  ENDIF 
  =                           C  WANG    EQU     FALSE 
  =                           C  ALTVECT EQU     FALSE 
@@ -43,23 +43,29 @@
 				o the end of memory 
  =                           C  HIGHMEM EQU     FALSE 
                              C   
-                             C          IF      IBM 
- = 0000                      C  ESCCH   EQU     0                       ; chara
-				cter to begin escape seq. 
- = 001B                      C  CANCEL  EQU     27 
- =                           C  TOGLINS EQU     TRUE                    ;One ke
-				y toggles insert mode 
- =                           C  TOGLPRN EQU     TRUE                    ;One ke
-				y toggles printer echo 
+                             C          ELSE 
+                             C          ELSE 
+ = 001B                      C  ESCCH   EQU     1BH 
+                             C          ENDIF 
+ = 0018                      C  CANCEL  EQU     "X"-"@"                 ;Cancel
+				 with Ctrl-X 
+ =                           C  TOGLINS EQU     WANG                    ;Separa
+				te keys for insert mode on 
+                             C                                          ;and of
+				f if not WANG 
+ =                           C  TOGLPRN EQU     FALSE                   ;Separa
+				te keys for printer echo on 
+                             C                                          ;and of
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-2
+                                                            
+
+				f 
  =                           C  ZEROEXT EQU     TRUE 
                              C          ENDIF 
                                  
                                  
  0000                           CODE    SEGMENT BYTE PUBLIC  'CODE' 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-2
-                                                            
-
                                 ASSUME  CS:DOSGROUP,DS:NOTHING,ES:NOTHING,SS:NO
 				THING 
                                  
@@ -72,7 +78,7 @@
                              C   
                              C  SUBTTL BREAK a listing into pages and give new 
 				subtitles 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-3
 BREAK a listing into pages and give new subtitles           
 
@@ -84,7 +90,7 @@ BREAK a listing into pages and give new subtitles
                              C   
                              C  BREAK <I_NEED: declare a variable external, if 
 				necessary, and allocate a size> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-4
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -122,7 +128,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   CALL name 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-5
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -180,13 +186,13 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  procedure MACRO name,distance 
                              C   PUBLIC name 
                              C  name PROC distance 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-6
 I_NEED: declare a variable external, if necessary, and alloc
 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-7
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -213,7 +219,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   ENDIF 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-8
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -224,7 +230,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  do_ext macro 
                              C  endm 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-9
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -240,7 +246,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   
                              C  BREAK <ERROR - print a message and then jump to
 				 a label> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-10
 ERROR - print a message and then jump to a label            
 
@@ -255,7 +261,7 @@ ERROR - print a message and then jump to a label
                              C   
                              C  BREAK <JUMP - real jump that links up shortwise
 				> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-11
 JUMP - real jump that links up shortwise                    
 
@@ -288,7 +294,7 @@ JUMP - real jump that links up shortwise
                              C  endm 
                              C   
                              C  BREAK <RETURN - return from a function> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-12
 RETURN - return from a function                             
 
@@ -303,7 +309,7 @@ RETURN - return from a function
                              C  endm 
                              C   
                              C  BREAK <CONDRET - conditional return> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-13
 CONDRET - conditional return                                
 
@@ -361,7 +367,7 @@ CONDRET - conditional return
                              C  ; endif 
                              C  ; j&ncc a ; j<NCC> a: 
                              C  ; return ; return 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-14
 CONDRET - conditional return                                
 
@@ -372,7 +378,7 @@ CONDRET - conditional return
                              C  ; 
                              C  BREAK <RETZ - return if zero, links up shortwis
 				e if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-15
 RETZ - return if zero, links up shortwise if necessary      
 
@@ -383,7 +389,7 @@ RETZ - return if zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETNZ - return if not zero, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-16
 RETNZ - return if not zero, links up shortwise if necessary 
 
@@ -394,7 +400,7 @@ RETNZ - return if not zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETC - return if carry set, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-17
 RETC - return if carry set, links up shortwise if necessary 
 
@@ -405,7 +411,7 @@ RETC - return if carry set, links up shortwise if necessary
                              C   
                              C  BREAK <RETNC - return if not carry, links up sh
 				ortwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-18
 RETNC - return if not carry, links up shortwise if necessary
 
@@ -416,7 +422,7 @@ RETNC - return if not carry, links up shortwise if necessary
                              C   
                              C  BREAK <CONTEXT - set the DOS context to a parti
 				cular register> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-19
 CONTEXT - set the DOS context to a particular register      
 
@@ -434,18 +440,18 @@ CONTEXT - set the DOS context to a particular register
                              C  ENDIF 
                              C   
                              C  ELSE 
-                             C    IF IBM 
+                             C    ELSE 
                              C      ENDIF 
                              C    ENDIF 
                              C  ENDIF 
                              C   
                              C  ENDIF 
                              C   
- = 0002                      C  DOS_MAJOR_VERSION   EQU	    (VER / 100) 
- = 0000                      C  DOS_MINOR_VERSION   EQU     (VER MOD 100) 
+ = 0002                      C  DOS_MAJOR_VERSION   EQU	    (DOSVER / 100) 
+ = 000B                      C  DOS_MINOR_VERSION   EQU     (DOSVER MOD 100) 
                              C   
                              C  BREAK <Control character definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-20
 Control character definitions                               
 
@@ -467,7 +473,7 @@ Control character definitions
  = 0009                      C  c_HT        EQU     09h         ; ^I ASCII tab 
                              C   
                              C  BREAK <BPB Definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-21
 BPB Definition                                              
 
@@ -507,7 +513,7 @@ BPB Definition
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK  <Bios Parameter Block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-22
 Bios Parameter Block                                        
 
@@ -545,7 +551,7 @@ Bios Parameter Block
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk I/O Buffer Header> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-23
 Disk I/O Buffer Header                                      
 
@@ -603,12 +609,12 @@ Disk I/O Buffer Header
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-24
 Disk I/O Buffer Header                                      
 
                              C  BREAK <User stack inside of system call> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-25
 User stack inside of system call                            
 
@@ -631,7 +637,7 @@ User stack inside of system call
  0018                        C  user_environ    ENDS 
                              C   
                              C  BREAK <interrupt definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-26
 interrupt definitions                                       
 
@@ -689,7 +695,7 @@ interrupt definitions
  = 008C                      C  addr_int_ctrl_c         EQU    4 * int_ctrl_c 
  = 0090                      C  addr_int_fatal_abort    EQU    4 * int_fatal_ab
 				ort 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-27
 interrupt definitions                                       
 
@@ -715,7 +721,7 @@ interrupt definitions
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk map> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-28
 Disk map                                                    
 
@@ -743,7 +749,7 @@ Disk map
 				le. 
                              C   
                              C  BREAK <Directory entry> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-29
 Directory entry                                             
 
@@ -801,7 +807,7 @@ Directory entry
  001A  ????                  C  dir_first   DW      ?                   ; first
 				 allocation unit of file 
  001C  ????                  C  dir_size_l  DW      ?                   ; low 1
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-30
 Directory entry                                             
 
@@ -835,7 +841,7 @@ Directory entry
 				eable via CHMOD 
                              C   
                              C  BREAK <File allocation Table information> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-31
 File allocation Table information                           
 
@@ -877,7 +883,7 @@ File allocation Table information
 				in is not an error). 
                              C   
                              C  BREAK <DPB structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-32
 DPB structure                                               
 
@@ -935,7 +941,7 @@ DPB structure
                          ]   C  
                              C  
                              C                                  ; ASCIZ string 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-33
 DPB structure                                               
 
@@ -955,7 +961,7 @@ DPB structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <File Control Block definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-34
 File Control Block definition                               
 
@@ -1013,7 +1019,7 @@ File Control Block definition
                              C  ;       |   random record number    | 
                              C  ;       +---------------------------+ 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-35
 File Control Block definition                               
 
@@ -1071,7 +1077,7 @@ File Control Block definition
  001D  ????                  C  fcb_LSTCLUS DW      ?       ; Last cluster acce
 				ssed and directory pack 2 12 
  001F  ??                    C              DB      ?       ; bit numbers into 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-36
 File Control Block definition                               
 
@@ -1129,7 +1135,7 @@ File Control Block definition
                              C  ;       BIT     7   6   5   4   3   2   1   0 
                              C  ;             |---|---|---|---|---|---|---|---|
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-37
 File Control Block definition                               
 
@@ -1187,7 +1193,7 @@ File Control Block definition
                              C  ; 
                              C  ; find first/next buffer 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-38
 File Control Block definition                               
 
@@ -1227,7 +1233,7 @@ File Control Block definition
  002B                        C  find_buf    ENDS 
                              C   
                              C  BREAK <Process data block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-39
 Process data block                                          
 
@@ -1285,7 +1291,7 @@ Process data block
 				                            ; 
  002E  ????????              C  PDB_User_stack      DD      ?           ; stack
 				 of self during system calls 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-40
 Process data block                                          
 
@@ -1323,7 +1329,7 @@ Process data block
  005B                        C  Process_data_block  ENDS 
                              C   
                              C  BREAK <EXEC and EXE file structures> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-41
 EXEC and EXE file structures                                
 
@@ -1381,7 +1387,7 @@ EXEC and EXE file structures
  0004                        C  Exec3           ENDS 
                              C   
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-42
 EXEC and EXE file structures                                
 
@@ -1439,7 +1445,7 @@ EXEC and EXE file structures
  0006  ??                    C  sym_len         DB  ? 
  0007  00FF[                 C  sym_name        DB  255 dup (?) 
             ??               C  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-43
 EXEC and EXE file structures                                
 
@@ -1448,7 +1454,7 @@ EXEC and EXE file structures
  0106                        C  symbol_entry    ENDS 
                              C   
                              C  BREAK <Internal system file table format> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-44
 Internal system file table format                           
 
@@ -1498,7 +1504,7 @@ Internal system file table format
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Memory arena structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-45
 Memory arena structure                                      
 
@@ -1556,7 +1562,7 @@ Memory arena structure
 				 0 if No space after currency symbol 
                              C                                      ;         =
 				 1 if space after currency symbol 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-46
 Memory arena structure                                      
 
@@ -1603,7 +1609,7 @@ Memory arena structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Machine instruction definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-47
 Machine instruction definitions                             
 
@@ -1614,7 +1620,7 @@ Machine instruction definitions
  = 00CB                      C  mi_Long_RET     EQU     0CBh 
                              C   
                              C  BREAK <Standard I/O assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-48
 Standard I/O assignments                                    
 
@@ -1626,7 +1632,7 @@ Standard I/O assignments
  = 0004                      C  stdprn      EQU     4 
                              C   
                              C  BREAK <Xenix subfunction assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-49
 Xenix subfunction assignments                               
 
@@ -1636,7 +1642,7 @@ Xenix subfunction assignments
  = 0002                      C  open_for_both   EQU 2 
                              C   
                              C  BREAK <Xenix error codes> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-50
 Xenix error codes                                           
 
@@ -1694,7 +1700,7 @@ Xenix error codes
 				ccess_denied 
  =                           C  chmod_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-51
 Xenix error codes                                           
 
@@ -1752,7 +1758,7 @@ Xenix error codes
 				nvalid_handle 
  =                           C  ioctl_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-52
 Xenix error codes                                           
 
@@ -1810,7 +1816,7 @@ Xenix error codes
 				ile_not_found 
  =                           C  unlink_access_denied            EQU     error_a
 				ccess_denied 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-53
 Xenix error codes                                           
 
@@ -1821,7 +1827,7 @@ Xenix error codes
 				ccess_denied 
                              C   
                              C  BREAK <system call definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-54
 system call definitions                                     
 
@@ -1879,7 +1885,7 @@ system call definitions
  = 001A                      C  Set_DMA                         EQU 26  ; 26   
 				  1A 
                              C  ;----+----+----+----+----+----+----+----+----+-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-55
 system call definitions                                     
 
@@ -1937,7 +1943,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;                                              
 				                            ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-56
 system call definitions                                     
 
@@ -1995,7 +2001,7 @@ system call definitions
 				  47 
                              C  ;    Memory Group 
  = 0048                      C  Alloc                           EQU 72  ; 72   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-57
 system call definitions                                     
 
@@ -2053,7 +2059,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-58
 system call definitions                                     
 
@@ -2105,7 +2111,7 @@ system call definitions
                                  
                              C  INCLUDE DEVSYM.ASM 
                              C  SUBTTL DEVICE TABLE AND SRH DEFINITION 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-59
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -2163,7 +2169,7 @@ DEVICE TABLE AND SRH DEFINITION
                              C   
                              C  ;Status word masks 
  = 8000                      C  STERR   EQU     8000H           ;Bit 15 - Error
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-60
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -2221,7 +2227,7 @@ DEVICE TABLE AND SRH DEFINITION
                                         i_need  USER_SS,WORD 
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
  0000                         1  DATA ENDS
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-61
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -2277,28 +2283,56 @@ DEVICE TABLE AND SRH DEFINITION
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
  0000                         1  DATA ENDS
                                  
-                                        ENDIF 
-                                 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+                                        IF NOT IBM 
+                                        i_need  OEM_HANDLER,DWORD 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-62
 DEVICE TABLE AND SRH DEFINITION                             
 
+ 0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
+ 0000                         1  DATA ENDS
+                                        ENDIF 
+                                 
                                         EXTRN   DSKSTATCHK:NEAR,GETBP:NEAR,DSKR
 				EAD:NEAR,DSKWRITE:NEAR 
                                  
                                  
                                 BREAK   <Copyright notice and version> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-63
 Copyright notice and version                                
 
                                  
  = 0000                         CODSTRT EQU     $ 
                                  
+                                        IF      NOT IBM 
+                                        IF      NOT KANJI 
+                                        PUBLIC  HEADER 
+ 0000  0D 0A 4D 69 63 72 6F     HEADER  DB      13,10,"Microsoft MS-DOS version
+				 " 
+       73 6F 66 74 20 4D 53     
+       2D 44 4F 53 20 76 65     
+       72 73 69 6F 6E 20        
+ 001B  32                               DB      DOS_MAJOR_VERSION + "0" 
+ 001C  2E                               DB      "." 
+ 001D  31                               DB      (DOS_MINOR_VERSION / 10) + "0" 
+ 001E  31                               DB      (DOS_MINOR_VERSION MOD 10) + "0
+				" 
+                                        ENDIF 
+                                        ENDIF 
+                                        ENDIF 
+ 001F  0D 0A                            DB      13,10 
+ 0021  43 6F 70 79 72 69 67             DB      "Copyright 1981,82,83 Microsoft
+				 Corp.",13,10,"$" 
+       68 74 20 31 39 38 31     
+       2C 38 32 2C 38 33 20     
+       4D 69 63 72 6F 73 6F     
+       66 74 20 43 6F 72 70     
+       2E 0D 0A 24              
                                         ENDIF 
                                 BREAK   <System call entry points and dispatche
 				r> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-64
 System call entry points and dispatcher                     
 
@@ -2306,195 +2340,200 @@ System call entry points and dispatcher
 				THING 
                                  
                                         procedure   SYSTEM_CALL,NEAR 
- 0000                         1 SYSTEM_CALL PROC NEAR
+ 0048                         1 SYSTEM_CALL PROC NEAR
                                 entry   QUIT                                   
 				; INT 20H entry point 
- 0000                         1 QUIT:
- 0000  B4 00                            MOV     AH,0 
- 0002  EB 20                            JMP     SHORT SAVREGS 
+ 0048                         1 QUIT:
+ 0048  B4 00                            MOV     AH,0 
+ 004A  EB 28                            JMP     SHORT SAVREGS 
                                  
                                 entry   COMMAND                         ; Inter
 				rupt call entry point (INT 21H) 
- 0004                         1 COMMAND:
+ 004C                         1 COMMAND:
                                  
+                                        IF      NOT IBM 
+ 004C  80 FC F8                         CMP     AH,SET_OEM_HANDLER 
+ 004F  72 03                            JB      NOTOEM 
+ 0051  E9 021E R                        JMP     $SET_OEM_HANDLER 
+ 0054                           NOTOEM: 
                                         ENDIF 
                                  
- 0004  80 FC 58 90                      CMP     AH,MAXCOM 
- 0008  76 1A                            JBE     SAVREGS 
- 000A                           BADCALL: 
- 000A  B0 00                            MOV     AL,0 
+ 0054  80 FC 58 90                      CMP     AH,MAXCOM 
+ 0058  76 1A                            JBE     SAVREGS 
+ 005A                           BADCALL: 
+ 005A  B0 00                            MOV     AL,0 
                                 entry   IRET 
- 000C                         1 IRET:
- 000C  CF                               IRET 
+ 005C                         1 IRET:
+ 005C  CF                               IRET 
                                  
                                 entry   CALL_ENTRY                      ; Syste
 				m call entry point and dispatcher 
- 000D                         1 CALL_ENTRY:
- 000D  58                               POP     AX                      ; IP fr
+ 005D                         1 CALL_ENTRY:
+ 005D  58                               POP     AX                      ; IP fr
 				om the long call at 5 
- 000E  58                               POP     AX                      ; Segme
+ 005E  58                               POP     AX                      ; Segme
 				nt from the long call at 5 
- 000F  2E: 8F 06 0000 E                 POP     [User_SP]               ; IP fr
+ 005F  2E: 8F 06 0000 E                 POP     [User_SP]               ; IP fr
 				om the CALL 5 
- 0014  9C                               PUSHF                           ; Start
+ 0064  9C                               PUSHF                           ; Start
 				 re-ordering the stack 
- 0015  FA                               CLI 
- 0016  50                               PUSH    AX                      ; Save 
+ 0065  FA                               CLI 
+ 0066  50                               PUSH    AX                      ; Save 
 				segment 
- 0017  2E: FF 36 0000 E                 PUSH    [User_SP]               ; Stack
+ 0067  2E: FF 36 0000 E                 PUSH    [User_SP]               ; Stack
 				 now ordered as if INT had been used 
- 001C  80 F9 24 90                      CMP     CL,MAXCALL              ; This 
+ 006C  80 F9 24 90                      CMP     CL,MAXCALL              ; This 
 				entry point doesn't get as many calls 
- 0020  77 E8                            JA      BADCALL 
- 0022  8A E1                            MOV     AH,CL 
- 0024                           SAVREGS: 
- 0024  E8 0103 R                        CALL    save_world 
- 0027  2E: 8C 1E 0000 E                 MOV     [SaveDS],DS 
- 002C  2E: 89 1E 0000 E                 MOV     [SaveBX],BX 
- 0031  8C CB                            MOV     BX,CS 
- 0033  8E DB                            MOV     DS,BX 
-                                ASSUME  DS:DOSGROUP 
- 0035  FE 06 0000 E                     INC     [INDOS]                 ; Flag 
-				that we're in the DOS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+ 0070  77 E8                            JA      BADCALL 
+ 0072  8A E1                            MOV     AH,CL 
+ 0074                           SAVREGS: 
+ 0074  E8 0153 R                        CALL    save_world 
+ 0077  2E: 8C 1E 0000 E                 MOV     [SaveDS],DS 
+ 007C  2E: 89 1E 0000 E                 MOV     [SaveBX],BX 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-65
 System call entry points and dispatcher                     
 
- 0039  A1 0000 E                        MOV     AX,[user_SP] 
- 003C  A3 0000 E                        MOV     [NSP],AX 
- 003F  A1 0000 E                        MOV     AX,[user_SS] 
- 0042  A3 0000 E                        MOV     [NSS],AX 
- 0045  58                               POP     AX 
- 0046  50                               PUSH    AX 
- 0047  89 26 0000 E                     MOV     [user_SP],SP 
- 004B  8C 16 0000 E                     MOV     [user_SS],SS 
+ 0081  8C CB                            MOV     BX,CS 
+ 0083  8E DB                            MOV     DS,BX 
+                                ASSUME  DS:DOSGROUP 
+ 0085  FE 06 0000 E                     INC     [INDOS]                 ; Flag 
+				that we're in the DOS 
+ 0089  A1 0000 E                        MOV     AX,[user_SP] 
+ 008C  A3 0000 E                        MOV     [NSP],AX 
+ 008F  A1 0000 E                        MOV     AX,[user_SS] 
+ 0092  A3 0000 E                        MOV     [NSS],AX 
+ 0095  58                               POP     AX 
+ 0096  50                               PUSH    AX 
+ 0097  89 26 0000 E                     MOV     [user_SP],SP 
+ 009B  8C 16 0000 E                     MOV     [user_SS],SS 
                                 ; 
                                 ; save user stack in his area for later returns
 				 (possibly from EXEC) 
                                 ; Here comes multitasking!!! 
                                 ; 
- 004F  8E 1E 0000 E                     MOV     DS,[CurrentPDB] 
- 0053  89 26 002E                       MOV     WORD PTR DS:[PDB_User_stack],SP
+ 009F  8E 1E 0000 E                     MOV     DS,[CurrentPDB] 
+ 00A3  89 26 002E                       MOV     WORD PTR DS:[PDB_User_stack],SP
 				 
- 0057  8C 16 0030                       MOV     WORD PTR DS:[PDB_User_stack+2],
+ 00A7  8C 16 0030                       MOV     WORD PTR DS:[PDB_User_stack+2],
 				SS 
                                  
- 005B  8C CB                            MOV     BX,CS                   ; no ho
+ 00AB  8C CB                            MOV     BX,CS                   ; no ho
 				les here. 
- 005D  8E D3                            MOV     SS,BX 
+ 00AD  8E D3                            MOV     SS,BX 
                                 ASSUME  SS:DOSGROUP 
                                  
                                     entry   REDISP 
- 005F                         1 REDISP:
- 005F  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:AUXSTACK    
+ 00AF                         1 REDISP:
+ 00AF  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:AUXSTACK    
 				 ; Enough stack for interrupts 
- 0062  FB                               STI                             ; Stack
+ 00B2  FB                               STI                             ; Stack
 				 OK now 
- 0063  0E                               PUSH    CS 
- 0064  1F                               POP     DS 
- 0065  32 FF                            XOR     BH,BH 
- 0067  88 3E 0000 E                     MOV     [CONSWAP],BH 
- 006B  C6 06 0000 E 01                  MOV     [IDLEINT],1 
- 0070  C6 06 0000 E 00                  MOV     BYTE PTR [NoSetDir],0   ; set d
+ 00B3  0E                               PUSH    CS 
+ 00B4  1F                               POP     DS 
+ 00B5  32 FF                            XOR     BH,BH 
+ 00B7  88 3E 0000 E                     MOV     [CONSWAP],BH 
+ 00BB  C6 06 0000 E 01                  MOV     [IDLEINT],1 
+ 00C0  C6 06 0000 E 00                  MOV     BYTE PTR [NoSetDir],0   ; set d
 				irectories on search 
- 0075  8A DC                            MOV     BL,AH 
- 0077  D1 E3                            SHL     BX,1 
- 0079  FC                               CLD 
- 007A  0A E4                            OR      AH,AH 
- 007C  74 1B                            JZ      DSKROUT                 ; ABORT
+ 00C5  8A DC                            MOV     BL,AH 
+ 00C7  D1 E3                            SHL     BX,1 
+ 00C9  FC                               CLD 
+ 00CA  0A E4                            OR      AH,AH 
+ 00CC  74 1B                            JZ      DSKROUT                 ; ABORT
 				 
- 007E  80 FC 0C                         CMP     AH,12 
- 0081  76 0A                            JBE     IOROUT                  ; Chara
+ 00CE  80 FC 0C                         CMP     AH,12 
+ 00D1  76 0A                            JBE     IOROUT                  ; Chara
 				cter I/O 
- 0083  80 FC 51                         CMP     AH,GET_CURRENT_PDB      ; INT 2
+ 00D3  80 FC 51                         CMP     AH,GET_CURRENT_PDB      ; INT 2
 				4 needs GET,SET PDB 
- 0086  74 05                            JZ      IOROUT 
- 0088  80 FC 50                         CMP     AH,SET_CURRENT_PDB 
- 008B  75 0C                            JNZ     DSKROUT 
- 008D                           IOROUT: 
- 008D  80 3E 0000 E 00                  CMP     [ERRORMODE],0 
- 0092  75 1E                            JNZ     DISPCALL                ; Stay 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+ 00D6  74 05                            JZ      IOROUT 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-66
 System call entry points and dispatcher                     
 
+ 00D8  80 FC 50                         CMP     AH,SET_CURRENT_PDB 
+ 00DB  75 0C                            JNZ     DSKROUT 
+ 00DD                           IOROUT: 
+ 00DD  80 3E 0000 E 00                  CMP     [ERRORMODE],0 
+ 00E2  75 1E                            JNZ     DISPCALL                ; Stay 
 				on AUXSTACK if INT 24 
- 0094  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:IOSTACK 
- 0097  EB 19                            JMP     SHORT DISPCALL 
+ 00E4  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:IOSTACK 
+ 00E7  EB 19                            JMP     SHORT DISPCALL 
                                  
- 0099                           DSKROUT: 
- 0099  C6 06 0000 E 00                  MOV     [ERRORMODE],0           ; Canno
+ 00E9                           DSKROUT: 
+ 00E9  C6 06 0000 E 00                  MOV     [ERRORMODE],0           ; Canno
 				t make non 1-12 calls in 
- 009E  C6 06 0000 E FF                  MOV     [WPERR],-1              ; error
+ 00EE  C6 06 0000 E FF                  MOV     [WPERR],-1              ; error
 				 mode, so good place to 
                                                                         ; make 
 				sure flags are reset 
- 00A3  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:DSKSTACK 
- 00A6  F6 06 0000 E FF                  TEST    [CNTCFLAG],-1 
- 00AB  74 05                            JZ      DISPCALL 
- 00AD  50                               PUSH    AX 
+ 00F3  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:DSKSTACK 
+ 00F6  F6 06 0000 E FF                  TEST    [CNTCFLAG],-1 
+ 00FB  74 05                            JZ      DISPCALL 
+ 00FD  50                               PUSH    AX 
                                         invoke  DSKSTATCHK 
- 00AE  E8 0000 E              1  CALL DSKSTATCHK
- 00B1  58                               POP     AX 
- 00B2                           DISPCALL: 
- 00B2  FF 36 0000 E                     PUSH    [LEAVEADDR] 
- 00B6  2E: FF B7 0119 R                 PUSH    CS:[BX+DISPATCH] 
- 00BB  8B 1E 0000 E                     MOV     BX,[SaveBX] 
- 00BF  8E 1E 0000 E                     MOV     DS,[SaveDS] 
+ 00FE  E8 0000 E              1  CALL DSKSTATCHK
+ 0101  58                               POP     AX 
+ 0102                           DISPCALL: 
+ 0102  FF 36 0000 E                     PUSH    [LEAVEADDR] 
+ 0106  2E: FF B7 0169 R                 PUSH    CS:[BX+DISPATCH] 
+ 010B  8B 1E 0000 E                     MOV     BX,[SaveBX] 
+ 010F  8E 1E 0000 E                     MOV     DS,[SaveDS] 
                                 ASSUME  DS:NOTHING 
                                         return 
- 00C3                         1 ??0000:
- 00C3  C3                     1  RET
+ 0113                         1 ??0000:
+ 0113  C3                     1  RET
                                  
                                         entry LEAVE 
- 00C4                         1 LEAVE:
+ 0114                         1 LEAVE:
                                 ASSUME  SS:NOTHING                      ; User 
 				routines may misbehave 
- 00C4  FA                               CLI 
- 00C5  2E: FE 0E 0000 E                 DEC     [INDOS] 
- 00CA  2E: 8B 26 0000 E                 MOV     SP,[user_SP] 
- 00CF  2E: 8E 16 0000 E                 MOV     SS,[user_SS] 
- 00D4  8B EC                            MOV     BP,SP 
- 00D6  88 46 00                         MOV     BYTE PTR [BP.user_AX],AL 
- 00D9  2E: A1 0000 E                    MOV     AX,[NSP] 
- 00DD  2E: A3 0000 E                    MOV     [user_SP],AX 
- 00E1  2E: A1 0000 E                    MOV     AX,[NSS] 
- 00E5  2E: A3 0000 E                    MOV     [user_SS],AX 
- 00E9  E8 00EF R                        CALL    restore_world 
+ 0114  FA                               CLI 
+ 0115  2E: FE 0E 0000 E                 DEC     [INDOS] 
+ 011A  2E: 8B 26 0000 E                 MOV     SP,[user_SP] 
+ 011F  2E: 8E 16 0000 E                 MOV     SS,[user_SS] 
+ 0124  8B EC                            MOV     BP,SP 
+ 0126  88 46 00                         MOV     BYTE PTR [BP.user_AX],AL 
+ 0129  2E: A1 0000 E                    MOV     AX,[NSP] 
+ 012D  2E: A3 0000 E                    MOV     [user_SP],AX 
+ 0131  2E: A1 0000 E                    MOV     AX,[NSS] 
+ 0135  2E: A3 0000 E                    MOV     [user_SS],AX 
+ 0139  E8 013F R                        CALL    restore_world 
                                  
- 00EC  CF                               IRET 
+ 013C  CF                               IRET 
                                 SYSTEM_CALL ENDP 
                                  
                                 ; 
                                 ; restore_world restores all registers ('cept S
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-67
+System call entry points and dispatcher                     
+
 				S:SP, CS:IP, flags) from 
                                 ; the stack prior to giving the user control 
                                 ; 
                                         ASSUME  DS:NOTHING,ES:NOTHING 
- 00ED  ????                     restore_tmp DW  ? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-67
-System call entry points and dispatcher                     
-
+ 013D  ????                     restore_tmp DW  ? 
                                         procedure   restore_world,NEAR 
- 00EF                         1 restore_world PROC NEAR
- 00EF  2E: 8F 06 00ED R                 POP     restore_tmp     ; POP     resto
+ 013F                         1 restore_world PROC NEAR
+ 013F  2E: 8F 06 013D R                 POP     restore_tmp     ; POP     resto
 				re_tmp 
- 00F4  58                               POP     AX              ; PUSH    ES 
- 00F5  5B                               POP     BX              ; PUSH    DS 
- 00F6  59                               POP     CX              ; PUSH    BP 
- 00F7  5A                               POP     DX              ; PUSH    DI 
- 00F8  5E                               POP     SI              ; PUSH    SI 
- 00F9  5F                               POP     DI              ; PUSH    DX 
- 00FA  5D                               POP     BP              ; PUSH    CX 
- 00FB  1F                               POP     DS              ; PUSH    BX 
- 00FC  07                               POP     ES              ; PUSH    AX 
- 00FD                           world_ret: 
- 00FD  2E: FF 36 00ED R                 PUSH    restore_tmp     ; PUSH    resto
+ 0144  58                               POP     AX              ; PUSH    ES 
+ 0145  5B                               POP     BX              ; PUSH    DS 
+ 0146  59                               POP     CX              ; PUSH    BP 
+ 0147  5A                               POP     DX              ; PUSH    DI 
+ 0148  5E                               POP     SI              ; PUSH    SI 
+ 0149  5F                               POP     DI              ; PUSH    DX 
+ 014A  5D                               POP     BP              ; PUSH    CX 
+ 014B  1F                               POP     DS              ; PUSH    BX 
+ 014C  07                               POP     ES              ; PUSH    AX 
+ 014D                           world_ret: 
+ 014D  2E: FF 36 013D R                 PUSH    restore_tmp     ; PUSH    resto
 				re_tmp 
                                         return 
- 0102                         1 ??0001:
- 0102  C3                     1  RET
+ 0152                         1 ??0001:
+ 0152  C3                     1  RET
                                 restore_world   ENDP 
                                  
                                 ; 
@@ -2502,18 +2541,18 @@ System call entry points and dispatcher
 				ack 
                                 ; 
                                         procedure   save_world,NEAR 
- 0103                         1 save_world PROC NEAR
- 0103  2E: 8F 06 00ED R                 POP     restore_tmp 
- 0108  06                               PUSH    ES 
- 0109  1E                               PUSH    DS 
- 010A  55                               PUSH    BP 
- 010B  57                               PUSH    DI 
- 010C  56                               PUSH    SI 
- 010D  52                               PUSH    DX 
- 010E  51                               PUSH    CX 
- 010F  53                               PUSH    BX 
- 0110  50                               PUSH    AX 
- 0111  EB EA                            JMP     SHORT world_ret 
+ 0153                         1 save_world PROC NEAR
+ 0153  2E: 8F 06 013D R                 POP     restore_tmp 
+ 0158  06                               PUSH    ES 
+ 0159  1E                               PUSH    DS 
+ 015A  55                               PUSH    BP 
+ 015B  57                               PUSH    DI 
+ 015C  56                               PUSH    SI 
+ 015D  52                               PUSH    DX 
+ 015E  51                               PUSH    CX 
+ 015F  53                               PUSH    BX 
+ 0160  50                               PUSH    AX 
+ 0161  EB EA                            JMP     SHORT world_ret 
                                 save_world      ENDP 
                                  
                                 ; 
@@ -2521,19 +2560,19 @@ System call entry points and dispatcher
 				hence registers) in DS:SI 
                                 ; 
                                         procedure   get_user_stack,NEAR 
- 0113                         1 get_user_stack PROC NEAR
- 0113  2E: C5 36 0000 E                 LDS     SI,DWORD PTR [user_SP] 
+ 0163                         1 get_user_stack PROC NEAR
+ 0163  2E: C5 36 0000 E                 LDS     SI,DWORD PTR [user_SP] 
                                         return 
- 0118                         1 ??0002:
- 0118  C3                     1  RET
-                                get_user_stack  ENDP 
-                                 
-                                ; Standard Functions 
- 0119                           DISPATCH    LABEL WORD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+ 0168                         1 ??0002:
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-68
 System call entry points and dispatcher                     
 
+ 0168  C3                     1  RET
+                                get_user_stack  ENDP 
+                                 
+                                ; Standard Functions 
+ 0169                           DISPATCH    LABEL WORD 
                                 .lall 
                                         short_addr  $ABORT                     
 				     ;  0      0 
@@ -2545,91 +2584,91 @@ System call entry points and dispatcher
                               1  ENDIF
                               1  ENDIF
                               1 .cref
- 0119  0000 E                 1  DW OFFSET DOSGROUP:$ABORT
+ 0169  0000 E                 1  DW OFFSET DOSGROUP:$ABORT
                               1  ENDIF
                                 .xall 
                                         short_addr  $STD_CON_INPUT             
 				     ;  1      1 
- 011B  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT
+ 016B  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT
                                         short_addr  $STD_CON_OUTPUT            
 				     ;  2      2 
- 011D  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_OUTPUT
+ 016D  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_OUTPUT
                                         short_addr  $STD_AUX_INPUT             
 				     ;  3      3 
- 011F  0000 E                 1  DW OFFSET DOSGROUP:$STD_AUX_INPUT
+ 016F  0000 E                 1  DW OFFSET DOSGROUP:$STD_AUX_INPUT
                                         short_addr  $STD_AUX_OUTPUT            
 				     ;  4      4 
- 0121  0000 E                 1  DW OFFSET DOSGROUP:$STD_AUX_OUTPUT
+ 0171  0000 E                 1  DW OFFSET DOSGROUP:$STD_AUX_OUTPUT
                                         short_addr  $STD_PRINTER_OUTPUT        
 				     ;  5      5 
- 0123  0000 E                 1  DW OFFSET DOSGROUP:$STD_PRINTER_OUTPUT
+ 0173  0000 E                 1  DW OFFSET DOSGROUP:$STD_PRINTER_OUTPUT
                                         short_addr  $RAW_CON_IO                
 				     ;  6      6 
- 0125  0000 E                 1  DW OFFSET DOSGROUP:$RAW_CON_IO
+ 0175  0000 E                 1  DW OFFSET DOSGROUP:$RAW_CON_IO
                                         short_addr  $RAW_CON_INPUT             
 				     ;  7      7 
- 0127  0000 E                 1  DW OFFSET DOSGROUP:$RAW_CON_INPUT
+ 0177  0000 E                 1  DW OFFSET DOSGROUP:$RAW_CON_INPUT
                                         short_addr  $STD_CON_INPUT_NO_ECHO     
 				     ;  8      8 
- 0129  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT_NO_ECHO
+ 0179  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT_NO_ECHO
                                         short_addr  $STD_CON_STRING_OUTPUT     
 				     ;  9      9 
- 012B  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_STRING_OUTPUT
+ 017B  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_STRING_OUTPUT
                                         short_addr  $STD_CON_STRING_INPUT      
 				     ; 10      A 
- 012D  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_STRING_INPUT
+ 017D  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_STRING_INPUT
                                         short_addr  $STD_CON_INPUT_STATUS      
 				     ; 11      B 
- 012F  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT_STATUS
+ 017F  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT_STATUS
                                         short_addr  $STD_CON_INPUT_FLUSH       
 				     ; 12      C 
- 0131  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT_FLUSH
-                                        short_addr  $DISK_RESET                
-				     ; 13      D 
- 0133  0000 E                 1  DW OFFSET DOSGROUP:$DISK_RESET
-                                        short_addr  $SET_DEFAULT_DRIVE         
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-69
 System call entry points and dispatcher                     
 
+ 0181  0000 E                 1  DW OFFSET DOSGROUP:$STD_CON_INPUT_FLUSH
+                                        short_addr  $DISK_RESET                
+				     ; 13      D 
+ 0183  0000 E                 1  DW OFFSET DOSGROUP:$DISK_RESET
+                                        short_addr  $SET_DEFAULT_DRIVE         
 				     ; 14      E 
- 0135  0000 E                 1  DW OFFSET DOSGROUP:$SET_DEFAULT_DRIVE
+ 0185  0000 E                 1  DW OFFSET DOSGROUP:$SET_DEFAULT_DRIVE
                                         short_addr  $FCB_OPEN                  
 				     ; 15      F 
- 0137  0000 E                 1  DW OFFSET DOSGROUP:$FCB_OPEN
+ 0187  0000 E                 1  DW OFFSET DOSGROUP:$FCB_OPEN
                                         short_addr  $FCB_CLOSE                 
 				     ; 16     10 
- 0139  0000 E                 1  DW OFFSET DOSGROUP:$FCB_CLOSE
+ 0189  0000 E                 1  DW OFFSET DOSGROUP:$FCB_CLOSE
                                         short_addr  $DIR_SEARCH_FIRST          
 				     ; 17     11 
- 013B  0000 E                 1  DW OFFSET DOSGROUP:$DIR_SEARCH_FIRST
+ 018B  0000 E                 1  DW OFFSET DOSGROUP:$DIR_SEARCH_FIRST
                                         short_addr  $DIR_SEARCH_NEXT           
 				     ; 18     12 
- 013D  0000 E                 1  DW OFFSET DOSGROUP:$DIR_SEARCH_NEXT
+ 018D  0000 E                 1  DW OFFSET DOSGROUP:$DIR_SEARCH_NEXT
                                         short_addr  $FCB_DELETE                
 				     ; 19     13 
- 013F  0000 E                 1  DW OFFSET DOSGROUP:$FCB_DELETE
+ 018F  0000 E                 1  DW OFFSET DOSGROUP:$FCB_DELETE
                                         short_addr  $FCB_SEQ_READ              
 				     ; 20     14 
- 0141  0000 E                 1  DW OFFSET DOSGROUP:$FCB_SEQ_READ
+ 0191  0000 E                 1  DW OFFSET DOSGROUP:$FCB_SEQ_READ
                                         short_addr  $FCB_SEQ_WRITE             
 				     ; 21     15 
- 0143  0000 E                 1  DW OFFSET DOSGROUP:$FCB_SEQ_WRITE
+ 0193  0000 E                 1  DW OFFSET DOSGROUP:$FCB_SEQ_WRITE
                                         short_addr  $FCB_CREATE                
 				     ; 22     16 
- 0145  0000 E                 1  DW OFFSET DOSGROUP:$FCB_CREATE
+ 0195  0000 E                 1  DW OFFSET DOSGROUP:$FCB_CREATE
                                         short_addr  $FCB_RENAME                
 				     ; 23     17 
- 0147  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RENAME
+ 0197  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RENAME
                                         short_addr  CPMFUNC                    
 				     ; 24     18 
- 0149  01CB R                 1  DW OFFSET DOSGROUP:CPMFUNC
+ 0199  021B R                 1  DW OFFSET DOSGROUP:CPMFUNC
                                         short_addr  $GET_DEFAULT_DRIVE         
 				     ; 25     19 
- 014B  0000 E                 1  DW OFFSET DOSGROUP:$GET_DEFAULT_DRIVE
+ 019B  0000 E                 1  DW OFFSET DOSGROUP:$GET_DEFAULT_DRIVE
                                         short_addr  $SET_DMA                   
 				     ; 26     1A 
- 014D  0000 E                 1  DW OFFSET DOSGROUP:$SET_DMA
+ 019D  0000 E                 1  DW OFFSET DOSGROUP:$SET_DMA
                                  
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
@@ -2639,27 +2678,27 @@ System call entry points and dispatcher
 				                            ; 
                                         short_addr  $SLEAZEFUNC                
 				     ; 27     1B 
- 014F  0000 E                 1  DW OFFSET DOSGROUP:$SLEAZEFUNC
+ 019F  0000 E                 1  DW OFFSET DOSGROUP:$SLEAZEFUNC
                                         short_addr  $SLEAZEFUNCDL              
-				     ; 28     1C 
- 0151  0000 E                 1  DW OFFSET DOSGROUP:$SLEAZEFUNCDL
-                                ;                                              
-				                            ; 
-                                ;            C  A  V  E  A  T     P  R  O  G  R
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-70
 System call entry points and dispatcher                     
 
+				     ; 28     1C 
+ 01A1  0000 E                 1  DW OFFSET DOSGROUP:$SLEAZEFUNCDL
+                                ;                                              
+				                            ; 
+                                ;            C  A  V  E  A  T     P  R  O  G  R
 				  A  M  M  E  R             ; 
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                                  
                                         short_addr  CPMFUNC                    
 				     ; 29     1D 
- 0153  01CB R                 1  DW OFFSET DOSGROUP:CPMFUNC
+ 01A3  021B R                 1  DW OFFSET DOSGROUP:CPMFUNC
                                         short_addr  CPMFUNC                    
 				     ; 30     1E 
- 0155  01CB R                 1  DW OFFSET DOSGROUP:CPMFUNC
+ 01A5  021B R                 1  DW OFFSET DOSGROUP:CPMFUNC
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
@@ -2668,7 +2707,7 @@ System call entry points and dispatcher
 				                            ; 
                                         short_addr  $GET_DEFAULT_DPB           
 				     ; 31     1F 
- 0157  0000 E                 1  DW OFFSET DOSGROUP:$GET_DEFAULT_DPB
+ 01A7  0000 E                 1  DW OFFSET DOSGROUP:$GET_DEFAULT_DPB
                                 ;                                              
 				                            ; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
@@ -2677,38 +2716,38 @@ System call entry points and dispatcher
 				---+----+----+----+----+----; 
                                         short_addr  CPMFUNC                    
 				     ; 32     20 
- 0159  01CB R                 1  DW OFFSET DOSGROUP:CPMFUNC
+ 01A9  021B R                 1  DW OFFSET DOSGROUP:CPMFUNC
                                         short_addr  $FCB_RANDOM_READ           
 				     ; 33     21 
- 015B  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_READ
+ 01AB  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_READ
                                         short_addr  $FCB_RANDOM_WRITE          
 				     ; 34     22 
- 015D  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_WRITE
+ 01AD  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_WRITE
                                         short_addr  $GET_FCB_FILE_LENGTH       
 				     ; 35     23 
- 015F  0000 E                 1  DW OFFSET DOSGROUP:$GET_FCB_FILE_LENGTH
+ 01AF  0000 E                 1  DW OFFSET DOSGROUP:$GET_FCB_FILE_LENGTH
                                         short_addr  $GET_FCB_POSITION          
 				     ; 36     24 
- 0161  0000 E                 1  DW OFFSET DOSGROUP:$GET_FCB_POSITION
+ 01B1  0000 E                 1  DW OFFSET DOSGROUP:$GET_FCB_POSITION
  = 0024                         MAXCALL =       ($-DISPATCH)/2 - 1 
                                  
                                 ; Extended Functions 
                                         short_addr  $SET_INTERRUPT_VECTOR      
 				     ; 37     25 
- 0163  0000 E                 1  DW OFFSET DOSGROUP:$SET_INTERRUPT_VECTOR
+ 01B3  0000 E                 1  DW OFFSET DOSGROUP:$SET_INTERRUPT_VECTOR
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-71
+System call entry points and dispatcher                     
+
 				  A  M  M  E  R             ; 
                                 ;                                              
 				                            ; 
                                         short_addr  $CREATE_PROCESS_DATA_BLOCK 
 				     ; 38     26 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-71
-System call entry points and dispatcher                     
-
- 0165  0000 E                 1  DW OFFSET DOSGROUP:$CREATE_PROCESS_DATA_BLOCK
+ 01B5  0000 E                 1  DW OFFSET DOSGROUP:$CREATE_PROCESS_DATA_BLOCK
                                 ;                                              
 				                            ; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
@@ -2717,39 +2756,39 @@ System call entry points and dispatcher
 				---+----+----+----+----+----; 
                                         short_addr  $FCB_RANDOM_READ_BLOCK     
 				     ; 39     27 
- 0167  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_READ_BLOCK
+ 01B7  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_READ_BLOCK
                                         short_addr  $FCB_RANDOM_WRITE_BLOCK    
 				     ; 40     28 
- 0169  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_WRITE_BLOCK
+ 01B9  0000 E                 1  DW OFFSET DOSGROUP:$FCB_RANDOM_WRITE_BLOCK
                                         short_addr  $PARSE_FILE_DESCRIPTOR     
 				     ; 41     29 
- 016B  0000 E                 1  DW OFFSET DOSGROUP:$PARSE_FILE_DESCRIPTOR
+ 01BB  0000 E                 1  DW OFFSET DOSGROUP:$PARSE_FILE_DESCRIPTOR
                                         short_addr  $GET_DATE                  
 				     ; 42     2A 
- 016D  0000 E                 1  DW OFFSET DOSGROUP:$GET_DATE
+ 01BD  0000 E                 1  DW OFFSET DOSGROUP:$GET_DATE
                                         short_addr  $SET_DATE                  
 				     ; 43     2B 
- 016F  0000 E                 1  DW OFFSET DOSGROUP:$SET_DATE
+ 01BF  0000 E                 1  DW OFFSET DOSGROUP:$SET_DATE
                                         short_addr  $GET_TIME                  
 				     ; 44     2C 
- 0171  0000 E                 1  DW OFFSET DOSGROUP:$GET_TIME
+ 01C1  0000 E                 1  DW OFFSET DOSGROUP:$GET_TIME
                                         short_addr  $SET_TIME                  
 				     ; 45     2D 
- 0173  0000 E                 1  DW OFFSET DOSGROUP:$SET_TIME
+ 01C3  0000 E                 1  DW OFFSET DOSGROUP:$SET_TIME
                                         short_addr  $SET_VERIFY_ON_WRITE       
 				     ; 46     2E 
- 0175  0000 E                 1  DW OFFSET DOSGROUP:$SET_VERIFY_ON_WRITE
+ 01C5  0000 E                 1  DW OFFSET DOSGROUP:$SET_VERIFY_ON_WRITE
                                  
                                 ; Extended functionality group 
                                         short_addr  $GET_DMA                   
 				     ; 47     2F 
- 0177  0000 E                 1  DW OFFSET DOSGROUP:$GET_DMA
+ 01C7  0000 E                 1  DW OFFSET DOSGROUP:$GET_DMA
                                         short_addr  $GET_VERSION               
 				     ; 48     30 
- 0179  0000 E                 1  DW OFFSET DOSGROUP:$GET_VERSION
+ 01C9  0000 E                 1  DW OFFSET DOSGROUP:$GET_VERSION
                                         short_addr  $Keep_Process              
 				     ; 49     31 
- 017B  0000 E                 1  DW OFFSET DOSGROUP:$Keep_Process
+ 01CB  0000 E                 1  DW OFFSET DOSGROUP:$Keep_Process
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
@@ -2757,115 +2796,115 @@ System call entry points and dispatcher
                                 ;                                              
 				                            ; 
                                         short_addr  $GET_DPB                   
-				     ; 50     32 
- 017D  0000 E                 1  DW OFFSET DOSGROUP:$GET_DPB
-                                ;                                              
-				                            ; 
-                                ;            C  A  V  E  A  T     P  R  O  G  R
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-72
 System call entry points and dispatcher                     
 
+				     ; 50     32 
+ 01CD  0000 E                 1  DW OFFSET DOSGROUP:$GET_DPB
+                                ;                                              
+				                            ; 
+                                ;            C  A  V  E  A  T     P  R  O  G  R
 				  A  M  M  E  R             ; 
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                                         short_addr  $SET_CTRL_C_TRAPPING       
 				     ; 51     33 
- 017F  0000 E                 1  DW OFFSET DOSGROUP:$SET_CTRL_C_TRAPPING
+ 01CF  0000 E                 1  DW OFFSET DOSGROUP:$SET_CTRL_C_TRAPPING
                                         short_addr  $GET_INDOS_FLAG            
 				     ; 52     34 
- 0181  0000 E                 1  DW OFFSET DOSGROUP:$GET_INDOS_FLAG
+ 01D1  0000 E                 1  DW OFFSET DOSGROUP:$GET_INDOS_FLAG
                                         short_addr  $GET_INTERRUPT_VECTOR      
 				     ; 53     35 
- 0183  0000 E                 1  DW OFFSET DOSGROUP:$GET_INTERRUPT_VECTOR
+ 01D3  0000 E                 1  DW OFFSET DOSGROUP:$GET_INTERRUPT_VECTOR
                                         short_addr  $GET_DRIVE_FREESPACE       
 				     ; 54     36 
- 0185  0000 E                 1  DW OFFSET DOSGROUP:$GET_DRIVE_FREESPACE
+ 01D5  0000 E                 1  DW OFFSET DOSGROUP:$GET_DRIVE_FREESPACE
                                         short_addr  $CHAR_OPER                 
 				     ; 55     37 
- 0187  0000 E                 1  DW OFFSET DOSGROUP:$CHAR_OPER
+ 01D7  0000 E                 1  DW OFFSET DOSGROUP:$CHAR_OPER
                                         short_addr  $INTERNATIONAL             
 				     ; 56     38 
- 0189  0000 E                 1  DW OFFSET DOSGROUP:$INTERNATIONAL
+ 01D9  0000 E                 1  DW OFFSET DOSGROUP:$INTERNATIONAL
                                 ; XENIX CALLS 
                                 ;   Directory Group 
                                         short_addr  $MKDIR                     
 				     ; 57     39 
- 018B  0000 E                 1  DW OFFSET DOSGROUP:$MKDIR
+ 01DB  0000 E                 1  DW OFFSET DOSGROUP:$MKDIR
                                         short_addr  $RMDIR                     
 				     ; 58     3A 
- 018D  0000 E                 1  DW OFFSET DOSGROUP:$RMDIR
+ 01DD  0000 E                 1  DW OFFSET DOSGROUP:$RMDIR
                                         short_addr  $CHDIR                     
 				     ; 59     3B 
- 018F  0000 E                 1  DW OFFSET DOSGROUP:$CHDIR
+ 01DF  0000 E                 1  DW OFFSET DOSGROUP:$CHDIR
                                 ;   File Group 
                                         short_addr  $CREAT                     
 				     ; 60     3C 
- 0191  0000 E                 1  DW OFFSET DOSGROUP:$CREAT
+ 01E1  0000 E                 1  DW OFFSET DOSGROUP:$CREAT
                                         short_addr  $OPEN                      
 				     ; 61     3D 
- 0193  0000 E                 1  DW OFFSET DOSGROUP:$OPEN
+ 01E3  0000 E                 1  DW OFFSET DOSGROUP:$OPEN
                                         short_addr  $CLOSE                     
 				     ; 62     3E 
- 0195  0000 E                 1  DW OFFSET DOSGROUP:$CLOSE
+ 01E5  0000 E                 1  DW OFFSET DOSGROUP:$CLOSE
                                         short_addr  $READ                      
 				     ; 63     3F 
- 0197  0000 E                 1  DW OFFSET DOSGROUP:$READ
+ 01E7  0000 E                 1  DW OFFSET DOSGROUP:$READ
                                         short_addr  $WRITE                     
 				     ; 64     40 
- 0199  0000 E                 1  DW OFFSET DOSGROUP:$WRITE
+ 01E9  0000 E                 1  DW OFFSET DOSGROUP:$WRITE
                                         short_addr  $UNLINK                    
-				     ; 65     41 
- 019B  0000 E                 1  DW OFFSET DOSGROUP:$UNLINK
-                                        short_addr  $LSEEK                     
-				     ; 66     42 
- 019D  0000 E                 1  DW OFFSET DOSGROUP:$LSEEK
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-73
 System call entry points and dispatcher                     
 
+				     ; 65     41 
+ 01EB  0000 E                 1  DW OFFSET DOSGROUP:$UNLINK
+                                        short_addr  $LSEEK                     
+				     ; 66     42 
+ 01ED  0000 E                 1  DW OFFSET DOSGROUP:$LSEEK
                                         short_addr  $CHMOD                     
 				     ; 67     43 
- 019F  0000 E                 1  DW OFFSET DOSGROUP:$CHMOD
+ 01EF  0000 E                 1  DW OFFSET DOSGROUP:$CHMOD
                                         short_addr  $IOCTL                     
 				     ; 68     44 
- 01A1  0000 E                 1  DW OFFSET DOSGROUP:$IOCTL
+ 01F1  0000 E                 1  DW OFFSET DOSGROUP:$IOCTL
                                         short_addr  $DUP                       
 				     ; 69     45 
- 01A3  0000 E                 1  DW OFFSET DOSGROUP:$DUP
+ 01F3  0000 E                 1  DW OFFSET DOSGROUP:$DUP
                                         short_addr  $DUP2                      
 				     ; 70     46 
- 01A5  0000 E                 1  DW OFFSET DOSGROUP:$DUP2
+ 01F5  0000 E                 1  DW OFFSET DOSGROUP:$DUP2
                                         short_addr  $CURRENT_DIR               
 				     ; 71     47 
- 01A7  0000 E                 1  DW OFFSET DOSGROUP:$CURRENT_DIR
+ 01F7  0000 E                 1  DW OFFSET DOSGROUP:$CURRENT_DIR
                                 ;    Memory Group 
                                         short_addr  $ALLOC                     
 				     ; 72     48 
- 01A9  0000 E                 1  DW OFFSET DOSGROUP:$ALLOC
+ 01F9  0000 E                 1  DW OFFSET DOSGROUP:$ALLOC
                                         short_addr  $DEALLOC                   
 				     ; 73     49 
- 01AB  0000 E                 1  DW OFFSET DOSGROUP:$DEALLOC
+ 01FB  0000 E                 1  DW OFFSET DOSGROUP:$DEALLOC
                                         short_addr  $SETBLOCK                  
 				     ; 74     4A 
- 01AD  0000 E                 1  DW OFFSET DOSGROUP:$SETBLOCK
+ 01FD  0000 E                 1  DW OFFSET DOSGROUP:$SETBLOCK
                                 ;    Process Group 
                                         short_addr  $EXEC                      
 				     ; 75     4B 
- 01AF  0000 E                 1  DW OFFSET DOSGROUP:$EXEC
+ 01FF  0000 E                 1  DW OFFSET DOSGROUP:$EXEC
                                         short_addr  $EXIT                      
 				     ; 76     4C 
- 01B1  0000 E                 1  DW OFFSET DOSGROUP:$EXIT
+ 0201  0000 E                 1  DW OFFSET DOSGROUP:$EXIT
                                         short_addr  $WAIT                      
 				     ; 77     4D 
- 01B3  0000 E                 1  DW OFFSET DOSGROUP:$WAIT
+ 0203  0000 E                 1  DW OFFSET DOSGROUP:$WAIT
                                         short_addr  $FIND_FIRST                
 				     ; 78     4E 
- 01B5  0000 E                 1  DW OFFSET DOSGROUP:$FIND_FIRST
+ 0205  0000 E                 1  DW OFFSET DOSGROUP:$FIND_FIRST
                                 ;   Special Group 
                                         short_addr  $FIND_NEXT                 
 				     ; 79     4F 
- 01B7  0000 E                 1  DW OFFSET DOSGROUP:$FIND_NEXT
+ 0207  0000 E                 1  DW OFFSET DOSGROUP:$FIND_NEXT
                                 ; SPECIAL SYSTEM GROUP 
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
@@ -2873,22 +2912,22 @@ System call entry points and dispatcher
 				  A  M  M  E  R             ; 
                                 ;                                              
 				                            ; 
-                                        short_addr  $SET_CURRENT_PDB           
-				     ; 80     50 
- 01B9  01CE R                 1  DW OFFSET DOSGROUP:$SET_CURRENT_PDB
-                                        short_addr  $GET_CURRENT_PDB           
-				     ; 81     51 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-74
 System call entry points and dispatcher                     
 
- 01BB  01D4 R                 1  DW OFFSET DOSGROUP:$GET_CURRENT_PDB
+                                        short_addr  $SET_CURRENT_PDB           
+				     ; 80     50 
+ 0209  023B R                 1  DW OFFSET DOSGROUP:$SET_CURRENT_PDB
+                                        short_addr  $GET_CURRENT_PDB           
+				     ; 81     51 
+ 020B  0241 R                 1  DW OFFSET DOSGROUP:$GET_CURRENT_PDB
                                         short_addr  $GET_IN_VARS               
 				     ; 82     52 
- 01BD  0000 E                 1  DW OFFSET DOSGROUP:$GET_IN_VARS
+ 020D  0000 E                 1  DW OFFSET DOSGROUP:$GET_IN_VARS
                                         short_addr  $SETDPB                    
 				     ; 83     53 
- 01BF  0000 E                 1  DW OFFSET DOSGROUP:$SETDPB
+ 020F  0000 E                 1  DW OFFSET DOSGROUP:$SETDPB
                                 ;                                              
 				                            ; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
@@ -2897,7 +2936,7 @@ System call entry points and dispatcher
 				---+----+----+----+----+----; 
                                         short_addr  $GET_VERIFY_ON_WRITE       
 				     ; 84     54 
- 01C1  0000 E                 1  DW OFFSET DOSGROUP:$GET_VERIFY_ON_WRITE
+ 0211  0000 E                 1  DW OFFSET DOSGROUP:$GET_VERIFY_ON_WRITE
                                 ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
@@ -2906,7 +2945,7 @@ System call entry points and dispatcher
 				                            ; 
                                         short_addr  $DUP_PDB                   
 				     ; 85     55 
- 01C3  0000 E                 1  DW OFFSET DOSGROUP:$DUP_PDB
+ 0213  0000 E                 1  DW OFFSET DOSGROUP:$DUP_PDB
                                 ;                                              
 				                            ; 
                                 ;            C  A  V  E  A  T     P  R  O  G  R
@@ -2915,31 +2954,69 @@ System call entry points and dispatcher
 				---+----+----+----+----+----; 
                                         short_addr  $RENAME                    
 				     ; 86     56 
- 01C5  0000 E                 1  DW OFFSET DOSGROUP:$RENAME
+ 0215  0000 E                 1  DW OFFSET DOSGROUP:$RENAME
                                         short_addr  $FILE_TIMES                
 				     ; 87     57 
- 01C7  0000 E                 1  DW OFFSET DOSGROUP:$FILE_TIMES
+ 0217  0000 E                 1  DW OFFSET DOSGROUP:$FILE_TIMES
                                         short_addr  $AllocOper                 
 				     ; 88     58 
- 01C9  0000 E                 1  DW OFFSET DOSGROUP:$AllocOper
+ 0219  0000 E                 1  DW OFFSET DOSGROUP:$AllocOper
                                  
  = 0058                         MAXCOM  =       ($-DISPATCH)/2 - 1 
                                  
- 01CB                           CPMFUNC: 
- 01CB  32 C0                            XOR     AL,AL 
+ 021B                           CPMFUNC: 
+ 021B  32 C0                            XOR     AL,AL 
                                         return 
- 01CD                         1 ??0003:
- 01CD  C3                     1  RET
+ 021D                         1 ??0003:
+ 021D  C3                     1  RET
+                                 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-75
+System call entry points and dispatcher                     
+
+                                        IF      NOT IBM 
+                                BREAK <Set_OEM_Handler -- Set OEM sys call addr
+				ess and handle OEM Calls> 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-76
+Set_OEM_Handler -- Set OEM sys call address and handle OEM C
+
+                                 
+ 021E                           $SET_OEM_HANDLER: 
+                                ASSUME  DS:NOTHING,ES:NOTHING 
+                                 
+                                ; Inputs: 
+                                ;       User registers, User Stack, INTS disabl
+				ed 
+                                ;       If CALL F8, DS:DX is new handler addres
+				s 
+                                ; Function: 
+                                ;       Process OEM INT 21 extensions 
+                                ; Outputs: 
+                                ;       Jumps to OEM_HANDLER if appropriate 
+                                 
+ 021E  75 0B                            JNE     DO_OEM_FUNC             ; If ab
+				ove F8 try to jump to handler 
+ 0220  2E: 89 16 0000 E                 MOV     WORD PTR [OEM_HANDLER],DX      
+				 ; Set Handler 
+ 0225  2E: 8C 1E 0002 E                 MOV     WORD PTR [OEM_HANDLER+2],DS 
+ 022A  CF                               IRET                            ; Quick
+				 return, Have altered no registers 
+                                 
+ 022B                           DO_OEM_FUNC: 
+ 022B  2E: 83 3E 0000 E FF              CMP     WORD PTR [OEM_HANDLER],-1 
+ 0231  75 03                            JNZ     OEM_JMP 
+ 0233  E9 005A R                        JMP     BADCALL                 ; Handl
+				er not initialized 
+                                 
+ 0236                           OEM_JMP: 
+ 0236  2E: FF 2E 0000 E                 JMP     [OEM_HANDLER] 
                                  
                                         ENDIF 
                                  
                                  
                                 ASSUME  SS:DOSGROUP 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-75
-System call entry points and dispatcher                     
-
                                 ; 
                                 ; $Set_current_PDB takes BX and sets it to be t
 				he current process 
@@ -2947,30 +3024,34 @@ System call entry points and dispatcher
 				!!! *** 
                                 ; 
                                         procedure   $SET_CURRENT_PDB,NEAR 
- 01CE                         1 $SET_CURRENT_PDB PROC NEAR
+ 023B                         1 $SET_CURRENT_PDB PROC NEAR
                                         ASSUME  DS:NOTHING,SS:NOTHING 
- 01CE  2E: 89 1E 0000 E                 MOV     [CurrentPDB],BX 
+ 023B  2E: 89 1E 0000 E                 MOV     [CurrentPDB],BX 
                                         return 
- 01D3                         1 ??0004:
- 01D3  C3                     1  RET
+ 0240                         1 ??0004:
+ 0240  C3                     1  RET
                                 $SET_CURRENT_PDB    ENDP 
                                  
                                 ; 
                                 ; $get_current_PDB returns in BX the current pr
 				ocess 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-77
+Set_OEM_Handler -- Set OEM sys call address and handle OEM C
+
                                 ;   *** THIS FUNCTION CALL IS SUBJECT TO CHANGE
 				!!! *** 
                                 ; 
                                         procedure   $GET_CURRENT_PDB,NEAR 
- 01D4                         1 $GET_CURRENT_PDB PROC NEAR
+ 0241                         1 $GET_CURRENT_PDB PROC NEAR
                                         ASSUME  DS:NOTHING,SS:NOTHING 
                                         invoke  get_user_stack 
- 01D4  E8 0113 R              1  CALL get_user_stack
- 01D7  2E: FF 36 0000 E                 PUSH    [CurrentPDB] 
- 01DC  8F 44 02                         POP     [SI.user_BX] 
+ 0241  E8 0163 R              1  CALL get_user_stack
+ 0244  2E: FF 36 0000 E                 PUSH    [CurrentPDB] 
+ 0249  8F 44 02                         POP     [SI.user_BX] 
                                         return 
- 01DF                         1 ??0005:
- 01DF  C3                     1  RET
+ 024C                         1 ??0005:
+ 024C  C3                     1  RET
                                 $GET_CURRENT_PDB    ENDP 
                                 ;                                              
 				                            ; 
@@ -2980,220 +3061,166 @@ System call entry points and dispatcher
 				---+----+----+----+----+----; 
                                  
                                 BREAK <NullDev -- Driver for null device> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-76
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-78
 NullDev -- Driver for null device                           
 
                                         procedure   SNULDEV,FAR 
- 01E0                         1 SNULDEV PROC FAR
+ 024D                         1 SNULDEV PROC FAR
                                 ASSUME DS:NOTHING,ES:NOTHING,SS:NOTHING 
- 01E0  2E: 89 1E 0000 E                 MOV     WORD PTR [NULLDEVPT],BX 
- 01E5  2E: 8C 06 0002 E                 MOV     WORD PTR [NULLDEVPT+2],ES 
+ 024D  2E: 89 1E 0000 E                 MOV     WORD PTR [NULLDEVPT],BX 
+ 0252  2E: 8C 06 0002 E                 MOV     WORD PTR [NULLDEVPT+2],ES 
                                         return 
- 01EA                         1 ??0006:
- 01EA  CB                     1  RET
+ 0257                         1 ??0006:
+ 0257  CB                     1  RET
                                 SNULDEV ENDP 
                                  
                                         procedure   INULDEV,FAR 
- 01EB                         1 INULDEV PROC FAR
- 01EB  06                               PUSH    ES 
- 01EC  53                               PUSH    BX 
- 01ED  2E: C4 1E 0000 E                 LES     BX,[NULLDEVPT] 
- 01F2  26: 81 4F 03 0100                OR      ES:[BX.REQSTAT],STDON          
+ 0258                         1 INULDEV PROC FAR
+ 0258  06                               PUSH    ES 
+ 0259  53                               PUSH    BX 
+ 025A  2E: C4 1E 0000 E                 LES     BX,[NULLDEVPT] 
+ 025F  26: 81 4F 03 0100                OR      ES:[BX.REQSTAT],STDON          
 				 ; Set done bit 
- 01F8  5B                               POP     BX 
- 01F9  07                               POP     ES 
+ 0265  5B                               POP     BX 
+ 0266  07                               POP     ES 
                                         return 
- 01FA                         1 ??0007:
- 01FA  CB                     1  RET
+ 0267                         1 ??0007:
+ 0267  CB                     1  RET
                                  
                                 INULDEV ENDP 
                                  
                                  
                                 BREAK <AbsDRD, AbsDWRT -- INT int_disk_read, in
 				t_disk_write handlers> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-77
-AbsDRD, AbsDWRT -- INT int_disk_read, int_disk_write handler
-
-                                 
-                                 
-                                        IF      IBM 
- 01FB                           ERRIN:                                  ; Codes
-				 returned by BIOS 
- 01FB  02                               DB      2                       ; NO RE
-				SPONSE 
- 01FC  06                               DB      6                       ; SEEK 
-				FAILURE 
- 01FD  0C                               DB      12                      ; GENER
-				AL ERROR 
- 01FE  04                               DB      4                       ; BAD C
-				RC 
- 01FF  08                               DB      8                       ; SECTO
-				R NOT FOUND 
- 0200  00                               DB      0                       ; WRITE
-				 ATTEMPT ON WRITE-PROTECT DISK 
- 0201                           ERROUT:                                 ; DISK 
-				ERRORS RETURNED FROM INT 25 and 26 
- 0201  80                               DB      80H                     ; NO RE
-				SPONSE 
- 0202  40                               DB      40H                     ; Seek 
-				failure 
- 0203  02                               DB      2                       ; Addre
-				ss Mark not found 
- 0204  08                               DB      8                       ; DMA O
-				VERRUN 
- 0205  04                               DB      4                       ; SECTO
-				R NOT FOUND 
- 0206  03                               DB      3                       ; WRITE
-				 ATTEMPT TO WRITE-PROTECT DISK 
-                                 
- = 0006                         NUMERR  EQU     $-ERROUT 
-                                        ENDIF 
-                                 
-                                        procedure   ABSDRD,FAR 
- 0207                         1 ABSDRD PROC FAR
-                                ASSUME  DS:NOTHING,ES:NOTHING,SS:NOTHING 
-                                 
- 0207  FA                               CLI 
- 0208  2E: 8C 16 0000 E                 MOV     [user_SS],SS 
- 020D  2E: 89 26 0000 E                 MOV     [user_SP],SP 
- 0212  0E                               PUSH    CS 
- 0213  17                               POP     SS 
-                                ASSUME  SS:DOSGROUP 
- 0214  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:DSKSTACK 
- 0217  36: FE 06 0000 E                 INC     BYTE PTR [INDOS] 
- 021C  FB                               STI 
- 021D  FC                               CLD 
- 021E  06                               PUSH    ES 
- 021F  1E                               PUSH    DS 
- 0220  16                               PUSH    SS 
- 0221  1F                               POP     DS 
-                                ASSUME  DS:DOSGROUP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-78
-AbsDRD, AbsDWRT -- INT int_disk_read, int_disk_write handler
-
-                                        invoke  GETBP 
- 0222  E8 0000 E              1  CALL GETBP
- 0225  1F                               POP     DS 
-                                ASSUME  DS:NOTHING 
- 0226  72 1A                            JC      ILEAVE 
-                                        invoke  DSKREAD 
- 0228  E8 0000 E              1  CALL DSKREAD
- 022B                           TLEAVE: 
- 022B  74 15                            JZ      ILEAVE 
-                                 
-                                        IF      IBM 
-                                ; Translate the error code to ancient 1.1 codes
-				 
- 022D  06                               PUSH    ES 
- 022E  0E                               PUSH    CS 
- 022F  07                               POP     ES 
- 0230  32 E4                            XOR     AH,AH                   ; Nul e
-				rror code 
- 0232  B9 0006                          MOV     CX,NUMERR               ; Numbe
-				r of possible error conditions 
- 0235  BF 01FB R                        MOV     DI,OFFSET DOSGROUP:ERRIN   ; Po
-				int to error conditions 
- 0238  F2/ AE                           REPNE   SCASB 
- 023A  75 04                            JNZ     LEAVECODE               ; Not f
-				ound 
- 023C  26: 8A 65 05                     MOV     AH,ES:[DI+NUMERR-1]     ; Get t
-				ranslation 
- 0240                           LEAVECODE: 
- 0240  07                               POP     ES 
-                                        ENDIF 
-                                 
- 0241  F9                               STC 
- 0242                           ILEAVE: 
- 0242  07                               POP     ES 
- 0243  FA                               CLI 
- 0244  36: FE 0E 0000 E                 DEC     BYTE PTR [INDOS] 
- 0249  36: 8B 26 0000 E                 MOV     SP,[user_SP] 
- 024E  36: 8E 16 0000 E                 MOV     SS,[user_SS] 
-                                ASSUME  SS:NOTHING 
- 0253  FB                               STI 
-                                        return 
- 0254                         1 ??0008:
- 0254  CB                     1  RET
-                                ABSDRD  ENDP 
-                                 
-                                        procedure   ABSDWRT,FAR 
- 0255                         1 ABSDWRT PROC FAR
-                                ASSUME  DS:NOTHING,ES:NOTHING,SS:NOTHING 
-                                 
- 0255  FA                               CLI 
- 0256  2E: 8C 16 0000 E                 MOV     [user_SS],SS 
- 025B  2E: 89 26 0000 E                 MOV     [user_SP],SP 
- 0260  0E                               PUSH    CS 
- 0261  17                               POP     SS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Page     1-79
 AbsDRD, AbsDWRT -- INT int_disk_read, int_disk_write handler
 
+                                 
+                                 
+                                        ENDIF 
+                                 
+                                        procedure   ABSDRD,FAR 
+ 0268                         1 ABSDRD PROC FAR
+                                ASSUME  DS:NOTHING,ES:NOTHING,SS:NOTHING 
+                                 
+ 0268  FA                               CLI 
+ 0269  2E: 8C 16 0000 E                 MOV     [user_SS],SS 
+ 026E  2E: 89 26 0000 E                 MOV     [user_SP],SP 
+ 0273  0E                               PUSH    CS 
+ 0274  17                               POP     SS 
                                 ASSUME  SS:DOSGROUP 
- 0262  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:DSKSTACK 
- 0265  36: FE 06 0000 E                 INC     BYTE PTR [INDOS] 
- 026A  FB                               STI 
- 026B  FC                               CLD 
- 026C  06                               PUSH    ES 
- 026D  1E                               PUSH    DS 
- 026E  16                               PUSH    SS 
- 026F  1F                               POP     DS 
+ 0275  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:DSKSTACK 
+ 0278  36: FE 06 0000 E                 INC     BYTE PTR [INDOS] 
+ 027D  FB                               STI 
+ 027E  FC                               CLD 
+ 027F  06                               PUSH    ES 
+ 0280  1E                               PUSH    DS 
+ 0281  16                               PUSH    SS 
+ 0282  1F                               POP     DS 
                                 ASSUME  DS:DOSGROUP 
                                         invoke  GETBP 
- 0270  E8 0000 E              1  CALL GETBP
- 0273  1F                               POP     DS 
+ 0283  E8 0000 E              1  CALL GETBP
+ 0286  1F                               POP     DS 
                                 ASSUME  DS:NOTHING 
- 0274  72 CC                            JC      ILEAVE 
+ 0287  72 06                            JC      ILEAVE 
+                                        invoke  DSKREAD 
+ 0289  E8 0000 E              1  CALL DSKREAD
+ 028C                           TLEAVE: 
+ 028C  74 01                            JZ      ILEAVE 
+                                 
+                                        ENDIF 
+                                 
+ 028E  F9                               STC 
+ 028F                           ILEAVE: 
+ 028F  07                               POP     ES 
+ 0290  FA                               CLI 
+ 0291  36: FE 0E 0000 E                 DEC     BYTE PTR [INDOS] 
+ 0296  36: 8B 26 0000 E                 MOV     SP,[user_SP] 
+ 029B  36: 8E 16 0000 E                 MOV     SS,[user_SS] 
+                                ASSUME  SS:NOTHING 
+ 02A0  FB                               STI 
+                                        return 
+ 02A1                         1 ??0008:
+ 02A1  CB                     1  RET
+                                ABSDRD  ENDP 
+                                 
+                                        procedure   ABSDWRT,FAR 
+ 02A2                         1 ABSDWRT PROC FAR
+                                ASSUME  DS:NOTHING,ES:NOTHING,SS:NOTHING 
+                                 
+ 02A2  FA                               CLI 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-80
+AbsDRD, AbsDWRT -- INT int_disk_read, int_disk_write handler
+
+ 02A3  2E: 8C 16 0000 E                 MOV     [user_SS],SS 
+ 02A8  2E: 89 26 0000 E                 MOV     [user_SP],SP 
+ 02AD  0E                               PUSH    CS 
+ 02AE  17                               POP     SS 
+                                ASSUME  SS:DOSGROUP 
+ 02AF  BC 0000 E                        MOV     SP,OFFSET DOSGROUP:DSKSTACK 
+ 02B2  36: FE 06 0000 E                 INC     BYTE PTR [INDOS] 
+ 02B7  FB                               STI 
+ 02B8  FC                               CLD 
+ 02B9  06                               PUSH    ES 
+ 02BA  1E                               PUSH    DS 
+ 02BB  16                               PUSH    SS 
+ 02BC  1F                               POP     DS 
+                                ASSUME  DS:DOSGROUP 
+                                        invoke  GETBP 
+ 02BD  E8 0000 E              1  CALL GETBP
+ 02C0  1F                               POP     DS 
+                                ASSUME  DS:NOTHING 
+ 02C1  72 CC                            JC      ILEAVE 
                                         invoke  DSKWRITE 
- 0276  E8 0000 E              1  CALL DSKWRITE
- 0279  EB B0                            JMP     TLEAVE 
+ 02C3  E8 0000 E              1  CALL DSKWRITE
+ 02C6  EB C4                            JMP     TLEAVE 
                                 ABSDWRT ENDP 
                                  
                                  
                                  
                                         procedure   SYS_RETURN,NEAR 
- 027B                         1 SYS_RETURN PROC NEAR
+ 02C8                         1 SYS_RETURN PROC NEAR
                                         ASSUME  DS:NOTHING,ES:NOTHING 
                                         entry   SYS_RET_OK 
- 027B                         1 SYS_RET_OK:
- 027B  E8 0113 R                        call    get_user_stack 
- 027E  FF 74 16                         PUSH    [SI.user_F] 
- 0281  9D                               POPF 
- 0282  F8                               CLC 
- 0283  EB 0A                            JMP     SHORT DO_RET 
+ 02C8                         1 SYS_RET_OK:
+ 02C8  E8 0163 R                        call    get_user_stack 
+ 02CB  FF 74 16                         PUSH    [SI.user_F] 
+ 02CE  9D                               POPF 
+ 02CF  F8                               CLC 
+ 02D0  EB 0A                            JMP     SHORT DO_RET 
                                  
                                         entry   SYS_RET_ERR 
- 0285                         1 SYS_RET_ERR:
- 0285  32 E4                            XOR     AH,AH                   ; hack 
+ 02D2                         1 SYS_RET_ERR:
+ 02D2  32 E4                            XOR     AH,AH                   ; hack 
 				to allow for smaller error rets 
- 0287  E8 0113 R                        call    get_user_stack 
- 028A  FF 74 16                         PUSH    [SI.user_F] 
- 028D  9D                               POPF 
- 028E  F9                               STC 
- 028F                           DO_RET: 
- 028F  89 04                            MOV     [SI.user_AX],AX         ; Reall
+ 02D4  E8 0163 R                        call    get_user_stack 
+ 02D7  FF 74 16                         PUSH    [SI.user_F] 
+ 02DA  9D                               POPF 
+ 02DB  F9                               STC 
+ 02DC                           DO_RET: 
+ 02DC  89 04                            MOV     [SI.user_AX],AX         ; Reall
 				y only sets AH 
- 0291  9C                               PUSHF 
- 0292  8F 44 16                         POP     [SI.user_F]             ; dump 
+ 02DE  9C                               PUSHF 
+ 02DF  8F 44 16                         POP     [SI.user_F]             ; dump 
 				on his flags 
                                         return 
- 0295                         1 ??0009:
- 0295  C3                     1  RET
+ 02E2                         1 ??0009:
+ 02E2  C3                     1  RET
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
+                                                            Page     1-81
+AbsDRD, AbsDWRT -- INT int_disk_read, int_disk_write handler
+
                                 SYS_RETURN  ENDP 
                                  
                                 do_ext 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
-                                                            Page     1-80
-AbsDRD, AbsDWRT -- INT int_disk_read, int_disk_write handler
-
- 0296                           CODE    ENDS 
+ 02E3                           CODE    ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-1
                                                              
 
@@ -3251,7 +3278,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-2
                                                              
 
@@ -3309,7 +3336,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-3
                                                              
 
@@ -3367,7 +3394,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-4
                                                              
 
@@ -3422,10 +3449,10 @@ Segments and Groups:
                 N a m e         	Size	Align	Combine Class
 
 DOSGROUP . . . . . . . . . . . .  	GROUP
-  CODE . . . . . . . . . . . . .  	0296	BYTE	PUBLIC	'CODE'
+  CODE . . . . . . . . . . . . .  	02E3	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-5
                                                              
 
@@ -3436,8 +3463,8 @@ Symbols:
                 N a m e         	Type	Value	Attr         
 
 ABORT  . . . . . . . . . . . . .  	Number	0000	
-ABSDRD . . . . . . . . . . . . .  	F PROC	0207	CODE	Global	Length = 004E
-ABSDWRT  . . . . . . . . . . . .  	F PROC	0255	CODE	Global	Length = 0026
+ABSDRD . . . . . . . . . . . . .  	F PROC	0268	CODE	Global	Length = 003A
+ABSDWRT  . . . . . . . . . . . .  	F PROC	02A2	CODE	Global	Length = 0026
 ADDR_INT_ABORT . . . . . . . . .  	Number	0080	
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
@@ -3468,11 +3495,11 @@ ATTR_SYSTEM  . . . . . . . . . .  	Number	0004
 ATTR_VOLUME_ID . . . . . . . . .  	Number	0008	
 AUXSTACK . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
-BADCALL  . . . . . . . . . . . .  	L NEAR	000A	CODE
+BADCALL  . . . . . . . . . . . .  	L NEAR	005A	CODE
 BUFINSIZ . . . . . . . . . . . .  	Number	0010	
 
-CALL_ENTRY . . . . . . . . . . .  	L NEAR	000D	CODE	Global
-CANCEL . . . . . . . . . . . . .  	Number	001B	
+CALL_ENTRY . . . . . . . . . . .  	L NEAR	005D	CODE	Global
+CANCEL . . . . . . . . . . . . .  	Number	0018	
 CHAR_OPER  . . . . . . . . . . .  	Number	0037	
 CHDIR  . . . . . . . . . . . . .  	Number	003B	
 CHDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
@@ -3483,16 +3510,16 @@ CHMOD_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND
 CLOSE  . . . . . . . . . . . . .  	Number	003E	
 CLOSE_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 CLOSE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-6
                                                              
 
 CNTCFLAG . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 CODSTRT  . . . . . . . . . . . .  	NEAR 	0000	CODE
-COMMAND  . . . . . . . . . . . .  	L NEAR	0004	CODE	Global
+COMMAND  . . . . . . . . . . . .  	L NEAR	004C	CODE	Global
 CONSWAP  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 COUNTRY_NOT_FOUND  . . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-CPMFUNC  . . . . . . . . . . . .  	L NEAR	01CB	CODE
+CPMFUNC  . . . . . . . . . . . .  	L NEAR	021B	CODE
 CREAT  . . . . . . . . . . . . .  	Number	003C	
 CREATENEWFILE  . . . . . . . . .  	Number	005B	
 CREATETEMPFILE . . . . . . . . .  	Number	005A	
@@ -3541,7 +3568,7 @@ DEVINIT  . . . . . . . . . . . .  	Number	0000
 DEVIOCTL . . . . . . . . . . . .  	Number	4000	
 DEVIST . . . . . . . . . . . . .  	Number	0006	
 DEVMDCH  . . . . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-7
                                                              
 
@@ -3561,17 +3588,19 @@ DIRSTRLEN  . . . . . . . . . . .  	Number	0040
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
-DISPATCH . . . . . . . . . . . .  	L WORD 	0119	CODE
-DISPCALL . . . . . . . . . . . .  	L NEAR	00B2	CODE
+DISPATCH . . . . . . . . . . . .  	L WORD 	0169	CODE
+DISPCALL . . . . . . . . . . . .  	L NEAR	0102	CODE
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
-DO_RET . . . . . . . . . . . . .  	L NEAR	028F	CODE
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
+DO_OEM_FUNC  . . . . . . . . . .  	L NEAR	022B	CODE
+DO_RET . . . . . . . . . . . . .  	L NEAR	02DC	CODE
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
 DSKREAD  . . . . . . . . . . . .  	L NEAR	0000	CODE	External
-DSKROUT  . . . . . . . . . . . .  	L NEAR	0099	CODE
+DSKROUT  . . . . . . . . . . . .  	L NEAR	00E9	CODE
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DSKSTACK . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 DSKSTATCHK . . . . . . . . . . .  	L NEAR	0000	CODE	External
@@ -3583,7 +3612,6 @@ DUP_PDB  . . . . . . . . . . . .  	Number	0055
 DUP_TOO_MANY_OPEN_FILES  . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES		
 
 ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
-ERRIN  . . . . . . . . . . . . .  	L NEAR	01FB	CODE
 ERRORMODE  . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 ERROR_ACCESS_DENIED  . . . . . .  	Number	0005	
 ERROR_ARENA_TRASHED  . . . . . .  	Number	0007	
@@ -3598,16 +3626,15 @@ ERROR_INVALID_DRIVE  . . . . . .  	Number	000F
 ERROR_INVALID_FUNCTION . . . . .  	Number	0001	
 ERROR_INVALID_HANDLE . . . . . .  	Number	0006	
 ERROR_NOT_ENOUGH_MEMORY  . . . .  	Number	0008	
-ERROR_NOT_SAME_DEVICE  . . . . .  	Number	0011	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-8
                                                              
 
+ERROR_NOT_SAME_DEVICE  . . . . .  	Number	0011	
 ERROR_NO_MORE_FILES  . . . . . .  	Number	0012	
 ERROR_PATH_NOT_FOUND . . . . . .  	Number	0003	
 ERROR_TOO_MANY_OPEN_FILES  . . .  	Number	0004	
-ERROUT . . . . . . . . . . . . .  	L NEAR	0201	CODE
-ESCCH  . . . . . . . . . . . . .  	Number	0000	
+ESCCH  . . . . . . . . . . . . .  	Number	001B	
 EXEC . . . . . . . . . . . . . .  	Number	004B	
 EXEC_BAD_ENVIRONMENT . . . . . .  	Alias	 ERROR_BAD_ENVIRONMENT		
 EXEC_BAD_FORMAT  . . . . . . . .  	Alias	 ERROR_BAD_FORMAT		
@@ -3657,7 +3684,7 @@ GET_DATE . . . . . . . . . . . .  	Number	002A
 GET_DEFAULT_DPB  . . . . . . . .  	Number	001F	
 GET_DEFAULT_DRIVE  . . . . . . .  	Number	0019	
 GET_DMA  . . . . . . . . . . . .  	Number	002F	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-9
                                                              
 
@@ -3669,15 +3696,16 @@ GET_INDOS_FLAG . . . . . . . . .  	Number	0034
 GET_INTERRUPT_VECTOR . . . . . .  	Number	0035	
 GET_IN_VARS  . . . . . . . . . .  	Number	0052	
 GET_TIME . . . . . . . . . . . .  	Number	002C	
-GET_USER_STACK . . . . . . . . .  	N PROC	0113	CODE	Global	Length = 0006
+GET_USER_STACK . . . . . . . . .  	N PROC	0163	CODE	Global	Length = 0006
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 
+HEADER . . . . . . . . . . . . .  	L BYTE 	0000	CODE	Global
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 IDLEINT  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
-ILEAVE . . . . . . . . . . . . .  	L NEAR	0242	CODE
+ILEAVE . . . . . . . . . . . . .  	L NEAR	028F	CODE
 INDOS  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
@@ -3694,14 +3722,14 @@ INT_FATAL_ABORT  . . . . . . . .  	Number	0024
 INT_KEEP_PROCESS . . . . . . . .  	Number	0027	
 INT_SPOOLER  . . . . . . . . . .  	Number	0028	
 INT_TERMINATE  . . . . . . . . .  	Number	0022	
-INULDEV  . . . . . . . . . . . .  	F PROC	01EB	CODE	Global	Length = 0010
+INULDEV  . . . . . . . . . . . .  	F PROC	0258	CODE	Global	Length = 0010
 IOCTL  . . . . . . . . . . . . .  	Number	0044	
 IOCTL_INVALID_DATA . . . . . . .  	Alias	 ERROR_INVALID_DATA		
 IOCTL_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 IOCTL_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-IOROUT . . . . . . . . . . . . .  	L NEAR	008D	CODE
+IOROUT . . . . . . . . . . . . .  	L NEAR	00DD	CODE
 IOSTACK  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
-IRET . . . . . . . . . . . . . .  	L NEAR	000C	CODE	Global
+IRET . . . . . . . . . . . . . .  	L NEAR	005C	CODE	Global
 ISCIN  . . . . . . . . . . . . .  	Number	0001	
 ISCLOCK  . . . . . . . . . . . .  	Number	0008	
 ISCOUT . . . . . . . . . . . . .  	Number	0002	
@@ -3714,13 +3742,12 @@ KEEP_PROCESS . . . . . . . . . .  	Number	0031
 
 LBRPRI . . . . . . . . . . . . .  	Number	0002	
 LBWPRI . . . . . . . . . . . . .  	Number	0004	
-LEAVE  . . . . . . . . . . . . .  	L NEAR	00C4	CODE	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-10
                                                              
 
+LEAVE  . . . . . . . . . . . . .  	L NEAR	0114	CODE	Global
 LEAVEADDR  . . . . . . . . . . .  	V WORD 	0000	DATA	External
-LEAVECODE  . . . . . . . . . . .  	L NEAR	0240	CODE
 LOCKOPER . . . . . . . . . . . .  	Number	005C	
 LSEEK  . . . . . . . . . . . . .  	Number	0042	
 LSEEK_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -3735,16 +3762,16 @@ MI_LONG_RET  . . . . . . . . . .  	Number	00CB
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-MSVER  . . . . . . . . . . . . .  	Alias	 FALSE		
+MSVER  . . . . . . . . . . . . .  	Alias	 TRUE		
 
 NOSETDIR . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
+NOTOEM . . . . . . . . . . . . .  	L NEAR	0054	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NSP  . . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 NSS  . . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 NULLDEVPT  . . . . . . . . . . .  	V DWORD	0000	DATA	External
-NUMERR . . . . . . . . . . . . .  	Number	0006	
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -3752,6 +3779,8 @@ OEM_C4 . . . . . . . . . . . . .  	Number	00FC
 OEM_C5 . . . . . . . . . . . . .  	Number	00FD	
 OEM_C6 . . . . . . . . . . . . .  	Number	00FE	
 OEM_C7 . . . . . . . . . . . . .  	Number	00FF	
+OEM_HANDLER  . . . . . . . . . .  	V DWORD	0000	DATA	External
+OEM_JMP  . . . . . . . . . . . .  	L NEAR	0236	CODE
 OPEN . . . . . . . . . . . . . .  	Number	003D	
 OPEN_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 OPEN_FILE_NOT_FOUND  . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
@@ -3763,25 +3792,25 @@ OPEN_TOO_MANY_OPEN_FILES . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES
 
 PARSE_FILE_DESCRIPTOR  . . . . .  	Number	0029	
 
-QUIT . . . . . . . . . . . . . .  	L NEAR	0000	CODE	Global
+QUIT . . . . . . . . . . . . . .  	L NEAR	0048	CODE	Global
 
 RAW_CON_INPUT  . . . . . . . . .  	Number	0007	
 RAW_CON_IO . . . . . . . . . . .  	Number	0006	
 READ . . . . . . . . . . . . . .  	Number	003F	
 READ_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 READ_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-REDISP . . . . . . . . . . . . .  	L NEAR	005F	CODE	Global
-RENAME . . . . . . . . . . . . .  	Number	0056	
-RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+REDISP . . . . . . . . . . . . .  	L NEAR	00AF	CODE	Global
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-11
                                                              
 
+RENAME . . . . . . . . . . . . .  	Number	0056	
+RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
-RESTORE_TMP  . . . . . . . . . .  	L WORD 	00ED	CODE
-RESTORE_WORLD  . . . . . . . . .  	N PROC	00EF	CODE	Global	Length = 0014
-RET_L  . . . . . . . . . . . . .  	NEAR 	0295	CODE
+RESTORE_TMP  . . . . . . . . . .  	L WORD 	013D	CODE
+RESTORE_WORLD  . . . . . . . . .  	N PROC	013F	CODE	Global	Length = 0014
+RET_L  . . . . . . . . . . . . .  	NEAR 	02E2	CODE
 RMDIR  . . . . . . . . . . . . .  	Number	003A	
 RMDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 RMDIR_CURRENT_DIRECTORY  . . . .  	Alias	 ERROR_CURRENT_DIRECTORY		
@@ -3790,8 +3819,8 @@ RPRI . . . . . . . . . . . . . .  	Number	0006
 
 SAVEBX . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 SAVEDS . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
-SAVE_WORLD . . . . . . . . . . .  	N PROC	0103	CODE	Global	Length = 0010
-SAVREGS  . . . . . . . . . . . .  	L NEAR	0024	CODE
+SAVE_WORLD . . . . . . . . . . .  	N PROC	0153	CODE	Global	Length = 0010
+SAVREGS  . . . . . . . . . . . .  	L NEAR	0074	CODE
 SERVERCALL . . . . . . . . . . .  	Number	005D	
 SETBLOCK . . . . . . . . . . . .  	Number	004A	
 SETBLOCK_ARENA_TRASHED . . . . .  	Alias	 ERROR_ARENA_TRASHED		
@@ -3809,7 +3838,7 @@ SET_OEM_HANDLER  . . . . . . . .  	Number	00F8
 SET_TIME . . . . . . . . . . . .  	Number	002D	
 SET_VERIFY_ON_WRITE  . . . . . .  	Number	002E	
 SF_DEFAULT_NUMBER  . . . . . . .  	Number	0005	
-SNULDEV  . . . . . . . . . . . .  	F PROC	01E0	CODE	Global	Length = 000B
+SNULDEV  . . . . . . . . . . . .  	F PROC	024D	CODE	Global	Length = 000B
 STBUI  . . . . . . . . . . . . .  	Number	0200	
 STDAUX . . . . . . . . . . . . .  	Number	0003	
 STDERR . . . . . . . . . . . . .  	Number	0002	
@@ -3829,18 +3858,18 @@ STD_CON_STRING_OUTPUT  . . . . .  	Number	0009
 STD_PRINTER_OUTPUT . . . . . . .  	Number	0005	
 STECODE  . . . . . . . . . . . .  	Number	00FF	
 STERR  . . . . . . . . . . . . .  	Number	8000	
-SYSTEM_CALL  . . . . . . . . . .  	N PROC	0000	CODE	Global	Length = 00ED
-SYS_RETURN . . . . . . . . . . .  	N PROC	027B	CODE	Global	Length = 001B
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:26:26
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:41:54
                                                             Symbols-12
                                                              
 
-SYS_RET_ERR  . . . . . . . . . .  	L NEAR	0285	CODE	Global
-SYS_RET_OK . . . . . . . . . . .  	L NEAR	027B	CODE	Global
+SYSTEM_CALL  . . . . . . . . . .  	N PROC	0048	CODE	Global	Length = 00F5
+SYS_RETURN . . . . . . . . . . .  	N PROC	02C8	CODE	Global	Length = 001B
+SYS_RET_ERR  . . . . . . . . . .  	L NEAR	02D2	CODE	Global
+SYS_RET_OK . . . . . . . . . . .  	L NEAR	02C8	CODE	Global
 
-TLEAVE . . . . . . . . . . . . .  	L NEAR	022B	CODE
-TOGLINS  . . . . . . . . . . . .  	Alias	 TRUE		
-TOGLPRN  . . . . . . . . . . . .  	Alias	 TRUE		
+TLEAVE . . . . . . . . . . . . .  	L NEAR	028C	CODE
+TOGLINS  . . . . . . . . . . . .  	Alias	 WANG		
+TOGLPRN  . . . . . . . . . . . .  	Alias	 FALSE		
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
 UNLINK . . . . . . . . . . . . .  	Number	0041	
@@ -3850,12 +3879,11 @@ USERIDOPER . . . . . . . . . . .  	Number	005E
 USER_SP  . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 USER_SS  . . . . . . . . . . . .  	V WORD 	0000	DATA	External
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WANG . . . . . . . . . . . . . .  	Alias	 FALSE		
-WORLD_RET  . . . . . . . . . . .  	L NEAR	00FD	CODE
+WORLD_RET  . . . . . . . . . . .  	L NEAR	014D	CODE
 WPERR  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 WPRI . . . . . . . . . . . . . .  	Number	0008	
 WRECODE  . . . . . . . . . . . .  	Number	0000	
@@ -3868,25 +3896,26 @@ XDUP2  . . . . . . . . . . . . .  	Number	0046
 
 ZEROEXT  . . . . . . . . . . . .  	Alias	 TRUE		
 
-$GET_CURRENT_PDB . . . . . . . .  	N PROC	01D4	CODE	Global	Length = 000C
-$SET_CURRENT_PDB . . . . . . . .  	N PROC	01CE	CODE	Global	Length = 0006
-??0000 . . . . . . . . . . . . .  	L NEAR	00C3	CODE
-??0001 . . . . . . . . . . . . .  	L NEAR	0102	CODE
-??0002 . . . . . . . . . . . . .  	L NEAR	0118	CODE
-??0003 . . . . . . . . . . . . .  	L NEAR	01CD	CODE
-??0004 . . . . . . . . . . . . .  	L NEAR	01D3	CODE
-??0005 . . . . . . . . . . . . .  	L NEAR	01DF	CODE
-??0006 . . . . . . . . . . . . .  	L NEAR	01EA	CODE
-??0007 . . . . . . . . . . . . .  	L NEAR	01FA	CODE
-??0008 . . . . . . . . . . . . .  	L NEAR	0254	CODE
-??0009 . . . . . . . . . . . . .  	L NEAR	0295	CODE
+$GET_CURRENT_PDB . . . . . . . .  	N PROC	0241	CODE	Global	Length = 000C
+$SET_CURRENT_PDB . . . . . . . .  	N PROC	023B	CODE	Global	Length = 0006
+$SET_OEM_HANDLER . . . . . . . .  	L NEAR	021E	CODE
+??0000 . . . . . . . . . . . . .  	L NEAR	0113	CODE
+??0001 . . . . . . . . . . . . .  	L NEAR	0152	CODE
+??0002 . . . . . . . . . . . . .  	L NEAR	0168	CODE
+??0003 . . . . . . . . . . . . .  	L NEAR	021D	CODE
+??0004 . . . . . . . . . . . . .  	L NEAR	0240	CODE
+??0005 . . . . . . . . . . . . .  	L NEAR	024C	CODE
+??0006 . . . . . . . . . . . . .  	L NEAR	0257	CODE
+??0007 . . . . . . . . . . . . .  	L NEAR	0267	CODE
+??0008 . . . . . . . . . . . . .  	L NEAR	02A1	CODE
+??0009 . . . . . . . . . . . . .  	L NEAR	02E2	CODE
 
 
    1996 Source  Lines
-   3482 Total   Lines
-    700 Symbols
+   3495 Total   Lines
+    702 Symbols
 
-  16170 Bytes symbol space free
+  16066 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

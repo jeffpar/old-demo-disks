@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ STDFCB - FCB calls for MSDOS                                Page     1-1
                              C          i_need  Creating,BYTE 
  0000                        C1  DATA SEGMENT BYTE PUBLIC 'DATA'
  0000                        C1  DATA ENDS
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -114,7 +114,7 @@ DEVICE TABLE AND SRH DEFINITION
  002F  AB                    C          STOSW 
  0030  AB                    C          STOSW                   ; Initialize tw
 				o words after to zero 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-3
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -172,7 +172,7 @@ DEVICE TABLE AND SRH DEFINITION
  0071  E8 0081 R             C          CALL    MUSTGETWORD 
  0074                        C  NODOT: 
  0074  8A C2                 C          MOV     AL,DL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-4
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -230,7 +230,7 @@ DEVICE TABLE AND SRH DEFINITION
 				ambiguous file name 
  00A7  EB D8                 C          JMP     MUSTGETWORD 
  00A9                        C  FILLNAM: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-5
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -288,7 +288,7 @@ DEVICE TABLE AND SRH DEFINITION
  00DC  0A C0                 C          OR      AL,AL 
  00DE  74 11                 C          JZ      GOTDOTNAME 
  00E0  3C 2E                 C          CMP     AL,'.' 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-6
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -312,7 +312,7 @@ DEVICE TABLE AND SRH DEFINITION
                              C   
                              C  SUBTTL BUILDFCB -- MAKE A BLANK FCB FOR A DEVIC
 				E 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-7
 BUILDFCB -- MAKE A BLANK FCB FOR A DEVICE                   
 
@@ -357,7 +357,7 @@ BUILDFCB -- MAKE A BLANK FCB FOR A DEVICE
                              C   
                              C  SUBTTL MOVENAME, LODNAME -- EXAMINE FCB AND SET
 				UP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-8
 MOVENAME, LODNAME -- EXAMINE FCB AND SETUP                  
 
@@ -415,7 +415,7 @@ MOVENAME, LODNAME -- EXAMINE FCB AND SETUP
  0143  52                    C          PUSH    DX 
  0144  56                    C          PUSH    SI 
  0145  50                    C          PUSH    AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-9
 MOVENAME, LODNAME -- EXAMINE FCB AND SETUP                  
 
@@ -473,7 +473,7 @@ MOVENAME, LODNAME -- EXAMINE FCB AND SETUP
                              C          context ES 
  0172  16                    C1  PUSH SS
  0173  07                    C1  POP ES
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-10
 MOVENAME, LODNAME -- EXAMINE FCB AND SETUP                  
 
@@ -523,7 +523,7 @@ MOVENAME, LODNAME -- EXAMINE FCB AND SETUP
                              C   
                              C  SUBTTL GETLET, DELIM -- CHECK CHARACTERS AND CO
 				NVERT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-11
 GETLET, DELIM -- CHECK CHARACTERS AND CONVERT               
 
@@ -581,7 +581,7 @@ GETLET, DELIM -- CHECK CHARACTERS AND CONVERT
                              C          retz 
  01C9  74 C5                 C2  ??001B: jz ret_l
  01CB  3C 3E                 C          CMP     AL,">" 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Page     1-12
 GETLET, DELIM -- CHECK CHARACTERS AND CONVERT               
 
@@ -629,7 +629,7 @@ GETLET, DELIM -- CHECK CHARACTERS AND CONVERT
  01ED                        C  CODE    ENDS 
                              C      END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-1
                                                              
 
@@ -687,7 +687,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-2
                                                              
 
@@ -745,7 +745,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-3
                                                              
 
@@ -803,7 +803,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-4
                                                              
 
@@ -861,7 +861,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	01ED	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-5
                                                              
 
@@ -907,7 +907,7 @@ BADDRV . . . . . . . . . . . . .  	L NEAR	005B	CODE
 BUFINSIZ . . . . . . . . . . . .  	Number	0010	
 BUILDFCB . . . . . . . . . . . .  	N PROC	00F5	CODE	Global	Length = 0023
 
-CANCEL . . . . . . . . . . . . .  	Number	001B	
+CANCEL . . . . . . . . . . . . .  	Number	0018	
 CHAR_OPER  . . . . . . . . . . .  	Number	0037	
 CHDIR  . . . . . . . . . . . . .  	Number	003B	
 CHDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
@@ -919,7 +919,7 @@ CHMOD_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION
 CHMOD_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 CLOSE  . . . . . . . . . . . . .  	Number	003E	
 CLOSE_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-6
                                                              
 
@@ -977,7 +977,7 @@ DEVINIT  . . . . . . . . . . . .  	Number	0000
 DEVIOCTL . . . . . . . . . . . .  	Number	4000	
 DEVIST . . . . . . . . . . . . .  	Number	0006	
 DEVMDCH  . . . . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-7
                                                              
 
@@ -998,8 +998,9 @@ DIR_SEARCH_FIRST . . . . . . . .  	Number	0011
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -1030,15 +1031,15 @@ ERROR_NOT_SAME_DEVICE  . . . . .  	Number	0011
 ERROR_NO_MORE_FILES  . . . . . .  	Number	0012	
 ERROR_PATH_NOT_FOUND . . . . . .  	Number	0003	
 ERROR_TOO_MANY_OPEN_FILES  . . .  	Number	0004	
-ESCCH  . . . . . . . . . . . . .  	Number	0000	
+ESCCH  . . . . . . . . . . . . .  	Number	001B	
 EXEC . . . . . . . . . . . . . .  	Number	004B	
 EXEC_BAD_ENVIRONMENT . . . . . .  	Alias	 ERROR_BAD_ENVIRONMENT		
 EXEC_BAD_FORMAT  . . . . . . . .  	Alias	 ERROR_BAD_FORMAT		
-EXEC_FILE_NOT_FOUND  . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-8
                                                              
 
+EXEC_FILE_NOT_FOUND  . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 EXEC_FUNC_NO_EXECUTE . . . . . .  	Number	0001	
 EXEC_FUNC_OVERLAY  . . . . . . .  	Number	0002	
 EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -1092,11 +1093,11 @@ GET_DEFAULT_DPB  . . . . . . . .  	Number	001F
 GET_DEFAULT_DRIVE  . . . . . . .  	Number	0019	
 GET_DMA  . . . . . . . . . . . .  	Number	002F	
 GET_DPB  . . . . . . . . . . . .  	Number	0032	
-GET_DRIVE_FREESPACE  . . . . . .  	Number	0036	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-9
                                                              
 
+GET_DRIVE_FREESPACE  . . . . . .  	Number	0036	
 GET_FCB_FILE_LENGTH  . . . . . .  	Number	0023	
 GET_FCB_POSITION . . . . . . . .  	Number	0024	
 GET_INDOS_FLAG . . . . . . . . .  	Number	0034	
@@ -1111,7 +1112,7 @@ HAVATTRB . . . . . . . . . . . .  	L NEAR	013D	CODE
 HAVDRV . . . . . . . . . . . . .  	L NEAR	005D	CODE
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -1150,11 +1151,11 @@ LSEEK_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION
 LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 
 MAKEFCB  . . . . . . . . . . . .  	N PROC	0000	CODE	Global	Length = 00B7
-MI_INT . . . . . . . . . . . . .  	Number	00CD	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-10
                                                              
 
+MI_INT . . . . . . . . . . . . .  	Number	00CD	
 MI_LONG_CALL . . . . . . . . . .  	Number	009A	
 MI_LONG_JMP  . . . . . . . . . .  	Number	00EA	
 MI_LONG_RET  . . . . . . . . . .  	Number	00CB	
@@ -1165,7 +1166,7 @@ MOVCHK . . . . . . . . . . . . .  	L NEAR	0180	CODE
 MOVNAME  . . . . . . . . . . . .  	L NEAR	011D	CODE	Global
 MOVNAMENOSET . . . . . . . . . .  	L NEAR	0118	CODE	Global
 MOVSTART . . . . . . . . . . . .  	L NEAR	011F	CODE
-MSVER  . . . . . . . . . . . . .  	Alias	 FALSE		
+MSVER  . . . . . . . . . . . . .  	Alias	 TRUE		
 MUSTCHECKCX  . . . . . . . . . .  	L NEAR	0094	CODE
 MUSTGETWORD  . . . . . . . . . .  	L NEAR	0081	CODE
 
@@ -1181,7 +1182,7 @@ NOSTAR . . . . . . . . . . . . .  	L NEAR	009F	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NUMIO  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1208,11 +1209,11 @@ READ_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 READ_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 RENAME . . . . . . . . . . . . .  	Number	0056	
 RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-11
                                                              
 
+RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
 RET6 . . . . . . . . . . . . . .  	L NEAR	0190	CODE
 RET_C  . . . . . . . . . . . . .  	NEAR 	0140	CODE
@@ -1266,13 +1267,13 @@ STD_PRINTER_OUTPUT . . . . . . .  	Number	0005
 STECODE  . . . . . . . . . . . .  	Number	00FF	
 STERR  . . . . . . . . . . . . .  	Number	8000	
 STOLET . . . . . . . . . . . . .  	L NEAR	018C	CODE
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:36:34
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:52:04
 STDFCB - FCB calls for MSDOS                                Symbols-12
                                                              
 
-TOGLINS  . . . . . . . . . . . .  	Alias	 TRUE		
-TOGLPRN  . . . . . . . . . . . .  	Alias	 TRUE		
+
+TOGLINS  . . . . . . . . . . . .  	Alias	 WANG		
+TOGLPRN  . . . . . . . . . . . .  	Alias	 FALSE		
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
 UNLINK . . . . . . . . . . . . .  	Number	0041	
@@ -1280,8 +1281,7 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WANG . . . . . . . . . . . . . .  	Alias	 FALSE		

@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ File Compare Routine for MSDOS 2.0                          Page     1-1
                                  
                                 ;----------------------------------------------
 				-------------------------; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ File Compare Routine for MSDOS 2.0                          Page     1-2
 				buffer is full, or the   ; 
                                 ; end of file was reached, then it will revert 
 				and try to match line    ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-3
                                                             
 
@@ -159,7 +159,7 @@ File Compare Routine for MSDOS 2.0                          Page     1-3
                                  
                                  
                                         subttl  Debug Macros 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-4
 Debug Macros                                                
 
@@ -210,7 +210,7 @@ Debug Macros
                                         endm 
                                  
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-5
 Debug Macros                                                
 
@@ -220,7 +220,7 @@ Debug Macros
                                         .LIST 
                                  
                                         subttl  General Definitions 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-6
 General Definitions                                         
 
@@ -276,7 +276,7 @@ General Definitions
                                  
                                  
                                         subttl  Constants Area 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-7
 Constants Area                                              
 
@@ -334,7 +334,7 @@ Constants Area
 				ddress of files for binary 
                                                                         ; compa
 				rations 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-8
 Constants Area                                              
 
@@ -392,7 +392,7 @@ Constants Area
 				t_len:byte 
                                         EXTRN   file_err:byte,file_err_len:byte
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-9
 Constants Area                                              
 
@@ -410,7 +410,7 @@ Constants Area
                                  
                                  
                                         subttl  Data Area 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-10
 Data Area                                                   
 
@@ -458,7 +458,7 @@ Data Area
                                  
                                  
                                         subttl  MAIN Routine 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-11
 MAIN Routine                                                
 
@@ -516,7 +516,7 @@ MAIN Routine
  0021  BE 0080                          mov     si,80h                  ;comman
 				d line address 
  0024  FC                               cld 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-12
 MAIN Routine                                                
 
@@ -574,7 +574,7 @@ MAIN Routine
 				tion 
  0061  E8 034B R                        call    make_caps               ;capita
 				lize option 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-13
 MAIN Routine                                                
 
@@ -632,7 +632,7 @@ MAIN Routine
  00AB                           opt_dispatch: 
  00AB  C6 01 FF                         mov     byte ptr dg:[bx+di],TRUE       
 				 ;set the corresponding flag 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-14
 MAIN Routine                                                
 
@@ -690,7 +690,7 @@ MAIN Routine
  00E9  BB 0096 R                        mov     bx,offset dg:buf2 
  00EC  89 17                            mov     word ptr [bx].fname,dx         
 				 ;save pointer to file name 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-15
 MAIN Routine                                                
 
@@ -744,7 +744,7 @@ MAIN Routine
                                  
                                  
                                         subttl  Binary Compare Routine 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-16
 Binary Compare Routine                                      
 
@@ -802,7 +802,7 @@ Binary Compare Routine
  0166                           morein_b2: 
  0166  C6 06 0022 R 01                  mov     [bend],1                ;file 1
 				 ended 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-17
 Binary Compare Routine                                      
 
@@ -860,7 +860,7 @@ Binary Compare Routine
  01A6  74 F7                            je      bnot_yet                ;no, re
 				ad in more data 
  01A8  80 3E 0022 R 01                  cmp     [bend],1                ;yes, w
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-18
 Binary Compare Routine                                      
 
@@ -883,7 +883,7 @@ Binary Compare Routine
                                  
                                  
                                         subttl  Text Compare Routine 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-19
 Text Compare Routine                                        
 
@@ -941,7 +941,7 @@ Text Compare Routine
  020C  89 77 0A                         mov     word ptr [bx].fst_sinc,si      
 				 ;yes, save curr line buffer 1 
  020F  BB 0096 R                        mov     bx,offset dg:buf2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-20
 Text Compare Routine                                        
 
@@ -999,7 +999,7 @@ Text Compare Routine
  0251  BB 0080 R                        mov     bx,offset dg:buf1 
  0254  89 77 0C                         mov     word ptr [bx].fst_nosinc,si    
 				 ;save current lines 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-21
 Text Compare Routine                                        
 
@@ -1057,7 +1057,7 @@ Text Compare Routine
  02BB  89 77 06                         mov     word ptr [bx].curr,si 
  02BE  E8 04FE R                        call    adv_b                   ;get ne
 				xt line 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-22
 Text Compare Routine                                        
 
@@ -1115,7 +1115,7 @@ Text Compare Routine
  0306  EB 1E 90                         jmp     no_sinc 
  0309                           xj4: 
  0309  BB 0080 R                        mov     bx,offset dg:buf1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-23
 Text Compare Routine                                        
 
@@ -1160,7 +1160,7 @@ Text Compare Routine
                                  
                                  
                                         subttl  Subroutines: make caps 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-24
 Subroutines: make caps                                      
 
@@ -1198,7 +1198,7 @@ Subroutines: make caps
                                  
                                  
                                         subttl  Subroutines: kill_bl 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-25
 Subroutines: kill_bl                                        
 
@@ -1255,7 +1255,7 @@ Subroutines: kill_bl
                                  
                                  
                                         subttl  Subroutines: find_nonb 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-26
 Subroutines: find_nonb                                      
 
@@ -1313,7 +1313,7 @@ Subroutines: find_nonb
  037B  4E                               dec     si 
  037C  8B FE                            mov     di,si 
  037E  5E                               pop     si 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-27
 Subroutines: find_nonb                                      
 
@@ -1327,7 +1327,7 @@ Subroutines: find_nonb
                                  
                                  
                                         subttl  Subroutines: prt_bdif 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-28
 Subroutines: prt_bdif                                       
 
@@ -1385,7 +1385,7 @@ Subroutines: prt_bdif
  03B0  8A C7                            mov     al,bh 
  03B2  E8 03DC R                        call    bin2hex 
  03B5  8A C3                            mov     al,bl 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-29
 Subroutines: prt_bdif                                       
 
@@ -1413,7 +1413,7 @@ Subroutines: prt_bdif
                                  
                                  
                                         subttl  Subroutines: bin2hex 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-30
 Subroutines: bin2hex                                        
 
@@ -1471,7 +1471,7 @@ Subroutines: bin2hex
  03F3                           put_hex: 
  03F3  AA                               stosb                   ;place in buffe
 				r 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-31
 Subroutines: bin2hex                                        
 
@@ -1479,7 +1479,7 @@ Subroutines: bin2hex
                                  
                                  
                                         subttl  Subroutines: go_match 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-32
 Subroutines: go_match                                       
 
@@ -1537,7 +1537,7 @@ Subroutines: go_match
 				ength = 0, they match 
  0417  51                               push    cx                      ;save t
 				he length 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-33
 Subroutines: go_match                                       
 
@@ -1569,7 +1569,7 @@ Subroutines: go_match
  0432  C3                               ret 
                                  
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-34
 Subroutines: go_match                                       
 
@@ -1607,7 +1607,7 @@ Subroutines: go_match
 				atch 
                                  
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-35
 Subroutines: go_match                                       
 
@@ -1665,7 +1665,7 @@ Subroutines: go_match
  047E                           sd112: 
  047E  B0 20                            mov     al,' '                  ;no mor
 				e whites found 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-36
 Subroutines: go_match                                       
 
@@ -1723,7 +1723,7 @@ Subroutines: go_match
 				ntinue 
  04C4  C6 06 001B R 00                  mov     [ib_first2],false       ;yes, r
 				eset the flag 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-37
 Subroutines: go_match                                       
 
@@ -1769,7 +1769,7 @@ Subroutines: go_match
  04F1  C3                               ret 
                                  
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-38
 Subroutines: go_match                                       
 
@@ -1792,7 +1792,7 @@ Subroutines: go_match
                                  
                                  
                                         subttl  Subroutines: adv_b 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-39
 Subroutines: adv_b                                          
 
@@ -1850,7 +1850,7 @@ Subroutines: adv_b
  0509  C3                               ret 
  050A                           se0: 
  050A  E8 050E R                        call    get_nextl 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-40
 Subroutines: adv_b                                          
 
@@ -1858,7 +1858,7 @@ Subroutines: adv_b
                                  
                                  
                                         subttl  Subroutines: get_nextl 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-41
 Subroutines: get_nextl                                      
 
@@ -1916,7 +1916,7 @@ Subroutines: get_nextl
  0523                           se2: 
  0523  46                               inc     si                      ;point 
 				past the LF 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-42
 Subroutines: get_nextl                                      
 
@@ -1925,7 +1925,7 @@ Subroutines: get_nextl
                                  
                                  
                                         subttl  Subroutines: refill 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-43
 Subroutines: refill                                         
 
@@ -1983,7 +1983,7 @@ Subroutines: refill
 				                         ; 
                                 ;       BX      pointer to buffer structure    
 				                         ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-44
 Subroutines: refill                                         
 
@@ -2041,7 +2041,7 @@ Subroutines: refill
 				ecrement 
  0545  F3/ A4                           rep     movsb 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-45
 Subroutines: refill                                         
 
@@ -2065,7 +2065,7 @@ Subroutines: refill
                                  
                                  
                                         subttl  Subroutines: fill_buffer 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-46
 Subroutines: fill_buffer                                    
 
@@ -2123,7 +2123,7 @@ Subroutines: fill_buffer
  056B  8B F9                            mov     di,cx                   ;save n
 				ormalized char. count 
  056D  8B EA                            mov     bp,dx                   ;save d
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-47
 Subroutines: fill_buffer                                    
 
@@ -2181,14 +2181,14 @@ Subroutines: fill_buffer
  05B2  5B                               pop     bx 
  05B3  F9                               stc 
  05B4  C3                               ret 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-48
 Subroutines: fill_buffer                                    
 
                                  
                                  
                                         subttl  Subroutines: read_dat 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-49
 Subroutines: read_dat                                       
 
@@ -2233,7 +2233,7 @@ Subroutines: read_dat
                                  
                                  
                                         subttl  Subroutines: nor_buf 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-50
 Subroutines: nor_buf                                        
 
@@ -2291,7 +2291,7 @@ Subroutines: nor_buf
 				-------------------------; 
  05C2                           nor_buf: 
  05C2  8B FA                            mov     di,dx 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-51
 Subroutines: nor_buf                                        
 
@@ -2349,7 +2349,7 @@ Subroutines: nor_buf
  05FD  B0 0A                            mov     al,LF 
  05FF  FD                               std 
  0600  F2/ AE                           repnz   scasb                   ;search
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-52
 Subroutines: nor_buf                                        
 
@@ -2377,7 +2377,7 @@ Subroutines: nor_buf
                                  
                                  
                                         subttl  Subroutines: print_diff 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-53
 Subroutines: print_diff                                     
 
@@ -2435,7 +2435,7 @@ Subroutines: print_diff
  0642  32 ED                            xor     ch,ch 
  0644  E8 0696 R                        call    prout                   ;print 
 				difference separator 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-54
 Subroutines: print_diff                                     
 
@@ -2443,7 +2443,7 @@ Subroutines: print_diff
                                  
                                  
                                         subttl  Subroutines: print_head 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-55
 Subroutines: print_head                                     
 
@@ -2486,7 +2486,7 @@ Subroutines: print_head
                                  
                                  
                                         subttl  Subroutines: print_all 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-56
 Subroutines: print_all                                      
 
@@ -2544,7 +2544,7 @@ Subroutines: print_all
  067E  53                               push    bx                      ;save p
 				ointer to buffer struct 
  067F  8B 57 12                         mov     dx,word ptr [bx].buf 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-57
 Subroutines: print_all                                      
 
@@ -2567,7 +2567,7 @@ Subroutines: print_all
                                  
                                  
                                         subttl  Subroutines: prout and prt_err 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-58
 Subroutines: prout and prt_err                              
 
@@ -2607,7 +2607,7 @@ Subroutines: prout and prt_err
                                  
  06AE                           code    ends 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Page     1-59
 Subroutines: prout and prt_err                              
 
@@ -2626,7 +2626,7 @@ Subroutines: prout and prt_err
                                  
                                         end     start 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-1
                                                              
 
@@ -2684,7 +2684,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFSECNO . . . . . . . . . . .  	0008
   BUFWRTCNT  . . . . . . . . . .  	000A
   BUFWRTINC  . . . . . . . . . .  	000B
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-2
                                                              
 
@@ -2742,7 +2742,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_PAR_DIR  . . . . . . . . .  	0008
   EXE_MIN_BSS  . . . . . . . . .  	000A
   EXE_MAX_BSS  . . . . . . . . .  	000C
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-3
                                                              
 
@@ -2800,7 +2800,7 @@ SFT  . . . . . . . . . . . . . .  	0008	0003
 SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_REF_COUNT . . . . . . . . .  	0000
   SF_MODE  . . . . . . . . . . .  	0001
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-4
                                                              
 
@@ -2858,7 +2858,7 @@ Symbols:
 ABORT  . . . . . . . . . . . . .  	Number	0000	
 ADDR_INT_ABORT . . . . . . . . .  	Number	0080	
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-5
                                                              
 
@@ -2916,7 +2916,7 @@ BHEAD  . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 BHEAD_FLG  . . . . . . . . . . .  	L BYTE 	0027	CONST
 BHEAD_LEN  . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 BHEAD_OK . . . . . . . . . . . .  	L NEAR	03A1	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-6
                                                              
 
@@ -2974,7 +2974,7 @@ C_OPT  . . . . . . . . . . . . .  	L NEAR	009E	CODE
 
 DAT_END  . . . . . . . . . . . .  	Number	000E	
 DEALLOC  . . . . . . . . . . . .  	Number	0049	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-7
                                                              
 
@@ -3009,8 +3009,9 @@ DIRSTRLEN  . . . . . . . . . . .  	Number	0040
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DUP2_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -3031,11 +3032,11 @@ ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002
 ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
 ERROR_INVALID_BLOCK  . . . . . .  	Number	0009	
 ERROR_INVALID_DATA . . . . . . .  	Number	000D	
-ERROR_INVALID_DRIVE  . . . . . .  	Number	000F	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-8
                                                              
 
+ERROR_INVALID_DRIVE  . . . . . .  	Number	000F	
 ERROR_INVALID_FUNCTION . . . . .  	Number	0001	
 ERROR_INVALID_HANDLE . . . . . .  	Number	0006	
 ERROR_NOT_ENOUGH_MEMORY  . . . .  	Number	0008	
@@ -3089,11 +3090,11 @@ FIND_EOL . . . . . . . . . . . .  	L NEAR	04F2	CODE
 FIND_FIRST . . . . . . . . . . .  	Number	004E	
 FIND_NEXT  . . . . . . . . . . .  	Number	004F	
 FIND_NONB  . . . . . . . . . . .  	L NEAR	0367	CODE
-FLG_B  . . . . . . . . . . . . .  	L BYTE 	0016	CONST
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-9
                                                              
 
+FLG_B  . . . . . . . . . . . . .  	L BYTE 	0016	CONST
 FLG_C  . . . . . . . . . . . . .  	L BYTE 	0017	CONST
 FLG_S  . . . . . . . . . . . . .  	L BYTE 	0018	CONST
 FLG_W  . . . . . . . . . . . . .  	L BYTE 	0019	CONST
@@ -3136,7 +3137,6 @@ GO_QUIT  . . . . . . . . . . . .  	L NEAR	0345	CODE
 HANDLE . . . . . . . . . . . . .  	Number	0004	
 HEADER . . . . . . . . . . . . .  	L BYTE 	0002	CODE
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IB_COMPARE . . . . . . . . . . .  	L NEAR	044D	CODE
 IB_FIRST1  . . . . . . . . . . .  	L BYTE 	001A	CONST
 IB_FIRST2  . . . . . . . . . . .  	L BYTE 	001B	CONST
@@ -3148,7 +3148,7 @@ INTERNAT_BLOCK_MAX . . . . . . .  	Number	0020
 INTTAB . . . . . . . . . . . . .  	Number	0020	
 INT_ABORT  . . . . . . . . . . .  	Alias	 INTTAB		
 INT_COMMAND  . . . . . . . . . .  	Number	0021	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-10
                                                              
 
@@ -3204,9 +3204,9 @@ NO_MORE2 . . . . . . . . . . . .  	L NEAR	02F7	CODE
 NO_ROOM  . . . . . . . . . . . .  	L NEAR	05AB	CODE
 NO_SINC  . . . . . . . . . . . .  	L NEAR	0326	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-11
                                                              
 
@@ -3264,7 +3264,7 @@ RMDIR  . . . . . . . . . . . . .  	Number	003A
 RMDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 RMDIR_CURRENT_DIRECTORY  . . . .  	Alias	 ERROR_CURRENT_DIRECTORY		
 RMDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-12
                                                              
 
@@ -3322,7 +3322,7 @@ SET_TIME . . . . . . . . . . . .  	Number	002D
 SET_VERIFY_ON_WRITE  . . . . . .  	Number	002E	
 SF1  . . . . . . . . . . . . . .  	L NEAR	0532	CODE
 SF2  . . . . . . . . . . . . . .  	L NEAR	0535	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-13
                                                              
 
@@ -3380,12 +3380,11 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:03:44
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:19:17
 File Compare Routine for MSDOS 2.0                          Symbols-14
                                                              
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VERS_ERR . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 VERS_OK  . . . . . . . . . . . .  	L NEAR	001F	CODE
 
@@ -3408,9 +3407,9 @@ XJ6  . . . . . . . . . . . . . .  	L NEAR	0314	CODE
 
    2953 Source  Lines
    3015 Total   Lines
-    702 Symbols
+    701 Symbols
 
-  16068 Bytes symbol space free
+  16070 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

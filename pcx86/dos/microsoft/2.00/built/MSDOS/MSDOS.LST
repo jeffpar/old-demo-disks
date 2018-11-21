@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-1
                                                             
 
@@ -14,9 +14,9 @@ Standard MSDOS                                              Page     1-1
                              C  ; Use the switches below to produce the standar
 				d Microsoft version or the IBM 
                              C  ; version of the operating system 
-                             C  IFDEF OEMIBM 
- =                           C  MSVER   EQU     FALSE 
- =                           C  IBM     EQU     TRUE 
+                             C  ELSE 
+ =                           C  MSVER   EQU     TRUE 
+ =                           C  IBM     EQU     FALSE 
                              C  ENDIF 
  =                           C  WANG    EQU     FALSE 
  =                           C  ALTVECT EQU     FALSE 
@@ -25,20 +25,26 @@ Standard MSDOS                                              Page     1-1
 				o the end of memory 
  =                           C  HIGHMEM EQU     FALSE 
                              C   
-                             C          IF      IBM 
- = 0000                      C  ESCCH   EQU     0                       ; chara
-				cter to begin escape seq. 
- = 001B                      C  CANCEL  EQU     27 
- =                           C  TOGLINS EQU     TRUE                    ;One ke
-				y toggles insert mode 
- =                           C  TOGLPRN EQU     TRUE                    ;One ke
-				y toggles printer echo 
+                             C          ELSE 
+                             C          ELSE 
+ = 001B                      C  ESCCH   EQU     1BH 
+                             C          ENDIF 
+ = 0018                      C  CANCEL  EQU     "X"-"@"                 ;Cancel
+				 with Ctrl-X 
+ =                           C  TOGLINS EQU     WANG                    ;Separa
+				te keys for insert mode on 
+                             C                                          ;and of
+				f if not WANG 
+ =                           C  TOGLPRN EQU     FALSE                   ;Separa
+				te keys for printer echo on 
+                             C                                          ;and of
+				f 
  =                           C  ZEROEXT EQU     TRUE 
                              C          ENDIF 
                                  
                              C          INCLUDE MSHEAD.ASM 
                              C  ; TITLE   MSHEAD.ASM -- MS-DOS DEFINITIONS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-2
                                                             
 
@@ -96,7 +102,7 @@ Standard MSDOS                                              Page     1-2
                              C  ; 1.23 02/11/82 Add defaulting to parser; use v
 				ariable escape character Don't 
                              C  ;               zero extent field in IBM versio
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-3
                                                             
 
@@ -154,7 +160,7 @@ Standard MSDOS                                              Page     1-3
 				ion and call to manage them 
                              C  ;               call 49. 
                              C  ;      04/23/82 Added GETDSKPTDL as call 50, si
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-4
                                                             
 
@@ -212,7 +218,7 @@ Standard MSDOS                                              Page     1-4
                              C  ;      01/19/83 Performance bug fix in cooked w
 				rite to NUL 
                              C  ;      01/27/83 Growcnt fixed for 32-bits 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-5
                                                             
 
@@ -228,7 +234,7 @@ Standard MSDOS                                              Page     1-5
                              C   
                              C   
                              C  SUBTTL        EQUATES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-6
 EQUATES                                                     
 
@@ -259,7 +265,7 @@ EQUATES
                              C   
                              C  SUBTTL BREAK a listing into pages and give new 
 				subtitles 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-7
 BREAK a listing into pages and give new subtitles           
 
@@ -271,7 +277,7 @@ BREAK a listing into pages and give new subtitles
                              C   
                              C  BREAK <I_NEED: declare a variable external, if 
 				necessary, and allocate a size> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-8
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -309,7 +315,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   CALL name 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-9
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -367,13 +373,13 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  procedure MACRO name,distance 
                              C   PUBLIC name 
                              C  name PROC distance 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-10
 I_NEED: declare a variable external, if necessary, and alloc
 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-11
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -400,7 +406,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   ENDIF 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-12
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -411,7 +417,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  do_ext macro 
                              C  endm 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-13
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -427,7 +433,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   
                              C  BREAK <ERROR - print a message and then jump to
 				 a label> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-14
 ERROR - print a message and then jump to a label            
 
@@ -442,7 +448,7 @@ ERROR - print a message and then jump to a label
                              C   
                              C  BREAK <JUMP - real jump that links up shortwise
 				> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-15
 JUMP - real jump that links up shortwise                    
 
@@ -475,7 +481,7 @@ JUMP - real jump that links up shortwise
                              C  endm 
                              C   
                              C  BREAK <RETURN - return from a function> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-16
 RETURN - return from a function                             
 
@@ -490,7 +496,7 @@ RETURN - return from a function
                              C  endm 
                              C   
                              C  BREAK <CONDRET - conditional return> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-17
 CONDRET - conditional return                                
 
@@ -548,7 +554,7 @@ CONDRET - conditional return
                              C  ; endif 
                              C  ; j&ncc a ; j<NCC> a: 
                              C  ; return ; return 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-18
 CONDRET - conditional return                                
 
@@ -559,7 +565,7 @@ CONDRET - conditional return
                              C  ; 
                              C  BREAK <RETZ - return if zero, links up shortwis
 				e if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-19
 RETZ - return if zero, links up shortwise if necessary      
 
@@ -570,7 +576,7 @@ RETZ - return if zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETNZ - return if not zero, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-20
 RETNZ - return if not zero, links up shortwise if necessary 
 
@@ -581,7 +587,7 @@ RETNZ - return if not zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETC - return if carry set, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-21
 RETC - return if carry set, links up shortwise if necessary 
 
@@ -592,7 +598,7 @@ RETC - return if carry set, links up shortwise if necessary
                              C   
                              C  BREAK <RETNC - return if not carry, links up sh
 				ortwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-22
 RETNC - return if not carry, links up shortwise if necessary
 
@@ -603,7 +609,7 @@ RETNC - return if not carry, links up shortwise if necessary
                              C   
                              C  BREAK <CONTEXT - set the DOS context to a parti
 				cular register> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-23
 CONTEXT - set the DOS context to a particular register      
 
@@ -621,18 +627,18 @@ CONTEXT - set the DOS context to a particular register
                              C  ENDIF 
                              C   
                              C  ELSE 
-                             C    IF IBM 
+                             C    ELSE 
                              C      ENDIF 
                              C    ENDIF 
                              C  ENDIF 
                              C   
                              C  ENDIF 
                              C   
- = 0002                      C  DOS_MAJOR_VERSION   EQU	    (VER / 100) 
- = 0000                      C  DOS_MINOR_VERSION   EQU     (VER MOD 100) 
+ = 0002                      C  DOS_MAJOR_VERSION   EQU	    (DOSVER / 100) 
+ = 000B                      C  DOS_MINOR_VERSION   EQU     (DOSVER MOD 100) 
                              C   
                              C  BREAK <Control character definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-24
 Control character definitions                               
 
@@ -654,7 +660,7 @@ Control character definitions
  = 0009                      C  c_HT        EQU     09h         ; ^I ASCII tab 
                              C   
                              C  BREAK <BPB Definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-25
 BPB Definition                                              
 
@@ -694,7 +700,7 @@ BPB Definition
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK  <Bios Parameter Block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-26
 Bios Parameter Block                                        
 
@@ -732,7 +738,7 @@ Bios Parameter Block
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk I/O Buffer Header> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-27
 Disk I/O Buffer Header                                      
 
@@ -790,12 +796,12 @@ Disk I/O Buffer Header
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-28
 Disk I/O Buffer Header                                      
 
                              C  BREAK <User stack inside of system call> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-29
 User stack inside of system call                            
 
@@ -818,7 +824,7 @@ User stack inside of system call
  0018                        C  user_environ    ENDS 
                              C   
                              C  BREAK <interrupt definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-30
 interrupt definitions                                       
 
@@ -876,7 +882,7 @@ interrupt definitions
  = 008C                      C  addr_int_ctrl_c         EQU    4 * int_ctrl_c 
  = 0090                      C  addr_int_fatal_abort    EQU    4 * int_fatal_ab
 				ort 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-31
 interrupt definitions                                       
 
@@ -902,7 +908,7 @@ interrupt definitions
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk map> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-32
 Disk map                                                    
 
@@ -930,7 +936,7 @@ Disk map
 				le. 
                              C   
                              C  BREAK <Directory entry> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-33
 Directory entry                                             
 
@@ -988,7 +994,7 @@ Directory entry
  001A  ????                  C  dir_first   DW      ?                   ; first
 				 allocation unit of file 
  001C  ????                  C  dir_size_l  DW      ?                   ; low 1
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-34
 Directory entry                                             
 
@@ -1022,7 +1028,7 @@ Directory entry
 				eable via CHMOD 
                              C   
                              C  BREAK <File allocation Table information> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-35
 File allocation Table information                           
 
@@ -1064,7 +1070,7 @@ File allocation Table information
 				in is not an error). 
                              C   
                              C  BREAK <DPB structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-36
 DPB structure                                               
 
@@ -1122,7 +1128,7 @@ DPB structure
                          ]   C  
                              C  
                              C                                  ; ASCIZ string 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-37
 DPB structure                                               
 
@@ -1142,7 +1148,7 @@ DPB structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <File Control Block definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-38
 File Control Block definition                               
 
@@ -1200,7 +1206,7 @@ File Control Block definition
                              C  ;       |   random record number    | 
                              C  ;       +---------------------------+ 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-39
 File Control Block definition                               
 
@@ -1258,7 +1264,7 @@ File Control Block definition
  001D  ????                  C  fcb_LSTCLUS DW      ?       ; Last cluster acce
 				ssed and directory pack 2 12 
  001F  ??                    C              DB      ?       ; bit numbers into 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-40
 File Control Block definition                               
 
@@ -1316,7 +1322,7 @@ File Control Block definition
                              C  ;       BIT     7   6   5   4   3   2   1   0 
                              C  ;             |---|---|---|---|---|---|---|---|
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-41
 File Control Block definition                               
 
@@ -1374,7 +1380,7 @@ File Control Block definition
                              C  ; 
                              C  ; find first/next buffer 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-42
 File Control Block definition                               
 
@@ -1414,7 +1420,7 @@ File Control Block definition
  002B                        C  find_buf    ENDS 
                              C   
                              C  BREAK <Process data block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-43
 Process data block                                          
 
@@ -1472,7 +1478,7 @@ Process data block
 				                            ; 
  002E  ????????              C  PDB_User_stack      DD      ?           ; stack
 				 of self during system calls 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-44
 Process data block                                          
 
@@ -1510,7 +1516,7 @@ Process data block
  005B                        C  Process_data_block  ENDS 
                              C   
                              C  BREAK <EXEC and EXE file structures> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-45
 EXEC and EXE file structures                                
 
@@ -1568,7 +1574,7 @@ EXEC and EXE file structures
  0004                        C  Exec3           ENDS 
                              C   
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-46
 EXEC and EXE file structures                                
 
@@ -1626,7 +1632,7 @@ EXEC and EXE file structures
  0006  ??                    C  sym_len         DB  ? 
  0007  00FF[                 C  sym_name        DB  255 dup (?) 
             ??               C  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-47
 EXEC and EXE file structures                                
 
@@ -1635,7 +1641,7 @@ EXEC and EXE file structures
  0106                        C  symbol_entry    ENDS 
                              C   
                              C  BREAK <Internal system file table format> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-48
 Internal system file table format                           
 
@@ -1685,7 +1691,7 @@ Internal system file table format
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Memory arena structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-49
 Memory arena structure                                      
 
@@ -1743,7 +1749,7 @@ Memory arena structure
 				 0 if No space after currency symbol 
                              C                                      ;         =
 				 1 if space after currency symbol 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-50
 Memory arena structure                                      
 
@@ -1790,7 +1796,7 @@ Memory arena structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Machine instruction definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-51
 Machine instruction definitions                             
 
@@ -1801,7 +1807,7 @@ Machine instruction definitions
  = 00CB                      C  mi_Long_RET     EQU     0CBh 
                              C   
                              C  BREAK <Standard I/O assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-52
 Standard I/O assignments                                    
 
@@ -1813,7 +1819,7 @@ Standard I/O assignments
  = 0004                      C  stdprn      EQU     4 
                              C   
                              C  BREAK <Xenix subfunction assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-53
 Xenix subfunction assignments                               
 
@@ -1823,7 +1829,7 @@ Xenix subfunction assignments
  = 0002                      C  open_for_both   EQU 2 
                              C   
                              C  BREAK <Xenix error codes> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-54
 Xenix error codes                                           
 
@@ -1881,7 +1887,7 @@ Xenix error codes
 				ccess_denied 
  =                           C  chmod_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-55
 Xenix error codes                                           
 
@@ -1939,7 +1945,7 @@ Xenix error codes
 				nvalid_handle 
  =                           C  ioctl_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-56
 Xenix error codes                                           
 
@@ -1997,7 +2003,7 @@ Xenix error codes
 				ile_not_found 
  =                           C  unlink_access_denied            EQU     error_a
 				ccess_denied 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-57
 Xenix error codes                                           
 
@@ -2008,7 +2014,7 @@ Xenix error codes
 				ccess_denied 
                              C   
                              C  BREAK <system call definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-58
 system call definitions                                     
 
@@ -2066,7 +2072,7 @@ system call definitions
  = 001A                      C  Set_DMA                         EQU 26  ; 26   
 				  1A 
                              C  ;----+----+----+----+----+----+----+----+----+-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-59
 system call definitions                                     
 
@@ -2124,7 +2130,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;                                              
 				                            ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-60
 system call definitions                                     
 
@@ -2182,7 +2188,7 @@ system call definitions
 				  47 
                              C  ;    Memory Group 
  = 0048                      C  Alloc                           EQU 72  ; 72   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-61
 system call definitions                                     
 
@@ -2240,7 +2246,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-62
 system call definitions                                     
 
@@ -2292,7 +2298,7 @@ system call definitions
                              C   
                              C          INCLUDE DEVSYM.ASM 
                              C  SUBTTL DEVICE TABLE AND SRH DEFINITION 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-63
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -2350,7 +2356,7 @@ DEVICE TABLE AND SRH DEFINITION
                              C   
                              C  ;Status word masks 
  = 8000                      C  STERR   EQU     8000H           ;Bit 15 - Error
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-64
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -2395,7 +2401,7 @@ DEVICE TABLE AND SRH DEFINITION
                              C   
                              C  SUBTTL ^C, terminate/abort/exit and Hard error 
 				actions 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-65
 ^C, terminate/abort/exit and Hard error actions             
 
@@ -2453,7 +2459,7 @@ Standard MSDOS                                              Page     1-65
 				er any circumstances trap an 
                              C  ;           abort call.  This is reserved for k
 				nowledgeable system programs. 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-66
 ^C, terminate/abort/exit and Hard error actions             
 
@@ -2461,7 +2467,7 @@ Standard MSDOS                                              Page     1-66
 				O UNRELIABLE RESULTS. 
                              C   
                              C  SUBTTL SEGMENT DECLARATIONS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-67
 SEGMENT DECLARATIONS                                        
 
@@ -2505,7 +2511,7 @@ SEGMENT DECLARATIONS
                              C          INCLUDE MSDATA.ASM 
                              C  SUBTTL Initialized data and data used at DOS in
 				itialization 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-68
 Initialized data and data used at DOS initialization        
 
@@ -2563,7 +2569,7 @@ Initialized data and data used at DOS initialization
 				 of entries in table 
  000A  0005[                 C              DB      sf_default_number DUP ( (SI
 				ZE sf_entry) DUP (0)) 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-69
 Initialized data and data used at DOS initialization        
 
@@ -2621,7 +2627,7 @@ Initialized data and data used at DOS initialization
  00E0  ????                  C  ENDMEM      DW      ? 
                              C   
                              C              PUBLIC  switch_character 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-70
 Initialized data and data used at DOS initialization        
 
@@ -2679,7 +2685,7 @@ Initialized data and data used at DOS initialization
  00FE  0000                  C  MAXSEC      DW      0                   ; Maxim
 				um allowed sector size 
                              C          I_AM    BUFFHEAD,DWORD          ; Point
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-71
 Initialized data and data used at DOS initialization        
 
@@ -2737,7 +2743,7 @@ Initialized data and data used at DOS initialization
  0124  01                    C  IDLEINT     DB      1 
                              C          PUBLIC  CNTCFLAG 
  0125  00                    C  CNTCFLAG    DB      0                   ; ^C ch
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-72
 Initialized data and data used at DOS initialization        
 
@@ -2795,7 +2801,7 @@ Initialized data and data used at DOS initialization
                          ]   C  
                              C  
  0151                        C  IOFLSH  LABEL   WORD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-73
 Initialized data and data used at DOS initialization        
 
@@ -2853,7 +2859,7 @@ Initialized data and data used at DOS initialization
                              C  					; time year changes 
  017A  1F                    C          DB      31                      ; March
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-74
 Initialized data and data used at DOS initialization        
 
@@ -2873,6 +2879,9 @@ Initialized data and data used at DOS initialization
  0183  1F                    C          DB      31                      ; Decem
 				ber 
                              C   
+                             C          IF      NOT IBM 
+                             C          PUBLIC  OEM_HANDLER 
+ 0184  FF FF FF FF           C  OEM_HANDLER     DD      -1 
                              C          ENDIF 
                              C   
                              C  ;WARNING For HIGHMEM version, these two vars mu
@@ -2880,21 +2889,21 @@ Initialized data and data used at DOS initialization
                              C  ; Constants segment to prevent them getting ove
 				rwritten. 
                              C          I_AM    CurrentPDB,WORD 
- 0184  ????                  C1 CurrentPDB DW ?
+ 0188  ????                  C1 CurrentPDB DW ?
                              C          i_am    CreatePDB,BYTE          ; flag 
 				for creating a process 
- 0186  ??                    C1 CreatePDB DB ?
+ 018A  ??                    C1 CreatePDB DB ?
                              C   
                              C          PUBLIC  LEAVEADDR 
- 0187                        C  LEAVEADDR LABEL WORD 
+ 018B                        C  LEAVEADDR LABEL WORD 
                              C          short_addr    LEAVE 
- 0187  0000 E                C1  DW OFFSET DOSGROUP:LEAVE
+ 018B  0000 E                C1  DW OFFSET DOSGROUP:LEAVE
                              C   
- 0189                        C  CONSTANTS       ENDS 
+ 018D                        C  CONSTANTS       ENDS 
                              C   
                              C  SUBTTL Uninitialized data overlayed by initiali
 				zation code 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-75
 Uninitialized data overlayed by initialization code         
 
@@ -2952,7 +2961,7 @@ Uninitialized data overlayed by initialization code
                              C          I_AM    CONTSTK,WORD 
  013F  ????                  C1 CONTSTK DW ?
                              C          I_AM    SECCLUSPOS,BYTE         ; Posit
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-76
 Uninitialized data overlayed by initialization code         
 
@@ -3010,7 +3019,7 @@ Uninitialized data overlayed by initialization code
  0169  ????                  C1 CLUSNUM DW ?
                              C          I_AM    DIRSEC,WORD 
  016B  ????                  C1 DIRSEC DW ?
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-77
 Uninitialized data overlayed by initialization code         
 
@@ -3068,7 +3077,7 @@ Uninitialized data overlayed by initialization code
  01A0  ????                  C1 ConC_spsave DW ?
                              C   
                              C          I_AM    exit_code,WORD              ; e
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-78
 Uninitialized data overlayed by initialization code         
 
@@ -3078,38 +3087,28 @@ Uninitialized data overlayed by initialization code
 				ype of exit... 
  01A4  ??                    C1 exit_type DB ?
                              C   
-                             C          IF      IBM 
-                             C  ;For 2.00 this pads the DOS so that on a 2 disk
-				 IBM PC with no 
-                             C  ;CONFIG.SYS file the space taken up by BIOS, DO
-				S, res COMMAND is 
-                             C  ;about 24K 
- 01A5  0540[                 C  IBMPAD  DB      540h DUP(?) 
-            ??               C  
-                         ]   C  
-                             C  
                              C          ENDIF 
                              C   
                              C  ; make those pushes fast!!! 
- 06E5  90                    C  EVEN 
- 06E6  00A0[                 C          DB      0A0H DUP (?) 
+ 01A5  90                    C  EVEN 
+ 01A6  00A0[                 C          DB      0A0H DUP (?) 
             ??               C  
                          ]   C  
                              C  
                              C          I_am    AuxStack,0A0h 
- 0786  00A0[                 C1 AuxStack DB 0A0h DUP (?)
+ 0246  00A0[                 C1 AuxStack DB 0A0h DUP (?)
                              C          I_AM    DSKSTACK,0A0h        ; Stack sp
 				ace 
- 0826  00A0[                 C1 DSKSTACK DB 0A0h DUP (?)
+ 02E6  00A0[                 C1 DSKSTACK DB 0A0h DUP (?)
                              C          PUBLIC  IOSTACK 
- 08C6                        C  IOSTACK LABEL   BYTE 
+ 0386                        C  IOSTACK LABEL   BYTE 
                              C   
                              C          PUBLIC  NSS 
- 08C6  ????                  C  NSS         DW      ? 
+ 0386  ????                  C  NSS         DW      ? 
                              C          PUBLIC  NSP 
- 08C8  ????                  C  NSP         DW      ? 
+ 0388  ????                  C  NSP         DW      ? 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-79
 Uninitialized data overlayed by initialization code         
 
@@ -3138,6 +3137,8 @@ Uninitialized data overlayed by initialization code
                              C          EXTRN   QUIT:NEAR,IRET:NEAR,ABSDRD:FAR,
 				ABSDWRT:FAR 
                              C          EXTRN   COMMAND:NEAR,CALL_ENTRY:NEAR 
+                             C          IF      NOT IBM 
+                             C          EXTRN   HEADER:BYTE 
                              C          ENDIF 
                              C   
  0116                        C  MOVDPB: 
@@ -3165,12 +3166,12 @@ Uninitialized data overlayed by initialization code
  0148  E2 F2                 C          LOOP    SETFINDPB 
  014A  83 EE 5E              C          SUB     SI,DPBSIZ 
  014D  26: C7 44 1A FFFF     C          MOV     WORD PTR ES:[SI.dpb_next_dpb+2]
-				,-1 
- 0153  8B 3E 0114 R          C          MOV     DI,[BUFFSTRT]                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-80
 Uninitialized data overlayed by initialization code         
 
+				,-1 
+ 0153  8B 3E 0114 R          C          MOV     DI,[BUFFSTRT]                  
 				 ; Set up one default buffer 
  0157  26: 8C 06 0102 R      C          MOV     WORD PTR ES:[BUFFHEAD+2],ES 
  015C  26: 89 3E 0100 R      C          MOV     WORD PTR ES:[BUFFHEAD],DI 
@@ -3181,7 +3182,7 @@ Uninitialized data overlayed by initialization code
  0177  06                    C          PUSH    ES 
  0178  42                    C          INC     DX                          ; L
 				eave enough room for the ARENA 
- 0179  C6 06 0186 R FF       C          MOV     BYTE PTR [CreatePDB],0FFh   ; c
+ 0179  C6 06 018A R FF       C          MOV     BYTE PTR [CreatePDB],0FFh   ; c
 				reate jfns and set CurrentPDB 
                              C          invoke  $CREATE_PROCESS_DATA_BLOCK     
 				; Set up segment 
@@ -3200,10 +3201,10 @@ Uninitialized data overlayed by initialization code
                              C  ; below be careful about references off of CS. 
                              C  ; 
  0182  50                    C          PUSH    AX 
- 0183  26: A1 0184 R         C          MOV     AX,[CurrentPDB] 
- 0187  26: A3 0184 R         C          MOV     ES:[CurrentPDB],AX         ; Pu
+ 0183  26: A1 0188 R         C          MOV     AX,[CurrentPDB] 
+ 0187  26: A3 0188 R         C          MOV     ES:[CurrentPDB],AX         ; Pu
 				t it in the REAL location 
- 018B  26: C6 06 0186 R 00   C          MOV     BYTE PTR ES:[CreatePDB],0h ; re
+ 018B  26: C6 06 018A R 00   C          MOV     BYTE PTR ES:[CreatePDB],0h ; re
 				set flag in REAL location 
  0191  48                    C          DEC     AX 
  0192  26: A3 00EB R         C          MOV     ES:[arena_head],AX 
@@ -3223,12 +3224,12 @@ Uninitialized data overlayed by initialization code
  01B1  BF 000A R             C          MOV     DI,OFFSET DOSGROUP:sftabl + sft
 				_table   ; Point to sft 0 
  01B4  B0 03                 C          MOV     AL,3 
- 01B6  AA                    C          STOSB           ; Adjust Refcount 
- 01B7  BF 00ED R             C          MOV     DI,OFFSET DOSGROUP:SYSINITVAR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-81
 Uninitialized data overlayed by initialization code         
 
+ 01B6  AA                    C          STOSB           ; Adjust Refcount 
+ 01B7  BF 00ED R             C          MOV     DI,OFFSET DOSGROUP:SYSINITVAR 
                              C   
  01BA                        C  XXX     PROC FAR 
  01BA  CB                    C          RET 
@@ -3256,14 +3257,14 @@ Uninitialized data overlayed by initialization code
  0002  2E: 89 16 00E0 R      C          MOV     [ENDMEM],DX 
  0007  2E: 89 26 0110 R      C          MOV     [INITSP],SP 
  000C  2E: 8C 16 0112 R      C          MOV     [INITSS],SS 
- 0011  BC 02AB R             C          MOV     SP,OFFSET DOSGROUP:INITSTACK 
+ 0011  BC 02B5 R             C          MOV     SP,OFFSET DOSGROUP:INITSTACK 
  0014  8C C8                 C          MOV     AX,CS 
  0016  8E D0                 C          MOV     SS,AX 
                              C  ASSUME  SS:DOSGROUP 
  0018  36: 8C 1E 0106 R      C          MOV     WORD PTR [DEVHEAD+2],DS 
  001D  36: 89 36 0104 R      C          MOV     WORD PTR [DEVHEAD],SI   ; DS:SI
 				 Points to CONSOLE Device 
- 0022  E8 0203 R             C          CALL    CHARINIT 
+ 0022  E8 020D R             C          CALL    CHARINIT 
  0025  56                    C          PUSH    SI 
  0026  83 C6 0A              C          ADD     SI,SDEVNAME             ; Point
 				 to name 
@@ -3281,12 +3282,12 @@ Uninitialized data overlayed by initialization code
  0037  AA                    C          STOSB           ; attribute 
  0038  B9 0004               C          MOV     CX,4 
  003B  F3/ A5                C          REP     MOVSW   ; Name 
- 003D  B1 03                 C          MOV     CL,3 
- 003F  B0 20                 C          MOV     AL," " 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-82
 Uninitialized data overlayed by initialization code         
 
+ 003D  B1 03                 C          MOV     CL,3 
+ 003F  B0 20                 C          MOV     AL," " 
  0041  F3/ AA                C          REP     STOSB   ; Extension 
  0043  83 C7 0C              C          ADD     DI,12   ; Skip 
  0046  B0 C3                 C          MOV     AL,0C0H OR ISCIN OR ISCOUT 
@@ -3304,19 +3305,19 @@ Uninitialized data overlayed by initialization code
  005E                        C  CHAR_INIT_LOOP: 
  005E  C5 34                 C          LDS     SI,DWORD PTR [SI]              
 				 ; AUX device 
- 0060  E8 0203 R             C          CALL    CHARINIT 
+ 0060  E8 020D R             C          CALL    CHARINIT 
  0063  F6 44 04 08           C          TEST    BYTE PTR [SI.SDEVATT],ISCLOCK 
  0067  74 F5                 C          JZ      CHAR_INIT_LOOP 
  0069  36: 89 36 00F5 R      C          MOV     WORD PTR [BCLOCK],SI 
  006E  36: 8C 1E 00F7 R      C          MOV     WORD PTR [BCLOCK+2],DS 
- 0073  BD 02AD R             C          MOV     BP,OFFSET DOSGROUP:MEMSTRT     
+ 0073  BD 02B7 R             C          MOV     BP,OFFSET DOSGROUP:MEMSTRT     
 				 ; ES:BP points to DPB 
  0076                        C  PERDRV: 
  0076  C5 34                 C          LDS     SI,DWORD PTR [SI]              
 				 ; Next device 
  0078  83 FE FF              C          CMP     SI,-1 
  007B  74 68                 C          JZ      CONTINIT 
- 007D  E8 0203 R             C          CALL    CHARINIT 
+ 007D  E8 020D R             C          CALL    CHARINIT 
  0080  F7 44 04 8000         C          TEST    [SI.SDEVATT],DEVTYP 
  0085  75 EF                 C          JNZ     PERDRV                         
 				 ; Skip any other character devs 
@@ -3339,12 +3340,12 @@ Uninitialized data overlayed by initialization code
  00A8  26: 88 56 00          C          MOV     ES:[BP.dpb_drive],DL 
  00AC  26: 88 76 01          C          MOV     ES:[BP.dpb_UNIT],DH 
  00B0  53                    C          PUSH    BX 
- 00B1  51                    C          PUSH    CX 
- 00B2  52                    C          PUSH    DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-83
 Uninitialized data overlayed by initialization code         
 
+ 00B1  51                    C          PUSH    CX 
+ 00B2  52                    C          PUSH    DX 
                              C          invoke  $SETDPB 
  00B3  E8 0000 E             C1  CALL $SETDPB
  00B6  26: 8B 46 02          C          MOV     AX,ES:[BP.dpb_sector_size] 
@@ -3395,14 +3396,14 @@ Uninitialized data overlayed by initialization code
  0101  8B EA                 C          MOV     BP,DX 
  0103  03 EF                 C          ADD     BP,DI           ; Allocate buff
 				er space 
- 0105  81 ED 02AD            C          SUB     BP,ADJFAC       ; True address 
+ 0105  81 ED 02B7            C          SUB     BP,ADJFAC       ; True address 
 				of free memory 
- 0109  55                    C          PUSH    BP 
- 010A  BF 02AD R             C          MOV     DI,OFFSET DOSGROUP:MEMSTRT    ;
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-84
 Uninitialized data overlayed by initialization code         
 
+ 0109  55                    C          PUSH    BP 
+ 010A  BF 02B7 R             C          MOV     DI,OFFSET DOSGROUP:MEMSTRT    ;
 				 Current start of DPBs 
  010D  83 C7 18              C          ADD     DI,dpb_next_dpb      ; Point at
 				 dpb_next_dpb field 
@@ -3455,12 +3456,12 @@ Uninitialized data overlayed by initialization code
  0149  8E C0                 C          MOV     ES,AX 
                              C  ASSUME  DS:NOTHING,ES:NOTHING 
  014B  BF 0082               C          MOV     DI,INTBASE+2 
- 014E  8B C5                 C          MOV     AX,BP 
- 0150  C6 06 00C0 EA         C          MOV     BYTE PTR DS:[ENTRYPOINT],mi_Lon
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-85
 Uninitialized data overlayed by initialization code         
 
+ 014E  8B C5                 C          MOV     AX,BP 
+ 0150  C6 06 00C0 EA         C          MOV     BYTE PTR DS:[ENTRYPOINT],mi_Lon
 				g_JMP 
  0155  C7 06 00C1 0000 E     C          MOV     WORD PTR DS:[ENTRYPOINT+1],OFFS
 				ET DOSGROUP:CALL_ENTRY 
@@ -3513,12 +3514,12 @@ Uninitialized data overlayed by initialization code
  01B0  0E                    C          PUSH    CS 
  01B1  1F                    C          POP     DS 
  01B2  0E                    C          PUSH    CS 
- 01B3  07                    C          POP     ES 
-                             C  ASSUME  DS:DOSGROUP,ES:DOSGROUP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-86
 Uninitialized data overlayed by initialization code         
 
+ 01B3  07                    C          POP     ES 
+                             C  ASSUME  DS:DOSGROUP,ES:DOSGROUP 
  01B4  B8 0000 R             C          MOV     AX,OFFSET DOSGROUP:INITBLOCK 
  01B7  05 000F               C          ADD     AX,0Fh                  ; round
 				 to a paragraph 
@@ -3527,7 +3528,7 @@ Uninitialized data overlayed by initialization code
  01BE  8C DF                 C          MOV     DI,DS 
  01C0  03 F8                 C          ADD     DI,AX 
  01C2  47                    C          INC     DI 
- 01C3  89 3E 0184 R          C          MOV     [CurrentPDB],DI 
+ 01C3  89 3E 0188 R          C          MOV     [CurrentPDB],DI 
  01C7  55                    C          PUSH    BP 
  01C8  52                    C          PUSH    DX              ; Save COMMAND 
 				address 
@@ -3560,77 +3561,92 @@ Uninitialized data overlayed by initialization code
 				or CON will work for 
                              C  ; printing messages 
                              C   
+                             C          IF      NOT IBM 
+                             C          IF      NOT ALTVECT 
+ 01E7  BE 0000 E             C          MOV     SI,OFFSET DOSGROUP:HEADER 
+                             C          invoke  OUTMES 
+ 01EA  E8 0000 E             C1  CALL OUTMES
+ 01ED  0E                    C          PUSH    CS                      ; Outme
+				s stomps on segments 
+ 01EE  1F                    C          POP     DS 
+ 01EF  0E                    C          PUSH    CS 
+ 01F0  07                    C          POP     ES 
                              C          ENDIF 
-                             C   
-                             C  ; Move the FATs into position 
- 01E7  5A                    C          POP     DX                      ; Resto
-				re COMMAND address 
- 01E8  5D                    C          POP     BP 
- 01E9  59                    C          POP     CX                      ; True 
-				address of free memory 
- 01EA  BE 02AD R             C          MOV     SI,OFFSET DOSGROUP:MEMSTRT     
-				 ; Place to move DPBs from 
- 01ED  8B 3E 00ED R          C          MOV     DI,WORD PTR [DPBHEAD]   ; Place
-				 to move DPBs to 
- 01F1  2B CF                 C          SUB     CX,DI                   ; Total
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Page     1-87
 Uninitialized data overlayed by initialization code         
 
+                             C          ENDIF 
+                             C   
+                             C  ; Move the FATs into position 
+ 01F1  5A                    C          POP     DX                      ; Resto
+				re COMMAND address 
+ 01F2  5D                    C          POP     BP 
+ 01F3  59                    C          POP     CX                      ; True 
+				address of free memory 
+ 01F4  BE 02B7 R             C          MOV     SI,OFFSET DOSGROUP:MEMSTRT     
+				 ; Place to move DPBs from 
+ 01F7  8B 3E 00ED R          C          MOV     DI,WORD PTR [DPBHEAD]   ; Place
+				 to move DPBs to 
+ 01FB  2B CF                 C          SUB     CX,DI                   ; Total
 				 length of DPBs 
- 01F3  3B FE                 C          CMP     DI,SI 
- 01F5  76 07                 C          JBE     MOVJMP                  ; Are w
+ 01FD  3B FE                 C          CMP     DI,SI 
+ 01FF  76 07                 C          JBE     MOVJMP                  ; Are w
 				e moving to higher or 
                              C  					; lower memory? 
- 01F7  49                    C          DEC     CX                      ; Move 
+ 0201  49                    C          DEC     CX                      ; Move 
 				backwards to higher memory 
- 01F8  03 F9                 C          ADD     DI,CX 
- 01FA  03 F1                 C          ADD     SI,CX 
- 01FC  41                    C          INC     CX 
- 01FD  FD                    C          STD 
- 01FE                        C  MOVJMP: 
- 01FE  8E C5                 C          MOV     ES,BP 
+ 0202  03 F9                 C          ADD     DI,CX 
+ 0204  03 F1                 C          ADD     SI,CX 
+ 0206  41                    C          INC     CX 
+ 0207  FD                    C          STD 
+ 0208                        C  MOVJMP: 
+ 0208  8E C5                 C          MOV     ES,BP 
                              C  ASSUME  ES:DOSGROUP 
- 0200  E9 0116 R             C          JMP     MOVDPB 
+ 020A  E9 0116 R             C          JMP     MOVDPB 
                              C   
- 0203                        C  CHARINIT: 
+ 020D                        C  CHARINIT: 
                              C  ASSUME  DS:NOTHING,ES:NOTHING 
                              C  ; DS:SI Points to device header 
- 0203  36: C6 06 012A R 1A   C          MOV     [DEVCALL.REQLEN],DINITHL 
- 0209  36: C6 06 012B R 00   C          MOV     [DEVCALL.REQUNIT],0 
- 020F  36: C6 06 012C R 00   C          MOV     [DEVCALL.REQFUNC],DEVINIT 
- 0215  36: C7 06 012D R 0000 C          MOV     [DEVCALL.REQSTAT],0 
- 021C  06                    C          PUSH    ES 
- 021D  53                    C          PUSH    BX 
- 021E  50                    C          PUSH    AX 
- 021F  BB 012A R             C          MOV     BX,OFFSET DOSGROUP:DEVCALL 
- 0222  0E                    C          PUSH    CS 
- 0223  07                    C          POP     ES 
+ 020D  36: C6 06 012A R 1A   C          MOV     [DEVCALL.REQLEN],DINITHL 
+ 0213  36: C6 06 012B R 00   C          MOV     [DEVCALL.REQUNIT],0 
+ 0219  36: C6 06 012C R 00   C          MOV     [DEVCALL.REQFUNC],DEVINIT 
+ 021F  36: C7 06 012D R 0000 C          MOV     [DEVCALL.REQSTAT],0 
+ 0226  06                    C          PUSH    ES 
+ 0227  53                    C          PUSH    BX 
+ 0228  50                    C          PUSH    AX 
+ 0229  BB 012A R             C          MOV     BX,OFFSET DOSGROUP:DEVCALL 
+ 022C  0E                    C          PUSH    CS 
+ 022D  07                    C          POP     ES 
                              C          invoke  DEVIOCALL2 
- 0224  E8 0000 E             C1  CALL DEVIOCALL2
- 0227  58                    C          POP     AX 
- 0228  5B                    C          POP     BX 
- 0229  07                    C          POP     ES 
- 022A  C3                    C          RET 
+ 022E  E8 0000 E             C1  CALL DEVIOCALL2
+ 0231  58                    C          POP     AX 
+ 0232  5B                    C          POP     BX 
+ 0233  07                    C          POP     ES 
+ 0234  C3                    C          RET 
                              C   
- 022B  0080[                 C          DB      80H DUP(?) 
+ 0235  0080[                 C          DB      80H DUP(?) 
             ??               C  
                          ]   C  
                              C  
- 02AB                        C  INITSTACK LABEL BYTE 
- 02AB  ????                  C          DW      ? 
+ 02B5                        C  INITSTACK LABEL BYTE 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
+Standard MSDOS                                              Page     1-88
+Uninitialized data overlayed by initialization code         
+
+ 02B5  ????                  C          DW      ? 
                              C   
- 02AD                        C  MEMSTRT LABEL   WORD 
- = 02AD                      C  ADJFAC  EQU     MEMSTRT-SYSBUF 
+ 02B7                        C  MEMSTRT LABEL   WORD 
+ = 02B7                      C  ADJFAC  EQU     MEMSTRT-SYSBUF 
                              C   
                              C          do_ext 
- 02AD                        C  LAST    ENDS 
+ 02B7                        C  LAST    ENDS 
                              C   
                                  
                                  
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-1
                                                              
 
@@ -3688,7 +3704,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-2
                                                              
 
@@ -3746,7 +3762,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-3
                                                              
 
@@ -3804,7 +3820,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-4
                                                              
 
@@ -3860,13 +3876,13 @@ Segments and Groups:
 
 DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'CODE'
-  CONSTANTS  . . . . . . . . . .  	0189	BYTE	PUBLIC	'CONST'
-  DATA . . . . . . . . . . . . .  	08CA	WORD	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+  CONSTANTS  . . . . . . . . . .  	018D	BYTE	PUBLIC	'CONST'
+  DATA . . . . . . . . . . . . .  	038A	WORD	PUBLIC	'DATA'
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-5
                                                              
 
-  LAST . . . . . . . . . . . . .  	02AD	BYTE	PUBLIC	'LAST'
+  LAST . . . . . . . . . . . . .  	02B7	BYTE	PUBLIC	'LAST'
 START  . . . . . . . . . . . . .  	0003	BYTE	PUBLIC	'START'
 
 Symbols:            
@@ -3886,7 +3902,7 @@ ADDR_INT_FATAL_ABORT . . . . . .  	Number	0090
 ADDR_INT_KEEP_PROCESS  . . . . .  	Number	009C	
 ADDR_INT_SPOOLER . . . . . . . .  	Number	00A0	
 ADDR_INT_TERMINATE . . . . . . .  	Number	0088	
-ADJFAC . . . . . . . . . . . . .  	Number	02AD	
+ADJFAC . . . . . . . . . . . . .  	Number	02B7	
 ALLOC  . . . . . . . . . . . . .  	Number	0048	
 ALLOCMETHOD  . . . . . . . . . .  	L BYTE 	00EA	CONSTANTS	Global
 ALLOCOPER  . . . . . . . . . . .  	Number	0058	
@@ -3908,7 +3924,7 @@ ATTR_IGNORE  . . . . . . . . . .  	Number	0021
 ATTR_READ_ONLY . . . . . . . . .  	Number	0001	
 ATTR_SYSTEM  . . . . . . . . . .  	Number	0004	
 ATTR_VOLUME_ID . . . . . . . . .  	Number	0008	
-AUXSTACK . . . . . . . . . . . .  	L BYTE 	0786	DATA	Global	Length = 00A0
+AUXSTACK . . . . . . . . . . . .  	L BYTE 	0246	DATA	Global	Length = 00A0
 
 BCLOCK . . . . . . . . . . . . .  	L DWORD	00F5	CONSTANTS	Global
 BCON . . . . . . . . . . . . . .  	L DWORD	00F9	CONSTANTS	Global
@@ -3920,7 +3936,7 @@ BYTCNT1  . . . . . . . . . . . .  	L WORD 	0179	DATA	Global
 BYTCNT2  . . . . . . . . . . . .  	L WORD 	017B	DATA	Global
 BYTPOS . . . . . . . . . . . . .  	L BYTE 	0175	DATA	Global	Length = 0004
 BYTSECPOS  . . . . . . . . . . .  	L WORD 	0173	DATA	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-6
                                                              
 
@@ -3936,10 +3952,10 @@ CALLSSEC . . . . . . . . . . . .  	L WORD 	013E	CONSTANTS
 CALLUNIT . . . . . . . . . . . .  	L BYTE 	0137	CONSTANTS
 CALLXAD  . . . . . . . . . . . .  	L DWORD	0138	CONSTANTS	Global
 CALL_ENTRY . . . . . . . . . . .  	L NEAR	0000	DATA	External
-CANCEL . . . . . . . . . . . . .  	Number	001B	
+CANCEL . . . . . . . . . . . . .  	Number	0018	
 CARPOS . . . . . . . . . . . . .  	L BYTE 	00D5	CONSTANTS	Global
 CHARCO . . . . . . . . . . . . .  	L BYTE 	00DB	CONSTANTS	Global
-CHARINIT . . . . . . . . . . . .  	L NEAR	0203	LAST
+CHARINIT . . . . . . . . . . . .  	L NEAR	020D	LAST
 CHAR_INIT_LOOP . . . . . . . . .  	L NEAR	005E	LAST
 CHAR_OPER  . . . . . . . . . . .  	Number	0037	
 CHDIR  . . . . . . . . . . . . .  	Number	003B	
@@ -3972,13 +3988,13 @@ COUTDSAV . . . . . . . . . . . .  	L BYTE 	0197	DATA	Global
 COUTSAV  . . . . . . . . . . . .  	L DWORD	0198	DATA	Global
 CREAT  . . . . . . . . . . . . .  	Number	003C	
 CREATENEWFILE  . . . . . . . . .  	Number	005B	
-CREATEPDB  . . . . . . . . . . .  	L BYTE 	0186	CONSTANTS	Global
+CREATEPDB  . . . . . . . . . . .  	L BYTE 	018A	CONSTANTS	Global
 CREATETEMPFILE . . . . . . . . .  	Number	005A	
 CREATE_PROCESS_DATA_BLOCK  . . .  	Number	0026	
 CREATING . . . . . . . . . . . .  	L BYTE 	0138	DATA	Global
 CREAT_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 CREAT_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-7
                                                              
 
@@ -3986,7 +4002,7 @@ CREAT_TOO_MANY_OPEN_FILES  . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES
 CURBUF . . . . . . . . . . . . .  	L DWORD	0189	DATA	Global
 CURDIR_INVALID_DRIVE . . . . . .  	Alias	 ERROR_INVALID_DRIVE		
 CURDRV . . . . . . . . . . . . .  	L BYTE 	011D	CONSTANTS	Global
-CURRENTPDB . . . . . . . . . . .  	L WORD 	0184	CONSTANTS	Global
+CURRENTPDB . . . . . . . . . . .  	L WORD 	0188	CONSTANTS	Global
 CURRENT_COUNTRY  . . . . . . . .  	V WORD 	0000	CONSTANTS	External
 CURRENT_DIR  . . . . . . . . . .  	Number	0047	
 C_BS . . . . . . . . . . . . . .  	Number	0008	
@@ -4036,7 +4052,7 @@ DEVIOCTL . . . . . . . . . . . .  	Number	4000
 DEVIST . . . . . . . . . . . . .  	Number	0006	
 DEVMDCH  . . . . . . . . . . . .  	Number	0001	
 DEVOFL . . . . . . . . . . . . .  	Number	000B	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-8
                                                              
 
@@ -4065,8 +4081,9 @@ DIVOV  . . . . . . . . . . . . .  	L NEAR	0000	LAST	External
 DMAADD . . . . . . . . . . . . .  	L DWORD	00DC	CONSTANTS	Global
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
 DOSINIT  . . . . . . . . . . . .  	L NEAR	0000	LAST
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBHEAD  . . . . . . . . . . . .  	L DWORD	00ED	CONSTANTS	Global
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
@@ -4075,7 +4092,7 @@ DRIVESPEC  . . . . . . . . . . .  	L BYTE 	014B	DATA	Global
 DSKCHRET . . . . . . . . . . . .  	L BYTE 	0167	CONSTANTS	Global
 DSKERR . . . . . . . . . . . . .  	L BYTE 	0142	DATA	Global
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
-DSKSTACK . . . . . . . . . . . .  	L BYTE 	0826	DATA	Global	Length = 00A0
+DSKSTACK . . . . . . . . . . . .  	L BYTE 	02E6	DATA	Global	Length = 00A0
 DSKSTCALL  . . . . . . . . . . .  	L BYTE 	015A	CONSTANTS	Global
 DSKSTCNT . . . . . . . . . . . .  	L WORD 	016C	CONSTANTS	Global
 DSKSTCOM . . . . . . . . . . . .  	L BYTE 	015C	CONSTANTS	Global
@@ -4093,11 +4110,11 @@ ENTRYPOINT . . . . . . . . . . .  	Number	00C0
 ENTRYPOINTSEG  . . . . . . . . .  	Number	000C	
 ERRORMODE  . . . . . . . . . . .  	L BYTE 	0121	CONSTANTS	Global
 ERROR_ACCESS_DENIED  . . . . . .  	Number	0005	
-ERROR_ARENA_TRASHED  . . . . . .  	Number	0007	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-9
                                                              
 
+ERROR_ARENA_TRASHED  . . . . . .  	Number	0007	
 ERROR_BAD_ENVIRONMENT  . . . . .  	Number	000A	
 ERROR_BAD_FORMAT . . . . . . . .  	Number	000B	
 ERROR_CURRENT_DIRECTORY  . . . .  	Number	0010	
@@ -4113,7 +4130,7 @@ ERROR_NOT_SAME_DEVICE  . . . . .  	Number	0011
 ERROR_NO_MORE_FILES  . . . . . .  	Number	0012	
 ERROR_PATH_NOT_FOUND . . . . . .  	Number	0003	
 ERROR_TOO_MANY_OPEN_FILES  . . .  	Number	0004	
-ESCCH  . . . . . . . . . . . . .  	Number	0000	
+ESCCH  . . . . . . . . . . . . .  	Number	001B	
 EXEC . . . . . . . . . . . . . .  	Number	004B	
 EXEC_BAD_ENVIRONMENT . . . . . .  	Alias	 ERROR_BAD_ENVIRONMENT		
 EXEC_BAD_FORMAT  . . . . . . . .  	Alias	 ERROR_BAD_FORMAT		
@@ -4151,11 +4168,11 @@ FCB_SEQ_READ . . . . . . . . . .  	Number	0014
 FCB_SEQ_WRITE  . . . . . . . . .  	Number	0015	
 FILDIRENT  . . . . . . . . . . .  	Number	0010	
 FILETIMES_INVALID_FUNCTION . . .  	Alias	 ERROR_INVALID_FUNCTION		
-FILETIMES_INVALID_HANDLE . . . .  	Alias	 ERROR_INVALID_HANDLE		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-10
                                                              
 
+FILETIMES_INVALID_HANDLE . . . .  	Alias	 ERROR_INVALID_HANDLE		
 FILE_TIMES . . . . . . . . . . .  	Number	0057	
 FILPERPROC . . . . . . . . . . .  	Number	0014	
 FINDFIRST_FILE_NOT_FOUND . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
@@ -4185,17 +4202,17 @@ GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 GROWCNT  . . . . . . . . . . . .  	L DWORD	0185	DATA	Global
 
+HEADER . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
-IBMPAD . . . . . . . . . . . . .  	L BYTE 	01A5	DATA	Length = 0540
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 IDLEINT  . . . . . . . . . . . .  	L BYTE 	0124	CONSTANTS	Global
 INBUF  . . . . . . . . . . . . .  	L BYTE 	0000	DATA	Global	Length = 0080
 INDOS  . . . . . . . . . . . . .  	L BYTE 	0120	CONSTANTS	Global
 INITBLOCK  . . . . . . . . . . .  	L BYTE 	0000	DATA	Length = 0110
 INITSP . . . . . . . . . . . . .  	L WORD 	0110	DATA
 INITSS . . . . . . . . . . . . .  	L WORD 	0112	DATA
-INITSTACK  . . . . . . . . . . .  	L BYTE 	02AB	LAST
+INITSTACK  . . . . . . . . . . .  	L BYTE 	02B5	LAST
 INSMODE  . . . . . . . . . . . .  	L BYTE 	014E	DATA	Global
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
@@ -4209,11 +4226,11 @@ INT_CTRL_C . . . . . . . . . . .  	Number	0023
 INT_DISK_READ  . . . . . . . . .  	Number	0025	
 INT_DISK_WRITE . . . . . . . . .  	Number	0026	
 INT_FASTCON  . . . . . . . . . .  	Number	0029	
-INT_FATAL_ABORT  . . . . . . . .  	Number	0024	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-11
                                                              
 
+INT_FATAL_ABORT  . . . . . . . .  	Number	0024	
 INT_KEEP_PROCESS . . . . . . . .  	Number	0027	
 INT_SPOOLER  . . . . . . . . . .  	Number	0028	
 INT_TERMINATE  . . . . . . . . .  	Number	0022	
@@ -4227,7 +4244,7 @@ IOMED  . . . . . . . . . . . . .  	L BYTE 	0151	CONSTANTS	Global
 IORCHR . . . . . . . . . . . . .  	L BYTE 	0151	CONSTANTS	Global
 IOSCNT . . . . . . . . . . . . .  	L WORD 	0156	CONSTANTS	Global
 IOSSEC . . . . . . . . . . . . .  	L WORD 	0158	CONSTANTS	Global
-IOSTACK  . . . . . . . . . . . .  	L BYTE 	08C6	DATA	Global
+IOSTACK  . . . . . . . . . . . .  	L BYTE 	0386	DATA	Global
 IOXAD  . . . . . . . . . . . . .  	L DWORD	0152	CONSTANTS	Global
 IRET . . . . . . . . . . . . . .  	L NEAR	0000	DATA	External
 ISCIN  . . . . . . . . . . . . .  	Number	0001	
@@ -4246,7 +4263,7 @@ LASTENT  . . . . . . . . . . . .  	L WORD 	011E	CONSTANTS	Global
 LASTPOS  . . . . . . . . . . . .  	L WORD 	0167	DATA	Global
 LBRPRI . . . . . . . . . . . . .  	Number	0002	
 LBWPRI . . . . . . . . . . . . .  	Number	0004	
-LEAVEADDR  . . . . . . . . . . .  	L WORD 	0187	CONSTANTS	Global
+LEAVEADDR  . . . . . . . . . . .  	L WORD 	018B	CONSTANTS	Global
 LOCKOPER . . . . . . . . . . . .  	Number	005C	
 LSEEK  . . . . . . . . . . . . .  	Number	0042	
 LSEEK_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
@@ -4254,7 +4271,7 @@ LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 
 MAXDIF . . . . . . . . . . . . .  	Number	0FFF	
 MAXSEC . . . . . . . . . . . . .  	L WORD 	00FE	CONSTANTS
-MEMSTRT  . . . . . . . . . . . .  	L WORD 	02AD	LAST	Global
+MEMSTRT  . . . . . . . . . . . .  	L WORD 	02B7	LAST	Global
 MI_INT . . . . . . . . . . . . .  	Number	00CD	
 MI_LONG_CALL . . . . . . . . . .  	Number	009A	
 MI_LONG_JMP  . . . . . . . . . .  	Number	00EA	
@@ -4265,12 +4282,12 @@ MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND
 MONTAB . . . . . . . . . . . . .  	L BYTE 	0178	CONSTANTS	Global	Length = 000C
 MONTH  . . . . . . . . . . . . .  	L BYTE 	0117	CONSTANTS	Global
 MOVDPB . . . . . . . . . . . . .  	L NEAR	0116	DATA
-MOVJMP . . . . . . . . . . . . .  	L NEAR	01FE	LAST
-MSVER  . . . . . . . . . . . . .  	Alias	 FALSE		
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+MOVJMP . . . . . . . . . . . . .  	L NEAR	0208	LAST
+MSVER  . . . . . . . . . . . . .  	Alias	 TRUE		
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-12
                                                              
+
 
 NAME1  . . . . . . . . . . . . .  	L BYTE 	010F	DATA	Global	Length = 000C
 NAME2  . . . . . . . . . . . . .  	L BYTE 	011C	DATA	Global	Length = 000D
@@ -4279,14 +4296,14 @@ NEXTADD  . . . . . . . . . . . .  	L WORD 	015F	DATA	Global
 NOSETDIR . . . . . . . . . . . .  	L BYTE 	00D2	CONSTANTS	Global
 NOTMAX . . . . . . . . . . . . .  	L NEAR	00C5	LAST
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
-NSP  . . . . . . . . . . . . . .  	L WORD 	08C8	DATA	Global
-NSS  . . . . . . . . . . . . . .  	L WORD 	08C6	DATA	Global
+NSP  . . . . . . . . . . . . . .  	L WORD 	0388	DATA	Global
+NSS  . . . . . . . . . . . . . .  	L WORD 	0386	DATA	Global
 NULDEV . . . . . . . . . . . . .  	L DWORD	0104	CONSTANTS	Global
 NULLDEVPT  . . . . . . . . . . .  	L DWORD	018E	DATA	Global
 NUMIO  . . . . . . . . . . . . .  	L BYTE 	00FD	CONSTANTS	Global
 NXTCLUSNUM . . . . . . . . . . .  	L WORD 	0183	DATA	Global
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -4294,6 +4311,7 @@ OEM_C4 . . . . . . . . . . . . .  	Number	00FC
 OEM_C5 . . . . . . . . . . . . .  	Number	00FD	
 OEM_C6 . . . . . . . . . . . . .  	Number	00FE	
 OEM_C7 . . . . . . . . . . . . .  	Number	00FF	
+OEM_HANDLER  . . . . . . . . . .  	L DWORD	0184	CONSTANTS	Global
 OPEN . . . . . . . . . . . . . .  	Number	003D	
 OPEN_ACCESS_DENIED . . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 OPEN_FILE_NOT_FOUND  . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
@@ -4324,12 +4342,12 @@ RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
 RMDIR  . . . . . . . . . . . . .  	Number	003A	
-RMDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-RMDIR_CURRENT_DIRECTORY  . . . .  	Alias	 ERROR_CURRENT_DIRECTORY		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-13
                                                              
 
+RMDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
+RMDIR_CURRENT_DIRECTORY  . . . .  	Alias	 ERROR_CURRENT_DIRECTORY		
 RMDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 ROOTSTART  . . . . . . . . . . .  	L BYTE 	014C	DATA	Global
 RPRI . . . . . . . . . . . . . .  	Number	0006	
@@ -4382,20 +4400,20 @@ STD_CON_STRING_OUTPUT  . . . . .  	Number	0009
 STD_PRINTER_OUTPUT . . . . . . .  	Number	0005	
 STECODE  . . . . . . . . . . . .  	Number	00FF	
 STERR  . . . . . . . . . . . . .  	Number	8000	
-SWITCH_CHARACTER . . . . . . . .  	L BYTE 	00E2	CONSTANTS	Global
-SYSBUF . . . . . . . . . . . . .  	L WORD 	0000	LAST	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:28:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:44:09
 Standard MSDOS                                              Symbols-14
                                                              
 
+SWITCH_CHARACTER . . . . . . . .  	L BYTE 	00E2	CONSTANTS	Global
+SYSBUF . . . . . . . . . . . . .  	L WORD 	0000	LAST	Global
 SYSINITVAR . . . . . . . . . . .  	L WORD 	00ED	CONSTANTS	Global
 
 THISDPB  . . . . . . . . . . . .  	L DWORD	0146	DATA	Global
 THISDRV  . . . . . . . . . . . .  	L BYTE 	0145	DATA	Global
 THISFCB  . . . . . . . . . . . .  	L DWORD	015B	DATA	Global
 TIMEBUF  . . . . . . . . . . . .  	L BYTE 	0103	DATA	Global	Length = 0006
-TOGLINS  . . . . . . . . . . . .  	Alias	 TRUE		
-TOGLPRN  . . . . . . . . . . . .  	Alias	 TRUE		
+TOGLINS  . . . . . . . . . . . .  	Alias	 WANG		
+TOGLPRN  . . . . . . . . . . . .  	Alias	 FALSE		
 TRANS  . . . . . . . . . . . . .  	L BYTE 	0143	DATA	Global
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 TRUEDPBAD  . . . . . . . . . . .  	L NEAR	0116	LAST
@@ -4408,8 +4426,7 @@ USER_SP  . . . . . . . . . . . .  	L WORD 	013B	DATA	Global
 USER_SS  . . . . . . . . . . . .  	L WORD 	013D	DATA	Global
 
 VALSEC . . . . . . . . . . . . .  	L WORD 	0171	DATA	Global
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VERFLG . . . . . . . . . . . . .  	L BYTE 	00D8	CONSTANTS	Global
 VOLID  . . . . . . . . . . . . .  	L BYTE 	018D	DATA	Global
 
@@ -4434,10 +4451,10 @@ ZEROEXT  . . . . . . . . . . . .  	Alias	 TRUE
 
 
    2318 Source  Lines
-   3989 Total   Lines
-    730 Symbols
+   3997 Total   Lines
+    732 Symbols
 
-  13722 Bytes symbol space free
+  13794 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ GETSET - GETting and SETting MS-DOS system calls            Page     1-1
  0000                         1  DATA ENDS
                                         i_need  SWITCH_CHARACTER,BYTE 
  0000                         1  DATA SEGMENT BYTE PUBLIC 'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -68,20 +68,20 @@ DEVICE TABLE AND SRH DEFINITION
  0000  ????                     USERNUM DW      ?                       ; 24 bi
 				t user number 
  0002  ??                               DB      ? 
-                                        IF      IBM 
- 0003  00                       OEMNUM  DB      0                       ; 8 bit
+                                        ELSE 
+ 0003  FF                       OEMNUM  DB      0FFH                    ; 8 bit
 				 OEM number 
                                         ENDIF 
                                  
  = 0004                         MSVERS  EQU     THIS WORD               ; MS-DO
 				S version in hex for $GET_VERSION 
  0004  02                       MSMAJOR DB      DOS_MAJOR_VERSION 
- 0005  00                       MSMINOR DB      DOS_MINOR_VERSION 
+ 0005  0B                       MSMINOR DB      DOS_MINOR_VERSION 
                                  
                                  
                                 BREAK <$Get_Version -- Return MSDOS version num
 				ber> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-3
 $Get_Version -- Return MSDOS version number                 
 
@@ -119,7 +119,7 @@ $Get_Version -- Return MSDOS version number
                                  
                                 BREAK <$International - return country-dependen
 				t information> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-4
 $International - return country-dependent information       
 
@@ -177,7 +177,7 @@ $International - return country-dependent information
  003E  73 19                            JNC     international_copy 
                                         error   country_not_found 
  0040  B0 02                  1  MOV AL,country_not_found
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-5
 $International - return country-dependent information       
 
@@ -235,12 +235,12 @@ $International - return country-dependent information
                                 $INTERNATIONAL  ENDP 
                                  
                                 BREAK <$Get_Verify_on_Write - return verify-aft
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-6
 $International - return country-dependent information       
 
 				er-write flag> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-7
 $Get_Verify_on_Write - return verify-after-write flag       
 
@@ -263,7 +263,7 @@ $Get_Verify_on_Write - return verify-after-write flag
                                  
                                 BREAK <$Set_Verify_on_Write - Toggle verify-aft
 				er-write flag> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-8
 $Set_Verify_on_Write - Toggle verify-after-write flag       
 
@@ -287,7 +287,7 @@ $Set_Verify_on_Write - Toggle verify-after-write flag
                                  
                                 BREAK <$Set_CTRL_C_Trapping -- En/Disable ^C ch
 				eck in dispatcher> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-9
 $Set_CTRL_C_Trapping -- En/Disable ^C check in dispatcher   
 
@@ -331,7 +331,7 @@ $Set_CTRL_C_Trapping -- En/Disable ^C check in dispatcher
                                  
                                 BREAK <$Get_INDOS_Flag -- Return location of DO
 				S critical-section flag> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-10
 $Get_INDOS_Flag -- Return location of DOS critical-section f
 
@@ -388,7 +388,7 @@ $Get_INDOS_Flag -- Return location of DOS critical-section f
                                  
                                 BREAK <$Get_Drive_Freespace -- Return bytes of 
 				free disk space on a drive> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-11
 $Get_Drive_Freespace -- Return bytes of free disk space on a
 
@@ -446,7 +446,7 @@ $Get_Drive_Freespace -- Return bytes of free disk space on a
  00EE  E8 0000 E              1  CALL get_user_stack
                                 ASSUME  DS:NOTHING 
  00F1  89 4C 04                         MOV     [SI. user_CX],CX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-12
 $Get_Drive_Freespace -- Return bytes of free disk space on a
 
@@ -461,7 +461,7 @@ $Get_Drive_Freespace -- Return bytes of free disk space on a
                                  
                                 BREAK <$Get_DMA, $Set_DMA -- Get/Set current DM
 				A address> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-13
 $Get_DMA, $Set_DMA -- Get/Set current DMA address           
 
@@ -509,7 +509,7 @@ $Get_DMA, $Set_DMA -- Get/Set current DMA address
                                  
                                 BREAK <$Get_Default_DPB,$Get_DPB -- Return poin
 				ter to DPB> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-14
 $Get_Default_DPB,$Get_DPB -- Return pointer to DPB          
 
@@ -567,7 +567,7 @@ $Get_Default_DPB,$Get_DPB -- Return pointer to DPB
                                 ;            C  A  V  E  A  T     P  R  O  G  R
 				  A  M  M  E  R             ; 
                                 ;----+----+----+----+----+----+----+----+----+-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-15
 $Get_Default_DPB,$Get_DPB -- Return pointer to DPB          
 
@@ -576,7 +576,7 @@ $Get_Default_DPB,$Get_DPB -- Return pointer to DPB
                                  
                                 BREAK <$Get_Default_Drive, $Set_Default_Drive -
 				- Set/Get default drive> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-16
 $Get_Default_Drive, $Set_Default_Drive -- Set/Get default dr
 
@@ -622,7 +622,7 @@ $Get_Default_Drive, $Set_Default_Drive -- Set/Get default dr
                                  
                                 BREAK <$Get_Interrupt_Vector - Get/Set interrup
 				t vectors> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-17
 $Get_Interrupt_Vector - Get/Set interrupt vectors           
 
@@ -680,7 +680,7 @@ $Get_Interrupt_Vector - Get/Set interrupt vectors
  0169  8E C3                            MOV     ES,BX 
  016B  8A D8                            MOV     BL,AL 
  016D  D1 E3                            SHL     BX,1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-18
 $Get_Interrupt_Vector - Get/Set interrupt vectors           
 
@@ -692,7 +692,7 @@ $Get_Interrupt_Vector - Get/Set interrupt vectors
                                  
                                 BREAK <$Char_Oper - hack on paths, switches so 
 				that xenix can look like PCDOS> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-19
 $Char_Oper - hack on paths, switches so that xenix can look 
 
@@ -750,7 +750,7 @@ $Char_Oper - hack on paths, switches so that xenix can look
  019D  E8 0000 E              1  CALL get_user_stack
  01A0  89 54 06                         MOV     [SI.user_DX],DX 
                                         return 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-20
 $Char_Oper - hack on paths, switches so that xenix can look 
 
@@ -760,7 +760,7 @@ $Char_Oper - hack on paths, switches so that xenix can look
                                  
                                 BREAK <$SetDPB - Create a valid DPB from a user
 				-specified BPB> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-21
 $SetDPB - Create a valid DPB from a user-specified BPB      
 
@@ -818,7 +818,7 @@ $SetDPB - Create a valid DPB from a user-specified BPB
  01D2  8B CA                            MOV     CX,DX 
  01D4  33 D2                            XOR     DX,DX 
  01D6  F7 F1                            DIV     CX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Page     1-22
 $SetDPB - Create a valid DPB from a user-specified BPB      
 
@@ -872,7 +872,7 @@ $SetDPB - Create a valid DPB from a user-specified BPB
  0207                           CODE    ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-1
                                                              
 
@@ -930,7 +930,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-2
                                                              
 
@@ -988,7 +988,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-3
                                                              
 
@@ -1046,7 +1046,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-4
                                                              
 
@@ -1104,7 +1104,7 @@ DOSGROUP . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	0207	BYTE	PUBLIC	'CODE'
   CONSTANTS  . . . . . . . . . .  	0000	BYTE	PUBLIC	'CONST'
   DATA . . . . . . . . . . . . .  	0000	BYTE	PUBLIC	'DATA'
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-5
                                                              
 
@@ -1162,7 +1162,7 @@ CHMOD_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 CHMOD_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 CHMOD_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 CLOSE  . . . . . . . . . . . . .  	Number	003E	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-6
                                                              
 
@@ -1220,7 +1220,7 @@ DEVIFL . . . . . . . . . . . . .  	Number	0007
 DEVINIT  . . . . . . . . . . . .  	Number	0000	
 DEVIOCTL . . . . . . . . . . . .  	Number	4000	
 DEVIST . . . . . . . . . . . . .  	Number	0006	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-7
                                                              
 
@@ -1243,8 +1243,9 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DMAADD . . . . . . . . . . . . .  	V DWORD	0000	DATA	External
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
@@ -1277,11 +1278,11 @@ EXEC . . . . . . . . . . . . . .  	Number	004B
 EXEC_BAD_ENVIRONMENT . . . . . .  	Alias	 ERROR_BAD_ENVIRONMENT		
 EXEC_BAD_FORMAT  . . . . . . . .  	Alias	 ERROR_BAD_FORMAT		
 EXEC_FILE_NOT_FOUND  . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-EXEC_FUNC_NO_EXECUTE . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-8
                                                              
 
+EXEC_FUNC_NO_EXECUTE . . . . . .  	Number	0001	
 EXEC_FUNC_OVERLAY  . . . . . . .  	Number	0002	
 EXEC_INVALID_FUNCTION  . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 EXEC_NOT_ENOUGH_MEMORY . . . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
@@ -1335,11 +1336,11 @@ GET_TIME . . . . . . . . . . . .  	Number	002C
 GET_VERIFY_ON_WRITE  . . . . . .  	Number	0054	
 GET_VERSION  . . . . . . . . . .  	Number	0030	
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-9
                                                              
 
+IBM  . . . . . . . . . . . . . .  	Number	0000	
 INDOS  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
@@ -1393,11 +1394,11 @@ MI_LONG_RET  . . . . . . . . . .  	Number	00CB
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-MSMAJOR  . . . . . . . . . . . .  	L BYTE 	0004	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-10
                                                              
 
+MSMAJOR  . . . . . . . . . . . .  	L BYTE 	0004	CODE
 MSMINOR  . . . . . . . . . . . .  	L BYTE 	0005	CODE
 MSVERS . . . . . . . . . . . . .  	WORD 	0004	CODE
 
@@ -1405,7 +1406,7 @@ NOTFREECLUS  . . . . . . . . . .  	L NEAR	00DE	CODE
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NUMIO  . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEMNUM . . . . . . . . . . . . .  	L BYTE 	0003	CODE
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
@@ -1451,11 +1452,11 @@ SETBLOCK . . . . . . . . . . . .  	Number	004A
 SETBLOCK_ARENA_TRASHED . . . . .  	Alias	 ERROR_ARENA_TRASHED		
 SETBLOCK_INVALID_BLOCK . . . . .  	Alias	 ERROR_INVALID_BLOCK		
 SETBLOCK_INVALID_FUNCTION  . . .  	Alias	 ERROR_INVALID_FUNCTION		
-SETBLOCK_NOT_ENOUGH_MEMORY . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-11
                                                              
 
+SETBLOCK_NOT_ENOUGH_MEMORY . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
 SETDPB . . . . . . . . . . . . .  	Number	0053	
 SET_CTRL_C_TRAPPING  . . . . . .  	Number	0033	
 SET_CURRENT_PDB  . . . . . . . .  	Number	0050	
@@ -1497,8 +1498,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 USERNUM  . . . . . . . . . . . .  	L WORD 	0000	CODE
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VERFLG . . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -1510,7 +1510,7 @@ WRITE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 
 XDUP . . . . . . . . . . . . . .  	Number	0045	
 XDUP2  . . . . . . . . . . . . .  	Number	0046	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:23:40
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:39:08
 GETSET - GETting and SETting MS-DOS system calls            Symbols-12
                                                              
 

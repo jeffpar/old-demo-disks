@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-1
                                                             
 
@@ -18,7 +18,7 @@ CHKPROC - Procedures called from chkdsk                     Page     1-1
                              C   
                              C  SUBTTL BREAK a listing into pages and give new 
 				subtitles 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-2
 BREAK a listing into pages and give new subtitles           
 
@@ -30,7 +30,7 @@ BREAK a listing into pages and give new subtitles
                              C   
                              C  BREAK <I_NEED: declare a variable external, if 
 				necessary, and allocate a size> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-3
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -68,7 +68,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   CALL name 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-4
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -126,13 +126,13 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  procedure MACRO name,distance 
                              C   PUBLIC name 
                              C  name PROC distance 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-5
 I_NEED: declare a variable external, if necessary, and alloc
 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-6
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -159,7 +159,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   ENDIF 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-7
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -170,7 +170,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  do_ext macro 
                              C  endm 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-8
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -186,7 +186,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   
                              C  BREAK <ERROR - print a message and then jump to
 				 a label> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-9
 ERROR - print a message and then jump to a label            
 
@@ -201,7 +201,7 @@ ERROR - print a message and then jump to a label
                              C   
                              C  BREAK <JUMP - real jump that links up shortwise
 				> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-10
 JUMP - real jump that links up shortwise                    
 
@@ -234,7 +234,7 @@ JUMP - real jump that links up shortwise
                              C  endm 
                              C   
                              C  BREAK <RETURN - return from a function> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-11
 RETURN - return from a function                             
 
@@ -249,7 +249,7 @@ RETURN - return from a function
                              C  endm 
                              C   
                              C  BREAK <CONDRET - conditional return> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-12
 CONDRET - conditional return                                
 
@@ -307,7 +307,7 @@ CONDRET - conditional return
                              C  ; endif 
                              C  ; j&ncc a ; j<NCC> a: 
                              C  ; return ; return 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-13
 CONDRET - conditional return                                
 
@@ -318,7 +318,7 @@ CONDRET - conditional return
                              C  ; 
                              C  BREAK <RETZ - return if zero, links up shortwis
 				e if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-14
 RETZ - return if zero, links up shortwise if necessary      
 
@@ -329,7 +329,7 @@ RETZ - return if zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETNZ - return if not zero, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-15
 RETNZ - return if not zero, links up shortwise if necessary 
 
@@ -340,7 +340,7 @@ RETNZ - return if not zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETC - return if carry set, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-16
 RETC - return if carry set, links up shortwise if necessary 
 
@@ -351,7 +351,7 @@ RETC - return if carry set, links up shortwise if necessary
                              C   
                              C  BREAK <RETNC - return if not carry, links up sh
 				ortwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-17
 RETNC - return if not carry, links up shortwise if necessary
 
@@ -362,7 +362,7 @@ RETNC - return if not carry, links up shortwise if necessary
                              C   
                              C  BREAK <CONTEXT - set the DOS context to a parti
 				cular register> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-18
 CONTEXT - set the DOS context to a particular register      
 
@@ -379,19 +379,18 @@ CONTEXT - set the DOS context to a particular register
                              C   
                              C  ENDIF 
                              C   
-                             C  ELSE 
-                             C    IF IBM 
-                             C      ENDIF 
+                             C  IFNDEF IBM		;STDSW.ASM (and COMSW.ASM) may have
+				 already set IBM 
                              C    ENDIF 
                              C  ENDIF 
                              C   
                              C  ENDIF 
                              C   
- = 0002                      C  DOS_MAJOR_VERSION   EQU	    (VER / 100) 
- = 0000                      C  DOS_MINOR_VERSION   EQU     (VER MOD 100) 
+ = 0002                      C  DOS_MAJOR_VERSION   EQU	    (DOSVER / 100) 
+ = 000B                      C  DOS_MINOR_VERSION   EQU     (DOSVER MOD 100) 
                              C   
                              C  BREAK <Control character definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-19
 Control character definitions                               
 
@@ -413,7 +412,7 @@ Control character definitions
  = 0009                      C  c_HT        EQU     09h         ; ^I ASCII tab 
                              C   
                              C  BREAK <BPB Definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-20
 BPB Definition                                              
 
@@ -453,7 +452,7 @@ BPB Definition
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK  <Bios Parameter Block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-21
 Bios Parameter Block                                        
 
@@ -491,7 +490,7 @@ Bios Parameter Block
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk I/O Buffer Header> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-22
 Disk I/O Buffer Header                                      
 
@@ -549,12 +548,12 @@ Disk I/O Buffer Header
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-23
 Disk I/O Buffer Header                                      
 
                              C  BREAK <User stack inside of system call> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-24
 User stack inside of system call                            
 
@@ -577,7 +576,7 @@ User stack inside of system call
  0018                        C  user_environ    ENDS 
                              C   
                              C  BREAK <interrupt definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-25
 interrupt definitions                                       
 
@@ -635,7 +634,7 @@ interrupt definitions
  = 008C                      C  addr_int_ctrl_c         EQU    4 * int_ctrl_c 
  = 0090                      C  addr_int_fatal_abort    EQU    4 * int_fatal_ab
 				ort 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-26
 interrupt definitions                                       
 
@@ -661,7 +660,7 @@ interrupt definitions
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk map> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-27
 Disk map                                                    
 
@@ -689,7 +688,7 @@ Disk map
 				le. 
                              C   
                              C  BREAK <Directory entry> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-28
 Directory entry                                             
 
@@ -747,7 +746,7 @@ Directory entry
  001A  ????                  C  dir_first   DW      ?                   ; first
 				 allocation unit of file 
  001C  ????                  C  dir_size_l  DW      ?                   ; low 1
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-29
 Directory entry                                             
 
@@ -781,7 +780,7 @@ Directory entry
 				eable via CHMOD 
                              C   
                              C  BREAK <File allocation Table information> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-30
 File allocation Table information                           
 
@@ -823,7 +822,7 @@ File allocation Table information
 				in is not an error). 
                              C   
                              C  BREAK <DPB structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-31
 DPB structure                                               
 
@@ -881,7 +880,7 @@ DPB structure
                          ]   C  
                              C  
                              C                                  ; ASCIZ string 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-32
 DPB structure                                               
 
@@ -901,7 +900,7 @@ DPB structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <File Control Block definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-33
 File Control Block definition                               
 
@@ -959,7 +958,7 @@ File Control Block definition
                              C  ;       |   random record number    | 
                              C  ;       +---------------------------+ 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-34
 File Control Block definition                               
 
@@ -1017,7 +1016,7 @@ File Control Block definition
  001D  ????                  C  fcb_LSTCLUS DW      ?       ; Last cluster acce
 				ssed and directory pack 2 12 
  001F  ??                    C              DB      ?       ; bit numbers into 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-35
 File Control Block definition                               
 
@@ -1075,7 +1074,7 @@ File Control Block definition
                              C  ;       BIT     7   6   5   4   3   2   1   0 
                              C  ;             |---|---|---|---|---|---|---|---|
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-36
 File Control Block definition                               
 
@@ -1133,7 +1132,7 @@ File Control Block definition
                              C  ; 
                              C  ; find first/next buffer 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-37
 File Control Block definition                               
 
@@ -1173,7 +1172,7 @@ File Control Block definition
  002B                        C  find_buf    ENDS 
                              C   
                              C  BREAK <Process data block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-38
 Process data block                                          
 
@@ -1231,7 +1230,7 @@ Process data block
 				                            ; 
  002E  ????????              C  PDB_User_stack      DD      ?           ; stack
 				 of self during system calls 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-39
 Process data block                                          
 
@@ -1269,7 +1268,7 @@ Process data block
  005B                        C  Process_data_block  ENDS 
                              C   
                              C  BREAK <EXEC and EXE file structures> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-40
 EXEC and EXE file structures                                
 
@@ -1327,7 +1326,7 @@ EXEC and EXE file structures
  0004                        C  Exec3           ENDS 
                              C   
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-41
 EXEC and EXE file structures                                
 
@@ -1385,7 +1384,7 @@ EXEC and EXE file structures
  0006  ??                    C  sym_len         DB  ? 
  0007  00FF[                 C  sym_name        DB  255 dup (?) 
             ??               C  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-42
 EXEC and EXE file structures                                
 
@@ -1394,7 +1393,7 @@ EXEC and EXE file structures
  0106                        C  symbol_entry    ENDS 
                              C   
                              C  BREAK <Internal system file table format> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-43
 Internal system file table format                           
 
@@ -1444,7 +1443,7 @@ Internal system file table format
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Memory arena structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-44
 Memory arena structure                                      
 
@@ -1502,7 +1501,7 @@ Memory arena structure
 				 0 if No space after currency symbol 
                              C                                      ;         =
 				 1 if space after currency symbol 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-45
 Memory arena structure                                      
 
@@ -1549,7 +1548,7 @@ Memory arena structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Machine instruction definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-46
 Machine instruction definitions                             
 
@@ -1560,7 +1559,7 @@ Machine instruction definitions
  = 00CB                      C  mi_Long_RET     EQU     0CBh 
                              C   
                              C  BREAK <Standard I/O assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-47
 Standard I/O assignments                                    
 
@@ -1572,7 +1571,7 @@ Standard I/O assignments
  = 0004                      C  stdprn      EQU     4 
                              C   
                              C  BREAK <Xenix subfunction assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-48
 Xenix subfunction assignments                               
 
@@ -1582,7 +1581,7 @@ Xenix subfunction assignments
  = 0002                      C  open_for_both   EQU 2 
                              C   
                              C  BREAK <Xenix error codes> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-49
 Xenix error codes                                           
 
@@ -1640,7 +1639,7 @@ Xenix error codes
 				ccess_denied 
  =                           C  chmod_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-50
 Xenix error codes                                           
 
@@ -1698,7 +1697,7 @@ Xenix error codes
 				nvalid_handle 
  =                           C  ioctl_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-51
 Xenix error codes                                           
 
@@ -1756,7 +1755,7 @@ Xenix error codes
 				ile_not_found 
  =                           C  unlink_access_denied            EQU     error_a
 				ccess_denied 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-52
 Xenix error codes                                           
 
@@ -1767,7 +1766,7 @@ Xenix error codes
 				ccess_denied 
                              C   
                              C  BREAK <system call definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-53
 system call definitions                                     
 
@@ -1825,7 +1824,7 @@ system call definitions
  = 001A                      C  Set_DMA                         EQU 26  ; 26   
 				  1A 
                              C  ;----+----+----+----+----+----+----+----+----+-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-54
 system call definitions                                     
 
@@ -1883,7 +1882,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;                                              
 				                            ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-55
 system call definitions                                     
 
@@ -1941,7 +1940,7 @@ system call definitions
 				  47 
                              C  ;    Memory Group 
  = 0048                      C  Alloc                           EQU 72  ; 72   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-56
 system call definitions                                     
 
@@ -1999,7 +1998,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-57
 system call definitions                                     
 
@@ -2057,7 +2056,7 @@ system call definitions
                                  
  0000                           CONST   SEGMENT PUBLIC BYTE 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-58
 Segments used in load order                                 
 
@@ -2115,13 +2114,13 @@ Segments used in load order
  0000                           DATA    ENDS 
                                  
                                 DG      GROUP   CODE,CONST,DATA 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-59
 Segments used in load order                                 
 
                                  
                                 SUBTTL  Initialized Data 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-60
 Initialized Data                                            
 
@@ -2179,7 +2178,7 @@ Initialized Data
  0018  74 1A                            JZ      SETROOT 
  001A  80 3C 2F                         CMP     BYTE PTR [SI],"/" 
  001D  74 08                            JZ      SETTERM 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-61
 DIRPROC -- Recursive directory processing                   
 
@@ -2237,7 +2236,7 @@ DIRPROC -- Recursive directory processing
                          ]      
                                 
  001E  ????                     DIRTIM  DW      ? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-62
 DIRPROC -- Recursive directory processing                   
 
@@ -2295,7 +2294,7 @@ DIRPROC -- Recursive directory processing
  0075  8B 46 06                         MOV     AX,[BP+6] 
  0078  AB                               STOSW                           ;Alloc 
 				# 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-63
 DIRPROC -- Recursive directory processing                   
 
@@ -2353,7 +2352,7 @@ DIRPROC -- Recursive directory processing
  00DA  F3/ A4                           REP     MOVSB                   ;Name 
  00DC  50                               PUSH    AX 
  00DD  B0 10                            MOV     AL,ISDIR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-64
 DIRPROC -- Recursive directory processing                   
 
@@ -2411,7 +2410,7 @@ DIRPROC -- Recursive directory processing
  0139  E8 0000 E                        CALL    EPRINT 
  013C  E8 0000 R                        CALL    DOTDOTHARDWAY 
  013F  FE 06 0000 E                     INC     [DOTSNOGOOD] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-65
 DIRPROC -- Recursive directory processing                   
 
@@ -2420,7 +2419,7 @@ DIRPROC -- Recursive directory processing
                                  
  0146  E9 028A R                ROOTDIRJ: JMP   ROOTDIR 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-66
 DIRPROC -- Recursive directory processing                   
 
@@ -2478,7 +2477,7 @@ DIRPROC -- Recursive directory processing
  01A2  BE 0008 E                        MOV     SI,OFFSET DG:DIRBUF + DIRNAM 
  01A5  BF 0000 E                        MOV     DI,OFFSET DG:DOTENT 
  01A8  B9 000B                          MOV     CX,11 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-67
 DIRPROC -- Recursive directory processing                   
 
@@ -2536,7 +2535,7 @@ DIRPROC -- Recursive directory processing
 				 
  020E                           DSIZOK:                                 ;Get ne
 				xt (should be ..) 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-68
 DIRPROC -- Recursive directory processing                   
 
@@ -2594,7 +2593,7 @@ DIRPROC -- Recursive directory processing
  026F  BE 0000 E                        MOV     SI,OFFSET DG:PARSTR 
  0272  BA 0000 E                        MOV     DX,OFFSET DG:BADSIZM 
  0275  E8 0000 E                        CALL    DOTCOMBMES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-69
 DIRPROC -- Recursive directory processing                   
 
@@ -2652,7 +2651,7 @@ DIRPROC -- Recursive directory processing
 				pass 
  02C9  E8 03C0 R                        CALL    CROSSLOOK               ;Check 
 				for cross links 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-70
 DIRPROC -- Recursive directory processing                   
 
@@ -2710,7 +2709,7 @@ DIRPROC -- Recursive directory processing
  0337                           DPROC2: 
  0337  FF 36 0000 E                     PUSH    [ERRSUB] 
  033B  53                               PUSH    BX                      ;Save m
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-71
 DIRPROC -- Recursive directory processing                   
 
@@ -2768,7 +2767,7 @@ DIRPROC -- Recursive directory processing
  0394  75 E4                            JNZ     DDSIZOKJ                ;User s
 				ay leave alone 
  0396  55                               PUSH    BP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-72
 DIRPROC -- Recursive directory processing                   
 
@@ -2798,7 +2797,7 @@ DIRPROC -- Recursive directory processing
  03BD  E9 032D R                        JMP     CONVDIR 
                                  
                                 SUBTTL  FAT Look routines 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-73
 FAT Look routines                                           
 
@@ -2856,7 +2855,7 @@ FAT Look routines
  0412  E8 0500 R                        CALL    UNPACK 
  0415  5B                               POP     BX 
  0416  74 D6                            JZ      NOCLUSTERSJ     ;Bad cluster (i
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-74
 FAT Look routines                                           
 
@@ -2914,7 +2913,7 @@ FAT Look routines
  0472  33 FF                            XOR     DI,DI 
  0474  E8 0000 E                        CALL    DISP16BITS 
  0477  59                               POP     CX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-75
 FAT Look routines                                           
 
@@ -2972,7 +2971,7 @@ FAT Look routines
  04CD  74 1F                            JZ      CHKSIZ          ;Firclus is OK,
 				 Check size 
  04CF  BA 0000 E                        MOV     DX,OFFSET DG:NULNZ 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-76
 FAT Look routines                                           
 
@@ -3030,7 +3029,7 @@ FAT Look routines
  051E  C6 06 0000 E 01                  MOV     [DIRTYFAT],1            ;Set FA
 				T dirty byte 
  0523  C6 06 0000 E 01                  MOV     [HAVFIX],1              ;Indica
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-77
 FAT Look routines                                           
 
@@ -3088,7 +3087,7 @@ FAT Look routines
  056B  8B 36 0000 E                     MOV     SI,[FATMAP] 
  056F  46                               INC     SI 
  0570  46                               INC     SI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-78
 FAT Look routines                                           
 
@@ -3146,7 +3145,7 @@ FAT Look routines
  05D2  74 0B                            JZ      NEXTCLUS 
  05D4  87 F2                            XCHG    SI,DX 
  05D6  52                               PUSH    DX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-79
 FAT Look routines                                           
 
@@ -3204,7 +3203,7 @@ FAT Look routines
  0634  87 F7                            XCHG    SI,DI 
  0636  81 FE 0FF8                       CMP     SI,0FF8H 
  063A  73 3B                            JAE     CHGOON          ;EOF 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-80
 FAT Look routines                                           
 
@@ -3262,7 +3261,7 @@ FAT Look routines
  0682  8B 4D 09                         MOV     CX,[DI.dpb_root_entries] 
  0685  0E                               PUSH    CS 
  0686  1F                               POP     DS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-81
 FAT Look routines                                           
 
@@ -3320,7 +3319,7 @@ FAT Look routines
  06DD  E8 0730 R                        CALL    MAKORPHNAM                 ;Mak
 				e next name 
  06E0  33 C0                            XOR     AX,AX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-82
 FAT Look routines                                           
 
@@ -3378,7 +3377,7 @@ FAT Look routines
  0727  AC                               LODSB 
  0728  47                               INC     DI 
  0729  3C 89                            CMP     AL,89H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-83
 FAT Look routines                                           
 
@@ -3436,12 +3435,12 @@ FAT Look routines
  0776  E8 0149 R                        CALL    DIRPROC         ;Do it again 
  0779  C3                       RET8:   RET 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-84
 AMDONE - Finish up routine                                  
 
                                 SUBTTL  AMDONE - Finish up routine 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-85
 AMDONE - Finish up routine                                  
 
@@ -3499,7 +3498,7 @@ AMDONE - Finish up routine
  07D4  5F                               POP     DI 
  07D5  5A                               POP     DX 
  07D6  FE C4                            INC     AH 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-86
 AMDONE - Finish up routine                                  
 
@@ -3534,7 +3533,7 @@ AMDONE - Finish up routine
  0806  C3                               RET 
                                  
                                 SUBTTL  Routines for manipulating dir entries 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-87
 Routines for manipulating dir entries                       
 
@@ -3592,7 +3591,7 @@ Routines for manipulating dir entries
                                 ASSUME  DS:NOTHING 
  0847  8B 5D 1C                         MOV     BX,[DI.dpb_current_dir] 
  084A  0E                               PUSH    CS 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-88
 Routines for manipulating dir entries                       
 
@@ -3650,7 +3649,7 @@ Routines for manipulating dir entries
  089F  58                               POP     AX 
  08A0  73 05                            JNC     RDOK2 
  08A2  E8 0000 E                        CALL    RDSKERR 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-89
 Routines for manipulating dir entries                       
 
@@ -3708,7 +3707,7 @@ Routines for manipulating dir entries
  08F1  C3                               RET 
                                  
  08F2                           PRINTTHISEL: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-90
 Routines for manipulating dir entries                       
 
@@ -3766,7 +3765,7 @@ Routines for manipulating dir entries
  094C  BA 0000 E                        MOV     DX,OFFSET DG:FATALMES 
  094F  E8 0000 E                        CALL    PRINT 
  0952  8B D3                            MOV     DX,BX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Page     1-91
 Routines for manipulating dir entries                       
 
@@ -3820,7 +3819,7 @@ Routines for manipulating dir entries
  099F                           CODE    ENDS 
                                         END     CHKPROC 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-1
                                                              
 
@@ -3878,7 +3877,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIRENT . . . . . . . . . . . . .  	0028	0009
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-2
                                                              
 
@@ -3936,7 +3935,7 @@ EXEC3  . . . . . . . . . . . . .  	0004	0002
 EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_SIGNATURE  . . . . . . . .  	0000
   EXE_LEN_MOD_512  . . . . . . .  	0002
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-3
                                                              
 
@@ -3994,7 +3993,7 @@ PROCESS_DATA_BLOCK . . . . . . .  	005B	000E
   PDB_PAD2 . . . . . . . . . . .  	0055
 SFT  . . . . . . . . . . . . . .  	0008	0003
   SFT_LINK . . . . . . . . . . .  	0000
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-4
                                                              
 
@@ -4049,7 +4048,7 @@ DG . . . . . . . . . . . . . . .  	GROUP
   CODE . . . . . . . . . . . . .  	099F	PARA	PUBLIC	
   CONST  . . . . . . . . . . . .  	0000	BYTE	PUBLIC	
   DATA . . . . . . . . . . . . .  	0000	WORD	PUBLIC	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-5
                                                              
 
@@ -4107,7 +4106,7 @@ BADTARG1 . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 BADTARG2 . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 BADWRITE_POST  . . . . . . . . .  	V BYTE 	0000	CONST	External
 BADWRITE_PRE . . . . . . . . . .  	V BYTE 	0000	CONST	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-6
                                                              
 
@@ -4165,7 +4164,7 @@ CROSSCHK . . . . . . . . . . . .  	L NEAR	03E2	CODE
 CROSSCNT . . . . . . . . . . . .  	V WORD 	0000	CONST	External
 CROSSLINK  . . . . . . . . . . .  	L NEAR	0454	CODE
 CROSSLINKJ . . . . . . . . . . .  	L NEAR	03E0	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-7
                                                              
 
@@ -4223,7 +4222,7 @@ DIRPRI . . . . . . . . . . . . .  	Number	000F
 DIRPROC  . . . . . . . . . . . .  	L NEAR	0149	CODE	Global
 DIRSIZ . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
 DIRSTRLEN  . . . . . . . . . . .  	Number	0040	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-8
                                                              
 
@@ -4244,8 +4243,9 @@ DOFIX  . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 DOINT26  . . . . . . . . . . . .  	L NEAR	0000	CODE	External
 DONE . . . . . . . . . . . . . .  	L NEAR	07FD	CODE	Global
 DOROOTDIR  . . . . . . . . . . .  	L NEAR	0888	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DOTCOMBMES . . . . . . . . . . .  	L NEAR	0000	CODE	External
 DOTDOTHARDWAY  . . . . . . . . .  	L NEAR	0000	CODE
 DOTDOTOK . . . . . . . . . . . .  	L NEAR	021B	CODE
@@ -4280,11 +4280,11 @@ ERROR_BAD_ENVIRONMENT  . . . . .  	Number	000A
 ERROR_BAD_FORMAT . . . . . . . .  	Number	000B	
 ERROR_CURRENT_DIRECTORY  . . . .  	Number	0010	
 ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002	
-ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-9
                                                              
 
+ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
 ERROR_INVALID_BLOCK  . . . . . .  	Number	0009	
 ERROR_INVALID_DATA . . . . . . .  	Number	000D	
 ERROR_INVALID_DRIVE  . . . . . .  	Number	000F	
@@ -4338,11 +4338,11 @@ FILETIMES_INVALID_FUNCTION . . .  	Alias	 ERROR_INVALID_FUNCTION
 FILETIMES_INVALID_HANDLE . . . .  	Alias	 ERROR_INVALID_HANDLE		
 FILE_TIMES . . . . . . . . . . .  	Number	0057	
 FILPERPROC . . . . . . . . . . .  	Number	0014	
-FILSIZ . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-10
                                                              
 
+FILSIZ . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
 FINDCHAIN  . . . . . . . . . . .  	L NEAR	060E	CODE	Global
 FINDEND  . . . . . . . . . . . .  	L NEAR	0010	CODE
 FINDFIRST_FILE_NOT_FOUND . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
@@ -4395,9 +4395,8 @@ HIDDN  . . . . . . . . . . . . .  	Number	0002
 HIDENFILE  . . . . . . . . . . .  	L NEAR	02F8	CODE
 HIDSIZ . . . . . . . . . . . . .  	V WORD 	0000	CONST	External
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 INDENT . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-11
                                                              
 
@@ -4455,7 +4454,7 @@ MI_LONG_RET  . . . . . . . . . .  	Number	00CB
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-12
                                                              
 
@@ -4496,7 +4495,7 @@ NULLDIRERR . . . . . . . . . . .  	L NEAR	011E	CODE
 NULNZ  . . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 NXTORP . . . . . . . . . . . . .  	L NEAR	0713	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -4513,7 +4512,7 @@ OPEN_FOR_READ  . . . . . . . . .  	Number	0000
 OPEN_FOR_WRITE . . . . . . . . .  	Number	0001	
 OPEN_INVALID_ACCESS  . . . . . .  	Alias	 ERROR_INVALID_ACCESS		
 OPEN_TOO_MANY_OPEN_FILES . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-13
                                                              
 
@@ -4571,7 +4570,7 @@ ROOTDIRJ . . . . . . . . . . . .  	L NEAR	0146	CODE
 RPRI . . . . . . . . . . . . . .  	Number	0006	
 
 SECBUF . . . . . . . . . . . . .  	V WORD 	0000	DATA	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-14
                                                              
 
@@ -4629,7 +4628,7 @@ TRUE . . . . . . . . . . . . . .  	Number	FFFF
 UNLINK . . . . . . . . . . . . .  	Number	0041	
 UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:21:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:38:06
 CHKPROC - Procedures called from chkdsk                     Symbols-15
                                                              
 
@@ -4638,8 +4637,7 @@ USERDEV  . . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 USERDIR  . . . . . . . . . . . .  	V BYTE 	0000	CONST	External
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VOLIDA . . . . . . . . . . . . .  	Number	0008	
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -4660,9 +4658,9 @@ ZEROTRUNC  . . . . . . . . . . .  	V BYTE 	0000	DATA	External
 
    2677 Source  Lines
    2739 Total   Lines
-    756 Symbols
+    755 Symbols
 
-  14794 Bytes symbol space free
+  14796 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Page     1-1
                                                             
 
@@ -56,7 +56,7 @@ DEBUGger Messages                                           Page     1-1
  000D  1F                               POP     DS 
  000E  0E                               PUSH    CS 
  000F  07                               POP     ES 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Page     1-2
                                                             
 
@@ -114,7 +114,7 @@ DEBUGger Messages                                           Page     1-2
        0D 0A 24                 
  0067  46 69 6C 65 20 63 72     NOROOM      DB      "File creation error",13,10
 				,"$" 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Page     1-3
                                                             
 
@@ -172,7 +172,7 @@ DEBUGger Messages                                           Page     1-3
        0A 24                    
  0142  45 58 45 43 20 66 61     EXECEMES    DB     "EXEC failure",13,10,"$" 
        69 6C 75 72 65 0D 0A     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Page     1-4
                                                             
 
@@ -195,7 +195,7 @@ DEBUGger Messages                                           Page     1-4
  0195                           CONST   ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-1
                                                              
 
@@ -253,7 +253,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-2
                                                              
 
@@ -311,7 +311,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-3
                                                              
 
@@ -369,7 +369,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-4
                                                              
 
@@ -427,7 +427,7 @@ ADDR_INT_ABORT . . . . . . . . .  	Number	0080
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-5
                                                              
 
@@ -485,7 +485,7 @@ CURDIR_INVALID_DRIVE . . . . . .  	Alias	 ERROR_INVALID_DRIVE
 CURRENT_DIR  . . . . . . . . . .  	Number	0047	
 C_BS . . . . . . . . . . . . . .  	Number	0008	
 C_CR . . . . . . . . . . . . . .  	Number	000D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-6
                                                              
 
@@ -524,8 +524,9 @@ DIR_SEARCH_FIRST . . . . . . . .  	Number	0011
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK . . . . . . . . . . . . . .  	L BYTE 	009A	CONST
 DISK_RESET . . . . . . . . . . .  	Number	000D	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRVERR . . . . . . . . . . . . .  	L NEAR	0002	CODE	Global
 DRVLET . . . . . . . . . . . . .  	L BYTE 	00C2	CONST	Global
@@ -542,11 +543,11 @@ ERRMES . . . . . . . . . . . . .  	L BYTE 	00E5	CONST	Global
 ERROR_ACCESS_DENIED  . . . . . .  	Number	0005	
 ERROR_ARENA_TRASHED  . . . . . .  	Number	0007	
 ERROR_BAD_ENVIRONMENT  . . . . .  	Number	000A	
-ERROR_BAD_FORMAT . . . . . . . .  	Number	000B	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-7
                                                              
 
+ERROR_BAD_FORMAT . . . . . . . .  	Number	000B	
 ERROR_CURRENT_DIRECTORY  . . . .  	Number	0010	
 ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002	
 ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
@@ -600,11 +601,11 @@ FILETIMES_INVALID_HANDLE . . . .  	Alias	 ERROR_INVALID_HANDLE
 FILE_TIMES . . . . . . . . . . .  	Number	0057	
 FILPERPROC . . . . . . . . . . .  	Number	0014	
 FINDFIRST_FILE_NOT_FOUND . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-FINDFIRST_NO_MORE_FILES  . . . .  	Alias	 ERROR_NO_MORE_FILES		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-8
                                                              
 
+FINDFIRST_NO_MORE_FILES  . . . .  	Alias	 ERROR_NO_MORE_FILES		
 FINDNEXT_NO_MORE_FILES . . . . .  	Alias	 ERROR_NO_MORE_FILES		
 FIND_FIRST . . . . . . . . . . .  	Number	004E	
 FIND_NEXT  . . . . . . . . . . .  	Number	004F	
@@ -631,7 +632,6 @@ GET_VERSION  . . . . . . . . . .  	Number	0030
 HEXERR . . . . . . . . . . . . .  	L BYTE 	00EF	CONST	Global
 HEXWRT . . . . . . . . . . . . .  	L BYTE 	010A	CONST	Global
 
-IBM  . . . . . . . . . . . . . .  	Number	FFFF	
 IBMJAPVER  . . . . . . . . . . .  	Alias	 FALSE		
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
@@ -659,7 +659,7 @@ LBRPRI . . . . . . . . . . . . .  	Number	0002
 LBWPRI . . . . . . . . . . . . .  	Number	0004	
 LOCKOPER . . . . . . . . . . . .  	Number	005C	
 LSEEK  . . . . . . . . . . . . .  	Number	0042	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-9
                                                              
 
@@ -683,7 +683,7 @@ NOSPACE  . . . . . . . . . . . .  	L BYTE 	007D	CONST	Global
 NOTFND . . . . . . . . . . . . .  	L BYTE 	0056	CONST	Global
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -717,7 +717,7 @@ RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
 RESTART  . . . . . . . . . . . .  	L NEAR	0000	CODE	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-10
                                                              
 
@@ -773,12 +773,11 @@ UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:55:24
+VER  . . . . . . . . . . . . . .  	Text  		
+
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 15:10:56
 DEBUGger Messages                                           Symbols-11
                                                              
-
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	
@@ -796,9 +795,9 @@ XDUP2  . . . . . . . . . . . . .  	Number	0046
 
    1440 Source  Lines
    1502 Total   Lines
-    533 Symbols
+    532 Symbols
 
-  22898 Bytes symbol space free
+  22896 Bytes symbol space free
 
       0 Warning Errors
       0 Severe  Errors

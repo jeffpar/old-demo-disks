@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-1
                                                             
 
@@ -56,7 +56,7 @@
 				rupt location (Timer) 
  =                              AINT    EQU     TRUE            ;Acknowledge in
 				terrupts 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-2
                                                             
 
@@ -114,7 +114,7 @@
  = 0002                         MAXTICK EQU     2               ;The PRINT in t
 				imeslice. PRINT will pump 
                                                                 ; out character
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-3
                                                             
 
@@ -172,7 +172,7 @@
                                  
  = 0200                         BLKSIZ  EQU     512             ;Size of the PR
 				INT I/O block in bytes 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-4
                                                             
 
@@ -187,7 +187,7 @@
                              C   
                              C  SUBTTL BREAK a listing into pages and give new 
 				subtitles 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-5
 BREAK a listing into pages and give new subtitles           
 
@@ -199,7 +199,7 @@ BREAK a listing into pages and give new subtitles
                              C   
                              C  BREAK <I_NEED: declare a variable external, if 
 				necessary, and allocate a size> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-6
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -237,7 +237,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   CALL name 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-7
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -295,13 +295,13 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  procedure MACRO name,distance 
                              C   PUBLIC name 
                              C  name PROC distance 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-8
 I_NEED: declare a variable external, if necessary, and alloc
 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-9
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -328,7 +328,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   ENDIF 
                              C  ENDM 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-10
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -339,7 +339,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C  do_ext macro 
                              C  endm 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-11
 I_NEED: declare a variable external, if necessary, and alloc
 
@@ -355,7 +355,7 @@ I_NEED: declare a variable external, if necessary, and alloc
                              C   
                              C  BREAK <ERROR - print a message and then jump to
 				 a label> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-12
 ERROR - print a message and then jump to a label            
 
@@ -370,7 +370,7 @@ ERROR - print a message and then jump to a label
                              C   
                              C  BREAK <JUMP - real jump that links up shortwise
 				> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-13
 JUMP - real jump that links up shortwise                    
 
@@ -403,7 +403,7 @@ JUMP - real jump that links up shortwise
                              C  endm 
                              C   
                              C  BREAK <RETURN - return from a function> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-14
 RETURN - return from a function                             
 
@@ -418,7 +418,7 @@ RETURN - return from a function
                              C  endm 
                              C   
                              C  BREAK <CONDRET - conditional return> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-15
 CONDRET - conditional return                                
 
@@ -476,7 +476,7 @@ CONDRET - conditional return
                              C  ; endif 
                              C  ; j&ncc a ; j<NCC> a: 
                              C  ; return ; return 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-16
 CONDRET - conditional return                                
 
@@ -487,7 +487,7 @@ CONDRET - conditional return
                              C  ; 
                              C  BREAK <RETZ - return if zero, links up shortwis
 				e if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-17
 RETZ - return if zero, links up shortwise if necessary      
 
@@ -498,7 +498,7 @@ RETZ - return if zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETNZ - return if not zero, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-18
 RETNZ - return if not zero, links up shortwise if necessary 
 
@@ -509,7 +509,7 @@ RETNZ - return if not zero, links up shortwise if necessary
                              C   
                              C  BREAK <RETC - return if carry set, links up sho
 				rtwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-19
 RETC - return if carry set, links up shortwise if necessary 
 
@@ -520,7 +520,7 @@ RETC - return if carry set, links up shortwise if necessary
                              C   
                              C  BREAK <RETNC - return if not carry, links up sh
 				ortwise if necessary> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-20
 RETNC - return if not carry, links up shortwise if necessary
 
@@ -531,7 +531,7 @@ RETNC - return if not carry, links up shortwise if necessary
                              C   
                              C  BREAK <CONTEXT - set the DOS context to a parti
 				cular register> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-21
 CONTEXT - set the DOS context to a particular register      
 
@@ -556,11 +556,11 @@ CONTEXT - set the DOS context to a particular register
                              C   
                              C  ENDIF 
                              C   
- = 0002                      C  DOS_MAJOR_VERSION   EQU	    (VER / 100) 
- = 0000                      C  DOS_MINOR_VERSION   EQU     (VER MOD 100) 
+ = 0002                      C  DOS_MAJOR_VERSION   EQU	    (DOSVER / 100) 
+ = 000B                      C  DOS_MINOR_VERSION   EQU     (DOSVER MOD 100) 
                              C   
                              C  BREAK <Control character definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-22
 Control character definitions                               
 
@@ -582,7 +582,7 @@ Control character definitions
  = 0009                      C  c_HT        EQU     09h         ; ^I ASCII tab 
                              C   
                              C  BREAK <BPB Definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-23
 BPB Definition                                              
 
@@ -622,7 +622,7 @@ BPB Definition
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK  <Bios Parameter Block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-24
 Bios Parameter Block                                        
 
@@ -660,7 +660,7 @@ Bios Parameter Block
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk I/O Buffer Header> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-25
 Disk I/O Buffer Header                                      
 
@@ -718,12 +718,12 @@ Disk I/O Buffer Header
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
                              C   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-26
 Disk I/O Buffer Header                                      
 
                              C  BREAK <User stack inside of system call> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-27
 User stack inside of system call                            
 
@@ -746,7 +746,7 @@ User stack inside of system call
  0018                        C  user_environ    ENDS 
                              C   
                              C  BREAK <interrupt definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-28
 interrupt definitions                                       
 
@@ -804,7 +804,7 @@ interrupt definitions
  = 008C                      C  addr_int_ctrl_c         EQU    4 * int_ctrl_c 
  = 0090                      C  addr_int_fatal_abort    EQU    4 * int_fatal_ab
 				ort 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-29
 interrupt definitions                                       
 
@@ -830,7 +830,7 @@ interrupt definitions
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Disk map> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-30
 Disk map                                                    
 
@@ -858,7 +858,7 @@ Disk map
 				le. 
                              C   
                              C  BREAK <Directory entry> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-31
 Directory entry                                             
 
@@ -916,7 +916,7 @@ Directory entry
  001A  ????                  C  dir_first   DW      ?                   ; first
 				 allocation unit of file 
  001C  ????                  C  dir_size_l  DW      ?                   ; low 1
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-32
 Directory entry                                             
 
@@ -950,7 +950,7 @@ Directory entry
 				eable via CHMOD 
                              C   
                              C  BREAK <File allocation Table information> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-33
 File allocation Table information                           
 
@@ -992,7 +992,7 @@ File allocation Table information
 				in is not an error). 
                              C   
                              C  BREAK <DPB structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-34
 DPB structure                                               
 
@@ -1050,7 +1050,7 @@ DPB structure
                          ]   C  
                              C  
                              C                                  ; ASCIZ string 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-35
 DPB structure                                               
 
@@ -1070,7 +1070,7 @@ DPB structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <File Control Block definition> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-36
 File Control Block definition                               
 
@@ -1128,7 +1128,7 @@ File Control Block definition
                              C  ;       |   random record number    | 
                              C  ;       +---------------------------+ 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-37
 File Control Block definition                               
 
@@ -1186,7 +1186,7 @@ File Control Block definition
  001D  ????                  C  fcb_LSTCLUS DW      ?       ; Last cluster acce
 				ssed and directory pack 2 12 
  001F  ??                    C              DB      ?       ; bit numbers into 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-38
 File Control Block definition                               
 
@@ -1244,7 +1244,7 @@ File Control Block definition
                              C  ;       BIT     7   6   5   4   3   2   1   0 
                              C  ;             |---|---|---|---|---|---|---|---|
 				 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-39
 File Control Block definition                               
 
@@ -1302,7 +1302,7 @@ File Control Block definition
                              C  ; 
                              C  ; find first/next buffer 
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-40
 File Control Block definition                               
 
@@ -1342,7 +1342,7 @@ File Control Block definition
  002B                        C  find_buf    ENDS 
                              C   
                              C  BREAK <Process data block> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-41
 Process data block                                          
 
@@ -1400,7 +1400,7 @@ Process data block
 				                            ; 
  002E  ????????              C  PDB_User_stack      DD      ?           ; stack
 				 of self during system calls 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-42
 Process data block                                          
 
@@ -1438,7 +1438,7 @@ Process data block
  005B                        C  Process_data_block  ENDS 
                              C   
                              C  BREAK <EXEC and EXE file structures> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-43
 EXEC and EXE file structures                                
 
@@ -1496,7 +1496,7 @@ EXEC and EXE file structures
  0004                        C  Exec3           ENDS 
                              C   
                              C  ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-44
 EXEC and EXE file structures                                
 
@@ -1554,7 +1554,7 @@ EXEC and EXE file structures
  0006  ??                    C  sym_len         DB  ? 
  0007  00FF[                 C  sym_name        DB  255 dup (?) 
             ??               C  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-45
 EXEC and EXE file structures                                
 
@@ -1563,7 +1563,7 @@ EXEC and EXE file structures
  0106                        C  symbol_entry    ENDS 
                              C   
                              C  BREAK <Internal system file table format> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-46
 Internal system file table format                           
 
@@ -1613,7 +1613,7 @@ Internal system file table format
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Memory arena structure> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-47
 Memory arena structure                                      
 
@@ -1671,7 +1671,7 @@ Memory arena structure
 				 0 if No space after currency symbol 
                              C                                      ;         =
 				 1 if space after currency symbol 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-48
 Memory arena structure                                      
 
@@ -1718,7 +1718,7 @@ Memory arena structure
 				---+----+----+----+----+----; 
                              C   
                              C  BREAK <Machine instruction definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-49
 Machine instruction definitions                             
 
@@ -1729,7 +1729,7 @@ Machine instruction definitions
  = 00CB                      C  mi_Long_RET     EQU     0CBh 
                              C   
                              C  BREAK <Standard I/O assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-50
 Standard I/O assignments                                    
 
@@ -1741,7 +1741,7 @@ Standard I/O assignments
  = 0004                      C  stdprn      EQU     4 
                              C   
                              C  BREAK <Xenix subfunction assignments> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-51
 Xenix subfunction assignments                               
 
@@ -1751,7 +1751,7 @@ Xenix subfunction assignments
  = 0002                      C  open_for_both   EQU 2 
                              C   
                              C  BREAK <Xenix error codes> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-52
 Xenix error codes                                           
 
@@ -1809,7 +1809,7 @@ Xenix error codes
 				ccess_denied 
  =                           C  chmod_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-53
 Xenix error codes                                           
 
@@ -1867,7 +1867,7 @@ Xenix error codes
 				nvalid_handle 
  =                           C  ioctl_invalid_function          EQU     error_i
 				nvalid_function 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-54
 Xenix error codes                                           
 
@@ -1925,7 +1925,7 @@ Xenix error codes
 				ile_not_found 
  =                           C  unlink_access_denied            EQU     error_a
 				ccess_denied 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-55
 Xenix error codes                                           
 
@@ -1936,7 +1936,7 @@ Xenix error codes
 				ccess_denied 
                              C   
                              C  BREAK <system call definitions> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-56
 system call definitions                                     
 
@@ -1994,7 +1994,7 @@ system call definitions
  = 001A                      C  Set_DMA                         EQU 26  ; 26   
 				  1A 
                              C  ;----+----+----+----+----+----+----+----+----+-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-57
 system call definitions                                     
 
@@ -2052,7 +2052,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;                                              
 				                            ; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-58
 system call definitions                                     
 
@@ -2110,7 +2110,7 @@ system call definitions
 				  47 
                              C  ;    Memory Group 
  = 0048                      C  Alloc                           EQU 72  ; 72   
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-59
 system call definitions                                     
 
@@ -2168,7 +2168,7 @@ system call definitions
 				  A  M  M  E  R             ; 
                              C  ;----+----+----+----+----+----+----+----+----+-
 				---+----+----+----+----+----; 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-60
 system call definitions                                     
 
@@ -2226,7 +2226,7 @@ system call definitions
                                  
  0000                           CODE    SEGMENT 
                                 ASSUME  CS:DG 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-61
                                                             
 
@@ -2284,7 +2284,7 @@ system call definitions
  01B2  0A73 R                   CURRFIL DW      OFFSET DG:SPLFCB    ;Current fi
 				le being printed 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-62
                                                             
 
@@ -2342,7 +2342,7 @@ system call definitions
                                  
  0256  57 72 69 74 65 20 70     ERR0    DB      "Write protect$" 
        72 6F 74 65 63 74 24     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-63
                                                             
 
@@ -2400,7 +2400,7 @@ system call definitions
  0003  00                       ARGSETUP DB     0               ;Flag to indica
 				te a formatted FCB exists at 5C 
  0004  00                       DEFDRV  DB      0               ;Default drive 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-64
                                                             
 
@@ -2458,7 +2458,7 @@ system call definitions
  00DD  20 3A 20 20 20 20 20     SRCHFNAM DB     " :        .    "," File not fo
 				und",13,10,"$" 
        20 20 20 2E 20 20 20     
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-65
                                                             
 
@@ -2516,7 +2516,7 @@ system call definitions
  01EB  08 4C 50 54 31 20 20             DB      8,"LPT1    ",0 
        20 20 00                 
  01F5  08 4C 50 54 32 20 20             DB      8,"LPT2    ",1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-66
                                                             
 
@@ -2574,7 +2574,7 @@ system call definitions
  051F  2E: 80 3E 0194 R 00              CMP     [BUSY],0        ;See if interru
 				pting ourself 
  0525  75 34                            JNZ     CHAININT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-67
                                                             
 
@@ -2632,7 +2632,7 @@ system call definitions
  0576  FA                               CLI 
  0577  2E: C6 06 0195 R 00              MOV     [SOFINT],0      ;Indicate INT d
 				one 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-68
                                                             
 
@@ -2690,7 +2690,7 @@ system call definitions
 				 has become empty 
  05D4  80 3E 0195 R 00                  CMP     [SOFINT],0 
  05D9  75 07                            JNZ     STATCHK 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-69
                                                             
 
@@ -2748,7 +2748,7 @@ system call definitions
 				pace? 
  0629  75 04                            JNZ     NOTBACK 
  062B  FE 0E 01AF R                     DEC     [COLPOS] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-70
                                                             
 
@@ -2806,7 +2806,7 @@ system call definitions
  0673  B0 24                            MOV     AL,24H 
  0675  B4 25                            MOV     AH,SET_INTERRUPT_VECTOR        
 				 ;Install our own 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-71
                                                             
 
@@ -2864,7 +2864,7 @@ system call definitions
  06D1                           DSKERR: 
                                 ASSUME  DS:NOTHING,ES:NOTHING,SS:NOTHING 
  06D1  FB                               STI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-72
                                                             
 
@@ -2922,7 +2922,7 @@ system call definitions
  072E  07                               POP     ES 
  072F  5D                               POP     BP 
  0730  5E                               POP     SI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-73
                                                             
 
@@ -2980,7 +2980,7 @@ system call definitions
  0775                           CNTFILS: 
  0775  80 7C 02 FF                      CMP     BYTE PTR [SI+2],-1        ;Vali
 				d? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-74
                                                             
 
@@ -3038,7 +3038,7 @@ system call definitions
  07C0  8B 36 01B2 R                     MOV     SI,[CURRFIL] 
  07C4  83 FA FF                         CMP     DX,-1 
  07C7  74 E5                            JZ      DELALLJ 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-75
                                                             
 
@@ -3096,7 +3096,7 @@ system call definitions
  0818  B0 01                            MOV     AL,1 
  081A  86 06 019E R                     XCHG    AL,[PCANMES] 
  081E  0A C0                            OR      AL,AL 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-76
                                                             
 
@@ -3154,7 +3154,7 @@ system call definitions
 				d 
  0877  8B D8                            MOV     BX,AX                   ;Proces
 				s what it pointed to 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-77
                                                             
 
@@ -3212,7 +3212,7 @@ system call definitions
  08C8  74 0E                            JZ      GOTSPOT 
  08CA  8B 34                            MOV     SI,[SI] 
  08CC  E2 F6                            LOOP    LOOKSPOT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-78
                                                             
 
@@ -3270,7 +3270,7 @@ system call definitions
                                 ASSUME  DS:DG,ES:NOTHING 
  091E  AC                               LODSB 
  091F  3C 24                            CMP     AL,"$" 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-79
                                                             
 
@@ -3328,7 +3328,7 @@ system call definitions
  0969  74 06                            JZ      NOSTATERR 
  096B  81 0E 0946 R 0200                OR      [IOSTAT],IOBUSY         ;If err
 				or, show buisy 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-80
                                                             
 
@@ -3386,7 +3386,7 @@ system call definitions
  09D9  2E: FF 36 09C2 R                 PUSH    WORD PTR [REAL_INT_13] 
  09DE  CB                               RET 
                                 INT_13  ENDP 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-81
                                                             
 
@@ -3444,7 +3444,7 @@ system call definitions
  0A28  2E: 80 3C FF                     CMP     BYTE PTR CS:[SI],-1 
  0A2C  5E                               POP     SI 
  0A2D  74 1E                            JZ      DO_INT_14               ;Nothin
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-82
                                                             
 
@@ -3502,7 +3502,7 @@ system call definitions
  0A75  0026[                            DB      (FCBSIZ - 2) DUP (-1) 
             FF                  
                          ]      
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-83
                                                             
 
@@ -3560,7 +3560,7 @@ system call definitions
  0C03                           BADSPOOL: 
  0C03  BA 00FE R                        MOV     DX,OFFSET DG:BADMES 
  0C06  B4 09                            MOV     AH,STD_CON_STRING_OUTPUT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-84
                                                             
 
@@ -3618,7 +3618,7 @@ system call definitions
  0C68  8C 06 019C R                     MOV     WORD PTR [SPNEXT+2],ES 
  0C6C  89 1E 019A R                     MOV     WORD PTR [SPNEXT],BX 
  0C70  B0 28                            MOV     AL,SOFTINT 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-85
                                                             
 
@@ -3676,7 +3676,7 @@ system call definitions
  0CDC                           CHKHIT: 
  0CDC  8B F5                            MOV     SI,BP 
  0CDE  8A 0D                            MOV     CL,[DI] 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-86
                                                             
 
@@ -3734,7 +3734,7 @@ system call definitions
  0D2C  B4 34                            MOV     AH,GET_INDOS_FLAG 
  0D2E  CD 21                            INT     21H 
  0D30  8C 06 018E R                     MOV     WORD PTR [INDOS+2],ES   ;Get in
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-87
                                                             
 
@@ -3792,7 +3792,7 @@ system call definitions
  0D7B  CD 21                            INT     21H 
  0D7D  88 16 0000 R                     MOV     [SWITCHAR],DL           ;Get us
 				er switch character 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-88
                                                             
 
@@ -3850,7 +3850,7 @@ system call definitions
  0DDC  75 07                            JNZ     CHKSPL 
  0DDE                           SETCAN: 
  0DDE  C6 06 0005 R 01                  MOV     [CANFLG],1 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-89
                                                             
 
@@ -3908,7 +3908,7 @@ system call definitions
  0E39                           PROCRET: 
  0E39  B4 01                            MOV     AH,1 
  0E3B  E8 0EB4 R                        CALL    DOSET 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-90
                                                             
 
@@ -3966,7 +3966,7 @@ system call definitions
  0EA0  BA 000F R                        MOV     DX,OFFSET DG:SRCHFCB 
  0EA3  B4 1A                            MOV     AH,SET_DMA 
  0EA5  CD 21                            INT     21H 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-91
                                                             
 
@@ -4024,7 +4024,7 @@ system call definitions
  0F01  C5 3E 0007 R                     LDS     DI,[SPLIST] 
  0F05  8B 7D FE                         MOV     DI,[DI-2]               ;Get th
 				e error count 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-92
                                                             
 
@@ -4082,7 +4082,7 @@ system call definitions
  0F5D  07                               POP     ES 
  0F5E  8E D8                            MOV     DS,AX 
  0F60  87 F7                            XCHG    SI,DI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-93
                                                             
 
@@ -4140,7 +4140,7 @@ system call definitions
                                 ;                                              
 				                         ; 
                                 ; MODIFIES:                                    
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-94
                                                             
 
@@ -4198,7 +4198,7 @@ system call definitions
  0FAC  EB 20                            jmp     short x_done2 
                                  
  0FAE                           anum_char: 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-95
                                                             
 
@@ -4256,7 +4256,7 @@ system call definitions
  0FE9                           move_char proc  near 
  0FE9  AA                               stosb                           ;store 
 				char in token buffer 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Page     1-96
                                                             
 
@@ -4268,7 +4268,7 @@ system call definitions
  0FEC                           CODE    ENDS 
                                         END     START 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-1
                                                              
 
@@ -4326,7 +4326,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-2
                                                              
 
@@ -4384,7 +4384,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-3
                                                              
 
@@ -4442,7 +4442,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-4
                                                              
 
@@ -4500,7 +4500,7 @@ ADDR_INT_ABORT . . . . . . . . .  	Number	0080
 ADDR_INT_COMMAND . . . . . . . .  	Number	0084	
 ADDR_INT_CTRL_C  . . . . . . . .  	Number	008C	
 ADDR_INT_DISK_READ . . . . . . .  	Number	0094	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-5
                                                              
 
@@ -4558,7 +4558,7 @@ CANFILNAM  . . . . . . . . . . .  	L BYTE 	01F5	CODE
 CANFLG . . . . . . . . . . . . .  	L BYTE 	0005	DATA
 CANMES . . . . . . . . . . . . .  	L BYTE 	01F1	CODE
 CANTERM  . . . . . . . . . . . .  	L NEAR	089C	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-6
                                                              
 
@@ -4616,7 +4616,7 @@ C_LF . . . . . . . . . . . . . .  	Number	000A
 C_NAK  . . . . . . . . . . . . .  	Number	0015	
 
 DEALLOC  . . . . . . . . . . . .  	Number	0049	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-7
                                                              
 
@@ -4660,10 +4660,11 @@ DOCONLP  . . . . . . . . . . . .  	L NEAR	0CD7	CODE
 DOINT  . . . . . . . . . . . . .  	L NEAR	058E	CODE
 DONEJMP  . . . . . . . . . . . .  	L NEAR	064A	CODE
 DOSET  . . . . . . . . . . . . .  	L NEAR	0EB4	CODE
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOSVER_HIGH  . . . . . . . . . .  	Number	020B	
 DOSVER_LOW . . . . . . . . . . .  	Number	0136	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DO_INT_14  . . . . . . . . . . .  	L NEAR	0A4D	CODE
 DO_INT_17  . . . . . . . . . . .  	L NEAR	0A15	CODE
 DO_INT_5 . . . . . . . . . . . .  	L NEAR	0A6A	CODE
@@ -4673,11 +4674,11 @@ DSKERR . . . . . . . . . . . . .  	L NEAR	06D1	CODE
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DUP2_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 DUP_INVALID_HANDLE . . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-DUP_PDB  . . . . . . . . . . . .  	Number	0055	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-8
                                                              
 
+DUP_PDB  . . . . . . . . . . . .  	Number	0055	
 DUP_TOO_MANY_OPEN_FILES  . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES		
 
 EMFILNAM . . . . . . . . . . . .  	L BYTE 	01DF	CODE
@@ -4731,11 +4732,11 @@ EXE_VALID_OLD_SIGNATURE  . . . .  	Number	4D5A
 EXE_VALID_SIGNATURE  . . . . . .  	Number	5A4D	
 EXIT . . . . . . . . . . . . . .  	Number	004C	
 EXIT_ABORT . . . . . . . . . . .  	Number	0000	
-EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-9
                                                              
 
+EXIT_CTRL_C  . . . . . . . . . .  	Number	0001	
 EXIT_HARD_ERROR  . . . . . . . .  	Number	0002	
 EXIT_KEEP_PROCESS  . . . . . . .  	Number	0003	
 EXIT_TERMINATE . . . . . . . . .  	Number	0000	
@@ -4789,11 +4790,11 @@ FULLMES  . . . . . . . . . . . .  	L BYTE 	00C7	DATA
 GETEXTENDEDERROR . . . . . . . .  	Number	0059	
 GETSPLIST  . . . . . . . . . . .  	L NEAR	0EFB	CODE
 GET_CURRENT_PDB  . . . . . . . .  	Number	0051	
-GET_DATE . . . . . . . . . . . .  	Number	002A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-10
                                                              
 
+GET_DATE . . . . . . . . . . . .  	Number	002A	
 GET_DEFAULT_DPB  . . . . . . . .  	Number	001F	
 GET_DEFAULT_DRIVE  . . . . . . .  	Number	0019	
 GET_DMA  . . . . . . . . . . . .  	Number	002F	
@@ -4847,11 +4848,11 @@ INT_ABORT  . . . . . . . . . . .  	Alias	 INTTAB
 INT_COMMAND  . . . . . . . . . .  	Number	0021	
 INT_CTRL_C . . . . . . . . . . .  	Number	0023	
 INT_DISK_READ  . . . . . . . . .  	Number	0025	
-INT_DISK_WRITE . . . . . . . . .  	Number	0026	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-11
                                                              
 
+INT_DISK_WRITE . . . . . . . . .  	Number	0026	
 INT_FASTCON  . . . . . . . . . .  	Number	0029	
 INT_FATAL_ABORT  . . . . . . . .  	Number	0024	
 INT_KEEP_PROCESS . . . . . . . .  	Number	0027	
@@ -4905,10 +4906,10 @@ MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND
 MOVE_CHAR  . . . . . . . . . . .  	N PROC	0FE9	CODE	Length = 0003
 MSVER  . . . . . . . . . . . . .  	Alias	 FALSE		
 MVFNAM . . . . . . . . . . . . .  	L NEAR	0F57	CODE
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-12
                                                              
+
 
 NEXTFC . . . . . . . . . . . . .  	L NEAR	0853	CODE
 NEXTFIL  . . . . . . . . . . . .  	L NEAR	0904	CODE
@@ -4931,7 +4932,7 @@ NXTCHR . . . . . . . . . . . . .  	L WORD 	01B0	CODE
 NXTCHRLP . . . . . . . . . . . .  	L NEAR	080A	CODE
 NXTSP  . . . . . . . . . . . . .  	L NEAR	0589	CODE
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -4963,11 +4964,11 @@ PCANMES  . . . . . . . . . . . .  	L BYTE 	019E	CODE
 PLOOP  . . . . . . . . . . . . .  	L NEAR	05CA	CODE
 POPRET . . . . . . . . . . . . .  	L NEAR	093C	CODE
 POUT . . . . . . . . . . . . . .  	L NEAR	0981	CODE
-PREADY . . . . . . . . . . . . .  	L NEAR	0939	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-13
                                                              
 
+PREADY . . . . . . . . . . . . .  	L NEAR	0939	CODE
 PROCESS  . . . . . . . . . . . .  	L NEAR	0E46	CODE
 PROCRET  . . . . . . . . . . . .  	L NEAR	0E39	CODE
 PROCRETNFUNC . . . . . . . . . .  	L NEAR	0E3E	CODE
@@ -5021,11 +5022,11 @@ SET_DEFAULT_DRIVE  . . . . . . .  	Number	000E
 SET_DMA  . . . . . . . . . . . .  	Number	001A	
 SET_INTERRUPT_VECTOR . . . . . .  	Number	0025	
 SET_OEM_HANDLER  . . . . . . . .  	Number	00F8	
-SET_TIME . . . . . . . . . . . .  	Number	002D	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-14
                                                              
 
+SET_TIME . . . . . . . . . . . .  	Number	002D	
 SET_VERIFY_ON_WRITE  . . . . . .  	Number	002E	
 SF_DEFAULT_NUMBER  . . . . . . .  	Number	0005	
 SJ1  . . . . . . . . . . . . . .  	L NEAR	0F8E	CODE
@@ -5079,11 +5080,11 @@ TIMENOW  . . . . . . . . . . . .  	L NEAR	051F	CODE
 TIMESLICE  . . . . . . . . . . .  	Number	0008	
 TONEXTFIL  . . . . . . . . . . .  	L NEAR	06CB	CODE
 TRANEXIT . . . . . . . . . . . .  	L NEAR	0DA9	CODE
-TRANSIENT  . . . . . . . . . . .  	L NEAR	0D5C	CODE
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 12:45:09
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 16:01:27
                                                             Symbols-15
                                                              
 
+TRANSIENT  . . . . . . . . . . .  	L NEAR	0D5C	CODE
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
 UNLINK . . . . . . . . . . . . .  	Number	0041	
@@ -5092,8 +5093,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 UPCONV . . . . . . . . . . . . .  	L NEAR	08A6	CODE
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
 WPRI . . . . . . . . . . . . . .  	Number	0008	

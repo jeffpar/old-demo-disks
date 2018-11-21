@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Page     1-1
                                                             
 
@@ -14,7 +14,7 @@ COMMAND Transient Uninitialized DATA                        Page     1-1
                              C   
  =                           C  IBMVER  EQU     IBM  	; Switch to build IBM ver
 				sion of Command 
- = 0000                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
+ = FFFF                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
 				S version of Command 
                              C   
  =                           C  HIGHMEM EQU     FALSE   ; Run resident part abo
@@ -56,14 +56,12 @@ COMMAND Transient Uninitialized DATA                        Page     1-1
 				D,STARTEL,ELCNT,ELPOS,SKPDEL 
                                         PUBLIC  SOURCE,STACK 
                                         PUBLIC  TRANSPACEEND 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Page     1-2
                                                             
 
                                         PUBLIC  INTERNATVARS 
                                  
-                                        IF  IBM 
-                                        PUBLIC  ROM_CALL,ROM_IP,ROM_CS 
                                         ENDIF 
                                  
                                         ENDIF 
@@ -114,12 +112,12 @@ COMMAND Transient Uninitialized DATA                        Page     1-2
  01AD  ????                     COMSW   DW      ?               ; Switches betw
 				een command and 1st arg 
  01AF  ????                     ARG1S   DW      ?               ; Switches betw
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+				een 1st and 2nd arg 
+ 01B1                           DESTSWITCH LABEL WORD 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Page     1-3
                                                             
 
-				een 1st and 2nd arg 
- 01B1                           DESTSWITCH LABEL WORD 
  01B1  ????                     ARG2S   DW      ?               ; Switches afte
 				r 2nd arg 
  01B3                           ALLSWITCH LABEL WORD 
@@ -172,12 +170,12 @@ COMMAND Transient Uninitialized DATA                        Page     1-3
                          ]      
                                 
  02CF  000C[                    SDIRBUF DB      12 DUP(?) 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+            ??                  
+                         ]      
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Page     1-4
                                                             
 
-            ??                  
-                         ]      
                                 
  02DB  ????                     BITS    DW      ? 
  02DD  ????                     PATHCNT DW      ? 
@@ -185,75 +183,75 @@ COMMAND Transient Uninitialized DATA                        Page     1-4
  02E1  ????                     PATHSW  DW      ? 
  02E3  ????                     FULLSCR DW      ? 
                                  
-                                IF  IBM 
- 02E5  ??                       ROM_CALL    DB  ?                       ; flag 
-				for rom function 
- 02E6  ????                     ROM_IP  DW  ? 
- 02E8  ????                     ROM_CS  DW  ? 
                                 ENDIF 
                                  
- 02EA                           DESTVARS LABEL  BYTE 
- 02EA  ??                       DESTISDIR DB    ? 
- 02EB  ??                       DESTSIZ DB      ? 
- 02EC  ????                     DESTTAIL DW     ? 
- 02EE  ??                       DESTINFO DB     ? 
- 02EF  0054[                    DESTBUF DB      DIRSTRLEN + 20 DUP (?) 
+ 02E5                           DESTVARS LABEL  BYTE 
+ 02E5  ??                       DESTISDIR DB    ? 
+ 02E6  ??                       DESTSIZ DB      ? 
+ 02E7  ????                     DESTTAIL DW     ? 
+ 02E9  ??                       DESTINFO DB     ? 
+ 02EA  0054[                    DESTBUF DB      DIRSTRLEN + 20 DUP (?) 
             ??                  
                          ]      
                                 
                                  
- 0343  ????                     DESTHAND DW     ? 
- 0345  ??                       DESTISDEV DB    ? 
- 0346  ??                       FIRSTDEST DB    ? 
- 0347  ??                       MELCOPY DB      ? 
- 0348  ????                     MELSTART DW     ? 
+ 033E  ????                     DESTHAND DW     ? 
+ 0340  ??                       DESTISDEV DB    ? 
+ 0341  ??                       FIRSTDEST DB    ? 
+ 0342  ??                       MELCOPY DB      ? 
+ 0343  ????                     MELSTART DW     ? 
                                  
- 034A                           SRCVARS  LABEL  BYTE 
- 034A  ??                       SRCISDIR DB     ? 
- 034B  ??                       SRCSIZ DB       ? 
- 034C  ????                     SRCTAIL DW      ? 
- 034E  ??                       SRCINFO DB      ? 
- 034F  0054[                    SRCBUF  DB      DIRSTRLEN + 20 DUP (?) 
+ 0345                           SRCVARS  LABEL  BYTE 
+ 0345  ??                       SRCISDIR DB     ? 
+ 0346  ??                       SRCSIZ DB       ? 
+ 0347  ????                     SRCTAIL DW      ? 
+ 0349  ??                       SRCINFO DB      ? 
+ 034A  0054[                    SRCBUF  DB      DIRSTRLEN + 20 DUP (?) 
             ??                  
                          ]      
                                 
                                  
- 03A3  ????                     SRCHAND DW      ? 
- 03A5  ??                       SRCISDEV DB     ? 
+ 039E  ????                     SRCHAND DW      ? 
+ 03A0  ??                       SRCISDEV DB     ? 
                                  
- 03A6  0054[                    SCANBUF DB      DIRSTRLEN + 20 DUP (?) 
+ 03A1  0054[                    SCANBUF DB      DIRSTRLEN + 20 DUP (?) 
             ??                  
                          ]      
                                 
                                  
- 03FA  ????                     SRCPT   DW      ? 
- 03FC  ??                       INEXACT DB      ? 
- 03FD  ??                       APPEND  DB      ? 
- 03FE  ??                       NOWRITE DB      ? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+ 03F5  ????                     SRCPT   DW      ? 
+ 03F7  ??                       INEXACT DB      ? 
+ 03F8  ??                       APPEND  DB      ? 
+ 03F9  ??                       NOWRITE DB      ? 
+ 03FA  ??                       BINARY  DB      ? 
+ 03FB  ??                       WRITTEN DB      ? 
+ 03FC  ??                       TERMREAD DB     ? 
+ 03FD  ??                       ASCII   DB      ? 
+ 03FE  ??                       PLUS    DB      ? 
+ 03FF  ????                     CPDATE  DW      ? 
+ 0401  ????                     CPTIME  DW      ? 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Page     1-5
                                                             
 
- 03FF  ??                       BINARY  DB      ? 
- 0400  ??                       WRITTEN DB      ? 
- 0401  ??                       TERMREAD DB     ? 
- 0402  ??                       ASCII   DB      ? 
- 0403  ??                       PLUS    DB      ? 
- 0404  ????                     CPDATE  DW      ? 
- 0406  ????                     CPTIME  DW      ? 
- 0408  ????                     BATHAND DW      ?               ; Batch handle 
- 040A  ????                     STARTEL DW      ? 
- 040C  ??                       ELCNT   DB      ? 
- 040D  ??                       ELPOS   DB      ? 
- 040E  ??                       SKPDEL  DB      ? 
- 040F  000B[                    SOURCE  DB      11 DUP(?) 
+ 0403  ????                     BATHAND DW      ?               ; Batch handle 
+ 0405  ????                     STARTEL DW      ? 
+ 0407  ??                       ELCNT   DB      ? 
+ 0408  ??                       ELPOS   DB      ? 
+ 0409  ??                       SKPDEL  DB      ? 
+ 040A  000B[                    SOURCE  DB      11 DUP(?) 
             ??                  
                          ]      
                                 
                                  
                                         ENDIF 
                                  
- 041A  ????                     INTERNATVARS    internat_block <> 
+ 0415  ????                     INTERNATVARS    internat_block <> 
+ 0417  ??                       
+ 0418  ??                       
+ 0419  ??                       
+ 041A  ??                       
+ 041B  ??                       
  041C  ??                       
  041D  ??                       
  041E  ??                       
@@ -265,40 +263,31 @@ COMMAND Transient Uninitialized DATA                        Page     1-5
  0424  ??                       
  0425  ??                       
  0426  ??                       
- 0427  ??                       
- 0428  ??                       
- 0429  ??                       
- 042A  ??                       
+ 0427  ????                     
+ 0429  ????                     
  042B  ??                       
- 042C  ????                     
- 042E  ????                     
- 0430  ??                       
- 0431  ??                       
+ 042C  ??                       
                                 
- 0432  0008[                                    DB      (internat_block_max - (
+ 042D  0008[                                    DB      (internat_block_max - (
 				$ - INTERNATVARS)) DUP (?) 
             ??                  
                          ]      
                                 
                                  
                                  
- 043A  0080[                            DB      80H DUP(0)      ; Init to 0 to 
+ 0435  0080[                            DB      80H DUP(0)      ; Init to 0 to 
 				make sure the linker is not fooled 
             00                  
                          ]      
                                 
- 04BA                           STACK   LABEL   WORD 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
-COMMAND Transient Uninitialized DATA                        Page     1-6
-                                                            
-
+ 04B5                           STACK   LABEL   WORD 
                                  
- 04BA                           TRANSPACEEND    LABEL   BYTE 
+ 04B5                           TRANSPACEEND    LABEL   BYTE 
                                  
- 04BA                           TRANSPACE       ENDS 
+ 04B5                           TRANSPACE       ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-1
                                                              
 
@@ -356,7 +345,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-2
                                                              
 
@@ -414,7 +403,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-3
                                                              
 
@@ -472,7 +461,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-4
                                                              
 
@@ -530,14 +519,14 @@ RESGROUP . . . . . . . . . . . .  	GROUP
   ENVIRONMENT  . . . . . . . . .  	0000	PARA	PUBLIC	
   INIT . . . . . . . . . . . . .  	0000	PARA	PUBLIC	
   TAIL . . . . . . . . . . . . .  	0000	PARA	PUBLIC	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-5
                                                              
 
 TRANGROUP  . . . . . . . . . . .  	GROUP
   TRANCODE . . . . . . . . . . .  	0000	PARA	PUBLIC	
   TRANDATA . . . . . . . . . . .  	0000	PARA	PUBLIC	
-  TRANSPACE  . . . . . . . . . .  	04BA	BYTE	PUBLIC	
+  TRANSPACE  . . . . . . . . . .  	04B5	BYTE	PUBLIC	
   TRANTAIL . . . . . . . . . . .  	0000	PARA	PUBLIC	
 
 Symbols:            
@@ -561,7 +550,7 @@ ALLOC_ARENA_TRASHED  . . . . . .  	Alias	 ERROR_ARENA_TRASHED
 ALLOC_NOT_ENOUGH_MEMORY  . . . .  	Alias	 ERROR_NOT_ENOUGH_MEMORY		
 ALLSWITCH  . . . . . . . . . . .  	L WORD 	01B3	TRANSPACE	Global
 ALTVECT  . . . . . . . . . . . .  	Number	0000	
-APPEND . . . . . . . . . . . . .  	L BYTE 	03FD	TRANSPACE	Global
+APPEND . . . . . . . . . . . . .  	L BYTE 	03F8	TRANSPACE	Global
 ARENA_OWNER_SYSTEM . . . . . . .  	Number	0000	
 ARENA_SIGNATURE_END  . . . . . .  	Number	005A	
 ARENA_SIGNATURE_NORMAL . . . . .  	Number	004D	
@@ -569,7 +558,7 @@ ARG1S  . . . . . . . . . . . . .  	L WORD 	01AF	TRANSPACE	Global
 ARG2S  . . . . . . . . . . . . .  	L WORD 	01B1	TRANSPACE	Global
 ARGC . . . . . . . . . . . . . .  	L BYTE 	01AC	TRANSPACE	Global
 ARGTS  . . . . . . . . . . . . .  	L WORD 	01B3	TRANSPACE	Global
-ASCII  . . . . . . . . . . . . .  	L BYTE 	0402	TRANSPACE	Global
+ASCII  . . . . . . . . . . . . .  	L BYTE 	03FD	TRANSPACE	Global
 ASSIGNOPER . . . . . . . . . . .  	Number	005F	
 ASWITCH  . . . . . . . . . . . .  	Number	0004	
 ATTR_ALL . . . . . . . . . . . .  	Number	0016	
@@ -582,13 +571,13 @@ ATTR_READ_ONLY . . . . . . . . .  	Number	0001
 ATTR_SYSTEM  . . . . . . . . . .  	Number	0004	
 ATTR_VOLUME_ID . . . . . . . . .  	Number	0008	
 
-BATHAND  . . . . . . . . . . . .  	L WORD 	0408	TRANSPACE	Global
-BINARY . . . . . . . . . . . . .  	L BYTE 	03FF	TRANSPACE	Global
+BATHAND  . . . . . . . . . . . .  	L WORD 	0403	TRANSPACE	Global
+BINARY . . . . . . . . . . . . .  	L BYTE 	03FA	TRANSPACE	Global
 BITS . . . . . . . . . . . . . .  	L WORD 	02DB	TRANSPACE	Global
 BSWITCH  . . . . . . . . . . . .  	Number	0008	
 BUFINSIZ . . . . . . . . . . . .  	Number	0010	
 BYTCNT . . . . . . . . . . . . .  	L WORD 	01B7	TRANSPACE	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-6
                                                              
 
@@ -612,8 +601,8 @@ COMBUFLEN  . . . . . . . . . . .  	Number	0080
 COMSW  . . . . . . . . . . . . .  	L WORD 	01AD	TRANSPACE	Global
 CONCAT . . . . . . . . . . . . .  	L BYTE 	01AB	TRANSPACE	Global
 COUNTRY_NOT_FOUND  . . . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
-CPDATE . . . . . . . . . . . . .  	L WORD 	0404	TRANSPACE	Global
-CPTIME . . . . . . . . . . . . .  	L WORD 	0406	TRANSPACE	Global
+CPDATE . . . . . . . . . . . . .  	L WORD 	03FF	TRANSPACE	Global
+CPTIME . . . . . . . . . . . . .  	L WORD 	0401	TRANSPACE	Global
 CREAT  . . . . . . . . . . . . .  	Number	003C	
 CREATENEWFILE  . . . . . . . . .  	Number	005B	
 CREATETEMPFILE . . . . . . . . .  	Number	005A	
@@ -637,24 +626,24 @@ DEALLOC  . . . . . . . . . . . .  	Number	0049
 DEALLOC_ARENA_TRASHED  . . . . .  	Alias	 ERROR_ARENA_TRASHED		
 DEALLOC_INVALID_BLOCK  . . . . .  	Alias	 ERROR_INVALID_BLOCK		
 DEST . . . . . . . . . . . . . .  	L BYTE 	021C	TRANSPACE	Global	Length = 0025
-DESTBUF  . . . . . . . . . . . .  	L BYTE 	02EF	TRANSPACE	Global	Length = 0054
+DESTBUF  . . . . . . . . . . . .  	L BYTE 	02EA	TRANSPACE	Global	Length = 0054
 DESTCLOSED . . . . . . . . . . .  	L BYTE 	01B6	TRANSPACE	Global
 DESTDIR  . . . . . . . . . . . .  	L BYTE 	024C	TRANSPACE	Global	Length = 0040
 DESTFCB  . . . . . . . . . . . .  	L BYTE 	024C	TRANSPACE	Global
 DESTFCB2 . . . . . . . . . . . .  	L BYTE 	0210	TRANSPACE	Global
-DESTHAND . . . . . . . . . . . .  	L WORD 	0343	TRANSPACE	Global
-DESTINFO . . . . . . . . . . . .  	L BYTE 	02EE	TRANSPACE	Global
-DESTISDEV  . . . . . . . . . . .  	L BYTE 	0345	TRANSPACE	Global
-DESTISDIR  . . . . . . . . . . .  	L BYTE 	02EA	TRANSPACE	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+DESTHAND . . . . . . . . . . . .  	L WORD 	033E	TRANSPACE	Global
+DESTINFO . . . . . . . . . . . .  	L BYTE 	02E9	TRANSPACE	Global
+DESTISDEV  . . . . . . . . . . .  	L BYTE 	0340	TRANSPACE	Global
+DESTISDIR  . . . . . . . . . . .  	L BYTE 	02E5	TRANSPACE	Global
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-7
                                                              
 
 DESTNAME . . . . . . . . . . . .  	L BYTE 	0241	TRANSPACE	Global	Length = 000B
-DESTSIZ  . . . . . . . . . . . .  	L BYTE 	02EB	TRANSPACE	Global
+DESTSIZ  . . . . . . . . . . . .  	L BYTE 	02E6	TRANSPACE	Global
 DESTSWITCH . . . . . . . . . . .  	L WORD 	01B1	TRANSPACE	Global
-DESTTAIL . . . . . . . . . . . .  	L WORD 	02EC	TRANSPACE	Global
-DESTVARS . . . . . . . . . . . .  	L BYTE 	02EA	TRANSPACE	Global
+DESTTAIL . . . . . . . . . . . .  	L WORD 	02E7	TRANSPACE	Global
+DESTVARS . . . . . . . . . . . .  	L BYTE 	02E5	TRANSPACE	Global
 DEVID_BLOCK_DEV  . . . . . . . .  	Number	001F	
 DEVID_DEVICE . . . . . . . . . .  	Number	0080	
 DEVID_DEVICE_CLOCK . . . . . . .  	Number	0008	
@@ -681,8 +670,9 @@ DIRSTRLEN  . . . . . . . . . . .  	Number	0040
 DIR_SEARCH_FIRST . . . . . . . .  	Number	0011	
 DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012	
 DISK_RESET . . . . . . . . . . .  	Number	000D	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRVCHAR  . . . . . . . . . . . .  	Number	003A	
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
@@ -691,8 +681,8 @@ DUP_INVALID_HANDLE . . . . . . .  	Alias	 ERROR_INVALID_HANDLE
 DUP_PDB  . . . . . . . . . . . .  	Number	0055	
 DUP_TOO_MANY_OPEN_FILES  . . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES		
 
-ELCNT  . . . . . . . . . . . . .  	L BYTE 	040C	TRANSPACE	Global
-ELPOS  . . . . . . . . . . . . .  	L BYTE 	040D	TRANSPACE	Global
+ELCNT  . . . . . . . . . . . . .  	L BYTE 	0407	TRANSPACE	Global
+ELPOS  . . . . . . . . . . . . .  	L BYTE 	0408	TRANSPACE	Global
 ENTRYPOINT . . . . . . . . . . .  	Number	00C0	
 ERROR_ACCESS_DENIED  . . . . . .  	Number	0005	
 ERROR_ARENA_TRASHED  . . . . . .  	Number	0007	
@@ -703,11 +693,11 @@ ERROR_FILE_NOT_FOUND . . . . . .  	Number	0002
 ERROR_INVALID_ACCESS . . . . . .  	Number	000C	
 ERROR_INVALID_BLOCK  . . . . . .  	Number	0009	
 ERROR_INVALID_DATA . . . . . . .  	Number	000D	
-ERROR_INVALID_DRIVE  . . . . . .  	Number	000F	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-8
                                                              
 
+ERROR_INVALID_DRIVE  . . . . . .  	Number	000F	
 ERROR_INVALID_FUNCTION . . . . .  	Number	0001	
 ERROR_INVALID_HANDLE . . . . . .  	Number	0006	
 ERROR_NOT_ENOUGH_MEMORY  . . . .  	Number	0008	
@@ -761,11 +751,11 @@ FINDFIRST_NO_MORE_FILES  . . . .  	Alias	 ERROR_NO_MORE_FILES
 FINDNEXT_NO_MORE_FILES . . . . .  	Alias	 ERROR_NO_MORE_FILES		
 FIND_FIRST . . . . . . . . . . .  	Number	004E	
 FIND_NEXT  . . . . . . . . . . .  	Number	004F	
-FIRSTDEST  . . . . . . . . . . .  	L BYTE 	0346	TRANSPACE	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-9
                                                              
 
+FIRSTDEST  . . . . . . . . . . .  	L BYTE 	0341	TRANSPACE	Global
 FREEPRI  . . . . . . . . . . . .  	Number	0000	
 FRSTSRCH . . . . . . . . . . . .  	L BYTE 	01BB	TRANSPACE	Global
 FULLSCR  . . . . . . . . . . . .  	L WORD 	02E3	TRANSPACE	Global
@@ -792,17 +782,17 @@ GOTSWITCH  . . . . . . . . . . .  	Number	8000
 HEADCALL . . . . . . . . . . . .  	L DWORD	0198	TRANSPACE	Global
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 IBM		
 ID . . . . . . . . . . . . . . .  	L BYTE 	0211	TRANSPACE	Global	Length = 0008
 IDLEN  . . . . . . . . . . . . .  	L BYTE 	0210	TRANSPACE	Global
 IFNOTFLAG  . . . . . . . . . . .  	L BYTE 	01A9	TRANSPACE	Global
-INEXACT  . . . . . . . . . . . .  	L BYTE 	03FC	TRANSPACE	Global
+INEXACT  . . . . . . . . . . . .  	L BYTE 	03F7	TRANSPACE	Global
 INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
-INTERNATVARS . . . . . . . . . .  	L 0018	041A	TRANSPACE	Global
+INTERNATVARS . . . . . . . . . .  	L 0018	0415	TRANSPACE	Global
 INTERNAT_BLOCK_MAX . . . . . . .  	Number	0020	
 INTTAB . . . . . . . . . . . . .  	Number	0020	
 INT_ABORT  . . . . . . . . . . .  	Alias	 INTTAB		
@@ -819,10 +809,10 @@ IOCTL  . . . . . . . . . . . . .  	Number	0044
 IOCTL_INVALID_DATA . . . . . . .  	Alias	 ERROR_INVALID_DATA		
 IOCTL_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 IOCTL_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-10
                                                              
+
 
 KANJI  . . . . . . . . . . . . .  	Alias	 FALSE		
 KEEP_PROCESS . . . . . . . . . .  	Number	0031	
@@ -837,8 +827,8 @@ LSEEK  . . . . . . . . . . . . .  	Number	0042
 LSEEK_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 LSEEK_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 
-MELCOPY  . . . . . . . . . . . .  	L BYTE 	0347	TRANSPACE	Global
-MELSTART . . . . . . . . . . . .  	L WORD 	0348	TRANSPACE	Global
+MELCOPY  . . . . . . . . . . . .  	L BYTE 	0342	TRANSPACE	Global
+MELSTART . . . . . . . . . . . .  	L WORD 	0343	TRANSPACE	Global
 MI_INT . . . . . . . . . . . . .  	Number	00CD	
 MI_LONG_CALL . . . . . . . . . .  	Number	009A	
 MI_LONG_JMP  . . . . . . . . . .  	Number	00EA	
@@ -846,14 +836,14 @@ MI_LONG_RET  . . . . . . . . . .  	Number	00CB
 MKDIR  . . . . . . . . . . . . .  	Number	0039	
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-MSVER  . . . . . . . . . . . . .  	Number	0000	
+MSVER  . . . . . . . . . . . . .  	Number	FFFF	
 
 NORMPERLIN . . . . . . . . . . .  	Number	0001	
-NOWRITE  . . . . . . . . . . . .  	L BYTE 	03FE	TRANSPACE	Global
+NOWRITE  . . . . . . . . . . . .  	L BYTE 	03F9	TRANSPACE	Global
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 NXTADD . . . . . . . . . . . . .  	L WORD 	01B9	TRANSPACE	Global
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -876,12 +866,12 @@ PARSE_FILE_DESCRIPTOR  . . . . .  	Number	0029
 PATHCNT  . . . . . . . . . . . .  	L WORD 	02DD	TRANSPACE	Global
 PATHPOS  . . . . . . . . . . . .  	L WORD 	02DF	TRANSPACE	Global
 PATHSW . . . . . . . . . . . . .  	L WORD 	02E1	TRANSPACE	Global
-PLUS . . . . . . . . . . . . . .  	L BYTE 	0403	TRANSPACE	Global
-PSWITCH  . . . . . . . . . . . .  	Number	0002	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+PLUS . . . . . . . . . . . . . .  	L BYTE 	03FE	TRANSPACE	Global
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-11
                                                              
 
+PSWITCH  . . . . . . . . . . . .  	Number	0002	
 PWDBUF . . . . . . . . . . . . .  	L BYTE 	028C	TRANSPACE	Global
 
 RAW_CON_INPUT  . . . . . . . . .  	Number	0007	
@@ -900,12 +890,9 @@ RMDIR  . . . . . . . . . . . . .  	Number	003A
 RMDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 RMDIR_CURRENT_DIRECTORY  . . . .  	Alias	 ERROR_CURRENT_DIRECTORY		
 RMDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
-ROM_CALL . . . . . . . . . . . .  	L BYTE 	02E5	TRANSPACE	Global
-ROM_CS . . . . . . . . . . . . .  	L WORD 	02E8	TRANSPACE	Global
-ROM_IP . . . . . . . . . . . . .  	L WORD 	02E6	TRANSPACE	Global
 RPRI . . . . . . . . . . . . . .  	Number	0006	
 
-SCANBUF  . . . . . . . . . . . .  	L BYTE 	03A6	TRANSPACE	Global	Length = 0054
+SCANBUF  . . . . . . . . . . . .  	L BYTE 	03A1	TRANSPACE	Global	Length = 0054
 SDIRBUF  . . . . . . . . . . . .  	L BYTE 	02CF	TRANSPACE	Global	Length = 000C
 SERVERCALL . . . . . . . . . . .  	Number	005D	
 SETBLOCK . . . . . . . . . . . .  	Number	004A	
@@ -924,24 +911,24 @@ SET_OEM_HANDLER  . . . . . . . .  	Number	00F8
 SET_TIME . . . . . . . . . . . .  	Number	002D	
 SET_VERIFY_ON_WRITE  . . . . . .  	Number	002E	
 SF_DEFAULT_NUMBER  . . . . . . .  	Number	0005	
-SKPDEL . . . . . . . . . . . . .  	L BYTE 	040E	TRANSPACE	Global
-SOURCE . . . . . . . . . . . . .  	L BYTE 	040F	TRANSPACE	Global	Length = 000B
+SKPDEL . . . . . . . . . . . . .  	L BYTE 	0409	TRANSPACE	Global
+SOURCE . . . . . . . . . . . . .  	L BYTE 	040A	TRANSPACE	Global	Length = 000B
 SPECDRV  . . . . . . . . . . . .  	L BYTE 	01B6	TRANSPACE	Global
-SRCBUF . . . . . . . . . . . . .  	L BYTE 	034F	TRANSPACE	Global	Length = 0054
-SRCHAND  . . . . . . . . . . . .  	L WORD 	03A3	TRANSPACE	Global
-SRCINFO  . . . . . . . . . . . .  	L BYTE 	034E	TRANSPACE	Global
-SRCISDEV . . . . . . . . . . . .  	L BYTE 	03A5	TRANSPACE	Global
-SRCISDIR . . . . . . . . . . . .  	L BYTE 	034A	TRANSPACE	Global
-SRCPT  . . . . . . . . . . . . .  	L WORD 	03FA	TRANSPACE	Global
-SRCSIZ . . . . . . . . . . . . .  	L BYTE 	034B	TRANSPACE	Global
-SRCTAIL  . . . . . . . . . . . .  	L WORD 	034C	TRANSPACE	Global
-SRCVARS  . . . . . . . . . . . .  	L BYTE 	034A	TRANSPACE	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:43:27
+SRCBUF . . . . . . . . . . . . .  	L BYTE 	034A	TRANSPACE	Global	Length = 0054
+SRCHAND  . . . . . . . . . . . .  	L WORD 	039E	TRANSPACE	Global
+SRCINFO  . . . . . . . . . . . .  	L BYTE 	0349	TRANSPACE	Global
+SRCISDEV . . . . . . . . . . . .  	L BYTE 	03A0	TRANSPACE	Global
+SRCISDIR . . . . . . . . . . . .  	L BYTE 	0345	TRANSPACE	Global
+SRCPT  . . . . . . . . . . . . .  	L WORD 	03F5	TRANSPACE	Global
+SRCSIZ . . . . . . . . . . . . .  	L BYTE 	0346	TRANSPACE	Global
+SRCTAIL  . . . . . . . . . . . .  	L WORD 	0347	TRANSPACE	Global
+SRCVARS  . . . . . . . . . . . .  	L BYTE 	0345	TRANSPACE	Global
+STACK  . . . . . . . . . . . . .  	L WORD 	04B5	TRANSPACE	Global
+STARTEL  . . . . . . . . . . . .  	L WORD 	0405	TRANSPACE	Global
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:59:03
 COMMAND Transient Uninitialized DATA                        Symbols-12
                                                              
 
-STACK  . . . . . . . . . . . . .  	L WORD 	04BA	TRANSPACE	Global
-STARTEL  . . . . . . . . . . . .  	L WORD 	040A	TRANSPACE	Global
 STDAUX . . . . . . . . . . . . .  	Number	0003	
 STDERR . . . . . . . . . . . . .  	Number	0002	
 STDIN  . . . . . . . . . . . . .  	Number	0000	
@@ -960,9 +947,9 @@ STD_PRINTER_OUTPUT . . . . . . .  	Number	0005
 SWITCHAR . . . . . . . . . . . .  	L BYTE 	019E	TRANSPACE	Global
 SYM  . . . . . . . . . . . . . .  	Number	003E	
 
-TERMREAD . . . . . . . . . . . .  	L BYTE 	0401	TRANSPACE	Global
+TERMREAD . . . . . . . . . . . .  	L BYTE 	03FC	TRANSPACE	Global
 TPA  . . . . . . . . . . . . . .  	L WORD 	019C	TRANSPACE	Global
-TRANSPACEEND . . . . . . . . . .  	L BYTE 	04BA	TRANSPACE	Global
+TRANSPACEEND . . . . . . . . . .  	L BYTE 	04B5	TRANSPACE	Global
 TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
 UCOMBUF  . . . . . . . . . . . .  	L BYTE 	0000	TRANSPACE	Global	Length = 0083
@@ -972,8 +959,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 USERDIR1 . . . . . . . . . . . .  	L BYTE 	0106	TRANSPACE	Global	Length = 0043
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VSWITCH  . . . . . . . . . . . .  	Number	0010	
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -982,7 +968,7 @@ WPRI . . . . . . . . . . . . . .  	Number	0008
 WRITE  . . . . . . . . . . . . .  	Number	0040	
 WRITE_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 WRITE_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
-WRITTEN  . . . . . . . . . . . .  	L BYTE 	0400	TRANSPACE	Global
+WRITTEN  . . . . . . . . . . . .  	L BYTE 	03FB	TRANSPACE	Global
 WSWITCH  . . . . . . . . . . . .  	Number	0001	
 
 XDUP . . . . . . . . . . . . . .  	Number	0045	
@@ -993,7 +979,7 @@ ZERO . . . . . . . . . . . . . .  	NEAR 	0000	TRANSPACE
 
    1540 Source  Lines
    1606 Total   Lines
-    622 Symbols
+    619 Symbols
 
   18440 Bytes symbol space free
 

@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-1
                                                             
 
@@ -14,7 +14,7 @@ PART2 - COMMAND Transient routines.                         Page     1-1
                              C   
  =                           C  IBMVER  EQU     IBM  	; Switch to build IBM ver
 				sion of Command 
- = 0000                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
+ = FFFF                      C  MSVER   EQU     NOT IBM ; Switch to build MS-DO
 				S version of Command 
                              C   
  =                           C  HIGHMEM EQU     FALSE   ; Run resident part abo
@@ -56,7 +56,7 @@ PART2 - COMMAND Transient routines.                         Page     1-1
                              C   
                              C  VARSTRUC        STRUC 
  0000  ??                    C  ISDIR   DB      ? 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-2
 DEVICE TABLE AND SRH DEFINITION                             
 
@@ -91,8 +91,6 @@ DEVICE TABLE AND SRH DEFINITION
                                         EXTRN   PARENT:WORD,IO_SAVE:WORD,PERMCO
 				M:BYTE 
                                         EXTRN   PIPEFLAG:BYTE,ENVIRSEG:WORD 
-                                        if      ibmver 
-                                        EXTRN   SYS_CALL:DWORD 
                                         endif 
  0000                           DATARES ENDS 
                                  
@@ -114,12 +112,12 @@ DEVICE TABLE AND SRH DEFINITION
  0000                           TRANSPACE       ENDS 
                                  
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+ 0000                           TRANCODE        SEGMENT PUBLIC BYTE 
+                                ASSUME  CS:TRANGROUP,DS:NOTHING,ES:NOTHING,SS:N
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-3
 DEVICE TABLE AND SRH DEFINITION                             
 
- 0000                           TRANCODE        SEGMENT PUBLIC BYTE 
-                                ASSUME  CS:TRANGROUP,DS:NOTHING,ES:NOTHING,SS:N
 				OTHING 
                                  
                                         EXTRN   CERROR:NEAR,ZPRINT:NEAR 
@@ -143,7 +141,7 @@ DEVICE TABLE AND SRH DEFINITION
                                         ENDIF 
                                  
                                 BREAK   <Environment utilities> 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-4
 Environment utilities                                       
 
@@ -201,7 +199,7 @@ Environment utilities
  002E  FE C7                            INC     BH              ;SET BH=1 MEANS
 				 NO PARAMETERS 
  0030  EB EC                            JMP     EQLP            ;AND LOOK FOR M
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-5
 Environment utilities                                       
 
@@ -259,7 +257,7 @@ Environment utilities
  0077  EB 03                            JMP     SHORT DELETE_NAME_IN_environmen
 				t 
                                  
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-6
 Environment utilities                                       
 
@@ -317,7 +315,7 @@ Environment utilities
                                 ; 
  009E  E8 00A6 R                        CALL    FIND                    ; FIND 
 				THE NAME 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-7
 Environment utilities                                       
 
@@ -375,7 +373,7 @@ Environment utilities
  00D7  1E                               PUSH    DS 
  00D8  07                               POP     ES 
  00D9  8B FE                            MOV     DI,SI 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-8
 Environment utilities                                       
 
@@ -433,7 +431,7 @@ Environment utilities
  0113  33 FF                            XOR     DI,DI 
  0115                           SDN1: 
  0115  E8 0123 R                        CALL    SCASB2 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-9
 Environment utilities                                       
 
@@ -491,7 +489,7 @@ Environment utilities
  014B  53                               PUSH    BX              ; Save Size of 
 				environment 
  014C  E8 0000 E                        CALL    FREE_TPA 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-10
 Environment utilities                                       
 
@@ -549,7 +547,7 @@ Environment utilities
                                         return 
  018D                         1 ??001B:
  018D  C3                     1  RET
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-11
 Environment utilities                                       
 
@@ -605,102 +603,92 @@ Environment utilities
  01DD  26: A3 0016                      MOV     WORD PTR ES:[PDB_Parent_PID],AX
 				 
                                  
-                                IF IBM 
- 01E1  26: 80 3E 0000 E 00              CMP     [PERMCOM],0 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+                                ENDIF 
+                                 
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-12
 Environment utilities                                       
 
- 01E7  75 0A                            JNZ     NORESETVEC      ;Don't reset th
-				e vector if a PERMCOM 
- 01E9  26: C5 16 0000 E                 LDS     DX,DWORD PTR ES:[SYS_CALL] 
-                                ASSUME  DS:NOTHING 
- 01EE  B8 2521                          MOV     AX,(SET_INTERRUPT_VECTOR SHL 8)
-				 + INT_COMMAND 
- 01F1  CD 21                            INT     int_command 
- 01F3                           NORESETVEC: 
-                                ENDIF 
-                                 
- 01F3  07                               POP     ES 
+ 01E1  07                               POP     ES 
                                 ASSUME  ES:TRANGROUP 
- 01F4  26: 8E 06 0000 E                 MOV     ES,[TPA] 
- 01F9  B4 49                            MOV     AH,DEALLOC 
- 01FB  CD 21                            INT     int_command                    
+ 01E2  8E 06 0000 E                     MOV     ES,[TPA] 
+ 01E6  B4 49                            MOV     AH,DEALLOC 
+ 01E8  CD 21                            INT     int_command                    
 				         ; Now running in "free" space 
- 01FD  B8 4C00                          MOV     AX,(EXIT SHL 8) 
- 0200  CD 21                            INT     int_command 
+ 01EA  B8 4C00                          MOV     AX,(EXIT SHL 8) 
+ 01ED  CD 21                            INT     int_command 
                                  
- 0202                           CTTY: 
- 0202  E8 0000 E                        CALL    SETPATH         ; Get spec 
- 0205  B8 3D02                          MOV     AX,(OPEN SHL 8) OR 2    ; Read 
+ 01EF                           CTTY: 
+ 01EF  E8 0000 E                        CALL    SETPATH         ; Get spec 
+ 01F2  B8 3D02                          MOV     AX,(OPEN SHL 8) OR 2    ; Read 
 				and write 
- 0208  CD 21                            INT     int_command             ; Open 
+ 01F5  CD 21                            INT     int_command             ; Open 
 				new device 
- 020A  72 10                            JC      ISBADDEV 
- 020C  8B D8                            MOV     BX,AX 
- 020E  B8 4400                          MOV     AX,IOCTL SHL 8 
- 0211  CD 21                            INT     int_command 
- 0213  F6 C2 80                         TEST    DL,80H 
- 0216  75 0D                            JNZ     DEVISOK 
- 0218  B4 3E                            MOV     AH,CLOSE       ; Close initial 
+ 01F7  72 10                            JC      ISBADDEV 
+ 01F9  8B D8                            MOV     BX,AX 
+ 01FB  B8 4400                          MOV     AX,IOCTL SHL 8 
+ 01FE  CD 21                            INT     int_command 
+ 0200  F6 C2 80                         TEST    DL,80H 
+ 0203  75 0D                            JNZ     DEVISOK 
+ 0205  B4 3E                            MOV     AH,CLOSE       ; Close initial 
 				handle 
- 021A  CD 21                            INT     int_command 
- 021C                           ISBADDEV: 
- 021C  BA 0000 E                        MOV     DX,OFFSET TRANGROUP:BADDEV 
- 021F  E8 0000 E                        CALL    PRINT 
- 0222  EB 29 90                         JMP     RESRET 
+ 0207  CD 21                            INT     int_command 
+ 0209                           ISBADDEV: 
+ 0209  BA 0000 E                        MOV     DX,OFFSET TRANGROUP:BADDEV 
+ 020C  E8 0000 E                        CALL    PRINT 
+ 020F  EB 29 90                         JMP     RESRET 
                                  
- 0225                           DEVISOK: 
- 0225  32 F6                            XOR     DH,DH 
- 0227  80 CA 03                         OR      DL,3            ; Make sure has
+ 0212                           DEVISOK: 
+ 0212  32 F6                            XOR     DH,DH 
+ 0214  80 CA 03                         OR      DL,3            ; Make sure has
 				 CON attributes 
- 022A  B8 4401                          MOV     AX,(IOCTL SHL 8) OR 1 
- 022D  CD 21                            INT     int_command 
- 022F  53                               PUSH    BX                      ; Save 
+ 0217  B8 4401                          MOV     AX,(IOCTL SHL 8) OR 1 
+ 021A  CD 21                            INT     int_command 
+ 021C  53                               PUSH    BX                      ; Save 
 				handle 
- 0230  B9 0003                          MOV     CX,3 
- 0233  33 DB                            XOR     BX,BX 
- 0235                           ICLLOOP:                                ; Close
+ 021D  B9 0003                          MOV     CX,3 
+ 0220  33 DB                            XOR     BX,BX 
+ 0222                           ICLLOOP:                                ; Close
 				 basic handles 
- 0235  B4 3E                            MOV     AH,CLOSE 
- 0237  CD 21                            INT     int_command 
- 0239  43                               INC     BX 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+ 0222  B4 3E                            MOV     AH,CLOSE 
+ 0224  CD 21                            INT     int_command 
+ 0226  43                               INC     BX 
+ 0227  E2 F9                            LOOP    ICLLOOP 
+ 0229  5B                               POP     BX              ; Get handle 
+ 022A  B4 45                            MOV     AH,XDUP 
+ 022C  CD 21                            INT     int_command             ; Dup i
+				t to 0 
+ 022E  B4 45                            MOV     AH,XDUP 
+ 0230  CD 21                            INT     int_command             ; Dup t
+				o 1 
+ 0232  B4 45                            MOV     AH,XDUP 
+ 0234  CD 21                            INT     int_command             ; Dup t
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Page     1-13
 Environment utilities                                       
 
- 023A  E2 F9                            LOOP    ICLLOOP 
- 023C  5B                               POP     BX              ; Get handle 
- 023D  B4 45                            MOV     AH,XDUP 
- 023F  CD 21                            INT     int_command             ; Dup i
-				t to 0 
- 0241  B4 45                            MOV     AH,XDUP 
- 0243  CD 21                            INT     int_command             ; Dup t
-				o 1 
- 0245  B4 45                            MOV     AH,XDUP 
- 0247  CD 21                            INT     int_command             ; Dup t
 				o 2 
- 0249  B4 3E                            MOV     AH,CLOSE        ; Close initial
+ 0236  B4 3E                            MOV     AH,CLOSE        ; Close initial
 				 handle 
- 024B  CD 21                            INT     int_command 
- 024D                           RESRET: 
- 024D  26: 8E 1E 0000 E                 MOV     DS,[RESSEG] 
+ 0238  CD 21                            INT     int_command 
+ 023A                           RESRET: 
+ 023A  8E 1E 0000 E                     MOV     DS,[RESSEG] 
                                 ASSUME  DS:RESGROUP 
- 0252  1E                               PUSH    DS 
- 0253  A1 0018                          MOV     AX,WORD PTR DS:[PDB_JFN_Table] 
+ 023E  1E                               PUSH    DS 
+ 023F  A1 0018                          MOV     AX,WORD PTR DS:[PDB_JFN_Table] 
 				          ; Get new 0 and 1 
- 0256  A3 0000 E                        MOV     [IO_SAVE],AX 
- 0259  B8 0000 E                        MOV     AX,OFFSET RESGROUP:LODCOM1 
- 025C  50                               PUSH    AX 
- 025D                           ZMMMM   PROC FAR 
- 025D  CB                               RET                     ; Force header 
+ 0242  A3 0000 E                        MOV     [IO_SAVE],AX 
+ 0245  B8 0000 E                        MOV     AX,OFFSET RESGROUP:LODCOM1 
+ 0248  50                               PUSH    AX 
+ 0249                           ZMMMM   PROC FAR 
+ 0249  CB                               RET                     ; Force header 
 				to be checked 
                                 ZMMMM   ENDP 
                                  
- 025E                           TRANCODE        ENDS 
+ 024A                           TRANCODE        ENDS 
                                         END 
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-1
                                                              
 
@@ -758,7 +746,7 @@ BUFFINFO . . . . . . . . . . . .  	0010	0009
   BUFWRTINC  . . . . . . . . . .  	000B
   BUFDRVDP . . . . . . . . . . .  	000C
 DIR_ENTRY  . . . . . . . . . . .  	0020	0008
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-2
                                                              
 
@@ -816,7 +804,7 @@ EXE_FILE . . . . . . . . . . . .  	0020	000F
   EXE_MAX_BSS  . . . . . . . . .  	000C
   EXE_SS . . . . . . . . . . . .  	000E
   EXE_SP . . . . . . . . . . . .  	0010
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-3
                                                              
 
@@ -874,7 +862,7 @@ SF_ENTRY . . . . . . . . . . . .  	0028	0004
   SF_MODE  . . . . . . . . . . .  	0001
   SF_ATTR  . . . . . . . . . . .  	0002
   SF_FCB . . . . . . . . . . . .  	0003
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-4
                                                              
 
@@ -929,7 +917,7 @@ VARSTRUC . . . . . . . . . . . .  	0059	0005
   TTAIL  . . . . . . . . . . . .  	0002
   INFO . . . . . . . . . . . . .  	0004
   BUF  . . . . . . . . . . . . .  	0005
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-5
                                                              
 
@@ -947,7 +935,7 @@ RESGROUP . . . . . . . . . . . .  	GROUP
   INIT . . . . . . . . . . . . .  	0000	PARA	PUBLIC	
   TAIL . . . . . . . . . . . . .  	0000	PARA	PUBLIC	
 TRANGROUP  . . . . . . . . . . .  	GROUP
-  TRANCODE . . . . . . . . . . .  	025E	BYTE	PUBLIC	
+  TRANCODE . . . . . . . . . . .  	024A	BYTE	PUBLIC	
   TRANDATA . . . . . . . . . . .  	0000	PARA	PUBLIC	
   TRANSPACE  . . . . . . . . . .  	0000	PARA	PUBLIC	
   TRANTAIL . . . . . . . . . . .  	0000	PARA	PUBLIC	
@@ -987,7 +975,7 @@ ATTR_ARCHIVE . . . . . . . . . .  	Number	0020
 ATTR_CHANGEABLE  . . . . . . . .  	Number	0027	
 ATTR_DIRECTORY . . . . . . . . .  	Number	0010	
 ATTR_HIDDEN  . . . . . . . . . .  	Number	0002	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-6
                                                              
 
@@ -1025,7 +1013,7 @@ CREAT_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED
 CREAT_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 CREAT_TOO_MANY_OPEN_FILES  . . .  	Alias	 ERROR_TOO_MANY_OPEN_FILES		
 CRLF2  . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
-CTTY . . . . . . . . . . . . . .  	L NEAR	0202	TRANCODE	Global
+CTTY . . . . . . . . . . . . . .  	L NEAR	01EF	TRANCODE	Global
 CURDIR_INVALID_DRIVE . . . . . .  	Alias	 ERROR_INVALID_DRIVE		
 CURDRV . . . . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
 CURRENT_DIR  . . . . . . . . . .  	Number	0047	
@@ -1045,7 +1033,7 @@ DEALLOC_INVALID_BLOCK  . . . . .  	Alias	 ERROR_INVALID_BLOCK
 DEL1 . . . . . . . . . . . . . .  	L NEAR	0093	TRANCODE
 DELETE_NAME_IN_ENVIRONMENT . . .  	L NEAR	007C	TRANCODE
 DELETE_PATH  . . . . . . . . . .  	L NEAR	0074	TRANCODE	Global
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-7
                                                              
 
@@ -1073,7 +1061,7 @@ DEVID_SPECIAL  . . . . . . . . .  	Number	0010
 DEVIFL . . . . . . . . . . . . .  	Number	0007	
 DEVINIT  . . . . . . . . . . . .  	Number	0000	
 DEVIOCTL . . . . . . . . . . . .  	Number	4000	
-DEVISOK  . . . . . . . . . . . .  	L NEAR	0225	TRANCODE
+DEVISOK  . . . . . . . . . . . .  	L NEAR	0212	TRANCODE
 DEVIST . . . . . . . . . . . . .  	Number	0006	
 DEVMDCH  . . . . . . . . . . . .  	Number	0001	
 DEVOFL . . . . . . . . . . . . .  	Number	000B	
@@ -1095,18 +1083,19 @@ DIR_SEARCH_NEXT  . . . . . . . .  	Number	0012
 DISK_RESET . . . . . . . . . . .  	Number	000D	
 DISP_ENV . . . . . . . . . . . .  	L NEAR	0056	TRANCODE
 DMEDHL . . . . . . . . . . . . .  	Number	000F	
+DOSVER . . . . . . . . . . . . .  	Number	00D3	
 DOS_MAJOR_VERSION  . . . . . . .  	Number	0002	
-DOS_MINOR_VERSION  . . . . . . .  	Number	0000	
+DOS_MINOR_VERSION  . . . . . . .  	Number	000B	
 DPBISOK  . . . . . . . . . . . .  	L NEAR	01C4	TRANCODE
 DPBSIZ . . . . . . . . . . . . .  	Number	005E	
 DRDNDHL  . . . . . . . . . . . .  	Number	000E	
 DRDWRHL  . . . . . . . . . . . .  	Number	0016	
 DRVBAD . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
-DRVCHAR  . . . . . . . . . . . .  	Number	003A	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-8
                                                              
 
+DRVCHAR  . . . . . . . . . . . .  	Number	003A	
 DSKSIZ . . . . . . . . . . . . .  	Number	000D	
 DSTATHL  . . . . . . . . . . . .  	Number	000D	
 DUP2_INVALID_HANDLE  . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
@@ -1160,11 +1149,11 @@ FCB_CREATE . . . . . . . . . . .  	Number	0016
 FCB_DELETE . . . . . . . . . . .  	Number	0013	
 FCB_OPEN . . . . . . . . . . . .  	Number	000F	
 FCB_RANDOM_READ  . . . . . . . .  	Number	0021	
-FCB_RANDOM_READ_BLOCK  . . . . .  	Number	0027	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-9
                                                              
 
+FCB_RANDOM_READ_BLOCK  . . . . .  	Number	0027	
 FCB_RANDOM_WRITE . . . . . . . .  	Number	0022	
 FCB_RANDOM_WRITE_BLOCK . . . . .  	Number	0028	
 FCB_RENAME . . . . . . . . . . .  	Number	0017	
@@ -1214,15 +1203,15 @@ GOTSWITCH  . . . . . . . . . . .  	Number	8000
 
 HIGHMEM  . . . . . . . . . . . .  	Alias	 FALSE		
 
-IBM  . . . . . . . . . . . . . .  	Alias	 TRUE		
+IBM  . . . . . . . . . . . . . .  	Alias	 FALSE		
 IBMJAPAN . . . . . . . . . . . .  	Alias	 FALSE		
 IBMVER . . . . . . . . . . . . .  	Alias	 IBM		
-ICLLOOP  . . . . . . . . . . . .  	L NEAR	0235	TRANCODE
-INTBASE  . . . . . . . . . . . .  	Number	0080	
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+ICLLOOP  . . . . . . . . . . . .  	L NEAR	0222	TRANCODE
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-10
                                                              
 
+INTBASE  . . . . . . . . . . . .  	Number	0080	
 INTERNATIONAL  . . . . . . . . .  	Number	0038	
 INTERNATIONAL_INVALID_FUNCTION .  	Alias	 ERROR_INVALID_FUNCTION		
 INTERNATVARS . . . . . . . . . .  	V BYTE 	0000	TRANSPACE	External
@@ -1243,7 +1232,7 @@ IOCTL_INVALID_DATA . . . . . . .  	Alias	 ERROR_INVALID_DATA
 IOCTL_INVALID_FUNCTION . . . . .  	Alias	 ERROR_INVALID_FUNCTION		
 IOCTL_INVALID_HANDLE . . . . . .  	Alias	 ERROR_INVALID_HANDLE		
 IO_SAVE  . . . . . . . . . . . .  	V WORD 	0000	DATARES	External
-ISBADDEV . . . . . . . . . . . .  	L NEAR	021C	TRANCODE
+ISBADDEV . . . . . . . . . . . .  	L NEAR	0209	TRANCODE
 ISCIN  . . . . . . . . . . . . .  	Number	0001	
 ISCLOCK  . . . . . . . . . . . .  	Number	0008	
 ISCOUT . . . . . . . . . . . . .  	Number	0002	
@@ -1271,17 +1260,16 @@ MKDIR  . . . . . . . . . . . . .  	Number	0039
 MKDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 MKDIR_PATH_NOT_FOUND . . . . . .  	Alias	 ERROR_PATH_NOT_FOUND		
 MOVE_NAME  . . . . . . . . . . .  	L NEAR	00EB	TRANCODE	Global
-MSVER  . . . . . . . . . . . . .  	Number	0000	
+MSVER  . . . . . . . . . . . . .  	Number	FFFF	
 
-NORESETVEC . . . . . . . . . . .  	L NEAR	01F3	TRANCODE
 NORMPERLIN . . . . . . . . . . .  	Number	0001	
 NO_ERROR_OCCURRED  . . . . . . .  	Text  0                                                              ?		
 
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-11
                                                              
 
-OEMIBM . . . . . . . . . . . . .  	Text  		
+OEM  . . . . . . . . . . . . . .  	Text  		
 OEM_C1 . . . . . . . . . . . . .  	Number	00F9	
 OEM_C2 . . . . . . . . . . . . .  	Number	00FA	
 OEM_C3 . . . . . . . . . . . . .  	Number	00FB	
@@ -1327,7 +1315,7 @@ RENAME . . . . . . . . . . . . .  	Number	0056
 RENAME_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
 RENAME_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND		
 RENAME_NOT_SAME_DEVICE . . . . .  	Alias	 ERROR_NOT_SAME_DEVICE		
-RESRET . . . . . . . . . . . . .  	L NEAR	024D	TRANCODE
+RESRET . . . . . . . . . . . . .  	L NEAR	023A	TRANCODE
 RESSEG . . . . . . . . . . . . .  	V WORD 	0000	TRANSPACE	External
 RET22C . . . . . . . . . . . . .  	L NEAR	0135	TRANCODE
 RET_C  . . . . . . . . . . . . .  	NEAR 	00A1	TRANCODE
@@ -1335,7 +1323,7 @@ RET_L  . . . . . . . . . . . . .  	NEAR 	019D	TRANCODE
 RET_Z  . . . . . . . . . . . . .  	NEAR 	0102	TRANCODE
 RMDIR  . . . . . . . . . . . . .  	Number	003A	
 RMDIR_ACCESS_DENIED  . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-12
                                                              
 
@@ -1390,14 +1378,13 @@ STORE1 . . . . . . . . . . . . .  	L NEAR	0171	TRANCODE
 STORE_CHAR . . . . . . . . . . .  	L NEAR	013B	TRANCODE	Global
 SYM  . . . . . . . . . . . . . .  	Number	003E	
 SYNTMES  . . . . . . . . . . . .  	V BYTE 	0000	TRANDATA	External
-SYS_CALL . . . . . . . . . . . .  	V DWORD	0000	DATARES	External
 
 TPA  . . . . . . . . . . . . . .  	V WORD 	0000	TRANSPACE	External
-Microsoft (R) Macro Assembler  Version 4.00                 11/19/18 11:31:57
+TRUE . . . . . . . . . . . . . .  	Number	FFFF	
+Microsoft (R) Macro Assembler  Version 4.00                 11/21/18 14:47:34
 PART2 - COMMAND Transient routines.                         Symbols-13
                                                              
 
-TRUE . . . . . . . . . . . . . .  	Number	FFFF	
 
 UNLINK . . . . . . . . . . . . .  	Number	0041	
 UNLINK_ACCESS_DENIED . . . . . .  	Alias	 ERROR_ACCESS_DENIED		
@@ -1405,8 +1392,7 @@ UNLINK_FILE_NOT_FOUND  . . . . .  	Alias	 ERROR_FILE_NOT_FOUND
 UPCONV . . . . . . . . . . . . .  	L NEAR	012B	TRANCODE	Global
 USERIDOPER . . . . . . . . . . .  	Number	005E	
 
-VER  . . . . . . . . . . . . . .  	Number	00C8	
-VER200 . . . . . . . . . . . . .  	Text  		
+VER  . . . . . . . . . . . . . .  	Text  		
 VSWITCH  . . . . . . . . . . . .  	Number	0010	
 
 WAIT . . . . . . . . . . . . . .  	Number	004D	
@@ -1421,7 +1407,7 @@ WSWITCH  . . . . . . . . . . . .  	Number	0001
 XDUP . . . . . . . . . . . . . .  	Number	0045	
 XDUP2  . . . . . . . . . . . . .  	Number	0046	
 
-ZMMMM  . . . . . . . . . . . . .  	F PROC	025D	TRANCODE	Length = 0001
+ZMMMM  . . . . . . . . . . . . .  	F PROC	0249	TRANCODE	Length = 0001
 ZPRINT . . . . . . . . . . . . .  	L NEAR	0000	TRANCODE	External
 
 $EXIT  . . . . . . . . . . . . .  	L NEAR	01D4	TRANCODE	Global
@@ -1449,7 +1435,7 @@ $EXIT  . . . . . . . . . . . . .  	L NEAR	01D4	TRANCODE	Global
 
    1956 Source  Lines
    2249 Total   Lines
-    671 Symbols
+    669 Symbols
 
   16854 Bytes symbol space free
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>UNP</title>
 	<version>4.11</version>
 	<source href="http://unp.bencastricum.nl/">UNP</source>
-	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/bin" href="/pcjs-disks/pcx86/tools/other/unp/4.11/UNP411.json" md5="e2416c96435818fbe308e8a511723264" md5json="182da4ebb58dbdb91d3391ed5369d178">
+	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/bin" href="/disks-demo/pcx86/tools/other/unp/4.11/UNP411.json" md5="e2416c96435818fbe308e8a511723264" md5json="182da4ebb58dbdb91d3391ed5369d178">
 		<name>UNP (Executable Unpacker) 4.11</name>
 		<file size="327" time="1995-04-10 05:38:54" attr="0x20" md5="5e19535a02b1c1bb9e5430af598701c2">FILE_ID.DIZ</file>
 		<file size="31148" time="1995-05-30 16:15:30" attr="0x20" md5="7d77e9ac739ea836002cb81b553341ab">UNP.DOC</file>
 		<file size="20106" time="1995-05-30 15:59:28" attr="0x20" md5="e077c3a036a8a9f073b2f2b68fd8eb45">UNP.EXE</file>
 		<file size="7525" time="1995-05-30 15:57:16" attr="0x20" md5="83c37313e88c0e844a8d815f71d469f7">WHATSNEW.411</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" dir="archive/src" href="/pcjs-disks/pcx86/tools/other/unp/4.11/UNP411-SRC.json" md5="1b31ed5827eb8fbbb7340eeb70ef5997" md5json="748a031803f7fdee78a8b20f42720c65">
+	<disk id="disk02" size="1228800" chs="80:2:15" dir="archive/src" href="/disks-demo/pcx86/tools/other/unp/4.11/UNP411-SRC.json" md5="1b31ed5827eb8fbbb7340eeb70ef5997" md5json="748a031803f7fdee78a8b20f42720c65">
 		<name>UNP (Executable Unpacker) Source</name>
 		<file size="1633" time="1995-03-15 16:35:52" attr="0x20" md5="ea65eb6a76c259638ff04edd52be51dd">COMPILER.H</file>
 		<file size="26370" time="1996-05-28 18:17:12" attr="0x20" md5="08e232abf879d6af310785bc20b053a4">DIET.EXE</file>

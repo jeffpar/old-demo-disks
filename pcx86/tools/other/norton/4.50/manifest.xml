@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Norton Utilities (Advanced Edition)</title>
 	<version>4.50</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK1.img" href="/pcjs-disks/pcx86/tools/other/norton/4.50/NU450-ADV-DISK1.json" md5="19322f8bda036a0ebaa006311be05c89" md5json="50a8e7a31d34c9d65f2a7344243f71f2">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK1.img" href="/disks-demo/pcx86/tools/other/norton/4.50/NU450-ADV-DISK1.json" md5="19322f8bda036a0ebaa006311be05c89" md5json="50a8e7a31d34c9d65f2a7344243f71f2">
 		<name>Norton Utilities 4.50 (Disk 1)</name>
 		<file size="44244" time="1988-10-16 16:50:00" attr="0x20">FR.EXE</file>
 		<file size="32320" time="1988-10-16 16:50:00" attr="0x20">INSTALL.EXE</file>
@@ -12,7 +12,7 @@
 		<file size="10919" time="1988-10-16 16:50:00" attr="0x20">NU.HLP</file>
 		<file size="3864" time="1988-10-16 16:50:00" attr="0x20">READ.ME</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK2.img" href="/pcjs-disks/pcx86/tools/other/norton/4.50/NU450-ADV-DISK2.json" md5="c521fb8e3d9c71f493292b277cd48e43" md5json="0d1f5f070f57878903840293985f5c2d">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK2.img" href="/disks-demo/pcx86/tools/other/norton/4.50/NU450-ADV-DISK2.json" md5="c521fb8e3d9c71f493292b277cd48e43" md5json="0d1f5f070f57878903840293985f5c2d">
 		<name>Norton Utilities 4.50 (Disk 2)</name>
 		<file size="36000" time="1988-10-16 16:50:00" attr="0x20">DS.EXE</file>
 		<file size="21080" time="1988-10-16 16:50:00" attr="0x20">DT.EXE</file>
@@ -25,7 +25,7 @@
 		<file size="49060" time="1988-10-16 16:50:00" attr="0x20">SF.EXE</file>
 		<file size="19420" time="1988-10-16 16:50:00" attr="0x20">UD.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK3.img" href="/pcjs-disks/pcx86/tools/other/norton/4.50/NU450-ADV-DISK3.json" md5="a44ad7cdc82848342362d87b9c0cbb42" md5json="c27cc0f253ca82a3d058302bd22b5762">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU450-ADV-DISK3.img" href="/disks-demo/pcx86/tools/other/norton/4.50/NU450-ADV-DISK3.json" md5="a44ad7cdc82848342362d87b9c0cbb42" md5json="c27cc0f253ca82a3d058302bd22b5762">
 		<name>Norton Utilities 4.50 (Disk 3)</name>
 		<file size="22426" time="1988-10-16 16:50:00" attr="0x20">BE.EXE</file>
 		<file size="659" time="1988-10-16 16:50:00" attr="0x20">BEDEMO.BAT</file>

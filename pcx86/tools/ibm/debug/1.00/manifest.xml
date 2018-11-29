@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM Professional Debug Facility</title>
 	<version>1.00</version>
 	<company>IBM</company>
-	<disk id="disk01" size="184320" chs="40:1:9" img="archive/IBM-DEBUG-100.img" href="/pcjs-disks/pcx86/tools/ibm/debug/1.00/IBM-DEBUG-100.json" md5="6b38f963e293f8cda96a0aef5505d656" md5json="a9d72fb6f6c3435e41be78f6ca49cde0">
+	<disk id="disk01" size="184320" chs="40:1:9" img="archive/IBM-DEBUG-100.img" href="/disks-demo/pcx86/tools/ibm/debug/1.00/IBM-DEBUG-100.json" md5="6b38f963e293f8cda96a0aef5505d656" md5json="a9d72fb6f6c3435e41be78f6ca49cde0">
 		<file size="633" time="1984-07-01 09:30:00" attr="0x20">DEMO.EXE</file>
 		<file size="18880" time="1984-07-01 09:30:00" attr="0x20">DR.COM</file>
 		<file size="27600" time="1984-07-01 09:30:00" attr="0x20">DR.HLP</file>

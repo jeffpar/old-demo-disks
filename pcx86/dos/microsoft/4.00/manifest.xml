@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS-DOS</title>
 	<version>4.00</version>
@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate>October 1988</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/4.00/MSDOS400-DISK1.json" md5="717c57e65734de6d6097c5aaf9c30bd9" md5json="48ea5de3d06e69c29aaa4d852828d1c5">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK1.img" href="/disks-demo/pcx86/dos/microsoft/4.00/MSDOS400-DISK1.json" md5="717c57e65734de6d6097c5aaf9c30bd9" md5json="48ea5de3d06e69c29aaa4d852828d1c5">
 		<name>MS-DOS 4.00 (Disk 1)</name>
 		<file size="39" time="1988-10-06 00:00:08" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="37556" time="1988-10-06 00:00:08" attr="0x20">COMMAND.COM</file>
@@ -27,7 +27,7 @@
 		<file size="1329" time="1988-10-06 00:00:08" attr="0x20">SELECT.PRT</file>
 		<file size="11456" time="1988-10-06 00:00:08" attr="0x20">SYS.COM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/4.00/MSDOS400-DISK2.json" md5="ca51dc623aaa1f1953e58e6f65a6df41" md5json="529596508d4e08d776a2785a631dc9bc">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK2.img" href="/disks-demo/pcx86/dos/microsoft/4.00/MSDOS400-DISK2.json" md5="ca51dc623aaa1f1953e58e6f65a6df41" md5json="529596508d4e08d776a2785a631dc9bc">
 		<name>MS-DOS 4.00 (Disk 2)</name>
 		<file size="5753" time="1988-10-06 00:00:08" attr="0x20">ASSIGN.COM</file>
 		<file size="18263" time="1988-10-06 00:00:08" attr="0x20">ATTRIB.EXE</file>
@@ -51,7 +51,7 @@
 		<file size="6302" time="1988-10-06 00:00:08" attr="0x20">TREE.COM</file>
 		<file size="17055" time="1988-10-06 00:00:08" attr="0x20">XCOPY.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK3.img" href="/pcjs-disks/pcx86/dos/microsoft/4.00/MSDOS400-DISK3.json" md5="7467c2d44173bd1a75d09f815e94229b" md5json="8d24d2cfce620bded064efba3e203213">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK3.img" href="/disks-demo/pcx86/dos/microsoft/4.00/MSDOS400-DISK3.json" md5="7467c2d44173bd1a75d09f815e94229b" md5json="8d24d2cfce620bded064efba3e203213">
 		<name>MS-DOS 4.00 (Disk 3)</name>
 		<file size="37556" time="1988-10-06 00:00:08" attr="0x20">COMMAND.COM</file>
 		<file size="87776" time="1988-10-06 00:00:02" attr="0x20">EMM386.SYS</file>
@@ -63,7 +63,7 @@
 		<file size="10224" time="1988-10-06 00:00:08" attr="0x20">SMARTDRV.SYS</file>
 		<file size="29211" time="1988-10-06 00:00:08" attr="0x20">XMA2EMS.SYS</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK4.img" href="/pcjs-disks/pcx86/dos/microsoft/4.00/MSDOS400-DISK4.json" md5="855e9975ce186cc24da5d6e039a17dcf" md5json="1ccbb32cff7a692e18189d21a4ee9f1f">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK4.img" href="/disks-demo/pcx86/dos/microsoft/4.00/MSDOS400-DISK4.json" md5="855e9975ce186cc24da5d6e039a17dcf" md5json="1ccbb32cff7a692e18189d21a4ee9f1f">
 		<name>MS-DOS 4.00 (Disk 4)</name>
 		<file size="6404" time="1988-10-06 00:00:08" attr="0x20">4201.CPI</file>
 		<file size="720" time="1988-10-06 00:00:08" attr="0x20">4208.CPI</file>
@@ -90,7 +90,7 @@
 		<file size="14148" time="1988-10-12 21:13:00" attr="0x20">README.TXT</file>
 		<file size="10588" time="1988-10-06 00:00:08" attr="0x20">RECOVER.COM</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK5.img" href="/pcjs-disks/pcx86/dos/microsoft/4.00/MSDOS400-DISK5.json" md5="9306e60e4bed6dcb7576ff94ae66f466" md5json="8a84641e481de8ab430bf8abee024839">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK5.img" href="/disks-demo/pcx86/dos/microsoft/4.00/MSDOS400-DISK5.json" md5="9306e60e4bed6dcb7576ff94ae66f466" md5json="8a84641e481de8ab430bf8abee024839">
 		<name>MS-DOS 4.00 (Disk 5)</name>
 		<file size="36880" time="1988-10-06 00:00:08" attr="0x20">BACKUP.COM</file>
 		<file size="49068" time="1988-10-06 00:00:08" attr="0x20">EGA.CPI</file>
@@ -102,7 +102,7 @@
 		<file size="95107" time="1988-10-06 00:00:08" attr="0x20">SELECT.EXE</file>
 		<file size="29211" time="1988-10-06 00:00:08" attr="0x20">XMA2EMS.SYS</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK6.img" href="/pcjs-disks/pcx86/dos/microsoft/4.00/MSDOS400-DISK6.json" md5="de0d0b332d9ef57711b10c9c855c004d" md5json="3afe3af205d62df01788d76161083c54">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/MSDOS400-DISK6.img" href="/disks-demo/pcx86/dos/microsoft/4.00/MSDOS400-DISK6.json" md5="de0d0b332d9ef57711b10c9c855c004d" md5json="3afe3af205d62df01788d76161083c54">
 		<name>MS-DOS 4.00 (Disk 6)</name>
 		<file size="17787" time="1988-10-06 00:00:08" attr="0x20">CHKDSK.COM</file>
 		<file size="37556" time="1988-10-06 00:00:08" attr="0x20">COMMAND.COM</file>

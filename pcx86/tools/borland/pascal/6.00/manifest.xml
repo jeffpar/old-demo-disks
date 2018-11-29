@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Borland Turbo Pascal</title>
 	<version>6.00</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK1.img" href="/pcjs-disks/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK1.json" md5="0fbcbcc96a0fffa038b7aa92cd2617d5" md5json="483ba8a751b693ea0cfb6cb663278964">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK1.img" href="/disks-demo/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK1.json" md5="0fbcbcc96a0fffa038b7aa92cd2617d5" md5json="483ba8a751b693ea0cfb6cb663278964">
 		<name>Borland Turbo Pascal 6.00 (Disk 1)</name>
 		<file size="50966" time="1990-10-23 06:00:00" attr="0x20">INSTALL.EXE</file>
 		<file size="16395" time="1990-10-23 06:00:00" attr="0x20">README</file>
@@ -11,7 +11,7 @@
 		<file size="262268" time="1990-10-23 06:00:00" attr="0x20">TURBO.ZIP</file>
 		<file size="23044" time="1990-10-23 06:00:00" attr="0x20">UNZIP.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK2.img" href="/pcjs-disks/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK2.json" md5="6fb3b4a1b6b5a1937a5521a06e31e90a" md5json="878e36bac5c7c85c7650945fb983d6db">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK2.img" href="/disks-demo/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK2.json" md5="6fb3b4a1b6b5a1937a5521a06e31e90a" md5json="878e36bac5c7c85c7650945fb983d6db">
 		<name>Borland Turbo Pascal 6.00 (Disk 2)</name>
 		<file size="22267" time="1990-10-23 06:00:00" attr="0x20">INTRFACE.ZIP</file>
 		<file size="120178" time="1990-10-23 06:00:00" attr="0x20">TOUR.ZIP</file>
@@ -19,11 +19,11 @@
 		<file size="79733" time="1990-10-23 06:00:00" attr="0x20">TVDEMOS.ZIP</file>
 		<file size="124698" time="1990-10-23 06:00:00" attr="0x20">TVISION.ZIP</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK3.img" href="/pcjs-disks/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK3.json" md5="65198cfe32c7d3c8d32cc0934163d087" md5json="084be2ae8318397de9f5b359abb2a9fc">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK3.img" href="/disks-demo/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK3.json" md5="65198cfe32c7d3c8d32cc0934163d087" md5json="084be2ae8318397de9f5b359abb2a9fc">
 		<name>Borland Turbo Pascal 6.00 (Disk 3)</name>
 		<file size="355853" time="1990-10-23 06:00:00" attr="0x20">HELP.ZIP</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK4.img" href="/pcjs-disks/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK4.json" md5="3cdbc7b5e7ac92a28a629d20186b6f75" md5json="0ce70db844b3b33678397ce07ca919dd">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-600-DISK4.img" href="/disks-demo/pcx86/tools/borland/pascal/6.00/TURBO-PASCAL-600-DISK4.json" md5="3cdbc7b5e7ac92a28a629d20186b6f75" md5json="0ce70db844b3b33678397ce07ca919dd">
 		<name>Borland Turbo Pascal 6.00 (Disk 4)</name>
 		<file size="91197" time="1990-10-23 06:00:00" attr="0x20">BGI.ZIP</file>
 		<file size="31166" time="1990-10-23 06:00:00" attr="0x20">DEMOS.ZIP</file>

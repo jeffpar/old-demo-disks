@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>TopView</title>
 	<version>1.00</version>
 	<company>IBM</company>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TOPVIEW100-PROGRAM.img" href="/pcjs-disks/pcx86/apps/ibm/topview/1.00/TOPVIEW100-PROGRAM.json" md5="5fd03de067cd81bcf5cc958e5e72f086" md5json="0e89fd06134721e988735d248dce235e">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TOPVIEW100-PROGRAM.img" href="/disks-demo/pcx86/apps/ibm/topview/1.00/TOPVIEW100-PROGRAM.json" md5="5fd03de067cd81bcf5cc958e5e72f086" md5json="0e89fd06134721e988735d248dce235e">
 		<name>IBM TopView 1.00 (Program)</name>
 		<file size="16384" time="1985-01-10 12:00:02" attr="0x20">ADD.EXT</file>
 		<file size="32" time="1985-01-10 12:00:02" attr="0x20">ATRIBUTE.DEF</file>
@@ -49,7 +49,7 @@
 		<file size="2560" time="1985-01-10 12:00:08" attr="0x20">WELCOME.EXT</file>
 		<file size="53" time="1985-01-10 12:00:08" attr="0x20">WP.TBL</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TOPVIEW100-TUTORIAL.img" href="/pcjs-disks/pcx86/apps/ibm/topview/1.00/TOPVIEW100-TUTORIAL.json" md5="9fb4501389db5713bb6d9fa6d9166846" md5json="11269c046292ddaac6599f18e7fc69e4">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TOPVIEW100-TUTORIAL.img" href="/disks-demo/pcx86/apps/ibm/topview/1.00/TOPVIEW100-TUTORIAL.json" md5="9fb4501389db5713bb6d9fa6d9166846" md5json="11269c046292ddaac6599f18e7fc69e4">
 		<name>IBM TopView 1.00 (Tutorial)</name>
 		<file size="56549" time="1984-11-07 12:00:02" attr="0x20">CALC.EXE</file>
 		<file size="369" time="1984-11-07 12:00:02" attr="0x20">CALC.PIF</file>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS-DOS</title>
 	<version>4.0M</version>
@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS400M-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/4.0M/MSDOS400M-DISK1.json" md5="d485126dce33e19e182f029eba9d9acb" md5json="892a15e2f661749a510357a62a64ff43">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS400M-DISK1.img" href="/disks-demo/pcx86/dos/microsoft/4.0M/MSDOS400M-DISK1.json" md5="d485126dce33e19e182f029eba9d9acb" md5json="892a15e2f661749a510357a62a64ff43">
 		<name>MS-DOS 4.0M (Disk 1)</name>
 		<file size="2535" time="1985-11-26 22:49:42" attr="0x20">ANSI.SYS</file>
 		<file size="62" time="2013-03-10 00:01:30" attr="0x20">AUTOEXEC.BAT</file>
@@ -41,7 +41,7 @@
 		<file size="6466" time="1985-11-26 22:49:42" attr="0x20">RAMDRIVE.SYS</file>
 		<file size="64" time="2018-03-08 12:37:33" attr="0x20">README.TXT</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="private/MSDOS400M-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/4.0M/MSDOS400M-DISK2.json" md5="6ef19f4e59b2758f98299eeca18075ba" md5json="e4c7186cdf1cefcb1342601d5ce2a507">
+	<disk id="disk02" size="368640" chs="40:2:9" img="private/MSDOS400M-DISK2.img" href="/disks-demo/pcx86/dos/microsoft/4.0M/MSDOS400M-DISK2.json" md5="6ef19f4e59b2758f98299eeca18075ba" md5json="e4c7186cdf1cefcb1342601d5ce2a507">
 		<name>MS-DOS 4.0M (Disk 2)</name>
 		<file size="2508" time="1985-11-26 22:03:24" attr="0x20">APPEND.EXE</file>
 		<file size="6410" time="1985-11-26 22:03:28" attr="0x20">ATTRIB.EXE</file>
@@ -65,7 +65,7 @@
 		<file size="19756" time="1985-11-26 22:04:54" attr="0x20">RESTORE.EXE</file>
 		<file size="1632" time="1985-11-26 22:05:02" attr="0x20">SORT.EXE</file>
 	</disk>
-	<other id="disk03" size="368640" chs="40:2:9" img="private/MSDOS400M-DISK2-UNPATCHED.img" href="/pcjs-disks/pcx86/dos/microsoft/4.0M/MSDOS400M-DISK2-UNPATCHED.json" md5="ef8d829d5ac38765640ad646fb386950" md5json="e6be9bbd90139fc3ef3739a95f32b664">
+	<other id="disk03" size="368640" chs="40:2:9" img="private/MSDOS400M-DISK2-UNPATCHED.img" href="/disks-demo/pcx86/dos/microsoft/4.0M/MSDOS400M-DISK2-UNPATCHED.json" md5="ef8d829d5ac38765640ad646fb386950" md5json="e6be9bbd90139fc3ef3739a95f32b664">
 		<name>Disk 2 with unpatched LINK.EXE</name>
 	</other>
 	<notes>The designation "4.0M" is not an official version number; we use it only to differentiate this version of MS-DOS from the "non-multitasking" version.</notes>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>COMPAQ Diagnostics and Utilities</title>
 	<type>Utilities</type>
 	<author>COMPAQ</author>
-	<disk id="disk01" size="368640" chs="40:2:9" img="5.08/archive/COMPAQ-DIAGS-508-012988-REVK.img" href="/pcjs-disks/pcx86/diags/compaq/5.08/COMPAQ-DIAGS-508-012988-REVK.json" md5="a23cc98d904e01e233c9682b4d1cf413" md5json="658e35ede4a47db9ed85f97d98ab7cf8">
+	<disk id="disk01" size="368640" chs="40:2:9" img="5.08/archive/COMPAQ-DIAGS-508-012988-REVK.img" href="/disks-demo/pcx86/diags/compaq/5.08/COMPAQ-DIAGS-508-012988-REVK.json" md5="a23cc98d904e01e233c9682b4d1cf413" md5json="658e35ede4a47db9ed85f97d98ab7cf8">
 		<name>COMPAQ Diagnostics 5.08</name>
 		<file size="70" time="1988-01-29 12:00:00" attr="0x20">1.BAT</file>
 		<file size="71" time="1988-01-29 12:00:00" attr="0x20">2.BAT</file>
@@ -24,7 +24,7 @@
 		<file size="549" time="1988-01-29 12:00:00" attr="0x20">TEST.SCR</file>
 		<file size="193264" time="1988-01-29 12:00:00" attr="0x20">USER.EXE</file>
 	</disk>
-	<disk id="disk02" size="737280" chs="80:2:9" img="6.12/archive/COMPAQ-DIAGS-612-062189.img" href="/pcjs-disks/pcx86/diags/compaq/6.12/COMPAQ-DIAGS-612-062189.json" md5="92c26885c372db846ce990fb5e16c745" md5json="4f09c8fd5382203ff49950b3308efea4">
+	<disk id="disk02" size="737280" chs="80:2:9" img="6.12/archive/COMPAQ-DIAGS-612-062189.img" href="/disks-demo/pcx86/diags/compaq/6.12/COMPAQ-DIAGS-612-062189.json" md5="92c26885c372db846ce990fb5e16c745" md5json="4f09c8fd5382203ff49950b3308efea4">
 		<name>COMPAQ Diagnostics 6.12</name>
 		<link href="https://winworldpc.com/product/ms-dos/331" name="Microsoft MS-DOS 3.31 [Compaq OEM] (3.5-720k)" file="Disk4.img">WinWorld</link>
 		<file size="8320" time="1989-06-21 12:00:00" attr="0x20">DIAG.CPQ</file>
@@ -34,7 +34,7 @@
 		<file size="2576" time="1989-06-21 12:00:00" attr="0x20">TEST.COM</file>
 		<file size="243296" time="1989-06-21 12:00:00" attr="0x20">USER.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="utilities/1986/archive/COMPAQ-DESKPRO386-SUPP-1986-08-08.img" href="/pcjs-disks/pcx86/diags/compaq/utilities/1986/COMPAQ-DESKPRO386-SUPP-1986-08-08.json" md5="e5a1bb4d2e3a59fe35d6f668e7b62181" md5json="f4dfc75b9d2af8ab2ffa0bad96ba471b">
+	<disk id="disk03" size="368640" chs="40:2:9" img="utilities/1986/archive/COMPAQ-DESKPRO386-SUPP-1986-08-08.img" href="/disks-demo/pcx86/diags/compaq/utilities/1986/COMPAQ-DESKPRO386-SUPP-1986-08-08.json" md5="e5a1bb4d2e3a59fe35d6f668e7b62181" md5json="f4dfc75b9d2af8ab2ffa0bad96ba471b">
 		<name>COMPAQ DeskPro 386 (1986)</name>
 		<file size="74" time="1986-08-08 12:00:00" attr="0x20">1.BAT</file>
 		<file size="73" time="1986-08-08 12:00:00" attr="0x20">2.BAT</file>
@@ -57,7 +57,7 @@
 		<file size="567" time="1986-08-08 12:00:00" attr="0x20">VDISK.SCR</file>
 		<file size="3420" time="1986-08-08 12:00:00" attr="0x20">VDISK.SYS</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="utilities/1987/archive/COMPAQ-UTILS-506-110387-REVG.img" href="/pcjs-disks/pcx86/diags/compaq/utilities/1987/COMPAQ-UTILS-506-110387-REVG.json" md5="2e07a02907dcc90b56b1f649cfb442de" md5json="cac7728c3808aa70198b24dcf107701c">
+	<disk id="disk04" size="368640" chs="40:2:9" img="utilities/1987/archive/COMPAQ-UTILS-506-110387-REVG.img" href="/disks-demo/pcx86/diags/compaq/utilities/1987/COMPAQ-UTILS-506-110387-REVG.json" md5="2e07a02907dcc90b56b1f649cfb442de" md5json="cac7728c3808aa70198b24dcf107701c">
 		<name>COMPAQ User Programs (1987)</name>
 		<file size="71" time="1987-11-03 12:00:00" attr="0x20">1.BAT</file>
 		<file size="72" time="1987-11-03 12:00:00" attr="0x20">10.BAT</file>
@@ -110,7 +110,7 @@
 		<file size="560" time="1987-11-03 12:00:00" attr="0x20">VDISK.SCR</file>
 		<file size="3634" time="1987-11-03 12:00:00" attr="0x20">VDISK.SYS</file>
 	</disk>
-	<disk id="disk05" size="737280" chs="80:2:9" img="utilities/1989/archive/COMPAQ-UTILS-072789.img" href="/pcjs-disks/pcx86/diags/compaq/utilities/1989/COMPAQ-UTILS-072789.json" md5="18acab24603ac511d11fd3cbac9780ed" md5json="81ef2ab455bca4a4c50aea32e39be05d">
+	<disk id="disk05" size="737280" chs="80:2:9" img="utilities/1989/archive/COMPAQ-UTILS-072789.img" href="/disks-demo/pcx86/diags/compaq/utilities/1989/COMPAQ-UTILS-072789.json" md5="18acab24603ac511d11fd3cbac9780ed" md5json="81ef2ab455bca4a4c50aea32e39be05d">
 		<name>COMPAQ User Programs (1989)</name>
 		<link href="https://winworldpc.com/product/ms-dos/331" name="Microsoft MS-DOS 3.31 [Compaq OEM] (3.5-720k)" file="Disk5.img">WinWorld</link>
 		<file size="4" time="1980-01-01 00:15:14" attr="0x20">ADAPT.CFG</file>

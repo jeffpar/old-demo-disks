@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Multiplan</title>
 	<version>2.00</version>
@@ -7,7 +7,7 @@
 	<category>Productivity</category>
 	<author>Microsoft</author>
 	<releaseDate date="1985-09-23">Sep 23, 1985</releaseDate>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/MP200" href="/pcjs-disks/pcx86/apps/microsoft/multiplan/2.00/MULTIPLAN200.json" md5="d6350b8537e336bcda1707071ea15790" md5json="76678d0b0fb9e4ee981c596f069239bf">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/MP200" href="/disks-demo/pcx86/apps/microsoft/multiplan/2.00/MULTIPLAN200.json" md5="d6350b8537e336bcda1707071ea15790" md5json="76678d0b0fb9e4ee981c596f069239bf">
 		<name>MS Multiplan 2.00 (Modified)</name>
 		<file size="934" time="1985-09-23 12:00:00" attr="0x20" md5="a54dab0c93558596fe7eeac683efebc6">LINKMC.COM</file>
 		<file size="7099" time="1985-09-23 12:00:00" attr="0x20" md5="d4c6708c959feb7f83a43844b4888b23">MOUSE.COM</file>

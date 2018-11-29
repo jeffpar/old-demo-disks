@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Enhanced DEBUG</title>
 	<version>1.32b</version>
 	<source href="https://sites.google.com/site/pcdosretro/enhdebug">PC DOS Retro: Enhanced DEBUG for PC DOS and MS-DOS</source>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/ENHDEBUG.img" href="/pcjs-disks/pcx86/tools/other/enhdebug/ENHDEBUG.json" md5="30b9f3b4b8f6d798c3d1fac5102e0d29" md5json="8d61d0cb453d16d4cc49aa2c157c8801">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/ENHDEBUG.img" href="/disks-demo/pcx86/tools/other/enhdebug/ENHDEBUG.json" md5="30b9f3b4b8f6d798c3d1fac5102e0d29" md5json="8d61d0cb453d16d4cc49aa2c157c8801">
 		<file size="230208" time="2016-05-14 10:32:56" attr="0x20">DEBUG.ASM</file>
 		<file size="20788" time="2016-05-14 10:32:58" attr="0x20">DEBUG.COM</file>
 		<file size="27998" time="2016-04-12 11:44:02" attr="0x20">DEBUG.TXT</file>

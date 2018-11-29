@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Modula-2/86</title>
 	<version>1.10</version>
@@ -8,7 +8,7 @@
 	<language>Modula-2</language>
 	<author>Logitech</author>
 	<releaseDate>December 10, 1984</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK1-SYSTEM.img" href="/pcjs-disks/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK1-SYSTEM.json" md5="53bd4195a261c73e82681d2e2a23dc8a" md5json="6f3e72ec1e951398eafcdd4e28ff89d7">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK1-SYSTEM.img" href="/disks-demo/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK1-SYSTEM.json" md5="53bd4195a261c73e82681d2e2a23dc8a" md5json="6f3e72ec1e951398eafcdd4e28ff89d7">
 		<name>Modula-2/86 1.10 (1-System)</name>
 		<file size="1308" time="1984-11-30 09:03:32" attr="0x20">ASCII.DEF</file>
 		<file size="1856" time="1984-11-30 11:49:40" attr="0x20">BREAK.DEF</file>
@@ -74,7 +74,7 @@
 		<file size="2151" time="1984-11-30 11:57:22" attr="0x20">TERMINAL.DEF</file>
 		<file size="35498" time="1984-12-04 22:10:56" attr="0x20">TRANSFER.ASM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK2-COMPILER.img" href="/pcjs-disks/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK2-COMPILER.json" md5="24988fcfa378ca8bb0e57cf39ed2f134" md5json="e7386c5d85a857e88bac20ab5e5baa2b">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK2-COMPILER.img" href="/disks-demo/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK2-COMPILER.json" md5="24988fcfa378ca8bb0e57cf39ed2f134" md5json="e7386c5d85a857e88bac20ab5e5baa2b">
 		<name>Modula-2/86 1.10 (2-Compiler)</name>
 		<file size="940" time="1984-08-17 17:57:22" attr="0x20">ASCII.SYM</file>
 		<file size="196" time="1984-09-24 10:53:00" attr="0x20">BREAK.SYM</file>
@@ -117,7 +117,7 @@
 		<file size="586" time="1984-08-17 18:00:30" attr="0x20">TERMBASE.SYM</file>
 		<file size="316" time="1984-08-17 17:54:36" attr="0x20">TERMINAL.SYM</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK3-LINKER.img" href="/pcjs-disks/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK3-LINKER.json" md5="08b42645e093196448b4a0b54f08092a" md5json="adbfe6d1707091df5c37740a2d730be0">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK3-LINKER.img" href="/disks-demo/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK3-LINKER.json" md5="08b42645e093196448b4a0b54f08092a" md5json="adbfe6d1707091df5c37740a2d730be0">
 		<name>Modula-2/86 1.10 (3-Linker)</name>
 		<file size="114" time="1984-11-21 17:04:42" attr="0x20">ASCII.LNK</file>
 		<file size="1514" time="1984-11-28 17:11:44" attr="0x20">BREAK.LNK</file>
@@ -160,7 +160,7 @@
 		<file size="1394" time="1984-11-21 17:07:46" attr="0x20">TERMBASE.LNK</file>
 		<file size="956" time="1984-11-21 17:08:44" attr="0x20">TERMINAL.LNK</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK4-DEBUGGER.img" href="/pcjs-disks/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK4-DEBUGGER.json" md5="ece369d133dc9060d9708a2392edd1f9" md5json="417d650ebfca3cd758ad32a99a7b950c">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/LOGITECH-MODULA2-DISK4-DEBUGGER.img" href="/disks-demo/pcx86/tools/logitech/modula2/1.10/LOGITECH-MODULA2-DISK4-DEBUGGER.json" md5="ece369d133dc9060d9708a2392edd1f9" md5json="417d650ebfca3cd758ad32a99a7b950c">
 		<name>Modula-2/86 1.10 (4-Debugger)</name>
 		<file size="136" time="1984-11-21 17:04:42" attr="0x20">ASCII.REF</file>
 		<file size="3160" time="1984-11-28 17:11:42" attr="0x20">BREAK.REF</file>

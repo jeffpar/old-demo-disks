@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Norton Utilities (Standard Edition)</title>
 	<version>4.00</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU400-STD-DISK1.img" href="/pcjs-disks/pcx86/tools/other/norton/4.00/NU400-STD-DISK1.json" md5="5d42de75531cba4c7079e53317c4bc82" md5json="e2c8a092215a0f82dad7b2e01385fd39">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU400-STD-DISK1.img" href="/disks-demo/pcx86/tools/other/norton/4.00/NU400-STD-DISK1.json" md5="5d42de75531cba4c7079e53317c4bc82" md5json="e2c8a092215a0f82dad7b2e01385fd39">
 		<name>Norton Utilities 4.00 (Disk 1)</name>
 		<file size="1184" time="1987-03-01 16:00:00" attr="0x20">ASK.EXE</file>
 		<file size="5322" time="1987-03-01 16:00:00" attr="0x20">BEEP.EXE</file>
@@ -32,7 +32,7 @@
 		<file size="10336" time="1987-03-01 16:00:00" attr="0x20">WIPEDISK.EXE</file>
 		<file size="10934" time="1987-03-01 16:00:00" attr="0x20">WIPEFILE.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU400-STD-DISK2.img" href="/pcjs-disks/pcx86/tools/other/norton/4.00/NU400-STD-DISK2.json" md5="d4f437073ddd25abf9e27a3153edc720" md5json="945f6a3b60c7b807c2653517867ad3de">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU400-STD-DISK2.img" href="/disks-demo/pcx86/tools/other/norton/4.00/NU400-STD-DISK2.json" md5="d4f437073ddd25abf9e27a3153edc720" md5json="945f6a3b60c7b807c2653517867ad3de">
 		<name>Norton Utilities 4.00 (Disk 2)</name>
 		<file size="36490" time="1987-03-01 16:00:00" attr="0x20">NCDEMO.EXE</file>
 		<file size="102383" time="1987-03-01 16:00:00" attr="0x20">NU.EXE</file>
@@ -41,7 +41,7 @@
 		<file size="914" time="1987-03-01 16:00:10" attr="0x20">TUTORIAL.NTS</file>
 		<file size="48712" time="1987-03-01 16:00:00" attr="0x20">_FILE_0.DBD</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK1.img" href="/pcjs-disks/pcx86/tools/other/norton/4.00/NU400-ADV-DISK1.json" md5="c66432eb0ee268682a9477d8b2738937" md5json="5a5b59945cb56942bb66215ad63cc3ba">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK1.img" href="/disks-demo/pcx86/tools/other/norton/4.00/NU400-ADV-DISK1.json" md5="c66432eb0ee268682a9477d8b2738937" md5json="5a5b59945cb56942bb66215ad63cc3ba">
 		<name>Norton Utilities 4.00 Advanced (Disk 1)</name>
 		<file size="1184" time="1987-05-15 16:00:00" attr="0x20">ASK.EXE</file>
 		<file size="6108" time="1987-05-15 16:00:00" attr="0x20">BEEP.EXE</file>
@@ -70,7 +70,7 @@
 		<file size="10710" time="1987-05-15 16:00:00" attr="0x20">WIPEDISK.EXE</file>
 		<file size="11578" time="1987-05-15 16:00:00" attr="0x20">WIPEFILE.EXE</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK2.img" href="/pcjs-disks/pcx86/tools/other/norton/4.00/NU400-ADV-DISK2.json" md5="a80544ebdad06f68bfa36bec49a8c69e" md5json="4f1e4fedc851351b4f57718a4ad53b00">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK2.img" href="/disks-demo/pcx86/tools/other/norton/4.00/NU400-ADV-DISK2.json" md5="a80544ebdad06f68bfa36bec49a8c69e" md5json="4f1e4fedc851351b4f57718a4ad53b00">
 		<name>Norton Utilities 4.00 Advanced (Disk 2)</name>
 		<file size="36490" time="1987-05-15 16:00:00" attr="0x20">NCDEMO.EXE</file>
 		<file size="107278" time="1987-05-15 16:00:00" attr="0x20">NU.EXE</file>

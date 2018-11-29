@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM BASIC Compiler</title>
 	<version>2.00</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/BASCOM200-DISK1.img" href="/pcjs-disks/pcx86/tools/ibm/basic/compiler/2.00/BASCOM200-DISK1.json" md5="cdc2044fab51d33a65d17afa98011eb8" md5json="9c12a39ba0a0070ccee3fbfe542dacbd">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/BASCOM200-DISK1.img" href="/disks-demo/pcx86/tools/ibm/basic/compiler/2.00/BASCOM200-DISK1.json" md5="cdc2044fab51d33a65d17afa98011eb8" md5json="9c12a39ba0a0070ccee3fbfe542dacbd">
 		<file size="56064" time="1986-07-12 21:38:24" attr="0x20">BASCOM.EXE</file>
 		<file size="165888" time="1986-07-12 21:38:38" attr="0x20">BASCOM20.LIB</file>
 		<file size="369" time="1986-07-12 21:38:42" attr="0x20">BASCOM20.PIF</file>

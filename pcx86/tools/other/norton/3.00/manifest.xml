@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Norton Utilities</title>
 	<version>3.00</version>
-	<disk id="disk01" size="163840" chs="40:1:8" dir="1985-01-14/archive/NU30-850114" href="/pcjs-disks/pcx86/tools/other/norton/3.00/1985-01-14/NU300-1985-01-14.json" md5="9f9411b517a28e527c735fdf059bc2bd" md5json="769a7b044a0688a9e71fb9fde6e5cd87">
+	<disk id="disk01" size="163840" chs="40:1:8" dir="1985-01-14/archive/NU30-850114" href="/disks-demo/pcx86/tools/other/norton/3.00/1985-01-14/NU300-1985-01-14.json" md5="9f9411b517a28e527c735fdf059bc2bd" md5json="769a7b044a0688a9e71fb9fde6e5cd87">
 		<name>Norton Utilities 3.00 (1985-01-14)</name>
 		<file size="16" time="1985-01-14 14:00:00" attr="0x20" md5="d027e5571e0ad107368d4c97623b5c6d">BEEP.COM</file>
 		<file size="6180" time="1985-01-14 14:00:00" attr="0x20" md5="22a1910b3a61e14f86391d0f11ffce85">DIRSORT.COM</file>
@@ -23,7 +23,7 @@
 		<file size="2996" time="1985-01-14 14:00:00" attr="0x20" md5="a65b53c464bbaf65898d07366af9e128">WIPEDISK.COM</file>
 		<file size="4078" time="1985-01-14 14:00:00" attr="0x20" md5="0aef393df5920663c36ce366893c7020">WIPEFILE.COM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="1985-01-21/archive/NU300-1985-01-21.img" href="/pcjs-disks/pcx86/tools/other/norton/3.00/1985-01-21/NU300-1985-01-21.json" md5="643ff2bbd940a266e96ac242b67944cd" md5json="25a57b3eba4778f268b7f3779c117cbd">
+	<disk id="disk02" size="368640" chs="40:2:9" img="1985-01-21/archive/NU300-1985-01-21.img" href="/disks-demo/pcx86/tools/other/norton/3.00/1985-01-21/NU300-1985-01-21.json" md5="643ff2bbd940a266e96ac242b67944cd" md5json="25a57b3eba4778f268b7f3779c117cbd">
 		<name>Norton Utilities 3.00 (1985-01-21)</name>
 		<file size="128" time="1985-01-21 16:19:06" attr="0x20">BEEP.COM</file>
 		<file size="2178" time="1985-01-21 18:12:40" attr="0x20">DEMO.BAT</file>

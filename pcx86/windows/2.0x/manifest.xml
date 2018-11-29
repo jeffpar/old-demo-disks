@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows/386 2.0x</title>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN201-386-DISK1.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN201-386-DISK1.json" md5="5c658a8fb45bf1c5796e22bc1d27a297" md5json="b345bd672ac8d4fed02f6bec9d682c5f">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN201-386-DISK1.img" href="/disks-demo/pcx86/windows/2.0x/WIN201-386-DISK1.json" md5="5c658a8fb45bf1c5796e22bc1d27a297" md5json="b345bd672ac8d4fed02f6bec9d682c5f">
 		<name>Windows/386 2.01 (Disk 1)</name>
 		<file size="2574" time="1987-09-06 16:54:16" attr="0x20">386LOGO.LGD</file>
 		<file size="121921" time="1987-09-08 06:44:22" attr="0x20">CGA.386</file>
@@ -60,7 +60,7 @@
 		<file size="2821" time="1987-09-06 19:41:34" attr="0x20">WIN.INI</file>
 		<file size="31312" time="1987-09-06 18:34:36" attr="0x20">WINOLDAP.MOD</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN201-386-DISK2.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN201-386-DISK2.json" md5="5661ab85c9b672b30d8ad603f53d6aed" md5json="f7ab105b4b2bb86fab9de4f4fd214e31">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN201-386-DISK2.img" href="/disks-demo/pcx86/windows/2.0x/WIN201-386-DISK2.json" md5="5661ab85c9b672b30d8ad603f53d6aed" md5json="f7ab105b4b2bb86fab9de4f4fd214e31">
 		<name>Windows/386 2.01 (Disk 2)</name>
 		<file size="14144" time="1987-08-24 12:34:08" attr="0x20">COURA.FON</file>
 		<file size="19088" time="1987-08-24 12:34:10" attr="0x20">COURB.FON</file>
@@ -106,7 +106,7 @@
 		<file size="12992" time="1987-08-25 19:39:56" attr="0x20">TOSH.DRV</file>
 		<file size="5600" time="1987-09-04 23:37:42" attr="0x20">TTY.DRV</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN201-386-DISK3.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN201-386-DISK3.json" md5="e04b5da43a6230a240974022455e2e8d" md5json="8e6ad93933e9533ec13d7ec341648888">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN201-386-DISK3.img" href="/disks-demo/pcx86/windows/2.0x/WIN201-386-DISK3.json" md5="e04b5da43a6230a240974022455e2e8d" md5json="8e6ad93933e9533ec13d7ec341648888">
 		<name>Windows/386 2.01 (Disk 3)</name>
 		<file size="42" time="1987-08-14 10:56:38" attr="0x20">ABC.TXT</file>
 		<file size="27856" time="1987-09-04 15:42:28" attr="0x20">CALC.EXE</file>
@@ -176,7 +176,7 @@
 		<file size="48240" time="1987-09-04 11:17:18" attr="0x20">TERMINAL.EXE</file>
 		<file size="212432" time="1987-09-04 19:12:16" attr="0x20">WRITE.EXE</file>
 	</disk>
-	<disk id="disk04" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK1.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN203-386-DISK1.json" md5="92c8c84a6b18a9e446c5522fac686b58" md5json="38ecce2d1d9e6395263450009919a9a9">
+	<disk id="disk04" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK1.img" href="/disks-demo/pcx86/windows/2.0x/WIN203-386-DISK1.json" md5="92c8c84a6b18a9e446c5522fac686b58" md5json="38ecce2d1d9e6395263450009919a9a9">
 		<name>Windows/386 2.03 (SETUP)</name>
 		<file size="2574" time="1987-11-14 15:06:56" attr="0x20">386LOGO.LGD</file>
 		<file size="28736" time="1987-11-12 12:12:00" attr="0x20">ATTDC.DRV</file>
@@ -213,7 +213,7 @@
 		<file size="3952" time="1987-11-15 21:55:50" attr="0x20">WIN.CNF</file>
 		<file size="3196" time="1987-11-15 16:31:00" attr="0x20">WIN.INI</file>
 	</disk>
-	<disk id="disk05" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK2.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN203-386-DISK2.json" md5="b9254d9c71cb69e94ab366778a7ec05b" md5json="cd17e42ae4d750e77ba920f08d9a4437">
+	<disk id="disk05" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK2.img" href="/disks-demo/pcx86/windows/2.0x/WIN203-386-DISK2.json" md5="b9254d9c71cb69e94ab366778a7ec05b" md5json="cd17e42ae4d750e77ba920f08d9a4437">
 		<name>Windows/386 2.03 (UTILITY)</name>
 		<file size="121775" time="1988-01-13 20:50:48" attr="0x20">CGA.386</file>
 		<file size="34236" time="1988-01-14 13:17:22" attr="0x20">CGA.3EX</file>
@@ -256,7 +256,7 @@
 		<file size="8589" time="1987-11-15 19:41:12" attr="0x20">VGA.GRB</file>
 		<file size="31120" time="1987-11-15 19:40:02" attr="0x20">WINOLDAP.MOD</file>
 	</disk>
-	<disk id="disk06" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK3.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN203-386-DISK3.json" md5="1c1e9e4cf7b285bd07a542e2ccc934ae" md5json="c6b8d0abc7b981d4b0f1fe2d362946fb">
+	<disk id="disk06" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK3.img" href="/disks-demo/pcx86/windows/2.0x/WIN203-386-DISK3.json" md5="1c1e9e4cf7b285bd07a542e2ccc934ae" md5json="c6b8d0abc7b981d4b0f1fe2d362946fb">
 		<name>Windows/386 2.03 (FONTS)</name>
 		<file size="14144" time="1987-11-12 12:22:54" attr="0x20">COURA.FON</file>
 		<file size="19088" time="1987-11-12 12:23:36" attr="0x20">COURB.FON</file>
@@ -277,7 +277,7 @@
 		<file size="57184" time="1987-11-12 12:28:02" attr="0x20">TMSRD.FON</file>
 		<file size="58304" time="1987-11-12 12:28:12" attr="0x20">TMSRE.FON</file>
 	</disk>
-	<disk id="disk07" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK4.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN203-386-DISK4.json" md5="a0bed8c3d0c422a1d0277f505d09352e" md5json="ec3b70cf696c83f6d817c6c4d575b322">
+	<disk id="disk07" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK4.img" href="/disks-demo/pcx86/windows/2.0x/WIN203-386-DISK4.json" md5="a0bed8c3d0c422a1d0277f505d09352e" md5json="ec3b70cf696c83f6d817c6c4d575b322">
 		<name>Windows/386 2.03 (PROGRAM)</name>
 		<file size="42" time="1987-08-14 10:56:38" attr="0x20">ABC.TXT</file>
 		<file size="4866" time="1987-11-13 20:29:56" attr="0x20">ATTOLI.TXT</file>
@@ -340,7 +340,7 @@
 		<file size="48640" time="1987-11-12 12:28:52" attr="0x20">TERMINAL.EXE</file>
 		<file size="212528" time="1987-11-12 12:21:58" attr="0x20">WRITE.EXE</file>
 	</disk>
-	<disk id="disk08" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK5.img" href="/pcjs-disks/pcx86/windows/2.0x/WIN203-386-DISK5.json" md5="cfc75368bdc7b7196be2319158ea67f9" md5json="93965dd127be90aa206be019fffa3951">
+	<disk id="disk08" size="737280" chs="80:2:9" img="archive/WIN203-386-DISK5.img" href="/disks-demo/pcx86/windows/2.0x/WIN203-386-DISK5.json" md5="cfc75368bdc7b7196be2319158ea67f9" md5json="93965dd127be90aa206be019fffa3951">
 		<name>Windows/386 2.03 (UTILITY 2)</name>
 		<file size="14208" time="1987-11-12 12:09:54" attr="0x20">CITOH.DRV</file>
 		<file size="28752" time="1987-11-10 09:47:30" attr="0x20">DM600.DRV</file>

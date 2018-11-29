@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Windows for Workgroups</title>
 	<version>3.11</version>
@@ -7,7 +7,7 @@
 	<category>Windows</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/WFW311_DISK1.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK1.json" md5="2cb835e5f3701c814f48b13f44dd067c" md5json="e6106156dbaa2f80fda51edd528ed979">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/WFW311_DISK1.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK1.json" md5="2cb835e5f3701c814f48b13f44dd067c" md5json="e6106156dbaa2f80fda51edd528ed979">
 		<name>Windows 3.11 (Disk 1)</name>
 		<file size="49872" time="1993-11-11 02:11:00" attr="0x20">COMMDLG.DL_</file>
 		<file size="93013" time="1993-11-11 02:11:00" attr="0x20">CONTROL.HL_</file>
@@ -29,7 +29,7 @@
 		<file size="102978" time="1993-11-11 02:11:00" attr="0x20">WINSETUP.EX_</file>
 		<file size="14144" time="1993-11-11 02:11:00" attr="0x20">XMSMMGR.EXE</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/WFW311_DISK2.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK2.json" md5="68239a836e2bb42ee832742dd96c8bcb" md5json="0b6c09cf1bd65e6ae03fb1b51e9b83f4">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/WFW311_DISK2.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK2.json" md5="68239a836e2bb42ee832742dd96c8bcb" md5json="0b6c09cf1bd65e6ae03fb1b51e9b83f4">
 		<name>Windows 3.11 (Disk 2)</name>
 		<file size="17978" time="1993-11-01 02:11:00" attr="0x20">386MAX.VX_</file>
 		<file size="44018" time="1993-11-01 02:11:00" attr="0x20">8514.DR_</file>
@@ -138,7 +138,7 @@
 		<file size="410" time="1993-11-01 02:11:00" attr="0x20">XLAT863.BI_</file>
 		<file size="406" time="1993-11-01 02:11:00" attr="0x20">XLAT865.BI_</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/WFW311_DISK3.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK3.json" md5="1761d8c6571b6854f11c4e736e8d4c9a" md5json="3ce161ef941de7b9084f148421723405">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/WFW311_DISK3.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK3.json" md5="1761d8c6571b6854f11c4e736e8d4c9a" md5json="3ce161ef941de7b9084f148421723405">
 		<name>Windows 3.11 (Disk 3)</name>
 		<file size="240" time="1993-11-01 02:11:00" attr="0x20">ARGYLE.BM_</file>
 		<file size="8" time="1993-11-01 02:11:00" attr="0x20">DISK3</file>
@@ -161,7 +161,7 @@
 		<file size="6920" time="1993-11-01 02:11:00" attr="0x20">WININI.WR_</file>
 		<file size="139061" time="1993-11-01 02:11:00" attr="0x20">WRITE.EX_</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/WFW311_DISK4.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK4.json" md5="8a5b37d7b195db54422ec7acee704658" md5json="4a8500b89c646eb34ae1f3d80c467644">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/WFW311_DISK4.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK4.json" md5="8a5b37d7b195db54422ec7acee704658" md5json="4a8500b89c646eb34ae1f3d80c467644">
 		<name>Windows 3.11 (Disk 4)</name>
 		<file size="52238" time="1993-11-01 02:11:00" attr="0x20">AB.DL_</file>
 		<file size="43461" time="1993-11-01 02:11:00" attr="0x20">CARDFILE.EX_</file>
@@ -199,7 +199,7 @@
 		<file size="47238" time="1993-11-01 02:11:00" attr="0x20">WINTUTOR.DA_</file>
 		<file size="58791" time="1993-11-01 02:11:00" attr="0x20">WINTUTOR.EX_</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/WFW311_DISK5.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK5.json" md5="294f938d3bdcc1880dac71895cbe791a" md5json="666e5e73952293134c0ae8f2a8073e9e">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/WFW311_DISK5.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK5.json" md5="294f938d3bdcc1880dac71895cbe791a" md5json="666e5e73952293134c0ae8f2a8073e9e">
 		<name>Windows 3.11 (Disk 5)</name>
 		<file size="384" time="1993-11-01 02:11:00" attr="0x20">ARIAL.FO_</file>
 		<file size="45505" time="1993-11-01 02:11:00" attr="0x20">ARIAL.TT_</file>
@@ -270,7 +270,7 @@
 		<file size="27311" time="1993-11-01 02:11:00" attr="0x20">WINOA386.MO_</file>
 		<file size="26010" time="1993-11-01 02:11:00" attr="0x20">WRITE.HL_</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/WFW311_DISK6.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK6.json" md5="916f6b30298343b9db6e49aa04908d14" md5json="7c08c6cda08bdc2f2cfec11070be9eb7">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/WFW311_DISK6.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK6.json" md5="916f6b30298343b9db6e49aa04908d14" md5json="7c08c6cda08bdc2f2cfec11070be9eb7">
 		<name>Windows 3.11 (Disk 6)</name>
 		<file size="1035" time="1993-11-01 02:11:00" attr="0x20">40291730.WP_</file>
 		<file size="1627" time="1993-11-01 02:11:00" attr="0x20">40293930.WP_</file>
@@ -462,7 +462,7 @@
 		<file size="10131" time="1993-11-01 02:11:00" attr="0x20">WSWAP.EX_</file>
 		<file size="205" time="1993-11-01 02:11:00" attr="0x20">ZIGZAG.BM_</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/WFW311_DISK7.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK7.json" md5="6b73ae3ba25a1e3cdddca8d3fa4bdc40" md5json="08433707a0ff8e5310eff7ede4334b8b">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/WFW311_DISK7.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK7.json" md5="6b73ae3ba25a1e3cdddca8d3fa4bdc40" md5json="08433707a0ff8e5310eff7ede4334b8b">
 		<name>Windows 3.11 (Disk 7)</name>
 		<file size="11216" time="1993-11-01 02:11:00" attr="0x20">AM1500T.38_</file>
 		<file size="34398" time="1993-11-01 02:11:00" attr="0x20">BP1CP2.PC_</file>
@@ -514,7 +514,7 @@
 		<file size="10523" time="1993-11-01 02:11:00" attr="0x20">WINMETER.EX_</file>
 		<file size="13314" time="1993-11-01 02:11:00" attr="0x20">WINPOPUP.EX_</file>
 	</disk>
-	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/WFW311_DISK8.img" href="/pcjs-disks/pcx86/windows/3.11/WFW311_DISK8.json" md5="721659041b85af44b36e75add609c873" md5json="145bd6455f88128d158208d84e685dbd">
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/WFW311_DISK8.img" href="/disks-demo/pcx86/windows/3.11/WFW311_DISK8.json" md5="721659041b85af44b36e75add609c873" md5json="145bd6455f88128d158208d84e685dbd">
 		<name>Windows 3.11 (Disk 8)</name>
 		<file size="2571" time="1993-11-01 02:11:00" attr="0x20">ADMINCFG.EX_</file>
 		<file size="5714" time="1993-11-01 02:11:00" attr="0x20">AM2100.DO_</file>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Norton Utilities</title>
 	<version>3.10</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="1985-11-01/archive/NU310-1985-11-01.img" href="/pcjs-disks/pcx86/tools/other/norton/3.10/1985-11-01/NU310-1985-11-01.json" md5="8ad42b2c5d2fa22515b87ff87cf33c0f" md5json="1d0150f6f2765a20c4e38fb7ae185553">
+	<disk id="disk01" size="368640" chs="40:2:9" img="1985-11-01/archive/NU310-1985-11-01.img" href="/disks-demo/pcx86/tools/other/norton/3.10/1985-11-01/NU310-1985-11-01.json" md5="8ad42b2c5d2fa22515b87ff87cf33c0f" md5json="1d0150f6f2765a20c4e38fb7ae185553">
 		<name>Norton Utilities 3.10 (1985-11-01)</name>
 		<file size="1303" time="1985-11-01 03:10:02" attr="0x20">DP.COM</file>
 		<file size="7772" time="1985-11-01 03:10:02" attr="0x20">DS.COM</file>
@@ -24,7 +24,7 @@
 		<file size="6762" time="1985-11-01 03:10:02" attr="0x20">WIPEDISK.COM</file>
 		<file size="7710" time="1985-11-01 03:10:02" attr="0x20">WIPEFILE.COM</file>
 	</disk>
-	<disk id="disk02" size="327680" chs="40:2:8" img="1986-01-21/archive/NU310-1986-01-21.img" href="/pcjs-disks/pcx86/tools/other/norton/3.10/1986-01-21/NU310-1986-01-21.json" md5="cbf7c5b6dd05f6e61d7c286fade7349f" md5json="baf1e3dc8f5ac74bf18f4d5349426b13">
+	<disk id="disk02" size="327680" chs="40:2:8" img="1986-01-21/archive/NU310-1986-01-21.img" href="/disks-demo/pcx86/tools/other/norton/3.10/1986-01-21/NU310-1986-01-21.json" md5="cbf7c5b6dd05f6e61d7c286fade7349f" md5json="baf1e3dc8f5ac74bf18f4d5349426b13">
 		<name>Norton Utilities 3.10 (1986-01-21)</name>
 		<file size="2604" time="1986-01-21 15:10:02" attr="0x20">BEEP.COM</file>
 		<file size="2471" time="1986-01-21 15:10:02" attr="0x20">DEMO.BAT</file>

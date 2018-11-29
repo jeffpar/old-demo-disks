@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS-DOS</title>
 	<version>1.11</version>
@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft/COMPAQ</author>
 	<releaseDate/>
-	<disk id="disk01" size="327680" chs="40:2:8" img="archive/COMPAQ-DOS111.img" href="/pcjs-disks/pcx86/dos/compaq/1.11/COMPAQ-DOS111.json" md5="a18fd39ab120b1ece3c30a9906d50976" md5json="9dc3da5d22b9c3ce9f122f6c3574d5e1">
+	<disk id="disk01" size="327680" chs="40:2:8" img="archive/COMPAQ-DOS111.img" href="/disks-demo/pcx86/dos/compaq/1.11/COMPAQ-DOS111.json" md5="a18fd39ab120b1ece3c30a9906d50976" md5json="9dc3da5d22b9c3ce9f122f6c3574d5e1">
 		<name>COMPAQ MS-DOS 1.11</name>
 		<file size="549" time="1983-05-13 12:00:00" attr="0x20">BASIC.COM</file>
 		<file size="547" time="1983-05-13 12:00:00" attr="0x20">BASICA.COM</file>

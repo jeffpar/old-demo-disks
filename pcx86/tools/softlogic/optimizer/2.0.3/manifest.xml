@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Disk Optimizer</title>
 	<version>2.0.3</version>
@@ -8,7 +8,7 @@
 	<author>SoftLogic Solutions</author>
 	<releaseDate>1986</releaseDate>
 	<serialNumber>00529000</serialNumber>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DISK-OPTIMIZER.img" href="/pcjs-disks/pcx86/tools/softlogic/optimizer/2.0.3/DISK-OPTIMIZER.json" md5="f421eeedda6e4520b2f45748601060c9" md5json="876a6751124e6bbd543b6fc42cb95080">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DISK-OPTIMIZER.img" href="/disks-demo/pcx86/tools/softlogic/optimizer/2.0.3/DISK-OPTIMIZER.json" md5="f421eeedda6e4520b2f45748601060c9" md5json="876a6751124e6bbd543b6fc42cb95080">
 		<file size="7209" time="1986-02-18 10:56:16" attr="0x20">ANALYZE.EXE</file>
 		<file size="12864" time="1985-06-21 11:05:04" attr="0x20">CML0203.FCL</file>
 		<file size="9344" time="1985-06-19 16:06:12" attr="0x20">CML0203.HCL</file>

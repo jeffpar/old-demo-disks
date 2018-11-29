@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 SDK 1.02</title>
-	<disk id="disk04" size="737280" chs="80:2:9" img="archive/MSOS2TK1.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK04.json" md5="7468885b67af8552eafbdfaaeaeeed01" md5json="22ad7cd8068509d6a7e553f30e05c0e8">
+	<disk id="disk04" size="737280" chs="80:2:9" img="archive/MSOS2TK1.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK04.json" md5="7468885b67af8552eafbdfaaeaeeed01" md5json="22ad7cd8068509d6a7e553f30e05c0e8">
 		<name>MS OS/2 SDK 1.02 (TOOLKIT1)</name>
 		<file size="102" time="1987-12-14 23:00:58" attr="0x10">DEMOS</file>
 		<file size="782" time="1987-12-14 23:00:58" attr="0x10" dir="DEMOS/">EXAMPLES</file>
@@ -113,7 +113,7 @@
 		<file size="1024" time="1987-12-14 23:00:02" attr="0x20" dir="PROFILER/">PROFILE.LIB</file>
 		<file size="7" time="1987-12-16 10:10:00" attr="0x20">TOOLKIT1.CTL</file>
 	</disk>
-	<disk id="disk05" size="737280" chs="80:2:9" img="archive/MSOS2TK2.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK05.json" md5="9726737d857c935cc72e323af4765790" md5json="8089129efd19bd59d890d394a1fe4031">
+	<disk id="disk05" size="737280" chs="80:2:9" img="archive/MSOS2TK2.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK05.json" md5="9726737d857c935cc72e323af4765790" md5json="8089129efd19bd59d890d394a1fe4031">
 		<name>MS OS/2 SDK 1.02 (TOOLKIT2)</name>
 		<file size="102" time="1987-12-14 23:00:58" attr="0x10">DEMOS</file>
 		<file size="884" time="1987-12-14 23:00:58" attr="0x10" dir="DEMOS/">EXAMPLES</file>
@@ -236,7 +236,7 @@
 		<file size="29184" time="1987-12-14 23:00:02" attr="0x20" dir="LIB/">DOSCALLS.LIB</file>
 		<file size="7" time="1987-12-11 14:30:00" attr="0x20">TOOLKIT2.CTL</file>
 	</disk>
-	<disk id="disk06" size="737280" chs="80:2:9" img="archive/MSOS2UT1.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK06.json" md5="d299a871d355641db47a9ed9d23debc4" md5json="fe743d871ce24ece45fda0812d7de027">
+	<disk id="disk06" size="737280" chs="80:2:9" img="archive/MSOS2UT1.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK06.json" md5="d299a871d355641db47a9ed9d23debc4" md5json="fe743d871ce24ece45fda0812d7de027">
 		<name>MS OS/2 SDK 1.02 (UTILITY1)</name>
 		<file size="136" time="1987-12-14 23:00:58" attr="0x10">INIT</file>
 		<file size="561" time="1987-12-14 23:00:02" attr="0x20" dir="INIT/">AUTOEXEC.BAT</file>
@@ -259,7 +259,7 @@
 		<file size="33056" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/BIN/">WHERE.EXE</file>
 		<file size="7" time="1987-12-11 14:30:00" attr="0x20">UTILITY1.CTL</file>
 	</disk>
-	<disk id="disk07" size="737280" chs="80:2:9" img="archive/MSOS2UT2.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK07.json" md5="8f59bdecbcebc9e41acb674a2fd25750" md5json="f9165bcf911e3b309ca62334fa032dad">
+	<disk id="disk07" size="737280" chs="80:2:9" img="archive/MSOS2UT2.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK07.json" md5="8f59bdecbcebc9e41acb674a2fd25750" md5json="f9165bcf911e3b309ca62334fa032dad">
 		<name>MS OS/2 SDK 1.02 (UTILITY2)</name>
 		<file size="136" time="1987-12-14 23:00:58" attr="0x10">TOOLS</file>
 		<file size="204" time="1987-12-14 23:00:58" attr="0x10" dir="TOOLS/">BIN</file>
@@ -276,7 +276,7 @@
 		<file size="9100" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/PBIN/">PSET.EXE</file>
 		<file size="7" time="1987-12-11 14:30:00" attr="0x20">UTILITY2.CTL</file>
 	</disk>
-	<disk id="disk08" size="737280" chs="80:2:9" img="archive/MSOS2C1.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK08.json" md5="f2fb2f866edbbe8b7b0b6869936ec960" md5json="cd4a01a8074ff1adc2ac82acd19419dd">
+	<disk id="disk08" size="737280" chs="80:2:9" img="archive/MSOS2C1.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK08.json" md5="f2fb2f866edbbe8b7b0b6869936ec960" md5json="cd4a01a8074ff1adc2ac82acd19419dd">
 		<name>MS OS/2 SDK 1.02 (CBIN1)</name>
 		<file size="7" time="1987-12-11 14:29:58" attr="0x20">CBIN1.CTL</file>
 		<file size="102" time="1987-12-14 23:00:58" attr="0x10">TOOLS</file>
@@ -286,7 +286,7 @@
 		<file size="241466" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/BIN/">C2.EXE</file>
 		<file size="50039" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/BIN/">CL.EXE</file>
 	</disk>
-	<disk id="disk09" size="737280" chs="80:2:9" img="archive/MSOS2C2.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK09.json" md5="d1ff2cd606b30b6333d36e9858c46cb0" md5json="fc3cb00c21de907415283ccdccc785d3">
+	<disk id="disk09" size="737280" chs="80:2:9" img="archive/MSOS2C2.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK09.json" md5="d1ff2cd606b30b6333d36e9858c46cb0" md5json="fc3cb00c21de907415283ccdccc785d3">
 		<name>MS OS/2 SDK 1.02 (CBIN2)</name>
 		<file size="7" time="1987-12-16 10:10:00" attr="0x20">CBIN2.CTL</file>
 		<file size="408" time="1987-12-14 23:00:58" attr="0x10">OS2DOC</file>
@@ -347,7 +347,7 @@
 		<file size="1990" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/BIN/">CL.HLP</file>
 		<file size="33152" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/BIN/">LIBBUILD.EXE</file>
 	</disk>
-	<disk id="disk10" size="737280" chs="80:2:9" img="archive/MSOS2C3.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK10.json" md5="cf29cda2e40602aaf34ccfa207cc0971" md5json="8bdde2a160a303794dc428b580824daf">
+	<disk id="disk10" size="737280" chs="80:2:9" img="archive/MSOS2C3.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK10.json" md5="cf29cda2e40602aaf34ccfa207cc0971" md5json="8bdde2a160a303794dc428b580824daf">
 		<name>MS OS/2 SDK 1.02 (CLIB1)</name>
 		<file size="7" time="1987-12-11 14:30:00" attr="0x20">CLIB1.CTL</file>
 		<file size="1020" time="1987-12-14 23:00:58" attr="0x10">INCLUDE</file>
@@ -409,7 +409,7 @@
 		<file size="37795" time="1987-12-14 23:00:02" attr="0x20" dir="LIB/">SLIBFP.LIB</file>
 		<file size="508" time="1987-12-14 23:00:02" attr="0x20" dir="LIB/">SVARSTCK.OBJ</file>
 	</disk>
-	<disk id="disk11" size="737280" chs="80:2:9" img="archive/MSOS2C4.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK11.json" md5="62d6dab217f1aebe947e96be61726230" md5json="8f99cff44d97b7dddd67d9ea240b9f54">
+	<disk id="disk11" size="737280" chs="80:2:9" img="archive/MSOS2C4.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK11.json" md5="62d6dab217f1aebe947e96be61726230" md5json="8f99cff44d97b7dddd67d9ea240b9f54">
 		<name>MS OS/2 SDK 1.02 (CLIB2)</name>
 		<file size="7" time="1987-12-11 14:30:00" attr="0x20">CLIB2.CTL</file>
 		<file size="340" time="1987-12-14 23:00:58" attr="0x10">LIB</file>
@@ -422,7 +422,7 @@
 		<file size="86075" time="1987-12-14 23:00:02" attr="0x20" dir="LIB/">SLIBC.LIB</file>
 		<file size="45421" time="1987-12-14 23:00:02" attr="0x20" dir="LIB/">SLIBC3.LIB</file>
 	</disk>
-	<disk id="disk12" size="737280" chs="80:2:9" img="archive/MSOS2ASM.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK12.json" md5="e5726a6b7d55a7b16557e166cb964acb" md5json="463002a29cc967b2f4435cd04b9dea82">
+	<disk id="disk12" size="737280" chs="80:2:9" img="archive/MSOS2ASM.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK12.json" md5="e5726a6b7d55a7b16557e166cb964acb" md5json="463002a29cc967b2f4435cd04b9dea82">
 		<name>MS OS/2 SDK 1.02 (MASM)</name>
 		<file size="7" time="1987-12-11 14:30:00" attr="0x20">MASM.CTL</file>
 		<file size="136" time="1987-12-14 23:00:58" attr="0x10">OS2DOC</file>
@@ -436,7 +436,7 @@
 		<file size="220066" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/RBIN/">CV.EXE</file>
 		<file size="18348" time="1987-12-14 23:00:02" attr="0x20" dir="TOOLS/RBIN/">CV.HLP</file>
 	</disk>
-	<disk id="disk13" size="737280" chs="80:2:9" img="archive/MSOS2EX1.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK13.json" md5="7e3467b88835e724efa1a5c4e7624bb9" md5json="793de243ccfb0935f9718d8a937b7123">
+	<disk id="disk13" size="737280" chs="80:2:9" img="archive/MSOS2EX1.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK13.json" md5="7e3467b88835e724efa1a5c4e7624bb9" md5json="793de243ccfb0935f9718d8a937b7123">
 		<name>MS OS/2 SDK 1.02 (EXAMPLE1)</name>
 		<file size="102" time="1987-12-14 23:00:58" attr="0x10">DEMOS</file>
 		<file size="442" time="1987-12-14 23:00:58" attr="0x10" dir="DEMOS/">APPS</file>
@@ -508,7 +508,7 @@
 		<file size="7108" time="1987-12-14 23:00:02" attr="0x20" dir="DEMOS/APPS/WAKEUP/">WAKEUP.EXE</file>
 		<file size="7" time="1987-12-11 14:30:00" attr="0x20">EXAMPLE1.CTL</file>
 	</disk>
-	<disk id="disk14" size="737280" chs="80:2:9" img="archive/MSOS2EX2.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK14.json" md5="2c5f883657a00cf208876079df3a149c" md5json="3ec1eb1e988d4b4b2545f837fc8e8a08">
+	<disk id="disk14" size="737280" chs="80:2:9" img="archive/MSOS2EX2.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK14.json" md5="2c5f883657a00cf208876079df3a149c" md5json="3ec1eb1e988d4b4b2545f837fc8e8a08">
 		<name>MS OS/2 SDK 1.02 (EXAMPLE2)</name>
 		<file size="102" time="1987-12-14 23:00:58" attr="0x10">DEMOS</file>
 		<file size="136" time="1987-12-14 23:00:58" attr="0x10" dir="DEMOS/">APPS</file>
@@ -554,7 +554,7 @@
 		<file size="1098" time="1987-12-14 23:00:02" attr="0x20" dir="INCLUDE/">PTRACE.H</file>
 		<file size="11896" time="1987-12-14 23:00:02" attr="0x20" dir="INCLUDE/">SUBCALLS.H</file>
 	</disk>
-	<disk id="disk15" size="368640" chs="40:2:9" img="archive/MSOS2NET.img" href="/pcjs-disks/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK15.json" md5="51b40d098260cdc4ed787c0eeef11497" md5json="b48431fcb50de32bb7811f9ca1070676">
+	<disk id="disk15" size="368640" chs="40:2:9" img="archive/MSOS2NET.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK15.json" md5="51b40d098260cdc4ed787c0eeef11497" md5json="b48431fcb50de32bb7811f9ca1070676">
 		<name>MS OS/2 SDK 1.02 (NETWORK)</name>
 		<file size="7" time="2015-12-21 15:19:46" attr="0x20">NETWORK.CTL</file>
 	</disk>

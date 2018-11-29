@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Unprotect Assortment</title>
 	<source href="https://www.pcorner.com/list/UNP/UNPROT-1.ZIP/INFO/">The Programmer's Corner: Unprotects for Games and Such</source>
-	<disk id="disk01" size="1228800" chs="80:2:15" dir="disks" href="/pcjs-disks/pcx86/shareware/unprot/disks/UNPROT-1-2.json" md5="107728f52bafa7ae8a1d1e902edffbf1" md5json="85eaab6b67dfa5bb393b48f4a1e9a89a">
+	<disk id="disk01" size="1228800" chs="80:2:15" dir="disks" href="/disks-demo/pcx86/shareware/unprot/disks/UNPROT-1-2.json" md5="107728f52bafa7ae8a1d1e902edffbf1" md5json="85eaab6b67dfa5bb393b48f4a1e9a89a">
 		<name>Unprotect Files (UNPROT 1 &amp; 2)</name>
 		<file size="706" time="1983-07-11 08:35:44" attr="0x20" md5="b5964dfcf2f0920c7dd4e8a2069d0598">123.UNP</file>
 		<file size="520" time="1983-07-12 08:17:20" attr="0x20" md5="8cf8e8d28f179fc67da4c2cf97de1019">123A.UNP</file>

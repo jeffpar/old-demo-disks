@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Exploring the IBM PC</title>
 	<version>1.00</version>
 	<type>Tutorial</type>
 	<author>IBM</author>
-	<disk id="disk15" size="163840" chs="40:1:8" img="5150/mda/archive/EXPLORING-THE-IBM-PC-100-MDA.img" href="/pcjs-disks/pcx86/apps/ibm/exploring/5150/mda/EXPLORING-THE-IBM-PC-100-MDA.json" md5="79cc5cb0d1d7a5d59f5a7c66ce02be77" md5json="a2171defca52c7246e9f05180fba0564">
+	<disk id="disk15" size="163840" chs="40:1:8" img="5150/mda/archive/EXPLORING-THE-IBM-PC-100-MDA.img" href="/disks-demo/pcx86/apps/ibm/exploring/5150/mda/EXPLORING-THE-IBM-PC-100-MDA.json" md5="79cc5cb0d1d7a5d59f5a7c66ce02be77" md5json="a2171defca52c7246e9f05180fba0564">
 		<name>Exploring the IBM PC (MDA)</name>
 		<file size="17698" time="1983-03-07 00:01:40" attr="0x20">COMMAND.COM</file>
 		<file size="6656" time="1983-02-28 00:15:24" attr="0x20">DLSM01</file>
@@ -20,7 +20,7 @@
 		<file size="1920" time="1982-05-07 12:00:00" attr="0x20">IBMBIO.COM</file>
 		<file size="6400" time="1982-05-07 12:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
-	<disk id="disk16" size="163840" chs="40:1:8" img="5150/cga/archive/EXPLORING-THE-IBM-PC-100-CGA.img" href="/pcjs-disks/pcx86/apps/ibm/exploring/5150/cga/EXPLORING-THE-IBM-PC-100-CGA.json" md5="53751323a55f565077bb3675f347c7fe" md5json="1ec9fed8c9ceea82413aa2f30f8946e8">
+	<disk id="disk16" size="163840" chs="40:1:8" img="5150/cga/archive/EXPLORING-THE-IBM-PC-100-CGA.img" href="/disks-demo/pcx86/apps/ibm/exploring/5150/cga/EXPLORING-THE-IBM-PC-100-CGA.json" md5="53751323a55f565077bb3675f347c7fe" md5json="1ec9fed8c9ceea82413aa2f30f8946e8">
 		<name>Exploring the IBM PC (CGA)</name>
 		<file size="17698" time="1983-03-08 01:48:34" attr="0x20">COMMAND.COM</file>
 		<file size="8681" time="1983-02-28 01:49:34" attr="0x20">DLSC01</file>
@@ -38,7 +38,7 @@
 		<file size="6400" time="1982-05-07 12:00:00" attr="0x20">IBMDOS.COM</file>
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
 	</disk>
-	<disk id="disk17" size="368640" chs="40:2:9" img="5170/1.00/archive/EXPLORING-THE-IBM-PC-AT-100.img" href="/pcjs-disks/pcx86/apps/ibm/exploring/5170/1.00/EXPLORING-THE-IBM-PC-AT-100.json" md5="4f64b05909f14a31948722c7a97816be" md5json="236900d39b4196e391ea776835fbb042">
+	<disk id="disk17" size="368640" chs="40:2:9" img="5170/1.00/archive/EXPLORING-THE-IBM-PC-AT-100.img" href="/disks-demo/pcx86/apps/ibm/exploring/5170/1.00/EXPLORING-THE-IBM-PC-AT-100.json" md5="4f64b05909f14a31948722c7a97816be" md5json="236900d39b4196e391ea776835fbb042">
 		<name>Exploring the IBM PC AT (1.00)</name>
 		<file size="33" time="1983-11-08 15:37:52" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="103552" time="1984-03-29 15:47:00" attr="0x20">BCOCTRL.EXE</file>
@@ -98,7 +98,7 @@
 		<file size="890" time="1983-10-19 14:01:48" attr="0x20">SCOREADU.CIM</file>
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 	</disk>
-	<disk id="disk01" size="368640" chs="40:2:9" img="5170/2.00/archive/EXPLORING-THE-IBM-PC-AT-200.img" href="/pcjs-disks/pcx86/apps/ibm/exploring/5170/2.00/EXPLORING-THE-IBM-PC-AT-200.json" md5="6ed3358ecfe687deba8cf56d8bc9f712" md5json="d9238ce873d7440eefceb3e0c942c03f">
+	<disk id="disk01" size="368640" chs="40:2:9" img="5170/2.00/archive/EXPLORING-THE-IBM-PC-AT-200.img" href="/disks-demo/pcx86/apps/ibm/exploring/5170/2.00/EXPLORING-THE-IBM-PC-AT-200.json" md5="6ed3358ecfe687deba8cf56d8bc9f712" md5json="d9238ce873d7440eefceb3e0c942c03f">
 		<name>Exploring the IBM PC AT (2.00)</name>
 		<file size="33" time="1985-07-17 11:00:00" attr="0x20">AUTOEXEC.BAT</file>
 		<file size="128" time="1985-07-17 11:00:00" attr="0x20">C0DUTBL.COL</file>

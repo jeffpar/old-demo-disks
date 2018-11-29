@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM EGA Demos and Utilities</title>
 	<author>IBM</author>
-	<disk id="disk01" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/pcjs-disks/pcx86/apps/ibm/fland/FLAND.json" md5="ac90a61fb7a3bf39751524246d211ee8" md5json="85d290e55bc3176a49956b536dc011b7">
+	<disk id="disk01" size="368640" chs="40:2:9" img="ega/archive/FLAND.img" href="/disks-demo/pcx86/apps/ibm/fland/FLAND.json" md5="ac90a61fb7a3bf39751524246d211ee8" md5json="85d290e55bc3176a49956b536dc011b7">
 		<name>IBM EGA Fantasy Land Demo</name>
 		<file size="896" time="1983-03-08 12:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="65536" time="1984-07-23 13:42:36" attr="0x20">ATTR.MAP</file>
@@ -22,7 +22,7 @@
 		<file size="65536" time="1984-07-23 13:42:18" attr="0x20">SPEC.MAP</file>
 		<file size="11036" time="1980-01-01 02:11:06" attr="0x20">TABLE.MSG</file>
 	</disk>
-	<disk id="disk02" size="327680" chs="40:2:8" dir="ega/archive/EGA-UTILS" href="/pcjs-disks/pcx86/apps/ibm/fland/EGA-UTILS.json" md5="b740782b9fd631c62d6542b0aa4425ae" md5json="c7b507684caa00a376f3d938a5268a18">
+	<disk id="disk02" size="327680" chs="40:2:8" dir="ega/archive/EGA-UTILS" href="/disks-demo/pcx86/apps/ibm/fland/EGA-UTILS.json" md5="b740782b9fd631c62d6542b0aa4425ae" md5json="c7b507684caa00a376f3d938a5268a18">
 		<name>IBM EGA Utilities</name>
 		<file size="1562" time="2018-02-28 14:40:10" attr="0x20" md5="c70ef4c62a5c4f5581816805fe0545fe">ALAMODE.COM</file>
 		<file size="4546" time="2018-02-28 14:40:10" attr="0x20" md5="41d08d1382e5091b97ea9fe90af7cb8d">DAZZLE.COM</file>

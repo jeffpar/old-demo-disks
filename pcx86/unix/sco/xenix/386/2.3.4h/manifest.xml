@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Xenix 386</title>
 	<version>2.3.4h</version>
 	<type>Operating System</type>
 	<category>Unix</category>
 	<company>SCO</company>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/N1-BOOT.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/N1-BOOT.json" md5="f8e95b51f04a9808fd9fd2e967e1f771" md5json="eeb5bf04fd6b749d7680458954621f61">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/N1-BOOT.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/N1-BOOT.json" md5="f8e95b51f04a9808fd9fd2e967e1f771" md5json="eeb5bf04fd6b749d7680458954621f61">
 		<name>SCO Xenix 386 2.3.4h (N1-BOOT)</name>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/N2.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/N2.json" md5="ff633a91225a234b535e82d7b5288e96" md5json="4de113c31fd393f372c48eba4f79c63f">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/N2.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/N2.json" md5="ff633a91225a234b535e82d7b5288e96" md5json="4de113c31fd393f372c48eba4f79c63f">
 		<name>SCO Xenix 386 2.3.4h (N2)</name>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/B1.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/B1.json" md5="be110ccf8f08922024a3741e6a262000" md5json="52ff7432124f5d1894b6a8dd5560827c">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/B1.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/B1.json" md5="be110ccf8f08922024a3741e6a262000" md5json="52ff7432124f5d1894b6a8dd5560827c">
 		<name>SCO Xenix 386 2.3.4h (B1)</name>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/X1.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/X1.json" md5="47f0e3f869be92a627a5e33c3a2bccc6" md5json="13c4c9b5dbb0731c987d54c6129214dd">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/X1.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/X1.json" md5="47f0e3f869be92a627a5e33c3a2bccc6" md5json="13c4c9b5dbb0731c987d54c6129214dd">
 		<name>SCO Xenix 386 2.3.4h (X1)</name>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/X2.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/X2.json" md5="1cdaadcc7db3530dbe18bf9b75ba0c91" md5json="ac289502245bc7383e41f72f53b0b160">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/X2.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/X2.json" md5="1cdaadcc7db3530dbe18bf9b75ba0c91" md5json="ac289502245bc7383e41f72f53b0b160">
 		<name>SCO Xenix 386 2.3.4h (X2)</name>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/X3.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/X3.json" md5="3967a163b0042682c311ee0366a5a114" md5json="8ca8ba33d853005a83850164fe412d88">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/X3.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/X3.json" md5="3967a163b0042682c311ee0366a5a114" md5json="8ca8ba33d853005a83850164fe412d88">
 		<name>SCO Xenix 386 2.3.4h (X3)</name>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/X4.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/X4.json" md5="751b16dac197b299a7b84fa51d88042b" md5json="1e264970e94d3ad23a2f6a46afb97729">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/X4.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/X4.json" md5="751b16dac197b299a7b84fa51d88042b" md5json="1e264970e94d3ad23a2f6a46afb97729">
 		<name>SCO Xenix 386 2.3.4h (X4)</name>
 	</disk>
-	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/GAMES.img" href="/pcjs-disks/pcx86/unix/sco/xenix/386/2.3.4h/GAMES.json" md5="b1087c1615d7d75f447d8887a19ddfb8" md5json="26b73cdb8a72506d4eeaa44dcbd47624">
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/GAMES.img" href="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/GAMES.json" md5="b1087c1615d7d75f447d8887a19ddfb8" md5json="26b73cdb8a72506d4eeaa44dcbd47624">
 		<name>SCO Xenix 386 2.3.4h (GAMES)</name>
 	</disk>
 </manifest>

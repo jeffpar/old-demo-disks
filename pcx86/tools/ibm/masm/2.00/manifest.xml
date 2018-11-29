@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Macro Assembler</title>
 	<version>2.00</version>
@@ -8,7 +8,7 @@
 	<language>x86</language>
 	<company>IBM</company>
 	<author>Microsoft</author>
-	<disk id="disk01" size="327680" chs="40:2:8" img="archive/IBM-MASM-200.img" href="/pcjs-disks/pcx86/tools/ibm/masm/2.00/IBM-MASM-200.json" md5="7936ec503fa38dfe2354f7ccc26d2af5" md5json="06b269f8da65791d9f53538c8484fb0f">
+	<disk id="disk01" size="327680" chs="40:2:8" img="archive/IBM-MASM-200.img" href="/disks-demo/pcx86/tools/ibm/masm/2.00/IBM-MASM-200.json" md5="7936ec503fa38dfe2354f7ccc26d2af5" md5json="06b269f8da65791d9f53538c8484fb0f">
 		<name>IBM Macro Assembler 2.00</name>
 		<file size="52182" time="1984-07-18 12:01:00" attr="0x20">ASM.EXE</file>
 		<file size="10640" time="1984-07-18 12:01:00" attr="0x20">CREF.EXE</file>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Macro Assembler</title>
 	<version>5.00</version>
@@ -7,7 +7,7 @@
 	<category>Assembler</category>
 	<language>x86</language>
 	<company>Microsoft</company>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM500-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.00/MASM500-DISK1.json" md5="db3a2c11a48bd66f684ee8258af9c6ca" md5json="a251bf02f169d53d5e026e87295ed228">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM500-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.00/MASM500-DISK1.json" md5="db3a2c11a48bd66f684ee8258af9c6ca" md5json="a251bf02f169d53d5e026e87295ed228">
 		<name>MS Macro Assembler 5.00 (Disk 1)</name>
 		<file size="15830" time="1987-07-30 23:00:00" attr="0x20" md5="ba1ed00602267c7c92e1a969c0c75493">CREF.EXE</file>
 		<file size="9499" time="1987-07-30 23:00:00" attr="0x20" md5="fb54a5f3a0d693a2f7c46f767b8ef934">ERROUT.EXE</file>
@@ -38,7 +38,7 @@
 		<file size="23280" time="1987-07-30 23:00:00" attr="0x20" md5="4aaed710dbf270ec8952281b07c594b1">WHAT.ASM</file>
 		<file size="3170" time="1987-07-30 23:00:00" attr="0x20" md5="e78b5d342f77badf9f807d07a8e01cc8">WHAT.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MASM500-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.00/MASM500-DISK2.json" md5="90c23b2c12c6d3e5f0002f7091738480" md5json="a794324b6b5c779ce2b01429f16dfcf5">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MASM500-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.00/MASM500-DISK2.json" md5="90c23b2c12c6d3e5f0002f7091738480" md5json="a794324b6b5c779ce2b01429f16dfcf5">
 		<name>MS Macro Assembler 5.00 (Disk 2)</name>
 		<file size="2302" time="1987-07-30 23:00:00" attr="0x20" md5="e9fb41bbdfbc25ee37a621b42478202e">BIOS.INC</file>
 		<file size="218018" time="1987-07-30 23:00:00" attr="0x20" md5="b76053c342beaef026e49901333db65e">CV.EXE</file>

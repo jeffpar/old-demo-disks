@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS BASIC</title>
 	<version/>
@@ -8,7 +8,7 @@
 	<language>BASIC</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="compiler/5.36/archive/BASCOM536.img" href="/pcjs-disks/pcx86/tools/microsoft/basic/compiler/5.36/BASCOM536.json" md5="090d3cd5962f4d1a5ecc661f3b4f9ac6" md5json="239ae79f135a09f357511bc4d68a811f">
+	<disk id="disk01" size="368640" chs="40:2:9" img="compiler/5.36/archive/BASCOM536.img" href="/disks-demo/pcx86/tools/microsoft/basic/compiler/5.36/BASCOM536.json" md5="090d3cd5962f4d1a5ecc661f3b4f9ac6" md5json="239ae79f135a09f357511bc4d68a811f">
 		<name>MS BASIC Compiler 5.36</name>
 		<file size="35" time="1985-03-22 01:00:02" attr="0x20">B.CNF</file>
 		<file size="26746" time="1985-03-22 01:00:02" attr="0x20">B.DEF</file>
@@ -31,12 +31,12 @@
 		<file size="35632" time="1985-03-22 01:00:06" attr="0x20">SAMPLE.COM</file>
 		<file size="94128" time="1985-03-22 01:00:06" attr="0x20">SAMPLE.MOD</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="quickbasic/2.00/archive/QUICKBASIC200.img" href="/pcjs-disks/pcx86/tools/microsoft/basic/quickbasic/2.00/QUICKBASIC200.json" md5="5b588a33ec187636a1bb40b736ff1591" md5json="669a94e1824675662f6b647be362ec77">
+	<disk id="disk02" size="368640" chs="40:2:9" img="quickbasic/2.00/archive/QUICKBASIC200.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/2.00/QUICKBASIC200.json" md5="5b588a33ec187636a1bb40b736ff1591" md5json="669a94e1824675662f6b647be362ec77">
 		<name>MS QuickBASIC 2.00</name>
 		<file size="176128" time="1986-06-13 10:55:40" attr="0x20">BCOM20.LIB</file>
 		<file size="186256" time="1986-06-16 14:47:34" attr="0x20">QB.EXE</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK1" href="/pcjs-disks/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK1.json" md5="1b2f791b27abfa9f9c6f5b13e5405ee9" md5json="c99c0d93bc2ccc1a93155e39ee954e92">
+	<disk id="disk03" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK1" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK1.json" md5="1b2f791b27abfa9f9c6f5b13e5405ee9" md5json="c99c0d93bc2ccc1a93155e39ee954e92">
 		<name>MS QuickBASIC 4.50 (Disk 1)</name>
 		<file size="83456" time="1990-08-20 11:00:00" attr="0x20" md5="bd6468bf744b2126aeb9985d7dfc3981">BC.EX$</file>
 		<file size="22560" time="1990-08-20 11:00:00" attr="0x20" md5="de6ccd3c8b908ea66b5a2092ea9f2346">BX.PGM</file>
@@ -86,7 +86,7 @@
 		<file size="745" time="1990-08-20 11:00:00" attr="0x20" md5="9d9f41d789a3c551fdfc16492e476b91" dir="EXAMPLES/">TOKEN.BA$</file>
 		<file size="2091" time="1990-08-20 11:00:00" attr="0x20" md5="511d2f16b072c5af5bc60535c6cbe5e4" dir="EXAMPLES/">WHEREIS.BA$</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK2" href="/pcjs-disks/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK2.json" md5="f1c8bb6db4e9bb0e248f85e182792d19" md5json="dc87eec362febbe54fd66fc2d296c585">
+	<disk id="disk04" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK2" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK2.json" md5="f1c8bb6db4e9bb0e248f85e182792d19" md5json="dc87eec362febbe54fd66fc2d296c585">
 		<name>MS QuickBASIC 4.50 (Disk 2)</name>
 		<file size="149360" time="1990-08-20 11:00:00" attr="0x20" md5="6434d321dd2c772526b8630c54fe3a17">BCOM45.LI$</file>
 		<file size="15009" time="1990-08-20 11:00:00" attr="0x20" md5="7ad44bb77824a5bdb33a5f452e1af4d8">BQLB45.LI$</file>
@@ -125,7 +125,7 @@
 		<file size="594" time="1990-08-20 11:00:00" attr="0x20" md5="176343614ca1867c56286b3a47458cba" dir="ADVR_EX/">UCASE_EX.BA$</file>
 		<file size="566" time="1990-08-20 11:00:00" attr="0x20" md5="359734448747cd1a4147dd9aae9e4523" dir="ADVR_EX/">WINDO_EX.BA$</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK1.json" md5="d1b2a34b60697b5dc61a914a93a82a8f" md5json="2e958b9fe640d0bae1e89f40b87b05cf">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK1.json" md5="d1b2a34b60697b5dc61a914a93a82a8f" md5json="2e958b9fe640d0bae1e89f40b87b05cf">
 		<name>MS Visual Basic 1.00 (Disk 1)</name>
 		<file size="3877" time="1991-05-10 01:00:00" attr="0x20">CONSTANT.TX$</file>
 		<file size="14816" time="1991-05-10 01:00:00" attr="0x20">DECOMP.DLL</file>
@@ -137,7 +137,7 @@
 		<file size="489823" time="1991-05-10 01:00:00" attr="0x20">VB.HL$</file>
 		<file size="271264" time="1991-05-10 01:00:00" attr="0x20">VBRUN100.DL_</file>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK2.json" md5="9b8699592424f9c1e6040e18dbe68d54" md5json="549628ddc0a0144d113aa589e9f23c63">
+	<disk id="disk06" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK2.json" md5="9b8699592424f9c1e6040e18dbe68d54" md5json="549628ddc0a0144d113aa589e9f23c63">
 		<name>MS Visual Basic 1.00 (Disk 2)</name>
 		<file size="352" time="1991-05-13 18:15:24" attr="0x10">ICONS</file>
 		<file size="8006" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">ARROWS.$</file>
@@ -203,7 +203,7 @@
 		<file size="71" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">TEMPCONV.MA$</file>
 		<file size="289403" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">VB.LE$</file>
 	</disk>
-	<disk id="disk07" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK3.json" md5="d53043a5747349384375e90c08be6213" md5json="cc5fa94204fb0c9f3e1440eb82028231">
+	<disk id="disk07" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK3.json" md5="d53043a5747349384375e90c08be6213" md5json="cc5fa94204fb0c9f3e1440eb82028231">
 		<name>MS Visual Basic 1.00 (Disk 3)</name>
 		<file size="480" time="1991-05-16 15:27:16" attr="0x10">CIRCLE1</file>
 		<file size="2378" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CCINIT.C</file>
@@ -294,7 +294,7 @@
 		<file size="151391" time="1991-05-15 01:00:00" attr="0x20">VBAPI.HLP</file>
 		<file size="3087" time="1991-05-15 01:00:00" attr="0x20">VBAPI.LIB</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" img="qbasic/1.10/archive/QBASIC110.img" href="/pcjs-disks/pcx86/tools/microsoft/basic/qbasic/1.10/QBASIC110.json" md5="3b06fc322874531b3175348f0e8bea0a" md5json="717ac22f16ad3523731134e180935632">
+	<disk id="disk08" size="368640" chs="40:2:9" img="qbasic/1.10/archive/QBASIC110.img" href="/disks-demo/pcx86/tools/microsoft/basic/qbasic/1.10/QBASIC110.json" md5="3b06fc322874531b3175348f0e8bea0a" md5json="717ac22f16ad3523731134e180935632">
 		<name>MS QBasic 1.10</name>
 		<file size="194309" time="1994-05-31 06:22:00" attr="0x20">QBASIC.EXE</file>
 		<file size="130881" time="1994-05-31 06:22:00" attr="0x20">QBASIC.HLP</file>

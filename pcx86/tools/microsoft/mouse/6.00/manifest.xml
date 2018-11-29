@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS Mouse</title>
 	<version>6.xx</version>
@@ -7,7 +7,7 @@
 	<category>Mouse</category>
 	<author>Microsoft</author>
 	<releaseDate>1988</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSMOUSE-056199-100-DISK-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-614-SETUP.json" md5="218c5189e94d7987a5d513d94535c7c3" md5json="bb86a89a00c03e376e4de01ddc0a6647">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSMOUSE-056199-100-DISK-SETUP.img" href="/disks-demo/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-614-SETUP.json" md5="218c5189e94d7987a5d513d94535c7c3" md5json="bb86a89a00c03e376e4de01ddc0a6647">
 		<name>MS Mouse 6.14 (SETUP)</name>
 		<file size="19858" time="1988-01-15 11:00:16" attr="0x20">CPANEL.COM</file>
 		<file size="8787" time="1988-01-15 11:00:18" attr="0x20">DEFAULT.COM</file>
@@ -27,7 +27,7 @@
 		<file size="1157" time="1988-01-15 11:00:22" attr="0x20">STARTLES.SCN</file>
 		<file size="978" time="1988-01-15 11:00:22" attr="0x20">STARTLES.SOB</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSMOUSE-624-SETUP.img" href="/pcjs-disks/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-624-SETUP.json" md5="143ae874a898bc945891fe8b9a007491" md5json="7aa71659917bf709c4688895b870a818">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSMOUSE-624-SETUP.img" href="/disks-demo/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-624-SETUP.json" md5="143ae874a898bc945891fe8b9a007491" md5json="7aa71659917bf709c4688895b870a818">
 		<name>MS Mouse 6.24 (SETUP)</name>
 		<file size="2318" time="1988-08-01 00:00:02" attr="0x20">COMSP.EXE</file>
 		<file size="19858" time="1988-08-01 00:00:02" attr="0x20">CPANEL.COM</file>
@@ -55,7 +55,7 @@
 		<file size="1157" time="1988-08-01 00:00:02" attr="0x20">STARTLES.SCN</file>
 		<file size="978" time="1988-08-01 00:00:02" attr="0x20">STARTLES.SOB</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSMOUSE-624-PROGRAM.img" href="/pcjs-disks/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-624-PROGRAM.json" md5="342f3a3dd6e302500dda1b9d6ec29ec7" md5json="0ec6ff82f5de68047b740e305ecc8604">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSMOUSE-624-PROGRAM.img" href="/disks-demo/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-624-PROGRAM.json" md5="342f3a3dd6e302500dda1b9d6ec29ec7" md5json="0ec6ff82f5de68047b740e305ecc8604">
 		<name>MS Mouse 6.24 (PROGRAM)</name>
 		<file size="7426" time="1988-08-01 00:00:02" attr="0x20">BIT16X14.FNT</file>
 		<file size="8450" time="1988-08-01 00:00:02" attr="0x20">BIT16X16.FNT</file>
@@ -85,7 +85,7 @@
 		<file size="4557" time="1988-08-01 00:00:02" attr="0x20">PBRUSH2.OVL</file>
 		<file size="8001" time="1988-08-01 00:00:02" attr="0x20">ROMAN.FNT</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSMOUSE-624-UTILITIES.img" href="/pcjs-disks/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-624-UTILITIES.json" md5="143b1c0e4e0bfce69361c94bafd7e09e" md5json="1c29b6818f42e7356133da7b43c09912">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSMOUSE-624-UTILITIES.img" href="/disks-demo/pcx86/tools/microsoft/mouse/6.00/MSMOUSE-624-UTILITIES.json" md5="143b1c0e4e0bfce69361c94bafd7e09e" md5json="1c29b6818f42e7356133da7b43c09912">
 		<name>MS Mouse 6.24 (UTILITIES)</name>
 		<file size="1857" time="1988-08-01 00:00:02" attr="0x20">ATT.DEV</file>
 		<file size="1282" time="1988-08-01 00:00:02" attr="0x20">BIT5X8.FNT</file>

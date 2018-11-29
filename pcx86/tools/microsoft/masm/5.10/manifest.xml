@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Macro Assembler</title>
 	<version>5.10</version>
@@ -7,7 +7,7 @@
 	<category>Assembler</category>
 	<language>x86</language>
 	<company>Microsoft</company>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM51-01510-DISK1.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01510-DISK1.json" md5="c278d73a35d9cd4eca53b51b77a2df74" md5json="d83047a4325a115d6366d1dd5b9daa28">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM51-01510-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.10/MASM51-01510-DISK1.json" md5="c278d73a35d9cd4eca53b51b77a2df74" md5json="d83047a4325a115d6366d1dd5b9daa28">
 		<name>MS Macro Assembler 5.10 (Disk 1)</name>
 		<file size="28427" time="1988-01-31 22:00:00" attr="0x20" md5="f245ba52ab2b0340cffe0a6c28b7015d">CREF.EXE</file>
 		<file size="110703" time="1988-01-31 22:00:00" attr="0x20" md5="6828fe2509ebad3ca10d2f51c71a2d94">MASM.EXE</file>
@@ -30,7 +30,7 @@
 		<file size="5157" time="1988-01-31 22:00:00" attr="0x20" md5="ebb411c8f1a58b0e375fe8ddf867ea9a">SETUP.SUS</file>
 		<file size="4964" time="1988-01-31 22:00:00" attr="0x20" md5="fd4312a8a38c638a0e43b05d113c1aee">SHOW.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MASM51-01511-DISK2.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01511-DISK2.json" md5="bc6633d513c74414647ac8d130b3852e" md5json="3fecddcea887937b824707d2e9e5d41c">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MASM51-01511-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.10/MASM51-01511-DISK2.json" md5="bc6633d513c74414647ac8d130b3852e" md5json="3fecddcea887937b824707d2e9e5d41c">
 		<name>MS Macro Assembler 5.10 (Disk 2)</name>
 		<file size="57437" time="1988-01-31 22:00:00" attr="0x20" md5="a0cb3beb0f9ce742303d0b70d27ab540">CVPACK.EXE</file>
 		<file size="10729" time="1988-01-31 22:00:00" attr="0x20" md5="c6a86509dfb07ae576525e01332c9864">ERROUT.EXE</file>
@@ -43,7 +43,7 @@
 		<file size="14455" time="1988-01-31 22:00:00" attr="0x20" md5="58a49486ccf3a6ec7192c6107cdd1eac">MOUSE.COM</file>
 		<file size="10313" time="1988-01-31 22:00:00" attr="0x20" md5="604c185af9c4f4d6ea8a5c16fab352e1">SETENV.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MASM51-01512-DISK3.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01512-DISK3.json" md5="26415ae61bddc81d032fb563d33efc2d" md5json="8cd0cebcbc1a0a95bd3ce39ffa4d2ce5">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MASM51-01512-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.10/MASM51-01512-DISK3.json" md5="26415ae61bddc81d032fb563d33efc2d" md5json="8cd0cebcbc1a0a95bd3ce39ffa4d2ce5">
 		<name>MS Macro Assembler 5.10 (Disk 3)</name>
 		<file size="2302" time="1988-01-31 22:00:00" attr="0x20" md5="e9fb41bbdfbc25ee37a621b42478202e">BIOS.INC</file>
 		<file size="232896" time="1988-01-31 22:00:00" attr="0x20" md5="e95601011699466f65de9f1a4c4aa5d9">CV.EXE</file>
@@ -61,7 +61,7 @@
 		<file size="5153" time="1988-01-31 22:00:00" attr="0x20" md5="2289bcd8866f2a84fcd67edf3c654b4d">U_AUTO.CV</file>
 		<file size="9641" time="1988-01-31 22:00:00" attr="0x20" md5="19592dbbd62ccd40f5fd390e1563e980">W_AUTO.CV</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MASM51-01514-DISK4.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-01514-DISK4.json" md5="8448b3d024fff14cb9f92ad016430e25" md5json="b59175c5ee9312ab860658e65900561e">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MASM51-01514-DISK4.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.10/MASM51-01514-DISK4.json" md5="8448b3d024fff14cb9f92ad016430e25" md5json="b59175c5ee9312ab860658e65900561e">
 		<name>MS Macro Assembler 5.10 (Disk 4)</name>
 		<file size="31233" time="1988-01-31 22:00:00" attr="0x20" md5="ef373cfe841816b828cde2781fa53540">CALLTREE.EXE</file>
 		<file size="19351" time="1988-01-31 22:00:00" attr="0x20" md5="e1e04f079de368484ba99270fa2b3526">ECH.EXE</file>
@@ -86,7 +86,7 @@
 		<file size="24884" time="1988-01-31 22:00:00" attr="0x20" md5="f4e4bdacd02ceecc2678c412e5f0ab23">RM.EXE</file>
 		<file size="30046" time="1988-01-31 22:00:00" attr="0x20" md5="af2b883191561a9ea0d3b5a4019cd99a">UNDEL.EXE</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/MASM51-03159-DISK5.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51-03159-DISK5.json" md5="2d8c54c2eec100914424f5b1f227b1d7" md5json="146a1fc411ec1ead060ce6e6a6eb76d6">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/MASM51-03159-DISK5.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.10/MASM51-03159-DISK5.json" md5="2d8c54c2eec100914424f5b1f227b1d7" md5json="146a1fc411ec1ead060ce6e6a6eb76d6">
 		<name>MS Macro Assembler 5.10 (Disk 5)</name>
 		<file size="81408" time="1988-01-31 22:00:00" attr="0x20" md5="ca881eb7f5fe2e9bcc4ce15475bc1995">API.LIB</file>
 		<file size="105" time="1988-01-31 22:00:00" attr="0x20" md5="5223d220a23c87ab9fd0a758cd6408e5">APILMR.OBJ</file>
@@ -116,7 +116,7 @@
 		<file size="15079" time="1988-01-31 22:00:00" attr="0x20" md5="3c5e5b90619fdb6df80e73a10aaae7bf">SHOWP.ASM</file>
 		<file size="18" time="1988-01-31 22:00:00" attr="0x20" md5="24248611fa31c75acd7cfaf01069047a">SHOWS.DEF</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/private/MASM51A-UPDATE.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/5.10/MASM51A-UPDATE.json" md5="5048f31119457f3d6a46018e93f5c8b9" md5json="e27a58274843028ea62c7dabed142d5b">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/private/MASM51A-UPDATE.img" href="/disks-demo/pcx86/tools/microsoft/masm/5.10/MASM51A-UPDATE.json" md5="5048f31119457f3d6a46018e93f5c8b9" md5json="e27a58274843028ea62c7dabed142d5b">
 		<name>MS Macro Assembler 5.10A</name>
 		<file size="96" time="1990-03-19 11:15:40" attr="0x10">BINB</file>
 		<file size="124448" time="1989-01-16 10:11:18" attr="0x20" md5="20ca57a959cd487ddb1eeeafd3f99964" dir="BINB/">MASM.EXE</file>

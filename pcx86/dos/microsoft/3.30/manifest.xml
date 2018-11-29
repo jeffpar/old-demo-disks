@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS-DOS</title>
 	<version>3.30</version>
@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS330-DISK1.img" href="/pcjs-disks/pcx86/dos/microsoft/3.30/MSDOS330-DISK1.json" md5="5c2c58602d688c636ea1c9801e6106f4" md5json="7d07af8c3ed59b5ebdfad0a40713438f">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOS330-DISK1.img" href="/disks-demo/pcx86/dos/microsoft/3.30/MSDOS330-DISK1.json" md5="5c2c58602d688c636ea1c9801e6106f4" md5json="7d07af8c3ed59b5ebdfad0a40713438f">
 		<name>MS-DOS 3.30 (Disk 1)</name>
 		<from href="http://www.hampa.ch/pub/software/DOS/DOS/PC-DOS%203.30%20360K.7z"/>
 		<file size="17089" time="1988-02-01 23:00:02" attr="0x20">4201.CPI</file>
@@ -48,7 +48,7 @@
 		<file size="4725" time="1988-02-01 23:00:02" attr="0x20">SYS.COM</file>
 		<file size="3540" time="1988-02-01 23:00:02" attr="0x20">TREE.COM</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS330-DISK2.img" href="/pcjs-disks/pcx86/dos/microsoft/3.30/MSDOS330-DISK2.json" md5="7e7ed2b3f9864a1a383238f263999fc3" md5json="9cab681e2a451a108ed7d591d69db616">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSDOS330-DISK2.img" href="/disks-demo/pcx86/dos/microsoft/3.30/MSDOS330-DISK2.json" md5="7e7ed2b3f9864a1a383238f263999fc3" md5json="9cab681e2a451a108ed7d591d69db616">
 		<name>MS-DOS 3.30 (Disk 2)</name>
 		<from href="http://www.hampa.ch/pub/software/DOS/DOS/PC-DOS%203.30%20360K.7z"/>
 		<file size="30280" time="1988-02-08 23:00:02" attr="0x20">BACKUP.COM</file>

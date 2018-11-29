@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>PC DOS</title>
 	<version>4.01</version>
@@ -7,10 +7,10 @@
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="737280" chs="80:2:9" img="archive/PCDOS401-DISK1.img" href="/pcjs-disks/pcx86/dos/ibm/4.01/PCDOS401-DISK1.json" md5="f0d383282b3443aeb49e38116ca2c123" md5json="6552cfa07023df675db0b6238b51cbd1">
+	<disk id="disk01" size="737280" chs="80:2:9" img="archive/PCDOS401-DISK1.img" href="/disks-demo/pcx86/dos/ibm/4.01/PCDOS401-DISK1.json" md5="f0d383282b3443aeb49e38116ca2c123" md5json="6552cfa07023df675db0b6238b51cbd1">
 		<name>PC DOS 4.01 (Disk 1)</name>
 	</disk>
-	<disk id="disk02" size="737280" chs="80:2:9" img="archive/PCDOS401-DISK2.img" href="/pcjs-disks/pcx86/dos/ibm/4.01/PCDOS401-DISK2.json" md5="0320ff6c2e7250dd4eef2d548425bd0e" md5json="16788d7d2d0930ec9abcc74b4f30d093">
+	<disk id="disk02" size="737280" chs="80:2:9" img="archive/PCDOS401-DISK2.img" href="/disks-demo/pcx86/dos/ibm/4.01/PCDOS401-DISK2.json" md5="0320ff6c2e7250dd4eef2d548425bd0e" md5json="16788d7d2d0930ec9abcc74b4f30d093">
 		<name>PC DOS 4.01 (Disk 2)</name>
 	</disk>
 </manifest>

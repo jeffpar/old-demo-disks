@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Norton Utilities</title>
 	<version>6.01</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU601-DISK1OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK1OF8.json" md5="59320f8e845e82fa08035ee950f2d465" md5json="9fbaa6b8ad07bc1a60874b9eaf5f63aa">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/NU601-DISK1OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK1OF8.json" md5="59320f8e845e82fa08035ee950f2d465" md5json="9fbaa6b8ad07bc1a60874b9eaf5f63aa">
 		<name>Norton Utilities 6.01 (Install)</name>
 		<file size="93817" time="1991-08-05 06:01:00" attr="0x20">DISKREET.EXE</file>
 		<file size="52930" time="1991-08-05 06:01:00" attr="0x20">DISKREET.SYS</file>
@@ -18,20 +18,20 @@
 		<file size="833" time="1991-08-05 06:01:00" attr="0x20">PCSHADOW.SYS</file>
 		<file size="25921" time="1991-08-05 06:01:00" attr="0x20">READ.ME</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU601-DISK2OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK2OF8.json" md5="8e6af5dec4d5e8e6bd0b24400903d845" md5json="f5529cbc7a68efd95a237561f7f8e316">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/NU601-DISK2OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK2OF8.json" md5="8e6af5dec4d5e8e6bd0b24400903d845" md5json="f5529cbc7a68efd95a237561f7f8e316">
 		<name>Norton Utilities 6.01 (Emergency 1)</name>
 		<file size="80809" time="1991-08-05 06:01:00" attr="0x20">CALIBRAT.EXE</file>
 		<file size="82137" time="1991-08-05 06:01:00" attr="0x20">DISKTOOL.EXE</file>
 		<file size="117113" time="1991-08-05 06:01:00" attr="0x20">NDD.EXE</file>
 		<file size="60025" time="1991-08-05 06:01:00" attr="0x20">UNFORMAT.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU601-DISK3OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK3OF8.json" md5="8ae03bea935ef7877b66cb2cbb3c1c1b" md5json="90513a3f78017f85144b096c14a48644">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/NU601-DISK3OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK3OF8.json" md5="8ae03bea935ef7877b66cb2cbb3c1c1b" md5json="90513a3f78017f85144b096c14a48644">
 		<name>Norton Utilities 6.01 (Emergency 2)</name>
 		<file size="133401" time="1991-08-05 06:01:00" attr="0x20">DISKEDIT.EXE</file>
 		<file size="90921" time="1991-08-05 06:01:00" attr="0x20">FILEFIX.EXE</file>
 		<file size="112985" time="1991-08-05 06:01:00" attr="0x20">UNERASE.EXE</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/NU601-DISK4OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK4OF8.json" md5="8edd7daecf3d678fa06f96b684922b57" md5json="7f2d57f5a45ba49767fbd6da5a5cd411">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/NU601-DISK4OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK4OF8.json" md5="8edd7daecf3d678fa06f96b684922b57" md5json="7f2d57f5a45ba49767fbd6da5a5cd411">
 		<name>Norton Utilities 6.01 (Utility 1)</name>
 		<file size="56281" time="1991-08-05 06:01:00" attr="0x20">DS.EXE</file>
 		<file size="61988" time="1991-08-05 06:01:00" attr="0x20">NCACHE.EXE</file>
@@ -39,7 +39,7 @@
 		<file size="81225" time="1991-08-05 06:01:00" attr="0x20">SPEEDISK.EXE</file>
 		<file size="91561" time="1991-08-05 06:01:00" attr="0x20">SYSINFO.EXE</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/NU601-DISK5OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK5OF8.json" md5="ad704d8e2bb996a6df5aefe7df9a83a5" md5json="d4ef60e98e33778c7bd5ba92bcf1e534">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/NU601-DISK5OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK5OF8.json" md5="ad704d8e2bb996a6df5aefe7df9a83a5" md5json="d4ef60e98e33778c7bd5ba92bcf1e534">
 		<name>Norton Utilities 6.01 (Utility 2)</name>
 		<file size="49177" time="1991-08-05 06:01:00" attr="0x20">DISKMON.EXE</file>
 		<file size="74777" time="1991-08-05 06:01:00" attr="0x20">FILEFIND.EXE</file>
@@ -48,7 +48,7 @@
 		<file size="74617" time="1991-08-05 06:01:00" attr="0x20">NUCONFIG.EXE</file>
 		<file size="64921" time="1991-08-05 06:01:00" attr="0x20">SFORMAT.EXE</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/NU601-DISK6OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK6OF8.json" md5="46edfbea568fc0e41a4e596cfee1e27a" md5json="63952bce29c8993f9fba061c4264804a">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/NU601-DISK6OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK6OF8.json" md5="46edfbea568fc0e41a4e596cfee1e27a" md5json="63952bce29c8993f9fba061c4264804a">
 		<name>Norton Utilities 6.01 (Utility 3)</name>
 		<file size="1143" time="1991-08-05 06:01:00" attr="0x20">KEYSTACK.SYS</file>
 		<file size="11855" time="1991-08-05 06:01:00" attr="0x20">NDOS.COM</file>
@@ -56,11 +56,11 @@
 		<file size="1268" time="1991-08-05 06:01:00" attr="0x20">NDOS2E.COM</file>
 		<file size="40521" time="1991-08-05 06:01:00" attr="0x20">NHELP.EXE</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="archive/NU601-DISK7OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK7OF8.json" md5="e96c73b870458a2539b1278245ffe6a9" md5json="1828787ff0b75c18d82b84ea688c18b8">
+	<disk id="disk07" size="368640" chs="40:2:9" img="archive/NU601-DISK7OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK7OF8.json" md5="e96c73b870458a2539b1278245ffe6a9" md5json="1828787ff0b75c18d82b84ea688c18b8">
 		<name>Norton Utilities 6.01 (Utility 4)</name>
 		<file size="267704" time="1991-08-05 06:01:00" attr="0x20">HELPARC.EXE</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" img="archive/NU601-DISK8OF8.img" href="/pcjs-disks/pcx86/tools/other/norton/6.01/NU601-DISK8OF8.json" md5="22b59b49920c281f6d4df4625aa4b606" md5json="436f30b2ca03da68e95a2573bce1cd99">
+	<disk id="disk08" size="368640" chs="40:2:9" img="archive/NU601-DISK8OF8.img" href="/disks-demo/pcx86/tools/other/norton/6.01/NU601-DISK8OF8.json" md5="22b59b49920c281f6d4df4625aa4b606" md5json="436f30b2ca03da68e95a2573bce1cd99">
 		<name>Norton Utilities 6.01 (Utility 5)</name>
 		<file size="18377" time="1991-08-05 06:01:00" attr="0x20">BE.EXE</file>
 		<file size="63209" time="1991-08-05 06:01:00" attr="0x20">EP.EXE</file>

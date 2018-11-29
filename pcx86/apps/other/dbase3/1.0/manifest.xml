@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>dBASE III</title>
 	<version>1.0</version>
@@ -7,7 +7,7 @@
 	<category>Database</category>
 	<author>Ashton-Tate</author>
 	<releaseDate>1984</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK1.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK1.json" md5="fe4b1059c3db9088e032ca316c38e4bf" md5json="cb2a69cf2c632ae01c352532582e79c8">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK1.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK1.json" md5="fe4b1059c3db9088e032ca316c38e4bf" md5json="cb2a69cf2c632ae01c352532582e79c8">
 		<name>dBASE III 1.0 (Disk 1)</name>
 		<file size="15223" time="1984-07-15 08:29:08" attr="0x20">ASSIST.HLP</file>
 		<file size="22" time="1984-07-15 08:29:16" attr="0x20">CONFIG.SYS</file>
@@ -16,7 +16,7 @@
 		<file size="53760" time="1984-07-15 08:29:04" attr="0x20">HELP.DBS</file>
 		<file size="4224" time="1984-07-15 08:29:14" attr="0x20">READ.ME</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK2.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK2.json" md5="3a79fa930b5182464d8bc2e3a19e7843" md5json="03b1a1eb5b44719621c19a44de6cbbec">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK2.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK2.json" md5="3a79fa930b5182464d8bc2e3a19e7843" md5json="03b1a1eb5b44719621c19a44de6cbbec">
 		<name>dBASE III 1.0 (Disk 2)</name>
 		<file size="1408" time="1984-04-30 09:08:58" attr="0x20">ACCOUNTS.PRG</file>
 		<file size="1024" time="1984-11-13 08:27:10" attr="0x20">ADDRESS.NDX</file>
@@ -95,7 +95,7 @@
 		<file size="1024" time="1984-11-06 03:12:54" attr="0x20">WHO.NDX</file>
 		<file size="1024" time="1984-11-13 08:23:36" attr="0x20">ZIP.NDX</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/DBIII-100-LOCKED.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-LOCKED.json" md5="e7c73904362b5298b49a67402d2b00a5" md5json="7940716852d3d71ab64d68e1ac846960">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/DBIII-100-LOCKED.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-LOCKED.json" md5="e7c73904362b5298b49a67402d2b00a5" md5json="7940716852d3d71ab64d68e1ac846960">
 		<name>dBASE III 1.0 (Locked)</name>
 		<file size="15223" time="1984-06-26 17:37:02" attr="0x20">ASSIST.HLP</file>
 		<file size="22" time="1984-06-26 17:37:08" attr="0x20">CONFIG.SYS</file>
@@ -104,7 +104,7 @@
 		<file size="53760" time="1984-06-26 17:36:58" attr="0x20">HELP.DBS</file>
 		<file size="4224" time="1984-06-26 17:37:06" attr="0x20">READ.ME</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/DBIII-100-PATCHED.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-PATCHED.json" md5="c291c4175ee9f5b983a5bb0168421a92" md5json="3d7bc6010f165cb5c41592c9c05e15f2">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/DBIII-100-PATCHED.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-PATCHED.json" md5="c291c4175ee9f5b983a5bb0168421a92" md5json="3d7bc6010f165cb5c41592c9c05e15f2">
 		<name>dBASE III 1.0 (Patched)</name>
 		<file size="15223" time="1984-06-26 17:37:02" attr="0x20">ASSIST.HLP</file>
 		<file size="22" time="1984-06-26 17:37:08" attr="0x20">CONFIG.SYS</file>
@@ -113,7 +113,7 @@
 		<file size="53760" time="1984-06-26 17:36:58" attr="0x20">HELP.DBS</file>
 		<file size="4224" time="1984-06-26 17:37:06" attr="0x20">READ.ME</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/DBIII-100-SAMPLES.img" href="/pcjs-disks/pcx86/apps/other/dbase3/1.0/DBIII-100-SAMPLES.json" md5="919393aa18749389e54ebbb07c83c424" md5json="e2ff2cead7607519001d4357bb9a8439">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/DBIII-100-SAMPLES.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-SAMPLES.json" md5="919393aa18749389e54ebbb07c83c424" md5json="e2ff2cead7607519001d4357bb9a8439">
 		<name>dBASE III 1.0 (Samples)</name>
 		<file size="1408" time="1984-04-30 09:08:58" attr="0x20">ACCOUNTS.PRG</file>
 		<file size="1280" time="1984-06-15 15:26:20" attr="0x20">BIG.PRG</file>

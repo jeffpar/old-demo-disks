@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Macro Assembler</title>
 	<version>1.12</version>
@@ -7,7 +7,7 @@
 	<category>Assembler</category>
 	<language>x86</language>
 	<company>Microsoft</company>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/MASM112/" href="/pcjs-disks/pcx86/tools/microsoft/masm/1.12/MASM112.json" md5="125058f7514eed617ed86d8ef379cadf" md5json="9da7175b6d8cfe6a4488b0b6ce1f28aa">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/MASM112/" href="/disks-demo/pcx86/tools/microsoft/masm/1.12/MASM112.json" md5="125058f7514eed617ed86d8ef379cadf" md5json="9da7175b6d8cfe6a4488b0b6ce1f28aa">
 		<name>MS Macro Assembler 1.12</name>
 		<file size="13824" time="1982-06-02 00:00:02" attr="0x0" md5="061e25b3efed385f274bb46e9c12d71e">CREF.EXE</file>
 		<file size="1649" time="1983-02-01 00:00:02" attr="0x0" md5="874ceb8f943a4b0acb607b6bed3831b9">EXE2BIN.EXE</file>

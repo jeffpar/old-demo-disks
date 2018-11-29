@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Macro Assembler</title>
 	<version>4.00</version>
@@ -8,7 +8,7 @@
 	<language>x86</language>
 	<company>Microsoft</company>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM-016014-400.img" href="/pcjs-disks/pcx86/tools/microsoft/masm/4.00/MASM-016014-400.json" md5="19fddc03d66a3a4dcdbb081cfb755df0" md5json="fd414c724dff728ef64748bc767d227d">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MASM-016014-400.img" href="/disks-demo/pcx86/tools/microsoft/masm/4.00/MASM-016014-400.json" md5="19fddc03d66a3a4dcdbb081cfb755df0" md5json="fd414c724dff728ef64748bc767d227d">
 		<name>MS Macro Assembler 4.00</name>
 		<file size="5965" time="1985-10-16 03:00:00" attr="0x20" md5="d64ef892e36adca8110bfd11d8cde7df">COUNT.ASM</file>
 		<file size="15028" time="1985-10-16 03:00:00" attr="0x20" md5="623326ef32092eae00ae66157924583f">CREF.EXE</file>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Borland Turbo Pascal</title>
 	<version>2.00</version>
-	<disk id="disk01" size="184320" chs="40:1:9" img="archive/TURBO-PASCAL-200.img" href="/pcjs-disks/pcx86/tools/borland/pascal/2.00/TURBO-PASCAL-200.json" md5="63f979aebb246a502c7a1a63858b5188" md5json="4b708810332a2df959a4edc411c5e2b3">
+	<disk id="disk01" size="184320" chs="40:1:9" img="archive/TURBO-PASCAL-200.img" href="/disks-demo/pcx86/tools/borland/pascal/2.00/TURBO-PASCAL-200.json" md5="63f979aebb246a502c7a1a63858b5188" md5json="4b708810332a2df959a4edc411c5e2b3">
 		<name>Borland Turbo Pascal 2.00</name>
 		<file size="2904" time="1989-03-24 00:47:14" attr="0x20">ART.PAS</file>
 		<file size="4803" time="1980-01-01 00:27:48" attr="0x20">CALC.HLP</file>

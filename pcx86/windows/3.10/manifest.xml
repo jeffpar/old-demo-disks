@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows 3.10</title>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN310-DISK1.img" href="/pcjs-disks/pcx86/windows/3.10/WIN310-DISK1.json" md5="6529a2396f50b0263fb3ef439b55d23f" md5json="37157ff3aaa47079b77f3ddfd9517d55">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN310-DISK1.img" href="/disks-demo/pcx86/windows/3.10/WIN310-DISK1.json" md5="6529a2396f50b0263fb3ef439b55d23f" md5json="37157ff3aaa47079b77f3ddfd9517d55">
 		<name>Windows 3.10 (Disk 1)</name>
 		<file size="50425" time="1992-03-10 02:10:00" attr="0x20">8514.DR_</file>
 		<file size="16663" time="1992-03-10 02:10:00" attr="0x20">APP850.FO_</file>
@@ -30,7 +30,7 @@
 		<file size="415" time="1992-03-10 02:10:00" attr="0x20">XLAT863.BI_</file>
 		<file size="14144" time="1992-03-10 02:10:00" attr="0x20">XMSMMGR.EXE</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN310-DISK2.img" href="/pcjs-disks/pcx86/windows/3.10/WIN310-DISK2.json" md5="1317f37abc38a797a3294865cfd36f90" md5json="bd932d32ac07ca19d83e531810845d79">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN310-DISK2.img" href="/disks-demo/pcx86/windows/3.10/WIN310-DISK2.json" md5="1317f37abc38a797a3294865cfd36f90" md5json="bd932d32ac07ca19d83e531810845d79">
 		<name>Windows 3.10 (Disk 2)</name>
 		<file size="20237" time="1992-03-10 02:10:00" attr="0x20">386MAX.VX_</file>
 		<file size="3646" time="1992-03-10 02:10:00" attr="0x20">8514FIX.FO_</file>
@@ -152,7 +152,7 @@
 		<file size="412" time="1992-03-10 02:10:00" attr="0x20">XLAT860.BI_</file>
 		<file size="415" time="1992-03-10 02:10:00" attr="0x20">XLAT861.BI_</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN310-DISK3.img" href="/pcjs-disks/pcx86/windows/3.10/WIN310-DISK3.json" md5="be6af13dad169f864539221fe9545d07" md5json="f3e1e1dcfa658aa208c7cbfe4bd32e1a">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN310-DISK3.img" href="/disks-demo/pcx86/windows/3.10/WIN310-DISK3.json" md5="be6af13dad169f864539221fe9545d07" md5json="f3e1e1dcfa658aa208c7cbfe4bd32e1a">
 		<name>Windows 3.10 (Disk 3)</name>
 		<file size="11491" time="1992-03-10 02:10:00" attr="0x20">APPS.HL_</file>
 		<file size="245" time="1992-03-10 02:10:00" attr="0x20">ARGYLE.BM_</file>
@@ -223,7 +223,7 @@
 		<file size="410" time="1992-03-10 02:10:00" attr="0x20">XLAT865.BI_</file>
 		<file size="210" time="1992-03-10 02:10:00" attr="0x20">ZIGZAG.BM_</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/WIN310-DISK4.img" href="/pcjs-disks/pcx86/windows/3.10/WIN310-DISK4.json" md5="813cb5158ace28bc85e9a13ba3aa493a" md5json="26d4eb7bec72692ae568aaa8fb61b782">
+	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/WIN310-DISK4.img" href="/disks-demo/pcx86/windows/3.10/WIN310-DISK4.json" md5="813cb5158ace28bc85e9a13ba3aa493a" md5json="26d4eb7bec72692ae568aaa8fb61b782">
 		<name>Windows 3.10 (Disk 4)</name>
 		<file size="4312" time="1992-03-10 02:10:00" attr="0x20">256COLOR.BM_</file>
 		<file size="3137" time="1992-03-10 02:10:00" attr="0x20">ARCHES.BM_</file>
@@ -277,7 +277,7 @@
 		<file size="51813" time="1992-03-10 02:10:00" attr="0x20">WINTUTOR.DA_</file>
 		<file size="29556" time="1992-03-10 02:10:00" attr="0x20">WRITE.HL_</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/WIN310-DISK5.img" href="/pcjs-disks/pcx86/windows/3.10/WIN310-DISK5.json" md5="cefb4df5ca2169b79253a58b837b47ed" md5json="01d03bd8dc871ac3d042d8f6ad7b2bed">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/WIN310-DISK5.img" href="/disks-demo/pcx86/windows/3.10/WIN310-DISK5.json" md5="cefb4df5ca2169b79253a58b837b47ed" md5json="01d03bd8dc871ac3d042d8f6ad7b2bed">
 		<name>Windows 3.10 (Disk 5)</name>
 		<file size="27999" time="1992-03-10 02:10:00" attr="0x20">CALC.EX_</file>
 		<file size="12989" time="1992-03-10 02:10:00" attr="0x20">CALC.HL_</file>
@@ -318,7 +318,7 @@
 		<file size="1820" time="1992-03-10 02:10:00" attr="0x20">WINVER._</file>
 		<file size="11757" time="1992-03-10 02:10:00" attr="0x20">WSWAP.EX_</file>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/WIN310-DISK6.img" href="/pcjs-disks/pcx86/windows/3.10/WIN310-DISK6.json" md5="5db98e6c2505e200087eac599254686d" md5json="720a8ab4f3829ce80669d7d6219ed355">
+	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/WIN310-DISK6.img" href="/disks-demo/pcx86/windows/3.10/WIN310-DISK6.json" md5="5db98e6c2505e200087eac599254686d" md5json="720a8ab4f3829ce80669d7d6219ed355">
 		<name>Windows 3.10 (Disk 6)</name>
 		<file size="1105" time="1992-03-10 02:10:00" attr="0x20">40291730.WP_</file>
 		<file size="16889" time="1992-03-10 02:10:00" attr="0x20">APPS.IN_</file>
@@ -395,7 +395,7 @@
 		<file size="430" time="1992-03-10 02:10:00" attr="0x20">WINGDING.FO_</file>
 		<file size="52533" time="1992-03-10 02:10:00" attr="0x20">WINGDING.TT_</file>
 	</disk>
-	<disk id="disk07" size="1228800" chs="80:2:15" img="archive/WIN310-DISK7.img" href="/pcjs-disks/pcx86/windows/3.10/WIN310-DISK7.json" md5="8a4cc2fe0df8542098a48a9e036f064f" md5json="c03bc100ab11d0b33d2bfce013d53a5d">
+	<disk id="disk07" size="1228800" chs="80:2:15" img="archive/WIN310-DISK7.img" href="/disks-demo/pcx86/windows/3.10/WIN310-DISK7.json" md5="8a4cc2fe0df8542098a48a9e036f064f" md5json="c03bc100ab11d0b33d2bfce013d53a5d">
 		<name>Windows 3.10 (Disk 7)</name>
 		<file size="1741" time="1992-03-10 02:10:00" attr="0x20">40293930.WP_</file>
 		<file size="2652" time="1992-03-10 02:10:00" attr="0x20">CANON10E.DR_</file>

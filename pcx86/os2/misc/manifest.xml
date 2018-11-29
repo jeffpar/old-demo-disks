@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>OS/2 Prototype Disks</title>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="cpdos/archive/286DOS-76800.img" href="/pcjs-disks/pcx86/os2/misc/cpdos/286DOS-76800.json" md5="d206be5501ae2e5cfead6a93d4b7b953" md5json="6d12b3080301eb13b3d1142c41880aa2">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="cpdos/archive/286DOS-76800.img" href="/disks-demo/pcx86/os2/misc/cpdos/286DOS-76800.json" md5="d206be5501ae2e5cfead6a93d4b7b953" md5json="6d12b3080301eb13b3d1142c41880aa2">
 		<name>OS/2 CP-DOS (v7.68)</name>
 		<file size="374" time="1986-12-10 08:32:42" attr="0x10">AIM</file>
 		<file size="9945" time="1986-12-03 05:46:30" attr="0x20" dir="AIM/">AIM.768</file>
@@ -160,7 +160,7 @@
 		<file size="4662" time="1986-10-22 19:33:08" attr="0x20">VDISK.SYS</file>
 		<file size="9321" time="1986-10-22 19:30:36" attr="0x20">VIOCALLS.EXE</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="football/archive/FOOTBALL-76817.img" href="/pcjs-disks/pcx86/os2/misc/football/FOOTBALL-76817.json" md5="c6a49d5da81298828bcfe079b19dce9b" md5json="23f1c66a7e5da41d8d99e5c5694a2502">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="football/archive/FOOTBALL-76817.img" href="/disks-demo/pcx86/os2/misc/football/FOOTBALL-76817.json" md5="c6a49d5da81298828bcfe079b19dce9b" md5json="23f1c66a7e5da41d8d99e5c5694a2502">
 		<name>OS/2 FOOTBALL (v7.68.17)</name>
 		<file size="3165" time="1987-02-27 10:34:10" attr="0x20">ANSICALL.EXE</file>
 		<file size="3611" time="1987-02-27 10:51:50" attr="0x20">BKSCALLS.EXE</file>
@@ -198,7 +198,7 @@
 		<file size="9833" time="1987-02-27 11:47:04" attr="0x20">VIOCALLS.EXE</file>
 		<file size="3205" time="1986-10-27 14:57:48" attr="0x20">VT52.SYS</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="football/archive/FOOTBALL-44100.img" href="/pcjs-disks/pcx86/os2/misc/football/FOOTBALL-44100.json" md5="6933804f4a30c0a7159f509ffea6516a" md5json="ff25e7e22142e3326cc340b696f77d95">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="football/archive/FOOTBALL-44100.img" href="/disks-demo/pcx86/os2/misc/football/FOOTBALL-44100.json" md5="6933804f4a30c0a7159f509ffea6516a" md5json="ff25e7e22142e3326cc340b696f77d95">
 		<name>OS/2 FOOTBALL (v4.41.00)</name>
 		<file size="3627" time="1987-12-23 13:34:54" attr="0x20">ANSICALL.DLL</file>
 		<file size="7204" time="1987-12-23 13:38:22" attr="0x20">BKSCALLS.DLL</file>
@@ -234,7 +234,7 @@
 		<file size="4148" time="1987-12-23 12:20:36" attr="0x20">SWAPPER.EXE</file>
 		<file size="13933" time="1987-12-23 14:19:34" attr="0x20">VIOCALLS.DLL</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" img="1.0/archive/OS210-88286.img" href="/pcjs-disks/pcx86/os2/misc/1.0/OS210-88286.json" md5="fd5beb17cf7c93c74c5a1b2911fab71f" md5json="1e8bde716f77c5a3cf75c0eea4458b6b">
+	<disk id="disk04" size="1228800" chs="80:2:15" img="1.0/archive/OS210-88286.img" href="/disks-demo/pcx86/os2/misc/1.0/OS210-88286.json" md5="fd5beb17cf7c93c74c5a1b2911fab71f" md5json="1e8bde716f77c5a3cf75c0eea4458b6b">
 		<name>OS/2 1.0 Debugger</name>
 		<file size="3637" time="1988-10-12 10:07:50" attr="0x20">ANSICALL.DLL</file>
 		<file size="5704" time="1988-10-12 10:09:48" attr="0x20">BKSCALLS.DLL</file>
@@ -273,7 +273,7 @@
 		<file size="4662" time="1988-10-12 12:12:28" attr="0x20">VDISK.SYS</file>
 		<file size="13981" time="1988-10-12 11:18:10" attr="0x20">VIOCALLS.DLL</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="cpdos/archive/SIZZLE-76818-19870107.img" href="/pcjs-disks/pcx86/os2/misc/cpdos/SIZZLE-76818-19870107.json" md5="ced5ecb7f44b52a2f276c050efa94160" md5json="a39f37557199eb7feb8fd1b648d5ba05">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="cpdos/archive/SIZZLE-76818-19870107.img" href="/disks-demo/pcx86/os2/misc/cpdos/SIZZLE-76818-19870107.json" md5="ced5ecb7f44b52a2f276c050efa94160" md5json="a39f37557199eb7feb8fd1b648d5ba05">
 		<name>OS/2 SIZZLE (v7.68.18)</name>
 		<file size="3165" time="1987-01-07 11:19:50" attr="0x20">ANSICALL.EXE</file>
 		<file size="3611" time="1987-01-07 11:21:46" attr="0x20">BKSCALLS.EXE</file>
@@ -317,7 +317,7 @@
 		<file size="4662" time="1986-10-22 19:33:08" attr="0x20">VDISK.SYS</file>
 		<file size="9833" time="1987-01-07 12:10:38" attr="0x20">VIOCALLS.EXE</file>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" img="cpdos/archive/SIZZLE-76818-19870107-DEBUG.img" href="/pcjs-disks/pcx86/os2/misc/cpdos/SIZZLE-76818-19870107-DEBUG.json" md5="9c9270b83aea4798f2618d38465f56b8" md5json="070210b0f31b9a72372b2f13105ebeb0">
+	<disk id="disk06" size="1228800" chs="80:2:15" img="cpdos/archive/SIZZLE-76818-19870107-DEBUG.img" href="/disks-demo/pcx86/os2/misc/cpdos/SIZZLE-76818-19870107-DEBUG.json" md5="9c9270b83aea4798f2618d38465f56b8" md5json="070210b0f31b9a72372b2f13105ebeb0">
 		<name>OS/2 SIZZLE (v7.68.18 DEBUG)</name>
 		<file size="3165" time="1987-01-07 11:19:50" attr="0x20">ANSICALL.EXE</file>
 		<file size="3611" time="1987-01-07 11:21:46" attr="0x20">BKSCALLS.EXE</file>

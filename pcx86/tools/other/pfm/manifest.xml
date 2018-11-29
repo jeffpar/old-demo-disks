@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>PFM (Paul&apos;s File Manager)</title>
 	<version>3.14</version>
 	<author>Paul R. Culley</author>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/COMPAQ-PFM/" href="/pcjs-disks/pcx86/tools/other/pfm/COMPAQ-PFM.json" md5="57e382a13cba53bda906699f2d0e9aa4" md5json="9e394842349fb3a1077e968971125314">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/COMPAQ-PFM/" href="/disks-demo/pcx86/tools/other/pfm/COMPAQ-PFM.json" md5="57e382a13cba53bda906699f2d0e9aa4" md5json="9e394842349fb3a1077e968971125314">
 		<file size="47616" time="1991-02-14 00:00:01" attr="0x20" md5="7d690ce697d4a0cb596e8e6749a415a4">PFM.COM</file>
 		<file size="174592" time="1997-01-02 13:59:00" attr="0x20" md5="d320cc019822676a747c92f45e262a6f">PFM.DOC</file>
 	</disk>

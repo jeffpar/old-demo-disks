@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows/386 2.10</title>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK1.img" href="/pcjs-disks/pcx86/windows/2.10/WIN210-386-DISK1.json" md5="1d8c9bc574a15e6d44334e5bae471802" md5json="391e6fff2366ebacb7f804f84dd0bc98">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK1.img" href="/disks-demo/pcx86/windows/2.10/WIN210-386-DISK1.json" md5="1d8c9bc574a15e6d44334e5bae471802" md5json="391e6fff2366ebacb7f804f84dd0bc98">
 		<name>Windows/386 2.10 (SETUP)</name>
 		<file size="2573" time="1988-09-07 00:00:02" attr="0x20">386LOGO.LGD</file>
 		<file size="6544" time="1988-09-07 00:00:02" attr="0x20">CGA40.FON</file>
@@ -53,7 +53,7 @@
 		<file size="2448" time="1988-09-07 00:00:02" attr="0x20">WIN.CNF</file>
 		<file size="3207" time="1988-09-07 00:00:02" attr="0x20">WIN.INI</file>
 	</disk>
-	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK2.img" href="/pcjs-disks/pcx86/windows/2.10/WIN210-386-DISK2.json" md5="a96aad7f1529d1ec7023f8622b52731f" md5json="f710f6258cac496b154d1776f26fc203">
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK2.img" href="/disks-demo/pcx86/windows/2.10/WIN210-386-DISK2.json" md5="a96aad7f1529d1ec7023f8622b52731f" md5json="f710f6258cac496b154d1776f26fc203">
 		<name>Windows/386 2.10 (UTILS 1)</name>
 		<file size="76096" time="1988-09-07 00:00:02" attr="0x20">DESKJET.DRV</file>
 		<file size="50272" time="1988-09-07 00:00:02" attr="0x20">EPSON24.DRV</file>
@@ -72,7 +72,7 @@
 		<file size="4801" time="1988-09-07 00:00:02" attr="0x20">READMEHP.TXT</file>
 		<file size="15594" time="1988-09-07 00:00:02" attr="0x20">READMEPL.TXT</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK3.img" href="/pcjs-disks/pcx86/windows/2.10/WIN210-386-DISK3.json" md5="3c0a8aadd94f203a14a46bcf17a733d0" md5json="3ba6cafadf49c0164d946083eb1ac8ce">
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK3.img" href="/disks-demo/pcx86/windows/2.10/WIN210-386-DISK3.json" md5="3c0a8aadd94f203a14a46bcf17a733d0" md5json="3ba6cafadf49c0164d946083eb1ac8ce">
 		<name>Windows/386 2.10 (UTILS 2)</name>
 		<file size="944" time="1988-09-07 00:00:02" attr="0x20">A4TRAY.TXT</file>
 		<file size="14208" time="1988-09-07 00:00:02" attr="0x20">CITOH.DRV</file>
@@ -104,7 +104,7 @@
 		<file size="6224" time="1988-09-07 00:00:02" attr="0x20">TTY.DRV</file>
 		<file size="138" time="1988-09-07 00:00:02" attr="0x20">WIN386.PS2</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK4.img" href="/pcjs-disks/pcx86/windows/2.10/WIN210-386-DISK4.json" md5="42f9ba0d57c34a9d7ab84f1f01247705" md5json="85199af0db74e645348851678e9069c0">
+	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK4.img" href="/disks-demo/pcx86/windows/2.10/WIN210-386-DISK4.json" md5="42f9ba0d57c34a9d7ab84f1f01247705" md5json="85199af0db74e645348851678e9069c0">
 		<name>Windows/386 2.10 (DISPLAYS)</name>
 		<file size="28736" time="1988-09-07 00:00:02" attr="0x20">ATTDC.DRV</file>
 		<file size="122836" time="1988-09-07 00:00:02" attr="0x20">CGA.386</file>
@@ -126,7 +126,7 @@
 		<file size="8605" time="1988-09-07 00:00:02" attr="0x20">VGA.GRB</file>
 		<file size="32736" time="1988-09-07 00:00:02" attr="0x20">VGA450.DRV</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK5.img" href="/pcjs-disks/pcx86/windows/2.10/WIN210-386-DISK5.json" md5="44941349156862df588bbf2833e7037a" md5json="f06c206dd882d8d254ad94a8f70c7e77">
+	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK5.img" href="/disks-demo/pcx86/windows/2.10/WIN210-386-DISK5.json" md5="44941349156862df588bbf2833e7037a" md5json="f06c206dd882d8d254ad94a8f70c7e77">
 		<name>Windows/386 2.10 (FONTS)</name>
 		<file size="14144" time="1988-07-01 00:00:02" attr="0x20">COURA.FON</file>
 		<file size="19088" time="1988-07-01 00:00:02" attr="0x20">COURB.FON</file>
@@ -151,7 +151,7 @@
 		<file size="14480" time="1988-07-01 00:00:02" attr="0x20">TOSH.DRV</file>
 		<file size="22032" time="1988-07-01 00:00:02" attr="0x20">XER4020.DRV</file>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK6.img" href="/pcjs-disks/pcx86/windows/2.10/WIN210-386-DISK6.json" md5="82406c5091947a70df160555703b6cfa" md5json="922f0935978f20bff8b0c078803d5957">
+	<disk id="disk06" size="1228800" chs="80:2:15" img="archive/WIN210-386-DISK6.img" href="/disks-demo/pcx86/windows/2.10/WIN210-386-DISK6.json" md5="82406c5091947a70df160555703b6cfa" md5json="922f0935978f20bff8b0c078803d5957">
 		<name>Windows/386 2.10 (APPS)</name>
 		<file size="42" time="1988-07-01 00:00:02" attr="0x20">ABC.TXT</file>
 		<file size="3428" time="1988-07-01 00:00:02" attr="0x20">AT&amp;TREAD.TXT</file>

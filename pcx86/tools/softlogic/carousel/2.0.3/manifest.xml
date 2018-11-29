@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Software Carousel</title>
 	<version>2.0.3</version>
@@ -8,7 +8,7 @@
 	<author>SoftLogic Solutions</author>
 	<releaseDate>1986</releaseDate>
 	<serialNumber>00123030</serialNumber>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SOFTWARE-CAROUSEL.img" href="/pcjs-disks/pcx86/tools/softlogic/carousel/2.0.3/SOFTWARE-CAROUSEL.json" md5="2aed06ff45fda03d4a43c7336a1db0ed" md5json="1a9d9213207ca9ac5db41d3f6a8dd0eb">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SOFTWARE-CAROUSEL.img" href="/disks-demo/pcx86/tools/softlogic/carousel/2.0.3/SOFTWARE-CAROUSEL.json" md5="2aed06ff45fda03d4a43c7336a1db0ed" md5json="1a9d9213207ca9ac5db41d3f6a8dd0eb">
 		<file size="2016" time="1986-01-15 12:00:00" attr="0x20">CAROUSEL.COM</file>
 		<file size="18432" time="1986-03-17 17:07:58" attr="0x20">CAROUSEL.EXE</file>
 		<file size="4096" time="1986-03-17 17:07:28" attr="0x20">CAROUSEL.PGL</file>

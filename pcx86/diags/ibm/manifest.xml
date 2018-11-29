@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM PC Diagnostics</title>
 	<type>Diagnostics</type>
 	<category>Hardware Tests</category>
 	<author>IBM</author>
-	<disk id="disk01" size="163840" chs="40:1:8" img="5150/1.02a/archive/5150-DIAG-102A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.02a/5150-DIAG-102A.json" md5="a1714fc5af10e82d7a0c4424d3122893" md5json="f498cb7d77964e89a1c5b2187edb9fda">
+	<disk id="disk01" size="163840" chs="40:1:8" img="5150/1.02a/archive/5150-DIAG-102A.img" href="/disks-demo/pcx86/diags/ibm/5150/1.02a/5150-DIAG-102A.json" md5="a1714fc5af10e82d7a0c4424d3122893" md5json="f498cb7d77964e89a1c5b2187edb9fda">
 		<name>IBM PC Diagnostics 1.02 (Adv)</name>
 		<from href="http://www.ibm-pc.org/diagnostic/ibm/5150/6081557.zip"/>
 		<file size="2367" time="1982-02-09 17:37:32" attr="0x20">CMD99.COM</file>
@@ -16,7 +16,7 @@
 		<file size="1920" time="1981-07-23 00:00:00" attr="0x20">IBMBIO.COM</file>
 		<file size="6400" time="1981-08-13 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
-	<disk id="disk02" size="184320" chs="40:1:9" img="5150/2.05/archive/5150-DIAG-205.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05/5150-DIAG-205.json" md5="7d36a5db14175a90fec7d0e772d48853" md5json="729507e562dea1e06713ff8436cbe7af">
+	<disk id="disk02" size="184320" chs="40:1:9" img="5150/2.05/archive/5150-DIAG-205.img" href="/disks-demo/pcx86/diags/ibm/5150/2.05/5150-DIAG-205.json" md5="7d36a5db14175a90fec7d0e772d48853" md5json="729507e562dea1e06713ff8436cbe7af">
 		<name>IBM PC Diagnostics 2.05</name>
 		<file size="3582" time="1983-10-21 09:00:04" attr="0x20">COMMAND.COM</file>
 		<file size="2302" time="1983-10-21 09:04:02" attr="0x20">DCOPY.COM</file>
@@ -45,7 +45,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 		<file size="78" time="1983-11-04 10:25:16" attr="0x20">VERSION.205</file>
 	</disk>
-	<disk id="disk03" size="184320" chs="40:1:9" img="5150/2.05a/archive/5150-DIAG-205A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.05a/5150-DIAG-205A.json" md5="4cac3eede4c5713b5e50d1ee0680dd26" md5json="1b1a42e3419e6370e58a07c743e98f7f">
+	<disk id="disk03" size="184320" chs="40:1:9" img="5150/2.05a/archive/5150-DIAG-205A.img" href="/disks-demo/pcx86/diags/ibm/5150/2.05a/5150-DIAG-205A.json" md5="4cac3eede4c5713b5e50d1ee0680dd26" md5json="1b1a42e3419e6370e58a07c743e98f7f">
 		<name>IBM PC Diagnostics 2.05 (Adv)</name>
 		<file size="3598" time="1983-10-21 09:01:38" attr="0x20">COMMAND.COM</file>
 		<file size="2302" time="1983-10-21 09:04:02" attr="0x20">DCOPY.COM</file>
@@ -74,7 +74,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
 		<file size="78" time="1983-06-03 08:05:46" attr="0x20">VERSION.205</file>
 	</disk>
-	<disk id="disk04" size="184320" chs="40:1:9" img="5150/2.20a/archive/5150-5155-5160-DIAG-220A.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.20a/5150-5155-5160-DIAG-220A.json" md5="c8b5542a0e8699e695338e4351cc6e82" md5json="ed0352739e222a44488cd97f1c1e0eb5">
+	<disk id="disk04" size="184320" chs="40:1:9" img="5150/2.20a/archive/5150-5155-5160-DIAG-220A.img" href="/disks-demo/pcx86/diags/ibm/5150/2.20a/5150-5155-5160-DIAG-220A.json" md5="c8b5542a0e8699e695338e4351cc6e82" md5json="ed0352739e222a44488cd97f1c1e0eb5">
 		<name>IBM PC Diagnostics 2.20 (Adv)</name>
 		<from href="http://minuszerodegrees.net/software/5150_5155_5160_advanced_diagnostics_2.20/6139804.IMG"/>
 		<file size="4012" time="1985-11-12 09:44:32" attr="0x20">COMMAND.COM</file>
@@ -110,7 +110,7 @@
 		<file size="35" time="1985-11-12 10:02:20" attr="0x20">VERSION.220</file>
 		<file size="8831" time="1985-12-04 08:12:52" attr="0x20">VOICE17.DGS</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="5170/1.01a/archive/5170-DIAG-101A.img" href="/pcjs-disks/pcx86/diags/ibm/5170/1.01a/5170-DIAG-101A.json" md5="bc9cd367c9ee4d8d4deef2f01acc295a" md5json="5fd4bcf041df7ec0a89bd02248cc3cd0">
+	<disk id="disk05" size="368640" chs="40:2:9" img="5170/1.01a/archive/5170-DIAG-101A.img" href="/disks-demo/pcx86/diags/ibm/5170/1.01a/5170-DIAG-101A.json" md5="bc9cd367c9ee4d8d4deef2f01acc295a" md5json="5fd4bcf041df7ec0a89bd02248cc3cd0">
 		<name>IBM PC AT Diagnostics 1.01 (Adv)</name>
 		<file size="2358" time="1983-04-14 08:20:06" attr="0x20">ASYNC03.DGS</file>
 		<file size="5116" time="1983-08-10 13:26:00" attr="0x20">BSC03.DGS</file>
@@ -139,7 +139,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
 		<file size="44" time="1983-02-03 09:10:12" attr="0x20">VERSION.101</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="5170/2.07a/archive/5170-DIAG-207A.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.07a/5170-DIAG-207A.json" md5="6adc89ce3f46c4c52f2439b784679a39" md5json="7465226d02d690521454f313df197c8e">
+	<disk id="disk06" size="368640" chs="40:2:9" img="5170/2.07a/archive/5170-DIAG-207A.img" href="/disks-demo/pcx86/diags/ibm/5170/2.07a/5170-DIAG-207A.json" md5="6adc89ce3f46c4c52f2439b784679a39" md5json="7465226d02d690521454f313df197c8e">
 		<name>IBM PC AT Diagnostics 2.07 (Adv)</name>
 		<from href="http://www.ibm-pc.org/diagnostic/ibm/5170/5170_advanced_diagnostics_2.07.zip"/>
 		<file size="2558" time="1987-01-20 09:57:08" attr="0x20">ASYNC.DGS</file>
@@ -178,7 +178,7 @@
 		<file size="35" time="1987-01-20 10:20:36" attr="0x20">VERSION.207</file>
 		<file size="8831" time="1987-01-20 10:45:26" attr="0x20">VOICE17.DGS</file>
 	</disk>
-	<disk id="disk07" size="163840" chs="40:1:8" img="5150/1.00/archive/5150-DIAG-100.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.00/5150-DIAG-100.json" md5="9f2e754f6b1ad378662ec1522e78191c" md5json="9b140c81af28c0571bb35158c851cd87">
+	<disk id="disk07" size="163840" chs="40:1:8" img="5150/1.00/archive/5150-DIAG-100.img" href="/disks-demo/pcx86/diags/ibm/5150/1.00/5150-DIAG-100.json" md5="9f2e754f6b1ad378662ec1522e78191c" md5json="9b140c81af28c0571bb35158c851cd87">
 		<name>IBM PC Diagnostics 1.00</name>
 		<file size="2399" time="1981-08-05 00:00:00" attr="0x20">CMD99.COM</file>
 		<file size="895" time="1981-07-22 00:00:00" attr="0x20">COMMAND.COM</file>
@@ -188,7 +188,7 @@
 		<file size="1920" time="1980-01-01 00:00:02" attr="0x20">IBMBIO.COM</file>
 		<file size="6211" time="1981-07-09 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
-	<disk id="disk08" size="163840" chs="40:1:8" img="5150/1.02/archive/5150-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5150/1.02/5150-DIAG-102.json" md5="19cbda277464d1f9afca2ded508b29d2" md5json="dd0da0f80d3eda238e89bf3a2f53b41c">
+	<disk id="disk08" size="163840" chs="40:1:8" img="5150/1.02/archive/5150-DIAG-102.img" href="/disks-demo/pcx86/diags/ibm/5150/1.02/5150-DIAG-102.json" md5="19cbda277464d1f9afca2ded508b29d2" md5json="dd0da0f80d3eda238e89bf3a2f53b41c">
 		<name>IBM PC Diagnostics 1.02</name>
 		<file size="2367" time="1982-02-09 17:37:32" attr="0x20">CMD99.COM</file>
 		<file size="943" time="1982-02-09 17:36:14" attr="0x20">COMMAND.COM</file>
@@ -198,7 +198,7 @@
 		<file size="1920" time="1981-07-23 00:00:00" attr="0x20">IBMBIO.COM</file>
 		<file size="6400" time="1981-08-13 00:00:00" attr="0x20">IBMDOS.COM</file>
 	</disk>
-	<disk id="disk09" size="163840" chs="40:1:8" img="5150/2.02/archive/5150-DIAG-202.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.02/5150-DIAG-202.json" md5="d6d14b05e17b2462981a58516b1abbaf" md5json="e044f543a97bd9787f3ce3aefa40509d">
+	<disk id="disk09" size="163840" chs="40:1:8" img="5150/2.02/archive/5150-DIAG-202.img" href="/disks-demo/pcx86/diags/ibm/5150/2.02/5150-DIAG-202.json" md5="d6d14b05e17b2462981a58516b1abbaf" md5json="e044f543a97bd9787f3ce3aefa40509d">
 		<name>IBM PC Diagnostics 2.02</name>
 		<file size="3566" time="1983-02-28 10:00:16" attr="0x20">COMMAND.COM</file>
 		<file size="1280" time="1983-01-11 12:10:38" attr="0x20">DCOPY.COM</file>
@@ -223,7 +223,7 @@
 		<file size="1518" time="1983-01-28 18:16:32" attr="0x20">US1SRL.DGS</file>
 		<file size="78" time="1983-04-07 09:18:54" attr="0x20">VERSION.202</file>
 	</disk>
-	<disk id="disk10" size="184320" chs="40:1:9" img="5150/2.07/archive/5150-DIAG-207.img" href="/pcjs-disks/pcx86/diags/ibm/5150/2.07/5150-DIAG-207.json" md5="1d89ca43c69c1ff9eaa41a1ba1080309" md5json="318b4a2e5b80884b8c6c2e14b087b756">
+	<disk id="disk10" size="184320" chs="40:1:9" img="5150/2.07/archive/5150-DIAG-207.img" href="/disks-demo/pcx86/diags/ibm/5150/2.07/5150-DIAG-207.json" md5="1d89ca43c69c1ff9eaa41a1ba1080309" md5json="318b4a2e5b80884b8c6c2e14b087b756">
 		<name>IBM PC Diagnostics 2.07</name>
 		<file size="3612" time="1984-06-12 12:00:00" attr="0x20">COMMAND.COM</file>
 		<file size="2293" time="1984-06-12 12:00:00" attr="0x20">DCOPY.COM</file>
@@ -253,7 +253,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 		<file size="78" time="1984-06-12 12:00:00" attr="0x20">VERSION.207</file>
 	</disk>
-	<disk id="disk11" size="368640" chs="40:2:9" img="5170/1.02/archive/5170-DIAG-102.img" href="/pcjs-disks/pcx86/diags/ibm/5170/1.02/5170-DIAG-102.json" md5="9fbf7fdfcd14e8922e7acd8fe53514fe" md5json="d98e959e5a3d0121c35e26752de96cb0">
+	<disk id="disk11" size="368640" chs="40:2:9" img="5170/1.02/archive/5170-DIAG-102.img" href="/disks-demo/pcx86/diags/ibm/5170/1.02/5170-DIAG-102.json" md5="9fbf7fdfcd14e8922e7acd8fe53514fe" md5json="d98e959e5a3d0121c35e26752de96cb0">
 		<name>IBM PC AT Diagnostics 1.02</name>
 		<file size="2680" time="1984-03-27 12:55:12" attr="0x20">ASYNC.DGS</file>
 		<file size="5116" time="1983-08-10 13:26:00" attr="0x20">BSC03.DGS</file>
@@ -282,7 +282,7 @@
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DA1</file>
 		<file size="44" time="1983-02-03 09:10:12" attr="0x20">VERSION.102</file>
 	</disk>
-	<disk id="disk12" size="368640" chs="40:2:9" img="5170/2.00/archive/5170-DIAG-200.img" href="/pcjs-disks/pcx86/diags/ibm/5170/2.00/5170-DIAG-200.json" md5="72f5a003917c61ed1aea67fa44a39b73" md5json="11f8d5dec5275202ce2854666ac4884f">
+	<disk id="disk12" size="368640" chs="40:2:9" img="5170/2.00/archive/5170-DIAG-200.img" href="/disks-demo/pcx86/diags/ibm/5170/2.00/5170-DIAG-200.json" md5="72f5a003917c61ed1aea67fa44a39b73" md5json="11f8d5dec5275202ce2854666ac4884f">
 		<name>IBM PC AT Diagnostics 2.00</name>
 		<file size="2418" time="1985-06-12 07:31:14" attr="0x20">ASYNC.DGS</file>
 		<file size="5080" time="1985-04-05 11:25:36" attr="0x20">BSC03.DGS</file>

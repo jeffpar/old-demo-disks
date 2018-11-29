@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>IBM OS/2 1.3</title>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/OS213-DISK01.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK01.json" md5="dea24947591aa95356c63462885bab30" md5json="3f276be4a3c67154edb10f8f8e7dc175">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/OS213-DISK01.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK01.json" md5="dea24947591aa95356c63462885bab30" md5json="3f276be4a3c67154edb10f8f8e7dc175">
 		<name>IBM OS/2 1.3 (Install)</name>
 		<file size="4894" time="1990-11-02 12:00:00" attr="0x20">8514.RC@</file>
 		<file size="4892" time="1990-11-02 12:00:00" attr="0x20">8514M.RC@</file>
@@ -80,7 +80,7 @@
 		<file size="16087" time="1990-11-02 12:00:00" attr="0x20">VIOCALLS.DLL</file>
 		<file size="10478" time="1990-11-02 12:00:00" attr="0x20">VTBL850.DCP</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/OS213-DISK02.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK02.json" md5="77b366c2ce46171aee53c06c1511d1f5" md5json="6d5e92ac7ced835ad17492c8117b6fd6">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/OS213-DISK02.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK02.json" md5="77b366c2ce46171aee53c06c1511d1f5" md5json="6d5e92ac7ced835ad17492c8117b6fd6">
 		<name>IBM OS/2 1.3 (Disk 1)</name>
 		<file size="28223" time="1990-11-02 12:00:00" attr="0x20">ATTRIB.EX@</file>
 		<file size="26533" time="1990-11-02 12:00:00" attr="0x20">BACKUP.EXE</file>
@@ -110,7 +110,7 @@
 		<file size="156672" time="1990-11-02 12:00:00" attr="0x20">UHPFS.DLL</file>
 		<file size="61168" time="1990-11-02 12:00:00" attr="0x20">UNPACK.EXE</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/OS213-DISK03.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK03.json" md5="59c103db8f1423e1c4caf1abdcc27c5c" md5json="a0759a86fa15b4d8d66b3811c4df56c1">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/OS213-DISK03.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK03.json" md5="59c103db8f1423e1c4caf1abdcc27c5c" md5json="a0759a86fa15b4d8d66b3811c4df56c1">
 		<name>IBM OS/2 1.3 (Disk 2)</name>
 		<file size="7245" time="1990-11-02 12:00:00" attr="0x20">ANSI.EX@</file>
 		<file size="481" time="1990-11-02 12:00:00" attr="0x20">BASIC.CO@</file>
@@ -171,7 +171,7 @@
 		<file size="2455" time="1990-11-02 12:00:00" attr="0x20">VISION02.SY@</file>
 		<file size="36739" time="1990-11-02 12:00:00" attr="0x20">XCOPY.EX@</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/OS213-DISK04.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK04.json" md5="8938aa01facc83a1c8f96c0b32662c75" md5json="774827804388ccca88e3d8f5f4752608">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/OS213-DISK04.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK04.json" md5="8938aa01facc83a1c8f96c0b32662c75" md5json="774827804388ccca88e3d8f5f4752608">
 		<name>IBM OS/2 1.3 (Disk 3)</name>
 		<file size="2124" time="1990-11-02 12:00:00" attr="0x20">ANSI.SY@</file>
 		<file size="4465" time="1990-11-02 12:00:00" attr="0x20">APPEND.EX@</file>
@@ -215,7 +215,7 @@
 		<file size="12882" time="1990-11-02 12:00:00" attr="0x20">VIEWH.HL@</file>
 		<file size="17783" time="1990-11-02 12:00:00" attr="0x20">VIOTBL.DC@</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/OS213-DISK05.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK05.json" md5="6f91beebcab42f46332761c6ce3ae5be" md5json="dde44abe9c8b2047c98886a76b6b0ee3">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/OS213-DISK05.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK05.json" md5="6f91beebcab42f46332761c6ce3ae5be" md5json="dde44abe9c8b2047c98886a76b6b0ee3">
 		<name>IBM OS/2 1.3 (Disk 4)</name>
 		<file size="44424" time="1990-11-02 12:00:00" attr="0x20">COURIER.FO@</file>
 		<file size="149907" time="1990-11-02 12:00:00" attr="0x20">COURIER.PS@</file>
@@ -252,7 +252,7 @@
 		<file size="118584" time="1990-11-02 12:00:00" attr="0x20">TIMES.FO@</file>
 		<file size="126519" time="1990-11-02 12:00:00" attr="0x20">TIMESNRM.PS@</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/OS213-DISK06.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK06.json" md5="8845a873158bdcd914a140e6de8ef048" md5json="d3664a52e3454cb0c45ca68dc090a71d">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/OS213-DISK06.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK06.json" md5="8845a873158bdcd914a140e6de8ef048" md5json="d3664a52e3454cb0c45ca68dc090a71d">
 		<name>IBM OS/2 1.3 (Disk 5)</name>
 		<file size="6193" time="1990-11-02 12:00:00" attr="0x20">BVH8514A.DL@</file>
 		<file size="14080" time="1990-11-02 12:00:00" attr="0x20">BVHCGA.DL@</file>
@@ -280,7 +280,7 @@
 		<file size="3585" time="1990-11-02 12:00:00" attr="0x20">PMWIN.PD@</file>
 		<file size="3394" time="1990-11-02 12:00:00" attr="0x20">XGARING0.SY@</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/OS213-DISK07.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK07.json" md5="fd57e4040b11089643147cc2e3f2e53f" md5json="e80dd7c137dc9b1c828ee283962accd9">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/OS213-DISK07.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK07.json" md5="fd57e4040b11089643147cc2e3f2e53f" md5json="e80dd7c137dc9b1c828ee283962accd9">
 		<name>IBM OS/2 1.3 (Disk 6)</name>
 		<file size="5151" time="1990-11-02 12:00:00" attr="0x20">4201.DC@</file>
 		<file size="330" time="1990-11-02 12:00:00" attr="0x20">5202.DC@</file>
@@ -319,7 +319,7 @@
 		<file size="12654" time="1990-11-02 12:00:00" attr="0x20">TRSEL.EX@</file>
 		<file size="24900" time="1990-11-02 12:00:00" attr="0x20">TUT.DL@</file>
 	</disk>
-	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/OS213-DISK08.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK08.json" md5="0b9b2c810c57957b3a872d969f41b04a" md5json="b3b93fb72aa3afcd2718b059eaa1363f">
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/OS213-DISK08.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK08.json" md5="0b9b2c810c57957b3a872d969f41b04a" md5json="b3b93fb72aa3afcd2718b059eaa1363f">
 		<name>IBM OS/2 1.3 (Driver 1)</name>
 		<file size="13284" time="1990-11-02 12:00:00" attr="0x20">4019.DAT</file>
 		<file size="10396" time="1990-11-02 12:00:00" attr="0x20">42XX.DAT</file>
@@ -380,7 +380,7 @@
 		<file size="18106" time="1990-11-02 12:00:00" attr="0x20">Z1ACART0.FNT</file>
 		<file size="18082" time="1990-11-02 12:00:00" attr="0x20">ZMICROS0.FNT</file>
 	</disk>
-	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/OS213-DISK09.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK09.json" md5="8fe4b1b1efd583112b96cb5909e9c96e" md5json="5ec7a6e92c8571e641c0e12a1994d467">
+	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/OS213-DISK09.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK09.json" md5="8fe4b1b1efd583112b96cb5909e9c96e" md5json="5ec7a6e92c8571e641c0e12a1994d467">
 		<name>IBM OS/2 1.3 (Driver 2)</name>
 		<file size="533" time="1990-11-02 12:00:00" attr="0x20">4208.DCP</file>
 		<file size="3072" time="1990-11-02 12:00:00" attr="0x20">EA DATA. SF</file>
@@ -398,7 +398,7 @@
 		<file size="11776" time="1990-11-02 12:00:00" attr="0x20">PMPLOT.QPR</file>
 		<file size="95664" time="1990-11-02 12:00:00" attr="0x20">PMPLOTPD.DRV</file>
 	</disk>
-	<disk id="disk10" size="1474560" chs="80:2:18" img="archive/OS213-DISK10.img" href="/pcjs-disks/pcx86/os2/ibm/1.3/OS213-DISK10.json" md5="8287dec413e386e7a7a5aa1d31bc6adf" md5json="a460afd5a19e186f72f26574a0cd7760">
+	<disk id="disk10" size="1474560" chs="80:2:18" img="archive/OS213-DISK10.img" href="/disks-demo/pcx86/os2/ibm/1.3/OS213-DISK10.json" md5="8287dec413e386e7a7a5aa1d31bc6adf" md5json="a460afd5a19e186f72f26574a0cd7760">
 		<name>IBM OS/2 1.3 (Fonts)</name>
 		<file size="23654" time="1990-11-02 12:00:00" attr="0x20">COU.AFM</file>
 		<file size="45692" time="1990-11-02 12:00:00" attr="0x20">COU.PFB</file>

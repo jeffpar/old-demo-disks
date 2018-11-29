@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>QEMM-386</title>
 	<version>4.23</version>
@@ -7,7 +7,7 @@
 	<category>Memory Manager</category>
 	<company>Quarterdeck Office Systems</company>
 	<releaseDate>1988-11-22</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/QEMM386-423.img" href="/pcjs-disks/pcx86/tools/other/qemm386/4.23/QEMM386-423.json" md5="e458e70441ca6027015403d5d4834a32" md5json="5616e796a509f5d6f8b1cbafe37c94c5">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/QEMM386-423.img" href="/disks-demo/pcx86/tools/other/qemm386/4.23/QEMM386-423.json" md5="e458e70441ca6027015403d5d4834a32" md5json="5616e796a509f5d6f8b1cbafe37c94c5">
 		<file size="842" time="1988-11-22 04:23:00" attr="0x20">BUFFERS.COM</file>
 		<file size="792" time="1988-11-22 04:23:00" attr="0x20">COPYDV.BAT</file>
 		<file size="7564" time="1988-11-22 04:23:00" attr="0x20">EMM.DVR</file>

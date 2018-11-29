@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>COMPAQ MS-DOS</title>
 	<version>2.12</version>
@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>Microsoft/COMPAQ</author>
 	<releaseDate>1984-12-04</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/COMPAQ-DOS212.img" href="/pcjs-disks/pcx86/dos/compaq/2.12/COMPAQ-DOS212.json" md5="004034c4e753e61df0a4733e2dd3974c" md5json="6032f7d3e859bb6d11a9ef05286235df">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/COMPAQ-DOS212.img" href="/disks-demo/pcx86/dos/compaq/2.12/COMPAQ-DOS212.json" md5="004034c4e753e61df0a4733e2dd3974c" md5json="6032f7d3e859bb6d11a9ef05286235df">
 		<file size="1593" time="1984-12-04 11:00:00" attr="0x20">ANSI.SYS</file>
 		<file size="946" time="1984-12-04 11:00:00" attr="0x20">ASSIGN.COM</file>
 		<file size="5129" time="1984-12-04 11:00:00" attr="0x20">BACKUP.COM</file>

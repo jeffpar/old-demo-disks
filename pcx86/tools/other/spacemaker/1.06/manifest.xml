@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Spacemaker</title>
 	<version>1.06</version>
@@ -7,7 +7,7 @@
 	<category>Compression</category>
 	<company>Realia Inc.</company>
 	<releaseDate>1988-06-08</releaseDate>
-	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/SM106" href="/pcjs-disks/pcx86/tools/other/spacemaker/1.06/SM106.json" md5="2f26f339b60e9a00406b41d8043d9e01" md5json="2d009264bffdb47488b1abf41da9339f">
+	<disk id="disk01" size="163840" chs="40:1:8" dir="archive/SM106" href="/disks-demo/pcx86/tools/other/spacemaker/1.06/SM106.json" md5="2f26f339b60e9a00406b41d8043d9e01" md5json="2d009264bffdb47488b1abf41da9339f">
 		<name>Realia Spacemaker 1.06</name>
 		<file size="4680" time="1988-06-08 18:55:00" attr="0x20" md5="ae08cfcdf2a9bc537d20a9fce2e10eb9">SM.COM</file>
 	</disk>

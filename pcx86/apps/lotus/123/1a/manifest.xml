@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>1-2-3</title>
 	<version>1A</version>
@@ -7,7 +7,7 @@
 	<category>Productivity</category>
 	<author>Lotus</author>
 	<releaseDate>1983-06-07</releaseDate>
-	<disk id="disk01" size="327680" chs="40:2:8" img="archive/123-DISK1-SYSTEM-PATCHED.img" href="/pcjs-disks/pcx86/apps/lotus/123/1a/123-DISK1-SYSTEM-PATCHED.json" md5="1617990f841df43fd60f83680e1d5add" md5json="f1e05791c6681a61e675bfc8ca264bee">
+	<disk id="disk01" size="327680" chs="40:2:8" img="archive/123-DISK1-SYSTEM-PATCHED.img" href="/disks-demo/pcx86/apps/lotus/123/1a/123-DISK1-SYSTEM-PATCHED.json" md5="1617990f841df43fd60f83680e1d5add" md5json="f1e05791c6681a61e675bfc8ca264bee">
 		<name>Lotus 1-2-3 1A (1-System)</name>
 		<link href="https://winworldpc.com/product/lotus-1-2-3/1x" name="Lotus 1-2-3 1.0a" file="System.img">WinWorld</link>
 		<file size="256" time="1983-06-07 01:23:00" attr="0x20">123.CNF</file>
@@ -25,7 +25,7 @@
 		<file size="329" time="1983-06-07 01:23:00" attr="0x20">PR.DRV</file>
 		<file size="5294" time="1983-06-07 01:23:00" attr="0x20">TD.DRV</file>
 	</disk>
-	<disk id="disk02" size="327680" chs="40:2:8" img="archive/123-DISK2-UTILITY.img" href="/pcjs-disks/pcx86/apps/lotus/123/1a/123-DISK2-UTILITY.json" md5="c3c31ed1a0d94f79f2bcd9d09763e4c6" md5json="5130d8818ea68573d73be603f5b7d08c">
+	<disk id="disk02" size="327680" chs="40:2:8" img="archive/123-DISK2-UTILITY.img" href="/disks-demo/pcx86/apps/lotus/123/1a/123-DISK2-UTILITY.json" md5="c3c31ed1a0d94f79f2bcd9d09763e4c6" md5json="5130d8818ea68573d73be603f5b7d08c">
 		<name>Lotus 1-2-3 1A (2-Utility)</name>
 		<link href="https://winworldpc.com/product/lotus-1-2-3/1x" name="Lotus 1-2-3 1.0a" file="Utils.img">WinWorld</link>
 		<file size="20" time="1983-06-07 01:23:00" attr="0x20">AUTOEXEC.BAT</file>
@@ -69,7 +69,7 @@
 		<file size="16128" time="1983-06-07 01:23:00" attr="0x20">WKSDBF.EXE</file>
 		<file size="14336" time="1983-06-07 01:23:00" attr="0x20">WKSDIF.EXE</file>
 	</disk>
-	<disk id="disk03" size="327680" chs="40:2:8" img="archive/123-DISK3-GRAPH.img" href="/pcjs-disks/pcx86/apps/lotus/123/1a/123-DISK3-GRAPH.json" md5="e1454706598de64c030bab9620a175c4" md5json="d75ead256a6c1fa7a743db9e91b9195b">
+	<disk id="disk03" size="327680" chs="40:2:8" img="archive/123-DISK3-GRAPH.img" href="/disks-demo/pcx86/apps/lotus/123/1a/123-DISK3-GRAPH.json" md5="e1454706598de64c030bab9620a175c4" md5json="d75ead256a6c1fa7a743db9e91b9195b">
 		<name>Lotus 1-2-3 1A (3-Graph)</name>
 		<link href="https://winworldpc.com/product/lotus-1-2-3/1x" name="Lotus 1-2-3 1.0a" file="PrintGraph.img">WinWorld</link>
 		<file size="20" time="1983-06-07 01:23:00" attr="0x20">AUTOEXEC.BAT</file>
@@ -98,7 +98,7 @@
 		<file size="7726" time="1983-06-07 01:23:00" attr="0x20">SCRIPT2.FON</file>
 		<file size="5294" time="1983-06-07 01:23:00" attr="0x20">TD.DRV</file>
 	</disk>
-	<disk id="disk04" size="327680" chs="40:2:8" img="archive/123-DISK4-TUTORIAL.img" href="/pcjs-disks/pcx86/apps/lotus/123/1a/123-DISK4-TUTORIAL.json" md5="2249e6180283c510c9bd3aede4af3907" md5json="d7dfa0922784361caabd3c838c94848b">
+	<disk id="disk04" size="327680" chs="40:2:8" img="archive/123-DISK4-TUTORIAL.img" href="/disks-demo/pcx86/apps/lotus/123/1a/123-DISK4-TUTORIAL.json" md5="2249e6180283c510c9bd3aede4af3907" md5json="d7dfa0922784361caabd3c838c94848b">
 		<name>Lotus 1-2-3 1A (4-Tutorial)</name>
 		<link href="https://winworldpc.com/product/lotus-1-2-3/1x" name="Lotus 1-2-3 1.0a" file="Tutorial.img">WinWorld</link>
 		<file size="4959" time="1982-05-07 12:00:00" attr="0x20">COMMAND.COM</file>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Borland Turbo Pascal</title>
 	<version>4.00</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK1.img" href="/pcjs-disks/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK1.json" md5="369c36c690a5d18f1ac1cc38f401b0ae" md5json="125db755fd2ba630511c9bac1fcac9c6">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK1.img" href="/disks-demo/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK1.json" md5="369c36c690a5d18f1ac1cc38f401b0ae" md5json="125db755fd2ba630511c9bac1fcac9c6">
 		<name>Borland Turbo Pascal 4.00 (Disk 1)</name>
 		<file size="12086" time="1987-12-16 04:00:00" attr="0x20">README</file>
 		<file size="4066" time="1987-12-16 04:00:00" attr="0x20">README.COM</file>
@@ -13,7 +13,7 @@
 		<file size="85344" time="1987-12-16 04:00:00" attr="0x20">TURBO.HLP</file>
 		<file size="36816" time="1987-12-16 04:00:00" attr="0x20">TURBO.TPL</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK2.img" href="/pcjs-disks/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK2.json" md5="4b055908325627c572b7b3ae0448bafb" md5json="fd4f5c4490ab2b511eb4a68052646671">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK2.img" href="/disks-demo/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK2.json" md5="4b055908325627c572b7b3ae0448bafb" md5json="fd4f5c4490ab2b511eb4a68052646671">
 		<name>Borland Turbo Pascal 4.00 (Disk 2)</name>
 		<file size="4868" time="1987-12-16 04:00:00" attr="0x20">BCD.PAS</file>
 		<file size="10578" time="1987-12-16 04:00:00" attr="0x20">BINOBJ.EXE</file>
@@ -45,7 +45,7 @@
 		<file size="25495" time="1987-12-16 04:00:00" attr="0x20">UPGRADE.DTA</file>
 		<file size="43040" time="1987-12-16 04:00:00" attr="0x20">UPGRADE.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK3.img" href="/pcjs-disks/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK3.json" md5="3c08bea48da5e906e005b820faf56ff9" md5json="36a299cf1e3772db47ac3e2fc99f7d2e">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-400-DISK3.img" href="/disks-demo/pcx86/tools/borland/pascal/4.00/TURBO-PASCAL-400-DISK3.json" md5="3c08bea48da5e906e005b820faf56ff9" md5json="36a299cf1e3772db47ac3e2fc99f7d2e">
 		<name>Borland Turbo Pascal 4.00 (Disk 3)</name>
 		<file size="9353" time="1987-12-16 04:00:00" attr="0x20">ARTY4.PAS</file>
 		<file size="6029" time="1987-12-16 04:00:00" attr="0x20">ATT.BGI</file>

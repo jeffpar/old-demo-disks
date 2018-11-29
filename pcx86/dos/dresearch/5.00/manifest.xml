@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>DR DOS</title>
 	<version>5.00</version>
@@ -7,16 +7,16 @@
 	<category>DOS</category>
 	<author>Digital Research Inc.</author>
 	<releaseDate></releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK1.img" href="/pcjs-disks/pcx86/dos/dresearch/5.00/DRDOS500-DISK1.json" md5="209c13b16619269739ea1c2af60b332e" md5json="7316d893f001f4bcb7158900618665bb">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK1.img" href="/disks-demo/pcx86/dos/dresearch/5.00/DRDOS500-DISK1.json" md5="209c13b16619269739ea1c2af60b332e" md5json="7316d893f001f4bcb7158900618665bb">
 		<name>DR DOS 5.00 (Disk 1)</name>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK2.img" href="/pcjs-disks/pcx86/dos/dresearch/5.00/DRDOS500-DISK2.json" md5="4d822db808c1939a4c203d1bbff0c257" md5json="5a4824952fac03db4d75c989175f6ef0">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK2.img" href="/disks-demo/pcx86/dos/dresearch/5.00/DRDOS500-DISK2.json" md5="4d822db808c1939a4c203d1bbff0c257" md5json="5a4824952fac03db4d75c989175f6ef0">
 		<name>DR DOS 5.00 (Disk 2)</name>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK3.img" href="/pcjs-disks/pcx86/dos/dresearch/5.00/DRDOS500-DISK3.json" md5="46ea124303ad9734af7e002d915678fb" md5json="7919276e9748de5c3aebbef23e7356c9">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK3.img" href="/disks-demo/pcx86/dos/dresearch/5.00/DRDOS500-DISK3.json" md5="46ea124303ad9734af7e002d915678fb" md5json="7919276e9748de5c3aebbef23e7356c9">
 		<name>DR DOS 5.00 (Disk 3)</name>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK4.img" href="/pcjs-disks/pcx86/dos/dresearch/5.00/DRDOS500-DISK4.json" md5="7bbcd6ded8c6ad66c7e3e689e84ffa0b" md5json="451a87c8d7e86893df7f2f3e0d6ad139">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/DRDOS500-DISK4.img" href="/disks-demo/pcx86/dos/dresearch/5.00/DRDOS500-DISK4.json" md5="7bbcd6ded8c6ad66c7e3e689e84ffa0b" md5json="451a87c8d7e86893df7f2f3e0d6ad139">
 		<name>DR DOS 5.00 (Disk 4)</name>
 	</disk>
 </manifest>

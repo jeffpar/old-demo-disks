@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS-DOS Manager</title>
 	<version>1.00</version>
 	<company>Microsoft</company>
 	<releaseDate>1987</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOSMGR100.img" href="/pcjs-disks/pcx86/tools/microsoft/dos/mgr/1.00/MSDOSMGR100.json" md5="c2679a91c738a49302d53a447e1db2b0" md5json="bb9acc21199aab151120b2e4dfa4cac5">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSDOSMGR100.img" href="/disks-demo/pcx86/tools/microsoft/dos/mgr/1.00/MSDOSMGR100.json" md5="c2679a91c738a49302d53a447e1db2b0" md5json="bb9acc21199aab151120b2e4dfa4cac5">
 		<file size="72846" time="1987-06-23 07:44:36" attr="0x20">MANAGER.EXE</file>
 		<file size="26247" time="1987-06-04 09:06:00" attr="0x20">MANAGER.HLP</file>
 		<file size="120" time="1988-08-10 18:19:32" attr="0x20">MANAGER.INI</file>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Pascal/MT+</title>
 	<version>3.11</version>
@@ -8,7 +8,7 @@
 	<language>Pascal</language>
 	<author>Digital Research</author>
 	<releaseDate>1983</releaseDate>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK1.img" href="/pcjs-disks/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK1.json" md5="f30d7313629c95a9a47e36a3a6bcf5bf" md5json="73a195849f8f9674e74c4b53a48828a7">
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK1.img" href="/disks-demo/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK1.json" md5="f30d7313629c95a9a47e36a3a6bcf5bf" md5json="73a195849f8f9674e74c4b53a48828a7">
 		<name>DR Pascal/MT+ 3.11 (Disk 1)</name>
 		<file size="12288" time="1980-01-01 00:15:38" attr="0x20">DEBUGGER.R86</file>
 		<file size="9472" time="1980-01-01 00:04:32" attr="0x20">FPREALS.R86</file>
@@ -21,7 +21,7 @@
 		<file size="27776" time="1980-01-01 00:06:14" attr="0x20">PASLIB.R86</file>
 		<file size="5120" time="1980-01-01 00:05:14" attr="0x20">TRANCEND.R86</file>
 	</disk>
-	<disk id="disk02" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK2.img" href="/pcjs-disks/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK2.json" md5="9177fead7f50c7fea91d96972e645c4f" md5json="f36256704d6c3df3b6104144adc1f9dc">
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK2.img" href="/disks-demo/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK2.json" md5="9177fead7f50c7fea91d96972e645c4f" md5json="f36256704d6c3df3b6104144adc1f9dc">
 		<name>DR Pascal/MT+ 3.11 (Disk 2)</name>
 		<file size="21504" time="1980-01-01 00:30:58" attr="0x20">MT86.000</file>
 		<file size="37888" time="1980-01-01 00:32:18" attr="0x20">MT86.001</file>
@@ -31,7 +31,7 @@
 		<file size="2432" time="1980-01-01 00:34:42" attr="0x20">MT86.005</file>
 		<file size="18944" time="1980-01-01 00:02:18" attr="0x20">READ.ME</file>
 	</disk>
-	<disk id="disk03" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK3.img" href="/pcjs-disks/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK3.json" md5="2ce8f2e4cb9a265fa54390323a7e16be" md5json="83859438fecbb0addaeea16208887578">
+	<disk id="disk03" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK3.img" href="/disks-demo/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK3.json" md5="2ce8f2e4cb9a265fa54390323a7e16be" md5json="83859438fecbb0addaeea16208887578">
 		<name>DR Pascal/MT+ 3.11 (Disk 3)</name>
 		<file size="7424" time="1980-01-01 00:02:56" attr="0x20">87REALS.R86</file>
 		<file size="1024" time="1980-01-01 00:04:22" attr="0x20">87TRANS.R86</file>
@@ -56,7 +56,7 @@
 		<file size="17408" time="1980-01-01 00:48:22" attr="0x20">STRIP.EXE</file>
 		<file size="16384" time="1980-01-01 00:52:22" attr="0x20">SZ.EXE</file>
 	</disk>
-	<disk id="disk04" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK4.img" href="/pcjs-disks/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK4.json" md5="0937ede1c585bdafd528e8f36d8ea4d3" md5json="41be26d08868da18d0e1f95e2225175a">
+	<disk id="disk04" size="163840" chs="40:1:8" img="archive/PASCALMT311-DISK4.img" href="/disks-demo/pcx86/tools/dresearch/pascal/3.11/PASCALMT311-DISK4.json" md5="0937ede1c585bdafd528e8f36d8ea4d3" md5json="41be26d08868da18d0e1f95e2225175a">
 		<name>DR Pascal/MT+ 3.11 (Disk 4)</name>
 		<file size="6016" time="1980-01-01 00:21:08" attr="0x20">ASMERS.TXT</file>
 		<file size="21120" time="1980-01-01 00:30:56" attr="0x20">ASMT86.001</file>

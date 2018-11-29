@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Andrew Tobias Managing Your Money with the IBM PCjr</title>
 	<version>1.00</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TOBIAS100-PCJR-DISK1.img" href="/pcjs-disks/pcx86/apps/ibm/tobias/1.00/TOBIAS100-PCJR-DISK1.json" md5="70e4f23454dcfecaab3e4b175258c0c5" md5json="b7b9e38d2f4c66a61658c24b1a88f8d0">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TOBIAS100-PCJR-DISK1.img" href="/disks-demo/pcx86/apps/ibm/tobias/1.00/TOBIAS100-PCJR-DISK1.json" md5="70e4f23454dcfecaab3e4b175258c0c5" md5json="b7b9e38d2f4c66a61658c24b1a88f8d0">
 		<name>Andrew Tobias Money 1.00 (Disk 1)</name>
 		<file size="17087" time="1984-09-10 00:00:00" attr="0x20">0.CHP</file>
 		<file size="36478" time="1984-09-10 00:00:00" attr="0x20">1.CHP</file>
@@ -23,7 +23,7 @@
 		<file size="6241" time="1984-09-10 00:00:00" attr="0x20">TAX.DB</file>
 		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.BR1</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TOBIAS100-PCJR-DISK2.img" href="/pcjs-disks/pcx86/apps/ibm/tobias/1.00/TOBIAS100-PCJR-DISK2.json" md5="ddccb128991f4bf4d636e2372c5b7480" md5json="7bb72a7f8649388aff37da53141e8eed">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TOBIAS100-PCJR-DISK2.img" href="/disks-demo/pcx86/apps/ibm/tobias/1.00/TOBIAS100-PCJR-DISK2.json" md5="ddccb128991f4bf4d636e2372c5b7480" md5json="7bb72a7f8649388aff37da53141e8eed">
 		<name>Andrew Tobias Money 1.00 (Disk 2)</name>
 		<file size="30757" time="1984-07-31 00:00:00" attr="0x20">5.CHP</file>
 		<file size="70698" time="1984-07-31 00:00:00" attr="0x20">6.CHP</file>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Borland Turbo Pascal</title>
 	<version>5.00</version>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-500-DISK1.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.00/TURBO-PASCAL-500-DISK1.json" md5="d865dc67d23374157a8f0c305221d24b" md5json="aac2911b89dd55c6a3f20c79fdcf060d">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-500-DISK1.img" href="/disks-demo/pcx86/tools/borland/pascal/5.00/TURBO-PASCAL-500-DISK1.json" md5="d865dc67d23374157a8f0c305221d24b" md5json="aac2911b89dd55c6a3f20c79fdcf060d">
 		<name>Borland Turbo Pascal 5.00 (Disk 1)</name>
 		<file size="48372" time="1988-08-29 05:00:00" attr="0x20">INSTALL.EXE</file>
 		<file size="20212" time="1988-08-29 05:00:00" attr="0x20">README</file>
@@ -13,7 +13,7 @@
 		<file size="149793" time="1988-08-29 05:00:00" attr="0x20">TURBO.EXE</file>
 		<file size="43024" time="1988-08-29 05:00:00" attr="0x20">TURBO.TPL</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-500-DISK2.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.00/TURBO-PASCAL-500-DISK2.json" md5="4f91124b4eea5f1c71b9285a3218be6e" md5json="0c53ce86d0c10d6f8e5a7b52d534ec43">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-500-DISK2.img" href="/disks-demo/pcx86/tools/borland/pascal/5.00/TURBO-PASCAL-500-DISK2.json" md5="4f91124b4eea5f1c71b9285a3218be6e" md5json="0c53ce86d0c10d6f8e5a7b52d534ec43">
 		<name>Borland Turbo Pascal 5.00 (Disk 2)</name>
 		<file size="11088" time="1988-08-29 05:00:00" attr="0x20">BINOBJ.EXE</file>
 		<file size="6979" time="1988-08-29 05:00:00" attr="0x20">GREP.COM</file>
@@ -25,7 +25,7 @@
 		<file size="32784" time="1988-08-29 05:00:00" attr="0x20">TPUMOVER.EXE</file>
 		<file size="164999" time="1988-08-29 05:00:00" attr="0x20">TURBO.HLP</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-500-DISK3.img" href="/pcjs-disks/pcx86/tools/borland/pascal/5.00/TURBO-PASCAL-500-DISK3.json" md5="bc2a944bdafa71b5bc7bcca6d62ae882" md5json="a9d24ba7f39f2df5c0439092a93bdb8e">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/TURBO-PASCAL-500-DISK3.img" href="/disks-demo/pcx86/tools/borland/pascal/5.00/TURBO-PASCAL-500-DISK3.json" md5="bc2a944bdafa71b5bc7bcca6d62ae882" md5json="a9d24ba7f39f2df5c0439092a93bdb8e">
 		<name>Borland Turbo Pascal 5.00 (Disk 3)</name>
 		<file size="121611" time="1988-08-29 05:00:00" attr="0x20">BGI.ARC</file>
 		<file size="26195" time="1988-08-29 05:00:00" attr="0x20">DEMOS.ARC</file>

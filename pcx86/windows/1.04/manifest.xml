@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows 1.04</title>
 	<source href="http://os2museum.com">os2museum.com</source>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WIN104-DISK1-SETUP.img" href="/pcjs-disks/pcx86/windows/1.04/WIN104-DISK1-SETUP.json" md5="0badbc92d2ab6835e0976f9c6a4e2700" md5json="262b6546d97eec0f180f2d0e15034676">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WIN104-DISK1-SETUP.img" href="/disks-demo/pcx86/windows/1.04/WIN104-DISK1-SETUP.json" md5="0badbc92d2ab6835e0976f9c6a4e2700" md5json="262b6546d97eec0f180f2d0e15034676">
 		<name>Windows 1.04 (SETUP)</name>
 		<file size="15776" time="1987-02-27 13:24:04" attr="0x20">ATTDC.DRV</file>
 		<file size="17824" time="1986-05-23 14:23:10" attr="0x20">ATTDEB.DRV</file>
@@ -47,7 +47,7 @@
 		<file size="4005" time="1987-03-31 08:50:58" attr="0x20">USA.DRV</file>
 		<file size="47" time="1986-08-11 12:02:32" attr="0x20">WRITE.DAT</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WIN104-DISK2-BUILD.img" href="/pcjs-disks/pcx86/windows/1.04/WIN104-DISK2-BUILD.json" md5="2b2ecbed2a000e2cd64b7abb8cb071b0" md5json="1a7c96e3ae3e25c8f8a5fb2cc700a703">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WIN104-DISK2-BUILD.img" href="/disks-demo/pcx86/windows/1.04/WIN104-DISK2-BUILD.json" md5="2b2ecbed2a000e2cd64b7abb8cb071b0" md5json="1a7c96e3ae3e25c8f8a5fb2cc700a703">
 		<name>Windows 1.04 (BUILD)</name>
 		<file size="1307" time="1986-02-22 09:34:02" attr="0x20">ATTDC.GRB</file>
 		<file size="2916" time="1986-05-28 11:30:52" attr="0x20">ATTDC.LGO</file>
@@ -77,7 +77,7 @@
 		<file size="2093" time="1986-05-22 13:50:36" attr="0x20">WIN.INI</file>
 		<file size="19824" time="1986-08-01 03:16:58" attr="0x20">WINOLDAP.MOD</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WIN104-DISK3-UTILITY.img" href="/pcjs-disks/pcx86/windows/1.04/WIN104-DISK3-UTILITY.json" md5="0e05046c9c73b5de60b9d7fc2d6aa443" md5json="1f33bc53b9a1f296b33b4529b6a8663e">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WIN104-DISK3-UTILITY.img" href="/disks-demo/pcx86/windows/1.04/WIN104-DISK3-UTILITY.json" md5="0e05046c9c73b5de60b9d7fc2d6aa443" md5json="1f33bc53b9a1f296b33b4529b6a8663e">
 		<name>Windows 1.04 (UTILITY)</name>
 		<file size="12016" time="1987-04-02 10:30:42" attr="0x20">CITOH.DRV</file>
 		<file size="14352" time="1987-04-02 10:30:42" attr="0x20">EPSON.DRV</file>
@@ -95,7 +95,7 @@
 		<file size="11" time="1987-04-02 10:30:42" attr="0x20">UTILITY.LBL</file>
 		<file size="21024" time="1987-04-02 10:30:42" attr="0x20">XER4020.DRV</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WIN104-DISK4-FONT.img" href="/pcjs-disks/pcx86/windows/1.04/WIN104-DISK4-FONT.json" md5="adf073faa9b000672bb7c6e4f22506fe" md5json="bdbb899ff56242feb67735e1c0d47417">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WIN104-DISK4-FONT.img" href="/disks-demo/pcx86/windows/1.04/WIN104-DISK4-FONT.json" md5="adf073faa9b000672bb7c6e4f22506fe" md5json="bdbb899ff56242feb67735e1c0d47417">
 		<name>Windows 1.04 (FONT)</name>
 		<file size="8720" time="1987-04-02 10:28:48" attr="0x20">COURA.FON</file>
 		<file size="12304" time="1987-04-02 10:28:48" attr="0x20">COURB.FON</file>
@@ -114,7 +114,7 @@
 		<file size="25824" time="1987-04-02 10:28:48" attr="0x20">TMSRC.FON</file>
 		<file size="45200" time="1987-04-02 10:28:48" attr="0x20">TMSRD.FON</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WIN104-DISK5-APPS.img" href="/pcjs-disks/pcx86/windows/1.04/WIN104-DISK5-APPS.json" md5="229e4eb521940ca5b468c58e6dd064fc" md5json="2e5ce9d8383ff32df2dfb7e166a456aa">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WIN104-DISK5-APPS.img" href="/disks-demo/pcx86/windows/1.04/WIN104-DISK5-APPS.json" md5="229e4eb521940ca5b468c58e6dd064fc" md5json="2e5ce9d8383ff32df2dfb7e166a456aa">
 		<name>Windows 1.04 (APPS)</name>
 		<file size="42" time="1985-06-04 09:07:36" attr="0x20">ABC.TXT</file>
 		<file size="26496" time="1987-03-11 08:55:08" attr="0x20">CALC.EXE</file>
@@ -129,7 +129,7 @@
 		<file size="15392" time="1987-03-11 09:15:54" attr="0x20">REVERSI.EXE</file>
 		<file size="47344" time="1986-06-12 11:22:48" attr="0x20">TERMINAL.EXE</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WIN104-DISK6-PROGRAM.img" href="/pcjs-disks/pcx86/windows/1.04/WIN104-DISK6-PROGRAM.json" md5="a03f55789e842af78cdbe729c17127fd" md5json="f24924f40305ebd3c8e05b41e43cf506">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WIN104-DISK6-PROGRAM.img" href="/disks-demo/pcx86/windows/1.04/WIN104-DISK6-PROGRAM.json" md5="a03f55789e842af78cdbe729c17127fd" md5json="f24924f40305ebd3c8e05b41e43cf506">
 		<name>Windows 1.04 (PROGRAM)</name>
 		<file size="1938" time="1987-05-08 12:18:04" attr="0x10">PIF</file>
 		<file size="369" time="1985-10-26 12:58:54" attr="0x20" dir="PIF/">123-2.PIF</file>
@@ -191,7 +191,7 @@
 		<file size="10173" time="1987-04-07 17:57:36" attr="0x20">README.TXT</file>
 		<file size="192176" time="1987-05-08 10:00:00" attr="0x20">WRITE.EXE</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WIN104-DISK7-SUPPDRV.img" href="/pcjs-disks/pcx86/windows/1.04/WIN104-DISK7-SUPPDRV.json" md5="356e6afd5c1408cdca30bc620a5d1740" md5json="117e6f214e8c840feb2326dd29691394">
+	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WIN104-DISK7-SUPPDRV.img" href="/disks-demo/pcx86/windows/1.04/WIN104-DISK7-SUPPDRV.json" md5="356e6afd5c1408cdca30bc620a5d1740" md5json="117e6f214e8c840feb2326dd29691394">
 		<name>Windows 1.04 (SUPP)</name>
 		<file size="16336" time="1986-07-29 14:20:16" attr="0x20">HP7470A.DRV</file>
 		<file size="5852" time="1987-03-27 16:36:30" attr="0x20">HPREADME.TXT</file>

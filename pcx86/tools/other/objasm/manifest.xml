@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>OBJASM</title>
 	<version>2.0</version>
 	<releaseDate>January 3, 1991</releaseDate>
 	<author>Robert F. Day</author>
-	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/bin" href="/pcjs-disks/pcx86/tools/other/objasm/OBJASM-BIN.json" md5="b2ba98042f78e9567be4d75492875db8" md5json="49562aae428a3c0c4d983ef603834103">
+	<disk id="disk01" size="327680" chs="40:2:8" dir="archive/bin" href="/disks-demo/pcx86/tools/other/objasm/OBJASM-BIN.json" md5="b2ba98042f78e9567be4d75492875db8" md5json="49562aae428a3c0c4d983ef603834103">
 		<name>OBJASM 2.0 (Bin)</name>
 		<file size="20019" time="1990-12-22 15:54:10" attr="0x20" md5="d61ac4f369a9260c125757ff6d266ca8">OBJASM.DOC</file>
 		<file size="98915" time="1993-08-13 10:51:22" attr="0x20" md5="3b726d9075fda31d5a97b7b11aa2623a">OBJASM.EXE</file>
 		<file size="125440" time="1993-08-13 07:49:14" attr="0x20" md5="239f0f79562a83e1b2dc418b7d0ac5c4">OBJUNARC.EXE</file>
 		<file size="5986" time="1991-01-28 12:59:20" attr="0x20" md5="aa294fb11f0d3d802d9ec5224fdd040d">READ.ME</file>
 	</disk>
-	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/src" href="/pcjs-disks/pcx86/tools/other/objasm/OBJASM-SRC.json" md5="21be4a8ec5dcb9225d210a629d976672" md5json="eb9ae9d8c7cba9c11822b1d3f516689e">
+	<disk id="disk02" size="327680" chs="40:2:8" dir="archive/src" href="/disks-demo/pcx86/tools/other/objasm/OBJASM-SRC.json" md5="21be4a8ec5dcb9225d210a629d976672" md5json="eb9ae9d8c7cba9c11822b1d3f516689e">
 		<name>OBJASM 2.0 (Src)</name>
 		<file size="2592" time="1990-11-09 13:25:42" attr="0x20" md5="61b897434720739f8cc480c60337a8ad">O</file>
 		<file size="17544" time="1990-12-12 14:29:00" attr="0x20" md5="f6d5897d78b64cb9478c821b10163c56">O.H</file>

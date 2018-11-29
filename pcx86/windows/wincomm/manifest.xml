@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Windows COMM Driver (Source)</title>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WINCOMM.img" href="/pcjs-disks/pcx86/windows/wincomm/WINCOMM.json" md5="a3a1edb104e149fea3572c20d0f12987" md5json="6ba0862c845c9ff38bef2f6bc0e94340">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WINCOMM.img" href="/disks-demo/pcx86/windows/wincomm/WINCOMM.json" md5="a3a1edb104e149fea3572c20d0f12987" md5json="6ba0862c845c9ff38bef2f6bc0e94340">
 		<name>WINCOMM</name>
 		<file size="680" time="1986-02-03 12:29:52" attr="0x10">COMM</file>
 		<file size="10941" time="1985-06-24 22:38:32" attr="0x20" dir="COMM/">CCOM.ASM</file>

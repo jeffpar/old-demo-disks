@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft C Compiler</title>
 	<version>4.00</version>
@@ -8,14 +8,14 @@
 	<language>C</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK1-COMPILER.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK1-COMPILER.json" md5="f2f1db5eee49f28a93b5d4f8347b3a7b" md5json="53b4cd98a19221d7c7ae249e2d820db2">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK1-COMPILER.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK1-COMPILER.json" md5="f2f1db5eee49f28a93b5d4f8347b3a7b" md5json="53b4cd98a19221d7c7ae249e2d820db2">
 		<name>MS C 4.00 (Disk 1)</name>
 		<file size="130757" time="1986-06-27 04:00:00" attr="0x20">C1.EXE</file>
 		<file size="116991" time="1986-06-27 04:00:02" attr="0x20">C2.EXE</file>
 		<file size="83481" time="1986-06-27 04:00:04" attr="0x20">C3.EXE</file>
 		<file size="27269" time="1986-06-27 04:00:04" attr="0x20">MSC.EXE</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK2-UTILITIES.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK2-UTILITIES.json" md5="5986c97e6bce8354df26679017669901" md5json="05c27cffda371963e1db94a13c9c7346">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK2-UTILITIES.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK2-UTILITIES.json" md5="5986c97e6bce8354df26679017669901" md5json="05c27cffda371963e1db94a13c9c7346">
 		<name>MS C 4.00 (Disk 2)</name>
 		<file size="27381" time="1986-06-27 04:00:02" attr="0x20">CL.EXE</file>
 		<file size="141631" time="1986-08-23 23:10:40" attr="0x20">CV.EXE</file>
@@ -34,7 +34,7 @@
 		<file size="41655" time="1986-06-27 04:00:10" attr="0x20">README.DOC</file>
 		<file size="9012" time="1986-06-27 04:00:12" attr="0x20">SETENV.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK3-LIBSMALL.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK3-LIBSMALL.json" md5="2aad85664c22e7283dbc8c2b1b261d69" md5json="45ba66da74457c8c0c43d522a9c7987e">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK3-LIBSMALL.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK3-LIBSMALL.json" md5="2aad85664c22e7283dbc8c2b1b261d69" md5json="45ba66da74457c8c0c43d522a9c7987e">
 		<name>MS C 4.00 (Disk 3)</name>
 		<file size="4096" time="1986-06-27 04:00:02" attr="0x20">87.LIB</file>
 		<file size="346" time="1986-06-27 04:00:02" attr="0x20">ASSERT.H</file>
@@ -82,7 +82,7 @@
 		<file size="1705" time="1986-06-27 04:00:44" attr="0x20">V2TOV3.H</file>
 		<file size="391" time="1986-06-27 04:00:46" attr="0x20">VARARGS.H</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK4-LIBMEDIUM.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK4-LIBMEDIUM.json" md5="816d5ec00da2640d821871d0ba99b8ff" md5json="e78335b58e3489425d243b8e1c4a29c8">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK4-LIBMEDIUM.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK4-LIBMEDIUM.json" md5="816d5ec00da2640d821871d0ba99b8ff" md5json="e78335b58e3489425d243b8e1c4a29c8">
 		<name>MS C 4.00 (Disk 4)</name>
 		<file size="112640" time="1986-06-27 04:00:00" attr="0x20">CLIBC.LIB</file>
 		<file size="31744" time="1986-06-27 04:00:02" attr="0x20">CLIBFP.LIB</file>
@@ -94,7 +94,7 @@
 		<file size="1031" time="1986-06-27 04:00:08" attr="0x20">MSETARGV.OBJ</file>
 		<file size="504" time="1986-06-27 04:00:10" attr="0x20">MVARSTCK.OBJ</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK5-LIBLARGE.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK5-LIBLARGE.json" md5="0192b6d4e436e0fce98a64fb40aa7e74" md5json="698326e5f43f14fd85141dda8e22c618">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK5-LIBLARGE.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK5-LIBLARGE.json" md5="0192b6d4e436e0fce98a64fb40aa7e74" md5json="698326e5f43f14fd85141dda8e22c618">
 		<name>MS C 4.00 (Disk 5)</name>
 		<file size="116909" time="1986-06-27 04:00:02" attr="0x20">C3L.EXE</file>
 		<file size="41984" time="1986-06-27 04:00:02" attr="0x20">CLIBFA.LIB</file>
@@ -105,7 +105,7 @@
 		<file size="472" time="1986-06-27 04:00:08" attr="0x20">LVARSTCK.OBJ</file>
 		<file size="8957" time="1986-06-27 04:00:08" attr="0x20">MOUSE.COM</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK6-STARTUP.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK6-STARTUP.json" md5="8a48e3e53bbcc83f2bd736e817f4a8ec" md5json="726d75f1ba1bf06a977be7f97de846bb">
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK6-STARTUP.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK6-STARTUP.json" md5="8a48e3e53bbcc83f2bd736e817f4a8ec" md5json="726d75f1ba1bf06a977be7f97de846bb">
 		<name>MS C 4.00 (Disk 6)</name>
 		<file size="667" time="1986-06-27 04:00:02" attr="0x20">BRKCTL.INC</file>
 		<file size="102" time="1996-06-27 04:00:26" attr="0x10">C</file>
@@ -140,7 +140,7 @@
 		<file size="4139" time="1986-06-27 04:00:18" attr="0x20">WILD.C</file>
 		<file size="1507" time="1986-06-27 04:00:18" attr="0x20">_WILD.ASM</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK7-CODEVIEW.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK7-CODEVIEW.json" md5="087ed463628074736a6cb48497786b4e" md5json="8781e02f8271e64bb5058b3700111a08">
+	<disk id="disk07" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK7-CODEVIEW.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK7-CODEVIEW.json" md5="087ed463628074736a6cb48497786b4e" md5json="8781e02f8271e64bb5058b3700111a08">
 		<name>MS C 4.00 (Disk 7)</name>
 		<file size="133" time="1986-06-27 04:00:02" attr="0x20">ADAPT.BAT</file>
 		<file size="5260" time="1986-06-27 04:00:02" attr="0x20">CIRCLE.C</file>
@@ -178,7 +178,7 @@
 		<file size="820" time="1986-06-27 04:00:38" attr="0x20">S9.@@@</file>
 		<file size="1059" time="1986-06-27 04:00:38" attr="0x20">SAMPLE.BAT</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK8-DEVKIT.img" href="/pcjs-disks/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK8-DEVKIT.json" md5="ca4e62acff4890309019dac16d031cf3" md5json="1a1316c32bdb16411748164ad8dcda0e">
+	<disk id="disk08" size="368640" chs="40:2:9" img="archive/MSC-048014-400-DISK8-DEVKIT.img" href="/disks-demo/pcx86/tools/microsoft/c/4.00/MSC-048014-400-DISK8-DEVKIT.json" md5="ca4e62acff4890309019dac16d031cf3" md5json="1a1316c32bdb16411748164ad8dcda0e">
 		<name>MS C 4.00 (Disk 8)</name>
 		<file size="311" time="1986-07-18 04:00:04" attr="0x20">CHELLO.DEF</file>
 		<file size="51200" time="1986-07-18 04:00:04" attr="0x20">CLIBW.LIB</file>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 1.21</title>
-	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK01.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK01.json" md5="e674e4ff83164683e3910c89f3a9aa68" md5json="a47acec9217fee0af82de0398d44a170">
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK01.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK01.json" md5="e674e4ff83164683e3910c89f3a9aa68" md5json="a47acec9217fee0af82de0398d44a170">
 		<name>MS OS/2 1.21 (Disk 1)</name>
 		<file size="9500" time="1990-06-29 12:00:00" attr="0x20">ANSI.EX@</file>
 		<file size="2123" time="1990-06-29 12:00:00" attr="0x20">ANSI.SY@</file>
@@ -39,7 +39,7 @@
 		<file size="161600" time="1990-06-29 12:00:00" attr="0x20">UHPFS.DLL</file>
 		<file size="52096" time="1990-06-29 12:00:00" attr="0x20">UNPACK.EXE</file>
 	</disk>
-	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK02.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK02.json" md5="d43e9bf4bc83bde23eaf4102bf63e9a9" md5json="a01b5db750de453247e007f8ca6bbc29">
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK02.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK02.json" md5="d43e9bf4bc83bde23eaf4102bf63e9a9" md5json="a01b5db750de453247e007f8ca6bbc29">
 		<name>MS OS/2 1.21 (Disk 2)</name>
 		<file size="31447" time="1990-06-29 12:00:00" attr="0x20">BOOT.CO@</file>
 		<file size="6281" time="1990-06-29 12:00:00" attr="0x20">COM01.SY@</file>
@@ -95,7 +95,7 @@
 		<file size="2044" time="1990-06-29 12:00:00" attr="0x20">VISION01.SY@</file>
 		<file size="38500" time="1990-06-29 12:00:00" attr="0x20">XCOPY.EX@</file>
 	</disk>
-	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK03.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK03.json" md5="4bcbf3444b1feb61c118a35630653091" md5json="805531bae15b1c879040634343fec49a">
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK03.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK03.json" md5="4bcbf3444b1feb61c118a35630653091" md5json="805531bae15b1c879040634343fec49a">
 		<name>MS OS/2 1.21 (Disk 3)</name>
 		<file size="113356" time="1990-06-29 12:00:00" attr="0x20">CMDREF.IN@</file>
 		<file size="88252" time="1990-06-29 12:00:00" attr="0x20">CPISPFPC.DL@</file>
@@ -127,7 +127,7 @@
 		<file size="12683" time="1990-06-29 12:00:00" attr="0x20">VIEWH.HL@</file>
 		<file size="17780" time="1990-06-29 12:00:00" attr="0x20">VIOTBL.DC@</file>
 	</disk>
-	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK04.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK04.json" md5="00968c39076db6f551cb8f107c3ee160" md5json="6f1e3a94fdea7b8aea0c996e63b038ba">
+	<disk id="disk04" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK04.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK04.json" md5="00968c39076db6f551cb8f107c3ee160" md5json="6f1e3a94fdea7b8aea0c996e63b038ba">
 		<name>MS OS/2 1.21 (Disk 4)</name>
 		<file size="170239" time="1990-06-29 12:00:00" attr="0x20">COURIER.FO@</file>
 		<file size="44372" time="1990-06-29 12:00:00" attr="0x20">MAKEINI.EX@</file>
@@ -171,7 +171,7 @@
 		<file size="7093" time="1990-06-29 12:00:00" attr="0x20">SPOOLCP.DL@</file>
 		<file size="304363" time="1990-06-29 12:00:00" attr="0x20">TIMES.FO@</file>
 	</disk>
-	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK05.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK05.json" md5="d5746e924fd5c4c8cbc57ecd4bbadaa5" md5json="87e7027b4d00dc47cf15465123b63e2d">
+	<disk id="disk05" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK05.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK05.json" md5="d5746e924fd5c4c8cbc57ecd4bbadaa5" md5json="87e7027b4d00dc47cf15465123b63e2d">
 		<name>MS OS/2 1.21 (Disk 5)</name>
 		<file size="5150" time="1990-06-29 12:00:00" attr="0x20">4201.DC@</file>
 		<file size="329" time="1990-06-29 12:00:00" attr="0x20">5202.DC@</file>
@@ -194,7 +194,7 @@
 		<file size="3569" time="1990-06-29 12:00:00" attr="0x20">PMWIN.PD@</file>
 		<file size="13570" time="1990-06-29 12:00:00" attr="0x20">SYSMONO.FO@</file>
 	</disk>
-	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK06-INSTALLA.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK06-INSTALLA.json" md5="8ec8d5c378680669d925bdf59df614cc" md5json="40c4af456d6177e0eb57343d4f0f1ebf">
+	<disk id="disk06" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK06-INSTALLA.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK06-INSTALLA.json" md5="8ec8d5c378680669d925bdf59df614cc" md5json="40c4af456d6177e0eb57343d4f0f1ebf">
 		<name>MS OS/2 1.21 (Install A)</name>
 		<file size="4781" time="1990-06-29 12:00:00" attr="0x20">8514.RC@</file>
 		<file size="4789" time="1990-06-29 12:00:00" attr="0x20">8514M.RC@</file>
@@ -237,7 +237,7 @@
 		<file size="17430" time="1990-06-29 12:00:00" attr="0x20">VIOCALLS.DLL</file>
 		<file size="10478" time="1990-06-29 12:00:00" attr="0x20">VTBL850.DCP</file>
 	</disk>
-	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK07-INSTALLB.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK07-INSTALLB.json" md5="35c5e4116998ce713d57590e49fa3b0d" md5json="e1e01d4fdc0b1bd62e2fd2a26d03b03f">
+	<disk id="disk07" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK07-INSTALLB.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK07-INSTALLB.json" md5="35c5e4116998ce713d57590e49fa3b0d" md5json="e1e01d4fdc0b1bd62e2fd2a26d03b03f">
 		<name>MS OS/2 1.21 (Install B)</name>
 		<file size="4781" time="1990-06-29 12:00:00" attr="0x20">8514.RC@</file>
 		<file size="4789" time="1990-06-29 12:00:00" attr="0x20">8514M.RC@</file>
@@ -280,7 +280,7 @@
 		<file size="17430" time="1990-06-29 12:00:00" attr="0x20">VIOCALLS.DLL</file>
 		<file size="10478" time="1990-06-29 12:00:00" attr="0x20">VTBL850.DCP</file>
 	</disk>
-	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK08-DRIVER1.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK08-DRIVER1.json" md5="97713bf11596279cd76c583131e515e7" md5json="c10bb9ec202d082a056745c9cb14c5e2">
+	<disk id="disk08" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK08-DRIVER1.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK08-DRIVER1.json" md5="97713bf11596279cd76c583131e515e7" md5json="c10bb9ec202d082a056745c9cb14c5e2">
 		<name>MS OS/2 1.21 (Driver 1)</name>
 		<file size="533" time="1990-06-29 12:00:00" attr="0x20">4208.DCP</file>
 		<file size="49152" time="1990-06-29 12:00:00" attr="0x20">EPSON.DRV</file>
@@ -298,7 +298,7 @@
 		<file size="64752" time="1990-06-29 12:00:00" attr="0x20">IBM5216.DRV</file>
 		<file size="84384" time="1990-06-29 12:00:00" attr="0x20">IBMNULL.DRV</file>
 	</disk>
-	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK09-DRIVER2.img" href="/pcjs-disks/pcx86/os2/microsoft/1.2/MSOS2121-DISK09-DRIVER2.json" md5="449d51cc5002578b33b1e4f466b4cfd9" md5json="5fbbb3f18736148ab08aee2a404b2896">
+	<disk id="disk09" size="1474560" chs="80:2:18" img="archive/MSOS2121-DISK09-DRIVER2.img" href="/disks-demo/pcx86/os2/microsoft/1.2/MSOS2121-DISK09-DRIVER2.json" md5="449d51cc5002578b33b1e4f466b4cfd9" md5json="5fbbb3f18736148ab08aee2a404b2896">
 		<name>MS OS/2 1.21 (Driver 2)</name>
 		<file size="1011" time="1990-06-29 12:00:00" attr="0x20">ACOURIE0.FNT</file>
 		<file size="1012" time="1990-06-29 12:00:00" attr="0x20">BARCODE0.FNT</file>

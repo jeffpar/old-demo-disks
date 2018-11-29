@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.72.7/manifest.xsl"?>
 <manifest type="software">
 	<title>PC DOS</title>
 	<version>1.10</version>
@@ -7,7 +7,7 @@
 	<category>DOS</category>
 	<author>IBM/Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/PCDOS110.img" href="/pcjs-disks/pcx86/dos/ibm/1.10/PCDOS110.json" md5="482f0559c88a798e8fb5af96b4868a98" md5json="e922492802705741cd56ee675d6f2dae">
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/PCDOS110.img" href="/disks-demo/pcx86/dos/ibm/1.10/PCDOS110.json" md5="482f0559c88a798e8fb5af96b4868a98" md5json="e922492802705741cd56ee675d6f2dae">
 		<file size="1920" time="1982-05-07 12:00:00" attr="0x20">ART.BAS</file>
 		<file size="2048" time="1982-05-07 12:00:00" attr="0x20">BALL.BAS</file>
 		<file size="11392" time="1982-05-07 12:00:00" attr="0x20">BASIC.COM</file>

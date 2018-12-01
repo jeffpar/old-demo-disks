@@ -1,4 +1,4 @@
-## PCjs Disk Archive
+## PCjs Demo Disk Archive
 
 The [PCjs Disk Archive](https://github.com/jeffpar/pcjs-demo-disks) is a repository intended for use as a submodule with
 the [PCjs Project](https://github.com/jeffpar/pcjs).  It is published [here](https://demo-disks.pcjs.org) for

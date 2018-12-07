@@ -214,7 +214,8 @@
 		<manifest ref="/disks-game/pcx86/microsoft/flightsim/1982/manifest.xml"/>
 		<manifest ref="/disks-game/pcx86/microsoft/flightsim/1984/manifest.xml"/>
 		<manifest ref="/disks-game/pcx86/other/1984/wizardry1/manifest.xml"/>
-		<manifest ref="/disks-game/pcx86/other/1988/gambling/manifest.xml"/>
+		<manifest ref="/disks-game/pcx86/other/1988/trump_castle/manifest.xml"/>
+		<manifest ref="/disks-game/pcx86/other/1990/oregon_trail/manifest.xml"/>
 		<manifest ref="/disks-game/pcx86/other/1991/lemmings/manifest.xml"/>
 	</control>
 	<control type="button" binding="loadDisk">Load</control>

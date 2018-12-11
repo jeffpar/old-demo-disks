@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.73.1/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.73.2/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 1.1</title>
 	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/Disk01.img" href="/disks-demo/pcx86/os2/microsoft/1.1/MSOS211-DISK01.json" md5="3a6a7901abcc3bc593b100c664543bbc" md5json="f375d6546f45b9d3bcb0942fba2d61be">

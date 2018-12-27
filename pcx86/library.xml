@@ -189,6 +189,7 @@
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/3.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/3.10/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/4.00/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/tools/other/norton/4.00/advanced/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/4.50/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/5.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/6.01/manifest.xml"/>

@@ -79,44 +79,4 @@
 		<file size="914" time="1987-05-15 16:00:58" attr="0x20" md5="f759c14ed725a1d06b33ff0c18f533ab">TUTORIAL.NTS</file>
 		<file size="48712" time="1987-05-15 16:00:00" attr="0x20" md5="8cd990c2dccb4a3449325f6ee7c798a9">_FILE_0.DBD</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK1.img" href="/disks-demo/pcx86/tools/other/norton/4.00/NU400-ADV-DISK1.json" md5="87d3786397f87de71a9e6c34303bd9d0" md5json="1a4c7a1f076d8041092449d1ce4db699">
-		<name>Norton Utilities 4.00 (Advanced #1)</name>
-		<file size="1184" time="1987-03-01 16:00:00" attr="0x20" md5="420421a656ef170d21779d27a60f2f0a">ASK.EXE</file>
-		<file size="5324" time="1987-03-01 16:00:00" attr="0x20" md5="841fd46209d456cb1de48ed66b34e46e">BEEP.EXE</file>
-		<file size="25618" time="1987-03-01 16:00:00" attr="0x20" md5="a94a30ed12413d481000d938b92987f8">DS.EXE</file>
-		<file size="17910" time="1987-03-01 16:00:00" attr="0x20" md5="71106d8e9952e2569e743cf942104b2c">DT.EXE</file>
-		<file size="7296" time="1987-03-01 16:00:00" attr="0x20" md5="5dfe3b807dcda92553b9bef2f233b388">FA.EXE</file>
-		<file size="7924" time="1987-03-01 16:00:00" attr="0x20" md5="445838cb973af87e9dfd4aeb599479a3">FF.EXE</file>
-		<file size="14668" time="1987-03-01 16:00:00" attr="0x20" md5="e063ee64377dc3ad1bc0e9259647569b">FI.EXE</file>
-		<file size="11305" time="1987-03-01 16:00:00" attr="0x20" md5="9395d4ba1a249e3db28ab5cf3beb6f12">FILE1.BAT</file>
-		<file size="2601" time="1987-03-01 16:00:00" attr="0x20" md5="d221dba46c92a906ba7b118e051270ee">FILEINFO.FI</file>
-		<file size="12610" time="1987-03-01 16:00:00" attr="0x20" md5="153ea9b6659b4b5ca485db1f6b70d4be">FR.EXE</file>
-		<file size="8536" time="1987-03-01 16:00:00" attr="0x20" md5="ef942246555b272af77f7e394ba0997b">FS.EXE</file>
-		<file size="7652" time="1987-03-01 16:00:00" attr="0x20" md5="59a71a4d847d262e61f3aeca6857627c">LD.EXE</file>
-		<file size="11616" time="1987-03-01 16:00:00" attr="0x20" md5="95262318961140258c459c5d9f04fbc0">LP.EXE</file>
-		<file size="618" time="2007-03-01 16:00:00" attr="0x20" md5="661b7b4d85c49964d7ac0b1c5b5c017b">MARY</file>
-		<file size="19476" time="1987-03-01 16:00:00" attr="0x20" md5="b6624ff525e8cec9a84171ea6370c92b">NCD.EXE</file>
-		<file size="31947" time="1987-03-01 16:00:00" attr="0x20" md5="d29114877d2ae644c08f9a1a4c13c1db">NI.EXE</file>
-		<file size="10897" time="1987-03-01 16:00:00" attr="0x20" md5="b0cfa90bd2252afd96027b45b81e480c">NU.HLP</file>
-		<file size="4912" time="1987-03-01 16:00:00" attr="0x20" md5="bdea7a59424dd555ea8867c3665b228f">NUDEMO.BAT</file>
-		<file size="1222" time="2007-03-01 16:00:00" attr="0x20" md5="9f32da225701ce465f8c223fd336988f">READ.ME</file>
-		<file size="4506" time="1987-03-01 16:00:00" attr="0x20" md5="26d8b44d3c3031e5e8e76993ce3abf16">SA.EXE</file>
-		<file size="26890" time="1987-03-01 16:00:00" attr="0x20" md5="2eee3c15ea391e06c927513fbfc701b0">SD.EXE</file>
-		<file size="14750" time="1987-03-01 16:00:00" attr="0x20" md5="4df53ab1622d74fabe806c0d135f632f">SI.EXE</file>
-		<file size="6234" time="1987-03-01 16:00:00" attr="0x20" md5="b8ce752cff0021345b7e07e52e174d4b">TM.EXE</file>
-		<file size="17276" time="1987-03-01 16:00:00" attr="0x20" md5="768ad281c7eaa1ef3d2a7246fd4438e4">TS.EXE</file>
-		<file size="15096" time="1987-03-01 16:00:00" attr="0x20" md5="ad680e07cf4568ddbc576f70839beb09">UD.EXE</file>
-		<file size="7456" time="1987-03-01 16:00:00" attr="0x20" md5="f848ec566573d8b186c75ec0fc31515f">VL.EXE</file>
-		<file size="10338" time="1987-03-01 16:00:00" attr="0x20" md5="680c16562adac2d43126bcc9aa2d91f9">WIPEDISK.EXE</file>
-		<file size="10936" time="1987-03-01 16:00:00" attr="0x20" md5="d792379af28836deb7af4ed9c9beddf1">WIPEFILE.EXE</file>
-	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/NU400-ADV-DISK2.img" href="/disks-demo/pcx86/tools/other/norton/4.00/NU400-ADV-DISK2.json" md5="3296149dfbedc6d305e95e7101dfd06b" md5json="2143fb2c65a26bc84a05ba068a10bc43">
-		<name>Norton Utilities 4.00 (Advanced #2)</name>
-		<file size="36490" time="1987-03-01 16:00:00" attr="0x20" md5="61bfc56717c41556e3b9b3d11bdc7fed">NCDEMO.EXE</file>
-		<file size="124625" time="1987-03-01 16:00:00" attr="0x20" md5="9641aa09fc5397183b51a967506dc003">NU.EXE</file>
-		<file size="10897" time="1987-03-01 16:00:44" attr="0x20" md5="b0cfa90bd2252afd96027b45b81e480c">NU.HLP</file>
-		<file size="14554" time="1987-03-01 16:00:32" attr="0x20" md5="e542f198ac123dc4534c67c800faa485">QU.EXE</file>
-		<file size="914" time="1987-03-01 16:00:06" attr="0x20" md5="f759c14ed725a1d06b33ff0c18f533ab">TUTORIAL.NTS</file>
-		<file size="48712" time="1987-03-01 16:00:00" attr="0x20" md5="8cd990c2dccb4a3449325f6ee7c798a9">_FILE_0.DBD</file>
-	</disk>
 </manifest>

@@ -3123,7 +3123,7 @@
 		<file size="199" time="1980-01-01 12:05:48" attr="0x20" md5="a803649e63aa94c938a8c96996a32e1a">TPCREAD.ME</file>
 		<file size="1006" time="1994-11-22 12:12:46" attr="0x20" md5="ca546df5117a35deb4818122f17d786e">WPROMP.BAT</file>
 	</disk>
-	<disk id="disk173" size="327680" chs="40:2:8" img="../../private/GRP001/PCMAG-UTIL-VOL1-1986/PCMAG-UTIL-VOL1-1986.img" href="/disks-demo/pcx86/shareware/pcmag/disks/PCMAG-UTIL-VOL1-1986.json" md5="6ec57c799fdbef4088b85f689c4e64bc" md5json="92b85956d627f37913d2efb350ac7ad5">
+	<disk id="disk173" size="327680" chs="40:2:8" img="archive/PCMAG-UTIL-VOL1-1986.img" href="/disks-demo/pcx86/shareware/pcmag/disks/PCMAG-UTIL-VOL1-1986.json" md5="6ec57c799fdbef4088b85f689c4e64bc" md5json="92b85956d627f37913d2efb350ac7ad5">
 		<name>PC Magazine Utils Vol1</name>
 		<file size="640" time="1986-07-10 08:21:00" attr="0x20">ATSIZE.COM</file>
 		<file size="627" time="1986-03-17 13:46:00" attr="0x20">ATTR.COM</file>
@@ -3174,7 +3174,7 @@
 		<file size="418" time="1985-01-12 20:57:24" attr="0x20">WHERE.COM</file>
 		<file size="910" time="1986-05-15 17:12:38" attr="0x20">XDEL.COM</file>
 	</disk>
-	<disk id="disk174" size="368640" chs="40:2:9" dir="../../private/GRP001/PCMAG-UTIL-VOL2/PCMAGV2" href="/disks-demo/pcx86/shareware/pcmag/disks/PCMAG-UTIL-VOL2.json" md5="de1994746e64edeb52fa246617234cae" md5json="db53e5ac490ee0c28e2afc343768ebf8">
+	<disk id="disk174" size="368640" chs="40:2:9" img="archive/PCMAG-UTIL-VOL2.img" href="/disks-demo/pcx86/shareware/pcmag/disks/PCMAG-UTIL-VOL2.json" md5="de1994746e64edeb52fa246617234cae" md5json="db53e5ac490ee0c28e2afc343768ebf8">
 		<name>PC Magazine Utils Vol2</name>
 		<file size="1712" time="1987-07-06 12:30:28" attr="0x20" md5="d38ae3104dc326e87ae09467ba021fd7">APPBK.COM</file>
 		<file size="1169" time="1986-12-02 13:59:08" attr="0x20" md5="c4f2b94c260b054886ee3a717aa36462">ASC.COM</file>

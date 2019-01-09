@@ -137,6 +137,7 @@
 		<manifest ref="/disks-demo/pcx86/tools/borland/pascal/5.50/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/borland/pascal/6.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/dresearch/pascal/3.11/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/tools/ibm/apl/1.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/ibm/basic/compiler/1.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/ibm/basic/compiler/2.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/ibm/debug/1.00/manifest.xml"/>
@@ -206,6 +207,7 @@
 		<manifest ref="/disks-demo/pcx86/tools/other/unp/4.11/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/personal/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/roms/ibm/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/shareware/pcdiskmag/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/shareware/pcmag/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/shareware/pctj/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/shareware/pcsig08/manifest.xml"/>

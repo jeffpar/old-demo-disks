@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.74.0/manifest.xsl"?>
+<manifest type="software">
+	<title>PC Disk Magazine</title>
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/PCDISKMAG-DISK1.img" href="/disks-demo/pcx86/shareware/pcdiskmag/PCDISKMAG-DISK1.json" md5="a565015ab13360c5bfafccd05b2d0e77" md5json="be70dabb0c669ec13e3fd1a1d1844ebe">
+		<name>PC Disk Magazine (Disk 1)</name>
+		<file size="13332" time="1983-07-28 15:24:28" attr="0x20" md5="6fc81ed9a513e010903f3a3673138ec8">AUTOBAR.BAS</file>
+		<file size="6016" time="1982-07-29 00:00:00" attr="0x20" md5="61e6516bcc3136c52c5f62c143552992">BDATA</file>
+		<file size="3584" time="1982-08-04 09:46:10" attr="0x20" md5="9dc7d914bbd044d324cce92723868ebe">BDATA2</file>
+		<file size="11265" time="1983-07-21 20:00:36" attr="0x20" md5="9e2408990b65da12e6123f893ae3548e">BPE.BAS</file>
+		<file size="7848" time="1983-07-28 15:27:04" attr="0x20" md5="8125ac81d01f28aefeb46810797b0600">CASH-RPT.BAS</file>
+		<file size="25267" time="1983-07-28 15:25:28" attr="0x20" md5="0145eb258bd7c5716085e8a355f79f13">CASH.BAS</file>
+		<file size="631" time="1983-07-28 15:29:24" attr="0x20" md5="77df87641a3ced53fcda32b334e8558b">DEMOREAD.BAS</file>
+		<file size="3693" time="1983-06-21 23:20:56" attr="0x20" md5="7e7f4fd6e47a3a50142da4ac12a0aba5">DEMOSTAT.DAT</file>
+		<file size="10070" time="1983-06-01 14:00:00" attr="0x20" md5="1e54b7d8db357e86525047546639d9f0">DISKMAP.COM</file>
+		<file size="17560" time="1983-07-28 15:15:22" attr="0x20" md5="4db5d9fc4149e2b56392dbb486d737a1">HIDESINK.BAS</file>
+		<file size="15813" time="1983-07-28 15:19:22" attr="0x20" md5="e8aff0bfe0ee218bc685e2d34e9bcc40">LOANS.BAS</file>
+		<file size="5507" time="1983-07-28 15:22:10" attr="0x20" md5="b0ff3d2864d7aa645bd6445666ea7a19">PERPCAL.BAS</file>
+		<file size="3399" time="1983-07-28 15:21:32" attr="0x20" md5="1392471880281a49dee3db6b7f9ebec4">PRINTCON.BAS</file>
+		<file size="6945" time="1983-07-28 15:23:20" attr="0x20" md5="2cac85bd9c2d8fcb082833eb3cdcea24">PYRAMID.BAS</file>
+		<file size="24530" time="1983-07-28 15:18:06" attr="0x20" md5="d6819c7e5260c872ce95b0d5ac88c93e">WSCONFIG.BAS</file>
+	</disk>
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/PCDISKMAG-DISK2.img" href="/disks-demo/pcx86/shareware/pcdiskmag/PCDISKMAG-DISK2.json" md5="46ceba1cd6edbc8e9123e9af10173340" md5json="b3b3261b9025a54791fc38f1454b464d">
+		<name>PC Disk Magazine (Disk 2)</name>
+		<file size="17152" time="1983-09-19 14:58:44" attr="0x20" md5="ca27eb1446b4c639057f0a67947fa965">BASXREF.EXE</file>
+		<file size="1506" time="1983-09-15 07:40:32" attr="0x20" md5="a628b116f62fa64ece99b482b0dbd419">CASH-BLD.BAS</file>
+		<file size="9984" time="1980-01-01 05:28:06" attr="0x20" md5="88267f085ce6b7884a14099df37836c0">CASH-RPT.BAS</file>
+		<file size="20329" time="1983-10-17 14:15:40" attr="0x20" md5="1833cb8fc8ef6c142c50b846d4c81e2c">CASH.BAS</file>
+		<file size="30356" time="1983-09-08 14:21:24" attr="0x20" md5="d21d5b4280557d786b4a69f86fdf918b">CONFIDE.EXE</file>
+		<file size="28160" time="1983-09-13 23:13:28" attr="0x20" md5="10262b80581e9a2988570a72fbfa99e3">DISKINV.EXE</file>
+		<file size="7527" time="1983-06-01 14:00:00" attr="0x20" md5="f0be938e3dcae16468fbf4c075ee17a2">DLABEL.COM</file>
+		<file size="1920" time="1983-09-03 00:06:30" attr="0x20" md5="17b12e0dab300a896ce720a9c0b0067d">DOUBLE.EXE</file>
+		<file size="8192" time="1983-08-26 17:15:44" attr="0x20" md5="687ea7e13f0f181708ac8c849d5e0d9e">LEASEBUY.BAS</file>
+		<file size="1526" time="1983-09-15 07:49:26" attr="0x20" md5="5cfa860e7b04878ebf990a86ea908347">STATEZIP.BAS</file>
+		<file size="1257" time="1983-10-03 19:52:56" attr="0x20" md5="596a7535aeb8415b2c9a95388beeee53">STATEZIP.DAT</file>
+	</disk>
+	<disk id="disk03" size="163840" chs="40:1:8" img="archive/PCDISKMAG-DISK3.img" href="/disks-demo/pcx86/shareware/pcdiskmag/PCDISKMAG-DISK3.json" md5="9ecf322bb08ecde94aa231f96d8d59e7" md5json="8d686f994a3523450fecbcb75eaa5d9c">
+		<name>PC Disk Magazine (Disk 3)</name>
+		<file size="5632" time="1983-10-10 12:51:06" attr="0x20" md5="23e02e5b354011166dcdb21933f312a8">BANK</file>
+		<file size="7328" time="1983-10-10 15:43:38" attr="0x20" md5="b4fc6198cdf1c200e09bbefc38ae1a9d">BANKIT.COM</file>
+		<file size="11598" time="1983-11-17 23:27:04" attr="0x20" md5="ae69f54fd2394dbf0170c845e6eb7265">BIGPRINT.BAS</file>
+		<file size="12646" time="1980-01-01 00:48:06" attr="0x20" md5="976410f7ca6f59a2cfc218a2eb9d587e">CASH-RPT.BAS</file>
+		<file size="20736" time="1983-10-31 00:02:24" attr="0x20" md5="aeeb06029abf8ccf75036dce5d920a6b">DATNOIDS.BAS</file>
+		<file size="11999" time="1983-11-17 23:22:58" attr="0x20" md5="04aa4230a53df00184cab9d3f36210fc">DEPAST.BAS</file>
+		<file size="14007" time="1983-11-17 23:19:04" attr="0x20" md5="d96efbcf73eb0fe37cca66a6b9399822">DP.BAS</file>
+		<file size="32668" time="1983-11-17 12:23:44" attr="0x20" md5="939afdfb0fbbf6ca6c70915d9b51f72f">HEX.EXE</file>
+		<file size="19936" time="1983-11-18 01:21:56" attr="0x20" md5="8f460fece9bbe86bead5dd2b47afd2de">LINEPLOT.BAS</file>
+		<file size="2880" time="1983-11-09 21:05:22" attr="0x20" md5="a9cde8e6154f040d6b81fa05dbf8806d">LPDUMP.COM</file>
+		<file size="2560" time="1980-01-01 01:47:02" attr="0x20" md5="5389b470dea641350df5feb236429cb5">MEASURE.BAS</file>
+		<file size="842" time="1983-10-18 00:46:36" attr="0x20" md5="7921f68bc48cb211f2caa50f93ff2826">MEASURE.DAT</file>
+		<file size="2688" time="1983-10-19 22:48:30" attr="0x20" md5="8106f311996256189466afe0d5d239bc">MERGE.EXE</file>
+		<file size="8576" time="1983-10-07 15:15:54" attr="0x20" md5="f1e306224367d1081160e2a934a4e5e2">MONTM</file>
+		<file size="2688" time="1983-10-19 22:48:14" attr="0x20" md5="dfe8c234952b27dd102eb6965ac3c206">SORT.EXE</file>
+	</disk>
+	<disk id="disk04" size="163840" chs="40:1:8" img="archive/PCDISKMAG-DISK4.img" href="/disks-demo/pcx86/shareware/pcdiskmag/PCDISKMAG-DISK4.json" md5="dbd7920aac99694b50f78be2eacc1766" md5json="575145e9c38cc6f6d2bfa75dbea43b4c">
+		<name>PC Disk Magazine (Disk 4)</name>
+		<file size="25600" time="1983-11-10 21:26:40" attr="0x20" md5="dba0315427a34b0f7374bc2b16b382cc">ATC.EXE</file>
+		<file size="13581" time="1984-01-18 00:06:08" attr="0x20" md5="d025055b3c708ac68fa624dfcb5f709f">BIBLIO.BAS</file>
+		<file size="12318" time="1984-01-18 00:02:20" attr="0x20" md5="aa310335f215f5e4efaccd2ae94c3bd4">ECOPIE.BAS</file>
+		<file size="1699" time="1983-12-10 14:02:28" attr="0x20" md5="39a699afc58b68606e004c2eeeb9457c">FEDTAX83.BAS</file>
+		<file size="1104" time="1983-11-16 17:53:08" attr="0x20" md5="fbc841c640d79cfa53291e2e22c2092d">FEDTAX83.DAT</file>
+		<file size="23896" time="1984-01-17 13:15:02" attr="0x20" md5="8d095e3a7a7aa22dcf6882209efb2e7f">JUNIOR.BAS</file>
+		<file size="6912" time="1983-10-22 21:16:38" attr="0x20" md5="39c4099b175d7b6769eabad3ce2e88a6">MERGEF.EXE</file>
+		<file size="2960" time="1984-01-31 12:19:02" attr="0x20" md5="d32d76a0fe7616dd1226880d715ef039">PCDUMP.COM</file>
+		<file size="19350" time="1984-02-06 20:08:28" attr="0x20" md5="8dace0bfa5f0c0ecbfe6634d21026596">PIECHART.BAS</file>
+		<file size="1024" time="1983-10-20 00:00:00" attr="0x20" md5="fc2464c5552c266af4824aad7d9c6a31">QUIKPRO1.BAS</file>
+		<file size="7296" time="1983-01-01 00:00:00" attr="0x20" md5="1040ef58500181535a31a5f369e10a61">RANDWRT</file>
+		<file size="23808" time="1984-01-29 00:00:00" attr="0x20" md5="0af37bdbc1ad445d4b4944aa900c8915">RANDWRT2</file>
+		<file size="7040" time="1983-10-22 15:12:04" attr="0x20" md5="099ce11f0e93d366e9186f673eb72e34">SORTF.EXE</file>
+		<file size="10125" time="1984-01-17 13:22:24" attr="0x20" md5="9f25333f5e06f841d6a8351078290b0d">TRANSORT.BAS</file>
+	</disk>
+	<disk id="disk05" size="163840" chs="40:1:8" img="archive/PCDISKMAG-DISK5.img" href="/disks-demo/pcx86/shareware/pcdiskmag/PCDISKMAG-DISK5.json" md5="7d893f04154bd423d0182545d6428244" md5json="6083f4b1144d87f3c22b3fcf45384246">
+		<name>PC Disk Magazine (Disk 5)</name>
+		<file size="1291" time="1984-03-11 13:24:08" attr="0x20" md5="6ce45ce971b00327a1f012d65ced7ece">ASSUME.DAT</file>
+		<file size="10175" time="1984-03-09 02:29:26" attr="0x20" md5="f6b660885cbbc14d7b228048ff23c2ca">BIO.BAS</file>
+		<file size="12181" time="1980-01-01 07:09:06" attr="0x20" md5="5b1a3865fb6582445691b711772e6f79">BUGFEAST.BAS</file>
+		<file size="1280" time="1983-10-31 02:11:42" attr="0x20" md5="cc13c514e1b8ccc1d8cd6ed83b46c2cd">FM.COM</file>
+		<file size="20224" time="1983-11-27 15:24:20" attr="0x20" md5="bb30af912eb9a0d74ae9fc947f66d659">FM.EXE</file>
+		<file size="965" time="1983-10-15 22:55:56" attr="0x20" md5="50a1f42f84b28475bbd273fa52784baa">FM.HLP</file>
+		<file size="4224" time="1983-02-22 19:54:20" attr="0x20" md5="7140e1bc69eb3bf03072b2d25b47fdb4">FM.LOG</file>
+		<file size="12267" time="1984-03-09 02:12:52" attr="0x20" md5="978738af8b3266c032a3172afa30cd52">JIGJAGS.BAS</file>
+		<file size="8576" time="1983-10-07 15:15:54" attr="0x20" md5="f1e306224367d1081160e2a934a4e5e2">MONTM</file>
+		<file size="780" time="1980-01-01 00:15:32" attr="0x20" md5="c6e9bf703407395a0494275b439f53a6">PIECES</file>
+		<file size="259" time="1980-01-01 01:56:40" attr="0x20" md5="6adf982d3189b944eeef995cfd427dc4">PUZZLE.SMP</file>
+		<file size="259" time="1980-01-01 00:07:12" attr="0x20" md5="8ee9871ac49f770debebaadd8e8d6342">PUZZLE1</file>
+		<file size="257" time="1980-01-01 02:03:22" attr="0x20" md5="fd0077f4482e19b9973ebd663dc06b23">PUZZLE2</file>
+		<file size="258" time="1980-01-01 01:34:24" attr="0x20" md5="0a71c1e54197ce0b1d8aeda32b36c761">PUZZLE3</file>
+		<file size="1024" time="1984-01-04 00:00:00" attr="0x20" md5="0d4ab1495bac753cfac55ded74131fef">QUIKPRO2.BAS</file>
+		<file size="6016" time="1984-01-04 00:00:00" attr="0x20" md5="db16032036e41b07817db80cf83141ae">RANDPRT</file>
+		<file size="23296" time="1980-01-01 00:04:10" attr="0x20" md5="522582256f6a3060c5acd06ba3d3fb56">RANDPRT2</file>
+		<file size="5747" time="1984-03-09 04:01:08" attr="0x20" md5="2c1d8a4b2b029c0c1d1dc80723439c17">SCREEN</file>
+		<file size="6656" time="1984-02-25 00:27:00" attr="0x20" md5="475e7a5d855772a62594d946c8a940c4">SETKEY.EXE</file>
+		<file size="8192" time="1983-10-06 07:34:26" attr="0x20" md5="e18e2e6ac4ab11e0f3fb8d1bf15333af">SHARK</file>
+		<file size="7328" time="1980-01-01 00:04:56" attr="0x20" md5="3ff3e4afea6ae22c4f7da88a356fefb8">SHARKHUN.COM</file>
+		<file size="11613" time="1984-03-14 05:31:32" attr="0x20" md5="7101ddc8d8c418324d17228f8153d532">TUTOR.BAS</file>
+		<file size="5951" time="1984-03-09 01:50:34" attr="0x20" md5="334627e89399dc62751f61d71bbc16e6">WINE1.BAS</file>
+		<file size="7040" time="1984-03-06 11:35:18" attr="0x20" md5="9fe363d5299ac5d60ed5954d3660dedc">WINE1.DAT</file>
+	</disk>
+	<disk id="disk06" size="163840" chs="40:1:8" img="archive/PCDISKMAG-DISK6.img" href="/disks-demo/pcx86/shareware/pcdiskmag/PCDISKMAG-DISK6.json" md5="c51e7800b2f6a68527330f9dc9dec970" md5json="c5354c34236b247812328f115493cc5e">
+		<name>PC Disk Magazine (Disk 6)</name>
+		<file size="54" time="1984-05-28 00:33:32" attr="0x20" md5="083c305a8801062d630ff6c1193c8afe">BEST</file>
+		<file size="12657" time="1984-05-28 04:21:58" attr="0x20" md5="1b03f92c3af22a9106b76e1ef3ca2998">CHAM.BAS</file>
+		<file size="3393" time="1984-05-28 00:21:34" attr="0x20" md5="256423f9419cff44d6fd3a8b281e3f23">DIRREAD.BAS</file>
+		<file size="359" time="1984-05-28 00:22:24" attr="0x20" md5="ea27f5a270144661973728ca1c25985f">DIRREAD.BIN</file>
+		<file size="8192" time="1984-05-28 00:26:58" attr="0x20" md5="382e19f1ba6a621c760003ad9859f590">ER.DAT</file>
+		<file size="28928" time="1984-05-28 00:24:56" attr="0x20" md5="04ccd6ed25bd7f71d72125cb97030d0b">ER.EXE</file>
+		<file size="1506" time="1984-05-28 00:23:08" attr="0x20" md5="41610ac5aa7428fa87b1c006b7b7fdb0">FMPRNT.HLP</file>
+		<file size="24448" time="1984-05-28 00:17:02" attr="0x20" md5="aed2a2426b4e07e5b462bbb488aba7f3">FMPRNT.LOD</file>
+		<file size="12059" time="1984-05-28 04:20:16" attr="0x20" md5="c508d22aa71e309c59b6e8ac665ad1a0">FNPLOT.BAS</file>
+		<file size="21248" time="1984-05-28 00:40:22" attr="0x20" md5="514c33008e27f3921663d5e01b4a2585">FOG.EXE</file>
+		<file size="12283" time="1984-05-28 04:21:28" attr="0x20" md5="90d733631f0a83d221ce76dc44696eff">JIGJAGS.BAS</file>
+		<file size="780" time="1984-05-28 00:35:08" attr="0x20" md5="c6e9bf703407395a0494275b439f53a6">PIECES</file>
+		<file size="259" time="1984-05-28 00:36:10" attr="0x20" md5="6adf982d3189b944eeef995cfd427dc4">PUZZLE.SMP</file>
+		<file size="257" time="1984-05-28 00:35:30" attr="0x20" md5="596930687bba53c3b0ea4f49a45df4a3">PUZZLE4</file>
+		<file size="258" time="1984-05-28 00:36:26" attr="0x20" md5="416804b762e5c659b08a58654257f6df">PUZZLE5</file>
+		<file size="257" time="1984-05-28 00:36:38" attr="0x20" md5="809ec4e15414df3abdb3bec2df70bb2a">PUZZLE6</file>
+		<file size="12979" time="1984-05-28 01:38:34" attr="0x20" md5="100d8bf47378e6191cf9833deb7bd9ab">SM.BAS</file>
+		<file size="256" time="1984-05-28 00:26:14" attr="0x20" md5="5878d67f5a88cf8df7591fcfc4ae4771">TOYS.WRD</file>
+		<file size="5950" time="1984-05-28 00:31:18" attr="0x20" md5="95e4c06ceffc84bfee0a7b66f968d095">WINE2.BAS</file>
+		<file size="9088" time="1984-05-28 05:16:40" attr="0x20" md5="abefc45bc67a5a1bebabbf0229750792">WINE2.DAT</file>
+	</disk>
+	<disk id="disk07" size="163840" chs="40:1:8" img="archive/PCDISKMAG-DISK7.img" href="/disks-demo/pcx86/shareware/pcdiskmag/PCDISKMAG-DISK7.json" md5="dd656c1c1917ca66fe8222547f4b0e4d" md5json="b2403953fbb35149f4049fbad06f314e">
+		<name>PC Disk Magazine (Disk 7)</name>
+		<file size="15188" time="1984-07-09 02:11:52" attr="0x20" md5="d3766aefc0b925a29872d5ede92b8767">CURVEFIT.BAS</file>
+		<file size="256" time="1984-07-09 02:08:44" attr="0x20" md5="8d65c3d1114df790f32230941a5ee677">EXPONENT.DAT</file>
+		<file size="29410" time="1984-07-09 00:01:22" attr="0x20" md5="7e168cb09a47943110502ed8a31ecf40">FALKLAND.BAS</file>
+		<file size="1923" time="1984-07-09 03:26:24" attr="0x20" md5="f045442838aa10ee57b57ccb0c4c3cac">FMVIEW.HLP</file>
+		<file size="29952" time="1984-07-09 03:25:50" attr="0x20" md5="391d69452e23590ece8025be9974f761">FMVIEW.LOD</file>
+		<file size="14876" time="1984-07-09 04:01:50" attr="0x20" md5="cab9c6b99d2765313bdfab948f16a410">FUNNELS.BAS</file>
+		<file size="12276" time="1984-07-09 04:00:42" attr="0x20" md5="441cba1c62548aecd7cb448b44ce53a6">JIGJAGS.BAS</file>
+		<file size="26336" time="1984-07-09 04:01:22" attr="0x20" md5="10ead015a2b3a7a7c2572668139ae0f6">LABEL.BAS</file>
+		<file size="256" time="1984-07-09 02:07:42" attr="0x20" md5="949f27d6fa98659b05fb6ee74fda4b36">LINEAR.DAT</file>
+		<file size="128" time="1984-07-09 02:10:20" attr="0x20" md5="a20755a6f7d2935ab215a8d851b6076a">LOG.DAT</file>
+		<file size="780" time="1984-07-09 04:55:42" attr="0x20" md5="c6e9bf703407395a0494275b439f53a6">PIECES</file>
+		<file size="256" time="1984-07-09 02:04:34" attr="0x20" md5="09ec8f765fd791853d2e7afc38a7147d">POWER.DAT</file>
+		<file size="2561" time="1984-07-09 04:50:50" attr="0x20" md5="affcab24b18e7b1dbeb9ce496fc79af0">PRINTFMT.EXE</file>
+		<file size="259" time="1984-07-09 04:52:40" attr="0x20" md5="6adf982d3189b944eeef995cfd427dc4">PUZZLE.SMP</file>
+		<file size="257" time="1984-07-09 04:53:52" attr="0x20" md5="ebc965de0af6863f30f198313f4f2116">PUZZLE7</file>
+		<file size="259" time="1984-07-09 04:54:48" attr="0x20" md5="94e48fadef5cc78b18386a1a3d6b9e07">PUZZLE8</file>
+		<file size="259" time="1984-07-09 04:56:20" attr="0x20" md5="c54701afe5afa9f461609b2287cb2ce1">PUZZLE9</file>
+		<file size="256" time="1984-07-09 02:09:22" attr="0x20" md5="834844313878e368c86b275dc0fabddb">SECOND.DAT</file>
+		<file size="5676" time="1984-07-09 04:02:04" attr="0x20" md5="fbebf6a4ce12d515e357a8e8cc550bd0">WINE3.BAS</file>
+		<file size="7337" time="1984-07-09 00:01:50" attr="0x20" md5="b4ad4f826144515361eabb32d7d94328">WINE3.DAT</file>
+	</disk>
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.74.0/manifest.xsl"?>
+<manifest type="software">
+	<title>APL</title>
+	<version>1.00</version>
+	<publisher>IBM</publisher>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/APL-100.img" href="/disks-demo/pcx86/tools/ibm/apl/1.00/APL-100.json" md5="2edd4a22f74aa1ae8a5f63f1e74f8f48" md5json="8e9566a61090c5c24ba9357b6efb589c">
+		<name>IBM APL 1.00</name>
+		<file size="2659" time="1983-05-23 12:00:00" attr="0x20" md5="e67cf0285c064f6f23aee871f956815f">$APMAC.ASM</file>
+		<file size="1568" time="1983-05-23 12:00:00" attr="0x20" md5="10bc7ffaa817e70557d0148992994f91">$SCR.COM</file>
+		<file size="1608" time="1983-05-23 12:00:00" attr="0x20" md5="388740ab925985902fce969992c890c0">$SVP.COM</file>
+		<file size="672" time="1983-05-23 12:00:00" attr="0x20" md5="e5a4fc625afe3532639e36d45d836909">AP100.COM</file>
+		<file size="8387" time="1983-05-23 12:00:00" attr="0x20" md5="bd559732cc7a937c159f6451070979bd">AP205.COM</file>
+		<file size="3754" time="1983-05-23 12:00:00" attr="0x20" md5="07c579ece1ad46ba5075a2d080d64fc9">AP210.COM</file>
+		<file size="5098" time="1983-05-23 12:00:00" attr="0x20" md5="3349c556016c1d27d38e97bac1a2576f">AP232.COM</file>
+		<file size="1419" time="1983-05-23 12:00:00" attr="0x20" md5="aad145c6e2460e1499802e1d447a0c44">AP440.COM</file>
+		<file size="1141" time="1983-05-23 12:00:00" attr="0x20" md5="5ec861852dcad9172250e233f6bf5253">AP80.COM</file>
+		<file size="68480" time="1983-05-23 12:00:00" attr="0x20" md5="626125407dc0540d0d94fbe67260fdf4">APL.EXE</file>
+		<file size="128" time="1983-05-23 12:00:00" attr="0x20" md5="0f812ac5c93e6bb9024af7b65d62a528">APLFD.BAT</file>
+		<file size="6080" time="1983-05-23 12:00:00" attr="0x20" md5="3e21f9ae9967e547e01dd78901271f8e">EDIT____.AIO</file>
+		<file size="7165" time="1983-05-23 12:00:00" attr="0x20" md5="353ac7ab8df112d294bf113bf2b26722">EXAPL.COM</file>
+		<file size="256" time="1983-05-23 12:00:00" attr="0x20" md5="8d7d0d21d2fa4f637ba44bc45c3f81c5">FDTRANS.BAT</file>
+		<file size="10480" time="1983-05-23 12:00:00" attr="0x20" md5="5011264ee0459417d30f84685c1c9e94">FILE____.AIO</file>
+		<file size="4400" time="1983-05-23 12:00:00" attr="0x20" md5="c97abc30d04c84c83c01346c0c62fcf5">MUSIC___.AIO</file>
+		<file size="1280" time="1983-05-23 12:00:00" attr="0x20" md5="cd7ec81eea857c40ad6645b09c674e66">PRINT___.AIO</file>
+		<file size="22880" time="1983-05-23 12:00:00" attr="0x20" md5="834ceb2da0ac65e0797632151d7ffe33">VM232___.AIO</file>
+	</disk>
+</manifest>

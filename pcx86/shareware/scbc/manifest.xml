@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.74.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Small Computer Book Club</title>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SCBC-1990.img" href="/disks-demo/pcx86/shareware/scbc/SCBC-1990.json" md5="93e46426ff5f7f22b9f3475ca90836ee" md5json="7f85e4fd8b636ee81903b8461c1d244c">
+		<name>Small Computer Book Club (1990)</name>
+		<file size="1136" time="1990-11-05 18:28:38" attr="0x20" md5="a1fcd40e466ecf95592f04aed2f27c5e">DIREX</file>
+		<file size="12509" time="1990-11-06 14:19:14" attr="0x20" md5="ec26589f841753753652a68f0507b760">DOCUMENT</file>
+		<file size="22022" time="1989-10-01 01:02:00" attr="0x20" md5="2777a914fffea410433225d798a1e2ce">PKUNZIP.EXE</file>
+		<file size="316836" time="1990-06-03 20:17:48" attr="0x20" md5="44093c6dd272be85c138354117714eed">PROGRAMS.ZIP</file>
+		<file size="199" time="1990-11-05 19:13:24" attr="0x20" md5="a4822f76f6601b57dd7efbc0b971cf42">RUN-A.BAT</file>
+		<file size="199" time="1990-11-05 19:14:58" attr="0x20" md5="5b54077f6d513f3eed5213d3379f4d38">RUN-B.BAT</file>
+	</disk>
+</manifest>

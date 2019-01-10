@@ -211,6 +211,7 @@
 		<manifest ref="/disks-demo/pcx86/shareware/pcmag/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/shareware/pctj/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/shareware/pcsig08/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/shareware/scbc/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/shareware/unprot/manifest.xml"/>
 		<manifest ref="/disks-game/pcx86/id/commander_keen/manifest.xml"/>
 		<manifest ref="/disks-game/pcx86/id/wolf3d/manifest.xml"/>

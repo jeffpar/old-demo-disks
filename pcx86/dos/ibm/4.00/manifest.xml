@@ -9,109 +9,117 @@
 	<releaseDate/>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK1.img" href="/disks-demo/pcx86/dos/ibm/4.00/PCDOS400-DISK1.json" md5="5b57cb48f46e3d0aa76b286ec40cf2ad" md5json="df4f6901222c6bc71c15b16017474f4e">
 		<name>PC DOS 4.00 (Disk 1)</name>
-		<file size="109" time="1988-06-17 12:00:00" attr="0x20">012345.678</file>
-		<file size="39" time="1988-06-17 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
-		<file size="37637" time="1988-06-17 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="96" time="1988-06-17 12:00:00" attr="0x20">CONFIG.SYS</file>
-		<file size="12838" time="1988-06-17 12:00:00" attr="0x20">COUNTRY.SYS</file>
-		<file size="10428" time="1988-06-17 12:00:00" attr="0x20">DISKCOPY.COM</file>
-		<file size="15741" time="1988-06-17 12:00:00" attr="0x20">DISPLAY.SYS</file>
-		<file size="0" time="1988-06-17 12:00:00" attr="0x20">DOS00I.400</file>
-		<file size="70151" time="1988-06-17 12:00:00" attr="0x20">FDISK.COM</file>
-		<file size="22923" time="1988-06-17 12:00:00" attr="0x20">FORMAT.COM</file>
-		<file size="32816" time="1988-08-03 12:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="36000" time="1988-08-03 12:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="14759" time="1988-06-17 12:00:00" attr="0x20">KEYB.COM</file>
-		<file size="23360" time="1988-08-03 12:00:00" attr="0x20">KEYBOARD.SYS</file>
-		<file size="17199" time="1988-06-17 12:00:00" attr="0x20">REPLACE.EXE</file>
-		<file size="3674" time="1988-08-03 12:00:00" attr="0x20">SELECT.COM</file>
-		<file size="27562" time="1988-08-03 12:00:00" attr="0x20">SELECT.HLP</file>
-		<file size="1594" time="1988-08-03 12:00:00" attr="0x20">SELECT.PRT</file>
-		<file size="11472" time="1988-06-17 12:00:00" attr="0x20">SYS.COM</file>
+		<file size="109" time="1988-06-17 12:00:00" attr="0x20" md5="7fe6c2d1fb35f124c7670337c7df3250">012345.678</file>
+		<file size="39" time="1988-06-17 12:00:00" attr="0x20" md5="aaff58fed7cce4f4d612bb399176d012">AUTOEXEC.BAT</file>
+		<file size="37637" time="1988-06-17 12:00:00" attr="0x20" md5="2007ad825c1db01fc226527243b8c8e7">COMMAND.COM</file>
+		<file size="96" time="1988-06-17 12:00:00" attr="0x20" md5="f8b7240f77a7ee58eb022f71f9d00b90">CONFIG.SYS</file>
+		<file size="12838" time="1988-06-17 12:00:00" attr="0x20" md5="5155d2677de5aee462c211c99419da08">COUNTRY.SYS</file>
+		<file size="10428" time="1988-06-17 12:00:00" attr="0x20" md5="dc74cd3851df7e8c574c580c514543a0">DISKCOPY.COM</file>
+		<file size="15741" time="1988-06-17 12:00:00" attr="0x20" md5="4fb08dcae99caf57a6c1dec70b3101b5">DISPLAY.SYS</file>
+		<file size="0" time="1988-06-17 12:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">DOS00I.400</file>
+		<file size="70151" time="1988-06-17 12:00:00" attr="0x20" md5="9e1b735934e4407a99d3ac93f5b7b475">FDISK.COM</file>
+		<file size="22923" time="1988-06-17 12:00:00" attr="0x20" md5="d9b4fc23ae7f4c10c1a767255318774f">FORMAT.COM</file>
+		<file size="32816" time="1988-08-03 12:00:00" attr="0x20" md5="84a0f13b1a10bd2971fb1531c706eaa0">IBMBIO.COM</file>
+		<file size="36000" time="1988-08-03 12:00:00" attr="0x20" md5="f91bc37bf644696cdb6e5fa7795ff84f">IBMDOS.COM</file>
+		<file size="14759" time="1988-06-17 12:00:00" attr="0x20" md5="d88bc1102d1a8a9ea8771c83507ca163">KEYB.COM</file>
+		<file size="23360" time="1988-08-03 12:00:00" attr="0x20" md5="f2f243742b490e3c560a906e3c746f82">KEYBOARD.SYS</file>
+		<file size="17199" time="1988-06-17 12:00:00" attr="0x20" md5="5ca93c220981550128decca98a496730">REPLACE.EXE</file>
+		<file size="3674" time="1988-08-03 12:00:00" attr="0x20" md5="aecc04be142e19ed832ba8ede8a4ca8d">SELECT.COM</file>
+		<file size="27562" time="1988-08-03 12:00:00" attr="0x20" md5="6100be58d3a3d2e7154b754cec481959">SELECT.HLP</file>
+		<file size="1594" time="1988-08-03 12:00:00" attr="0x20" md5="635ef9b32b58881b6fb900d5358cbf96">SELECT.PRT</file>
+		<file size="11472" time="1988-06-17 12:00:00" attr="0x20" md5="2a63244c55f49b9c2da1046d100d94dc">SYS.COM</file>
 	</disk>
 	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK2.img" href="/disks-demo/pcx86/dos/ibm/4.00/PCDOS400-DISK2.json" md5="91403cee04802a0b28ccfd3e22511c72" md5json="2b49f75fda1409a7d2856be05cba71da">
 		<name>PC DOS 4.00 (Disk 2)</name>
-		<file size="5785" time="1988-06-17 12:00:00" attr="0x20">ASSIGN.COM</file>
-		<file size="18247" time="1988-06-17 12:00:00" attr="0x20">ATTRIB.EXE</file>
-		<file size="1065" time="1988-06-17 12:00:00" attr="0x20">BASIC.COM</file>
-		<file size="36285" time="1988-06-17 12:00:00" attr="0x20">BASICA.COM</file>
-		<file size="37637" time="1988-06-17 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="9491" time="1988-06-17 12:00:00" attr="0x20">COMP.COM</file>
-		<file size="21606" time="1988-06-17 12:00:00" attr="0x20">DEBUG.COM</file>
-		<file size="9889" time="1988-06-17 12:00:00" attr="0x20">DISKCOMP.COM</file>
-		<file size="0" time="1988-06-17 12:00:00" attr="0x20">DOS01I.400</file>
-		<file size="14249" time="1988-06-17 12:00:00" attr="0x20">EDLIN.COM</file>
-		<file size="11125" time="1988-06-17 12:00:00" attr="0x20">FILESYS.EXE</file>
-		<file size="5983" time="1988-06-17 12:00:00" attr="0x20">FIND.EXE</file>
-		<file size="21653" time="1988-08-03 12:00:00" attr="0x20">IFSFUNC.EXE</file>
-		<file size="17457" time="1988-06-17 12:00:00" attr="0x20">JOIN.EXE</file>
-		<file size="4490" time="1988-06-17 12:00:00" attr="0x20">LABEL.COM</file>
-		<file size="20133" time="1988-06-17 12:00:00" attr="0x20">MEM.EXE</file>
-		<file size="23056" time="1988-08-03 12:00:00" attr="0x20">MODE.COM</file>
-		<file size="2166" time="1988-06-17 12:00:00" attr="0x20">MORE.COM</file>
-		<file size="6207" time="1988-06-17 12:00:00" attr="0x20">MORTGAGE.BAS</file>
-		<file size="10301" time="1988-08-03 12:00:00" attr="0x20">SHARE.EXE</file>
-		<file size="5914" time="1988-06-17 12:00:00" attr="0x20">SORT.EXE</file>
-		<file size="18143" time="1988-06-17 12:00:00" attr="0x20">SUBST.EXE</file>
-		<file size="6334" time="1988-06-17 12:00:00" attr="0x20">TREE.COM</file>
-		<file size="17087" time="1988-06-17 12:00:00" attr="0x20">XCOPY.EXE</file>
+		<file size="5785" time="1988-06-17 12:00:00" attr="0x20" md5="315e0b18f4bcba6e27d4d9173c9da691">ASSIGN.COM</file>
+		<file size="18247" time="1988-06-17 12:00:00" attr="0x20" md5="d5b7f01fee3be88fad7237b7178ea31f">ATTRIB.EXE</file>
+		<file size="1065" time="1988-06-17 12:00:00" attr="0x20" md5="0eed942c07252e502b2e980192227a2e">BASIC.COM</file>
+		<file size="36285" time="1988-06-17 12:00:00" attr="0x20" md5="016b5913818841196de05f1cfc7061f5">BASICA.COM</file>
+		<file size="37637" time="1988-06-17 12:00:00" attr="0x20" md5="2007ad825c1db01fc226527243b8c8e7">COMMAND.COM</file>
+		<file size="9491" time="1988-06-17 12:00:00" attr="0x20" md5="75351c9710b21fe30fa1a5a28376fcf7">COMP.COM</file>
+		<file size="21606" time="1988-06-17 12:00:00" attr="0x20" md5="9e5f368a2cc35ef289d86f9448048309">DEBUG.COM</file>
+		<file size="9889" time="1988-06-17 12:00:00" attr="0x20" md5="c4223aca87c6c97f0160288268a0639d">DISKCOMP.COM</file>
+		<file size="0" time="1988-06-17 12:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">DOS01I.400</file>
+		<file size="14249" time="1988-06-17 12:00:00" attr="0x20" md5="12fd4063ed41ff60654cfe3142f77349">EDLIN.COM</file>
+		<file size="11125" time="1988-06-17 12:00:00" attr="0x20" md5="c6b96cd37bec006225738109b93b6358">FILESYS.EXE</file>
+		<file size="5983" time="1988-06-17 12:00:00" attr="0x20" md5="d37613cb4f62cc39d1e9d3210f18eca8">FIND.EXE</file>
+		<file size="21653" time="1988-08-03 12:00:00" attr="0x20" md5="d7dda596aeff8cfeebae67f373f0aed9">IFSFUNC.EXE</file>
+		<file size="17457" time="1988-06-17 12:00:00" attr="0x20" md5="86276319b078d2056eeeccac57029d17">JOIN.EXE</file>
+		<file size="4490" time="1988-06-17 12:00:00" attr="0x20" md5="4081aea6fdff98e164da8cd036aed6e9">LABEL.COM</file>
+		<file size="20133" time="1988-06-17 12:00:00" attr="0x20" md5="eedcf33f318cac2f347377a15cbcff3e">MEM.EXE</file>
+		<file size="23056" time="1988-08-03 12:00:00" attr="0x20" md5="1f0c5cac6880dcec55375764bfe144ab">MODE.COM</file>
+		<file size="2166" time="1988-06-17 12:00:00" attr="0x20" md5="e8efb59324a8949f1715716d18e2b67b">MORE.COM</file>
+		<file size="6207" time="1988-06-17 12:00:00" attr="0x20" md5="d270b93f62d3552e2222b48cf7c2b0c7">MORTGAGE.BAS</file>
+		<file size="10301" time="1988-08-03 12:00:00" attr="0x20" md5="cbea8a8ac78624477ac368f630bca0ed">SHARE.EXE</file>
+		<file size="5914" time="1988-06-17 12:00:00" attr="0x20" md5="69b8a361a548678ff9beff5ff3be1d4c">SORT.EXE</file>
+		<file size="18143" time="1988-06-17 12:00:00" attr="0x20" md5="1ddd0d0eac3a25ccaa73768e2b5d3137">SUBST.EXE</file>
+		<file size="6334" time="1988-06-17 12:00:00" attr="0x20" md5="8556fe50460e5fcb709011dab200e8ae">TREE.COM</file>
+		<file size="17087" time="1988-06-17 12:00:00" attr="0x20" md5="a19d00ce3a1f34cc5d1479dc532eec89">XCOPY.EXE</file>
 	</disk>
 	<disk id="disk03" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK3.img" href="/disks-demo/pcx86/dos/ibm/4.00/PCDOS400-DISK3.json" md5="ce397160ca9338aee2468ca19dbf0cec" md5json="d6d5cd469ee2e09ed9d4f14c8ebf66f8">
 		<name>PC DOS 4.00 (Disk 3)</name>
-		<file size="109" time="1988-06-17 12:00:00" attr="0x20">012345.678</file>
-		<file size="17771" time="1988-06-17 12:00:00" attr="0x20">CHKDSK.COM</file>
-		<file size="37637" time="1988-06-17 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="10428" time="1988-06-17 12:00:00" attr="0x20">DISKCOPY.COM</file>
-		<file size="0" time="1988-06-17 12:00:00" attr="0x20">DOS02I.400</file>
-		<file size="6660" time="1988-06-17 12:00:00" attr="0x20">DOSUTIL.MEU</file>
-		<file size="295" time="1988-06-17 12:00:00" attr="0x20">PCIBMDRV.MOS</file>
-		<file size="961" time="1988-06-17 12:00:00" attr="0x20">PCMSDRV.MOS</file>
-		<file size="801" time="1988-06-17 12:00:00" attr="0x20">PCMSPDRV.MOS</file>
-		<file size="14024" time="1988-08-03 12:00:00" attr="0x20">PRINT.COM</file>
-		<file size="4438" time="1988-06-17 12:00:00" attr="0x20">SHELL.CLR</file>
-		<file size="65667" time="1988-08-03 12:00:00" attr="0x20">SHELL.HLP</file>
-		<file size="4588" time="1988-08-03 12:00:00" attr="0x20">SHELL.MEU</file>
-		<file size="3937" time="1988-08-03 12:00:00" attr="0x20">SHELLB.COM</file>
-		<file size="154377" time="1988-08-03 12:00:00" attr="0x20">SHELLC.EXE</file>
+		<file size="109" time="1988-06-17 12:00:00" attr="0x20" md5="7fe6c2d1fb35f124c7670337c7df3250">012345.678</file>
+		<file size="17771" time="1988-06-17 12:00:00" attr="0x20" md5="5bbbf31d772241a5b83b19fdf944d87f">CHKDSK.COM</file>
+		<file size="37637" time="1988-06-17 12:00:00" attr="0x20" md5="2007ad825c1db01fc226527243b8c8e7">COMMAND.COM</file>
+		<file size="10428" time="1988-06-17 12:00:00" attr="0x20" md5="dc74cd3851df7e8c574c580c514543a0">DISKCOPY.COM</file>
+		<file size="0" time="1988-06-17 12:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">DOS02I.400</file>
+		<file size="6660" time="1988-06-17 12:00:00" attr="0x20" md5="7b9cce2a802baadb01eb96d5c4a59f9b">DOSUTIL.MEU</file>
+		<file size="295" time="1988-06-17 12:00:00" attr="0x20" md5="c4e5ae82359ac6623e0b019c3db914f4">PCIBMDRV.MOS</file>
+		<file size="961" time="1988-06-17 12:00:00" attr="0x20" md5="381d70d7ef6c5bbcae8f3f4f185a3afc">PCMSDRV.MOS</file>
+		<file size="801" time="1988-06-17 12:00:00" attr="0x20" md5="ac812e11f021b8e3ba2c9d0942baa14b">PCMSPDRV.MOS</file>
+		<file size="14024" time="1988-08-03 12:00:00" attr="0x20" md5="a6c48b4032251aebdc2abb290c8a90eb">PRINT.COM</file>
+		<file size="4438" time="1988-06-17 12:00:00" attr="0x20" md5="7899b82856dfffe95d7f09348ca6f56a">SHELL.CLR</file>
+		<file size="65667" time="1988-08-03 12:00:00" attr="0x20" md5="97ef8b47360c77cff3ed4fe683abeb34">SHELL.HLP</file>
+		<file size="4588" time="1988-08-03 12:00:00" attr="0x20" md5="133d1160465ae0694d41800e7093c3a1">SHELL.MEU</file>
+		<file size="3937" time="1988-08-03 12:00:00" attr="0x20" md5="836c513d5f2c5f45413b8f947740ac36">SHELLB.COM</file>
+		<file size="154377" time="1988-08-03 12:00:00" attr="0x20" md5="c0a2970af296497822e10a03a17991e7">SHELLC.EXE</file>
 	</disk>
 	<disk id="disk04" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK4.img" href="/disks-demo/pcx86/dos/ibm/4.00/PCDOS400-DISK4.json" md5="3e4a24bc28238076a3463e1565a20fb5" md5json="48f7fd02b9766f4371a370c53654c3e5">
 		<name>PC DOS 4.00 (Disk 4)</name>
-		<file size="6404" time="1988-06-17 12:00:00" attr="0x20">4201.CPI</file>
-		<file size="641" time="1988-06-17 12:00:00" attr="0x20">4208.CPI</file>
-		<file size="402" time="1988-06-17 12:00:00" attr="0x20">5202.CPI</file>
-		<file size="9148" time="1988-06-17 12:00:00" attr="0x20">ANSI.SYS</file>
-		<file size="11186" time="1988-08-03 12:00:00" attr="0x20">APPEND.EXE</file>
-		<file size="37637" time="1988-06-17 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="12838" time="1988-06-17 12:00:00" attr="0x20">COUNTRY.SYS</file>
-		<file size="15741" time="1988-06-17 12:00:00" attr="0x20">DISPLAY.SYS</file>
-		<file size="0" time="1988-06-17 12:00:00" attr="0x20">DOS03I.400</file>
-		<file size="5274" time="1988-06-17 12:00:00" attr="0x20">DRIVER.SYS</file>
-		<file size="16302" time="1988-06-17 12:00:00" attr="0x20">FASTOPEN.EXE</file>
-		<file size="10271" time="1988-06-17 12:00:00" attr="0x20">GRAFTABL.COM</file>
-		<file size="16733" time="1988-06-17 12:00:00" attr="0x20">GRAPHICS.COM</file>
-		<file size="9413" time="1988-06-17 12:00:00" attr="0x20">GRAPHICS.PRO</file>
-		<file size="32816" time="1988-08-03 12:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="36000" time="1988-08-03 12:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="14759" time="1988-06-17 12:00:00" attr="0x20">KEYB.COM</file>
-		<file size="23360" time="1988-08-03 12:00:00" attr="0x20">KEYBOARD.SYS</file>
-		<file size="23056" time="1988-08-03 12:00:00" attr="0x20">MODE.COM</file>
-		<file size="6910" time="1988-06-17 12:00:00" attr="0x20">NLSFUNC.EXE</file>
-		<file size="18946" time="1988-06-17 12:00:00" attr="0x20">PRINTER.SYS</file>
-		<file size="10732" time="1988-06-17 12:00:00" attr="0x20">RECOVER.COM</file>
-		<file size="6376" time="1988-06-17 12:00:00" attr="0x20">VDISK.SYS</file>
+		<file size="6404" time="1988-06-17 12:00:00" attr="0x20" md5="042cd56a70ca4685ce0d3e4e3560a1a9">4201.CPI</file>
+		<file size="641" time="1988-06-17 12:00:00" attr="0x20" md5="b5e376b91080ac1c8f378b0e18d7b262">4208.CPI</file>
+		<file size="402" time="1988-06-17 12:00:00" attr="0x20" md5="b87494017f5fc6f5f060c30b421b31bf">5202.CPI</file>
+		<file size="9148" time="1988-06-17 12:00:00" attr="0x20" md5="5460ef6160b4ec70b22a7913f6ff97c4">ANSI.SYS</file>
+		<file size="11186" time="1988-08-03 12:00:00" attr="0x20" md5="a66025eee1f156b038ce81589b6b81fe">APPEND.EXE</file>
+		<file size="37637" time="1988-06-17 12:00:00" attr="0x20" md5="2007ad825c1db01fc226527243b8c8e7">COMMAND.COM</file>
+		<file size="12838" time="1988-06-17 12:00:00" attr="0x20" md5="5155d2677de5aee462c211c99419da08">COUNTRY.SYS</file>
+		<file size="15741" time="1988-06-17 12:00:00" attr="0x20" md5="4fb08dcae99caf57a6c1dec70b3101b5">DISPLAY.SYS</file>
+		<file size="0" time="1988-06-17 12:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">DOS03I.400</file>
+		<file size="5274" time="1988-06-17 12:00:00" attr="0x20" md5="b1a7ef7e73f7ef3e934be88d8c9cc978">DRIVER.SYS</file>
+		<file size="16302" time="1988-06-17 12:00:00" attr="0x20" md5="806f2bc2688a52640dec6c230f74bb24">FASTOPEN.EXE</file>
+		<file size="10271" time="1988-06-17 12:00:00" attr="0x20" md5="db430d65eb7d09d3923ad6ec1c0bc8f0">GRAFTABL.COM</file>
+		<file size="16733" time="1988-06-17 12:00:00" attr="0x20" md5="b4cd8d93e61b8eb5135a8495bcb0d45b">GRAPHICS.COM</file>
+		<file size="9413" time="1988-06-17 12:00:00" attr="0x20" md5="0e96e97e470c2e634d55f934c21cce36">GRAPHICS.PRO</file>
+		<file size="32816" time="1988-08-03 12:00:00" attr="0x20" md5="84a0f13b1a10bd2971fb1531c706eaa0">IBMBIO.COM</file>
+		<file size="36000" time="1988-08-03 12:00:00" attr="0x20" md5="f91bc37bf644696cdb6e5fa7795ff84f">IBMDOS.COM</file>
+		<file size="14759" time="1988-06-17 12:00:00" attr="0x20" md5="d88bc1102d1a8a9ea8771c83507ca163">KEYB.COM</file>
+		<file size="23360" time="1988-08-03 12:00:00" attr="0x20" md5="f2f243742b490e3c560a906e3c746f82">KEYBOARD.SYS</file>
+		<file size="23056" time="1988-08-03 12:00:00" attr="0x20" md5="1f0c5cac6880dcec55375764bfe144ab">MODE.COM</file>
+		<file size="6910" time="1988-06-17 12:00:00" attr="0x20" md5="a6522d788c6dfbdcbad06568ecf2df7b">NLSFUNC.EXE</file>
+		<file size="18946" time="1988-06-17 12:00:00" attr="0x20" md5="8c3ed50860628bff97ae9f19ee0c00a8">PRINTER.SYS</file>
+		<file size="10732" time="1988-06-17 12:00:00" attr="0x20" md5="1dec9df52ffc3983e9a5f26f0dac10f4">RECOVER.COM</file>
+		<file size="6376" time="1988-06-17 12:00:00" attr="0x20" md5="6004047122fef3ae2ad2010831677076">VDISK.SYS</file>
 	</disk>
 	<disk id="disk05" size="368640" chs="40:2:9" img="archive/PCDOS400-DISK5.img" href="/disks-demo/pcx86/dos/ibm/4.00/PCDOS400-DISK5.json" md5="950630f35cfc9296d859209290e30a9d" md5json="82b5e52fee161f5cee228a6783c45336">
 		<name>PC DOS 4.00 (Disk 5)</name>
-		<file size="33754" time="1988-06-17 12:00:00" attr="0x20">BACKUP.COM</file>
-		<file size="0" time="1988-06-17 12:00:00" attr="0x20">DOS04L.400</file>
-		<file size="49052" time="1988-06-17 12:00:00" attr="0x20">EGA.CPI</file>
-		<file size="22923" time="1988-06-17 12:00:00" attr="0x20">FORMAT.COM</file>
-		<file size="10592" time="1988-06-17 12:00:00" attr="0x20">LCD.CPI</file>
-		<file size="23056" time="1988-08-03 12:00:00" attr="0x20">MODE.COM</file>
-		<file size="40030" time="1988-06-17 12:00:00" attr="0x20">RESTORE.COM</file>
-		<file size="22453" time="1988-08-03 12:00:00" attr="0x20">SELECT.DAT</file>
-		<file size="99545" time="1988-08-03 12:00:00" attr="0x20">SELECT.EXE</file>
-		<file size="29249" time="1988-08-03 12:00:00" attr="0x20">XMA2EMS.SYS</file>
-		<file size="19312" time="1988-06-17 12:00:00" attr="0x20">XMAEM.SYS</file>
+		<file size="33754" time="1988-06-17 12:00:00" attr="0x20" md5="f3206a66e530d3ba6d3435e9be46cfa4">BACKUP.COM</file>
+		<file size="0" time="1988-06-17 12:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">DOS04L.400</file>
+		<file size="49052" time="1988-06-17 12:00:00" attr="0x20" md5="53a2b87b7c61c5bdf52e90e0a1cf0ba1">EGA.CPI</file>
+		<file size="22923" time="1988-06-17 12:00:00" attr="0x20" md5="d9b4fc23ae7f4c10c1a767255318774f">FORMAT.COM</file>
+		<file size="10592" time="1988-06-17 12:00:00" attr="0x20" md5="89f8523bcfcc2b0e1ad7e98d372b2e25">LCD.CPI</file>
+		<file size="23056" time="1988-08-03 12:00:00" attr="0x20" md5="1f0c5cac6880dcec55375764bfe144ab">MODE.COM</file>
+		<file size="40030" time="1988-06-17 12:00:00" attr="0x20" md5="04e1d3f5a53690cc67fde5b842283b21">RESTORE.COM</file>
+		<file size="22453" time="1988-08-03 12:00:00" attr="0x20" md5="0ad464892a0eba72dead16ace78bbb1c">SELECT.DAT</file>
+		<file size="99545" time="1988-08-03 12:00:00" attr="0x20" md5="1cf2c489eccf12a7787185b9033b3aa8">SELECT.EXE</file>
+		<file size="29249" time="1988-08-03 12:00:00" attr="0x20" md5="55f601e7612ca27018babc24a16185c6">XMA2EMS.SYS</file>
+		<file size="19312" time="1988-06-17 12:00:00" attr="0x20" md5="0aeefa163d4b8cc140c0673eee5d17b8">XMAEM.SYS</file>
+	</disk>
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/PCDOS400-TECHREF.img" href="/disks-demo/pcx86/dos/ibm/4.00/PCDOS400-TECHREF.json" md5="52327fdcd5579c0ad65d967e0e991cce" md5json="2c4485708432b4ce92bc40f56ecad9b2">
+		<name>PC DOS 4.00 TechRef</name>
+		<file size="21606" time="1988-06-17 12:00:00" attr="0x20" md5="9e5f368a2cc35ef289d86f9448048309">DEBUG.COM</file>
+		<file size="7973" time="1988-06-17 12:00:00" attr="0x20" md5="11a5329fbefce46d5825199225a37681">EXE2BIN.EXE</file>
+		<file size="47107" time="1988-06-17 12:00:00" attr="0x20" md5="237e9d6d8e90524693d21ebe949304aa">LIB.EXE</file>
+		<file size="105406" time="1988-06-17 12:00:00" attr="0x20" md5="287e955e328c290fcdf93ac2b84cd10a">LINK.EXE</file>
+		<file size="75571" time="1988-06-17 12:00:00" attr="0x20" md5="a7c7fc4d469208ba702739eb8fce7262">VDISK.ASM</file>
 	</disk>
 </manifest>

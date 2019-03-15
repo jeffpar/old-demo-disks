@@ -9,122 +9,131 @@
 	<releaseDate/>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/PCDOS330-DISK1.img" href="/disks-demo/pcx86/dos/ibm/3.30/PCDOS330-DISK1.json" md5="7bf4880f06d232b8491ad5a0f7d966e5" md5json="1747d7a6e78c3c64ce417dbd9e5d7889">
 		<name>PC DOS 3.30 (Disk 1)</name>
-		<file size="17089" time="1987-03-18 11:00:00" attr="0x20">4201.CPI</file>
-		<file size="459" time="1987-03-17 11:00:00" attr="0x20">5202.CPI</file>
-		<file size="1678" time="1987-03-17 11:00:00" attr="0x20">ANSI.SYS</file>
-		<file size="25307" time="1987-03-17 11:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="11285" time="1987-03-17 11:00:00" attr="0x20">COUNTRY.SYS</file>
-		<file size="11290" time="1987-03-17 11:00:00" attr="0x20">DISPLAY.SYS</file>
-		<file size="1196" time="1987-03-17 11:00:00" attr="0x20">DRIVER.SYS</file>
-		<file size="49065" time="1987-03-18 11:00:00" attr="0x20">EGA.CPI</file>
-		<file size="3919" time="1987-03-17 11:00:00" attr="0x20">FASTOPEN.EXE</file>
-		<file size="48216" time="1987-03-18 11:00:00" attr="0x20">FDISK.COM</file>
-		<file size="11616" time="1987-03-18 11:00:00" attr="0x20">FORMAT.COM</file>
-		<file size="22100" time="1987-03-18 11:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="30159" time="1987-03-17 11:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="9056" time="1987-03-17 11:00:00" attr="0x20">KEYB.COM</file>
-		<file size="19766" time="1987-03-17 11:00:00" attr="0x20">KEYBOARD.SYS</file>
-		<file size="10752" time="1987-03-17 11:00:00" attr="0x20">LCD.CPI</file>
-		<file size="15487" time="1987-03-17 11:00:00" attr="0x20">MODE.COM</file>
-		<file size="3060" time="1987-03-17 11:00:00" attr="0x20">NLSFUNC.EXE</file>
-		<file size="13590" time="1987-03-17 11:00:00" attr="0x20">PRINTER.SYS</file>
-		<file size="11775" time="1987-03-17 11:00:00" attr="0x20">REPLACE.EXE</file>
-		<file size="4163" time="1987-03-17 11:00:00" attr="0x20">SELECT.COM</file>
-		<file size="4766" time="1987-03-17 11:00:00" attr="0x20">SYS.COM</file>
-		<file size="3455" time="1987-03-17 11:00:00" attr="0x20">VDISK.SYS</file>
-		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
-		<file size="11247" time="1987-03-17 11:00:00" attr="0x20">XCOPY.EXE</file>
+		<file size="17089" time="1987-03-18 12:00:00" attr="0x20" md5="092265431c8a33c649990160af9f7549">4201.CPI</file>
+		<file size="459" time="1987-03-17 12:00:00" attr="0x20" md5="be2fd219992ad3ab70de18e1d6f71e91">5202.CPI</file>
+		<file size="1678" time="1987-03-17 12:00:00" attr="0x20" md5="72a64ce94c502dc248240a1a100fabc2">ANSI.SYS</file>
+		<file size="25307" time="1987-03-17 12:00:00" attr="0x20" md5="c0c14ca5584f2174e480e04d4868f519">COMMAND.COM</file>
+		<file size="11285" time="1987-03-17 12:00:00" attr="0x20" md5="ef7898efc8136c09117130b683ce9ba6">COUNTRY.SYS</file>
+		<file size="11290" time="1987-03-17 12:00:00" attr="0x20" md5="de3b30eabb1762f78508dc422edce9c0">DISPLAY.SYS</file>
+		<file size="1196" time="1987-03-17 12:00:00" attr="0x20" md5="e754d4126a5b8122c75e1075cecbfe06">DRIVER.SYS</file>
+		<file size="49065" time="1987-03-18 12:00:00" attr="0x20" md5="c17c7fd910acf686dbfaf0ca063c6e42">EGA.CPI</file>
+		<file size="3919" time="1987-03-17 12:00:00" attr="0x20" md5="a58f292bf345dcb51dc7318b467e645f">FASTOPEN.EXE</file>
+		<file size="48216" time="1987-03-18 12:00:00" attr="0x20" md5="f3c7a241a431494f91ab92d9ad12195e">FDISK.COM</file>
+		<file size="11616" time="1987-03-18 12:00:00" attr="0x20" md5="4e9f1cf29a1db8cb0a276a0e84e4c279">FORMAT.COM</file>
+		<file size="22100" time="1987-03-18 12:00:00" attr="0x20" md5="856eaecbe7b743231cf754fc7555ed52">IBMBIO.COM</file>
+		<file size="30159" time="1987-03-17 12:00:00" attr="0x20" md5="ef2adca1cb3882118fd247dd4c672c81">IBMDOS.COM</file>
+		<file size="9056" time="1987-03-17 12:00:00" attr="0x20" md5="e2221d8216fe5cf9125e189da1b5f850">KEYB.COM</file>
+		<file size="19766" time="1987-03-17 12:00:00" attr="0x20" md5="5818399de34e2cee56600e2fa9f66c75">KEYBOARD.SYS</file>
+		<file size="10752" time="1987-03-17 12:00:00" attr="0x20" md5="27901281634a9508197e61af86843899">LCD.CPI</file>
+		<file size="15487" time="1987-03-17 12:00:00" attr="0x20" md5="088f80a33295a06a6526a6badc1a2198">MODE.COM</file>
+		<file size="3060" time="1987-03-17 12:00:00" attr="0x20" md5="a36d0d83f996c9733114f3f89b593100">NLSFUNC.EXE</file>
+		<file size="13590" time="1987-03-17 12:00:00" attr="0x20" md5="cc855b05673bc5053bcc4248002d6598">PRINTER.SYS</file>
+		<file size="11775" time="1987-03-17 12:00:00" attr="0x20" md5="84193ec606071101385136fe2d718dc3">REPLACE.EXE</file>
+		<file size="4163" time="1987-03-17 12:00:00" attr="0x20" md5="b9eae4bb9e645ea438176b1d90412fb2">SELECT.COM</file>
+		<file size="4766" time="1987-03-17 12:00:00" attr="0x20" md5="b2969ef8b1ec9a145c88efea63495326">SYS.COM</file>
+		<file size="3455" time="1987-03-17 12:00:00" attr="0x20" md5="b81005e63314ce44ea89daaf59e1548e">VDISK.SYS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">VENDOR-#.DO1</file>
+		<file size="11247" time="1987-03-17 12:00:00" attr="0x20" md5="6109f5e3bc2f8110bae191823c1a15b5">XCOPY.EXE</file>
 	</disk>
 	<disk id="disk02" size="368640" chs="40:2:9" img="archive/PCDOS330-DISK2.img" href="/disks-demo/pcx86/dos/ibm/3.30/PCDOS330-DISK2.json" md5="afbbb6e7c1ce679cf6469c647fd72175" md5json="6dced3637bdd4f6ed9366978d7be5e72">
 		<name>PC DOS 3.30 (Disk 2)</name>
-		<file size="5825" time="1987-03-17 11:00:00" attr="0x20">APPEND.EXE</file>
-		<file size="1561" time="1987-03-17 11:00:00" attr="0x20">ASSIGN.COM</file>
-		<file size="9529" time="1987-03-17 11:00:00" attr="0x20">ATTRIB.EXE</file>
-		<file size="31913" time="1987-03-18 11:00:00" attr="0x20">BACKUP.COM</file>
-		<file size="1063" time="1987-03-17 11:00:00" attr="0x20">BASIC.COM</file>
-		<file size="369" time="1987-03-17 11:00:00" attr="0x20">BASIC.PIF</file>
-		<file size="36403" time="1987-03-17 11:00:00" attr="0x20">BASICA.COM</file>
-		<file size="369" time="1987-03-17 11:00:00" attr="0x20">BASICA.PIF</file>
-		<file size="9850" time="1987-03-18 11:00:00" attr="0x20">CHKDSK.COM</file>
-		<file size="25307" time="1987-03-17 11:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="4214" time="1987-03-17 11:00:00" attr="0x20">COMP.COM</file>
-		<file size="15897" time="1987-03-17 11:00:00" attr="0x20">DEBUG.COM</file>
-		<file size="5879" time="1987-03-17 11:00:00" attr="0x20">DISKCOMP.COM</file>
-		<file size="6295" time="1987-03-17 11:00:00" attr="0x20">DISKCOPY.COM</file>
-		<file size="7526" time="1987-03-17 11:00:00" attr="0x20">EDLIN.COM</file>
-		<file size="6434" time="1987-03-17 11:00:00" attr="0x20">FIND.EXE</file>
-		<file size="11616" time="1987-03-18 11:00:00" attr="0x20">FORMAT.COM</file>
-		<file size="6128" time="1987-03-17 11:00:00" attr="0x20">GRAFTABL.COM</file>
-		<file size="3300" time="1987-03-17 11:00:00" attr="0x20">GRAPHICS.COM</file>
-		<file size="8969" time="1987-03-17 11:00:00" attr="0x20">JOIN.EXE</file>
-		<file size="2377" time="1987-03-17 11:00:00" attr="0x20">LABEL.COM</file>
-		<file size="313" time="1987-03-17 11:00:00" attr="0x20">MORE.COM</file>
-		<file size="6251" time="1987-03-17 11:00:00" attr="0x20">MORTGAGE.BAS</file>
-		<file size="9026" time="1987-03-17 11:00:00" attr="0x20">PRINT.COM</file>
-		<file size="4299" time="1987-03-18 11:00:00" attr="0x20">RECOVER.COM</file>
-		<file size="11775" time="1987-03-17 11:00:00" attr="0x20">REPLACE.EXE</file>
-		<file size="34643" time="1987-03-17 11:00:00" attr="0x20">RESTORE.COM</file>
-		<file size="8608" time="1987-03-17 11:00:00" attr="0x20">SHARE.EXE</file>
-		<file size="1977" time="1987-03-17 11:00:00" attr="0x20">SORT.EXE</file>
-		<file size="9909" time="1987-03-17 11:00:00" attr="0x20">SUBST.EXE</file>
-		<file size="3571" time="1987-03-17 11:00:00" attr="0x20">TREE.COM</file>
-		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
-		<file size="11247" time="1987-03-17 11:00:00" attr="0x20">XCOPY.EXE</file>
+		<file size="5825" time="1987-03-17 12:00:00" attr="0x20" md5="5390f1efed82adf082f5b22e83858b00">APPEND.EXE</file>
+		<file size="1561" time="1987-03-17 12:00:00" attr="0x20" md5="4f9b7c2a741191b18a0d12c022fcd4e4">ASSIGN.COM</file>
+		<file size="9529" time="1987-03-17 12:00:00" attr="0x20" md5="bd0da207c4f58c822f76f6cebd20ec76">ATTRIB.EXE</file>
+		<file size="31913" time="1987-03-18 12:00:00" attr="0x20" md5="f0f6d9afee5368e56d10ad5d75152346">BACKUP.COM</file>
+		<file size="1063" time="1987-03-17 12:00:00" attr="0x20" md5="08aff08e67f516355dbc801979ebb710">BASIC.COM</file>
+		<file size="369" time="1987-03-17 12:00:00" attr="0x20" md5="706c1c3a14f709e16e6efe4958323b7c">BASIC.PIF</file>
+		<file size="36403" time="1987-03-17 12:00:00" attr="0x20" md5="f15b1e005c51c474d28aa22eeab4be3f">BASICA.COM</file>
+		<file size="369" time="1987-03-17 12:00:00" attr="0x20" md5="748a61b796470786c840bb89a2e7fd8c">BASICA.PIF</file>
+		<file size="9850" time="1987-03-18 12:00:00" attr="0x20" md5="0ce9de3324292bbe7e251e112fad1772">CHKDSK.COM</file>
+		<file size="25307" time="1987-03-17 12:00:00" attr="0x20" md5="c0c14ca5584f2174e480e04d4868f519">COMMAND.COM</file>
+		<file size="4214" time="1987-03-17 12:00:00" attr="0x20" md5="fff540ec1f323f022f9012fe1ddf001f">COMP.COM</file>
+		<file size="15897" time="1987-03-17 12:00:00" attr="0x20" md5="71c3f0ba7b85d08dcc43a018c96fd3fa">DEBUG.COM</file>
+		<file size="5879" time="1987-03-17 12:00:00" attr="0x20" md5="5923e3eda293a70c89c6c7ec4c63a78a">DISKCOMP.COM</file>
+		<file size="6295" time="1987-03-17 12:00:00" attr="0x20" md5="adc9398fa2360cdfc93535d3cad71de6">DISKCOPY.COM</file>
+		<file size="7526" time="1987-03-17 12:00:00" attr="0x20" md5="36472e9582c6cb6d3aa5cce2248de6be">EDLIN.COM</file>
+		<file size="6434" time="1987-03-17 12:00:00" attr="0x20" md5="51fcc14ec2d55e5fe130963353aa08ff">FIND.EXE</file>
+		<file size="11616" time="1987-03-18 12:00:00" attr="0x20" md5="4e9f1cf29a1db8cb0a276a0e84e4c279">FORMAT.COM</file>
+		<file size="6128" time="1987-03-17 12:00:00" attr="0x20" md5="350939cad54d20adb0aae6e291cfa3b9">GRAFTABL.COM</file>
+		<file size="3300" time="1987-03-17 12:00:00" attr="0x20" md5="3fe4585f59759b433a0efa4f2bacad48">GRAPHICS.COM</file>
+		<file size="8969" time="1987-03-17 12:00:00" attr="0x20" md5="a15370b026f740147db6344a205d924d">JOIN.EXE</file>
+		<file size="2377" time="1987-03-17 12:00:00" attr="0x20" md5="d5c02530c511625071c1b17bca4b5f67">LABEL.COM</file>
+		<file size="313" time="1987-03-17 12:00:00" attr="0x20" md5="b800667a6138f136b96c07723ce13000">MORE.COM</file>
+		<file size="6251" time="1987-03-17 12:00:00" attr="0x20" md5="010a58c136ada769fa191e00bef19421">MORTGAGE.BAS</file>
+		<file size="9026" time="1987-03-17 12:00:00" attr="0x20" md5="dce17ad27e2b5c22882a934e82191a8c">PRINT.COM</file>
+		<file size="4299" time="1987-03-18 12:00:00" attr="0x20" md5="c650ee6a33d5bf006876c38961e31791">RECOVER.COM</file>
+		<file size="11775" time="1987-03-17 12:00:00" attr="0x20" md5="84193ec606071101385136fe2d718dc3">REPLACE.EXE</file>
+		<file size="34643" time="1987-03-17 12:00:00" attr="0x20" md5="0a4a0f917dcd982f7f49ecb730f5b697">RESTORE.COM</file>
+		<file size="8608" time="1987-03-17 12:00:00" attr="0x20" md5="c28505545044a573d59f3813e199b4bc">SHARE.EXE</file>
+		<file size="1977" time="1987-03-17 12:00:00" attr="0x20" md5="4c394a55180824ff3a7acfe064bd6729">SORT.EXE</file>
+		<file size="9909" time="1987-03-17 12:00:00" attr="0x20" md5="94b320f29536f747733b90c0526e0c80">SUBST.EXE</file>
+		<file size="3571" time="1987-03-17 12:00:00" attr="0x20" md5="45667dcc3b764767362b78cd24d9b2a7">TREE.COM</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">VENDOR-#.DO1</file>
+		<file size="11247" time="1987-03-17 12:00:00" attr="0x20" md5="6109f5e3bc2f8110bae191823c1a15b5">XCOPY.EXE</file>
 	</disk>
 	<disk id="disk03" size="737280" chs="80:2:9" img="archive/PCDOS330-DISK1-720K.img" href="/disks-demo/pcx86/dos/ibm/3.30/PCDOS330-DISK1-720K.json" md5="497c26a4a8316806902f3a51a6ceb2be" md5json="a779a23e33ad7f93e71e01223cfe99ec">
 		<name>PC DOS 3.30 (720K)</name>
-		<file size="17089" time="1987-03-18 11:00:00" attr="0x20">4201.CPI</file>
-		<file size="459" time="1987-03-17 11:00:00" attr="0x20">5202.CPI</file>
-		<file size="1678" time="1987-03-17 11:00:00" attr="0x20">ANSI.SYS</file>
-		<file size="5825" time="1987-03-17 11:00:00" attr="0x20">APPEND.EXE</file>
-		<file size="1561" time="1987-03-17 11:00:00" attr="0x20">ASSIGN.COM</file>
-		<file size="9529" time="1987-03-17 11:00:00" attr="0x20">ATTRIB.EXE</file>
-		<file size="31913" time="1987-03-18 11:00:00" attr="0x20">BACKUP.COM</file>
-		<file size="1063" time="1987-03-17 11:00:00" attr="0x20">BASIC.COM</file>
-		<file size="369" time="1987-03-17 11:00:00" attr="0x20">BASIC.PIF</file>
-		<file size="36403" time="1987-03-17 11:00:00" attr="0x20">BASICA.COM</file>
-		<file size="369" time="1987-03-17 11:00:00" attr="0x20">BASICA.PIF</file>
-		<file size="9850" time="1987-03-18 11:00:00" attr="0x20">CHKDSK.COM</file>
-		<file size="25307" time="1987-03-17 11:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="4214" time="1987-03-17 11:00:00" attr="0x20">COMP.COM</file>
-		<file size="11285" time="1987-03-17 11:00:00" attr="0x20">COUNTRY.SYS</file>
-		<file size="15897" time="1987-03-17 11:00:00" attr="0x20">DEBUG.COM</file>
-		<file size="5879" time="1987-03-17 11:00:00" attr="0x20">DISKCOMP.COM</file>
-		<file size="6295" time="1987-03-17 11:00:00" attr="0x20">DISKCOPY.COM</file>
-		<file size="11290" time="1987-03-17 11:00:00" attr="0x20">DISPLAY.SYS</file>
-		<file size="1196" time="1987-03-17 11:00:00" attr="0x20">DRIVER.SYS</file>
-		<file size="7526" time="1987-03-17 11:00:00" attr="0x20">EDLIN.COM</file>
-		<file size="49065" time="1987-03-18 11:00:00" attr="0x20">EGA.CPI</file>
-		<file size="3919" time="1987-03-17 11:00:00" attr="0x20">FASTOPEN.EXE</file>
-		<file size="48216" time="1987-03-18 11:00:00" attr="0x20">FDISK.COM</file>
-		<file size="6434" time="1987-03-17 11:00:00" attr="0x20">FIND.EXE</file>
-		<file size="11616" time="1987-03-18 11:00:00" attr="0x20">FORMAT.COM</file>
-		<file size="6128" time="1987-03-17 11:00:00" attr="0x20">GRAFTABL.COM</file>
-		<file size="3300" time="1987-03-17 11:00:00" attr="0x20">GRAPHICS.COM</file>
-		<file size="22100" time="1987-03-18 11:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="30159" time="1987-03-17 11:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="8969" time="1987-03-17 11:00:00" attr="0x20">JOIN.EXE</file>
-		<file size="9056" time="1987-03-17 11:00:00" attr="0x20">KEYB.COM</file>
-		<file size="19766" time="1987-03-17 11:00:00" attr="0x20">KEYBOARD.SYS</file>
-		<file size="2377" time="1987-03-17 11:00:00" attr="0x20">LABEL.COM</file>
-		<file size="10752" time="1987-03-17 11:00:00" attr="0x20">LCD.CPI</file>
-		<file size="15487" time="1987-03-17 11:00:00" attr="0x20">MODE.COM</file>
-		<file size="313" time="1987-03-17 11:00:00" attr="0x20">MORE.COM</file>
-		<file size="6251" time="1987-03-17 11:00:00" attr="0x20">MORTGAGE.BAS</file>
-		<file size="3060" time="1987-03-17 11:00:00" attr="0x20">NLSFUNC.EXE</file>
-		<file size="9026" time="1987-03-17 11:00:00" attr="0x20">PRINT.COM</file>
-		<file size="13590" time="1987-03-17 11:00:00" attr="0x20">PRINTER.SYS</file>
-		<file size="4299" time="1987-03-18 11:00:00" attr="0x20">RECOVER.COM</file>
-		<file size="11775" time="1987-03-17 11:00:00" attr="0x20">REPLACE.EXE</file>
-		<file size="34643" time="1987-03-17 11:00:00" attr="0x20">RESTORE.COM</file>
-		<file size="4163" time="1987-03-17 11:00:00" attr="0x20">SELECT.COM</file>
-		<file size="8608" time="1987-03-17 11:00:00" attr="0x20">SHARE.EXE</file>
-		<file size="1977" time="1987-03-17 11:00:00" attr="0x20">SORT.EXE</file>
-		<file size="9909" time="1987-03-17 11:00:00" attr="0x20">SUBST.EXE</file>
-		<file size="4766" time="1987-03-17 11:00:00" attr="0x20">SYS.COM</file>
-		<file size="3571" time="1987-03-17 11:00:00" attr="0x20">TREE.COM</file>
-		<file size="3455" time="1987-03-17 11:00:00" attr="0x20">VDISK.SYS</file>
-		<file size="0" time="1983-07-04 00:00:00" attr="0x20">VENDOR-#.DO1</file>
-		<file size="11247" time="1987-03-17 11:00:00" attr="0x20">XCOPY.EXE</file>
+		<file size="17089" time="1987-03-18 12:00:00" attr="0x20" md5="092265431c8a33c649990160af9f7549">4201.CPI</file>
+		<file size="459" time="1987-03-17 12:00:00" attr="0x20" md5="be2fd219992ad3ab70de18e1d6f71e91">5202.CPI</file>
+		<file size="1678" time="1987-03-17 12:00:00" attr="0x20" md5="72a64ce94c502dc248240a1a100fabc2">ANSI.SYS</file>
+		<file size="5825" time="1987-03-17 12:00:00" attr="0x20" md5="5390f1efed82adf082f5b22e83858b00">APPEND.EXE</file>
+		<file size="1561" time="1987-03-17 12:00:00" attr="0x20" md5="4f9b7c2a741191b18a0d12c022fcd4e4">ASSIGN.COM</file>
+		<file size="9529" time="1987-03-17 12:00:00" attr="0x20" md5="bd0da207c4f58c822f76f6cebd20ec76">ATTRIB.EXE</file>
+		<file size="31913" time="1987-03-18 12:00:00" attr="0x20" md5="f0f6d9afee5368e56d10ad5d75152346">BACKUP.COM</file>
+		<file size="1063" time="1987-03-17 12:00:00" attr="0x20" md5="08aff08e67f516355dbc801979ebb710">BASIC.COM</file>
+		<file size="369" time="1987-03-17 12:00:00" attr="0x20" md5="706c1c3a14f709e16e6efe4958323b7c">BASIC.PIF</file>
+		<file size="36403" time="1987-03-17 12:00:00" attr="0x20" md5="f15b1e005c51c474d28aa22eeab4be3f">BASICA.COM</file>
+		<file size="369" time="1987-03-17 12:00:00" attr="0x20" md5="748a61b796470786c840bb89a2e7fd8c">BASICA.PIF</file>
+		<file size="9850" time="1987-03-18 12:00:00" attr="0x20" md5="0ce9de3324292bbe7e251e112fad1772">CHKDSK.COM</file>
+		<file size="25307" time="1987-03-17 12:00:00" attr="0x20" md5="c0c14ca5584f2174e480e04d4868f519">COMMAND.COM</file>
+		<file size="4214" time="1987-03-17 12:00:00" attr="0x20" md5="fff540ec1f323f022f9012fe1ddf001f">COMP.COM</file>
+		<file size="11285" time="1987-03-17 12:00:00" attr="0x20" md5="ef7898efc8136c09117130b683ce9ba6">COUNTRY.SYS</file>
+		<file size="15897" time="1987-03-17 12:00:00" attr="0x20" md5="71c3f0ba7b85d08dcc43a018c96fd3fa">DEBUG.COM</file>
+		<file size="5879" time="1987-03-17 12:00:00" attr="0x20" md5="5923e3eda293a70c89c6c7ec4c63a78a">DISKCOMP.COM</file>
+		<file size="6295" time="1987-03-17 12:00:00" attr="0x20" md5="adc9398fa2360cdfc93535d3cad71de6">DISKCOPY.COM</file>
+		<file size="11290" time="1987-03-17 12:00:00" attr="0x20" md5="de3b30eabb1762f78508dc422edce9c0">DISPLAY.SYS</file>
+		<file size="1196" time="1987-03-17 12:00:00" attr="0x20" md5="e754d4126a5b8122c75e1075cecbfe06">DRIVER.SYS</file>
+		<file size="7526" time="1987-03-17 12:00:00" attr="0x20" md5="36472e9582c6cb6d3aa5cce2248de6be">EDLIN.COM</file>
+		<file size="49065" time="1987-03-18 12:00:00" attr="0x20" md5="c17c7fd910acf686dbfaf0ca063c6e42">EGA.CPI</file>
+		<file size="3919" time="1987-03-17 12:00:00" attr="0x20" md5="a58f292bf345dcb51dc7318b467e645f">FASTOPEN.EXE</file>
+		<file size="48216" time="1987-03-18 12:00:00" attr="0x20" md5="f3c7a241a431494f91ab92d9ad12195e">FDISK.COM</file>
+		<file size="6434" time="1987-03-17 12:00:00" attr="0x20" md5="51fcc14ec2d55e5fe130963353aa08ff">FIND.EXE</file>
+		<file size="11616" time="1987-03-18 12:00:00" attr="0x20" md5="4e9f1cf29a1db8cb0a276a0e84e4c279">FORMAT.COM</file>
+		<file size="6128" time="1987-03-17 12:00:00" attr="0x20" md5="350939cad54d20adb0aae6e291cfa3b9">GRAFTABL.COM</file>
+		<file size="3300" time="1987-03-17 12:00:00" attr="0x20" md5="3fe4585f59759b433a0efa4f2bacad48">GRAPHICS.COM</file>
+		<file size="22100" time="1987-03-18 12:00:00" attr="0x20" md5="856eaecbe7b743231cf754fc7555ed52">IBMBIO.COM</file>
+		<file size="30159" time="1987-03-17 12:00:00" attr="0x20" md5="ef2adca1cb3882118fd247dd4c672c81">IBMDOS.COM</file>
+		<file size="8969" time="1987-03-17 12:00:00" attr="0x20" md5="a15370b026f740147db6344a205d924d">JOIN.EXE</file>
+		<file size="9056" time="1987-03-17 12:00:00" attr="0x20" md5="e2221d8216fe5cf9125e189da1b5f850">KEYB.COM</file>
+		<file size="19766" time="1987-03-17 12:00:00" attr="0x20" md5="5818399de34e2cee56600e2fa9f66c75">KEYBOARD.SYS</file>
+		<file size="2377" time="1987-03-17 12:00:00" attr="0x20" md5="d5c02530c511625071c1b17bca4b5f67">LABEL.COM</file>
+		<file size="10752" time="1987-03-17 12:00:00" attr="0x20" md5="27901281634a9508197e61af86843899">LCD.CPI</file>
+		<file size="15487" time="1987-03-17 12:00:00" attr="0x20" md5="088f80a33295a06a6526a6badc1a2198">MODE.COM</file>
+		<file size="313" time="1987-03-17 12:00:00" attr="0x20" md5="b800667a6138f136b96c07723ce13000">MORE.COM</file>
+		<file size="6251" time="1987-03-17 12:00:00" attr="0x20" md5="010a58c136ada769fa191e00bef19421">MORTGAGE.BAS</file>
+		<file size="3060" time="1987-03-17 12:00:00" attr="0x20" md5="a36d0d83f996c9733114f3f89b593100">NLSFUNC.EXE</file>
+		<file size="9026" time="1987-03-17 12:00:00" attr="0x20" md5="dce17ad27e2b5c22882a934e82191a8c">PRINT.COM</file>
+		<file size="13590" time="1987-03-17 12:00:00" attr="0x20" md5="cc855b05673bc5053bcc4248002d6598">PRINTER.SYS</file>
+		<file size="4299" time="1987-03-18 12:00:00" attr="0x20" md5="c650ee6a33d5bf006876c38961e31791">RECOVER.COM</file>
+		<file size="11775" time="1987-03-17 12:00:00" attr="0x20" md5="84193ec606071101385136fe2d718dc3">REPLACE.EXE</file>
+		<file size="34643" time="1987-03-17 12:00:00" attr="0x20" md5="0a4a0f917dcd982f7f49ecb730f5b697">RESTORE.COM</file>
+		<file size="4163" time="1987-03-17 12:00:00" attr="0x20" md5="b9eae4bb9e645ea438176b1d90412fb2">SELECT.COM</file>
+		<file size="8608" time="1987-03-17 12:00:00" attr="0x20" md5="c28505545044a573d59f3813e199b4bc">SHARE.EXE</file>
+		<file size="1977" time="1987-03-17 12:00:00" attr="0x20" md5="4c394a55180824ff3a7acfe064bd6729">SORT.EXE</file>
+		<file size="9909" time="1987-03-17 12:00:00" attr="0x20" md5="94b320f29536f747733b90c0526e0c80">SUBST.EXE</file>
+		<file size="4766" time="1987-03-17 12:00:00" attr="0x20" md5="b2969ef8b1ec9a145c88efea63495326">SYS.COM</file>
+		<file size="3571" time="1987-03-17 12:00:00" attr="0x20" md5="45667dcc3b764767362b78cd24d9b2a7">TREE.COM</file>
+		<file size="3455" time="1987-03-17 12:00:00" attr="0x20" md5="b81005e63314ce44ea89daaf59e1548e">VDISK.SYS</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">VENDOR-#.DO1</file>
+		<file size="11247" time="1987-03-17 12:00:00" attr="0x20" md5="6109f5e3bc2f8110bae191823c1a15b5">XCOPY.EXE</file>
+	</disk>
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/PCDOS330-TECHREF.img" href="/disks-demo/pcx86/dos/ibm/3.30/PCDOS330-TECHREF.json" md5="168b187002ac5613504476c2c6abf746" md5json="55bb1d8b77d3828689fd60f7d6eefb94">
+		<name>PC DOS 3.30 TechRef</name>
+		<file size="15897" time="1987-03-18 00:00:00" attr="0x20" md5="2d2c7b26d00479c7d7df177665687166">DEBUG.COM</file>
+		<file size="3081" time="1987-03-18 00:00:00" attr="0x20" md5="af6b514a1503a6fda01c56aa53b67f46">EXE2BIN.EXE</file>
+		<file size="22912" time="1987-03-18 00:00:00" attr="0x20" md5="ba139ccc3120f935d5e9f09e7f5260bc">LIB.EXE</file>
+		<file size="39076" time="1987-03-18 00:00:00" attr="0x20" md5="fe84e0511cba011dec03f41bda7d0c33">LINK.EXE</file>
+		<file size="75284" time="1987-03-18 00:00:00" attr="0x20" md5="32eea5bd40518b1408f82083258ca49c">VDISK.ASM</file>
+		<file size="0" time="1983-07-04 00:00:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">VENDOR-#.DO1</file>
 	</disk>
 </manifest>

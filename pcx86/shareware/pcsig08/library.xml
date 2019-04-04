@@ -102,6 +102,7 @@
 		<manifest ref="/disks-demo/pcx86/unix/sco/xenix/386/2.3.4h/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/apps/ibm/exploring/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/apps/ibm/fland/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/apps/ibm/multiplan/1.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/apps/ibm/tobias/1.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/apps/ibm/topview/1.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/apps/ibm/topview/1.01/manifest.xml"/>

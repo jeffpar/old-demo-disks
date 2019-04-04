@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.74.2/manifest.xsl"?>
+<manifest type="software">
+	<title>IBM Multiplan</title>
+	<version>1.00</version>
+	<type>Application</type>
+	<category>Productivity</category>
+	<author>Microsoft</author>
+	<publisher>IBM</publisher>
+	<releaseDate date=""></releaseDate>
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/MULTIPLAN-IBM100-PROGRAM-BACKUP.img" href="/disks-demo/pcx86/apps/ibm/multiplan/1.00/MULTIPLAN-IBM100-PROGRAM.json" md5="a10641c51777e149d43abfedd1da53ec" md5json="81c56fc24f62a9f6d13bb3a28c1c0e95">
+		<name>IBM Multiplan 1.00 (Program)</name>
+		<file size="18" time="1982-10-20 12:00:00" attr="0x20" md5="b5e64b0039f8bb304d23ff2534732ae2">AUTOEXEC.BAT</file>
+		<file size="4959" time="1982-05-07 12:00:00" attr="0x20" md5="f95a073439e1ee7c9b0c9d37d42de7fe">COMMAND.COM</file>
+		<file size="3816" time="1982-05-07 12:00:00" attr="0x20" md5="31b9c8001d7e9d9e98808b93badf4b98">FORMAT.COM</file>
+		<file size="13" time="1982-10-20 12:00:00" attr="0x20" md5="183f3ebd2e5137187f93bf592a31722c">HEALD.JA</file>
+		<file size="13" time="1982-10-20 12:00:00" attr="0x20" md5="183f3ebd2e5137187f93bf592a31722c">HEALD.JAH</file>
+		<file size="1920" time="1982-05-07 12:00:00" attr="0x20" md5="05b9205ee6fa56cecbc5bf22b5b34555">IBMBIO.COM</file>
+		<file size="6400" time="1982-05-07 12:00:00" attr="0x20" md5="4cf27775844f90c7d4b615131dc9d0e5">IBMDOS.COM</file>
+		<file size="2509" time="1982-05-07 12:00:00" attr="0x20" md5="08f99d509a3b6855ea992f3f7af0e6e7">MODE.COM</file>
+		<file size="40411" time="1982-10-20 12:00:00" attr="0x20" md5="bbcd8a16d50efeed8284b541755e3b04">MP.HLP</file>
+		<file size="24252" time="1982-10-20 12:00:00" attr="0x20" md5="a5ef5b0fb93fc294f2149f7f96eae4fe">MP.SYS</file>
+		<file size="17800" time="1982-10-20 12:00:00" attr="0x20" md5="4cc11ca3aa9d8e358db97844ef9e4953">MP1</file>
+		<file size="27264" time="1982-10-20 12:00:00" attr="0x20" md5="cb7fb2309781457286fd1c51424f431f">MP2</file>
+		<file size="577" time="1982-10-20 12:00:00" attr="0x20" md5="c45edd9ca53345c74334f83de45ae31e">MP40.COM</file>
+		<file size="577" time="1982-10-20 12:00:00" attr="0x20" md5="54063b28fa428e664892b95328b446f0">MP80.COM</file>
+		<file size="4634" time="1982-10-20 12:00:00" attr="0x20" md5="9e5c698a26a862d62f8e4cd40c0ead44">MPMODE.COM</file>
+		<file size="115" time="1982-10-20 12:00:00" attr="0x20" md5="247b5b062f73d0262f1264d412bc2dab">SETUP.MSG</file>
+		<file size="153" time="1982-10-20 12:00:00" attr="0x20" md5="b0947a7b648d22cc50a3872d931920ee">SETUP1.BAT</file>
+		<file size="720" time="1982-10-20 12:00:00" attr="0x20" md5="3d0c7ceae2499f862dd2f4e1eff77102">SETUP1.MSG</file>
+		<file size="148" time="1982-10-20 12:00:00" attr="0x20" md5="709e171267fff2342cc378ce9803d2b3">SETUP2.BAT</file>
+		<file size="673" time="1982-10-20 12:00:00" attr="0x20" md5="e14786b4361b6e07a04ea16f116987ad">SETUP2.MSG</file>
+	</disk>
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/MULTIPLAN-IBM100-TUTORIAL.img" href="/disks-demo/pcx86/apps/ibm/multiplan/1.00/MULTIPLAN-IBM100-TUTORIAL.json" md5="d9f76ba8d3225a3b244d1baa64e6e060" md5json="bd9443f601bdac8d7c10ed3538b34e07">
+		<name>IBM Multiplan 1.00 (Tutorial)</name>
+		<file size="2442" time="1982-11-05 12:00:00" attr="0x20" md5="9cfaa7a347baf8284f156c51575ea4ea">COLOR.COL</file>
+		<file size="6506" time="1982-11-05 12:00:00" attr="0x20" md5="4aa451cbfbde8802156e67c8477c68f2">EDITSORT</file>
+		<file size="6506" time="1982-11-05 12:00:00" attr="0x20" md5="81d1044a260359c857994b83c973c8f2">EDITSORT.COL</file>
+		<file size="2879" time="1982-11-05 12:00:00" attr="0x20" md5="deadf8b7f14f32c98b87cfd787d79034">FIN_GAP</file>
+		<file size="2879" time="1982-11-05 12:00:00" attr="0x20" md5="25189bb0eb6c687749c460ecd63db87d">FIN_GAP.COL</file>
+		<file size="9336" time="1982-11-05 12:00:00" attr="0x20" md5="38c3ca9356cf665cd3354de22b83d45b">FORMAT</file>
+		<file size="2660" time="1982-11-05 12:00:00" attr="0x20" md5="d0d4bae54b43c8b11369a8ed2c308d1b">IRR</file>
+		<file size="2660" time="1982-11-05 12:00:00" attr="0x20" md5="49ec3e675c236b9e766e9692724481a5">IRR.COL</file>
+		<file size="2287" time="1982-11-05 12:00:00" attr="0x20" md5="4cc359a434dbb5d48461dbb6308cef2b">ITERATE</file>
+		<file size="2287" time="1982-11-05 12:00:00" attr="0x20" md5="cdb3a5c238dd4e0bb45d3e03d3892078">ITERATE.COL</file>
+		<file size="40411" time="1982-11-05 12:00:00" attr="0x20" md5="bbcd8a16d50efeed8284b541755e3b04">MP.HLP</file>
+		<file size="24252" time="1982-11-05 12:00:00" attr="0x20" md5="a5ef5b0fb93fc294f2149f7f96eae4fe">MP.SYS</file>
+		<file size="2678" time="1982-11-05 12:00:00" attr="0x20" md5="f8f7ce796a3f4e21e27a17b0231b4326">ROOTS</file>
+		<file size="2678" time="1982-11-05 12:00:00" attr="0x20" md5="b21fc44eb62a8142535df455d349342e">ROOTS.COL</file>
+		<file size="5398" time="1982-11-05 12:00:00" attr="0x20" md5="19d103522f19d1ea3037d0fd8fde268e">SCREEN</file>
+		<file size="5398" time="1982-11-05 12:00:00" attr="0x20" md5="04f77133494bb28915f0a2da77b14c23">SCREEN.COL</file>
+		<file size="2429" time="1982-11-05 12:00:00" attr="0x20" md5="7d4dd2b11a19b6131405336827b644e4">SPENCER1</file>
+		<file size="2622" time="1982-11-05 12:00:00" attr="0x20" md5="49835152629794f579a9caafc9e836e0">SPENCER2</file>
+		<file size="3856" time="1982-11-05 12:00:00" attr="0x20" md5="e1996b19562c3633dab0405809582730">SPENCER3</file>
+		<file size="3942" time="1982-11-05 12:00:00" attr="0x20" md5="9487379143def162efa3c8fc717bf04c">SPENCER4</file>
+		<file size="4050" time="1982-11-05 12:00:00" attr="0x20" md5="63c82cd8f25c7b4cc0b14fab83f9226d">SPENCER5</file>
+		<file size="4160" time="1982-11-05 12:00:00" attr="0x20" md5="91322752c052b8d71b73cadb8d8ab53d">SPENCER6</file>
+		<file size="3818" time="1982-11-05 12:00:00" attr="0x20" md5="0c29a807c27898b58425d00c7c3b7dce">SPENCOST</file>
+		<file size="2352" time="1982-11-05 12:00:00" attr="0x20" md5="569e749cf24dd74573fc470f3570fff5">WINDOWS</file>
+	</disk>
+</manifest>

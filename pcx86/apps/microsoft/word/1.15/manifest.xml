@@ -7,7 +7,7 @@
 	<category>Word Processor</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSWORD-115-PROGRAM.img" href="/disks-demo/pcx86/apps/microsoft/word/1.15/MSWORD-115-PROGRAM.json" md5="f66d720df16612f4b37b8fc9998bb700" md5json="6426b7d12d7150b3f23a71a1ad8154d7">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSWORD-115-PROGRAM-BACKUP.img" href="/disks-demo/pcx86/apps/microsoft/word/1.15/MSWORD-115-PROGRAM.json" md5="ab6393e4966ac44f56d974299e15ed50" md5json="496dc7b1ee893addde9f263cca561671">
 		<name>MS Word 1.15 (Program)</name>
 		<file size="11" time="1984-09-18 12:00:00" attr="0x20" md5="a2bff8a6ec2db5b43b9b73df5d842a74">AUTOEXEC.BAT</file>
 		<file size="768" time="1984-09-18 12:00:00" attr="0x20" md5="2f4071d1bffe632b0a00bfe2f2afbd02">DEFAULT.STY</file>
@@ -19,10 +19,8 @@
 		<file size="46538" time="1984-09-18 12:00:00" attr="0x20" md5="2ed56cc955dda18d2a93bd3086b68eb2">MW.COD</file>
 		<file size="23328" time="1984-09-18 12:00:00" attr="0x20" md5="74f351738a56de63cc27b15fa28f14e5">MW.COM</file>
 		<file size="16274" time="1984-09-18 12:00:00" attr="0x20" md5="9222637974fb934bf41577cf2063c165">MW.DAT</file>
-		<file size="58750" time="1984-10-16 12:06:56" attr="0x20" md5="27db438421aebd0c35565368195dfa4e">MW.HLP</file>
-		<file size="54" time="1980-01-01 01:37:42" attr="0x20" md5="e9e8f68ff4f1e5fd0a611ee0d60914da">MW.INI</file>
+		<file size="58169" time="1984-09-18 12:00:00" attr="0x20" md5="2007edc4645861ba760472126c5cf45e">MW.HLP</file>
 		<file size="72848" time="1984-09-18 12:00:00" attr="0x20" md5="975251f5e89caa94b3a06d609e9ca0e4">MW.PGM</file>
-		<file size="1024" time="1980-01-01 00:01:14" attr="0x20" md5="3fadde0f727f6ceb2e544e60a0d9c921">MW011294.TMP</file>
 		<file size="42" time="1984-09-18 12:00:00" attr="0x20" md5="fe8b2b4151dceb11658d5e31f936e5a7">MWCOPY.BAT</file>
 		<file size="7600" time="1984-09-18 12:00:00" attr="0x20" md5="89d827406bd9144dd4f5228fea56224c">MWCOPY1.COM</file>
 		<file size="292" time="1984-09-18 12:00:00" attr="0x20" md5="272179f7e7d8391745c0bffa5a0ae9ed">MWCOPY2.BAT</file>

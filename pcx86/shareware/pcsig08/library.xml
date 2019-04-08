@@ -186,6 +186,7 @@
 		<manifest ref="/disks-demo/pcx86/tools/softlogic/doubledos/2.0f/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/softlogic/doubledos/2.0v/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/softlogic/optimizer/2.0.3/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/tools/other/desqview/1.02/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/enhdebug/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/flickerfree/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/3.00/manifest.xml"/>

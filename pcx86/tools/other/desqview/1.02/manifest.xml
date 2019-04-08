@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.74.2/manifest.xsl"?>
+<manifest type="software">
+	<title>DESQview</title>
+	<version>1.02</version>
+	<type>Utility</type>
+	<category>Task Manager</category>
+	<company>Quarterdeck Office Systems</company>
+	<releaseDate>1986-01-15</releaseDate>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DESQVIEW-102.img" href="/disks-demo/pcx86/tools/other/desqview/1.02/DESQVIEW-102.json" md5="ddb3aae19a3b968453c800793fb8d3e2" md5json="09f8024c4f3c9fb171649a0ba76dbcf3">
+		<file size="416" time="1986-01-15 01:02:00" attr="0x20" md5="5067deb125ddac9fe32a7349446bf533">AP-PIF.DVP</file>
+		<file size="8448" time="1986-01-15 01:02:00" attr="0x20" md5="9892fb301210c177fa8e4ca164a9ea07">ASK.COM</file>
+		<file size="14064" time="1986-01-15 01:02:00" attr="0x20" md5="0aa42700162857614251eb8761bb0fd1">AUTOINST.EXE</file>
+		<file size="1280" time="1986-01-15 01:02:00" attr="0x20" md5="7433c3aeeb119971ac1e57c2914c852b">COND.BAT</file>
+		<file size="5054" time="1986-01-15 01:02:00" attr="0x20" md5="24deb3998a85e2a8e0bca346c463f7e2">CONVSCR.COM</file>
+		<file size="416" time="1986-01-15 01:02:00" attr="0x20" md5="b004cf3717993e8bb5b4bd4e1b03e675">CP-PIF.DVP</file>
+		<file size="1123" time="1986-01-15 01:02:00" attr="0x20" md5="c525084c154677be1db56662324322a9">CT-LOAD.COM</file>
+		<file size="416" time="1986-01-15 01:02:00" attr="0x20" md5="c16467c5ebc4af786d26c62e33114007">D1-PIF.DVP</file>
+		<file size="1363" time="1986-01-15 01:02:00" attr="0x20" md5="325aa4c0b216e026059a8976618fe6dc">D3-LOAD.COM</file>
+		<file size="128" time="1986-01-15 01:02:00" attr="0x20" md5="ac2d01064a22de0fd13ee39c52fb8894">DC.BAT</file>
+		<file size="4320" time="1986-01-15 01:02:00" attr="0x20" md5="db8c3070d6c7346f627dee48faaacf44">DESQVIEW.DIR</file>
+		<file size="18690" time="1986-01-15 01:02:00" attr="0x20" md5="018af604a244b079e04db2b83de5afc8">DESQVIEW.DVH</file>
+		<file size="147" time="1986-01-15 01:02:00" attr="0x20" md5="02a0bd26bf3da797dc9dbe99baa945cc">DESQVIEW.DVO</file>
+		<file size="26" time="1986-01-15 01:02:00" attr="0x20" md5="ecb355a8b28e39df5ad351ddd1f101da">DESQVIEW.VER</file>
+		<file size="4682" time="1986-01-15 01:02:00" attr="0x20" md5="d3c576327bfe7edabf6d415acfc89618">DOSBUF.DVR</file>
+		<file size="22016" time="1986-01-15 01:02:00" attr="0x20" md5="5d6232cd862ac4349f2fb020af4a06e7">DOSSERV.EXE</file>
+		<file size="416" time="1986-01-15 01:02:00" attr="0x20" md5="5fe670b7332a441338b3f37e703236b4">DS-PIF.DVP</file>
+		<file size="128" time="1986-01-15 01:02:00" attr="0x20" md5="c3b3d91ee984ca6c085cbd3470967d83">DV.BAT</file>
+		<file size="113344" time="1986-01-15 01:02:00" attr="0x20" md5="31c29b90555784402de1aa6ad5180e0d">DV.EXE</file>
+		<file size="1002" time="1986-01-15 01:02:00" attr="0x20" md5="cb689a08b8bce3e4a04e8fea7ac80c7d">DVMG.COM</file>
+		<file size="768" time="1986-01-15 01:02:00" attr="0x20" md5="aa4c3f2adab9ed272641f302d9c96cab">DVSETUP.DV</file>
+		<file size="2352" time="1986-01-15 01:02:00" attr="0x20" md5="11c8ae6f7eda7e4575872ddf43b32137">DW-LOAD.EXE</file>
+		<file size="1622" time="1986-01-15 01:02:00" attr="0x20" md5="f6b4e96025a050c38d068fb59756fbf9">EN-LOAD.COM</file>
+		<file size="1245" time="1986-01-15 01:02:00" attr="0x20" md5="8c588c89b0303a05ad749530bb77b08a">FW-LOAD.COM</file>
+		<file size="16" time="1986-01-15 01:02:00" attr="0x20" md5="81fc5bbbad8716deea90e581692384e2">GMODE.COM</file>
+		<file size="896" time="1986-01-15 01:02:00" attr="0x20" md5="d1a0071e52c577708e5567daca950162">INPROG.TXT</file>
+		<file size="6272" time="1986-01-15 01:02:00" attr="0x20" md5="1e6730901b493cb58ecfa76dd3128ba5">INST0.BAT</file>
+		<file size="3072" time="1986-01-15 01:02:00" attr="0x20" md5="1b2d09cb187334f4388b5d7363a0f212">INSTALL.BAT</file>
+		<file size="1280" time="1986-01-15 01:02:02" attr="0x20" md5="d4985db86057d314b981c7c4eeddf1c3">INSTF.BAT</file>
+		<file size="1408" time="1986-01-15 01:02:02" attr="0x20" md5="852e80441bd6b13cc7df2b901beccd21">INSTH.BAT</file>
+		<file size="23144" time="1986-01-15 01:02:00" attr="0x20" md5="f3191e75abe7bd363db4756343d2d56b">INSTLADD.COM</file>
+		<file size="9288" time="1986-01-15 01:02:00" attr="0x20" md5="d1b72b9499096c3ca6de6231ae9c46ac">INSTLCHG.COM</file>
+		<file size="2814" time="1986-01-15 01:02:00" attr="0x20" md5="99358b3b8bf4d2b65ff3d0f9d6de15df">LS-LOAD.COM</file>
+		<file size="4452" time="1986-01-15 01:02:00" attr="0x20" md5="b498a32c5a65d5d27c42c3e665fce273">LT-LOAD.COM</file>
+		<file size="1604" time="1986-01-15 01:02:00" attr="0x20" md5="dcd38d069b8a95e6e462e739c5c3b816">MM-LOAD.COM</file>
+		<file size="629" time="1986-01-15 01:02:00" attr="0x20" md5="1b8fe640bfb47982be1b0504c4d8a4c7">MS.COM</file>
+		<file size="988" time="1986-01-15 01:02:00" attr="0x20" md5="ad38a63fcf72a14936cb0285aacdcfcd">PF-LOAD.COM</file>
+		<file size="999" time="1986-01-15 01:02:00" attr="0x20" md5="15472e6b913cf021c5f87e8ab38010bf">PR-LOAD.COM</file>
+		<file size="1118" time="1986-01-15 01:02:00" attr="0x20" md5="dc376d47a47ef5ce9a35b9de66c24217">PW-LOAD.COM</file>
+		<file size="1024" time="1986-01-15 01:02:00" attr="0x20" md5="f13e1639ed63cdfe5286d80ddd73fb13">READ.ME</file>
+		<file size="1152" time="1986-01-15 01:02:02" attr="0x20" md5="6a61daa6d37ef1cbc1abbd8391348fe3">SAMPDOC.DOC</file>
+		<file size="985" time="1986-01-15 01:02:00" attr="0x20" md5="323969d89daf212fbc20df1938091ed3">SAMPLE.EXE</file>
+		<file size="1536" time="1986-01-15 01:02:00" attr="0x20" md5="1606e57b6e7b2376c6367cf72c2bd6de">SAMPSS.DOC</file>
+		<file size="416" time="1986-01-15 01:02:00" attr="0x20" md5="18afd38a3ecbde5d4043b0eab93ad073">SD-PIF.DVP</file>
+		<file size="47671" time="1986-01-15 01:02:00" attr="0x20" md5="b48b36c0e4bc7cd22d4858aab86aca36">SETUP.EXE</file>
+		<file size="1075" time="1986-01-15 01:02:00" attr="0x20" md5="fc85c57877ff41b238e1fb6735a3acd4">SHELL.COM</file>
+		<file size="416" time="1986-01-15 01:02:00" attr="0x20" md5="b1d4b4376999a92d2d23d2bf50e95843">SS-PIF.DVP</file>
+		<file size="512" time="1986-01-15 01:02:00" attr="0x20" md5="03769e0746f5d2944189bc14b260894a">STOP.BAT</file>
+		<file size="1416" time="1986-01-15 01:02:00" attr="0x20" md5="2d58cd28e3c55866c1cbe5c993913bae">VX-LOAD.COM</file>
+		<file size="1372" time="1986-01-15 01:02:00" attr="0x20" md5="34f6df537611a2f813bd6c17ccc9216f">WS-LOAD.COM</file>
+		<file size="2570" time="1986-01-15 01:02:00" attr="0x20" md5="c9f5951c56b5caacc16f5a864eccfd26">XDV.COM</file>
+	</disk>
+</manifest>

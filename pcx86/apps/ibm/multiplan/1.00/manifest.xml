@@ -8,7 +8,7 @@
 	<author>Microsoft</author>
 	<publisher>IBM</publisher>
 	<releaseDate date=""></releaseDate>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/MULTIPLAN-IBM100-PROGRAM-BACKUP.img" href="/disks-demo/pcx86/apps/ibm/multiplan/1.00/MULTIPLAN-IBM100-PROGRAM.json" md5="a10641c51777e149d43abfedd1da53ec" md5json="81c56fc24f62a9f6d13bb3a28c1c0e95">
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/MULTIPLAN-IBM100-PROGRAM-BACKUP.img" href="/disks-demo/pcx86/apps/ibm/multiplan/1.00/MULTIPLAN-IBM100-PROGRAM.json" md5="a10641c51777e149d43abfedd1da53ec" md5json="24527119b79dd6cca8819316d1bc4a99">
 		<name>IBM Multiplan 1.00 (Program)</name>
 		<file size="18" time="1982-10-20 12:00:00" attr="0x20" md5="b5e64b0039f8bb304d23ff2534732ae2">AUTOEXEC.BAT</file>
 		<file size="4959" time="1982-05-07 12:00:00" attr="0x20" md5="f95a073439e1ee7c9b0c9d37d42de7fe">COMMAND.COM</file>

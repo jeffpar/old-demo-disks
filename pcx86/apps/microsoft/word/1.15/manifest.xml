@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.74.2/manifest.xsl"?>
+<manifest type="software">
+	<title>MS Word</title>
+	<version>1.15</version>
+	<type>Application</type>
+	<category>Word Processor</category>
+	<author>Microsoft</author>
+	<releaseDate/>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSWORD-115-PROGRAM.img" href="/disks-demo/pcx86/apps/microsoft/word/1.15/MSWORD-115-PROGRAM.json" md5="f66d720df16612f4b37b8fc9998bb700" md5json="6426b7d12d7150b3f23a71a1ad8154d7">
+		<name>MS Word 1.15 (Program)</name>
+		<file size="11" time="1984-09-18 12:00:00" attr="0x20" md5="a2bff8a6ec2db5b43b9b73df5d842a74">AUTOEXEC.BAT</file>
+		<file size="768" time="1984-09-18 12:00:00" attr="0x20" md5="2f4071d1bffe632b0a00bfe2f2afbd02">DEFAULT.STY</file>
+		<file size="4352" time="1984-09-18 12:00:00" attr="0x20" md5="f11354dd93e4527c47434bafded53d3f">EXAMPLE.DOC</file>
+		<file size="9216" time="1984-09-18 12:00:00" attr="0x20" md5="6746c7dd606977812bb7fda3e99c4966">IBMBIO.COM</file>
+		<file size="28928" time="1984-09-18 12:00:00" attr="0x20" md5="a0aa5382e95040c46c6c2fadfd7f0a09">IBMDOS.COM</file>
+		<file size="4192" time="1984-09-18 12:00:00" attr="0x20" md5="70e51bd56d985fb556a7a267febe8e95">MOUSE.COM</file>
+		<file size="4440" time="1984-09-18 12:00:00" attr="0x20" md5="2c69a214951666d4d0a8710572f4f5fe">MOUSE.SYS</file>
+		<file size="46538" time="1984-09-18 12:00:00" attr="0x20" md5="2ed56cc955dda18d2a93bd3086b68eb2">MW.COD</file>
+		<file size="23328" time="1984-09-18 12:00:00" attr="0x20" md5="74f351738a56de63cc27b15fa28f14e5">MW.COM</file>
+		<file size="16274" time="1984-09-18 12:00:00" attr="0x20" md5="9222637974fb934bf41577cf2063c165">MW.DAT</file>
+		<file size="58750" time="1984-10-16 12:06:56" attr="0x20" md5="27db438421aebd0c35565368195dfa4e">MW.HLP</file>
+		<file size="54" time="1980-01-01 01:37:42" attr="0x20" md5="e9e8f68ff4f1e5fd0a611ee0d60914da">MW.INI</file>
+		<file size="72848" time="1984-09-18 12:00:00" attr="0x20" md5="975251f5e89caa94b3a06d609e9ca0e4">MW.PGM</file>
+		<file size="1024" time="1980-01-01 00:01:14" attr="0x20" md5="3fadde0f727f6ceb2e544e60a0d9c921">MW011294.TMP</file>
+		<file size="42" time="1984-09-18 12:00:00" attr="0x20" md5="fe8b2b4151dceb11658d5e31f936e5a7">MWCOPY.BAT</file>
+		<file size="7600" time="1984-09-18 12:00:00" attr="0x20" md5="89d827406bd9144dd4f5228fea56224c">MWCOPY1.COM</file>
+		<file size="292" time="1984-09-18 12:00:00" attr="0x20" md5="272179f7e7d8391745c0bffa5a0ae9ed">MWCOPY2.BAT</file>
+		<file size="896" time="1984-09-18 12:00:00" attr="0x20" md5="932012beefb033ccaefefc93220de5dd">PLAIN.PRD</file>
+		<file size="820" time="1984-09-18 12:00:00" attr="0x20" md5="d4af879cbd36bac4190f9ce8d9d0d3d5">TTY.PRD</file>
+		<file size="2062" time="1984-09-18 12:00:00" attr="0x20" md5="cb7df51aa05ea2075a0796040ac3f347">WORD.COM</file>
+	</disk>
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/MSWORD-115-UTILITIES.img" href="/disks-demo/pcx86/apps/microsoft/word/1.15/MSWORD-115-UTILITIES.json" md5="56e1e582928bac8042268205a61eec67" md5json="8ab9d9626face3214fdd21addad90161">
+		<name>MS Word 1.15 (Utilities)</name>
+		<file size="1664" time="1984-09-19 12:00:00" attr="0x20" md5="5758c78476400aaecb6f59a151e881c6">1.STY</file>
+		<file size="1002" time="1984-09-19 12:00:00" attr="0x20" md5="97c353b8944fa81c511b130bb9786ae9">ANDX60CS.PRD</file>
+		<file size="3868" time="1984-09-19 12:00:00" attr="0x20" md5="2b8e8ab703b42b4f3e7fab85a16d4cd5">ANDX60LT.PRD</file>
+		<file size="1728" time="1984-09-19 12:00:00" attr="0x20" md5="56d107c45451af6c9695b8ff0e8c6e01">ANDX6500.PRD</file>
+		<file size="1682" time="1984-09-19 12:00:00" attr="0x20" md5="dc56d50818db752f323c300c4424b061">ANDX9625.PRD</file>
+		<file size="4596" time="1984-09-19 12:00:00" attr="0x20" md5="4ac6e66354c1fcd0bfc0385c057c9716">ANDX9725.PRD</file>
+		<file size="1024" time="1984-09-19 12:00:00" attr="0x20" md5="9982853ae3969fcf7225ccd272736787">ARTICLE.STY</file>
+		<file size="913" time="1984-09-19 12:00:00" attr="0x20" md5="12370dceda58f2e679ecd4c58ad59854">AUX2.PRD</file>
+		<file size="1662" time="1984-09-19 12:00:00" attr="0x20" md5="6313821d1fc121d20c3d13c19ff1d3c0">BROTHER.PRD</file>
+		<file size="39552" time="1984-09-19 12:00:00" attr="0x20" md5="f72cfaade36611c664fa8b0d0d73d31c">CONVERT.EXE</file>
+		<file size="22382" time="1984-09-19 12:00:00" attr="0x20" md5="9a12ffad0715ef146edbaa66a306b17e">CONVPRD.DOC</file>
+		<file size="27562" time="1984-09-19 12:00:00" attr="0x20" md5="221a2cbd4d319d7475666193ed2c1f51">CONVPRD.EXE</file>
+		<file size="1698" time="1984-09-19 12:00:00" attr="0x20" md5="80e59c0af11a5fa536b942686c7e27d0">D620.PRD</file>
+		<file size="1790" time="1984-09-19 12:00:00" attr="0x20" md5="806d183231fcd44f8b0d547af1ad8c48">D630.PRD</file>
+		<file size="1820" time="1984-09-19 12:00:00" attr="0x20" md5="5988e92faa4cc1eaf8de9d2da6cac470">D630A.PRD</file>
+		<file size="1708" time="1984-09-19 12:00:00" attr="0x20" md5="1cbe61a52de25b3dd98f4f10bb3951a9">D630ECS.PRD</file>
+		<file size="768" time="1984-09-19 12:00:00" attr="0x20" md5="2f4071d1bffe632b0a00bfe2f2afbd02">DEFAULT.STY</file>
+		<file size="1300" time="1984-09-19 12:00:00" attr="0x20" md5="b77228b539c0f5a9a2ca7a0aab932345">DELTA.PRD</file>
+		<file size="1024" time="1984-09-19 12:00:00" attr="0x20" md5="df505e89e311257b1713ef1e7ebe734b">DRAFT.STY</file>
+		<file size="2140" time="1984-09-19 12:00:00" attr="0x20" md5="e79ccf9f1bc5012c3c84b4a9137a5b3a">EPSONFX.PRD</file>
+		<file size="2140" time="1984-09-19 12:00:00" attr="0x20" md5="d051084cc8198e224971294edaeb5c1c">EPSONFXQ.PRD</file>
+		<file size="2158" time="1984-09-19 12:00:00" attr="0x20" md5="6119f2cf69c515b9357a4f4c055b7d10">EPSONLQ.PRD</file>
+		<file size="1000" time="1984-09-19 12:00:00" attr="0x20" md5="e0664a30290070915441da51dc905ff6">EPSONMX.PRD</file>
+		<file size="1136" time="1984-09-19 12:00:00" attr="0x20" md5="6a2c7e8d2ffe8c855c518b58cc9dcc06">EPSONMXG.PRD</file>
+		<file size="1270" time="1984-09-19 12:00:00" attr="0x20" md5="8580bd6853dd793e0f90eb5e03f851bb">EPSONRX.PRD</file>
+		<file size="1124" time="1984-09-19 12:00:00" attr="0x20" md5="787a8375a31f29e5cfebf4c0ced40ca3">GRAFTRAX.PRD</file>
+		<file size="2701" time="1984-09-19 12:00:00" attr="0x20" md5="6d6f4b2bd6ab911ba9ab882de51c9d59">HARDCOPY.COM</file>
+		<file size="1047" time="1984-09-19 12:00:00" attr="0x20" md5="78c7a2f4e553a35cc997fc35a591bf0b">HPLASCR.PRD</file>
+		<file size="2251" time="1984-09-19 12:00:00" attr="0x20" md5="a7e674ccbb43f40f98680f1ef2737302">HPLASPS.PRD</file>
+		<file size="908" time="1984-09-19 12:00:00" attr="0x20" md5="9543d48283ec020e315af6ffcb740b72">HPTHINK.PRD</file>
+		<file size="1026" time="1984-09-19 12:00:00" attr="0x20" md5="cd2b08bb053973d9239432be376c0576">IBMGRAPH.PRD</file>
+		<file size="1509" time="1984-09-19 12:00:00" attr="0x20" md5="8304b8e528a4a1157fdf76854690da68">ITOHSTAR.PRD</file>
+		<file size="2560" time="1984-09-19 12:00:00" attr="0x20" md5="b4f06ec8515a897b8cdcecf6605d9b82">MOUSE.LIB</file>
+		<file size="1066" time="1984-09-19 12:00:00" attr="0x20" md5="1677aa13361da828f5c41e93746d050a">MSPRINT.PRD</file>
+		<file size="1349" time="1984-09-19 12:00:00" attr="0x20" md5="15c837ab270237ffac6a1f60d7bb9edc">MT1X.PRD</file>
+		<file size="1136" time="1984-09-19 12:00:00" attr="0x20" md5="5589a5d8de15b1e553d276409e8037bc">MT80.PRD</file>
+		<file size="2002" time="1984-09-19 12:00:00" attr="0x20" md5="35df280b68924668462feb916aacd0c0">NEC3550.PRD</file>
+		<file size="1902" time="1984-09-19 12:00:00" attr="0x20" md5="9d52e68a27c678aafd88a958834c7e16">NEC7710.PRD</file>
+		<file size="1137" time="1984-09-19 12:00:00" attr="0x20" md5="11d0d74d61f942b7ac616782218d4ada">OKI2410.PRD</file>
+		<file size="1288" time="1984-09-19 12:00:00" attr="0x20" md5="e08a7fa753f5e788adee74a6cb4379a1">OKI92.PRD</file>
+		<file size="820" time="1984-09-19 12:00:00" attr="0x20" md5="04e1af0942dc6d5f6733ced09bade5e8">PLAIN.PRD</file>
+		<file size="521" time="1984-03-07 12:00:00" attr="0x20" md5="c25ab667fb2f06ad33f235b0afa08eb8">PRINTER.DEF</file>
+		<file size="1562" time="1984-09-19 12:00:00" attr="0x20" md5="4a4333e249af3638211f351a54d17be1">QUME11.PRD</file>
+		<file size="1312" time="1984-09-19 12:00:00" attr="0x20" md5="97579cbda76302816a221c6d78e6ea8a">RADIX.PRD</file>
+		<file size="2656" time="1984-09-19 12:00:00" attr="0x20" md5="4ae8b28a1ec641b03d29d7125d9c8425">README.DOC</file>
+		<file size="1134" time="1984-09-19 12:00:00" attr="0x20" md5="42a7369f5187a8c60ec0e4e08a30cebb">TI850.PRD</file>
+		<file size="7360" time="1984-09-19 12:00:00" attr="0x20" md5="787d2ab719358a5b34629fa5f3cb652a">TI855D.PRD</file>
+		<file size="7360" time="1984-09-19 12:00:00" attr="0x20" md5="391f837de45edbcdb965bf1efa763816">TI855Q.PRD</file>
+		<file size="1175" time="1984-09-19 12:00:00" attr="0x20" md5="cfd48920ba2acaf2f832f06079cea53b">TOSH1350.PRD</file>
+		<file size="820" time="1984-09-19 12:00:00" attr="0x20" md5="d4af879cbd36bac4190f9ce8d9d0d3d5">TTY.PRD</file>
+		<file size="932" time="1984-09-19 12:00:00" attr="0x20" md5="f8f84dc85ff705a2dcbc1e218932651b">TTYBS.PRD</file>
+		<file size="820" time="1984-09-19 12:00:00" attr="0x20" md5="41f21f89a3295c38721920fc2c72841d">TTYFF.PRD</file>
+		<file size="1556" time="1984-09-19 12:00:00" attr="0x20" md5="2264fae378df4f7c2cb2910e5cdea7d7">TTYWHEEL.PRD</file>
+		<file size="6885" time="1984-09-19 12:00:00" attr="0x20" md5="93a3a47a27cc3ea73a52dc5a468a3868">X2700.PRD</file>
+	</disk>
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/MSWORD-100-LEARNING.img" href="/disks-demo/pcx86/apps/microsoft/word/1.15/MSWORD-100-LEARNING.json" md5="c4981db964d1ab6d7cda68fd22230a8b" md5json="1a36856665b860b1b44399524d388309">
+		<name>MS Word 1.00 (Learning)</name>
+		<file size="22016" time="1984-09-19 16:04:16" attr="0x20" md5="61f990499f447748b4078586dea70aa3">LEARN.COM</file>
+		<file size="185036" time="1984-09-20 02:06:22" attr="0x20" md5="27c3e07119a132aef16137b63e8ee69e">LESSONS.CTX</file>
+		<file size="43001" time="1984-09-20 02:06:22" attr="0x20" md5="4e3f1f55e21a11bb07cf8ee124fe8132">LESSONS.SCN</file>
+		<file size="42708" time="1984-09-20 02:06:22" attr="0x20" md5="fc547b9a1e9fdee75c4664c9a810dfd6">LESSONS.SOB</file>
+		<file size="1882" time="1984-09-20 16:01:10" attr="0x20" md5="2ff780258adf3cfa235bfc24debec359">LW.COD</file>
+		<file size="16928" time="1984-09-20 16:00:48" attr="0x20" md5="6d4ac4644e77c95374fc4594aa7faabf">LW.DAT</file>
+		<file size="21154" time="1984-09-20 16:02:06" attr="0x20" md5="4ac0946688a1b7cb1af6407efb356b0d">LW.PGM</file>
+	</disk>
+</manifest>

@@ -2,13 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.74.2/manifest.xsl"?>
 <manifest type="software">
 	<title>MS Word</title>
-	<version>3.1</version>
+	<version>3.10</version>
 	<type>Application</type>
 	<category>Word Processor</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WORD31-DISK1-PROGRAM.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK1-PROGRAM.json" md5="813bcaaab825a0ba677afe54af9d7ad5" md5json="de4bcd840dc34c1877ea3745f913cab2">
-		<name>MS Word 3.1 (Disk 1)</name>
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/WORD31-DISK1-PROGRAM.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK1-PROGRAM.json" md5="813bcaaab825a0ba677afe54af9d7ad5" md5json="de4bcd840dc34c1877ea3745f913cab2">
+		<name>MS Word 3.10 (Disk 1)</name>
 		<file size="24072" time="1986-10-23 17:54:46" attr="0x20">HYPH.DAT</file>
 		<file size="59153" time="1986-10-23 17:54:46" attr="0x20">MW.HLP</file>
 		<file size="220112" time="1986-10-23 17:54:48" attr="0x20">MW.PGM</file>
@@ -16,8 +16,8 @@
 		<file size="50546" time="1986-10-23 17:54:48" attr="0x20">WORD.COM</file>
 		<file size="369" time="1986-10-23 17:54:48" attr="0x20">WORD.PIF</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WORD31-DISK2-SPELL.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK2-SPELL.json" md5="409bb76dd8ad4068f78001d7b26ddfda" md5json="aea635c7d04326bbf273d9001000532e">
-		<name>MS Word 3.1 (Disk 2)</name>
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/WORD31-DISK2-SPELL.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK2-SPELL.json" md5="409bb76dd8ad4068f78001d7b26ddfda" md5json="aea635c7d04326bbf273d9001000532e">
+		<name>MS Word 3.10 (Disk 2)</name>
 		<file size="2926" time="1986-10-16 14:38:02" attr="0x20">ANAGRAM.COM</file>
 		<file size="34944" time="1986-10-16 14:38:02" attr="0x20">CONVERTD.EXE</file>
 		<file size="5888" time="1986-10-16 14:38:02" attr="0x20">HIGHFREQ.CMP</file>
@@ -32,12 +32,12 @@
 		<file size="2844" time="1986-10-16 14:38:08" attr="0x20">WORDFIND.COM</file>
 		<file size="6598" time="1986-10-16 14:38:08" attr="0x20">WORDFREQ.COM</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WORD31-DISK3-THESAURUS.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK3-THESAURUS.json" md5="90244da2abce6d64d4a9f06df4db9354" md5json="f761c4b4defbc8ea753491dfbd8e21bb">
-		<name>MS Word 3.1 (Disk 3)</name>
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/WORD31-DISK3-THESAURUS.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK3-THESAURUS.json" md5="90244da2abce6d64d4a9f06df4db9354" md5json="f761c4b4defbc8ea753491dfbd8e21bb">
+		<name>MS Word 3.10 (Disk 3)</name>
 		<file size="325440" time="1986-10-16 14:37:28" attr="0x20">WFBG.SYN</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WORD31-DISK4-UTILITIES.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK4-UTILITIES.json" md5="e51a203b9a37e2ae2f6f2d32f07becbf" md5json="054d494769b3f33ececc316039a7e86d">
-		<name>MS Word 3.1 (Disk 4)</name>
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/WORD31-DISK4-UTILITIES.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK4-UTILITIES.json" md5="e51a203b9a37e2ae2f6f2d32f07becbf" md5json="054d494769b3f33ececc316039a7e86d">
+		<name>MS Word 3.10 (Disk 4)</name>
 		<file size="8272" time="1986-10-17 11:50:18" attr="0x20">ALPS2000.PRD</file>
 		<file size="965" time="1986-10-17 11:50:18" attr="0x20">ASTTURBO.INI</file>
 		<file size="5377" time="1986-10-17 11:50:18" attr="0x20">ASTTURBO.PRD</file>
@@ -62,8 +62,8 @@
 		<file size="9778" time="1986-10-17 11:50:28" attr="0x20">X4045DLP.EXE</file>
 		<file size="32775" time="1986-10-17 11:50:28" attr="0x20">X4045DLP.PRD</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WORD31-DISK5-PRINTER.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK5-PRINTER.json" md5="292bb6529b70562580b1a7d9afdea383" md5json="7723d3c559f953fbf22cc2d3d4d28c22">
-		<name>MS Word 3.1 (Disk 5)</name>
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/WORD31-DISK5-PRINTER.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK5-PRINTER.json" md5="292bb6529b70562580b1a7d9afdea383" md5json="7723d3c559f953fbf22cc2d3d4d28c22">
+		<name>MS Word 3.10 (Disk 5)</name>
 		<file size="1368" time="1986-10-17 11:47:20" attr="0x20">ANDX60CS.PRD</file>
 		<file size="1248" time="1986-10-17 11:47:20" attr="0x20">ANDX60DP.PRD</file>
 		<file size="5178" time="1986-10-17 11:47:20" attr="0x20">ANDX60LT.PRD</file>
@@ -141,8 +141,8 @@
 		<file size="1345" time="1986-10-17 11:47:40" attr="0x20">HPPCCOUR.PRD</file>
 		<file size="4992" time="1986-10-17 17:43:06" attr="0x20">PRINTERS.DOC</file>
 	</disk>
-	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WORD31-DISK6-PRINTER.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK6-PRINTER.json" md5="c14f7fbdb6d0e015d2fa7a65bb93af77" md5json="4329ce17756296edf71eb8afd7449a40">
-		<name>MS Word 3.1 (Disk 6)</name>
+	<disk id="disk06" size="368640" chs="40:2:9" img="archive/WORD31-DISK6-PRINTER.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK6-PRINTER.json" md5="c14f7fbdb6d0e015d2fa7a65bb93af77" md5json="4329ce17756296edf71eb8afd7449a40">
+		<name>MS Word 3.10 (Disk 6)</name>
 		<file size="14436" time="1986-10-16 14:16:50" attr="0x20">CORONA.PRD</file>
 		<file size="1569" time="1986-10-16 14:16:50" attr="0x20">HPQUIET.PRD</file>
 		<file size="1004" time="1986-10-16 14:16:50" attr="0x20">HPTHINK.PRD</file>
@@ -209,16 +209,16 @@
 		<file size="8005" time="1986-10-16 14:17:10" attr="0x20">X2700.PRD</file>
 		<file size="32775" time="1986-10-16 14:17:10" attr="0x20">X4045.PRD</file>
 	</disk>
-	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WORD31-DISK7-LEARNMOU.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK7-LEARNMOU.json" md5="28b0f4e5f5a91155197d01df366487f8" md5json="6d35180d256d56b79ffb6d0bd6b743fb">
-		<name>MS Word 3.1 (Disk 7)</name>
+	<disk id="disk07" size="368640" chs="40:2:9" img="archive/WORD31-DISK7-LEARNMOU.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK7-LEARNMOU.json" md5="28b0f4e5f5a91155197d01df366487f8" md5json="6d35180d256d56b79ffb6d0bd6b743fb">
+		<name>MS Word 3.10 (Disk 7)</name>
 		<file size="33266" time="1986-10-16 14:25:34" attr="0x20">LEARN.COM</file>
 		<file size="48096" time="1986-10-16 14:25:34" attr="0x20">LW.PGM</file>
 		<file size="171099" time="1986-10-16 14:25:36" attr="0x20">MOUSELES.CTX</file>
 		<file size="56206" time="1986-10-16 14:25:36" attr="0x20">MOUSELES.SCN</file>
 		<file size="46406" time="1986-10-16 14:25:36" attr="0x20">MOUSELES.SOB</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" img="archive/WORD31-DISK8-LEARNKBD.img" href="/disks-demo/pcx86/apps/microsoft/word/3.1/WORD31-DISK8-LEARNKBD.json" md5="c5857a1d57aa3fd6611dc0c5ce5e74dc" md5json="012f644cfb0ae2a8622b57c81c8c4259">
-		<name>MS Word 3.1 (Disk 8)</name>
+	<disk id="disk08" size="368640" chs="40:2:9" img="archive/WORD31-DISK8-LEARNKBD.img" href="/disks-demo/pcx86/apps/microsoft/word/3.10/WORD31-DISK8-LEARNKBD.json" md5="c5857a1d57aa3fd6611dc0c5ce5e74dc" md5json="012f644cfb0ae2a8622b57c81c8c4259">
+		<name>MS Word 3.10 (Disk 8)</name>
 		<file size="174464" time="1986-10-16 14:26:28" attr="0x20">KEYBDLES.CTX</file>
 		<file size="53423" time="1986-10-16 14:26:28" attr="0x20">KEYBDLES.SCN</file>
 		<file size="49323" time="1986-10-16 14:26:28" attr="0x20">KEYBDLES.SOB</file>

@@ -7,7 +7,7 @@
 	<category>Word Processor</category>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSWORD-115-PROGRAM-BACKUP.img" href="/disks-demo/pcx86/apps/microsoft/word/1.15/MSWORD-115-PROGRAM.json" md5="ab6393e4966ac44f56d974299e15ed50" md5json="169f43f7087d906cd3fda49d618daba3">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/MSWORD-115-PROGRAM-BACKUP.img" href="/disks-demo/pcx86/apps/microsoft/word/1.15/MSWORD-115-PROGRAM.json" md5="ab6393e4966ac44f56d974299e15ed50" md5json="dcc4ba9a6e735a19b9aa74e031261a0f">
 		<name>MS Word 1.15 (Program)</name>
 		<file size="11" time="1984-09-18 12:00:00" attr="0x20" md5="a2bff8a6ec2db5b43b9b73df5d842a74">AUTOEXEC.BAT</file>
 		<file size="768" time="1984-09-18 12:00:00" attr="0x20" md5="2f4071d1bffe632b0a00bfe2f2afbd02">DEFAULT.STY</file>

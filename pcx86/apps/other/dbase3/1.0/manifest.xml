@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.0/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.1/manifest.xsl"?>
 <manifest type="software">
 	<title>dBASE III</title>
 	<version>1.0</version>
@@ -7,168 +7,168 @@
 	<category>Database</category>
 	<author>Ashton-Tate</author>
 	<releaseDate>1984</releaseDate>
-	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK1.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK1.json" md5="fe4b1059c3db9088e032ca316c38e4bf" md5json="cb2a69cf2c632ae01c352532582e79c8">
+	<disk id="disk01" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK1-KF.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK1.json" md5="c4afcf5026c1c8febde23ceb13e960ef" md5json="2a1df10b0365946928649ad938575f39">
 		<name>dBASE III 1.0 (Disk 1)</name>
-		<file size="15223" time="1984-07-15 08:29:08" attr="0x20">ASSIST.HLP</file>
-		<file size="22" time="1984-07-15 08:29:16" attr="0x20">CONFIG.SYS</file>
-		<file size="112720" time="1984-07-15 08:28:46" attr="0x20">DBASE.EXE</file>
-		<file size="147456" time="1984-07-15 08:28:54" attr="0x20">DBASE.OVL</file>
-		<file size="53760" time="1984-07-15 08:29:04" attr="0x20">HELP.DBS</file>
-		<file size="4224" time="1984-07-15 08:29:14" attr="0x20">READ.ME</file>
+		<file size="15223" time="1984-07-15 08:29:08" attr="0x20" md5="ac2ad5f7510035166232250d9c1457e0">ASSIST.HLP</file>
+		<file size="22" time="1984-07-15 08:29:16" attr="0x20" md5="eb37338a91a25564c384fbbd77bb0149">CONFIG.SYS</file>
+		<file size="112720" time="1984-07-15 08:28:46" attr="0x20" md5="7d40f675a2237bb9e826c176fa0dd331">DBASE.EXE</file>
+		<file size="147456" time="1984-07-15 08:28:54" attr="0x20" md5="5a742f80728959cd928d3d6f55571567">DBASE.OVL</file>
+		<file size="53760" time="1984-07-15 08:29:04" attr="0x20" md5="cf1eeab98150c087d58894cb3d304796">HELP.DBS</file>
+		<file size="4224" time="1984-07-15 08:29:14" attr="0x20" md5="c645fc91aa6a93fddb6c7b5c3b5eb3cb">READ.ME</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK2.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK2.json" md5="3a79fa930b5182464d8bc2e3a19e7843" md5json="03b1a1eb5b44719621c19a44de6cbbec">
+	<disk id="disk02" size="368640" chs="40:2:9" img="archive/DBIII-100-DISK2.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-DISK2.json" md5="ae100f936a2ad168c4f67acd3ac120e8" md5json="03b1a1eb5b44719621c19a44de6cbbec">
 		<name>dBASE III 1.0 (Disk 2)</name>
-		<file size="1408" time="1984-04-30 09:08:58" attr="0x20">ACCOUNTS.PRG</file>
-		<file size="1024" time="1984-11-13 08:27:10" attr="0x20">ADDRESS.NDX</file>
-		<file size="1280" time="1984-06-15 15:26:20" attr="0x20">BIG.PRG</file>
-		<file size="1024" time="1984-04-29 19:57:30" attr="0x20">BILLINGS.DBF</file>
-		<file size="1024" time="1980-01-01 00:46:12" attr="0x20">BILLINGS.NDX</file>
-		<file size="1024" time="1980-01-01 00:46:18" attr="0x20">BILLJOBS.NDX</file>
-		<file size="2414" time="1984-11-07 12:11:24" attr="0x20">CHAPTER6.TXT</file>
-		<file size="355" time="1984-06-14 03:42:06" attr="0x20">CHECKFIL.DBF</file>
-		<file size="3712" time="1984-06-15 17:21:44" attr="0x20">CHECKSTU.PRG</file>
-		<file size="1477" time="1984-04-08 20:01:26" attr="0x20">CLADDRES.DBF</file>
-		<file size="1990" time="1984-11-07 13:26:02" attr="0x20">COMMISS.FRM</file>
-		<file size="426" time="1984-11-06 02:04:04" attr="0x20">CONSTANT.MEM</file>
-		<file size="3301" time="1984-06-14 03:46:54" attr="0x20">COSTBASE.DBF</file>
-		<file size="4608" time="1984-05-01 13:32:32" attr="0x20">COSTBILL.PRG</file>
-		<file size="1024" time="1980-01-01 00:45:58" attr="0x20">COSTJOBS.NDX</file>
-		<file size="2688" time="1984-05-01 07:57:40" attr="0x20">COSTMENU.PRG</file>
-		<file size="2048" time="1980-01-01 00:46:04" attr="0x20">COSTNAME.NDX</file>
-		<file size="3584" time="1984-06-15 14:45:00" attr="0x20">COSTTIME.PRG</file>
-		<file size="2048" time="1984-06-15 14:45:20" attr="0x20">COSTUPDA.PRG</file>
-		<file size="48128" time="1984-06-06 15:10:30" attr="0x20">DCONVERT.EXE</file>
-		<file size="1280" time="1984-06-15 14:47:18" attr="0x20">DEPMENU.PRG</file>
-		<file size="227" time="1984-06-14 03:42:44" attr="0x20">DEPOSITS.DBF</file>
-		<file size="3584" time="1984-06-15 14:41:54" attr="0x20">DEPOSITS.PRG</file>
-		<file size="896" time="1984-03-28 20:49:58" attr="0x20">DEPPRINT.PRG</file>
-		<file size="1664" time="1984-05-01 08:31:52" attr="0x20">DEPTRANS.PRG</file>
-		<file size="50432" time="1984-06-12 14:46:46" attr="0x20">DFM.MSG</file>
-		<file size="39424" time="1984-06-12 14:56:08" attr="0x20">DFORMAT.EXE</file>
-		<file size="253" time="1984-11-13 09:18:18" attr="0x20">DOCTORS.DBF</file>
-		<file size="1024" time="1984-11-06 02:38:58" attr="0x20">FULL.NDX</file>
-		<file size="1412" time="1984-04-01 21:56:02" attr="0x20">HOLD84.DBF</file>
-		<file size="1408" time="1984-05-01 10:11:44" attr="0x20">INDEXING.PRG</file>
-		<file size="1536" time="1984-05-01 08:38:20" attr="0x20">INVCHECK.PRG</file>
-		<file size="1408" time="1984-05-01 08:38:42" attr="0x20">INVEDIT.PRG</file>
-		<file size="419" time="1984-06-14 03:40:24" attr="0x20">INVGET.DBF</file>
-		<file size="1792" time="1984-05-01 08:33:06" attr="0x20">INVMENU.PRG</file>
-		<file size="598" time="1984-06-14 03:43:58" attr="0x20">INVOICES.DBF</file>
-		<file size="1024" time="1980-01-01 00:46:44" attr="0x20">INVOICES.NDX</file>
-		<file size="3712" time="1984-06-15 16:53:46" attr="0x20">INVOICES.PRG</file>
-		<file size="5888" time="1984-06-15 16:37:36" attr="0x20">INVPRINT.PRG</file>
-		<file size="768" time="1984-03-28 20:54:24" attr="0x20">INVSUBTO.PRB</file>
-		<file size="896" time="1984-05-01 08:37:44" attr="0x20">INVUPDAT.PRG</file>
-		<file size="6016" time="1984-06-15 14:43:26" attr="0x20">JOBCOSTS.PRG</file>
-		<file size="770" time="1984-05-01 15:58:54" attr="0x20">KONSTANT.MEM</file>
-		<file size="1024" time="1984-11-13 08:22:08" attr="0x20">LAST.NDX</file>
-		<file size="1024" time="1984-11-06 02:36:14" attr="0x20">MONEY.NDX</file>
-		<file size="1024" time="1984-11-13 08:32:28" attr="0x20">MONTH.NDX</file>
-		<file size="1342" time="1984-11-13 08:31:14" attr="0x20">NAMES.DBF</file>
-		<file size="398" time="1984-04-07 18:38:46" attr="0x20">NAMES.FMT</file>
-		<file size="1664" time="1984-05-01 13:59:54" attr="0x20">NAMETEST.PRG</file>
-		<file size="274" time="1984-11-12 03:20:04" attr="0x20">NOTES.DBF</file>
-		<file size="512" time="1984-11-12 03:14:52" attr="0x20">NOTES.DBT</file>
-		<file size="9472" time="1984-06-15 16:44:16" attr="0x20">PAYBILLS.PRG</file>
-		<file size="2944" time="1984-06-15 14:43:50" attr="0x20">PAYEMPS.PRG</file>
-		<file size="3712" time="1984-06-15 16:42:46" attr="0x20">PAYFIND.PRG</file>
-		<file size="1408" time="1984-05-01 08:45:16" attr="0x20">PAYMENU.PRG</file>
-		<file size="1536" time="1984-06-15 16:41:12" attr="0x20">PAYRECAP.PRG</file>
-		<file size="13056" time="1984-06-15 16:50:24" attr="0x20">PAYROLL.PRG</file>
-		<file size="1248" time="1984-04-30 17:31:38" attr="0x20">PERSON.DBF</file>
-		<file size="1024" time="1984-11-12 09:38:44" attr="0x20">PERSON.NDX</file>
-		<file size="1925" time="1984-06-05 10:55:00" attr="0x20">PERSONNE.DBF</file>
-		<file size="1339" time="1984-06-05 10:51:20" attr="0x20">POSTFILE.DBF</file>
-		<file size="2560" time="1984-11-12 03:01:40" attr="0x20">RENTALS.DBF</file>
-		<file size="1317" time="1984-11-07 13:00:46" attr="0x20">RENTS.DBF</file>
-		<file size="1024" time="1984-11-07 13:01:02" attr="0x20">SALES.NDX</file>
-		<file size="5376" time="1984-06-15 17:43:32" attr="0x20">SALESTAX.PRG</file>
-		<file size="1024" time="1984-11-07 13:39:50" attr="0x20">STATESLS.NDX</file>
-		<file size="1262" time="1984-11-07 13:19:56" attr="0x20">SUMMARY.TXT</file>
-		<file size="2659" time="1984-04-09 18:40:00" attr="0x20">SUPPLIER.DBF</file>
-		<file size="2560" time="1984-03-28 16:55:54" attr="0x20">SUPPLIER.NDX</file>
-		<file size="190" time="1984-11-07 12:09:04" attr="0x20">TEST.BAK</file>
-		<file size="223" time="1984-11-07 12:48:06" attr="0x20">TEST.PRG</file>
-		<file size="588" time="1984-11-07 11:22:18" attr="0x20">TEST.TXT</file>
-		<file size="3712" time="1984-06-15 14:50:16" attr="0x20">TIMECALC.PRG</file>
-		<file size="3801" time="1984-04-01 21:55:44" attr="0x20">WAGES.DBF</file>
-		<file size="1024" time="1984-11-06 03:12:54" attr="0x20">WHO.NDX</file>
-		<file size="1024" time="1984-11-13 08:23:36" attr="0x20">ZIP.NDX</file>
+		<file size="1408" time="1984-04-30 09:08:58" attr="0x20" md5="05d90d13497bc7ae20a89b06b0f9cf58">ACCOUNTS.PRG</file>
+		<file size="1024" time="1984-11-13 09:27:10" attr="0x20" md5="c8eb6b636640e5a89d34638ecce7e9b0">ADDRESS.NDX</file>
+		<file size="1280" time="1984-06-15 15:26:20" attr="0x20" md5="5f07d57c5095a110eae39315fad1cac4">BIG.PRG</file>
+		<file size="1024" time="1984-04-29 19:57:30" attr="0x20" md5="d5b284bbd2ac3d8c944bc011c3ae4e24">BILLINGS.DBF</file>
+		<file size="1024" time="1980-01-01 01:46:12" attr="0x20" md5="ba9c43064ed710bb1eea3f1d8c252ff4">BILLINGS.NDX</file>
+		<file size="1024" time="1980-01-01 01:46:18" attr="0x20" md5="52b1249eb498a59e8afe48dcc8a069cc">BILLJOBS.NDX</file>
+		<file size="2414" time="1984-11-07 13:11:24" attr="0x20" md5="d12125003fb91c4faa2610f3b6afd857">CHAPTER6.TXT</file>
+		<file size="355" time="1984-06-14 03:42:06" attr="0x20" md5="b94b5726f03a0d9398300fe66b4e8038">CHECKFIL.DBF</file>
+		<file size="3712" time="1984-06-15 17:21:44" attr="0x20" md5="c424616440de234e5b0c533b2b6cd051">CHECKSTU.PRG</file>
+		<file size="1477" time="1984-04-08 21:01:26" attr="0x20" md5="71943e4b28ac10df56c6de9b5f91a339">CLADDRES.DBF</file>
+		<file size="1990" time="1984-11-07 14:26:02" attr="0x20" md5="eafa34faa964af3a58c3aabe205577f1">COMMISS.FRM</file>
+		<file size="426" time="1984-11-06 03:04:04" attr="0x20" md5="edd12456fbd6fa2acf36eedc5c8080b2">CONSTANT.MEM</file>
+		<file size="3301" time="1984-06-14 03:46:54" attr="0x20" md5="138336279c8b31db5cd4b98644348099">COSTBASE.DBF</file>
+		<file size="4608" time="1984-05-01 13:32:32" attr="0x20" md5="991dace00e46d4a0f2c24210779da226">COSTBILL.PRG</file>
+		<file size="1024" time="1980-01-01 01:45:58" attr="0x20" md5="95c9c6bbc61101b4f3aeef1cc811b76a">COSTJOBS.NDX</file>
+		<file size="2688" time="1984-05-01 07:57:40" attr="0x20" md5="9508fed5e4126db6e885cadc856f7151">COSTMENU.PRG</file>
+		<file size="2048" time="1980-01-01 01:46:04" attr="0x20" md5="4ddb85356998dc900a1bea80ee2d7919">COSTNAME.NDX</file>
+		<file size="3584" time="1984-06-15 14:45:00" attr="0x20" md5="4516f17e6975bea75a279b4b2f81a44d">COSTTIME.PRG</file>
+		<file size="2048" time="1984-06-15 14:45:20" attr="0x20" md5="22f29f645f91c5ea1eb34c00d58ac3bd">COSTUPDA.PRG</file>
+		<file size="48128" time="1984-06-06 15:10:30" attr="0x20" md5="b59ee7faa8af31403143769c86efa090">DCONVERT.EXE</file>
+		<file size="1280" time="1984-06-15 14:47:18" attr="0x20" md5="f0f5b5ab482cc29e098bd278721734d4">DEPMENU.PRG</file>
+		<file size="227" time="1984-06-14 03:42:44" attr="0x20" md5="a90cc33c2bd0cbcee9d48321d15e1902">DEPOSITS.DBF</file>
+		<file size="3584" time="1984-06-15 14:41:54" attr="0x20" md5="97efac2c79add8a176ab4bf3d62a5550">DEPOSITS.PRG</file>
+		<file size="896" time="1984-03-28 21:49:58" attr="0x20" md5="4c1c9afe44a0cf4b5657997a346af750">DEPPRINT.PRG</file>
+		<file size="1664" time="1984-05-01 08:31:52" attr="0x20" md5="c3c59ef1a74c2aeef1e7c83e365eea7c">DEPTRANS.PRG</file>
+		<file size="50432" time="1984-06-12 14:46:46" attr="0x20" md5="dbffea8a31a8e959409be6e153ef8ac7">DFM.MSG</file>
+		<file size="39424" time="1984-06-12 14:56:08" attr="0x20" md5="32153f13371c6ae9cf49e3820204f5f5">DFORMAT.EXE</file>
+		<file size="253" time="1984-11-13 10:18:18" attr="0x20" md5="2dc0619cb9467cc403c9bb7a8a434b33">DOCTORS.DBF</file>
+		<file size="1024" time="1984-11-06 03:38:58" attr="0x20" md5="9a65e5bfd3034c5372e580296b0696ea">FULL.NDX</file>
+		<file size="1412" time="1984-04-01 22:56:02" attr="0x20" md5="2edf9a3bd7f574bdf6f732769a7fd882">HOLD84.DBF</file>
+		<file size="1408" time="1984-05-01 10:11:44" attr="0x20" md5="baefe9838cca194969890542ea7f41f8">INDEXING.PRG</file>
+		<file size="1536" time="1984-05-01 08:38:20" attr="0x20" md5="3238b2eec00436fce148a0467caf5ceb">INVCHECK.PRG</file>
+		<file size="1408" time="1984-05-01 08:38:42" attr="0x20" md5="a40d0a08c190355d1304a936824aab8d">INVEDIT.PRG</file>
+		<file size="419" time="1984-06-14 03:40:24" attr="0x20" md5="3ecc3dc4e1b98b5b753f3caadec7fc97">INVGET.DBF</file>
+		<file size="1792" time="1984-05-01 08:33:06" attr="0x20" md5="42c42f2b5cf462186dcf2567fcdd6732">INVMENU.PRG</file>
+		<file size="598" time="1984-06-14 03:43:58" attr="0x20" md5="7a26ff9e4ac53a679632649ec7be678c">INVOICES.DBF</file>
+		<file size="1024" time="1980-01-01 01:46:44" attr="0x20" md5="89d4bac0731847d2de4f35e376ec8868">INVOICES.NDX</file>
+		<file size="3712" time="1984-06-15 16:53:46" attr="0x20" md5="d5d3275df7e494621dc074cf43a00553">INVOICES.PRG</file>
+		<file size="5888" time="1984-06-15 16:37:36" attr="0x20" md5="fac286c92ead36402b64013336ef492c">INVPRINT.PRG</file>
+		<file size="768" time="1984-03-28 21:54:24" attr="0x20" md5="35e0a977dd93400d467f3d8b13dfc277">INVSUBTO.PRB</file>
+		<file size="896" time="1984-05-01 08:37:44" attr="0x20" md5="082a04e468d93200b94aa8361235b405">INVUPDAT.PRG</file>
+		<file size="6016" time="1984-06-15 14:43:26" attr="0x20" md5="47b181a7715f40cc4b4005f6aa8e6f6f">JOBCOSTS.PRG</file>
+		<file size="770" time="1984-05-01 15:58:54" attr="0x20" md5="5e5dbb5b424be9d5df33838700fb6ae9">KONSTANT.MEM</file>
+		<file size="1024" time="1984-11-13 09:22:08" attr="0x20" md5="bfdbaf9fee4823b72c7abd7fd6e6d95c">LAST.NDX</file>
+		<file size="1024" time="1984-11-06 03:36:14" attr="0x20" md5="041a1e8f6a7c16d1071126085e934c89">MONEY.NDX</file>
+		<file size="1024" time="1984-11-13 09:32:28" attr="0x20" md5="83de52a60b23dcee8ea7437cc6cd4e1b">MONTH.NDX</file>
+		<file size="1342" time="1984-11-13 09:31:14" attr="0x20" md5="083acb0ba87a306d8aacea58ba385c63">NAMES.DBF</file>
+		<file size="398" time="1984-04-07 19:38:46" attr="0x20" md5="8945126991937c47199062439293f32f">NAMES.FMT</file>
+		<file size="1664" time="1984-05-01 13:59:54" attr="0x20" md5="9ddd712511a62514be9b773733304c02">NAMETEST.PRG</file>
+		<file size="274" time="1984-11-12 04:20:04" attr="0x20" md5="91c0aba584fe14b4f41e92298b4d0632">NOTES.DBF</file>
+		<file size="512" time="1984-11-12 04:14:52" attr="0x20" md5="5df12452149cee57093b0e871c58e16b">NOTES.DBT</file>
+		<file size="9472" time="1984-06-15 16:44:16" attr="0x20" md5="f3c8cd128660d37a923e0931cc640a65">PAYBILLS.PRG</file>
+		<file size="2944" time="1984-06-15 14:43:50" attr="0x20" md5="01d8821755f18268af521f623b81b096">PAYEMPS.PRG</file>
+		<file size="3712" time="1984-06-15 16:42:46" attr="0x20" md5="0ad8bc256946dee8d0edb55e0baaa345">PAYFIND.PRG</file>
+		<file size="1408" time="1984-05-01 08:45:16" attr="0x20" md5="b32bb2dd35236f71de4201f4b2512203">PAYMENU.PRG</file>
+		<file size="1536" time="1984-06-15 16:41:12" attr="0x20" md5="bfa9336f8f388b810328fec7bbb763f6">PAYRECAP.PRG</file>
+		<file size="13056" time="1984-06-15 16:50:24" attr="0x20" md5="02489dbd5bbe2ff093121e905bf2f548">PAYROLL.PRG</file>
+		<file size="1248" time="1984-04-30 17:31:38" attr="0x20" md5="b7e70dcd95daaed25f01a68150f2cf96">PERSON.DBF</file>
+		<file size="1024" time="1984-11-12 10:38:44" attr="0x20" md5="77587a613d4b370bfea5c5ed0a7b43d6">PERSON.NDX</file>
+		<file size="1925" time="1984-06-05 10:55:00" attr="0x20" md5="882dad07bc7da9e1d1214ffe2c5c1a60">PERSONNE.DBF</file>
+		<file size="1339" time="1984-06-05 10:51:20" attr="0x20" md5="0e83d5a180cce1bf1a593526f4b9013f">POSTFILE.DBF</file>
+		<file size="2560" time="1984-11-12 04:01:40" attr="0x20" md5="84bbcee129912d06735bf6ccd8667662">RENTALS.DBF</file>
+		<file size="1317" time="1984-11-07 14:00:46" attr="0x20" md5="578caafad3ebadcd4776c47b4ae06c62">RENTS.DBF</file>
+		<file size="1024" time="1984-11-07 14:01:02" attr="0x20" md5="b126c8a5e72f64393f0974d6ed75b399">SALES.NDX</file>
+		<file size="5376" time="1984-06-15 17:43:32" attr="0x20" md5="7c203b0e63195d6e026bc944a76ef913">SALESTAX.PRG</file>
+		<file size="1024" time="1984-11-07 14:39:50" attr="0x20" md5="14b5825c203f4b7ade98a7841ec1e77c">STATESLS.NDX</file>
+		<file size="1262" time="1984-11-07 14:19:56" attr="0x20" md5="9a3d7215343bd6d17f9725946ec87256">SUMMARY.TXT</file>
+		<file size="2659" time="1984-04-09 19:40:00" attr="0x20" md5="2b3586d10520474f26323c2443f5b20a">SUPPLIER.DBF</file>
+		<file size="2560" time="1984-03-28 17:55:54" attr="0x20" md5="d231b76b4b46d2ffee745a8244cd03a8">SUPPLIER.NDX</file>
+		<file size="190" time="1984-11-07 13:09:04" attr="0x20" md5="9980d4691fa079a237d99fa08793713c">TEST.BAK</file>
+		<file size="223" time="1984-11-07 13:48:06" attr="0x20" md5="928876293e50eb38e8a85f6c4e60a6de">TEST.PRG</file>
+		<file size="588" time="1984-11-07 12:22:18" attr="0x20" md5="52c647e94f03c40bbee626f42df07bd2">TEST.TXT</file>
+		<file size="3712" time="1984-06-15 14:50:16" attr="0x20" md5="d0667a0f847bc1c2a7ec3092e435222d">TIMECALC.PRG</file>
+		<file size="3801" time="1984-04-01 22:55:44" attr="0x20" md5="a58910ffec989f430f8a78ace3ea6764">WAGES.DBF</file>
+		<file size="1024" time="1984-11-06 04:12:54" attr="0x20" md5="a1ac1c09a52871895bab599620ca78dc">WHO.NDX</file>
+		<file size="1024" time="1984-11-13 09:23:36" attr="0x20" md5="0bda34b8f4a2c6b49a4fe68a9cbff228">ZIP.NDX</file>
 	</disk>
 	<disk id="disk03" size="368640" chs="40:2:9" img="archive/DBIII-100-LOCKED.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-LOCKED.json" md5="e7c73904362b5298b49a67402d2b00a5" md5json="7940716852d3d71ab64d68e1ac846960">
 		<name>dBASE III 1.0 (Locked)</name>
-		<file size="15223" time="1984-06-26 17:37:02" attr="0x20">ASSIST.HLP</file>
-		<file size="22" time="1984-06-26 17:37:08" attr="0x20">CONFIG.SYS</file>
-		<file size="112720" time="2017-08-11 09:51:22" attr="0x20">DBASE.EXE</file>
-		<file size="147456" time="1984-06-26 17:36:48" attr="0x20">DBASE.OVL</file>
-		<file size="53760" time="1984-06-26 17:36:58" attr="0x20">HELP.DBS</file>
-		<file size="4224" time="1984-06-26 17:37:06" attr="0x20">READ.ME</file>
+		<file size="15223" time="1984-06-26 17:37:02" attr="0x20" md5="ac2ad5f7510035166232250d9c1457e0">ASSIST.HLP</file>
+		<file size="22" time="1984-06-26 17:37:08" attr="0x20" md5="eb37338a91a25564c384fbbd77bb0149">CONFIG.SYS</file>
+		<file size="112720" time="2017-08-11 09:51:22" attr="0x20" md5="8fc19b5d3c46e4a9c1418b1f5219fea7">DBASE.EXE</file>
+		<file size="147456" time="1984-06-26 17:36:48" attr="0x20" md5="5a742f80728959cd928d3d6f55571567">DBASE.OVL</file>
+		<file size="53760" time="1984-06-26 17:36:58" attr="0x20" md5="cf1eeab98150c087d58894cb3d304796">HELP.DBS</file>
+		<file size="4224" time="1984-06-26 17:37:06" attr="0x20" md5="c645fc91aa6a93fddb6c7b5c3b5eb3cb">READ.ME</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="archive/DBIII-100-PATCHED.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-PATCHED.json" md5="c291c4175ee9f5b983a5bb0168421a92" md5json="3d7bc6010f165cb5c41592c9c05e15f2">
+	<disk id="disk04" size="368640" chs="40:2:9" img="archive/DBIII-100-PATCHED.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-PATCHED.json" md5="27f8068bd109c9ce7cef78fe18dd292d" md5json="3d7bc6010f165cb5c41592c9c05e15f2">
 		<name>dBASE III 1.0 (Patched)</name>
-		<file size="15223" time="1984-06-26 17:37:02" attr="0x20">ASSIST.HLP</file>
-		<file size="22" time="1984-06-26 17:37:08" attr="0x20">CONFIG.SYS</file>
-		<file size="112720" time="1984-09-28 15:46:34" attr="0x20">DBASE.EXE</file>
-		<file size="147456" time="1984-06-26 17:36:48" attr="0x20">DBASE.OVL</file>
-		<file size="53760" time="1984-06-26 17:36:58" attr="0x20">HELP.DBS</file>
-		<file size="4224" time="1984-06-26 17:37:06" attr="0x20">READ.ME</file>
+		<file size="15223" time="1984-06-26 17:37:02" attr="0x20" md5="ac2ad5f7510035166232250d9c1457e0">ASSIST.HLP</file>
+		<file size="22" time="1984-06-26 17:37:08" attr="0x20" md5="eb37338a91a25564c384fbbd77bb0149">CONFIG.SYS</file>
+		<file size="112720" time="1984-09-28 15:46:34" attr="0x20" md5="699b3777313391045328554f840781f2">DBASE.EXE</file>
+		<file size="147456" time="1984-06-26 17:36:48" attr="0x20" md5="5a742f80728959cd928d3d6f55571567">DBASE.OVL</file>
+		<file size="53760" time="1984-06-26 17:36:58" attr="0x20" md5="cf1eeab98150c087d58894cb3d304796">HELP.DBS</file>
+		<file size="4224" time="1984-06-26 17:37:06" attr="0x20" md5="c645fc91aa6a93fddb6c7b5c3b5eb3cb">READ.ME</file>
 	</disk>
-	<disk id="disk05" size="368640" chs="40:2:9" img="archive/DBIII-100-SAMPLES.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-SAMPLES.json" md5="919393aa18749389e54ebbb07c83c424" md5json="e2ff2cead7607519001d4357bb9a8439">
+	<disk id="disk05" size="368640" chs="40:2:9" img="archive/DBIII-100-SAMPLES.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-SAMPLES.json" md5="c27b583f0a56adb9bc06a720740d7f3f" md5json="e2ff2cead7607519001d4357bb9a8439">
 		<name>dBASE III 1.0 (Samples)</name>
-		<file size="1408" time="1984-04-30 09:08:58" attr="0x20">ACCOUNTS.PRG</file>
-		<file size="1280" time="1984-06-15 15:26:20" attr="0x20">BIG.PRG</file>
-		<file size="1024" time="1984-04-29 19:57:30" attr="0x20">BILLINGS.DBF</file>
-		<file size="1024" time="1980-01-01 00:46:12" attr="0x20">BILLINGS.NDX</file>
-		<file size="1024" time="1980-01-01 00:46:18" attr="0x20">BILLJOBS.NDX</file>
-		<file size="355" time="1984-06-14 03:42:06" attr="0x20">CHECKFIL.DBF</file>
-		<file size="3712" time="1984-06-15 17:21:44" attr="0x20">CHECKSTU.PRG</file>
-		<file size="1477" time="1984-04-08 20:01:26" attr="0x20">CLADDRES.DBF</file>
-		<file size="3301" time="1984-06-14 03:46:54" attr="0x20">COSTBASE.DBF</file>
-		<file size="4608" time="1984-05-01 13:32:32" attr="0x20">COSTBILL.PRG</file>
-		<file size="1024" time="1980-01-01 00:45:58" attr="0x20">COSTJOBS.NDX</file>
-		<file size="2688" time="1984-05-01 07:57:40" attr="0x20">COSTMENU.PRG</file>
-		<file size="2048" time="1980-01-01 00:46:04" attr="0x20">COSTNAME.NDX</file>
-		<file size="3584" time="1984-06-15 14:45:00" attr="0x20">COSTTIME.PRG</file>
-		<file size="2048" time="1984-06-15 14:45:20" attr="0x20">COSTUPDA.PRG</file>
-		<file size="48128" time="1984-06-06 15:10:30" attr="0x20">DCONVERT.EXE</file>
-		<file size="1280" time="1984-06-15 14:47:18" attr="0x20">DEPMENU.PRG</file>
-		<file size="227" time="1984-06-14 03:42:44" attr="0x20">DEPOSITS.DBF</file>
-		<file size="3584" time="1984-06-15 14:41:54" attr="0x20">DEPOSITS.PRG</file>
-		<file size="896" time="1984-03-28 20:49:58" attr="0x20">DEPPRINT.PRG</file>
-		<file size="1664" time="1984-05-01 08:31:52" attr="0x20">DEPTRANS.PRG</file>
-		<file size="50432" time="1984-06-12 14:46:46" attr="0x20">DFM.MSG</file>
-		<file size="39424" time="1984-06-12 14:56:08" attr="0x20">DFORMAT.EXE</file>
-		<file size="1412" time="1984-04-01 21:56:02" attr="0x20">HOLD84.DBF</file>
-		<file size="1408" time="1984-05-01 10:11:44" attr="0x20">INDEXING.PRG</file>
-		<file size="1536" time="1984-05-01 08:38:20" attr="0x20">INVCHECK.PRG</file>
-		<file size="1408" time="1984-05-01 08:38:42" attr="0x20">INVEDIT.PRG</file>
-		<file size="419" time="1984-06-14 03:40:24" attr="0x20">INVGET.DBF</file>
-		<file size="1792" time="1984-05-01 08:33:06" attr="0x20">INVMENU.PRG</file>
-		<file size="598" time="1984-06-14 03:43:58" attr="0x20">INVOICES.DBF</file>
-		<file size="1024" time="1980-01-01 00:46:44" attr="0x20">INVOICES.NDX</file>
-		<file size="3712" time="1984-06-15 16:53:46" attr="0x20">INVOICES.PRG</file>
-		<file size="5888" time="1984-06-15 16:37:36" attr="0x20">INVPRINT.PRG</file>
-		<file size="768" time="1984-03-28 20:54:24" attr="0x20">INVSUBTO.PRG</file>
-		<file size="896" time="1984-05-01 08:37:44" attr="0x20">INVUPDAT.PRG</file>
-		<file size="6016" time="1984-06-15 14:43:26" attr="0x20">JOBCOSTS.PRG</file>
-		<file size="770" time="1984-05-01 15:58:54" attr="0x20">KONSTANT.MEM</file>
-		<file size="1024" time="1984-05-01 12:52:08" attr="0x20">NAMES.DBF</file>
-		<file size="398" time="1984-04-07 18:38:46" attr="0x20">NAMES.FMT</file>
-		<file size="1664" time="1984-05-01 13:59:54" attr="0x20">NAMETEST.PRG</file>
-		<file size="9472" time="1984-06-15 16:44:16" attr="0x20">PAYBILLS.PRG</file>
-		<file size="2944" time="1984-06-15 14:43:50" attr="0x20">PAYEMPS.PRG</file>
-		<file size="3712" time="1984-06-15 16:42:46" attr="0x20">PAYFIND.PRG</file>
-		<file size="1408" time="1984-05-01 08:45:16" attr="0x20">PAYMENU.PRG</file>
-		<file size="1536" time="1984-06-15 16:41:12" attr="0x20">PAYRECAP.PRG</file>
-		<file size="13056" time="1984-06-15 16:50:24" attr="0x20">PAYROLL.PRG</file>
-		<file size="1248" time="1984-04-30 17:31:38" attr="0x20">PERSON.DBF</file>
-		<file size="1925" time="1984-06-05 10:55:00" attr="0x20">PERSONNE.DBF</file>
-		<file size="1339" time="1984-06-05 10:51:20" attr="0x20">POSTFILE.DBF</file>
-		<file size="2560" time="1984-06-15 14:06:06" attr="0x20">RENTALS.DBF</file>
-		<file size="5376" time="1984-06-15 17:43:32" attr="0x20">SALESTAX.PRG</file>
-		<file size="2659" time="1984-04-09 18:40:00" attr="0x20">SUPPLIER.DBF</file>
-		<file size="2560" time="1984-03-28 16:55:54" attr="0x20">SUPPLIER.NDX</file>
-		<file size="3712" time="1984-06-15 14:50:16" attr="0x20">TIMECALC.PRG</file>
-		<file size="3801" time="1984-04-01 21:55:44" attr="0x20">WAGES.DBF</file>
+		<file size="1408" time="1984-04-30 09:08:58" attr="0x20" md5="05d90d13497bc7ae20a89b06b0f9cf58">ACCOUNTS.PRG</file>
+		<file size="1280" time="1984-06-15 15:26:20" attr="0x20" md5="5f07d57c5095a110eae39315fad1cac4">BIG.PRG</file>
+		<file size="1024" time="1984-04-29 19:57:30" attr="0x20" md5="d5b284bbd2ac3d8c944bc011c3ae4e24">BILLINGS.DBF</file>
+		<file size="1024" time="1980-01-01 01:46:12" attr="0x20" md5="ba9c43064ed710bb1eea3f1d8c252ff4">BILLINGS.NDX</file>
+		<file size="1024" time="1980-01-01 01:46:18" attr="0x20" md5="52b1249eb498a59e8afe48dcc8a069cc">BILLJOBS.NDX</file>
+		<file size="355" time="1984-06-14 03:42:06" attr="0x20" md5="b94b5726f03a0d9398300fe66b4e8038">CHECKFIL.DBF</file>
+		<file size="3712" time="1984-06-15 17:21:44" attr="0x20" md5="c424616440de234e5b0c533b2b6cd051">CHECKSTU.PRG</file>
+		<file size="1477" time="1984-04-08 21:01:26" attr="0x20" md5="71943e4b28ac10df56c6de9b5f91a339">CLADDRES.DBF</file>
+		<file size="3301" time="1984-06-14 03:46:54" attr="0x20" md5="138336279c8b31db5cd4b98644348099">COSTBASE.DBF</file>
+		<file size="4608" time="1984-05-01 13:32:32" attr="0x20" md5="991dace00e46d4a0f2c24210779da226">COSTBILL.PRG</file>
+		<file size="1024" time="1980-01-01 01:45:58" attr="0x20" md5="95c9c6bbc61101b4f3aeef1cc811b76a">COSTJOBS.NDX</file>
+		<file size="2688" time="1984-05-01 07:57:40" attr="0x20" md5="9508fed5e4126db6e885cadc856f7151">COSTMENU.PRG</file>
+		<file size="2048" time="1980-01-01 01:46:04" attr="0x20" md5="4ddb85356998dc900a1bea80ee2d7919">COSTNAME.NDX</file>
+		<file size="3584" time="1984-06-15 14:45:00" attr="0x20" md5="4516f17e6975bea75a279b4b2f81a44d">COSTTIME.PRG</file>
+		<file size="2048" time="1984-06-15 14:45:20" attr="0x20" md5="22f29f645f91c5ea1eb34c00d58ac3bd">COSTUPDA.PRG</file>
+		<file size="48128" time="1984-06-06 15:10:30" attr="0x20" md5="b59ee7faa8af31403143769c86efa090">DCONVERT.EXE</file>
+		<file size="1280" time="1984-06-15 14:47:18" attr="0x20" md5="f0f5b5ab482cc29e098bd278721734d4">DEPMENU.PRG</file>
+		<file size="227" time="1984-06-14 03:42:44" attr="0x20" md5="a90cc33c2bd0cbcee9d48321d15e1902">DEPOSITS.DBF</file>
+		<file size="3584" time="1984-06-15 14:41:54" attr="0x20" md5="97efac2c79add8a176ab4bf3d62a5550">DEPOSITS.PRG</file>
+		<file size="896" time="1984-03-28 21:49:58" attr="0x20" md5="4c1c9afe44a0cf4b5657997a346af750">DEPPRINT.PRG</file>
+		<file size="1664" time="1984-05-01 08:31:52" attr="0x20" md5="c3c59ef1a74c2aeef1e7c83e365eea7c">DEPTRANS.PRG</file>
+		<file size="50432" time="1984-06-12 14:46:46" attr="0x20" md5="dbffea8a31a8e959409be6e153ef8ac7">DFM.MSG</file>
+		<file size="39424" time="1984-06-12 14:56:08" attr="0x20" md5="32153f13371c6ae9cf49e3820204f5f5">DFORMAT.EXE</file>
+		<file size="1412" time="1984-04-01 22:56:02" attr="0x20" md5="2edf9a3bd7f574bdf6f732769a7fd882">HOLD84.DBF</file>
+		<file size="1408" time="1984-05-01 10:11:44" attr="0x20" md5="baefe9838cca194969890542ea7f41f8">INDEXING.PRG</file>
+		<file size="1536" time="1984-05-01 08:38:20" attr="0x20" md5="3238b2eec00436fce148a0467caf5ceb">INVCHECK.PRG</file>
+		<file size="1408" time="1984-05-01 08:38:42" attr="0x20" md5="a40d0a08c190355d1304a936824aab8d">INVEDIT.PRG</file>
+		<file size="419" time="1984-06-14 03:40:24" attr="0x20" md5="3ecc3dc4e1b98b5b753f3caadec7fc97">INVGET.DBF</file>
+		<file size="1792" time="1984-05-01 08:33:06" attr="0x20" md5="42c42f2b5cf462186dcf2567fcdd6732">INVMENU.PRG</file>
+		<file size="598" time="1984-06-14 03:43:58" attr="0x20" md5="7a26ff9e4ac53a679632649ec7be678c">INVOICES.DBF</file>
+		<file size="1024" time="1980-01-01 01:46:44" attr="0x20" md5="89d4bac0731847d2de4f35e376ec8868">INVOICES.NDX</file>
+		<file size="3712" time="1984-06-15 16:53:46" attr="0x20" md5="d5d3275df7e494621dc074cf43a00553">INVOICES.PRG</file>
+		<file size="5888" time="1984-06-15 16:37:36" attr="0x20" md5="fac286c92ead36402b64013336ef492c">INVPRINT.PRG</file>
+		<file size="768" time="1984-03-28 21:54:24" attr="0x20" md5="35e0a977dd93400d467f3d8b13dfc277">INVSUBTO.PRG</file>
+		<file size="896" time="1984-05-01 08:37:44" attr="0x20" md5="082a04e468d93200b94aa8361235b405">INVUPDAT.PRG</file>
+		<file size="6016" time="1984-06-15 14:43:26" attr="0x20" md5="47b181a7715f40cc4b4005f6aa8e6f6f">JOBCOSTS.PRG</file>
+		<file size="770" time="1984-05-01 15:58:54" attr="0x20" md5="5e5dbb5b424be9d5df33838700fb6ae9">KONSTANT.MEM</file>
+		<file size="1024" time="1984-05-01 12:52:08" attr="0x20" md5="9e8c172452806e577ebba5dc6ebab1ac">NAMES.DBF</file>
+		<file size="398" time="1984-04-07 19:38:46" attr="0x20" md5="8945126991937c47199062439293f32f">NAMES.FMT</file>
+		<file size="1664" time="1984-05-01 13:59:54" attr="0x20" md5="9ddd712511a62514be9b773733304c02">NAMETEST.PRG</file>
+		<file size="9472" time="1984-06-15 16:44:16" attr="0x20" md5="f3c8cd128660d37a923e0931cc640a65">PAYBILLS.PRG</file>
+		<file size="2944" time="1984-06-15 14:43:50" attr="0x20" md5="01d8821755f18268af521f623b81b096">PAYEMPS.PRG</file>
+		<file size="3712" time="1984-06-15 16:42:46" attr="0x20" md5="0ad8bc256946dee8d0edb55e0baaa345">PAYFIND.PRG</file>
+		<file size="1408" time="1984-05-01 08:45:16" attr="0x20" md5="b32bb2dd35236f71de4201f4b2512203">PAYMENU.PRG</file>
+		<file size="1536" time="1984-06-15 16:41:12" attr="0x20" md5="bfa9336f8f388b810328fec7bbb763f6">PAYRECAP.PRG</file>
+		<file size="13056" time="1984-06-15 16:50:24" attr="0x20" md5="02489dbd5bbe2ff093121e905bf2f548">PAYROLL.PRG</file>
+		<file size="1248" time="1984-04-30 17:31:38" attr="0x20" md5="b7e70dcd95daaed25f01a68150f2cf96">PERSON.DBF</file>
+		<file size="1925" time="1984-06-05 10:55:00" attr="0x20" md5="882dad07bc7da9e1d1214ffe2c5c1a60">PERSONNE.DBF</file>
+		<file size="1339" time="1984-06-05 10:51:20" attr="0x20" md5="0e83d5a180cce1bf1a593526f4b9013f">POSTFILE.DBF</file>
+		<file size="2560" time="1984-06-15 14:06:06" attr="0x20" md5="c8184ad345208e1b7e9d28485ca269ff">RENTALS.DBF</file>
+		<file size="5376" time="1984-06-15 17:43:32" attr="0x20" md5="7c203b0e63195d6e026bc944a76ef913">SALESTAX.PRG</file>
+		<file size="2659" time="1984-04-09 19:40:00" attr="0x20" md5="2b3586d10520474f26323c2443f5b20a">SUPPLIER.DBF</file>
+		<file size="2560" time="1984-03-28 17:55:54" attr="0x20" md5="d231b76b4b46d2ffee745a8244cd03a8">SUPPLIER.NDX</file>
+		<file size="3712" time="1984-06-15 14:50:16" attr="0x20" md5="d0667a0f847bc1c2a7ec3092e435222d">TIMECALC.PRG</file>
+		<file size="3801" time="1984-04-01 22:55:44" attr="0x20" md5="a58910ffec989f430f8a78ace3ea6764">WAGES.DBF</file>
 	</disk>
 </manifest>

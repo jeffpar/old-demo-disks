@@ -95,7 +95,7 @@
 		<file size="1024" time="1984-11-06 04:12:54" attr="0x20" md5="a1ac1c09a52871895bab599620ca78dc">WHO.NDX</file>
 		<file size="1024" time="1984-11-13 09:23:36" attr="0x20" md5="0bda34b8f4a2c6b49a4fe68a9cbff228">ZIP.NDX</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="archive/DBIII-100-LOCKED.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-LOCKED.json" md5="e7c73904362b5298b49a67402d2b00a5" md5json="7940716852d3d71ab64d68e1ac846960">
+	<disk id="disk03" size="368640" chs="40:2:9" img="archive/DBIII-100-LOCKED.img" href="/disks-demo/pcx86/apps/other/dbase3/1.0/DBIII-100-LOCKED.json" md5="e7c73904362b5298b49a67402d2b00a5" md5json="df2d9f98500164f2503f7e58fce3bd0c">
 		<name>dBASE III 1.0 (Locked)</name>
 		<file size="15223" time="1984-06-26 17:37:02" attr="0x20" md5="ac2ad5f7510035166232250d9c1457e0">ASSIST.HLP</file>
 		<file size="22" time="1984-06-26 17:37:08" attr="0x20" md5="eb37338a91a25564c384fbbd77bb0149">CONFIG.SYS</file>

@@ -62,6 +62,7 @@
 		<manifest ref="/disks-demo/pcx86/dos/dresearch/3.41/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/dos/dresearch/5.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/dos/dresearch/6.00/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/dos/drivers/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/os2/ibm/1.0/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/os2/ibm/1.1/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/os2/ibm/1.2/manifest.xml"/>

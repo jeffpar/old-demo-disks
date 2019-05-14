@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.1/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.2/manifest.xsl"?>
 <manifest type="software">
 	<title>Small Computer Book Club</title>
 	<disk id="disk01" size="368640" chs="40:2:9" img="archive/SCBC-1990.img" href="/disks-demo/pcx86/shareware/scbc/SCBC-1990.json" md5="93e46426ff5f7f22b9f3475ca90836ee" md5json="7f85e4fd8b636ee81903b8461c1d244c">

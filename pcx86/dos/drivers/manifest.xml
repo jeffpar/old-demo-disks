@@ -2,7 +2,45 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.2/manifest.xsl"?>
 <manifest type="software">
 	<title>DOS Drivers</title>
-	<disk id="disk01" size="368640" chs="40:2:9" dir="cdrom/archive/ATAPI/" href="/disks-demo/pcx86/dos/drivers/DRIVERS-CDROM-ATAPI.json" md5="14f5315d140ae7bbc6623848c0559792" md5json="ca9ad984633ddc108d29f51d5a9fd3aa">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="cdrom/archive/MSDOS600-ATAPI-BOOT.img" href="/disks-demo/pcx86/dos/drivers/BOOT-CDROM-ATAPI.json" md5="5d9a9d0e2a4f7483437a2d429b792a00" md5json="0449be7dff08d74597a61074b9b1fc04">
+		<name>DOS Drivers: ATAPI Boot</name>
+		<file size="6260" time="1993-03-10 06:00:00" attr="0x20" md5="3298fc9e8f876c95cecc4589c9659b50">ANSI.SY_</file>
+		<file size="11165" time="1993-03-10 06:00:00" attr="0x20" md5="127ba050b5551fef3eaa32f60e1186bb">ATTRIB.EXE</file>
+		<file size="48" time="2019-05-16 09:55:54" attr="0x20" md5="e9c6c6d3f47f0aecc57b1c60038e5c7e">AUTOEXEC.625</file>
+		<file size="70" time="2019-05-16 09:56:38" attr="0x20" md5="020d7d76568e03769a43a7dd4a4fe9cf">AUTOEXEC.BAT</file>
+		<file size="12907" time="1993-03-10 06:00:00" attr="0x20" md5="a59954e6721789ba88e67ef9be3fec2f">CHKDSK.EXE</file>
+		<file size="52925" time="1993-03-10 06:00:00" attr="0x20" md5="2dbd2228127f042b5d8b302d2a2f91c4">COMMAND.COM</file>
+		<file size="13" time="1993-03-10 06:00:00" attr="0x20" md5="877f527d8757adea2283baa02158c081">CONFIG.625</file>
+		<file size="88" time="2019-05-16 09:56:38" attr="0x20" md5="9919228f1bbc55e49a23117151b9e9da">CONFIG.SYS</file>
+		<file size="17066" time="1993-03-10 06:00:00" attr="0x20" md5="b6ad9ed62b41f4266d97a3bbdb81163e">COUNTRY.SYS</file>
+		<file size="51214" time="1993-03-10 06:00:00" attr="0x20" md5="9b2f1c7d437e2f876e1f990b14833145">DBLSPACE.BIN</file>
+		<file size="15715" time="1993-03-10 06:00:00" attr="0x20" md5="d91883bb4022c76b1bf997d137b7921d">DEBUG.EXE</file>
+		<file size="3735" time="1993-03-10 06:00:00" attr="0x20" md5="99ae897faa12305785defe605ab5fd07">DOSSETUP.INI</file>
+		<file size="413" time="1993-03-10 06:00:00" attr="0x20" md5="064bd7d30c100e423a6f806afa7f3f5e">EDIT.COM</file>
+		<file size="16129" time="1993-03-10 06:00:00" attr="0x20" md5="917a703374f842a2ab2cfdbb9454f9e4">EXPAND.EXE</file>
+		<file size="29333" time="1993-03-10 06:00:00" attr="0x20" md5="0399b97456b54e20b7e6ee863431b008">FDISK.EXE</file>
+		<file size="22717" time="1993-03-10 06:00:00" attr="0x20" md5="8b5943e53568ccd23acd2b3af4596e01">FORMAT.COM</file>
+		<file size="40470" time="1993-03-10 06:00:00" attr="0x20" md5="6acbbe231620a5b5dab2d9a36084e467">IO.SYS</file>
+		<file size="14983" time="1993-03-10 06:00:00" attr="0x20" md5="140336846112d81d09146491a74d38f8">KEYB.COM</file>
+		<file size="34694" time="1993-03-10 06:00:00" attr="0x20" md5="273b380f24154b5e82f0cfb518758143">KEYBOARD.SYS</file>
+		<file size="2546" time="1993-03-10 06:00:00" attr="0x20" md5="d8c96e1f7ffa132dd857782e03f54cc7">MORE.COM</file>
+		<file size="25377" time="1993-03-10 06:00:00" attr="0x20" md5="5381d73e3ce1f8f5a6cf97dde1c66598">MSCDEX.EXE</file>
+		<file size="158470" time="1993-03-10 06:00:00" attr="0x20" md5="c0dfb48743671254fe9cae9e2a121c47">MSD.EXE</file>
+		<file size="38138" time="1993-03-10 06:00:00" attr="0x20" md5="1f2182ce45c20b7cb5c04b831d8ef1c9">MSDOS.SYS</file>
+		<file size="20463" time="1993-03-10 06:00:00" attr="0x20" md5="713ce53ca29b3eab81a87260b9ef0d29">NETWORKS.TXT</file>
+		<file size="7036" time="1993-03-10 06:00:00" attr="0x20" md5="7654aeab85ce45393a59e84d6c9a2243">NLSFUNC.EXE</file>
+		<file size="6929" time="1993-03-10 06:00:00" attr="0x20" md5="9d19d5f0c58123929d4a639dde99bfbc">PACKING.LST</file>
+		<file size="194309" time="1993-03-10 06:00:00" attr="0x20" md5="f84f0bf74b830603a29f77b11b9e4833">QBASIC.EXE</file>
+		<file size="4261" time="1995-08-01 08:40:18" attr="0x20" md5="fd10e823642b099ae8e3c72db394c053">README</file>
+		<file size="44990" time="1993-03-10 06:00:00" attr="0x20" md5="9f24882717a70a205c128119026d5a73">README.TXT</file>
+		<file size="23328" time="1993-03-10 06:00:00" attr="0x20" md5="11dcf773e5f9c2c5e4fa867a64fede01">RESTORE.EX_</file>
+		<file size="71974" time="1993-03-10 06:00:00" attr="0x20" md5="68dca6f921df8f537e95a99745834453">SETUP.EXE</file>
+		<file size="1290" time="1993-03-10 06:00:00" attr="0x20" md5="019509c40963f434ce25f3d0343eac76">SETUP.MSG</file>
+		<file size="9379" time="1993-03-10 06:00:00" attr="0x20" md5="d15aae64ee050a2d40c056231ac365ab">SYS.COM</file>
+		<file size="12738" time="1993-03-10 06:00:00" attr="0x20" md5="acc51c467657abb841b372fc1e4b2c0b">UNFORMAT.COM</file>
+		<file size="11188" time="1998-02-17 10:28:02" attr="0x20" md5="9866e2a7c92635eb7ca2bea4d621c867">VIDE-CDD.SYS</file>
+	</disk>
+	<disk id="disk02" size="368640" chs="40:2:9" dir="cdrom/archive/ATAPI/" href="/disks-demo/pcx86/dos/drivers/DRIVERS-CDROM-ATAPI.json" md5="14f5315d140ae7bbc6623848c0559792" md5json="ca9ad984633ddc108d29f51d5a9fd3aa">
 		<name>DOS Drivers: ATAPI CD-ROM</name>
 		<file size="1548" time="1997-02-14 23:10:38" attr="0x20" md5="2282aafabd348f7262523e29d3ca1151">CHPIO.EXE</file>
 		<file size="55342" time="1998-03-13 13:31:14" attr="0x20" md5="7e4d078eefd8e232c5bb203274cba295">DTR.EXE</file>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.2/manifest.xsl"?>
 <manifest type="software">
 	<title>DOS Drivers</title>
-	<disk id="disk01" size="1228800" chs="80:2:15" img="cdrom/archive/MSDOS600-ATAPI-BOOT.img" href="/disks-demo/pcx86/dos/drivers/BOOT-CDROM-ATAPI.json" md5="5d9a9d0e2a4f7483437a2d429b792a00" md5json="0449be7dff08d74597a61074b9b1fc04">
+	<disk id="disk01" size="1228800" chs="80:2:15" img="cdrom/archive/MSDOS600-ATAPI-BOOT.img" href="/disks-demo/pcx86/dos/drivers/cdrom/BOOT-CDROM-ATAPI.json" md5="5d9a9d0e2a4f7483437a2d429b792a00" md5json="0449be7dff08d74597a61074b9b1fc04">
 		<name>DOS Drivers: ATAPI Boot</name>
 		<file size="6260" time="1993-03-10 06:00:00" attr="0x20" md5="3298fc9e8f876c95cecc4589c9659b50">ANSI.SY_</file>
 		<file size="11165" time="1993-03-10 06:00:00" attr="0x20" md5="127ba050b5551fef3eaa32f60e1186bb">ATTRIB.EXE</file>
@@ -40,7 +40,7 @@
 		<file size="12738" time="1993-03-10 06:00:00" attr="0x20" md5="acc51c467657abb841b372fc1e4b2c0b">UNFORMAT.COM</file>
 		<file size="11188" time="1998-02-17 10:28:02" attr="0x20" md5="9866e2a7c92635eb7ca2bea4d621c867">VIDE-CDD.SYS</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" dir="cdrom/archive/ATAPI/" href="/disks-demo/pcx86/dos/drivers/DRIVERS-CDROM-ATAPI.json" md5="14f5315d140ae7bbc6623848c0559792" md5json="ca9ad984633ddc108d29f51d5a9fd3aa">
+	<disk id="disk02" size="368640" chs="40:2:9" dir="cdrom/archive/ATAPI/" href="/disks-demo/pcx86/dos/drivers/cdrom/DRIVERS-CDROM-ATAPI.json" md5="14f5315d140ae7bbc6623848c0559792" md5json="ca9ad984633ddc108d29f51d5a9fd3aa">
 		<name>DOS Drivers: ATAPI CD-ROM</name>
 		<file size="1548" time="1997-02-14 23:10:38" attr="0x20" md5="2282aafabd348f7262523e29d3ca1151">CHPIO.EXE</file>
 		<file size="55342" time="1998-03-13 13:31:14" attr="0x20" md5="7e4d078eefd8e232c5bb203274cba295">DTR.EXE</file>

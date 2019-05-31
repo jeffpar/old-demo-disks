@@ -7,14 +7,47 @@
 	<category>Word Processing</category>
 	<author>MicroPro</author>
 	<releaseDate/>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/WS320-MOUNTABLE.img" href="/disks-demo/pcx86/apps/other/wordstar/3.20/WS320-MOUNTABLE.json" md5="77a6beb225f61ee0c02a98b7c6f29c69" md5json="4958aca2571a8a4def6f64327440a77c">
-		<name>WordStar 3.20</name>
-		<file size="17152" time="1982-10-01 00:00:00" attr="0x20">INSTALL.BAS</file>
-		<file size="11520" time="1980-01-01 00:00:00" attr="0x20">MAILMRGE.OVR</file>
-		<file size="3968" time="1980-01-01 00:00:00" attr="0x20">PRINT.TST</file>
-		<file size="20480" time="1980-01-01 00:00:00" attr="0x20">WS.COM</file>
-		<file size="1152" time="2013-02-23 08:45:36" attr="0x20">WSBAUD.BAS</file>
-		<file size="27264" time="1980-01-01 00:00:00" attr="0x20">WSMSGS.OVR</file>
-		<file size="40960" time="1980-01-01 00:00:00" attr="0x20">WSOVLY1.OVR</file>
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/WS320-ORIG.img" href="/disks-demo/pcx86/apps/other/wordstar/3.20/WS320-ORIG.json" md5="39ec081116abbaab37852ffc8ac71fa9" md5json="00be492dc90b4b651f67c38cb4652878">
+		<name>WordStar 3.20 (Original)</name>
+		<file size="9216" time="1980-01-01 00:00:02" attr="0x20" md5="8ba9ccbfe5c804e042ea8d2f9d6446d6">EXAMPLE.TXT</file>
+		<file size="14848" time="1980-01-01 00:00:02" attr="0x20" md5="cd07b7d63bfcca3057921b40876c022a">INSTALL.BAS</file>
+		<file size="20480" time="1980-01-01 00:00:02" attr="0x20" md5="66f2273f826f9ae3e866affd0cf8678e">WS.COM</file>
+		<file size="1152" time="1980-01-01 00:00:02" attr="0x20" md5="c520cb642ba1a206e228b524b63ce875">WSBAUD.BAS</file>
+		<file size="27264" time="1980-01-01 00:00:02" attr="0x20" md5="d6a6fcad775ac70147d66d9c1e2ad860">WSMSGS.OVR</file>
+		<file size="40960" time="1980-01-01 00:00:02" attr="0x20" md5="676012d6b6afee98ac7afd50adef218f">WSOVLY1.OVR</file>
+	</disk>
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/MM320-ORIG.img" href="/disks-demo/pcx86/apps/other/wordstar/3.20/MM320-ORIG.json" md5="1f156432b7ceec173a75c06a300745ec" md5json="8e2f00845f241876bd65e56129615256">
+		<name>WordStar 3.20 (MailMerge)</name>
+		<file size="11520" time="1980-01-01 00:00:02" attr="0x20" md5="82de04e39502c97e39b13c2dc0cb5e8c">MAILMRGE.OVR</file>
+	</disk>
+	<disk id="disk03" size="163840" chs="40:1:8" img="archive/WS320-BACKUP.img" href="/disks-demo/pcx86/apps/other/wordstar/3.20/WS320-BACKUP.json" md5="3d897b5632d5c6b469aebed4d2212d88" md5json="42af2e2b88737cefb65c9ddb1ff03809">
+		<name>WordStar 3.20 (Backup)</name>
+		<file size="813" time="1982-09-18 00:00:00" attr="0x20" md5="405e113a3cfe36e4c86db03a3f0ae88d">ASTCLOCK.COM</file>
+		<file size="10" time="1984-05-24 13:57:24" attr="0x20" md5="b59882677d67131bc67fe05896e2cb62">AUTOEXEC.BAT</file>
+		<file size="4959" time="1982-05-07 12:00:00" attr="0x20" md5="f95a073439e1ee7c9b0c9d37d42de7fe">COMMAND.COM</file>
+		<file size="9216" time="1980-01-01 00:00:02" attr="0x20" md5="8ba9ccbfe5c804e042ea8d2f9d6446d6">EXAMPLE.TXT</file>
+		<file size="1920" time="1982-05-07 12:00:00" attr="0x20" md5="05b9205ee6fa56cecbc5bf22b5b34555">IBMBIO.COM</file>
+		<file size="6400" time="1982-05-07 12:00:00" attr="0x20" md5="4cf27775844f90c7d4b615131dc9d0e5">IBMDOS.COM</file>
+		<file size="0" time="1980-01-01 00:40:20" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">INSTALL</file>
+		<file size="14848" time="1980-01-01 00:00:02" attr="0x20" md5="cd07b7d63bfcca3057921b40876c022a">INSTALL.BAS</file>
+		<file size="3221" time="1980-01-01 02:07:26" attr="0x20" md5="42c03fb17ae05b85938e4ed4802bce05">LPA0</file>
+		<file size="11520" time="1980-01-01 00:00:02" attr="0x20" md5="82de04e39502c97e39b13c2dc0cb5e8c">MAILMRGE.OVR</file>
+		<file size="5248" time="1986-10-30 11:47:24" attr="0x20" md5="fb9f3ef869e2fb7d3ea8d3286b4390f8">PIFINTRO</file>
+		<file size="3221" time="1980-01-01 02:07:26" attr="0x20" md5="ae2478cd7bb67bfd33cdb44d4cf8f491">PRT</file>
+		<file size="853" time="1982-09-19 00:00:00" attr="0x20" md5="3ae9522bf6f32fb95790906063e94f41">SETCLOCK.COM</file>
+		<file size="20480" time="1980-01-01 00:02:12" attr="0x20" md5="66f2273f826f9ae3e866affd0cf8678e">WS.COM</file>
+		<file size="1152" time="1980-01-01 00:00:02" attr="0x20" md5="c520cb642ba1a206e228b524b63ce875">WSBAUD.BAS</file>
+		<file size="27264" time="1980-01-01 00:00:02" attr="0x20" md5="d6a6fcad775ac70147d66d9c1e2ad860">WSMSGS.OVR</file>
+		<file size="40960" time="1980-01-01 00:00:02" attr="0x20" md5="676012d6b6afee98ac7afd50adef218f">WSOVLY1.OVR</file>
+	</disk>
+	<disk id="disk04" size="163840" chs="40:1:8" img="archive/WS320-RECREATED.img" href="/disks-demo/pcx86/apps/other/wordstar/3.20/WS320-RECREATED.json" md5="77a6beb225f61ee0c02a98b7c6f29c69" md5json="4958aca2571a8a4def6f64327440a77c">
+		<name>WordStar 3.20 (Recreated)</name>
+		<file size="17152" time="1982-10-01 00:00:00" attr="0x20" md5="cdeb28b0de01075aff1bcf66bbca293c">INSTALL.BAS</file>
+		<file size="11520" time="1980-01-01 00:00:00" attr="0x20" md5="9813ff9a41f3d27d733984b3968bad7e">MAILMRGE.OVR</file>
+		<file size="3968" time="1980-01-01 00:00:00" attr="0x20" md5="07d24a317caba62da2ec1b4f69f84505">PRINT.TST</file>
+		<file size="20480" time="1980-01-01 00:00:00" attr="0x20" md5="650ab96649944ada191ea4f56210c912">WS.COM</file>
+		<file size="1152" time="2013-02-23 08:45:36" attr="0x20" md5="c520cb642ba1a206e228b524b63ce875">WSBAUD.BAS</file>
+		<file size="27264" time="1980-01-01 00:00:00" attr="0x20" md5="d6a6fcad775ac70147d66d9c1e2ad860">WSMSGS.OVR</file>
+		<file size="40960" time="1980-01-01 00:00:00" attr="0x20" md5="676012d6b6afee98ac7afd50adef218f">WSOVLY1.OVR</file>
 	</disk>
 </manifest>

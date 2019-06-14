@@ -115,7 +115,7 @@
 		<file size="19312" time="1988-06-17 12:00:00" attr="0x20" md5="0aeefa163d4b8cc140c0673eee5d17b8">XMAEM.SYS</file>
 	</disk>
 	<disk id="disk06" size="368640" chs="40:2:9" img="archive/PCDOS400-TECHREF.img" href="/disks-demo/pcx86/dos/ibm/4.00/PCDOS400-TECHREF.json" md5="52327fdcd5579c0ad65d967e0e991cce" md5json="2c4485708432b4ce92bc40f56ecad9b2">
-		<name>PC DOS 4.00 TechRef</name>
+		<name>PC DOS 4.00 (TechRef)</name>
 		<file size="21606" time="1988-06-17 12:00:00" attr="0x20" md5="9e5f368a2cc35ef289d86f9448048309">DEBUG.COM</file>
 		<file size="7973" time="1988-06-17 12:00:00" attr="0x20" md5="11a5329fbefce46d5825199225a37681">EXE2BIN.EXE</file>
 		<file size="47107" time="1988-06-17 12:00:00" attr="0x20" md5="237e9d6d8e90524693d21ebe949304aa">LIB.EXE</file>

@@ -128,7 +128,7 @@
 		<file size="11247" time="1987-03-17 12:00:00" attr="0x20" md5="6109f5e3bc2f8110bae191823c1a15b5">XCOPY.EXE</file>
 	</disk>
 	<disk id="disk04" size="368640" chs="40:2:9" img="archive/PCDOS330-TECHREF.img" href="/disks-demo/pcx86/dos/ibm/3.30/PCDOS330-TECHREF.json" md5="168b187002ac5613504476c2c6abf746" md5json="55bb1d8b77d3828689fd60f7d6eefb94">
-		<name>PC DOS 3.30 TechRef</name>
+		<name>PC DOS 3.30 (TechRef)</name>
 		<file size="15897" time="1987-03-18 00:00:00" attr="0x20" md5="2d2c7b26d00479c7d7df177665687166">DEBUG.COM</file>
 		<file size="3081" time="1987-03-18 00:00:00" attr="0x20" md5="af6b514a1503a6fda01c56aa53b67f46">EXE2BIN.EXE</file>
 		<file size="22912" time="1987-03-18 00:00:00" attr="0x20" md5="ba139ccc3120f935d5e9f09e7f5260bc">LIB.EXE</file>

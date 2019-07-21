@@ -8,35 +8,74 @@
 	<language>BASIC</language>
 	<author>Microsoft</author>
 	<releaseDate/>
-	<disk id="disk01" size="368640" chs="40:2:9" img="compiler/5.36/archive/BASCOM536.img" href="/disks-demo/pcx86/tools/microsoft/basic/compiler/5.36/BASCOM536.json" md5="090d3cd5962f4d1a5ecc661f3b4f9ac6" md5json="239ae79f135a09f357511bc4d68a811f">
+	<disk id="disk01" size="368640" chs="40:2:9" img="compiler/5.36/archive/BASCOM536.img" href="/disks-demo/pcx86/tools/microsoft/basic/compiler/5.36/BASCOM536.json" md5="9f60598a1c85ffac3639611a3e94e83d" md5json="239ae79f135a09f357511bc4d68a811f">
 		<name>MS BASIC Compiler 5.36</name>
-		<file size="35" time="1985-03-22 01:00:02" attr="0x20">B.CNF</file>
-		<file size="26746" time="1985-03-22 01:00:02" attr="0x20">B.DEF</file>
-		<file size="39936" time="1984-04-24 12:00:00" attr="0x20">BASCOM.COM</file>
-		<file size="75776" time="1984-04-24 12:00:00" attr="0x20">BASCOM.LIB</file>
-		<file size="21376" time="1984-04-24 12:00:00" attr="0x20">BASRUN.EXE</file>
-		<file size="3072" time="1983-03-17 13:12:46" attr="0x20">BASRUN.LIB</file>
-		<file size="732" time="1985-03-22 01:00:12" attr="0x20">BB.TXT</file>
-		<file size="299" time="1983-03-17 14:09:28" attr="0x20">DEMO.BAS</file>
-		<file size="591" time="1980-01-01 00:23:30" attr="0x20">FOO</file>
-		<file size="2913" time="1985-03-22 01:00:04" attr="0x20">SAMPLE.1</file>
-		<file size="9310" time="1985-03-22 01:00:04" attr="0x20">SAMPLE.2</file>
-		<file size="8661" time="1985-03-22 01:00:06" attr="0x20">SAMPLE.3</file>
-		<file size="3497" time="1985-03-22 01:00:06" attr="0x20">SAMPLE.4</file>
-		<file size="3771" time="1985-03-22 01:00:08" attr="0x20">SAMPLE.5</file>
-		<file size="1682" time="1985-03-22 01:00:08" attr="0x20">SAMPLE.6</file>
-		<file size="1335" time="1985-03-22 01:00:10" attr="0x20">SAMPLE.7</file>
-		<file size="587" time="1985-03-22 01:00:10" attr="0x20">SAMPLE.8</file>
-		<file size="2925" time="1985-03-22 01:00:12" attr="0x20">SAMPLE.9</file>
-		<file size="35632" time="1985-03-22 01:00:06" attr="0x20">SAMPLE.COM</file>
-		<file size="94128" time="1985-03-22 01:00:06" attr="0x20">SAMPLE.MOD</file>
+		<file size="35" time="1985-03-22 01:00:02" attr="0x20" md5="a0d18765f7628caa59686400280e7be9">B.CNF</file>
+		<file size="26746" time="1985-03-22 01:00:02" attr="0x20" md5="517cc08459eaf8933eca9b9eb0e2eee0">B.DEF</file>
+		<file size="39936" time="1984-04-24 12:00:00" attr="0x20" md5="3c00514458ae88da971453be70177a45">BASCOM.COM</file>
+		<file size="75776" time="1984-04-24 12:00:00" attr="0x20" md5="fe8528d664aad55f528735255a36bbce">BASCOM.LIB</file>
+		<file size="21376" time="1984-04-24 12:00:00" attr="0x20" md5="5dc3fb6471509265ea0a3e960f95a95d">BASRUN.EXE</file>
+		<file size="3072" time="1983-03-17 13:12:46" attr="0x20" md5="aba54bb097cb53c6cda59a2e5ad249de">BASRUN.LIB</file>
+		<file size="732" time="1985-03-22 01:00:12" attr="0x20" md5="3de648b6689739e0b58d5ea2c769c08a">BB.TXT</file>
+		<file size="299" time="1983-03-17 14:09:28" attr="0x20" md5="afed5424172c9eb3f72f2ee1c689485b">DEMO.BAS</file>
+		<file size="591" time="1980-01-01 00:23:30" attr="0x20" md5="c0239d1989e695028e62fedbc04e7358">FOO</file>
+		<file size="2913" time="1985-03-22 01:00:04" attr="0x20" md5="c2fc0bc047a6652c034bfe2593ebd05d">SAMPLE.1</file>
+		<file size="9310" time="1985-03-22 01:00:04" attr="0x20" md5="b9366093880c4e6f330a7bcf491283c9">SAMPLE.2</file>
+		<file size="8661" time="1985-03-22 01:00:06" attr="0x20" md5="bff354274ad88ec2fd9ab856444d5e70">SAMPLE.3</file>
+		<file size="3497" time="1985-03-22 01:00:06" attr="0x20" md5="f72da0ad147b1847af5c0cefa00716e7">SAMPLE.4</file>
+		<file size="3771" time="1985-03-22 01:00:08" attr="0x20" md5="826b1448ff75c5a569ad7b46aaf766ab">SAMPLE.5</file>
+		<file size="1682" time="1985-03-22 01:00:08" attr="0x20" md5="2d690785bb5fe66b2f50b7fe61a15c0d">SAMPLE.6</file>
+		<file size="1335" time="1985-03-22 01:00:10" attr="0x20" md5="bb23177809e1c7f726b7f2367997672d">SAMPLE.7</file>
+		<file size="587" time="1985-03-22 01:00:10" attr="0x20" md5="904975cf35c8f7f033a1a6867bcdbda5">SAMPLE.8</file>
+		<file size="2925" time="1985-03-22 01:00:12" attr="0x20" md5="d4351b970f7ec707ea112ea00737f5b1">SAMPLE.9</file>
+		<file size="35632" time="1985-03-22 01:00:06" attr="0x20" md5="70d281c8dc48dd31d308e6f4661fb087">SAMPLE.COM</file>
+		<file size="94128" time="1985-03-22 01:00:06" attr="0x20" md5="3973043fb1ba2d2d825c3c472e8011b9">SAMPLE.MOD</file>
 	</disk>
-	<disk id="disk02" size="368640" chs="40:2:9" img="quickbasic/2.00/archive/QUICKBASIC200.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/2.00/QUICKBASIC200.json" md5="5b588a33ec187636a1bb40b736ff1591" md5json="669a94e1824675662f6b647be362ec77">
-		<name>MS QuickBASIC 2.00</name>
-		<file size="176128" time="1986-06-13 10:55:40" attr="0x20">BCOM20.LIB</file>
-		<file size="186256" time="1986-06-16 14:47:34" attr="0x20">QB.EXE</file>
+	<disk id="disk02" size="368640" chs="40:2:9" img="quickbasic/1.00/archive/QUICKBAS100.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/1.00/QUICKBAS100.json" md5="7e012f94f486e07367fb1ca7b8c4841a" md5json="b4f39c16e6277d3fec2e0aa2cf63d670">
+		<name>MS QuickBASIC 1.00</name>
+		<file size="52560" time="1985-07-17 13:56:18" attr="0x20" md5="f0d5d48d72d47f90ada310564b537698">BASCOM.EXE</file>
+		<file size="154624" time="1985-07-17 13:56:18" attr="0x20" md5="333bb5fd852b23fe35618ca410b05d06">BCOM10.LIB</file>
+		<file size="58388" time="1985-07-17 13:56:18" attr="0x20" md5="054951013dd880ede0669f0b30f2553a">BRUN10.EXE</file>
+		<file size="3072" time="1985-07-17 13:56:18" attr="0x20" md5="4334c38244e05ad34271918052f77326">BRUN10.LIB</file>
+		<file size="612" time="1985-04-12 17:53:02" attr="0x20" md5="1d746ef314592e79f6d8b3c9246bddf1">CALL.BAS</file>
+		<file size="659" time="1985-04-04 16:06:04" attr="0x20" md5="06851273df9dc351993703a98494b2f4">COMMAND.BAS</file>
+		<file size="236" time="1985-07-11 18:46:16" attr="0x20" md5="f30a15c16e2a20a6103cd0d8b185f3dd">DEC.BAS</file>
+		<file size="336" time="1985-03-07 15:04:40" attr="0x20" md5="4d76f9261fa431b6b57e90d87b7ea8d5">DEFFN.BAS</file>
+		<file size="217" time="1985-07-11 18:46:42" attr="0x20" md5="f9c686fcbf95ab07b782e273be6a42da">DIGIT.BAS</file>
+		<file size="681" time="1985-04-19 16:03:20" attr="0x20" md5="17bb92fff80f6a1cb725f5f7973ab24a">DRAW.BAS</file>
+		<file size="2099" time="1985-07-17 13:56:20" attr="0x20" md5="d5032331617bcc7e5c2efc53df7cc713">GWCASS.OBJ</file>
+		<file size="2782" time="1985-07-17 13:56:20" attr="0x20" md5="c47a3c0993d9b312331a2f31b491dba9">GWCOM.OBJ</file>
+		<file size="43642" time="1985-03-11 20:06:54" attr="0x20" md5="0555ac687a685947d780f68f8c9aa48c">LINK.EXE</file>
+		<file size="180" time="1985-07-11 18:45:36" attr="0x20" md5="73bd5d97016f15b82bc431b04beb9dcd">MAIN.BAS</file>
+		<file size="192" time="1985-03-21 13:08:02" attr="0x20" md5="a4f07bb61c789b214c68b8ada0e0b7d1">PLAY.BAS</file>
+		<file size="7206" time="1985-07-23 09:35:18" attr="0x20" md5="0f3ae5e8f8332407d651ae92000ea235">README.DOC</file>
+		<file size="439" time="1985-04-13 15:15:24" attr="0x20" md5="94da47eb141bc5cb63a1d89d6ab74f43">REDIM.BAS</file>
+		<file size="12591" time="1985-07-23 09:33:20" attr="0x20" md5="de8a7906f1136ba331796f7a9394d78f">REMLINE.BAS</file>
+		<file size="629" time="1985-04-01 13:54:08" attr="0x20" md5="1f79d22ee1bd5e7c4a560b663709c6af">SHARED.BAS</file>
+		<file size="246" time="1985-07-17 13:56:20" attr="0x20" md5="6ad8ef78818c3870b31ce2433634dac1">SMALLERR.OBJ</file>
+		<file size="349" time="1985-04-01 18:58:36" attr="0x20" md5="fbe2bba4cc6c3ab07e8857e26a810844">SUB.BAS</file>
 	</disk>
-	<disk id="disk03" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK1" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK1.json" md5="1b2f791b27abfa9f9c6f5b13e5405ee9" md5json="c99c0d93bc2ccc1a93155e39ee954e92">
+	<disk id="disk03" size="368640" chs="40:2:9" img="quickbasic/2.00/archive/QUICKBAS200-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/2.00/QUICKBAS200-DISK1.json" md5="67c7ae0491f5dbea59e4d46878f27063" md5json="20d04a9fac720f30f91b6938d7917eff">
+		<name>MS QuickBASIC 2.00 (Disk 1)</name>
+		<file size="397" time="1986-02-17 15:34:22" attr="0x20" md5="4ac5f7f493a55ced2278d132b9ebfb20">BUG.BAS</file>
+		<file size="133" time="1986-04-25 10:00:00" attr="0x20" md5="0e7c7e89a385358a3bf7b4b201803057">CALLSHAP.BAS</file>
+		<file size="211" time="1986-06-10 09:47:08" attr="0x20" md5="f3f9a46e137646ecd59f50b79bd9e444">DEMO.BAS</file>
+		<file size="182" time="1986-04-25 10:01:40" attr="0x20" md5="f3cd52690f80f9783aa4acf385eced24">EX.BAS</file>
+		<file size="22941" time="1986-06-17 08:53:32" attr="0x20" md5="b412438515e16eeb9574d3099c6185d3">PPRINT.BAS</file>
+		<file size="186256" time="1986-06-16 14:47:34" attr="0x20" md5="b0f6101286dc12c70a9a944383c40ea2">QB.EXE</file>
+		<file size="15580" time="1986-06-19 16:26:24" attr="0x20" md5="b7ddf2b8a6bf00d9c8ce816a0da17936">README.DOC</file>
+		<file size="12913" time="1986-06-19 07:12:12" attr="0x20" md5="530451bd30e2352dbcc62897f0d384ca">REMLINE.BAS</file>
+		<file size="164" time="1986-04-25 10:02:22" attr="0x20" md5="2775a924ddbba8939e35ae0407b1fbf9">SQUARE.BAS</file>
+		<file size="250" time="1986-04-25 10:03:22" attr="0x20" md5="257d068d0ebedaa87d8209f1e82b77a3">TRIANGLE.BAS</file>
+		<file size="6545" time="1986-06-03 14:05:46" attr="0x20" md5="28f603abac892c0dff1ddbe0fc11de84">UPDATE.DOC</file>
+		<file size="17439" time="1986-05-27 08:09:08" attr="0x20" md5="5a08bf271721423006329c71950e4be7">USERLIB.ASM</file>
+	</disk>
+	<disk id="disk04" size="368640" chs="40:2:9" img="quickbasic/2.00/archive/QUICKBAS200-JP.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/2.00/QUICKBAS200-JP.json" md5="20327b4661ab9f4d93f2d5a96ed5768f" md5json="6fee30c8339516267e24ecc27bc7968f">
+		<name>MS QuickBASIC 2.00 (Personal)</name>
+		<file size="176128" time="1986-06-13 10:55:40" attr="0x20" md5="2527eb408a42e74f6e264595e89cad02">BCOM20.LIB</file>
+		<file size="186256" time="1986-06-16 14:47:34" attr="0x20" md5="b0f6101286dc12c70a9a944383c40ea2">QB.EXE</file>
+	</disk>
+	<disk id="disk05" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK1" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK1.json" md5="1b2f791b27abfa9f9c6f5b13e5405ee9" md5json="c99c0d93bc2ccc1a93155e39ee954e92">
 		<name>MS QuickBASIC 4.50 (Disk 1)</name>
 		<file size="83456" time="1990-08-20 11:00:00" attr="0x20" md5="bd6468bf744b2126aeb9985d7dfc3981">BC.EX$</file>
 		<file size="22560" time="1990-08-20 11:00:00" attr="0x20" md5="de6ccd3c8b908ea66b5a2092ea9f2346">BX.PGM</file>
@@ -86,7 +125,7 @@
 		<file size="745" time="1990-08-20 11:00:00" attr="0x20" md5="9d9f41d789a3c551fdfc16492e476b91" dir="EXAMPLES/">TOKEN.BA$</file>
 		<file size="2091" time="1990-08-20 11:00:00" attr="0x20" md5="511d2f16b072c5af5bc60535c6cbe5e4" dir="EXAMPLES/">WHEREIS.BA$</file>
 	</disk>
-	<disk id="disk04" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK2" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK2.json" md5="f1c8bb6db4e9bb0e248f85e182792d19" md5json="dc87eec362febbe54fd66fc2d296c585">
+	<disk id="disk06" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK2" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK2.json" md5="f1c8bb6db4e9bb0e248f85e182792d19" md5json="dc87eec362febbe54fd66fc2d296c585">
 		<name>MS QuickBASIC 4.50 (Disk 2)</name>
 		<file size="149360" time="1990-08-20 11:00:00" attr="0x20" md5="6434d321dd2c772526b8630c54fe3a17">BCOM45.LI$</file>
 		<file size="15009" time="1990-08-20 11:00:00" attr="0x20" md5="7ad44bb77824a5bdb33a5f452e1af4d8">BQLB45.LI$</file>
@@ -125,178 +164,178 @@
 		<file size="594" time="1990-08-20 11:00:00" attr="0x20" md5="176343614ca1867c56286b3a47458cba" dir="ADVR_EX/">UCASE_EX.BA$</file>
 		<file size="566" time="1990-08-20 11:00:00" attr="0x20" md5="359734448747cd1a4147dd9aae9e4523" dir="ADVR_EX/">WINDO_EX.BA$</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK1.json" md5="d1b2a34b60697b5dc61a914a93a82a8f" md5json="2e958b9fe640d0bae1e89f40b87b05cf">
+	<disk id="disk07" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK1.json" md5="e6b25bcca5b5a48da8b96a9b22717cf1" md5json="2e958b9fe640d0bae1e89f40b87b05cf">
 		<name>MS Visual Basic 1.00 (Disk 1)</name>
-		<file size="3877" time="1991-05-10 01:00:00" attr="0x20">CONSTANT.TX$</file>
-		<file size="14816" time="1991-05-10 01:00:00" attr="0x20">DECOMP.DLL</file>
-		<file size="5540" time="1991-05-10 01:00:00" attr="0x20">PACKING.LST</file>
-		<file size="11958" time="1991-05-10 01:00:00" attr="0x20">README.TXT</file>
-		<file size="7680" time="1991-05-10 01:00:00" attr="0x20">SETUP.EXE</file>
-		<file size="54596" time="1991-05-10 01:00:00" attr="0x20">SETUP1.EXE</file>
-		<file size="349737" time="1991-05-10 01:00:00" attr="0x20">VB.EX$</file>
-		<file size="489823" time="1991-05-10 01:00:00" attr="0x20">VB.HL$</file>
-		<file size="271264" time="1991-05-10 01:00:00" attr="0x20">VBRUN100.DL_</file>
+		<file size="3877" time="1991-05-10 01:00:00" attr="0x20" md5="b280a2c4c70b7f6cebe89ef5032c27e2">CONSTANT.TX$</file>
+		<file size="14816" time="1991-05-10 01:00:00" attr="0x20" md5="835d22128509427dd9e87407b836b3e8">DECOMP.DLL</file>
+		<file size="5540" time="1991-05-10 01:00:00" attr="0x20" md5="23bf3e756f8042bda8aa9cee94b82487">PACKING.LST</file>
+		<file size="11958" time="1991-05-10 01:00:00" attr="0x20" md5="58f4c8bf98601fbbb31baf815cdf5eaa">README.TXT</file>
+		<file size="7680" time="1991-05-10 01:00:00" attr="0x20" md5="94896c5ca394880671c7af47690e7221">SETUP.EXE</file>
+		<file size="54596" time="1991-05-10 01:00:00" attr="0x20" md5="8c767d546b300d6342e7c1edb2014488">SETUP1.EXE</file>
+		<file size="349737" time="1991-05-10 01:00:00" attr="0x20" md5="67c9948d2f6d97765a131b7df650c2bb">VB.EX$</file>
+		<file size="489823" time="1991-05-10 01:00:00" attr="0x20" md5="6dee6206f95d2109e06668965870c330">VB.HL$</file>
+		<file size="271264" time="1991-05-10 01:00:00" attr="0x20" md5="127e75e5a9b93cfa4f964060d6f5bc8d">VBRUN100.DL_</file>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK2.json" md5="9b8699592424f9c1e6040e18dbe68d54" md5json="549628ddc0a0144d113aa589e9f23c63">
+	<disk id="disk08" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK2.json" md5="a5c9ad4ec3c402b5ded077d35332ad43" md5json="549628ddc0a0144d113aa589e9f23c63">
 		<name>MS Visual Basic 1.00 (Disk 2)</name>
 		<file size="352" time="1991-05-13 18:15:24" attr="0x10">ICONS</file>
-		<file size="8006" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">ARROWS.$</file>
-		<file size="5443" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">COMM.$</file>
-		<file size="7291" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">COMPUTER.$</file>
-		<file size="3762" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">FLAGS.$</file>
-		<file size="3716" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">MAIL.$</file>
-		<file size="11135" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">MISC.$</file>
-		<file size="10143" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">OFFICE.$</file>
-		<file size="3413" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">TRAFFIC.$</file>
-		<file size="9833" time="1991-05-10 01:00:00" attr="0x20" dir="ICONS/">WRITING.$</file>
+		<file size="8006" time="1991-05-10 01:00:00" attr="0x20" md5="26f913cab0f02f53c428ef6c858c174b" dir="ICONS/">ARROWS.$</file>
+		<file size="5443" time="1991-05-10 01:00:00" attr="0x20" md5="ea702692be95ff20f5dcca20d5b793fc" dir="ICONS/">COMM.$</file>
+		<file size="7291" time="1991-05-10 01:00:00" attr="0x20" md5="61ed5cc38e1c54a9503264d467c60d3d" dir="ICONS/">COMPUTER.$</file>
+		<file size="3762" time="1991-05-10 01:00:00" attr="0x20" md5="668fbb37da55570975eb175288747244" dir="ICONS/">FLAGS.$</file>
+		<file size="3716" time="1991-05-10 01:00:00" attr="0x20" md5="b77f4e75316af69247a3eba208515758" dir="ICONS/">MAIL.$</file>
+		<file size="11135" time="1991-05-10 01:00:00" attr="0x20" md5="4d5ea8eae274ebfd634f3352cd5b819d" dir="ICONS/">MISC.$</file>
+		<file size="10143" time="1991-05-10 01:00:00" attr="0x20" md5="3fcc8aa3290bf8ea563050fccfacf15c" dir="ICONS/">OFFICE.$</file>
+		<file size="3413" time="1991-05-10 01:00:00" attr="0x20" md5="f6f79f0417c6efd571cd9506fae7d677" dir="ICONS/">TRAFFIC.$</file>
+		<file size="9833" time="1991-05-10 01:00:00" attr="0x20" md5="b9d9718ac24eca66b34603d18a38ca5a" dir="ICONS/">WRITING.$</file>
 		<file size="160" time="1991-05-13 18:15:24" attr="0x10">SAMPLES</file>
 		<file size="160" time="1991-05-13 18:15:46" attr="0x10" dir="SAMPLES/">CALC</file>
-		<file size="2430" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CALC/">CALC.FR$</file>
-		<file size="203" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CALC/">CALC.IC$</file>
-		<file size="64" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CALC/">CALC.MA$</file>
+		<file size="2430" time="1991-05-10 01:00:00" attr="0x20" md5="2e3898fb4d1300eae88722528cfbf52c" dir="SAMPLES/CALC/">CALC.FR$</file>
+		<file size="203" time="1991-05-10 01:00:00" attr="0x20" md5="aa2231badbd5046371afb4c378b2ebe9" dir="SAMPLES/CALC/">CALC.IC$</file>
+		<file size="64" time="1991-05-10 01:00:00" attr="0x20" md5="24b14b0f2067658f78b6f6680a6698d1" dir="SAMPLES/CALC/">CALC.MA$</file>
 		<file size="480" time="1991-05-13 18:15:46" attr="0x10" dir="SAMPLES/">CARDFILE</file>
-		<file size="782" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">ABOUTBOX.FR$</file>
-		<file size="500" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">ADDFORM.FR$</file>
-		<file size="1249" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">CARDFILE.BA$</file>
-		<file size="16343" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">CARDFILE.FR$</file>
-		<file size="1659" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">CARDFILE.GB$</file>
-		<file size="318" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">CARDFILE.IC$</file>
-		<file size="145" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">CARDFILE.MA$</file>
-		<file size="3416" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">FILEFORM.FR$</file>
-		<file size="693" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">FINDFORM.FR$</file>
-		<file size="699" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">GOTOFORM.FR$</file>
-		<file size="700" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">INDXFORM.FR$</file>
-		<file size="1013" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">PAGEFORM.FR$</file>
-		<file size="577" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/CARDFILE/">SAMPLE.CR$</file>
+		<file size="782" time="1991-05-10 01:00:00" attr="0x20" md5="9fe20b93745bb43b357c3bc33e760e88" dir="SAMPLES/CARDFILE/">ABOUTBOX.FR$</file>
+		<file size="500" time="1991-05-10 01:00:00" attr="0x20" md5="f4869f006fcb9bb2ea7ebfa80d58286e" dir="SAMPLES/CARDFILE/">ADDFORM.FR$</file>
+		<file size="1249" time="1991-05-10 01:00:00" attr="0x20" md5="52147f9f9b5db4e1bb5f6643edd7ff78" dir="SAMPLES/CARDFILE/">CARDFILE.BA$</file>
+		<file size="16343" time="1991-05-10 01:00:00" attr="0x20" md5="6dff2337f3f16536ab960dcd975ecc1b" dir="SAMPLES/CARDFILE/">CARDFILE.FR$</file>
+		<file size="1659" time="1991-05-10 01:00:00" attr="0x20" md5="296f8893569260478a45b3c8fcc0e400" dir="SAMPLES/CARDFILE/">CARDFILE.GB$</file>
+		<file size="318" time="1991-05-10 01:00:00" attr="0x20" md5="02a1feb0f6bb46a99603936595907b76" dir="SAMPLES/CARDFILE/">CARDFILE.IC$</file>
+		<file size="145" time="1991-05-10 01:00:00" attr="0x20" md5="482f1a7a0963ec51a805500edd3ee5ba" dir="SAMPLES/CARDFILE/">CARDFILE.MA$</file>
+		<file size="3416" time="1991-05-10 01:00:00" attr="0x20" md5="ef61c765bfe6e30cb30b23540c880b22" dir="SAMPLES/CARDFILE/">FILEFORM.FR$</file>
+		<file size="693" time="1991-05-10 01:00:00" attr="0x20" md5="9c67b753ca61c235a5f7e4950483b356" dir="SAMPLES/CARDFILE/">FINDFORM.FR$</file>
+		<file size="699" time="1991-05-10 01:00:00" attr="0x20" md5="f0ecd4971b4bb19430769889db265228" dir="SAMPLES/CARDFILE/">GOTOFORM.FR$</file>
+		<file size="700" time="1991-05-10 01:00:00" attr="0x20" md5="b728e4286753ddbaa7030cfb07eda52a" dir="SAMPLES/CARDFILE/">INDXFORM.FR$</file>
+		<file size="1013" time="1991-05-10 01:00:00" attr="0x20" md5="40dd964db9d9cb0cc5ce5af36d796c80" dir="SAMPLES/CARDFILE/">PAGEFORM.FR$</file>
+		<file size="577" time="1991-05-10 01:00:00" attr="0x20" md5="b86997ecf2c02ba75c4be1d99cf8e4c1" dir="SAMPLES/CARDFILE/">SAMPLE.CR$</file>
 		<file size="448" time="1991-05-13 18:15:48" attr="0x10" dir="SAMPLES/">ICONWRKS</file>
-		<file size="1960" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">ABOUTBOX.FR$</file>
-		<file size="3777" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">COLORPAL.FR$</file>
-		<file size="39531" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">ICONEDIT.FR$</file>
-		<file size="11638" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">ICONWRKS.BA$</file>
-		<file size="3794" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">ICONWRKS.GB$</file>
-		<file size="26278" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">ICONWRKS.HL$</file>
-		<file size="440" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">ICONWRKS.IC$</file>
-		<file size="149" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">ICONWRKS.MA$</file>
-		<file size="3275" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">SAVEDLG.FR$</file>
-		<file size="151" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">SCREEN.IC$</file>
-		<file size="765" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">TOOLPAL.BM$</file>
-		<file size="11834" time="1991-05-10 01:00:00" attr="0x20" dir="SAMPLES/ICONWRKS/">VIEWICON.FR$</file>
+		<file size="1960" time="1991-05-10 01:00:00" attr="0x20" md5="fa0aba349a5fbfabb2b86489aeb6468b" dir="SAMPLES/ICONWRKS/">ABOUTBOX.FR$</file>
+		<file size="3777" time="1991-05-10 01:00:00" attr="0x20" md5="0f4ea7b931a4bd85173e7270c8871f8e" dir="SAMPLES/ICONWRKS/">COLORPAL.FR$</file>
+		<file size="39531" time="1991-05-10 01:00:00" attr="0x20" md5="1eae6b8009fb1e9ff6881bef4291c78e" dir="SAMPLES/ICONWRKS/">ICONEDIT.FR$</file>
+		<file size="11638" time="1991-05-10 01:00:00" attr="0x20" md5="886abce60964f605ab4913d3f73a4148" dir="SAMPLES/ICONWRKS/">ICONWRKS.BA$</file>
+		<file size="3794" time="1991-05-10 01:00:00" attr="0x20" md5="cdd1cc1176da2d2bed6353da6d952c54" dir="SAMPLES/ICONWRKS/">ICONWRKS.GB$</file>
+		<file size="26278" time="1991-05-10 01:00:00" attr="0x20" md5="3531c2e6c3e81139b24baf73f98feee7" dir="SAMPLES/ICONWRKS/">ICONWRKS.HL$</file>
+		<file size="440" time="1991-05-10 01:00:00" attr="0x20" md5="a774ffb705e828aeedbb142f43022e1a" dir="SAMPLES/ICONWRKS/">ICONWRKS.IC$</file>
+		<file size="149" time="1991-05-10 01:00:00" attr="0x20" md5="14915ea783f737defeb5720136e4d79a" dir="SAMPLES/ICONWRKS/">ICONWRKS.MA$</file>
+		<file size="3275" time="1991-05-10 01:00:00" attr="0x20" md5="2f20304d25fc7277cca578cd3a6847fc" dir="SAMPLES/ICONWRKS/">SAVEDLG.FR$</file>
+		<file size="151" time="1991-05-10 01:00:00" attr="0x20" md5="4790cf2b42a1b526e81ce2e5f8e0bebb" dir="SAMPLES/ICONWRKS/">SCREEN.IC$</file>
+		<file size="765" time="1991-05-10 01:00:00" attr="0x20" md5="8763fdfe2a6d38bbaf330702abe59da7" dir="SAMPLES/ICONWRKS/">TOOLPAL.BM$</file>
+		<file size="11834" time="1991-05-10 01:00:00" attr="0x20" md5="d7dbd00d18ddeba1d3134869d648e54f" dir="SAMPLES/ICONWRKS/">VIEWICON.FR$</file>
 		<file size="704" time="1991-05-13 18:15:26" attr="0x10">VB.CBT</file>
-		<file size="246" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">ADDFORM.FR$</file>
-		<file size="379" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">BRDRLK.BM$</file>
-		<file size="682" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">CALC.FR$</file>
-		<file size="63" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">CALC.MA$</file>
-		<file size="59807" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">CBT.EX$</file>
-		<file size="3502" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">CBTLIB.EX$</file>
-		<file size="68" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">COUNTRY.MA$</file>
-		<file size="686" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">COUNTRY2.FR$</file>
-		<file size="70" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">COUNTRY2.MA$</file>
-		<file size="2252" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">FARM.WM$</file>
-		<file size="148" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">FORM2.FR$</file>
-		<file size="1525" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">INDXFORM.FR$</file>
-		<file size="397" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">PRNT.FR$</file>
-		<file size="76" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">PRNT.MA$</file>
-		<file size="626" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">RESULTS.FR$</file>
-		<file size="68" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">RESULTS.MA$</file>
-		<file size="704" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">SWEDEN.FR$</file>
-		<file size="619" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">TEMPCONV.FR$</file>
-		<file size="71" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">TEMPCONV.MA$</file>
-		<file size="289403" time="1991-05-10 01:00:00" attr="0x20" dir="VB.CBT/">VB.LE$</file>
+		<file size="246" time="1991-05-10 01:00:00" attr="0x20" md5="eb2b54146207c3ae759c54d3af0ec714" dir="VB.CBT/">ADDFORM.FR$</file>
+		<file size="379" time="1991-05-10 01:00:00" attr="0x20" md5="c146b50b14853fce55db886676a93b3a" dir="VB.CBT/">BRDRLK.BM$</file>
+		<file size="682" time="1991-05-10 01:00:00" attr="0x20" md5="7b3b94fca98ca34f6ef993a03adaa9e0" dir="VB.CBT/">CALC.FR$</file>
+		<file size="63" time="1991-05-10 01:00:00" attr="0x20" md5="e0654f38a42284644557f93cc39b23c3" dir="VB.CBT/">CALC.MA$</file>
+		<file size="59807" time="1991-05-10 01:00:00" attr="0x20" md5="9877ad51bb54d888ad1ee691a7e076fa" dir="VB.CBT/">CBT.EX$</file>
+		<file size="3502" time="1991-05-10 01:00:00" attr="0x20" md5="e24916f96272bba47158fbc4506a8a21" dir="VB.CBT/">CBTLIB.EX$</file>
+		<file size="68" time="1991-05-10 01:00:00" attr="0x20" md5="85fc2eaad1dc8675f791c73ef6c59b11" dir="VB.CBT/">COUNTRY.MA$</file>
+		<file size="686" time="1991-05-10 01:00:00" attr="0x20" md5="2882b6561f8d55948a8bc799c016b00f" dir="VB.CBT/">COUNTRY2.FR$</file>
+		<file size="70" time="1991-05-10 01:00:00" attr="0x20" md5="299e1f5f20b8ce4759549e29e3a9a5a8" dir="VB.CBT/">COUNTRY2.MA$</file>
+		<file size="2252" time="1991-05-10 01:00:00" attr="0x20" md5="aed3f094603a3feaa500f1f38ce5fa4a" dir="VB.CBT/">FARM.WM$</file>
+		<file size="148" time="1991-05-10 01:00:00" attr="0x20" md5="843267e2ad7b1c79c8245c405cd8a44a" dir="VB.CBT/">FORM2.FR$</file>
+		<file size="1525" time="1991-05-10 01:00:00" attr="0x20" md5="8fb3c3495c707c16cf2ec15fa646261d" dir="VB.CBT/">INDXFORM.FR$</file>
+		<file size="397" time="1991-05-10 01:00:00" attr="0x20" md5="d632c14585bd4aead68221b032b53f35" dir="VB.CBT/">PRNT.FR$</file>
+		<file size="76" time="1991-05-10 01:00:00" attr="0x20" md5="19ab66a4c6040cae1fc7455140f79e40" dir="VB.CBT/">PRNT.MA$</file>
+		<file size="626" time="1991-05-10 01:00:00" attr="0x20" md5="af3cbd5ccf23dc65650f8429b21f01bc" dir="VB.CBT/">RESULTS.FR$</file>
+		<file size="68" time="1991-05-10 01:00:00" attr="0x20" md5="569d9783a2b40f4091e371405cc4c8a2" dir="VB.CBT/">RESULTS.MA$</file>
+		<file size="704" time="1991-05-10 01:00:00" attr="0x20" md5="22637007b5022a25909a1692b77220fa" dir="VB.CBT/">SWEDEN.FR$</file>
+		<file size="619" time="1991-05-10 01:00:00" attr="0x20" md5="76898bf8fec94af380b79977b3faed3b" dir="VB.CBT/">TEMPCONV.FR$</file>
+		<file size="71" time="1991-05-10 01:00:00" attr="0x20" md5="829c57b5ae193ec1a0c507856c1359fd" dir="VB.CBT/">TEMPCONV.MA$</file>
+		<file size="289403" time="1991-05-10 01:00:00" attr="0x20" md5="6ef5c9d68893045adc493c88e53ef238" dir="VB.CBT/">VB.LE$</file>
 	</disk>
-	<disk id="disk07" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK3.json" md5="d53043a5747349384375e90c08be6213" md5json="cc5fa94204fb0c9f3e1440eb82028231">
+	<disk id="disk09" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK3.json" md5="87a710fbbc64490e0387000420831d73" md5json="cc5fa94204fb0c9f3e1440eb82028231">
 		<name>MS Visual Basic 1.00 (Disk 3)</name>
 		<file size="480" time="1991-05-16 15:27:16" attr="0x10">CIRCLE1</file>
-		<file size="2378" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CCINIT.C</file>
-		<file size="1181" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLE.C</file>
-		<file size="462" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLE.DEF</file>
-		<file size="3745" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLE.H</file>
-		<file size="629" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLE.RC</file>
-		<file size="7315" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLE1.VBX</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLECD.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLECU.BMP</file>
-		<file size="470" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLEEU.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">CIRCLEMU.BMP</file>
-		<file size="889" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">LIBINIT.ASM</file>
-		<file size="243" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">LIBINIT.OBJ</file>
-		<file size="1946" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE1/">MAKEFILE</file>
+		<file size="2378" time="1991-05-15 01:00:00" attr="0x20" md5="838190af3ab52185c12c8e70d75d51e1" dir="CIRCLE1/">CCINIT.C</file>
+		<file size="1181" time="1991-05-15 01:00:00" attr="0x20" md5="f6bcd7cf3c7b28b785cd022271598161" dir="CIRCLE1/">CIRCLE.C</file>
+		<file size="462" time="1991-05-15 01:00:00" attr="0x20" md5="20821e91800187e34c068422b12ca446" dir="CIRCLE1/">CIRCLE.DEF</file>
+		<file size="3745" time="1991-05-15 01:00:00" attr="0x20" md5="cd069f6616dd22757dcbd89c078bc6b3" dir="CIRCLE1/">CIRCLE.H</file>
+		<file size="629" time="1991-05-15 01:00:00" attr="0x20" md5="fd8e35718139a5d06e053ee05b4cb8be" dir="CIRCLE1/">CIRCLE.RC</file>
+		<file size="7315" time="1991-05-15 01:00:00" attr="0x20" md5="762dac977460ee24c832a1784cb3d095" dir="CIRCLE1/">CIRCLE1.VBX</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="60d5f7a3ff9308568c4d8af82cb50742" dir="CIRCLE1/">CIRCLECD.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="486acaa758f2ed79a5cc3dd5ea26041f" dir="CIRCLE1/">CIRCLECU.BMP</file>
+		<file size="470" time="1991-05-15 01:00:00" attr="0x20" md5="ce0442deab224aed60c0d955a62f7159" dir="CIRCLE1/">CIRCLEEU.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="e41309bd92d45534d64523f786fc41e9" dir="CIRCLE1/">CIRCLEMU.BMP</file>
+		<file size="889" time="1991-05-15 01:00:00" attr="0x20" md5="ea9872530d3f724c8bd3c9ee148ab8b2" dir="CIRCLE1/">LIBINIT.ASM</file>
+		<file size="243" time="1991-05-15 01:00:00" attr="0x20" md5="130537d052befb42fbb24221aa7e8bbb" dir="CIRCLE1/">LIBINIT.OBJ</file>
+		<file size="1946" time="1991-05-15 01:00:00" attr="0x20" md5="6b5fcdcbd7fbf87f20c22ffb2b9872af" dir="CIRCLE1/">MAKEFILE</file>
 		<file size="480" time="1991-05-16 15:27:16" attr="0x10">CIRCLE2</file>
-		<file size="2378" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CCINIT.C</file>
-		<file size="7412" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLE.C</file>
-		<file size="462" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLE.DEF</file>
-		<file size="5149" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLE.H</file>
-		<file size="629" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLE.RC</file>
-		<file size="20854" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLE2.VBX</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLECD.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLECU.BMP</file>
-		<file size="470" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLEEU.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">CIRCLEMU.BMP</file>
-		<file size="889" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">LIBINIT.ASM</file>
-		<file size="243" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">LIBINIT.OBJ</file>
-		<file size="1946" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE2/">MAKEFILE</file>
+		<file size="2378" time="1991-05-15 01:00:00" attr="0x20" md5="838190af3ab52185c12c8e70d75d51e1" dir="CIRCLE2/">CCINIT.C</file>
+		<file size="7412" time="1991-05-15 01:00:00" attr="0x20" md5="3c9f452f61d35a5f03d1bc813f77110f" dir="CIRCLE2/">CIRCLE.C</file>
+		<file size="462" time="1991-05-15 01:00:00" attr="0x20" md5="efcd18393bd734f96c66caba893f4695" dir="CIRCLE2/">CIRCLE.DEF</file>
+		<file size="5149" time="1991-05-15 01:00:00" attr="0x20" md5="110022763e71df7373382671f03dc5de" dir="CIRCLE2/">CIRCLE.H</file>
+		<file size="629" time="1991-05-15 01:00:00" attr="0x20" md5="fd8e35718139a5d06e053ee05b4cb8be" dir="CIRCLE2/">CIRCLE.RC</file>
+		<file size="20854" time="1991-05-15 01:00:00" attr="0x20" md5="379e43119e4e26c2da4a39e6c6899e22" dir="CIRCLE2/">CIRCLE2.VBX</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="4203896f082babc61dbc39ff4d5e5eb0" dir="CIRCLE2/">CIRCLECD.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="b39a442096448fb3aa066575ee5cdaea" dir="CIRCLE2/">CIRCLECU.BMP</file>
+		<file size="470" time="1991-05-15 01:00:00" attr="0x20" md5="219d6cdd530cd2101433f33ec23ba482" dir="CIRCLE2/">CIRCLEEU.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="c5732b876056c0d956ac7c5994fe93bc" dir="CIRCLE2/">CIRCLEMU.BMP</file>
+		<file size="889" time="1991-05-15 01:00:00" attr="0x20" md5="ea9872530d3f724c8bd3c9ee148ab8b2" dir="CIRCLE2/">LIBINIT.ASM</file>
+		<file size="243" time="1991-05-15 01:00:00" attr="0x20" md5="130537d052befb42fbb24221aa7e8bbb" dir="CIRCLE2/">LIBINIT.OBJ</file>
+		<file size="1946" time="1991-05-15 01:00:00" attr="0x20" md5="5dbb1e1e8b694b740520b436c6251ad5" dir="CIRCLE2/">MAKEFILE</file>
 		<file size="480" time="1991-05-16 15:27:18" attr="0x10">CIRCLE3</file>
-		<file size="3633" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CCINIT.C</file>
-		<file size="14063" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLE.C</file>
-		<file size="487" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLE.DEF</file>
-		<file size="7138" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLE.H</file>
-		<file size="1549" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLE.RC</file>
-		<file size="24448" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLE3.VBX</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLECD.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLECU.BMP</file>
-		<file size="470" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLEEU.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">CIRCLEMU.BMP</file>
-		<file size="889" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">LIBINIT.ASM</file>
-		<file size="243" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">LIBINIT.OBJ</file>
-		<file size="1946" time="1991-05-15 01:00:00" attr="0x20" dir="CIRCLE3/">MAKEFILE</file>
+		<file size="3633" time="1991-05-15 01:00:00" attr="0x20" md5="4c5bc8e8cf208ec6fa8eb2d56eaa2903" dir="CIRCLE3/">CCINIT.C</file>
+		<file size="14063" time="1991-05-15 01:00:00" attr="0x20" md5="670a282731636b5f650c17159813cd98" dir="CIRCLE3/">CIRCLE.C</file>
+		<file size="487" time="1991-05-15 01:00:00" attr="0x20" md5="4e5e5958889c474a1884da2b198cfe13" dir="CIRCLE3/">CIRCLE.DEF</file>
+		<file size="7138" time="1991-05-15 01:00:00" attr="0x20" md5="bde02b4f58af91407c49a357705b0a93" dir="CIRCLE3/">CIRCLE.H</file>
+		<file size="1549" time="1991-05-15 01:00:00" attr="0x20" md5="76b59173e503e684ec98beaa32482b0d" dir="CIRCLE3/">CIRCLE.RC</file>
+		<file size="24448" time="1991-05-15 01:00:00" attr="0x20" md5="0792dc73a8be1981049017a8608cbe94" dir="CIRCLE3/">CIRCLE3.VBX</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="568e9799bf66a9b726e5569828fd2322" dir="CIRCLE3/">CIRCLECD.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="1f1f15a6f88e45a5b537a90df27f40f0" dir="CIRCLE3/">CIRCLECU.BMP</file>
+		<file size="470" time="1991-05-15 01:00:00" attr="0x20" md5="68a485e560367ba0c8ef9ffd5c95ea73" dir="CIRCLE3/">CIRCLEEU.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="19a81df6ebc8e101ddbf5b47b0e56f00" dir="CIRCLE3/">CIRCLEMU.BMP</file>
+		<file size="889" time="1991-05-15 01:00:00" attr="0x20" md5="ea9872530d3f724c8bd3c9ee148ab8b2" dir="CIRCLE3/">LIBINIT.ASM</file>
+		<file size="243" time="1991-05-15 01:00:00" attr="0x20" md5="130537d052befb42fbb24221aa7e8bbb" dir="CIRCLE3/">LIBINIT.OBJ</file>
+		<file size="1946" time="1991-05-15 01:00:00" attr="0x20" md5="33d8c20de3ed936a79f9010e51908c00" dir="CIRCLE3/">MAKEFILE</file>
 		<file size="480" time="1991-05-16 15:27:18" attr="0x10">CNTR</file>
-		<file size="2325" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CCINIT.C</file>
-		<file size="10270" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTR.C</file>
-		<file size="448" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTR.DEF</file>
-		<file size="6414" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTR.H</file>
-		<file size="605" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTR.RC</file>
-		<file size="22478" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTR.VBX</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTRCDN.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTRCUP.BMP</file>
-		<file size="470" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTREUP.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">CNTRMUP.BMP</file>
-		<file size="889" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">LIBINIT.ASM</file>
-		<file size="243" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">LIBINIT.OBJ</file>
-		<file size="1829" time="1991-05-15 01:00:00" attr="0x20" dir="CNTR/">MAKEFILE</file>
+		<file size="2325" time="1991-05-15 01:00:00" attr="0x20" md5="dff6eb39b5b07426d85d318e5a896567" dir="CNTR/">CCINIT.C</file>
+		<file size="10270" time="1991-05-15 01:00:00" attr="0x20" md5="207af39778ea55281f0b8ca4cac25669" dir="CNTR/">CNTR.C</file>
+		<file size="448" time="1991-05-15 01:00:00" attr="0x20" md5="f1b58d9c725f7b03e342f7713df46f3e" dir="CNTR/">CNTR.DEF</file>
+		<file size="6414" time="1991-05-15 01:00:00" attr="0x20" md5="1fdb1016a82655831e696b75c765e19d" dir="CNTR/">CNTR.H</file>
+		<file size="605" time="1991-05-15 01:00:00" attr="0x20" md5="cab42d0cb0a394674fe61c7a1d187018" dir="CNTR/">CNTR.RC</file>
+		<file size="22478" time="1991-05-15 01:00:00" attr="0x20" md5="08b11db266005cc9b8499db73b8cdba4" dir="CNTR/">CNTR.VBX</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="528703f699d44c22d160598aac36dbf6" dir="CNTR/">CNTRCDN.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="d7de3c8819ca01f4263161724f1433ef" dir="CNTR/">CNTRCUP.BMP</file>
+		<file size="470" time="1991-05-15 01:00:00" attr="0x20" md5="347ea565bbfb511e1d6e597cfea8410a" dir="CNTR/">CNTREUP.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="8455abf0b985c577a4854966513a8a57" dir="CNTR/">CNTRMUP.BMP</file>
+		<file size="889" time="1991-05-15 01:00:00" attr="0x20" md5="ea9872530d3f724c8bd3c9ee148ab8b2" dir="CNTR/">LIBINIT.ASM</file>
+		<file size="243" time="1991-05-15 01:00:00" attr="0x20" md5="130537d052befb42fbb24221aa7e8bbb" dir="CNTR/">LIBINIT.OBJ</file>
+		<file size="1829" time="1991-05-15 01:00:00" attr="0x20" md5="8efd5a025a39b3fd139c7f485e1cf51a" dir="CNTR/">MAKEFILE</file>
 		<file size="480" time="1991-05-16 15:27:18" attr="0x10">PIX</file>
-		<file size="2369" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">CCINIT.C</file>
-		<file size="889" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">LIBINIT.ASM</file>
-		<file size="243" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">LIBINIT.OBJ</file>
-		<file size="1798" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">MAKEFILE</file>
-		<file size="5594" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIX.C</file>
-		<file size="448" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIX.DEF</file>
-		<file size="4953" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIX.H</file>
-		<file size="593" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIX.RC</file>
-		<file size="9154" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIX.VBX</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIXCD.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIXCU.BMP</file>
-		<file size="150" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIXEU.BMP</file>
-		<file size="174" time="1991-05-15 01:00:00" attr="0x20" dir="PIX/">PIXMU.BMP</file>
+		<file size="2369" time="1991-05-15 01:00:00" attr="0x20" md5="6bff3316255c5482db804d837953edb5" dir="PIX/">CCINIT.C</file>
+		<file size="889" time="1991-05-15 01:00:00" attr="0x20" md5="ea9872530d3f724c8bd3c9ee148ab8b2" dir="PIX/">LIBINIT.ASM</file>
+		<file size="243" time="1991-05-15 01:00:00" attr="0x20" md5="130537d052befb42fbb24221aa7e8bbb" dir="PIX/">LIBINIT.OBJ</file>
+		<file size="1798" time="1991-05-15 01:00:00" attr="0x20" md5="df2d4cee342286dc473910735ea9cbc4" dir="PIX/">MAKEFILE</file>
+		<file size="5594" time="1991-05-15 01:00:00" attr="0x20" md5="f552f55c3432cdeae3fa28373efcea09" dir="PIX/">PIX.C</file>
+		<file size="448" time="1991-05-15 01:00:00" attr="0x20" md5="2732d924a5a52dc6e0a97d9d46416dae" dir="PIX/">PIX.DEF</file>
+		<file size="4953" time="1991-05-15 01:00:00" attr="0x20" md5="04afb7335f94b7763855049da024e40e" dir="PIX/">PIX.H</file>
+		<file size="593" time="1991-05-15 01:00:00" attr="0x20" md5="aa011027828cd11522f2f709d8f483e7" dir="PIX/">PIX.RC</file>
+		<file size="9154" time="1991-05-15 01:00:00" attr="0x20" md5="7d8ad4b467106e577b1c3e52d501dad0" dir="PIX/">PIX.VBX</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="02ada5fbf45b3a14862deee063d6158a" dir="PIX/">PIXCD.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="805bbd69667089ae18918314bdcecce6" dir="PIX/">PIXCU.BMP</file>
+		<file size="150" time="1991-05-15 01:00:00" attr="0x20" md5="b1a4d2efd3bae4b2e6bd3bb6041f2306" dir="PIX/">PIXEU.BMP</file>
+		<file size="174" time="1991-05-15 01:00:00" attr="0x20" md5="db6f09c1fc39576640e6d15b9351120f" dir="PIX/">PIXMU.BMP</file>
 		<file size="480" time="1991-05-16 15:27:20" attr="0x10">PUSH</file>
-		<file size="2339" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">CCINIT.C</file>
-		<file size="889" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">LIBINIT.ASM</file>
-		<file size="243" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">LIBINIT.OBJ</file>
-		<file size="1809" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">MAKEFILE</file>
-		<file size="6260" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSH.C</file>
-		<file size="445" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSH.DEF</file>
-		<file size="6241" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSH.H</file>
-		<file size="612" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSH.RC</file>
-		<file size="10334" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSH.VBX</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSHCDN.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSHCUP.BMP</file>
-		<file size="470" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSHEUP.BMP</file>
-		<file size="566" time="1991-05-15 01:00:00" attr="0x20" dir="PUSH/">PUSHMUP.BMP</file>
-		<file size="7581" time="1991-05-15 01:00:00" attr="0x20">README.TXT</file>
-		<file size="19637" time="1991-05-15 01:00:00" attr="0x20">VBAPI.H</file>
-		<file size="151391" time="1991-05-15 01:00:00" attr="0x20">VBAPI.HLP</file>
-		<file size="3087" time="1991-05-15 01:00:00" attr="0x20">VBAPI.LIB</file>
+		<file size="2339" time="1991-05-15 01:00:00" attr="0x20" md5="06ce88bbfa8d2bb045f0a1acad767bc7" dir="PUSH/">CCINIT.C</file>
+		<file size="889" time="1991-05-15 01:00:00" attr="0x20" md5="ea9872530d3f724c8bd3c9ee148ab8b2" dir="PUSH/">LIBINIT.ASM</file>
+		<file size="243" time="1991-05-15 01:00:00" attr="0x20" md5="130537d052befb42fbb24221aa7e8bbb" dir="PUSH/">LIBINIT.OBJ</file>
+		<file size="1809" time="1991-05-15 01:00:00" attr="0x20" md5="856b35dcc5415d9d4ed6e40a42d0337c" dir="PUSH/">MAKEFILE</file>
+		<file size="6260" time="1991-05-15 01:00:00" attr="0x20" md5="5e3c8fe4837a7e6ca183f364843a61f4" dir="PUSH/">PUSH.C</file>
+		<file size="445" time="1991-05-15 01:00:00" attr="0x20" md5="7f1a6d650096a723f3f246275cfaafbb" dir="PUSH/">PUSH.DEF</file>
+		<file size="6241" time="1991-05-15 01:00:00" attr="0x20" md5="5b5a7c0dbaddfcf871e75b0f28d6ac23" dir="PUSH/">PUSH.H</file>
+		<file size="612" time="1991-05-15 01:00:00" attr="0x20" md5="2c74728c8f0964bacf344bd65ad35895" dir="PUSH/">PUSH.RC</file>
+		<file size="10334" time="1991-05-15 01:00:00" attr="0x20" md5="aec344ec6caa1c60d17a3ae43d68f384" dir="PUSH/">PUSH.VBX</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="b706fee6a61c8a955f4e564d262207b9" dir="PUSH/">PUSHCDN.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="f2db45de7c1e998b8a981f425b82a6ab" dir="PUSH/">PUSHCUP.BMP</file>
+		<file size="470" time="1991-05-15 01:00:00" attr="0x20" md5="1b1093a200954bf10ff2f6059d9305f1" dir="PUSH/">PUSHEUP.BMP</file>
+		<file size="566" time="1991-05-15 01:00:00" attr="0x20" md5="d2727be61185c7c52f0e195a162808ef" dir="PUSH/">PUSHMUP.BMP</file>
+		<file size="7581" time="1991-05-15 01:00:00" attr="0x20" md5="9243d87fce9b950fd3fabc85370e4e21">README.TXT</file>
+		<file size="19637" time="1991-05-15 01:00:00" attr="0x20" md5="9d55705575c4198f3d832f205df614bf">VBAPI.H</file>
+		<file size="151391" time="1991-05-15 01:00:00" attr="0x20" md5="d2b28326804a90adedcabec5979cc32c">VBAPI.HLP</file>
+		<file size="3087" time="1991-05-15 01:00:00" attr="0x20" md5="b36252783a0e0ad97c3197e831451267">VBAPI.LIB</file>
 	</disk>
-	<disk id="disk08" size="368640" chs="40:2:9" img="qbasic/1.10/archive/QBASIC110.img" href="/disks-demo/pcx86/tools/microsoft/basic/qbasic/1.10/QBASIC110.json" md5="3b06fc322874531b3175348f0e8bea0a" md5json="717ac22f16ad3523731134e180935632">
+	<disk id="disk10" size="368640" chs="40:2:9" img="qbasic/1.10/archive/QBASIC110.img" href="/disks-demo/pcx86/tools/microsoft/basic/qbasic/1.10/QBASIC110.json" md5="99118fb1805917c53654dc9d95d53f9b" md5json="717ac22f16ad3523731134e180935632">
 		<name>MS QBasic 1.10</name>
-		<file size="194309" time="1994-05-31 06:22:00" attr="0x20">QBASIC.EXE</file>
-		<file size="130881" time="1994-05-31 06:22:00" attr="0x20">QBASIC.HLP</file>
+		<file size="194309" time="1994-05-31 06:22:00" attr="0x20" md5="f84f0bf74b830603a29f77b11b9e4833">QBASIC.EXE</file>
+		<file size="130881" time="1994-05-31 06:22:00" attr="0x20" md5="4d0b9e7d5a07d71723e725c2bb07fb82">QBASIC.HLP</file>
 	</disk>
 </manifest>

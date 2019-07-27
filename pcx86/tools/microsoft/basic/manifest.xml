@@ -75,7 +75,162 @@
 		<file size="176128" time="1986-06-13 10:55:40" attr="0x20" md5="2527eb408a42e74f6e264595e89cad02">BCOM20.LIB</file>
 		<file size="186256" time="1986-06-16 14:47:34" attr="0x20" md5="b0f6101286dc12c70a9a944383c40ea2">QB.EXE</file>
 	</disk>
-	<disk id="disk05" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK1" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK1.json" md5="1b2f791b27abfa9f9c6f5b13e5405ee9" md5json="c99c0d93bc2ccc1a93155e39ee954e92">
+	<disk id="disk05" size="368640" chs="40:2:9" img="quickbasic/2.01//archive/QUICKBAS201-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/2.01/QUICKBAS201-DISK1.json" md5="c9a322a684128eb67b034b2a8a9c6f31" md5json="2ec15fa4a026fca41dd5555c411f8454">
+		<name>MS QuickBASIC 2.01 (Disk 1)</name>
+		<file size="728" time="1986-12-26 17:46:06" attr="0x20" md5="4aa35d3daf6714a95b3354c64da15428">ABSOLUTE.ASM</file>
+		<file size="397" time="1986-02-17 15:34:22" attr="0x20" md5="4ac5f7f493a55ced2278d132b9ebfb20">BUG.BAS</file>
+		<file size="133" time="1986-04-25 10:00:00" attr="0x20" md5="0e7c7e89a385358a3bf7b4b201803057">CALLSHAP.BAS</file>
+		<file size="211" time="1986-06-10 09:47:08" attr="0x20" md5="f3f9a46e137646ecd59f50b79bd9e444">DEMO.BAS</file>
+		<file size="182" time="1986-04-25 10:01:40" attr="0x20" md5="f3cd52690f80f9783aa4acf385eced24">EX.BAS</file>
+		<file size="17865" time="1986-12-26 17:52:18" attr="0x20" md5="586b2bc8133f67207d2da126f53d4e5e">INT86.ASM</file>
+		<file size="23149" time="1986-12-01 13:57:54" attr="0x20" md5="2c0d2c3de7b3f5ac658c0ddf03428388">PPRINT.BAS</file>
+		<file size="190528" time="1987-01-16 11:45:54" attr="0x20" md5="5ff9d25c16bf8b9d4d01498da975245c">QB.EXE</file>
+		<file size="24197" time="1987-01-16 06:20:18" attr="0x20" md5="6e44817e42cf9832d34689c4a56312bd">README.DOC</file>
+		<file size="12913" time="1986-06-19 07:12:12" attr="0x20" md5="530451bd30e2352dbcc62897f0d384ca">REMLINE.BAS</file>
+		<file size="164" time="1986-12-04 12:11:58" attr="0x20" md5="2775a924ddbba8939e35ae0407b1fbf9">SQUARE.BAS</file>
+		<file size="1973" time="1986-11-23 23:31:32" attr="0x20" md5="32c25dced898d83101f015409ad5243b">TANDY.QBK</file>
+		<file size="250" time="1986-04-25 10:03:22" attr="0x20" md5="257d068d0ebedaa87d8209f1e82b77a3">TRIANGLE.BAS</file>
+		<file size="9187" time="1987-01-13 12:32:48" attr="0x20" md5="30afcfb600c8c803fd39d2f07e7e3f3e">UPDATE.DOC</file>
+	</disk>
+	<disk id="disk06" size="368640" chs="40:2:9" img="quickbasic/2.01//archive/QUICKBAS201-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/2.01/QUICKBAS201-DISK2.json" md5="0343287125bc07fe0a82190e585447c2" md5json="ae9a99f35eae11c7f8d630b234510dff">
+		<name>MS QuickBASIC 2.01 (Disk 2)</name>
+		<file size="104" time="1987-01-10 17:32:30" attr="0x20" md5="3d9927dc55394e7b2f8b1edada538b6d">ABSOLUTE.OBJ</file>
+		<file size="178176" time="1987-01-16 11:44:28" attr="0x20" md5="8cc212375183e3feaf611aba53ddffce">BCOM20.LIB</file>
+		<file size="69454" time="1987-01-16 11:44:44" attr="0x20" md5="ab33c411f9cce95fa838bffca587da80">BRUN20.EXE</file>
+		<file size="5120" time="1987-01-16 11:44:28" attr="0x20" md5="95528fcc746e6ed5aaa4a66245bd68d0">BRUN20.LIB</file>
+		<file size="45440" time="1986-09-29 15:14:12" attr="0x20" md5="1a8a59837e850ea77aa7e180348285ee">BUILDLIB.EXE</file>
+		<file size="2992" time="1987-01-16 11:44:48" attr="0x20" md5="b28077f36f8a07aca5095f8aeb5a5d15">GWCOM.OBJ</file>
+		<file size="520" time="1987-01-10 17:32:26" attr="0x20" md5="e0b04a859394b8324dd527a868fd1957">INT86.OBJ</file>
+		<file size="47896" time="1986-03-14 15:16:52" attr="0x20" md5="dd01ccb114a4815e8f2be95df100060c">LINK.EXE</file>
+		<file size="1168" time="1986-05-14 10:54:40" attr="0x20" md5="daab4eff4a9df1e923534a2ac5a27b7e">PREFIX.ASM</file>
+		<file size="410" time="1986-05-14 12:11:50" attr="0x20" md5="57be6c4d398c8b92ccbe480191b7c876">PREFIX.OBJ</file>
+		<file size="243" time="1987-01-16 11:44:48" attr="0x20" md5="5966fa64316d6d2b18960e58f50b756a">SMALLERR.OBJ</file>
+	</disk>
+	<disk id="disk07" size="368640" chs="40:2:9" img="quickbasic/3.00/archive/QUICKBAS300-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/3.00/QUICKBAS300-DISK1.json" md5="75b41d23e78c7db3b39146c3b906f7d1" md5json="209d9510c3667affa3837b38a66a6866">
+		<name>MS QuickBASIC 3.00 (Disk 1)</name>
+		<file size="647" time="1987-02-06 15:47:46" attr="0x20" md5="e12b2d73bbffab23c776407f9e83985e">ABSOLUTE.ASM</file>
+		<file size="397" time="1986-02-17 15:34:22" attr="0x20" md5="4ac5f7f493a55ced2278d132b9ebfb20">BUG.BAS</file>
+		<file size="133" time="1986-04-25 10:00:00" attr="0x20" md5="0e7c7e89a385358a3bf7b4b201803057">CALLSHAP.BAS</file>
+		<file size="211" time="1986-06-10 09:47:08" attr="0x20" md5="f3f9a46e137646ecd59f50b79bd9e444">DEMO.BAS</file>
+		<file size="182" time="1986-04-25 10:01:40" attr="0x20" md5="f3cd52690f80f9783aa4acf385eced24">EX.BAS</file>
+		<file size="17900" time="1987-03-11 23:37:44" attr="0x20" md5="8aacb4e36ecc52d4fc4de0b214a57e99">INT86.ASM</file>
+		<file size="47017" time="1987-03-02 13:11:38" attr="0x20" md5="524e123b28b1ff66d311ecf2b5de0ad5">LINK.EXE</file>
+		<file size="195" time="1987-03-22 00:36:00" attr="0x20" md5="660aeb9450bc7d3381d9e4a91c71fe75">MODE43.COM</file>
+		<file size="23149" time="1986-12-01 13:57:54" attr="0x20" md5="2c0d2c3de7b3f5ac658c0ddf03428388">PPRINT.BAS</file>
+		<file size="188843" time="1987-04-07 10:59:10" attr="0x20" md5="b410d2a894e718f77b6d2c302e2edd44">QB.EXE</file>
+		<file size="28311" time="1987-03-31 13:01:02" attr="0x20" md5="62547bca696c304062b03f419eefe21c">README.DOC</file>
+		<file size="12913" time="1986-06-19 07:12:12" attr="0x20" md5="530451bd30e2352dbcc62897f0d384ca">REMLINE.BAS</file>
+		<file size="164" time="1986-12-04 12:11:58" attr="0x20" md5="2775a924ddbba8939e35ae0407b1fbf9">SQUARE.BAS</file>
+		<file size="250" time="1986-04-25 10:03:22" attr="0x20" md5="257d068d0ebedaa87d8209f1e82b77a3">TRIANGLE.BAS</file>
+		<file size="7657" time="1987-03-10 15:55:48" attr="0x20" md5="a97e13aa85a9fbba0e6a777235ebc815">UPDATE.DOC</file>
+	</disk>
+	<disk id="disk08" size="368640" chs="40:2:9" img="quickbasic/3.00/archive/QUICKBAS300-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/3.00/QUICKBAS300-DISK2.json" md5="6443528c5002739fce1cf56a8b506c5d" md5json="f9473bf8bdbfd7a3a65a24a8426be10e">
+		<name>MS QuickBASIC 3.00 (Disk 2)</name>
+		<file size="75" time="1987-03-04 13:06:02" attr="0x20" md5="83c61d4cfbd12c8457cb8f859c77e3c1">ABSOLUTE.OBJ</file>
+		<file size="179712" time="1987-04-07 10:51:04" attr="0x20" md5="abd2e070f637b013fe78cbabe0ed7ecc">BCOM30.LIB</file>
+		<file size="70680" time="1987-04-07 10:48:32" attr="0x20" md5="bf3ed6482b2fe1cd07b82ceeb76c233c">BRUN30.EXE</file>
+		<file size="5120" time="1987-03-04 13:07:06" attr="0x20" md5="95927fef946421c1ab1371c293066900">BRUN30.LIB</file>
+		<file size="44257" time="1987-03-02 13:12:32" attr="0x20" md5="ab8840b9dd1377133afc6c08163a334d">BUILDLIB.EXE</file>
+		<file size="3000" time="1987-03-04 13:05:40" attr="0x20" md5="391fcd3cc8774a8f3d7397218bcd02d3">GWCOM.OBJ</file>
+		<file size="520" time="1987-03-12 01:54:58" attr="0x20" md5="e0b04a859394b8324dd527a868fd1957">INT86.OBJ</file>
+		<file size="1311" time="1987-01-13 12:42:50" attr="0x20" md5="985c49aaeea7d1b2c044c09642e6d162">PREFIX.ASM</file>
+		<file size="472" time="1987-03-12 02:29:06" attr="0x20" md5="b3b738c3f50863177c5d72dced468e7b">PREFIX.OBJ</file>
+		<file size="243" time="1987-03-04 13:05:30" attr="0x20" md5="5966fa64316d6d2b18960e58f50b756a">SMALLERR.OBJ</file>
+	</disk>
+	<disk id="disk09" size="368640" chs="40:2:9" img="quickbasic/3.00/archive/QUICKBAS300-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/3.00/QUICKBAS300-DISK3.json" md5="cd920195adc863d2291b90c3ddb40e6f" md5json="4a197fda8f27e584c059f294ddea3c4f">
+		<name>MS QuickBASIC 3.00 (Disk 3)</name>
+		<file size="75" time="1987-03-04 13:06:02" attr="0x20" md5="83c61d4cfbd12c8457cb8f859c77e3c1">ABSOLUTE.OBJ</file>
+		<file size="174080" time="1987-04-07 10:54:00" attr="0x20" md5="183560424730f46a5d1afd5197b709f2">BCOM3087.LIB</file>
+		<file size="76112" time="1987-04-07 10:52:08" attr="0x20" md5="8381ba3a8b2a5f7d68aa22149481007e">BRUN3087.EXE</file>
+		<file size="5120" time="1987-03-04 15:02:02" attr="0x20" md5="c9b468e8223f032363b5726eab0205ec">BRUN3087.LIB</file>
+		<file size="44257" time="1987-03-02 13:12:32" attr="0x20" md5="ab8840b9dd1377133afc6c08163a334d">BUILDLIB.EXE</file>
+		<file size="12571" time="1987-03-19 13:16:24" attr="0x20" md5="88d4aa3bd479a06c9aa739cbf6960d48">EMULATOR.OBJ</file>
+		<file size="2985" time="1987-03-04 13:05:52" attr="0x20" md5="8c6f2dcac18a623c7236f0ec5954cc33">GWCOM87.OBJ</file>
+		<file size="518" time="1987-03-12 01:55:02" attr="0x20" md5="1edb3e4e03ce5a2791d7c2bb1a98f0ff">INT8687.OBJ</file>
+		<file size="2189" time="1987-03-11 23:42:56" attr="0x20" md5="d88f96c0f3e9d4e936dd9813479d7d14">PREFIX87.ASM</file>
+		<file size="636" time="1987-03-12 02:29:08" attr="0x20" md5="b08a989405e087a856f29e4e77dd0d1e">PREFIX87.OBJ</file>
+		<file size="243" time="1987-03-04 13:05:30" attr="0x20" md5="5966fa64316d6d2b18960e58f50b756a">SMALLERR.OBJ</file>
+	</disk>
+	<disk id="disk10" size="368640" chs="40:2:9" img="quickbasic/3.00/archive/QUICKBAS300-DISK4.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/3.00/QUICKBAS300-DISK4.json" md5="6a4c4aa1b94b9993ecb2b7f62006ee1d" md5json="d71f8dc87a237b6d82e0fd12c6e322b5">
+		<name>MS QuickBASIC 3.00 (Disk 4)</name>
+		<file size="647" time="1987-02-06 15:47:46" attr="0x20" md5="e12b2d73bbffab23c776407f9e83985e">ABSOLUTE.ASM</file>
+		<file size="397" time="1986-02-17 15:34:22" attr="0x20" md5="4ac5f7f493a55ced2278d132b9ebfb20">BUG.BAS</file>
+		<file size="133" time="1986-04-25 10:00:00" attr="0x20" md5="0e7c7e89a385358a3bf7b4b201803057">CALLSHAP.BAS</file>
+		<file size="211" time="1986-06-10 09:47:08" attr="0x20" md5="f3f9a46e137646ecd59f50b79bd9e444">DEMO.BAS</file>
+		<file size="182" time="1986-04-25 10:01:40" attr="0x20" md5="f3cd52690f80f9783aa4acf385eced24">EX.BAS</file>
+		<file size="16043" time="1987-03-12 01:36:26" attr="0x20" md5="115df31ef7282b4f7b723b0dc03e1782">INT8687.ASM</file>
+		<file size="47017" time="1987-03-02 13:11:38" attr="0x20" md5="524e123b28b1ff66d311ecf2b5de0ad5">LINK.EXE</file>
+		<file size="195" time="1987-03-22 00:36:00" attr="0x20" md5="660aeb9450bc7d3381d9e4a91c71fe75">MODE43.COM</file>
+		<file size="23149" time="1986-12-01 13:57:54" attr="0x20" md5="2c0d2c3de7b3f5ac658c0ddf03428388">PPRINT.BAS</file>
+		<file size="185499" time="1987-04-07 11:00:52" attr="0x20" md5="2f2fe1c68caf78339872a53be538a5b7">QB87.EXE</file>
+		<file size="28311" time="1987-03-31 13:01:02" attr="0x20" md5="62547bca696c304062b03f419eefe21c">README.DOC</file>
+		<file size="12913" time="1986-06-19 07:12:12" attr="0x20" md5="530451bd30e2352dbcc62897f0d384ca">REMLINE.BAS</file>
+		<file size="164" time="1986-12-04 12:11:58" attr="0x20" md5="2775a924ddbba8939e35ae0407b1fbf9">SQUARE.BAS</file>
+		<file size="250" time="1986-04-25 10:03:22" attr="0x20" md5="257d068d0ebedaa87d8209f1e82b77a3">TRIANGLE.BAS</file>
+		<file size="7657" time="1987-03-10 15:55:48" attr="0x20" md5="a97e13aa85a9fbba0e6a777235ebc815">UPDATE.DOC</file>
+	</disk>
+	<disk id="disk11" size="737280" chs="80:2:9" img="quickbasic/4.00/archive/QUICKBAS400-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.00/QUICKBAS400-DISK1.json" md5="9a45875c7364106bd1062a5b768984f9" md5json="ce6e0c6b95e5ca0ff0fe2ac97cfc6073">
+		<name>MS QuickBASIC 4.00 (Disk 1)</name>
+		<file size="95005" time="1987-10-08 17:57:14" attr="0x20" md5="6d9238d9790c481704a4b817c999c548">BC.EXE</file>
+		<file size="76816" time="1987-10-08 17:57:42" attr="0x20" md5="0a2dff76094ecb02017543009c81c9b3">BRUN40.EXE</file>
+		<file size="20617" time="1987-10-08 17:57:44" attr="0x20" md5="284fae5dcd4a3c33b96eb0ee515a99e2">BRUN40.LIB</file>
+		<file size="35211" time="1987-09-23 12:55:32" attr="0x20" md5="11629c52e8e5f0d4eccc7a5bc1b3c16f">LIB.EXE</file>
+		<file size="64783" time="1987-10-12 06:48:26" attr="0x20" md5="4eafbcb14e400626b3722c6c4a7c0216">LINK.EXE</file>
+		<file size="10854" time="1987-10-08 08:21:44" attr="0x20" md5="de0315ff0f360c20820be718881b6357">PACKING.LST</file>
+		<file size="230048" time="1987-10-10 00:05:34" attr="0x20" md5="3d0849eea3b6c85026975339a9538904">QB.EXE</file>
+		<file size="48404" time="1987-09-28 16:27:36" attr="0x20" md5="403eeeb6acb88db07d0c5c1ec8274000">QB.HLP</file>
+		<file size="17269" time="1987-10-08 13:18:04" attr="0x20" md5="14528e512fc5e19b333b560d1107fabe">README.DOC</file>
+		<file size="1407" time="1987-10-08 10:03:06" attr="0x20" md5="1dc791072c46646baa8de9032783e714">SETUP.BAT</file>
+		<file size="2427" time="1987-10-08 10:03:12" attr="0x20" md5="e525a31fed8c2aad4c5dfec198276da2">SETUP1.BAT</file>
+	</disk>
+	<disk id="disk12" size="737280" chs="80:2:9" img="quickbasic/4.00/archive/QUICKBAS400-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.00/QUICKBAS400-DISK2.json" md5="6e2e0f9c3cc5e3965bdb6b734ef7ffb0" md5json="3b81e6c5a3c8bcafb2d4354d6e27c4d6">
+		<name>MS QuickBASIC 4.00 (Disk 2)</name>
+		<file size="4410" time="1987-09-24 16:54:02" attr="0x20" md5="4235b006350618c89a950f8ffedbb02b">ABSOLUTE.ASM</file>
+		<file size="209373" time="1987-10-08 17:57:24" attr="0x20" md5="d8b9bef13a15fe33c5d99925c664617e">BCOM40.LIB</file>
+		<file size="23763" time="1987-10-08 17:57:38" attr="0x20" md5="64a218c102dad00cbc88f3af968a7728">BQLB40.LIB</file>
+		<file size="1915" time="1987-09-29 19:08:08" attr="0x20" md5="acff8d815db34ce93a45982f033eddc2">DEMO1.BAS</file>
+		<file size="2019" time="1987-09-16 14:58:42" attr="0x20" md5="e96d3181d440d773b53c405d006066eb">DEMO2.BAS</file>
+		<file size="2015" time="1987-09-16 14:58:44" attr="0x20" md5="5331438b1cfd299cff88ef020059fca6">DEMO3.BAS</file>
+		<file size="690" time="1987-10-06 10:49:50" attr="0x20" md5="68e092e9c5ec1b408d7662f4295be80d">FIXSHIFT.COM</file>
+		<file size="14838" time="1987-09-24 16:54:02" attr="0x20" md5="79a71628557558a95cf42d47e4b685fb">INTRPT.ASM</file>
+		<file size="14455" time="1987-08-21 18:56:48" attr="0x20" md5="58a49486ccf3a6ec7192c6107cdd1eac">MOUSE.COM</file>
+		<file size="318" time="1987-09-17 03:13:22" attr="0x20" md5="876418e33ee4b7fec2d03789dc51dd57">NOCOM.OBJ</file>
+		<file size="2138" time="1987-09-17 01:01:02" attr="0x20" md5="fc5eb4b3a5d8f2400da01fc7162193bd">NOEM.OBJ</file>
+		<file size="2005" time="1987-06-18 08:11:46" attr="0x20" md5="a0f12cfb11f553ab506d53a3594f0bd1">QB.BI</file>
+		<file size="2075" time="1987-10-06 16:29:28" attr="0x20" md5="fa1fd9566dbff41578244a543cb6fb6a">QB.LIB</file>
+		<file size="369" time="1987-08-18 13:45:12" attr="0x20" md5="11659b36ab998389ed7b9e2c7d69b208">QB.PIF</file>
+		<file size="5316" time="1987-10-06 16:29:28" attr="0x20" md5="50ced42710272bd908f186161e54f121">QB.QLB</file>
+		<file size="6704" time="1987-09-24 10:01:20" attr="0x20" md5="1f3c54bc65c790e56a4bae3d88dac682">QBHERC.COM</file>
+		<file size="10881" time="1987-10-04 15:12:20" attr="0x20" md5="52ddead81482e625b4065d091d70b967">REMLINE.BAS</file>
+		<file size="21410" time="1987-10-04 15:11:54" attr="0x20" md5="5f89692a47b284b118c3cd4a1fee6eaa">SORTDEMO.BAS</file>
+		<file size="832" time="1980-01-01 01:00:10" attr="0x10">SOURCE</file>
+		<file size="2768" time="1987-09-22 23:05:04" attr="0x20" md5="cd83064bb3231947dc2cd026b5c6e85b" dir="SOURCE/">BALLPSET.BAS</file>
+		<file size="1846" time="1987-09-22 23:05:04" attr="0x20" md5="8ff7a7293379aa1b1917009bee789852" dir="SOURCE/">BALLXOR.BAS</file>
+		<file size="6152" time="1987-09-22 23:05:06" attr="0x20" md5="089313c2c63d0112103e2cd474c0c919" dir="SOURCE/">BAR.BAS</file>
+		<file size="5429" time="1987-09-22 23:05:06" attr="0x20" md5="8ecb4cdcbc077c7b644c21d3f5237fa6" dir="SOURCE/">CAL.BAS</file>
+		<file size="1638" time="1987-09-22 23:05:08" attr="0x20" md5="5cf0c252f3203aa7f30bd8b0fff258f9" dir="SOURCE/">CHECK.BAS</file>
+		<file size="1212" time="1987-09-22 23:05:08" attr="0x20" md5="ce73e8d124a48fe8d3db4e2958b0a229" dir="SOURCE/">COLORS.BAS</file>
+		<file size="4345" time="1987-09-22 23:05:10" attr="0x20" md5="066711033b439d7a1c1357f57b3a3089" dir="SOURCE/">CRLF.BAS</file>
+		<file size="726" time="1987-09-22 23:05:10" attr="0x20" md5="cd0c99c03db672aceefae4e4e642d091" dir="SOURCE/">CUBE.BAS</file>
+		<file size="6090" time="1987-09-22 23:05:10" attr="0x20" md5="ee5282cf112f3a08315ca01a2b667c2f" dir="SOURCE/">EDPAT.BAS</file>
+		<file size="2663" time="1987-09-22 23:05:12" attr="0x20" md5="149d0ae1f7e085a4ad59b257b4837b2a" dir="SOURCE/">ENTAB.BAS</file>
+		<file size="2864" time="1987-09-22 23:05:12" attr="0x20" md5="312eb68a1fa30a5c080f2501b84233f1" dir="SOURCE/">FILERR.BAS</file>
+		<file size="2232" time="1987-09-11 23:07:00" attr="0x20" md5="719e35fb0353d0002c5680b72afa276b" dir="SOURCE/">FLPT.BAS</file>
+		<file size="1573" time="1987-09-22 23:05:14" attr="0x20" md5="7f135b8f9323db58727e8924fa1e5835" dir="SOURCE/">HIDE.BAS</file>
+		<file size="9975" time="1987-09-22 23:05:14" attr="0x20" md5="55cf9a9e93f70af1293e9853ce308c61" dir="SOURCE/">INDEX.BAS</file>
+		<file size="5864" time="1987-09-22 23:05:16" attr="0x20" md5="9def26122062efa9782124511540277a" dir="SOURCE/">MANDEL.BAS</file>
+		<file size="1720" time="1987-09-18 15:11:44" attr="0x20" md5="7c064b08585d043d68e0bab9cbe8f887" dir="SOURCE/">PALETTE.BAS</file>
+		<file size="1530" time="1987-09-22 23:05:16" attr="0x20" md5="c6aa9c2642fab5ba13f6a1ad3c08bb6d" dir="SOURCE/">PLOTTER.BAS</file>
+		<file size="3025" time="1987-09-22 23:05:18" attr="0x20" md5="4d7282e8e319fc9cd0662d94d584f001" dir="SOURCE/">QLBDUMP.BAS</file>
+		<file size="1702" time="1987-09-18 15:11:44" attr="0x20" md5="d2fd4aae622d2814f5681d6074102a0a" dir="SOURCE/">SEARCH.BAS</file>
+		<file size="884" time="1987-09-22 23:05:18" attr="0x20" md5="4c9d21539a322b08ce4306388a5fc618" dir="SOURCE/">SINEWAVE.BAS</file>
+		<file size="1015" time="1987-09-22 23:05:18" attr="0x20" md5="77858d1967b6a948b35a653062429245" dir="SOURCE/">STRTONUM.BAS</file>
+		<file size="2226" time="1987-09-22 23:05:20" attr="0x20" md5="74c35a0c97ee4ddbe84269fa9a3be5ef" dir="SOURCE/">TERMINAL.BAS</file>
+		<file size="1269" time="1987-09-22 23:05:20" attr="0x20" md5="85c387b81c600e427c6cdf8c2aa790d8" dir="SOURCE/">TOKEN.BAS</file>
+		<file size="4791" time="1987-09-22 23:05:22" attr="0x20" md5="54dc5bbe6ca5b41341cef8263c7f438e" dir="SOURCE/">WHEREIS.BAS</file>
+		<file size="27420" time="1987-10-04 15:12:08" attr="0x20" md5="5ca8a90f256f62934a97e94a6cff5b4e">TORUS.BAS</file>
+	</disk>
+	<disk id="disk13" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK1" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBAS450-DISK1.json" md5="1b2f791b27abfa9f9c6f5b13e5405ee9" md5json="c99c0d93bc2ccc1a93155e39ee954e92">
 		<name>MS QuickBASIC 4.50 (Disk 1)</name>
 		<file size="83456" time="1990-08-20 11:00:00" attr="0x20" md5="bd6468bf744b2126aeb9985d7dfc3981">BC.EX$</file>
 		<file size="22560" time="1990-08-20 11:00:00" attr="0x20" md5="de6ccd3c8b908ea66b5a2092ea9f2346">BX.PGM</file>
@@ -125,7 +280,7 @@
 		<file size="745" time="1990-08-20 11:00:00" attr="0x20" md5="9d9f41d789a3c551fdfc16492e476b91" dir="EXAMPLES/">TOKEN.BA$</file>
 		<file size="2091" time="1990-08-20 11:00:00" attr="0x20" md5="511d2f16b072c5af5bc60535c6cbe5e4" dir="EXAMPLES/">WHEREIS.BA$</file>
 	</disk>
-	<disk id="disk06" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK2" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBASIC450-DISK2.json" md5="f1c8bb6db4e9bb0e248f85e182792d19" md5json="dc87eec362febbe54fd66fc2d296c585">
+	<disk id="disk14" size="1228800" chs="80:2:15" dir="quickbasic/4.50/archive/DISK2" href="/disks-demo/pcx86/tools/microsoft/basic/quickbasic/4.50/QUICKBAS450-DISK2.json" md5="f1c8bb6db4e9bb0e248f85e182792d19" md5json="dc87eec362febbe54fd66fc2d296c585">
 		<name>MS QuickBASIC 4.50 (Disk 2)</name>
 		<file size="149360" time="1990-08-20 11:00:00" attr="0x20" md5="6434d321dd2c772526b8630c54fe3a17">BCOM45.LI$</file>
 		<file size="15009" time="1990-08-20 11:00:00" attr="0x20" md5="7ad44bb77824a5bdb33a5f452e1af4d8">BQLB45.LI$</file>
@@ -164,7 +319,7 @@
 		<file size="594" time="1990-08-20 11:00:00" attr="0x20" md5="176343614ca1867c56286b3a47458cba" dir="ADVR_EX/">UCASE_EX.BA$</file>
 		<file size="566" time="1990-08-20 11:00:00" attr="0x20" md5="359734448747cd1a4147dd9aae9e4523" dir="ADVR_EX/">WINDO_EX.BA$</file>
 	</disk>
-	<disk id="disk07" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK1.json" md5="e6b25bcca5b5a48da8b96a9b22717cf1" md5json="2e958b9fe640d0bae1e89f40b87b05cf">
+	<disk id="disk15" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK1.json" md5="e6b25bcca5b5a48da8b96a9b22717cf1" md5json="2e958b9fe640d0bae1e89f40b87b05cf">
 		<name>MS Visual Basic 1.00 (Disk 1)</name>
 		<file size="3877" time="1991-05-10 01:00:00" attr="0x20" md5="b280a2c4c70b7f6cebe89ef5032c27e2">CONSTANT.TX$</file>
 		<file size="14816" time="1991-05-10 01:00:00" attr="0x20" md5="835d22128509427dd9e87407b836b3e8">DECOMP.DLL</file>
@@ -176,7 +331,7 @@
 		<file size="489823" time="1991-05-10 01:00:00" attr="0x20" md5="6dee6206f95d2109e06668965870c330">VB.HL$</file>
 		<file size="271264" time="1991-05-10 01:00:00" attr="0x20" md5="127e75e5a9b93cfa4f964060d6f5bc8d">VBRUN100.DL_</file>
 	</disk>
-	<disk id="disk08" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK2.json" md5="a5c9ad4ec3c402b5ded077d35332ad43" md5json="549628ddc0a0144d113aa589e9f23c63">
+	<disk id="disk16" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK2.json" md5="a5c9ad4ec3c402b5ded077d35332ad43" md5json="549628ddc0a0144d113aa589e9f23c63">
 		<name>MS Visual Basic 1.00 (Disk 2)</name>
 		<file size="352" time="1991-05-13 18:15:24" attr="0x10">ICONS</file>
 		<file size="8006" time="1991-05-10 01:00:00" attr="0x20" md5="26f913cab0f02f53c428ef6c858c174b" dir="ICONS/">ARROWS.$</file>
@@ -242,7 +397,7 @@
 		<file size="71" time="1991-05-10 01:00:00" attr="0x20" md5="829c57b5ae193ec1a0c507856c1359fd" dir="VB.CBT/">TEMPCONV.MA$</file>
 		<file size="289403" time="1991-05-10 01:00:00" attr="0x20" md5="6ef5c9d68893045adc493c88e53ef238" dir="VB.CBT/">VB.LE$</file>
 	</disk>
-	<disk id="disk09" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK3.json" md5="87a710fbbc64490e0387000420831d73" md5json="cc5fa94204fb0c9f3e1440eb82028231">
+	<disk id="disk17" size="1228800" chs="80:2:15" img="vb/1.00/archive/VB100-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/basic/vb/1.00/VB100-DISK3.json" md5="87a710fbbc64490e0387000420831d73" md5json="cc5fa94204fb0c9f3e1440eb82028231">
 		<name>MS Visual Basic 1.00 (Disk 3)</name>
 		<file size="480" time="1991-05-16 15:27:16" attr="0x10">CIRCLE1</file>
 		<file size="2378" time="1991-05-15 01:00:00" attr="0x20" md5="838190af3ab52185c12c8e70d75d51e1" dir="CIRCLE1/">CCINIT.C</file>
@@ -333,7 +488,7 @@
 		<file size="151391" time="1991-05-15 01:00:00" attr="0x20" md5="d2b28326804a90adedcabec5979cc32c">VBAPI.HLP</file>
 		<file size="3087" time="1991-05-15 01:00:00" attr="0x20" md5="b36252783a0e0ad97c3197e831451267">VBAPI.LIB</file>
 	</disk>
-	<disk id="disk10" size="368640" chs="40:2:9" img="qbasic/1.10/archive/QBASIC110.img" href="/disks-demo/pcx86/tools/microsoft/basic/qbasic/1.10/QBASIC110.json" md5="99118fb1805917c53654dc9d95d53f9b" md5json="717ac22f16ad3523731134e180935632">
+	<disk id="disk18" size="368640" chs="40:2:9" img="qbasic/1.10/archive/QBASIC110.img" href="/disks-demo/pcx86/tools/microsoft/basic/qbasic/1.10/QBASIC110.json" md5="99118fb1805917c53654dc9d95d53f9b" md5json="717ac22f16ad3523731134e180935632">
 		<name>MS QBasic 1.10</name>
 		<file size="194309" time="1994-05-31 06:22:00" attr="0x20" md5="f84f0bf74b830603a29f77b11b9e4833">QBASIC.EXE</file>
 		<file size="130881" time="1994-05-31 06:22:00" attr="0x20" md5="4d0b9e7d5a07d71723e725c2bb07fb82">QBASIC.HLP</file>

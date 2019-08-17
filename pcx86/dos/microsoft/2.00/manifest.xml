@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.6/manifest.xsl"?>
+<manifest type="software">
+	<title>MS-DOS</title>
+	<version>2.00</version>
+	<type>Operating System</type>
+	<category>DOS</category>
+	<author>Microsoft</author>
+	<releaseDate></releaseDate>
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK1.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK1.json" md5="96a9753320a06bac334c2342b311580e" md5json="0e494165148bf6def1986e590c71f1c2">
+		<name>MS-DOS 2.00 OEM (Disk 1)</name>
+	</disk>
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK2.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK2.json" md5="7e2706efcbb15ff0046021af7c59f53b" md5json="4e5673f1e3ea4c590308581a1004ca80">
+		<name>MS-DOS 2.00 OEM (Disk 2)</name>
+	</disk>
+	<disk id="disk03" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK3.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK3.json" md5="46c8eed21fbeb7fe28b18e5739adceb6" md5json="41a3604ef0da472015464f909dfa083b">
+		<name>MS-DOS 2.00 OEM (Disk 3)</name>
+	</disk>
+	<disk id="disk04" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK4.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK4.json" md5="b39c8a5dec45553f6804cc17146f8c6a" md5json="e1557b4767dc451e350cf340e069b03b">
+		<name>MS-DOS 2.00 OEM (Disk 4)</name>
+	</disk>
+	<disk id="disk05" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK5.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK5.json" md5="a834429bca82594bdad301327a2fbf08" md5json="69eccebcf67034163b75adf45f0344e9">
+		<name>MS-DOS 2.00 OEM (Disk 5)</name>
+	</disk>
+</manifest>

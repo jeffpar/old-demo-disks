@@ -7,19 +7,67 @@
 	<category>DOS</category>
 	<author>Microsoft</author>
 	<releaseDate></releaseDate>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK1.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK1.json" md5="96a9753320a06bac334c2342b311580e" md5json="0e494165148bf6def1986e590c71f1c2">
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK1.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK1.json" md5="fa58ae5df813d8606f341c76ca42db21" md5json="afce673b4eb1878d49f37bcc3af6b517">
 		<name>MS-DOS 2.00 OEM (Disk 1)</name>
+		<file size="6330" time="1983-02-01 09:16:44" attr="0x20" md5="bf14f40dd88f5eb8d43cc41e2797b2de">CHKDSK.COM</file>
+		<file size="15480" time="1983-02-08 19:50:36" attr="0x20" md5="801ce6f7248370a6892d0046932213d4">COMMAND.COM</file>
+		<file size="11764" time="1983-02-01 10:13:10" attr="0x20" md5="d402aee2cbea89760d45c047cc8cb303">DEBUG.COM</file>
+		<file size="1419" time="1983-02-14 16:39:00" attr="0x20" md5="369b0d508cf2f2eab47771698b1ff642">DISKCOPY.COM</file>
+		<file size="4389" time="1983-02-01 09:31:22" attr="0x20" md5="d12449609ce3079073f46a2a064b8786">EDLIN.COM</file>
+		<file size="1649" time="1983-02-01 09:19:44" attr="0x20" md5="874ceb8f943a4b0acb607b6bed3831b9">EXE2BIN.EXE</file>
+		<file size="2553" time="1983-02-01 09:36:46" attr="0x20" md5="044411eaa32b166948a1429416cb96c9">FC.EXE</file>
+		<file size="5796" time="1983-01-14 18:35:48" attr="0x20" md5="7241ca0ef46451ef7ac2f8eb51026b17">FIND.EXE</file>
+		<file size="42368" time="1983-01-06 16:36:48" attr="0x20" md5="501f4e608afd200f571d25096fc3f0e8">LINK.EXE</file>
+		<file size="4364" time="1983-01-14 18:42:42" attr="0x20" md5="a61a652eae194a8a073858e98b277a07">MORE.COM</file>
+		<file size="16690" time="1983-02-08 19:48:00" attr="0x20" md5="e67e33d4914a630e27dc72bf26874800">MSDOS.SYS</file>
+		<file size="3808" time="1983-02-01 12:39:38" attr="0x20" md5="3a7ef0e177e9e72742f7476b8c2595f7">PRINT.COM</file>
+		<file size="8832" time="1980-01-01 00:03:22" attr="0x20" md5="06360759b4ea91c7c44e8123c60b603d">README.DOC</file>
+		<file size="2277" time="1983-02-01 14:22:24" attr="0x20" md5="1fcf64623eb667e5fddba3016f73560f">RECOVER.COM</file>
+		<file size="1216" time="1983-02-08 19:04:38" attr="0x20" md5="d057215f756278b7806cb62882c26be7">SORT.EXE</file>
+		<file size="850" time="1983-02-01 14:26:52" attr="0x20" md5="59ce4f85e98084711f01f26b4fcef019">SYS.COM</file>
 	</disk>
-	<disk id="disk02" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK2.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK2.json" md5="7e2706efcbb15ff0046021af7c59f53b" md5json="4e5673f1e3ea4c590308581a1004ca80">
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK2.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK2.json" md5="5b8ef93409ba4c4d4a2b19aa858abfe8" md5json="4e5673f1e3ea4c590308581a1004ca80">
 		<name>MS-DOS 2.00 OEM (Disk 2)</name>
+		<file size="13824" time="1982-06-02 18:06:42" attr="0x20" md5="061e25b3efed385f274bb46e9c12d71e">CREF.EXE</file>
+		<file size="77440" time="1983-02-01 13:13:10" attr="0x20" md5="a9f9df1d0afd30c46f8facffffc72c64">MASM.EXE</file>
 	</disk>
-	<disk id="disk03" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK3.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK3.json" md5="46c8eed21fbeb7fe28b18e5739adceb6" md5json="41a3604ef0da472015464f909dfa083b">
+	<disk id="disk03" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK3.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK3.json" md5="50100b477b31ad930b7165c4ed82fdcf" md5json="41a3604ef0da472015464f909dfa083b">
 		<name>MS-DOS 2.00 OEM (Disk 3)</name>
+		<file size="2688" time="1982-10-18 12:07:22" attr="0x20" md5="521881c6202aeaaff29a6617421905e0">DEVSYM.ASM</file>
+		<file size="6656" time="1982-10-18 12:06:50" attr="0x20" md5="47e039b7d8b1dbdc7ea337df88be0542">DOSMAC.ASM</file>
+		<file size="2546" time="1983-02-08 20:04:46" attr="0x20" md5="9e609889283ff6e4dcc5fab63cbfaf1f">DOSPATCH.TXT</file>
+		<file size="42112" time="1980-01-01 00:07:56" attr="0x20" md5="348de7e8bbfdffba85a37723356d6910">DOSSYM.ASM</file>
+		<file size="16640" time="1983-02-03 15:37:24" attr="0x20" md5="a656432f2557ac61c44a139662b71cfc">FORMAT.DOC</file>
+		<file size="4864" time="1983-02-03 14:18:22" attr="0x20" md5="8d737f29cfc8225fdd5e7fe4b0f00372">FORMAT.OBJ</file>
+		<file size="1152" time="1983-02-03 14:03:10" attr="0x20" md5="ea9a82d0767a9fbc138c9d37c6357893">FORMES.OBJ</file>
+		<file size="4096" time="1983-02-03 14:45:06" attr="0x20" md5="6957b958f547d27d63319c9dffbbea19">GENFOR.ASM</file>
+		<file size="48000" time="1983-02-01 12:37:30" attr="0x20" md5="e2c62cf89cf0de1b274537527eab608d">PRINT.ASM</file>
 	</disk>
-	<disk id="disk04" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK4.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK4.json" md5="b39c8a5dec45553f6804cc17146f8c6a" md5json="e1557b4767dc451e350cf340e069b03b">
+	<disk id="disk04" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK4.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK4.json" md5="51d14569a0be3a71bde30f83c5569b60" md5json="e1557b4767dc451e350cf340e069b03b">
 		<name>MS-DOS 2.00 OEM (Disk 4)</name>
+		<file size="6144" time="1983-01-28 18:08:22" attr="0x20" md5="0bb02d509b9fb2db216cc0b1faa9d30b">FILBP.PAS</file>
+		<file size="17536" time="1980-01-01 00:15:46" attr="0x20" md5="65bd8f45226ca6d06ba511555a7d413e">HRDDRV.ASM</file>
+		<file size="3200" time="1982-10-28 17:32:12" attr="0x20" md5="52293ba7d83751771e86abd0135df403">PCLOCK.ASM</file>
+		<file size="21248" time="1982-10-28 17:31:38" attr="0x20" md5="c8d844d87742b591e6ebaedd47b581d0">PROFIL.ASM</file>
+		<file size="2304" time="1982-10-28 17:32:50" attr="0x20" md5="e325a8ff2a04162981e4d3259a76d838">PROFIL.OBJ</file>
+		<file size="41728" time="1983-01-28 17:51:16" attr="0x20" md5="f45ef968f4b4b8f1fef28a7f09ce6743">PROHST.EXE</file>
+		<file size="1536" time="1983-01-28 18:06:32" attr="0x20" md5="1a6b0db2cdd6acc65307c162142f5eec">PROHST.HLP</file>
+		<file size="11520" time="1983-01-28 18:07:20" attr="0x20" md5="9fb544b18670c57883b6f7f00c4b4081">PROHST.PAS</file>
+		<file size="45056" time="1980-01-01 00:05:08" attr="0x20" md5="02cf200948148ed5966626d24f1fe5e3">SKELIO.ASM</file>
+		<file size="384" time="1983-01-24 11:42:10" attr="0x20" md5="9a4b3a9aad1e7fe015fec6c4fc387ba0">SYSIMES.OBJ</file>
+		<file size="3328" time="1983-02-08 20:24:00" attr="0x20" md5="9922ac1db36ee55bbd3e89a8fd1dd7bc">SYSINIT.OBJ</file>
 	</disk>
-	<disk id="disk05" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK5.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK5.json" md5="a834429bca82594bdad301327a2fbf08" md5json="69eccebcf67034163b75adf45f0344e9">
+	<disk id="disk05" size="163840" chs="40:1:8" img="archive/chm/rebuilt/MSDOS200-OEM-DISK5.img" href="/disks-demo/pcx86/dos/microsoft/2.00/MSDOS200-OEM-DISK5.json" md5="84206ad5c8c588f842873128e399e71d" md5json="69eccebcf67034163b75adf45f0344e9">
 		<name>MS-DOS 2.00 OEM (Disk 5)</name>
+		<file size="6784" time="1983-01-27 15:31:32" attr="0x20" md5="728592e7c08946994bfaf250d8f29024">ANSI.DOC</file>
+		<file size="3456" time="1983-01-27 15:35:06" attr="0x20" md5="a11dae5c1099a539c731da413be5c0b9">CONFIG.DOC</file>
+		<file size="37888" time="1983-01-27 15:22:46" attr="0x20" md5="9a705fe821ac2d36893a1643b9deef26">DEVDRIV.DOC</file>
+		<file size="2688" time="1983-01-27 15:42:28" attr="0x20" md5="1fa65457123c521e86ba2314f37fa6de">INCOMP.DOC</file>
+		<file size="4224" time="1983-01-27 15:30:34" attr="0x20" md5="7f8e300a014b0aeb5067095e10f69bef">INT24.DOC</file>
+		<file size="3968" time="1983-01-27 15:34:16" attr="0x20" md5="2050a7233699da71a490490b4fb1a736">PROFILE.DOC</file>
+		<file size="3456" time="1983-01-27 15:39:32" attr="0x20" md5="a3bf57f9bd9e219ed81cf3bc56a28dd2">QUICK.DOC</file>
+		<file size="59136" time="1983-01-27 15:18:18" attr="0x20" md5="6855f44ebc581708d3d50c13f0049c03">SYSCALL.DOC</file>
+		<file size="3072" time="1983-01-27 15:40:24" attr="0x20" md5="1a07aefe5ec1c4a33c1c32be74e1e648">SYSINIT.DOC</file>
+		<file size="27776" time="1983-01-27 15:26:10" attr="0x20" md5="f40ca260478754977694d27cf9ef0542">UTILITY.DOC</file>
 	</disk>
 </manifest>

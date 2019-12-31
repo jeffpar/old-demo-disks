@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.7/manifest.xsl"?>
 <manifest type="software">
 	<title>DOS Drivers</title>
 	<disk id="disk01" size="1228800" chs="80:2:15" img="cdrom/archive/MSDOS600-ATAPI-BOOT.img" href="/disks-demo/pcx86/dos/drivers/cdrom/BOOT-CDROM-ATAPI.json" md5="5d9a9d0e2a4f7483437a2d429b792a00" md5json="0449be7dff08d74597a61074b9b1fc04">

@@ -1,154 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.6/manifest.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.7/manifest.xsl"?>
 <manifest type="software">
 	<title>COMPAQ Diagnostics and Utilities</title>
 	<type>Utilities</type>
 	<author>COMPAQ</author>
-	<disk id="disk01" size="368640" chs="40:2:9" img="5.08/archive/COMPAQ-DIAGS-508-012988-REVK.img" href="/disks-demo/pcx86/diags/compaq/5.08/COMPAQ-DIAGS-508-012988-REVK.json" md5="a23cc98d904e01e233c9682b4d1cf413" md5json="658e35ede4a47db9ed85f97d98ab7cf8">
-		<name>COMPAQ Diagnostics 5.08</name>
-		<file size="70" time="1988-01-29 12:00:00" attr="0x20">1.BAT</file>
-		<file size="71" time="1988-01-29 12:00:00" attr="0x20">2.BAT</file>
-		<file size="72" time="1988-01-29 12:00:00" attr="0x20">3.BAT</file>
-		<file size="33" time="1988-01-29 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
-		<file size="25332" time="1987-09-16 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="12" time="1988-01-29 12:00:00" attr="0x20">CONFIG.SYS</file>
-		<file size="6264" time="1987-09-16 12:00:00" attr="0x20">DISKCOPY.COM</file>
-		<file size="23591" time="1987-09-16 12:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="30632" time="1987-09-16 12:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="1464" time="1988-01-29 12:00:00" attr="0x20">README.CPQ</file>
-		<file size="1248" time="1988-01-29 12:00:00" attr="0x20">ROMREV.COM</file>
-		<file size="518" time="1988-01-29 12:00:00" attr="0x20">ROMREV.SCR</file>
-		<file size="39968" time="1988-01-29 12:00:00" attr="0x20">SETUP.EXE</file>
-		<file size="652" time="1988-01-29 12:00:00" attr="0x20">SETUP.SCR</file>
-		<file size="1984" time="1988-01-29 12:00:00" attr="0x20">TEST.COM</file>
-		<file size="549" time="1988-01-29 12:00:00" attr="0x20">TEST.SCR</file>
-		<file size="193264" time="1988-01-29 12:00:00" attr="0x20">USER.EXE</file>
+	<disk id="disk01" size="368640" chs="40:2:9" img="5.02/archive/COMPAQ-DIAGS-502-051987-REVC.img" href="/disks-demo/pcx86/diags/compaq/5.02/COMPAQ-DIAGS-502-051987-REVC.json" md5="03c51d0d7f2ff09ff05851723b28e3ad" md5json="3cba0004d85ef7b8d1ee9f7eee4b654c">
+		<name>COMPAQ Diagnostics 5.02</name>
+		<file size="70" time="1987-05-19 12:00:00" attr="0x20" md5="0a20b670c1684c36969da719e2aeabe0">1.BAT</file>
+		<file size="71" time="1987-05-19 12:00:00" attr="0x20" md5="0533e0dd2dc7c9ab3d27eb9bd3c17ed0">2.BAT</file>
+		<file size="72" time="1987-05-19 12:00:00" attr="0x20" md5="27884968b409aafa8b9ebd3775920ff4">3.BAT</file>
+		<file size="33" time="1987-05-19 12:00:00" attr="0x20" md5="d7240eab020d514156417a2f271e0e3a">AUTOEXEC.BAT</file>
+		<file size="23855" time="1987-02-06 12:00:00" attr="0x20" md5="ef099af57fedaa2b2c84390e50b55198">COMMAND.COM</file>
+		<file size="4555" time="1987-02-06 12:00:00" attr="0x20" md5="562adbf0877ebc301f2af97e16f5f6bd">DISKCOPY.COM</file>
+		<file size="16490" time="1987-02-06 12:00:00" attr="0x20" md5="2a61a1e1ea9d83ff53e62edd39ebb9f8">IBMBIO.COM</file>
+		<file size="28477" time="1987-02-06 12:00:00" attr="0x20" md5="67c47fee7ad421a832adabc4e3bd67bf">IBMDOS.COM</file>
+		<file size="1465" time="1987-05-19 12:00:00" attr="0x20" md5="9ea09530ca08b86e77dbb56b65c80488">README.CPQ</file>
+		<file size="924" time="1987-05-19 12:00:00" attr="0x20" md5="9a24b511dc35e8e211e6aa3f5c9db94f">ROMREV.COM</file>
+		<file size="518" time="1987-05-19 12:00:00" attr="0x20" md5="e25bbce493eb56583f27afc09e570a39">ROMREV.SCR</file>
+		<file size="33488" time="1987-05-19 12:00:00" attr="0x20" md5="142833e992d65e4c97d61a43f58c54c7">SETUP.EXE</file>
+		<file size="652" time="1987-05-19 12:00:00" attr="0x20" md5="862970e0bbf1b01fecb805d6f7710756">SETUP.SCR</file>
+		<file size="1984" time="1987-05-19 12:00:00" attr="0x20" md5="186c0b2dce3b5a865a3f58cabb19b662">TEST.COM</file>
+		<file size="549" time="1987-05-19 12:00:00" attr="0x20" md5="5be34a8fa5f8f672bbfc168b25beff74">TEST.SCR</file>
+		<file size="180224" time="1987-05-19 12:00:00" attr="0x20" md5="d48b64ec7a712a4cc7ccfa36f8b12d96">USER.EXE</file>
 	</disk>
-	<disk id="disk02" size="737280" chs="80:2:9" img="6.12/archive/COMPAQ-DIAGS-612-062189.img" href="/disks-demo/pcx86/diags/compaq/6.12/COMPAQ-DIAGS-612-062189.json" md5="92c26885c372db846ce990fb5e16c745" md5json="4f09c8fd5382203ff49950b3308efea4">
+	<disk id="disk02" size="368640" chs="40:2:9" img="5.02/archive/COMPAQ-UTILS-502-052087-REVC.img" href="/disks-demo/pcx86/diags/compaq/5.02/COMPAQ-UTILS-502-052087-REVC.json" md5="f14e0edd04d741d7bad73dbcbd6dc0b7" md5json="9f70480878b4078227c446768e4bf3b0">
+		<name>COMPAQ User Programs 5.02</name>
+		<file size="71" time="1987-05-20 12:00:00" attr="0x20" md5="513b6f1081ce612bce50b5d5985606e3">1.BAT</file>
+		<file size="71" time="1987-05-20 12:00:00" attr="0x20" md5="ef42ee75205785d33e96594dba2722e9">10.BAT</file>
+		<file size="71" time="1987-05-20 12:00:00" attr="0x20" md5="f5f42f6a0047c2be3f8f500ae2a8f782">2.BAT</file>
+		<file size="73" time="1987-05-20 12:00:00" attr="0x20" md5="2840dfe50479aa48bb7c2ac3c3ca3740">3.BAT</file>
+		<file size="71" time="1987-05-20 12:00:00" attr="0x20" md5="e7bff8cea7f4882afee57b1747eab119">4.BAT</file>
+		<file size="74" time="1987-05-20 12:00:00" attr="0x20" md5="cad10694d265ba3694fac89cfdc08a19">5.BAT</file>
+		<file size="73" time="1987-05-20 12:00:00" attr="0x20" md5="d8eb48b1cc02509887064ca2a3464e2b">6.BAT</file>
+		<file size="72" time="1987-05-20 12:00:00" attr="0x20" md5="24cff71d4534fcf25395738ea3ffc817">7.BAT</file>
+		<file size="70" time="1987-05-20 12:00:00" attr="0x20" md5="b3dbbbf61de60197e2819fbadeef1d39">8.BAT</file>
+		<file size="70" time="1987-05-20 12:00:00" attr="0x20" md5="650b7c8ca6b6347d2cfb00c447bd8005">9.BAT</file>
+		<file size="8239" time="1987-05-20 12:00:00" attr="0x20" md5="65aeca3de7ab59eacf447ab46399135a">ADAPT.COM</file>
+		<file size="797" time="1987-05-20 12:00:00" attr="0x20" md5="f9da60ee99961fa7fce78d0faabd7127">ADAPT.SCR</file>
+		<file size="33" time="1987-05-20 12:00:00" attr="0x20" md5="d7240eab020d514156417a2f271e0e3a">AUTOEXEC.BAT</file>
+		<file size="13232" time="1987-05-20 12:00:00" attr="0x20" md5="8a5bcaacb22f33dd825259e3c2e92ec8">CACHE.EXE</file>
+		<file size="718" time="1987-05-20 12:00:00" attr="0x20" md5="57b5f589b3a7e2b8231aff3e2d913be3">CACHE.SCR</file>
+		<file size="2088" time="1987-05-20 12:00:00" attr="0x20" md5="7a75db4e5adafc677a4ad8d5ba53f525">CHARSET.COM</file>
+		<file size="768" time="1987-05-20 12:00:00" attr="0x20" md5="3a918c1ec451cdc8620c4317d4a0102e">CHARSET.SCR</file>
+		<file size="948" time="1987-05-20 12:00:00" attr="0x20" md5="415f38b302ecfd23c0f060b91cbdbc14">CLOCK.SCR</file>
+		<file size="1471" time="1987-05-20 12:00:00" attr="0x20" md5="9200523fddb89446e77908c43eb8369b">CLOCK.SYS</file>
+		<file size="23855" time="1987-02-06 12:00:00" attr="0x20" md5="ef099af57fedaa2b2c84390e50b55198">COMMAND.COM</file>
+		<file size="3584" time="1987-05-20 12:00:00" attr="0x20" md5="8bcbaf14d1c2729dbbbd486d0929f98c">FONTUS.F14</file>
+		<file size="4096" time="1987-05-20 12:00:00" attr="0x20" md5="28e1a10fea014516bd7cafac28c7f746">FONTUS.F16</file>
+		<file size="2048" time="1987-05-20 12:00:00" attr="0x20" md5="36addababf8830d29e7502e7a4d4d9f8">FONTUS.F8</file>
+		<file size="7204" time="1987-05-20 12:00:00" attr="0x20" md5="eebc527a3a3a998c84502d55ad16385a">GRAPHICS.COM</file>
+		<file size="773" time="1987-05-20 12:00:00" attr="0x20" md5="493e550397dfd87f84ec94efc2a9816a">GRAPHICS.SCR</file>
+		<file size="16490" time="1987-02-06 12:00:00" attr="0x20" md5="2a61a1e1ea9d83ff53e62edd39ebb9f8">IBMBIO.COM</file>
+		<file size="28477" time="1987-02-06 12:00:00" attr="0x20" md5="67c47fee7ad421a832adabc4e3bd67bf">IBMDOS.COM</file>
+		<file size="31733" time="1987-05-20 12:00:00" attr="0x20" md5="687f06ef06f47351b6f395ea22d65925">INSTALL.EXE</file>
+		<file size="734" time="1987-05-20 12:00:00" attr="0x20" md5="22b3895349f573be758fab53e131f857">INSTALL.SCR</file>
+		<file size="13228" time="1987-05-20 12:00:00" attr="0x20" md5="9cd7802ccf581dbc689274a4995d73c7">KEYBDP.COM</file>
+		<file size="993" time="1987-05-20 12:00:00" attr="0x20" md5="20effe2f32aca2467399f03f474f67bb">KEYBDP.SCR</file>
+		<file size="6485" time="1987-05-20 12:00:00" attr="0x20" md5="31ddf54ac920e0bf6b4a28fffcf6eda1">MODE.COM</file>
+		<file size="986" time="1987-05-20 12:00:00" attr="0x20" md5="7a4dab3e11aae9ffa93487b64a27e7e3">MODE.SCR</file>
+		<file size="1772" time="1987-05-20 12:00:00" attr="0x20" md5="41db0fc11fb4083dfa30aace6481bc15">README.CPQ</file>
+		<file size="44624" time="1987-05-20 12:00:00" attr="0x20" md5="f487137754f17ecb4e8c113a5eec4733">TAPE.EXE</file>
+		<file size="1091" time="1987-05-20 12:00:00" attr="0x20" md5="ecc6ae9cced58aa511d94e916b1ad557">TAPE.SCR</file>
+		<file size="3584" time="1987-05-20 12:00:00" attr="0x20" md5="592ce7034488281f62a60e0fd4400c80">THINUS.F14</file>
+		<file size="4096" time="1987-05-20 12:00:00" attr="0x20" md5="e6ca2c20745897141abce2a5aaba77d8">THINUS.F16</file>
+		<file size="2048" time="1987-05-20 12:00:00" attr="0x20" md5="27ccae294ad5c7f5af3cb8259a106d10">THINUS.F8</file>
+		<file size="567" time="1987-05-20 12:00:00" attr="0x20" md5="6cb10e3a3ac857fd73972dd615824c1b">VDISK.SCR</file>
+		<file size="3550" time="1987-05-20 12:00:00" attr="0x20" md5="94fb726450db146db2f81dbba5972138">VDISK.SYS</file>
+	</disk>
+	<disk id="disk03" size="368640" chs="40:2:9" img="5.08/archive/COMPAQ-DIAGS-508-012988-REVK.img" href="/disks-demo/pcx86/diags/compaq/5.08/COMPAQ-DIAGS-508-012988-REVK.json" md5="6fc3678180e8d8c2ff5e1c3d99f14d08" md5json="658e35ede4a47db9ed85f97d98ab7cf8">
+		<name>COMPAQ Diagnostics 5.08</name>
+		<file size="70" time="1988-01-29 12:00:00" attr="0x20" md5="0a20b670c1684c36969da719e2aeabe0">1.BAT</file>
+		<file size="71" time="1988-01-29 12:00:00" attr="0x20" md5="0533e0dd2dc7c9ab3d27eb9bd3c17ed0">2.BAT</file>
+		<file size="72" time="1988-01-29 12:00:00" attr="0x20" md5="27884968b409aafa8b9ebd3775920ff4">3.BAT</file>
+		<file size="33" time="1988-01-29 12:00:00" attr="0x20" md5="d7240eab020d514156417a2f271e0e3a">AUTOEXEC.BAT</file>
+		<file size="25332" time="1987-09-16 12:00:00" attr="0x20" md5="5598bfb839fa73b021c06e93f81fee95">COMMAND.COM</file>
+		<file size="12" time="1988-01-29 12:00:00" attr="0x20" md5="7ce246e57a4da7eebd09f36e8911f406">CONFIG.SYS</file>
+		<file size="6264" time="1987-09-16 12:00:00" attr="0x20" md5="7d4096410759a7526bd1962775d326f7">DISKCOPY.COM</file>
+		<file size="23591" time="1987-09-16 12:00:00" attr="0x20" md5="8cd6ab24f598045a7157b5ff54f8bf0b">IBMBIO.COM</file>
+		<file size="30632" time="1987-09-16 12:00:00" attr="0x20" md5="d6ddec6dc25847b0a6d47c5032274946">IBMDOS.COM</file>
+		<file size="1464" time="1988-01-29 12:00:00" attr="0x20" md5="f3d42db8061c360a0fbdf3310934db75">README.CPQ</file>
+		<file size="1248" time="1988-01-29 12:00:00" attr="0x20" md5="49eeb52526e43b21b4a59049f4800330">ROMREV.COM</file>
+		<file size="518" time="1988-01-29 12:00:00" attr="0x20" md5="a459895694e8c26e5ec323e67f6a2eb9">ROMREV.SCR</file>
+		<file size="39968" time="1988-01-29 12:00:00" attr="0x20" md5="178c9e945141d5c6aafb75b6c03a4352">SETUP.EXE</file>
+		<file size="652" time="1988-01-29 12:00:00" attr="0x20" md5="76baee55e3cb9ebe33b5ee802b414f71">SETUP.SCR</file>
+		<file size="1984" time="1988-01-29 12:00:00" attr="0x20" md5="186c0b2dce3b5a865a3f58cabb19b662">TEST.COM</file>
+		<file size="549" time="1988-01-29 12:00:00" attr="0x20" md5="fc68ad69cf79b2e0609df34b11216fcf">TEST.SCR</file>
+		<file size="193264" time="1988-01-29 12:00:00" attr="0x20" md5="6c2314806089d25104f7d0a4159c58bc">USER.EXE</file>
+	</disk>
+	<disk id="disk04" size="737280" chs="80:2:9" img="6.12/archive/COMPAQ-DIAGS-612-062189.img" href="/disks-demo/pcx86/diags/compaq/6.12/COMPAQ-DIAGS-612-062189.json" md5="92c26885c372db846ce990fb5e16c745" md5json="4f09c8fd5382203ff49950b3308efea4">
 		<name>COMPAQ Diagnostics 6.12</name>
 		<link href="https://winworldpc.com/product/ms-dos/331" name="Microsoft MS-DOS 3.31 [Compaq OEM] (3.5-720k)" file="Disk4.img">WinWorld</link>
-		<file size="8320" time="1989-06-21 12:00:00" attr="0x20">DIAG.CPQ</file>
-		<file size="59392" time="1989-06-21 12:00:00" attr="0x20">INSPECT.EXE</file>
-		<file size="1849" time="1989-06-21 12:00:00" attr="0x20">README.CPQ</file>
-		<file size="84992" time="1989-06-21 12:00:00" attr="0x20">SETUP.EXE</file>
-		<file size="2576" time="1989-06-21 12:00:00" attr="0x20">TEST.COM</file>
-		<file size="243296" time="1989-06-21 12:00:00" attr="0x20">USER.EXE</file>
+		<file size="8320" time="1989-06-21 12:00:00" attr="0x20" md5="d0cb1608e368d22d6d04d43bfcd3ed46">DIAG.CPQ</file>
+		<file size="59392" time="1989-06-21 12:00:00" attr="0x20" md5="27230ad3e423c1555573c2d56df74d35">INSPECT.EXE</file>
+		<file size="1849" time="1989-06-21 12:00:00" attr="0x20" md5="3bf415bd99e00f81481844f5b077866f">README.CPQ</file>
+		<file size="84992" time="1989-06-21 12:00:00" attr="0x20" md5="99f49495509a79d84afaebce6cf0bdd6">SETUP.EXE</file>
+		<file size="2576" time="1989-06-21 12:00:00" attr="0x20" md5="b53a06a26eda173aee058d3d8e5e2f3d">TEST.COM</file>
+		<file size="243296" time="1989-06-21 12:00:00" attr="0x20" md5="d0c644b2ffabb4858aeee25b93090610">USER.EXE</file>
 	</disk>
-	<disk id="disk03" size="368640" chs="40:2:9" img="utilities/1986/archive/COMPAQ-DESKPRO386-SUPP-1986-08-08.img" href="/disks-demo/pcx86/diags/compaq/utilities/1986/COMPAQ-DESKPRO386-SUPP-1986-08-08.json" md5="e5a1bb4d2e3a59fe35d6f668e7b62181" md5json="f4dfc75b9d2af8ab2ffa0bad96ba471b">
+	<disk id="disk05" size="368640" chs="40:2:9" img="utilities/1986/archive/COMPAQ-DESKPRO386-SUPP-1986-08-08.img" href="/disks-demo/pcx86/diags/compaq/utilities/1986/COMPAQ-DESKPRO386-SUPP-1986-08-08.json" md5="2bd655ae5568ac27807aeb7bf1ea046d" md5json="f4dfc75b9d2af8ab2ffa0bad96ba471b">
 		<name>COMPAQ DeskPro 386 (1986)</name>
-		<file size="74" time="1986-08-08 12:00:00" attr="0x20">1.BAT</file>
-		<file size="73" time="1986-08-08 12:00:00" attr="0x20">2.BAT</file>
-		<file size="71" time="1986-08-08 12:00:00" attr="0x20">3.BAT</file>
-		<file size="71" time="1986-08-08 12:00:00" attr="0x20">4.BAT</file>
-		<file size="71" time="1986-08-08 12:00:00" attr="0x20">5.BAT</file>
-		<file size="33" time="1986-08-08 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
-		<file size="963" time="1986-08-08 12:00:00" attr="0x20">CEMM.COM</file>
-		<file size="64736" time="1986-08-08 12:00:00" attr="0x20">CEMM.EXE</file>
-		<file size="397" time="1986-08-08 12:00:00" attr="0x20">CEMMC.SCR</file>
-		<file size="672" time="1986-08-08 12:00:00" attr="0x20">CEMME.SCR</file>
-		<file size="23210" time="1986-03-27 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="9259" time="1986-08-08 12:00:00" attr="0x20">DISKINIT.COM</file>
-		<file size="670" time="1986-08-08 12:00:00" attr="0x20">DISKINIT.SCR</file>
-		<file size="9728" time="1986-03-27 12:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="27760" time="1986-03-27 12:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="31808" time="1986-08-08 12:00:00" attr="0x20">INST386.EXE</file>
-		<file size="713" time="1986-08-08 12:00:00" attr="0x20">INST386.SCR</file>
-		<file size="1788" time="1986-08-08 12:00:00" attr="0x20">README.CPQ</file>
-		<file size="567" time="1986-08-08 12:00:00" attr="0x20">VDISK.SCR</file>
-		<file size="3420" time="1986-08-08 12:00:00" attr="0x20">VDISK.SYS</file>
+		<file size="74" time="1986-08-08 12:00:00" attr="0x20" md5="f577afebc95003b12698014a2895bc66">1.BAT</file>
+		<file size="73" time="1986-08-08 12:00:00" attr="0x20" md5="2103b1411319a9ac630f1b0a91589692">2.BAT</file>
+		<file size="71" time="1986-08-08 12:00:00" attr="0x20" md5="c447cdf1f40e7ce063f66309366d8c05">3.BAT</file>
+		<file size="71" time="1986-08-08 12:00:00" attr="0x20" md5="e085e168817bd3520d2562bcbc859db3">4.BAT</file>
+		<file size="71" time="1986-08-08 12:00:00" attr="0x20" md5="ef42ee75205785d33e96594dba2722e9">5.BAT</file>
+		<file size="33" time="1986-08-08 12:00:00" attr="0x20" md5="d7240eab020d514156417a2f271e0e3a">AUTOEXEC.BAT</file>
+		<file size="963" time="1986-08-08 12:00:00" attr="0x20" md5="dca5fb440c50d39a660fed1cfe69c7d2">CEMM.COM</file>
+		<file size="64736" time="1986-08-08 12:00:00" attr="0x20" md5="eeebc22c435d5db2e0860f4f39451c8d">CEMM.EXE</file>
+		<file size="397" time="1986-08-08 12:00:00" attr="0x20" md5="f383f51b4062267ee3f1686bb6aa22a4">CEMMC.SCR</file>
+		<file size="672" time="1986-08-08 12:00:00" attr="0x20" md5="94b504559af7a10cb7df3529ca2133a9">CEMME.SCR</file>
+		<file size="23210" time="1986-03-27 12:00:00" attr="0x20" md5="0e9f9a7733954240d70075e58699e86a">COMMAND.COM</file>
+		<file size="9259" time="1986-08-08 12:00:00" attr="0x20" md5="e928d5adaf1457cc7dcecf657df5b1dd">DISKINIT.COM</file>
+		<file size="670" time="1986-08-08 12:00:00" attr="0x20" md5="bcf6c04525aed5ad2ef046c1e5a91856">DISKINIT.SCR</file>
+		<file size="9728" time="1986-03-27 12:00:00" attr="0x20" md5="ea369c8d57bc2cf958672d5723d547de">IBMBIO.COM</file>
+		<file size="27760" time="1986-03-27 12:00:00" attr="0x20" md5="1b99615d98109e5c45e86abefc44d5e8">IBMDOS.COM</file>
+		<file size="31808" time="1986-08-08 12:00:00" attr="0x20" md5="6306ebf496a9c7ceb291f66d75398ed4">INST386.EXE</file>
+		<file size="713" time="1986-08-08 12:00:00" attr="0x20" md5="e937f2412ad4346d6f8ae4ed643061a2">INST386.SCR</file>
+		<file size="1788" time="1986-08-08 12:00:00" attr="0x20" md5="085537596c9f79e4c520b2da99e7f066">README.CPQ</file>
+		<file size="567" time="1986-08-08 12:00:00" attr="0x20" md5="b11f965017bd20569af3684eda869536">VDISK.SCR</file>
+		<file size="3420" time="1986-08-08 12:00:00" attr="0x20" md5="db9124fe783c7bb70ead69438a5e142c">VDISK.SYS</file>
 	</disk>
-	<disk id="disk04" size="368640" chs="40:2:9" img="utilities/1987/archive/COMPAQ-UTILS-506-110387-REVG.img" href="/disks-demo/pcx86/diags/compaq/utilities/1987/COMPAQ-UTILS-506-110387-REVG.json" md5="2e07a02907dcc90b56b1f649cfb442de" md5json="cac7728c3808aa70198b24dcf107701c">
+	<disk id="disk06" size="368640" chs="40:2:9" img="utilities/1987/archive/COMPAQ-UTILS-506-110387-REVG.img" href="/disks-demo/pcx86/diags/compaq/utilities/1987/COMPAQ-UTILS-506-110387-REVG.json" md5="c3b9a8b1de41bc5c07646cee8ac114b3" md5json="cac7728c3808aa70198b24dcf107701c">
 		<name>COMPAQ User Programs (1987)</name>
-		<file size="71" time="1987-11-03 12:00:00" attr="0x20">1.BAT</file>
-		<file size="72" time="1987-11-03 12:00:00" attr="0x20">10.BAT</file>
-		<file size="70" time="1987-11-03 12:00:00" attr="0x20">11.BAT</file>
-		<file size="71" time="1987-11-03 12:00:00" attr="0x20">12.BAT</file>
-		<file size="71" time="1987-11-03 12:00:00" attr="0x20">2.BAT</file>
-		<file size="71" time="1987-11-03 12:00:00" attr="0x20">3.BAT</file>
-		<file size="71" time="1987-11-03 12:00:00" attr="0x20">4.BAT</file>
-		<file size="73" time="1987-11-03 12:00:00" attr="0x20">5.BAT</file>
-		<file size="71" time="1987-11-03 12:00:00" attr="0x20">6.BAT</file>
-		<file size="74" time="1987-11-03 12:00:00" attr="0x20">7.BAT</file>
-		<file size="73" time="1987-11-03 12:00:00" attr="0x20">8.BAT</file>
-		<file size="73" time="1987-11-03 12:00:00" attr="0x20">9.BAT</file>
-		<file size="8502" time="1987-11-03 12:00:00" attr="0x20">ADAPT.COM</file>
-		<file size="767" time="1987-11-03 12:00:00" attr="0x20">ADAPT.SCR</file>
-		<file size="33" time="1987-11-03 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
-		<file size="14000" time="1987-11-03 12:00:00" attr="0x20">CACHE.EXE</file>
-		<file size="639" time="1987-11-03 12:00:00" attr="0x20">CACHE.SCR</file>
-		<file size="1494" time="1987-11-03 12:00:00" attr="0x20">CEMM.COM</file>
-		<file size="68032" time="1987-11-03 12:00:00" attr="0x20">CEMM.EXE</file>
-		<file size="636" time="1987-11-03 12:00:00" attr="0x20">CEMMC.SCR</file>
-		<file size="696" time="1987-11-03 12:00:00" attr="0x20">CEMME.SCR</file>
-		<file size="2609" time="1987-11-03 12:00:00" attr="0x20">CHARSET.COM</file>
-		<file size="834" time="1987-11-03 12:00:00" attr="0x20">CHARSET.SCR</file>
-		<file size="793" time="1987-11-03 12:00:00" attr="0x20">CLOCK.SCR</file>
-		<file size="1787" time="1987-11-03 12:00:00" attr="0x20">CLOCK.SYS</file>
-		<file size="25332" time="1987-09-16 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="3584" time="1987-11-03 12:00:00" attr="0x20">FONTNO.F14</file>
-		<file size="4096" time="1987-11-03 12:00:00" attr="0x20">FONTNO.F16</file>
-		<file size="2048" time="1987-11-03 12:00:00" attr="0x20">FONTNO.F8</file>
-		<file size="3584" time="1987-11-03 12:00:00" attr="0x20">FONTUS.F14</file>
-		<file size="4096" time="1987-11-03 12:00:00" attr="0x20">FONTUS.F16</file>
-		<file size="2048" time="1987-11-03 12:00:00" attr="0x20">FONTUS.F8</file>
-		<file size="7576" time="1987-11-03 12:00:00" attr="0x20">GRAPHICS.COM</file>
-		<file size="654" time="1987-11-03 12:00:00" attr="0x20">GRAPHICS.SCR</file>
-		<file size="23591" time="1987-09-16 12:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="30632" time="1987-09-16 12:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="4260" time="1987-11-03 12:00:00" attr="0x20">INST386.EXE</file>
-		<file size="915" time="1987-11-03 12:00:00" attr="0x20">INST386.SCR</file>
-		<file size="32661" time="1987-11-03 12:00:00" attr="0x20">INSTALL.EXE</file>
-		<file size="883" time="1987-11-03 12:00:00" attr="0x20">INSTALL.SCR</file>
-		<file size="13228" time="1987-11-03 12:00:00" attr="0x20">KEYBDP.COM</file>
-		<file size="917" time="1987-11-03 12:00:00" attr="0x20">KEYBDP.SCR</file>
-		<file size="15132" time="1987-11-03 12:00:00" attr="0x20">MODE.COM</file>
-		<file size="854" time="1987-11-03 12:00:00" attr="0x20">MODE.SCR</file>
-		<file size="1772" time="1987-11-03 12:00:00" attr="0x20">README.CPQ</file>
-		<file size="3584" time="1987-11-03 12:00:00" attr="0x20">THINUS.F14</file>
-		<file size="4096" time="1987-11-03 12:00:00" attr="0x20">THINUS.F16</file>
-		<file size="2048" time="1987-11-03 12:00:00" attr="0x20">THINUS.F8</file>
-		<file size="560" time="1987-11-03 12:00:00" attr="0x20">VDISK.SCR</file>
-		<file size="3634" time="1987-11-03 12:00:00" attr="0x20">VDISK.SYS</file>
+		<file size="71" time="1987-11-03 12:00:00" attr="0x20" md5="513b6f1081ce612bce50b5d5985606e3">1.BAT</file>
+		<file size="72" time="1987-11-03 12:00:00" attr="0x20" md5="24cff71d4534fcf25395738ea3ffc817">10.BAT</file>
+		<file size="70" time="1987-11-03 12:00:00" attr="0x20" md5="b3dbbbf61de60197e2819fbadeef1d39">11.BAT</file>
+		<file size="71" time="1987-11-03 12:00:00" attr="0x20" md5="ef42ee75205785d33e96594dba2722e9">12.BAT</file>
+		<file size="71" time="1987-11-03 12:00:00" attr="0x20" md5="f5f42f6a0047c2be3f8f500ae2a8f782">2.BAT</file>
+		<file size="71" time="1987-11-03 12:00:00" attr="0x20" md5="e085e168817bd3520d2562bcbc859db3">3.BAT</file>
+		<file size="71" time="1987-11-03 12:00:00" attr="0x20" md5="c447cdf1f40e7ce063f66309366d8c05">4.BAT</file>
+		<file size="73" time="1987-11-03 12:00:00" attr="0x20" md5="2840dfe50479aa48bb7c2ac3c3ca3740">5.BAT</file>
+		<file size="71" time="1987-11-03 12:00:00" attr="0x20" md5="e7bff8cea7f4882afee57b1747eab119">6.BAT</file>
+		<file size="74" time="1987-11-03 12:00:00" attr="0x20" md5="cad10694d265ba3694fac89cfdc08a19">7.BAT</file>
+		<file size="73" time="1987-11-03 12:00:00" attr="0x20" md5="2103b1411319a9ac630f1b0a91589692">8.BAT</file>
+		<file size="73" time="1987-11-03 12:00:00" attr="0x20" md5="d8eb48b1cc02509887064ca2a3464e2b">9.BAT</file>
+		<file size="8502" time="1987-11-03 12:00:00" attr="0x20" md5="2af71e11476c9485e29c0acb660dd778">ADAPT.COM</file>
+		<file size="767" time="1987-11-03 12:00:00" attr="0x20" md5="a8656ded4c16f7f4225eaa913180af5a">ADAPT.SCR</file>
+		<file size="33" time="1987-11-03 12:00:00" attr="0x20" md5="d7240eab020d514156417a2f271e0e3a">AUTOEXEC.BAT</file>
+		<file size="14000" time="1987-11-03 12:00:00" attr="0x20" md5="d2e2adb33ba98a65a8104632c0e0911b">CACHE.EXE</file>
+		<file size="639" time="1987-11-03 12:00:00" attr="0x20" md5="57d61f065477863f0392d2c0d73b3b3e">CACHE.SCR</file>
+		<file size="1494" time="1987-11-03 12:00:00" attr="0x20" md5="d620d3d82d243b37e98800d1b18bcfe3">CEMM.COM</file>
+		<file size="68032" time="1987-11-03 12:00:00" attr="0x20" md5="cfff24656ca39ddcb962653e78fee064">CEMM.EXE</file>
+		<file size="636" time="1987-11-03 12:00:00" attr="0x20" md5="61720ae554eeceb6d85ef91c40c67466">CEMMC.SCR</file>
+		<file size="696" time="1987-11-03 12:00:00" attr="0x20" md5="464353f93d91689162da54703312481e">CEMME.SCR</file>
+		<file size="2609" time="1987-11-03 12:00:00" attr="0x20" md5="54da07090f8350c928dffe9851f74fa8">CHARSET.COM</file>
+		<file size="834" time="1987-11-03 12:00:00" attr="0x20" md5="629f5e15b5c93a32105cb9189379c63f">CHARSET.SCR</file>
+		<file size="793" time="1987-11-03 12:00:00" attr="0x20" md5="1d37453c27e2212b3a8e2114adf5766e">CLOCK.SCR</file>
+		<file size="1787" time="1987-11-03 12:00:00" attr="0x20" md5="b1b50a7d4e1107707699e22d42ad7cdb">CLOCK.SYS</file>
+		<file size="25332" time="1987-09-16 12:00:00" attr="0x20" md5="5598bfb839fa73b021c06e93f81fee95">COMMAND.COM</file>
+		<file size="3584" time="1987-11-03 12:00:00" attr="0x20" md5="ade755542050b3a0bbb690dd65a5b6e9">FONTNO.F14</file>
+		<file size="4096" time="1987-11-03 12:00:00" attr="0x20" md5="f80a7d0da6d793f4910988bc3fc6d289">FONTNO.F16</file>
+		<file size="2048" time="1987-11-03 12:00:00" attr="0x20" md5="befaa36fee9106e5c6472923366737c4">FONTNO.F8</file>
+		<file size="3584" time="1987-11-03 12:00:00" attr="0x20" md5="8bcbaf14d1c2729dbbbd486d0929f98c">FONTUS.F14</file>
+		<file size="4096" time="1987-11-03 12:00:00" attr="0x20" md5="10c3d174722de153243d60a06d29865a">FONTUS.F16</file>
+		<file size="2048" time="1987-11-03 12:00:00" attr="0x20" md5="36addababf8830d29e7502e7a4d4d9f8">FONTUS.F8</file>
+		<file size="7576" time="1987-11-03 12:00:00" attr="0x20" md5="49626adea8b6c87729afca2120a1989f">GRAPHICS.COM</file>
+		<file size="654" time="1987-11-03 12:00:00" attr="0x20" md5="9fe234028c5e666a6a4d0053c5f01e24">GRAPHICS.SCR</file>
+		<file size="23591" time="1987-09-16 12:00:00" attr="0x20" md5="8cd6ab24f598045a7157b5ff54f8bf0b">IBMBIO.COM</file>
+		<file size="30632" time="1987-09-16 12:00:00" attr="0x20" md5="d6ddec6dc25847b0a6d47c5032274946">IBMDOS.COM</file>
+		<file size="4260" time="1987-11-03 12:00:00" attr="0x20" md5="8710e25b6c5d77864ab42bda52fd66a5">INST386.EXE</file>
+		<file size="915" time="1987-11-03 12:00:00" attr="0x20" md5="57331c868fa6ab7e0eea3c26fe618a82">INST386.SCR</file>
+		<file size="32661" time="1987-11-03 12:00:00" attr="0x20" md5="82636e2acf1a81af3befa3762c4176a3">INSTALL.EXE</file>
+		<file size="883" time="1987-11-03 12:00:00" attr="0x20" md5="e99bbd5c5a7ff392399f09709be2c613">INSTALL.SCR</file>
+		<file size="13228" time="1987-11-03 12:00:00" attr="0x20" md5="9cd7802ccf581dbc689274a4995d73c7">KEYBDP.COM</file>
+		<file size="917" time="1987-11-03 12:00:00" attr="0x20" md5="4fe8a4ec9a888d98c2864c0f759a5163">KEYBDP.SCR</file>
+		<file size="15132" time="1987-11-03 12:00:00" attr="0x20" md5="4c09e90f8363a1c7738880ef580e9a46">MODE.COM</file>
+		<file size="854" time="1987-11-03 12:00:00" attr="0x20" md5="96db1eeb5ac6ee7912ce74c40876b9a0">MODE.SCR</file>
+		<file size="1772" time="1987-11-03 12:00:00" attr="0x20" md5="e4ef6b9e02881f1b1a7cd29e0915f96b">README.CPQ</file>
+		<file size="3584" time="1987-11-03 12:00:00" attr="0x20" md5="2bdd5d40be84e507f63f138b18271884">THINUS.F14</file>
+		<file size="4096" time="1987-11-03 12:00:00" attr="0x20" md5="a9ec2dd82c147b1072125f35cadd422b">THINUS.F16</file>
+		<file size="2048" time="1987-11-03 12:00:00" attr="0x20" md5="35ac511704e7d8769a48157b92c63649">THINUS.F8</file>
+		<file size="560" time="1987-11-03 12:00:00" attr="0x20" md5="7696e33fab022dc31305d756aa3b3053">VDISK.SCR</file>
+		<file size="3634" time="1987-11-03 12:00:00" attr="0x20" md5="638a7847838d6658f4cee4bdef73455e">VDISK.SYS</file>
 	</disk>
-	<disk id="disk05" size="737280" chs="80:2:9" img="utilities/1989/archive/COMPAQ-UTILS-072789.img" href="/disks-demo/pcx86/diags/compaq/utilities/1989/COMPAQ-UTILS-072789.json" md5="18acab24603ac511d11fd3cbac9780ed" md5json="81ef2ab455bca4a4c50aea32e39be05d">
+	<disk id="disk07" size="737280" chs="80:2:9" img="utilities/1989/archive/COMPAQ-UTILS-072789.img" href="/disks-demo/pcx86/diags/compaq/utilities/1989/COMPAQ-UTILS-072789.json" md5="931554c9bdec9c26ca3e7c301b7df10f" md5json="81ef2ab455bca4a4c50aea32e39be05d">
 		<name>COMPAQ User Programs (1989)</name>
 		<link href="https://winworldpc.com/product/ms-dos/331" name="Microsoft MS-DOS 3.31 [Compaq OEM] (3.5-720k)" file="Disk5.img">WinWorld</link>
-		<file size="4" time="1980-01-01 00:15:14" attr="0x20">ADAPT.CFG</file>
-		<file size="18514" time="1989-07-27 12:00:00" attr="0x20">ADAPT.COM</file>
-		<file size="33" time="1989-07-27 12:00:00" attr="0x20">AUTOEXEC.BAT</file>
-		<file size="26210" time="1989-07-27 12:00:00" attr="0x20">CACHE.EXE</file>
-		<file size="33157" time="1989-07-27 12:00:00" attr="0x20">CEMM.EXE</file>
-		<file size="16261" time="1989-07-27 12:00:00" attr="0x20">CEMMP.EXE</file>
-		<file size="0" time="1989-09-17 13:43:00" attr="0x20">CF000292</file>
-		<file size="2761" time="1989-07-27 12:00:00" attr="0x20">CHARSET.COM</file>
-		<file size="1773" time="1989-07-27 12:00:00" attr="0x20">CLOCK.SYS</file>
-		<file size="37667" time="1989-04-05 12:00:00" attr="0x20">COMMAND.COM</file>
-		<file size="0" time="1989-09-17 13:43:00" attr="0x20">CONFIG.SYS</file>
-		<file size="890" time="1989-09-11 08:09:20" attr="0x20">DOS</file>
+		<file size="4" time="1980-01-01 00:15:14" attr="0x20" md5="49406c4fea87a527711ff896589ab41c">ADAPT.CFG</file>
+		<file size="18514" time="1989-07-27 12:00:00" attr="0x20" md5="1e7a49c2bd9368edb5c3ba2c5d3335cd">ADAPT.COM</file>
+		<file size="33" time="1989-07-27 12:00:00" attr="0x20" md5="d7240eab020d514156417a2f271e0e3a">AUTOEXEC.BAT</file>
+		<file size="26210" time="1989-07-27 12:00:00" attr="0x20" md5="1c6818d13bc3afd2e452c662c878de07">CACHE.EXE</file>
+		<file size="33157" time="1989-07-27 12:00:00" attr="0x20" md5="b46608127a7d7c7492d1bf66b12ff5ed">CEMM.EXE</file>
+		<file size="16261" time="1989-07-27 12:00:00" attr="0x20" md5="d19989b70e793c4c0daa192e27b8a515">CEMMP.EXE</file>
+		<file size="0" time="1989-09-17 13:43:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">CF000292</file>
+		<file size="2761" time="1989-07-27 12:00:00" attr="0x20" md5="f0c430fcf1ba5e29996aa925f62c6bce">CHARSET.COM</file>
+		<file size="1773" time="1989-07-27 12:00:00" attr="0x20" md5="18024fb1e28a1aadacf887da8ee43be6">CLOCK.SYS</file>
+		<file size="37667" time="1989-04-05 12:00:00" attr="0x20" md5="35899e28690f1250b788c5a4ec3ab1d3">COMMAND.COM</file>
+		<file size="0" time="1989-09-17 13:43:00" attr="0x20" md5="d41d8cd98f00b204e9800998ecf8427e">CONFIG.SYS</file>
+		<file size="890" time="1989-09-11 08:09:20" attr="0x20" md5="d2b2168cc17709b5f088f3e235b7c6be">DOS</file>
 		<file size="96" time="1989-07-27 12:00:02" attr="0x10">DOS331</file>
-		<file size="15194" time="1989-07-27 12:00:00" attr="0x20" dir="DOS331/">MODE.COM</file>
-		<file size="39448" time="1989-07-27 12:00:00" attr="0x20">HELP.COM</file>
-		<file size="33688" time="1989-04-05 12:00:00" attr="0x20">IBMBIO.COM</file>
-		<file size="37528" time="1989-04-05 12:00:00" attr="0x20">IBMDOS.COM</file>
-		<file size="75673" time="1989-07-27 12:00:00" attr="0x20">INSTALL.EXE</file>
-		<file size="11030" time="1989-07-27 12:00:00" attr="0x20">KEYB.COM</file>
-		<file size="13340" time="1989-07-27 12:00:00" attr="0x20">KEYBDP.COM</file>
-		<file size="41144" time="1989-07-27 12:00:00" attr="0x20">KEYBOARD.SYS</file>
-		<file size="18840" time="1989-07-27 12:00:00" attr="0x20">KP.COM</file>
-		<file size="28136" time="1989-07-27 12:00:00" attr="0x20">MODE.COM</file>
+		<file size="15194" time="1989-07-27 12:00:00" attr="0x20" md5="1011f775236a83a7eb110d691d326e70" dir="DOS331/">MODE.COM</file>
+		<file size="39448" time="1989-07-27 12:00:00" attr="0x20" md5="a5602d54d7add413cf1eeaad1822946d">HELP.COM</file>
+		<file size="33688" time="1989-04-05 12:00:00" attr="0x20" md5="d82acc1656766279e3bd5a78ceee839f">IBMBIO.COM</file>
+		<file size="37528" time="1989-04-05 12:00:00" attr="0x20" md5="804ddb90eb7324f1d3ffeec9ed538a9c">IBMDOS.COM</file>
+		<file size="75673" time="1989-07-27 12:00:00" attr="0x20" md5="23c9a67dbab2fd9a9dc4c221c4c1d034">INSTALL.EXE</file>
+		<file size="11030" time="1989-07-27 12:00:00" attr="0x20" md5="3e6e2d26e3e6bb5ef7e49357ebea0ba4">KEYB.COM</file>
+		<file size="13340" time="1989-07-27 12:00:00" attr="0x20" md5="a800fa7266f1a11565ebee7077ab826a">KEYBDP.COM</file>
+		<file size="41144" time="1989-07-27 12:00:00" attr="0x20" md5="397a1d73c3d9bc01d413770328accfd3">KEYBOARD.SYS</file>
+		<file size="18840" time="1989-07-27 12:00:00" attr="0x20" md5="9f054b042b81748bac40daa4b31509ad">KP.COM</file>
+		<file size="28136" time="1989-07-27 12:00:00" attr="0x20" md5="b4676b4b91c1b3078e261ddf94181da7">MODE.COM</file>
 		<file size="192" time="1989-07-27 12:00:00" attr="0x10">OS2</file>
-		<file size="18840" time="1989-07-27 12:00:00" attr="0x20" dir="OS2/">KP.COM</file>
-		<file size="17462" time="1989-07-27 12:00:00" attr="0x20" dir="OS2/">MOUSEA05.SYS</file>
-		<file size="37084" time="1989-07-27 12:00:00" attr="0x20" dir="OS2/">PWRCON.COM</file>
-		<file size="3114" time="1989-07-27 12:00:00" attr="0x20" dir="OS2/">PWRCON.SYS</file>
-		<file size="37084" time="1989-07-27 12:00:00" attr="0x20">PWRCON.COM</file>
-		<file size="1694" time="1989-07-27 12:00:00" attr="0x20">README.CPQ</file>
-		<file size="3584" time="1989-07-27 12:00:00" attr="0x20">THINNO.F14</file>
-		<file size="4096" time="1989-07-27 12:00:00" attr="0x20">THINNO.F16</file>
-		<file size="2048" time="1989-07-27 12:00:00" attr="0x20">THINNO.F8</file>
-		<file size="3584" time="1989-07-27 12:00:00" attr="0x20">THINUS.F14</file>
-		<file size="4096" time="1989-07-27 12:00:00" attr="0x20">THINUS.F16</file>
-		<file size="2048" time="1989-07-27 12:00:00" attr="0x20">THINUS.F8</file>
-		<file size="7946" time="1989-07-27 12:00:00" attr="0x20">VDISK.SYS</file>
+		<file size="18840" time="1989-07-27 12:00:00" attr="0x20" md5="9f054b042b81748bac40daa4b31509ad" dir="OS2/">KP.COM</file>
+		<file size="17462" time="1989-07-27 12:00:00" attr="0x20" md5="707af35ff4d2ea047543582313f12a0a" dir="OS2/">MOUSEA05.SYS</file>
+		<file size="37084" time="1989-07-27 12:00:00" attr="0x20" md5="01e6e689ae50e69fca272a45a1baf0a2" dir="OS2/">PWRCON.COM</file>
+		<file size="3114" time="1989-07-27 12:00:00" attr="0x20" md5="ea698f1f7a955e69a3c44fe1e3199d7c" dir="OS2/">PWRCON.SYS</file>
+		<file size="37084" time="1989-07-27 12:00:00" attr="0x20" md5="01e6e689ae50e69fca272a45a1baf0a2">PWRCON.COM</file>
+		<file size="1694" time="1989-07-27 12:00:00" attr="0x20" md5="946e1a0ddcad8ee1a936ef61a82c5e64">README.CPQ</file>
+		<file size="3584" time="1989-07-27 12:00:00" attr="0x20" md5="b418da8f66d5d95e65d45469012ebded">THINNO.F14</file>
+		<file size="4096" time="1989-07-27 12:00:00" attr="0x20" md5="625b69fee985e55a7745a600559934bc">THINNO.F16</file>
+		<file size="2048" time="1989-07-27 12:00:00" attr="0x20" md5="6ccd47d71ac2c06d41abc2231248d569">THINNO.F8</file>
+		<file size="3584" time="1989-07-27 12:00:00" attr="0x20" md5="2bdd5d40be84e507f63f138b18271884">THINUS.F14</file>
+		<file size="4096" time="1989-07-27 12:00:00" attr="0x20" md5="a9ec2dd82c147b1072125f35cadd422b">THINUS.F16</file>
+		<file size="2048" time="1989-07-27 12:00:00" attr="0x20" md5="35ac511704e7d8769a48157b92c63649">THINUS.F8</file>
+		<file size="7946" time="1989-07-27 12:00:00" attr="0x20" md5="0d1949815d021c4cde12339cfa1d46e1">VDISK.SYS</file>
 	</disk>
 </manifest>

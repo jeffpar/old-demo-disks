@@ -192,6 +192,8 @@
 		<manifest ref="/disks-demo/pcx86/tools/other/desqview/1.02/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/enhdebug/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/flickerfree/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/tools/other/norton/2.00/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/tools/other/norton/2.01/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/3.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/3.10/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/other/norton/4.00/manifest.xml"/>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.76.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Norton Utilities</title>
+	<version>2.01</version>
+	<disk id="disk01" size="163840" chs="40:1:8" img="archive/NU201-SIDEA.img" href="/disks-demo/pcx86/tools/other/norton/2.01/NU201-SIDEA.json" md5="7cb1e99906e5b535dc93e6dde6cf572d" md5json="27cc4e1ff6048148b535d3728c307f14">
+		<name>Norton Utilities 2.01 (Side A)</name>
+		<file size="7752" time="1983-11-03 14:01:00" attr="0x20" md5="87520a711749d6638a1030112e0a3a05">BATHIDE.COM</file>
+		<file size="154" time="1983-11-03 14:01:00" attr="0x20" md5="50461c155193f5a6de51455fe0bcd024">BEEP.COM</file>
+		<file size="17859" time="1983-11-03 14:01:00" attr="0x20" md5="739f5a636f74248ba4a859373e803980">BLOAD.COM</file>
+		<file size="139" time="1983-11-03 14:01:00" attr="0x20" md5="c6e6c676c11cafdfab78ebb6351b7596">CLEAR.COM</file>
+		<file size="139" time="1983-11-03 14:01:00" attr="0x20" md5="c6e6c676c11cafdfab78ebb6351b7596">CLS.COM</file>
+		<file size="384" time="1983-11-03 14:01:00" attr="0x20" md5="fa3300db75754a516c0b86a22496eec1">DISKLOOK.BAT</file>
+		<file size="6615" time="1983-11-03 14:01:00" attr="0x20" md5="abc94945bb29b01c14ad1e5a8d731aa3">DISKOPT.COM</file>
+		<file size="33344" time="1983-11-03 14:01:00" attr="0x20" md5="890254f73309880cb9cad049f2d624c4">DL.COM</file>
+		<file size="14612" time="1983-11-03 14:01:00" attr="0x20" md5="db23c3492aee52f200bf6d8e3363f75b">FH.COM</file>
+		<file size="7581" time="1983-11-03 14:01:00" attr="0x20" md5="7bb541c636488b0059afdf54f83c71b3">FILEFIX.COM</file>
+		<file size="7207" time="1983-11-03 14:01:00" attr="0x20" md5="df88426eef81d6205302abb76d76c033">FILESORT.COM</file>
+		<file size="36212" time="1983-11-03 14:01:00" attr="0x20" md5="11a99d9dfb48577fe2f12a5c1b0c1477">HL.COM</file>
+		<file size="22138" time="1983-11-03 14:01:00" attr="0x20" md5="f2672dd9847ae3945a86952ced28c794">HM.COM</file>
+	</disk>
+	<disk id="disk02" size="163840" chs="40:1:8" img="archive/NU201-SIDEB.img" href="/disks-demo/pcx86/tools/other/norton/2.01/NU201-SIDEB.json" md5="834fdaaf7abfaf73b876f6cc3c91aa84" md5json="65dbd093976463b12580056671ba19d4">
+		<name>Norton Utilities 2.01 (Side B)</name>
+		<file size="28030" time="1983-11-03 14:01:00" attr="0x20" md5="d80d0d15456896ea458ec7a7bb4d6db0">HU.COM</file>
+		<file size="8307" time="1983-11-03 14:01:00" attr="0x20" md5="4d2a8b79aafb737883795c9c12d99a22">LABEL.COM</file>
+		<file size="24405" time="1983-11-03 14:01:00" attr="0x20" md5="bebac2ffa85e81ab46751ac17d4c1460">LPRINT.COM</file>
+		<file size="1441" time="1983-11-03 14:01:00" attr="0x20" md5="4c7bd2bd1a2254d3a84279cd6d5ad249">REVERSE.COM</file>
+		<file size="3570" time="1983-11-03 14:01:00" attr="0x20" md5="67ea3be9225ba98d8648df8c4dc85c50">SCRATR.COM</file>
+		<file size="19792" time="1983-11-03 14:01:00" attr="0x20" md5="f06d472bb773c86a79236c58362be60e">SM.COM</file>
+		<file size="24542" time="1983-11-03 14:01:00" attr="0x20" md5="e13ad2ac49a6b2561e5e631089a00376">SSAR.COM</file>
+		<file size="3819" time="1983-11-03 14:01:00" attr="0x20" md5="7e30cf87a800ba83164b3d2a25221a84">TIMEMARK.COM</file>
+		<file size="26749" time="1983-11-04 14:01:00" attr="0x20" md5="c1b3f0ec989fc73091eb6fe70c80d54d">UE.COM</file>
+		<badSector chs="4:0:3" file="HU.COM" offset="0x3600" notes="below is another example of data returned after read error; it starts consistently but varies on every read attempt">
+			06 A8 EB 08 00 C7 06 AA EB 2A 00 BA 14 00 52 BA
+			42 F7 52 E8 59 D0 C7 06 A8 EB 09 00 C7 06 AA EB
+			06 00 BA 1F 00 52 BA 56 F7 52 E8 42 D0 C7 06 A8
+			EB 09 00 C7 06 AA EB 2A 00 BA 1B 00 52 BA 76 F7
+			52 E8 2B D0 C7 06 A8 EB 0A 00 C7 06 AA EB 06 00
+			BA 21 00 52 BA 92 F7 52 E8 14 D0 C7 06 A8 EB 0A
+			00 C7 06 AA EB 2A 00 BA 21 00 52 BA B4 F7 52 E8
+			FD CF C7 06 A8 EB 0B 00 C7 06 AA EB 06 00 BA 21
+			00 52 BA D6 F7 52 E8 E6 CF C7 06 A8 EB 0B 00 C7
+			06 AA EB 2A 00 BA 24 00 52 BA F8 F7 52 E8 CF CF
+			C7 06 A8 EB 0C 00 C7 06 AA EB 06 00 BA 1D 00 52
+			BA 1C F8 52 E8 B8 CF C7 06 A8 EB 0C 00 C7 04 A1
+			10 D2 86 08 01 00 C1 2C C0 48 87 09 02 10 33 03
+			95 15 10 5E 38 35 17 58 B0 06 38 35 47 58 78 05
+			D0 28 02 95 D2 27 C2 97 44 26 7E 38 35 47 58 80
+			05 D0 60 02 95 D2 57 C2 97 43 9E 7E 38 35 47 58
+			88 05 D0 30 02 95 D2 B7 C2 97 43 16 7E 38 35 47
+			58 90 05 D0 20 02 95 D2 E7 C2 97 42 8E 7D 08 A3
+			95 15 17 5E 38 35 47 58 78 06 38 35 57 58 E0 05
+			D0 D8 02 95 D3 07 C2 97 41 A6 7E 38 35 47 58 80
+			06 38 35 57 59 18 05 D0 D8 02 95 D3 E7 C2 97 40
+			EE 7E 38 35 47 58 88 06 38 35 57 58 E8 05 D0 B8
+			02 95 D4 C7 C2 97 40 36 7E 38 35 47 58 90 06 38
+			35 57 58 D8 05 D0 F0 02 95 D5 87 C2 8F 84 1D 20
+			FE 24 02 04 30 3C 30 9C 90 03 10 07 1E 60 00 01
+			C1 FC 03 87 FE 10 00 40 0E 10 0C 10 40 39 86 10
+			30 30 00 61 E0 00 01 0F FC 03 E7 FE 10 00 30 0E
+			10 0C 00 40 61 E0 00 01 C3 FC 61 E0 0C 01 83 FC
+			03 93 FE 10 00 20 0E 10 0C 24 40 61 E0 0C 01 81
+			FC 03 93 FE 10 00 0C 0E 10 0C 90 40 39 86 10 30
+			30 20 41 20 51 06 DA 01 8E 0C E9 DC 02 01 FE 6C
+			E9 DD D0 D9 AD 42 E9 DC 0A 28 01 47 51 D7 D1 B6
+		</badSector>
+		<badSector chs="4:0:7" file="HU.COM" offset="0x3E00" notes="below is another example of data returned after read error; it starts consistently but varies on every read attempt">
+			00 A1 7E EE 33 D2 F7 F1 83 C2 02 92 A3 A8 EB A1
+			7E EE 33 D2 F7 F1 D1 E0 D1 E0 D1 E0 D1 E0 05 03
+			00 A3 AA EB BA 0C 00 52 92 F7 66 00 05 4E 96 50
+			E8 3C C8 A1 AA EB 05 FF FF A3 AA EB BA 01 00 52
+			BA 1A FA 52 E8 28 C8 A1 F4 EB 3B 46 00 75 3E BA
+			01 00 52 BA 1C FA 52 E8 15 C8 C7 06 7E EE 00 00
+			B8 50 00 F7 26 A8 EB 03 06 7E EE 03 06 AA EB D1
+			E0 05 5F FF C4 1E 9C E9 03 D8 8B 16 1C 72 26 88
+			17 A1 7E EE 40 A3 7E EE 3D 0D 00 75 D3 8D 66 FC
+			5D C2 02 00 55 8B EC 83 C5 02 81 EC 04 00 80 3E
+			90 E9 01 74 05 8D 66 FE 5D C3 A1 F4 EB A3 80 EE
+			C7 06 F4 EB 00 00 FF 36 80 EE E8 1B FF A1 80 EE
+			A3 F4 EB 8D 66 FE 5D C3 55 8B EC 83 C5 02 81 EC
+			04 00 80 3E 90 E9 01 75 15 A1 CC EB 3B 06 82 EE
+			75 0C FF 36 F4 EB E8 EF FE 8D 66 FE 5D C3 A1 CC
+			EB A3 82 EE E8 18 C7 C6 06 90 E9 01 A1 16 72 A2
+			A2 EB C7 06 A8 EB 01 00 C7 06 AA EB 01 00 81 3E
+			F8 EB E8 03 72 27 BF 6C EC BE 1E FA B9 51 00 1E
+			07 FC F3 A4 B9 E8 03 A1 F8 EB 33 D2 F7 F1 05 30
+			00 A2 6D EC E8 A5 C7 C7 06 AA EB 03 00 FF 36 F8
+			EB E8 C2 C9 E8 95 C7 8B 16 6C EC 32 F6 0B C1 08
+			8C 15 E0 90 01 00 0A 00 01 34 00 32 40 04 84 A4
+			22 40 40 22 08 00 4D 48 02 1B 8F F0 24 90 C3 C1
+			C8 07 FF F8 C3 C1 C0 07 FF F8 1F 03 F8 02 41 C0
+			01 83 00 88 02 00 3E 03 01 C8 01 20 61 98 00 70
+			80 02 03 C1 98 04 03 C0 02 01 98 00 1E 00 00 71
+			C0 04 F8 61 C0 06 03 C3 FC 00 80 71 C8 04 F8 61
+			C8 06 01 03 FC 08 00 73 0C 20 60 60 00 C3 C0 18
+			03 13 F8 C3 C0 00 03 F3 F8 07 03 FC 20 04 80 04
+			20 19 08 C0 73 0C 20 60 60 00 C3 C0 00 03 03 F8
+			07 F3 FC 20 04 00 04 20 19 C0 C0 C3 C0 00 03 03
+			F8 07 F3 FC 20 04 08 04 20 1C 08 C0 C3 C0 00 02
+		</badSector>
+	</disk>
+</manifest>

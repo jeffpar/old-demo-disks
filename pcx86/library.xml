@@ -157,6 +157,7 @@
 		<manifest ref="/disks-demo/pcx86/tools/microsoft/c/5.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/microsoft/c/5.10/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/microsoft/c/5.10-os2/manifest.xml"/>
+		<manifest ref="/disks-demo/pcx86/tools/microsoft/c/qcwin/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/microsoft/dos/mgr/1.00/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/microsoft/masm/1.00-1981/manifest.xml"/>
 		<manifest ref="/disks-demo/pcx86/tools/microsoft/masm/1.00/manifest.xml"/>

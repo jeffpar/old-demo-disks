@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.76.0/manifest.xsl"?>
+<manifest type="software">
+	<title>Microsoft QuickC for Windows</title>
+	<version>1.00</version>
+	<type>Utility</type>
+	<category>Compiler</category>
+	<language>C</language>
+	<author>Microsoft</author>
+	<releaseDate/>
+	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK1.json" md5="73768adc5ab325b203918d06167ea530" md5json="1c84be16a31c486e80b1318bc471cb6f">
+		<name>MS QuickC for Windows (1 of 5)</title>
+		<file size="41786" time="1991-08-21 11:03:00" attr="0x20" md5="2b10ba3c4e0e948f860b488ac4a7b2e6">COMMDLG.DL$</file>
+		<file size="45126" time="1991-08-24 10:36:40" attr="0x20" md5="a78861032e67d73628bc1e4e8e43ec9a">EEW0CAN.DL$</file>
+		<file size="18357" time="1991-09-03 17:18:56" attr="0x20" md5="3b344ee0dd12142cf19b1313754efd61">IMPLIBW.EX$</file>
+		<file size="35463" time="1991-08-23 15:16:56" attr="0x20" md5="30c05f9f2456f406753062dfda79ec6e">LIB.EX$</file>
+		<file size="27717" time="1991-09-03 17:18:20" attr="0x20" md5="e327a927e3ecae5206268c6459bc43bc">LIBW.EX$</file>
+		<file size="90130" time="1991-08-06 16:30:32" attr="0x20" md5="7c9b9f2b0716dabdfa66be31bf9592a2">LINK.EX$</file>
+		<file size="72891" time="1991-08-23 15:18:18" attr="0x20" md5="7ca809d9150d16dc8617ba95a870130f">LINKW.EX$</file>
+		<file size="39894" time="1990-08-31 17:33:34" attr="0x20" md5="294b8dbf0776adcc39aa5569aec413b7">MSD.EX$</file>
+		<file size="3533" time="1990-11-16 15:14:40" attr="0x20" md5="864f0a92e080537095e9cc930f246c39">MSD.TX$</file>
+		<file size="12996" time="1991-08-26 09:51:28" attr="0x20" md5="edafee52a380d2d21e589f489b7166ea">PACKING.LST</file>
+		<file size="235367" time="1991-09-13 01:55:58" attr="0x20" md5="d499a3bdf3ae5d2e9fc021692c2f175e">QCWIN.EX$</file>
+		<file size="498" time="1991-08-07 16:21:52" attr="0x20" md5="2936e8e6522199dfb91dca698b822bf9">QCWIN.IN$</file>
+		<file size="4382" time="1991-08-28 17:47:18" attr="0x20" md5="afc99af9b78b0f425582f706792e8074">QCWINDBG.DL$</file>
+		<file size="5097" time="1990-06-01 03:00:00" attr="0x20" md5="47cc15a46f45dd97e298e194df83cf56">RCPP.ER$</file>
+		<file size="27052" time="1991-08-07 09:37:44" attr="0x20" md5="fe7d726e398db2c38d8141959cc3883e">RCPPW.EX$</file>
+		<file size="26564" time="1991-08-14 15:57:52" attr="0x20" md5="e19695295876db904763df9eebc4f7fa">RCW.EX$</file>
+		<file size="24960" time="1991-08-27 08:14:46" attr="0x20" md5="a9a4509675138dd18c7fb26a55d9d610">README.WRI</file>
+		<file size="110624" time="1991-08-25 08:23:08" attr="0x20" md5="8c363b2b5cae358d052ae04317c132c9">SETUP.EXE</file>
+		<file size="20040" time="1991-08-26 09:50:26" attr="0x20" md5="10f5faf02d94fc6112989767d9f566e4">SETUP.INF</file>
+		<file size="2097" time="1991-08-24 08:13:56" attr="0x20" md5="4cbaa9a529821a591556806e1f3d2962">SETUP.TXT</file>
+		<file size="14890" time="1991-08-23 16:06:42" attr="0x20" md5="615270c7f9ebd3befa62dc8b4126bdb2">WINAPI.WR$</file>
+		<file size="5289" time="1991-07-23 06:11:16" attr="0x20" md5="54765d07429e7aaa2ade6ac0218789fe">WINDBG.DL$</file>
+	</disk>
+	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK2.json" md5="89322d6c7961340e4051ef1e3c49e555" md5json="8a79487f6f082ce8ab33a8d2c1ceb74c">
+		<name>MS QuickC for Windows (2 of 5)</title>
+		<file size="39580" time="1991-08-24 08:35:14" attr="0x20" md5="522499775b9210a434417bade294b85c">CVPACKW.EX$</file>
+		<file size="61799" time="1991-08-23 15:41:46" attr="0x20" md5="5a584d4f24661348385bc9d7108358da">DLGEDIT.EX$</file>
+		<file size="72622" time="1991-08-09 11:25:58" attr="0x20" md5="1f14ed4d4dbfd0e4af3ce827d1b7aad0">DLGEDIT.HL$</file>
+		<file size="71" time="1991-07-14 09:46:42" attr="0x20" md5="848c20bf24a6bc22e28a0883b5b51579">IMAGEDIT.DA$</file>
+		<file size="41697" time="1991-08-23 16:14:42" attr="0x20" md5="6a7c338b3be84401bf2721b26358861b">IMAGEDIT.EX$</file>
+		<file size="1088" time="1991-08-24 18:16:06" attr="0x10">INCLUDE</file>
+		<file size="466" time="1991-07-31 16:19:02" attr="0x20" md5="a9bd0a899bbcb8ebf4ca6561ef37849f" dir="INCLUDE/">ASSERT.H$</file>
+		<file size="1897" time="1991-07-23 21:08:14" attr="0x20" md5="72ff4934bf17eada0e3d32f9d3b1e11e" dir="INCLUDE/">BIOS.H$</file>
+		<file size="709" time="1991-07-31 16:19:08" attr="0x20" md5="e142ba48fab95412ffb0796cca84ec3b" dir="INCLUDE/">CONIO.H$</file>
+		<file size="1308" time="1991-07-23 21:08:22" attr="0x20" md5="4dde02b934b4c5d41613571bffbedefd" dir="INCLUDE/">CTYPE.H$</file>
+		<file size="1109" time="1991-07-14 09:54:42" attr="0x20" md5="1e431b4223110e6d670446e72f5a73df" dir="INCLUDE/">CUSTCNTL.H$</file>
+		<file size="1120" time="1991-07-14 09:54:42" attr="0x20" md5="c44ae57b674a9760d3fc7de31aeb202c" dir="INCLUDE/">DDE.H$</file>
+		<file size="638" time="1991-07-31 16:19:14" attr="0x20" md5="bd91e03eee84008951b6837cecb3c1af" dir="INCLUDE/">DIRECT.H$</file>
+		<file size="2415" time="1991-07-31 16:19:20" attr="0x20" md5="48888ab4a05e34d600b0c88007736146" dir="INCLUDE/">DOS.H$</file>
+		<file size="1880" time="1991-07-14 09:54:42" attr="0x20" md5="734e1183d932c48e1d5d09227f727b38" dir="INCLUDE/">DRIVINIT.H$</file>
+		<file size="844" time="1991-07-31 16:19:26" attr="0x20" md5="a59f0631813da3c6a10fea15862cf563" dir="INCLUDE/">ERRNO.H$</file>
+		<file size="761" time="1991-07-31 16:19:30" attr="0x20" md5="a2ff2cb82ce0efcf89f45be7df4e86c9" dir="INCLUDE/">FCNTL.H$</file>
+		<file size="2309" time="1991-07-31 16:19:36" attr="0x20" md5="dd18ca5b454efe016f8d56b9d81d913b" dir="INCLUDE/">FLOAT.H$</file>
+		<file size="1425" time="1991-07-23 21:08:50" attr="0x20" md5="1f863f4e4e9a4c7ac0c95a56e6571946" dir="INCLUDE/">IO.H$</file>
+		<file size="599" time="1991-07-31 16:19:42" attr="0x20" md5="0841078ddab4e4f380e17ddc77544fef" dir="INCLUDE/">LIMITS.H$</file>
+		<file size="802" time="1991-07-31 16:19:48" attr="0x20" md5="fa45260f74f2a41e1cc5cfc687b0a88c" dir="INCLUDE/">LOCALE.H$</file>
+		<file size="1428" time="1991-07-31 16:19:54" attr="0x20" md5="a3ee90409a4dfee577b10c51aa8c936a" dir="INCLUDE/">MALLOC.H$</file>
+		<file size="2550" time="1991-07-31 16:20:00" attr="0x20" md5="f311802360ca5d89db77d961c0277b88" dir="INCLUDE/">MATH.H$</file>
+		<file size="772" time="1991-07-31 16:20:08" attr="0x20" md5="6c31f6c61e4a9745c0d4df8be5934106" dir="INCLUDE/">MEMORY.H$</file>
+		<file size="1247" time="1991-07-31 16:21:00" attr="0x20" md5="c1297a775f71d6d610f949614d50099b" dir="INCLUDE/">PROCESS.H$</file>
+		<file size="674" time="1991-07-31 16:20:20" attr="0x20" md5="3035c7f75cceb14f4f45685e9974b781" dir="INCLUDE/">SEARCH.H$</file>
+		<file size="616" time="1991-07-31 16:20:26" attr="0x20" md5="5c43f173487ee936262adde75a35c8c6" dir="INCLUDE/">SETJMP.H$</file>
+		<file size="387" time="1991-07-31 16:20:32" attr="0x20" md5="fb8cabd4ec79f52fd60293e08f4f0ab5" dir="INCLUDE/">SHARE.H$</file>
+		<file size="1042" time="1991-07-31 16:20:36" attr="0x20" md5="a3288798f4a868b01690b108c4b0a63f" dir="INCLUDE/">SIGNAL.H$</file>
+		<file size="727" time="1991-07-31 16:20:42" attr="0x20" md5="4f4d2de8265e53f97aea364da02ad9ca" dir="INCLUDE/">STDARG.H$</file>
+		<file size="870" time="1991-07-23 21:09:34" attr="0x20" md5="93b69cbcfb9713d5cade46ca44bade2e" dir="INCLUDE/">STDDEF.H$</file>
+		<file size="2652" time="1991-07-23 21:09:40" attr="0x20" md5="827ee369a7fcfc70a13b60eee359507f" dir="INCLUDE/">STDIO.H$</file>
+		<file size="2746" time="1991-07-31 16:20:50" attr="0x20" md5="2c4d7ca9985b50341a8cef6a133db1c7" dir="INCLUDE/">STDLIB.H$</file>
+		<file size="1395" time="1991-07-23 21:09:50" attr="0x20" md5="0dca8c1eca21f0015b16c81e729dd369" dir="INCLUDE/">STRING.H$</file>
+		<file size="224" time="1991-08-24 18:16:50" attr="0x10" dir="INCLUDE/">SYS</file>
+		<file size="413" time="1991-07-31 16:21:06" attr="0x20" md5="5de5ba910154fed71b604ff7872a207a" dir="INCLUDE/SYS/">LOCKING.H$</file>
+		<file size="945" time="1991-07-23 21:10:10" attr="0x20" md5="703c442656bcaaf0e47241e21eb0f061" dir="INCLUDE/SYS/">STAT.H$</file>
+		<file size="654" time="1991-07-23 21:10:16" attr="0x20" md5="7318d82054ee649205041af6f5c84599" dir="INCLUDE/SYS/">TIMEB.H$</file>
+		<file size="498" time="1991-07-23 21:10:22" attr="0x20" md5="9328283174fd15851efbf980802d7f02" dir="INCLUDE/SYS/">TYPES.H$</file>
+		<file size="724" time="1991-07-23 21:10:26" attr="0x20" md5="d84754bda080018e41cfd1054e990aa6" dir="INCLUDE/SYS/">UTIME.H$</file>
+		<file size="1336" time="1991-07-23 21:09:56" attr="0x20" md5="566687a3aace9e4c0b66a7d5865252c9" dir="INCLUDE/">TIME.H$</file>
+		<file size="752" time="1991-07-31 16:20:56" attr="0x20" md5="326ed0f9aebf44e6ad69018bf4d63c1e" dir="INCLUDE/">VARARGS.H$</file>
+		<file size="32224" time="1991-07-25 15:28:38" attr="0x20" md5="fc2a6eb428c9e754c22974eaacbcf19a" dir="INCLUDE/">WINDOWS.H$</file>
+		<file size="143926" time="1991-08-16 15:18:20" attr="0x20" md5="586a040a6bd79be5103bbaefc521bfec">QCASEW.EX$</file>
+		<file size="45742" time="1991-08-09 11:12:36" attr="0x20" md5="93c82cb42ce06ad0edaeb506f047ca92">QCASEW.HL$</file>
+		<file size="153998" time="1991-08-22 13:07:58" attr="0x20" md5="e1876b1fa251bd9194060a2058c343d8">QCW.DL$</file>
+		<file size="7476" time="1991-02-22 14:38:58" attr="0x20" md5="96a98db1ca7b136ec1068a5de2c2ae4d">QCW.ER$</file>
+		<file size="10104" time="1991-08-14 18:45:04" attr="0x20" md5="a2c216c74bcede7e09009073b65e5533">QWIN.HL$</file>
+		<file size="50453" time="1991-06-20 15:36:50" attr="0x20" md5="32a066a5c1e636caa4a3f7fb50bd1cac">WINGEN.EX$</file>
+		<file size="144006" time="1991-08-14 10:16:54" attr="0x20" md5="798388c03f384f3ead7c423a731b9332">WINHELP.EX$</file>
+		<file size="47658" time="1991-06-13 03:06:02" attr="0x20" md5="3bdeb2a58444c8aea1d9f7b5cdbdcbe6">WINHELP.HL$</file>
+		<file size="51905" time="1991-07-25 09:59:48" attr="0x20" md5="5dc3ce195155de96dc6c0e3e78951a4e">WINQCEA.KN$</file>
+	</disk>
+	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK3.json" md5="e6a24ab955c6c6f5d23ece4882907737" md5json="66f9274392265806ffa6c52552c4d73b">
+		<name>MS QuickC for Windows (3 of 5)</title>
+		<file size="360960" time="1991-08-23 17:42:20" attr="0x20" md5="e5e02d66e78e3a8e0a2e733fcc8bffd8">QCWIN.HL$</file>
+		<file size="360960" time="1991-08-23 17:42:20" attr="0x20" md5="1340714662080c4c0ac742496e36056e">QCWIN2.HL$</file>
+		<file size="360960" time="1991-08-23 17:42:20" attr="0x20" md5="b8924ac215d20dfeb85302ef759a4f62">QCWIN3.HL$</file>
+	</disk>
+	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK4.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK4.json" md5="adfcae83dc456bcd8891a2b38b78c8fd" md5json="13d7910c6fed0ae459d2610230e6ad48">
+		<name>MS QuickC for Windows (4 of 5)</title>
+		<file size="2886" time="1991-03-05 13:48:26" attr="0x20" md5="26721764050fb357b7704e194e055bb0">87.LI$</file>
+		<file size="140" time="1990-12-11 12:22:46" attr="0x20" md5="d5f6604ca5a4c841e873bfa4fff9d67d">BINMODE.OB$</file>
+		<file size="130" time="1990-12-12 16:52:56" attr="0x20" md5="5c538713c61ef98743833a5c40eb960e">COMMODE.OB$</file>
+		<file size="11047" time="1991-03-05 13:48:22" attr="0x20" md5="804d1f96d21e9856b17e944274b6abe1">EM.LI$</file>
+		<file size="6916" time="1991-03-15 18:43:38" attr="0x20" md5="d070b35d4a4781bf2b91dc4b23e7144c">LIBH.LI$</file>
+		<file size="772" time="1991-06-13 12:48:22" attr="0x20" md5="6b9111021ff50184b311943bdb18ece3">NOQWIN.LI$</file>
+		<file size="2365" time="1991-07-23 21:00:36" attr="0x20" md5="f399afe39423a2f36320f1dce7bd970d">OLDNAMES.LI$</file>
+		<file size="360960" time="1991-08-23 17:42:20" attr="0x20" md5="45d7c11e11ef301541db966c8a3f4de1">QCWIN4.HL$</file>
+		<file size="299586" time="1991-08-23 17:42:20" attr="0x20" md5="9b46b675cc543a1120ff10f0aa19bde0">QCWIN5.HL$</file>
+		<file size="53916" time="1991-07-31 17:00:32" attr="0x20" md5="83bcf7eb7b894b67fcdf1d349228566e">SDLLCW.LI$</file>
+		<file size="150" time="1990-12-11 12:22:42" attr="0x20" md5="976b99ee580b1933f8b100633c992973">SETARGV.OB$</file>
+		<file size="3856" time="1991-07-23 21:04:54" attr="0x20" md5="f8e94188755ad2e3859b357b8d690f8c">SLIBCQ.LI$</file>
+		<file size="75263" time="1991-07-31 16:14:10" attr="0x20" md5="5ee2279005564d6932337b23c6a73cf3">SLIBCR.LI$</file>
+		<file size="60045" time="1991-07-31 16:17:30" attr="0x20" md5="cb0c678a31cd473053e892f2014df58e">SLIBCW.LI$</file>
+		<file size="36120" time="1991-07-23 21:02:30" attr="0x20" md5="0af8e97735299ea901ea4a4807b74a76">SLIBFP.LI$</file>
+		<file size="36155" time="1991-07-23 21:05:44" attr="0x20" md5="f9c74f258c33f5aa45e4b68d33b11b8e">SLIBFPW.LI$</file>
+		<file size="174" time="1990-12-11 12:22:56" attr="0x20" md5="7edd3d14c8df0ca1985bba28004a6242">VARSTCK.OB$</file>
+	</disk>
+	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK5.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK5.json" md5="129f3e78eb3c543c903ba540ef558436" md5json="a30633b2387d6dec02fcc759be010a77">
+		<name>MS QuickC for Windows (5 of 5)</title>
+		<file size="384" time="1991-08-24 21:56:00" attr="0x10">BITMAP</file>
+		<file size="4284" time="1991-07-14 09:54:08" attr="0x20" md5="ab9933186aa1fd43ee1d0bc97d7351b5" dir="BITMAP/">BITMAP.C$</file>
+		<file size="251" time="1991-07-21 13:48:38" attr="0x20" md5="c04f3658a899214f1b14dab7b9a10ddc" dir="BITMAP/">BITMAP.DE$</file>
+		<file size="385" time="1991-07-14 09:54:10" attr="0x20" md5="99572afbdd1700d27d21779e48c47589" dir="BITMAP/">BITMAP.H$</file>
+		<file size="657" time="1991-08-20 19:11:16" attr="0x20" md5="89f3544673da3d4c2638fd5c5eb9df75" dir="BITMAP/">BITMAP.MA$</file>
+		<file size="506" time="1991-07-14 09:54:10" attr="0x20" md5="e1fd3aa1b410c16b3c8279dc401aa713" dir="BITMAP/">BITMAP.RC$</file>
+		<file size="335" time="1991-07-14 09:54:10" attr="0x20" md5="b8db002411a8fe5fc1e211d0e061c5c4" dir="BITMAP/">CAT.BM$</file>
+		<file size="328" time="1991-07-14 09:54:10" attr="0x20" md5="592f4e6ed6e5607f6e640971d7885695" dir="BITMAP/">DOG.BM$</file>
+		<file size="1131" time="1991-07-14 09:54:10" attr="0x20" md5="03b1741c5a409d8b56925803b99bc317" dir="BITMAP/">SELECT.DL$</file>
+		<file size="436" time="1991-07-14 09:54:10" attr="0x20" md5="521c488119d33e73ae9548aa582423bd" dir="BITMAP/">SELECT.H$</file>
+		<file size="232" time="1991-07-14 09:54:12" attr="0x20" md5="dcb06f961c56e09dfe5168d2e781614e" dir="BITMAP/">SELECT.LI$</file>
+		<file size="288" time="1991-08-24 21:56:12" attr="0x10">CALC</file>
+		<file size="2458" time="1991-08-26 15:45:48" attr="0x20" md5="d13ecfd56beb2b89da2b80eb809f1e07" dir="CALC/">CALC.FR$</file>
+		<file size="194" time="1991-08-24 14:03:32" attr="0x20" md5="73eaaa5c657fffc23c72c1c814e7f75d" dir="CALC/">CALC.IC$</file>
+		<file size="69" time="1991-08-26 08:05:26" attr="0x20" md5="7e4a7c9aebf156a10b865a4ededc2bd1" dir="CALC/">CALC.MA$</file>
+		<file size="960" time="1991-08-26 15:41:38" attr="0x20" md5="b200e5b4fab74f63b4c5f00cd5fbb912" dir="CALC/">CALCFUNC.C$</file>
+		<file size="240" time="1991-08-24 14:00:42" attr="0x20" md5="46eb1b90f18dd0b20446f4a7aacd77df" dir="CALC/">CALCFUNC.DE$</file>
+		<file size="636" time="1991-08-24 14:01:18" attr="0x20" md5="23218022d8eeca4e9f2e0ca56474a7df" dir="CALC/">CALCFUNC.MA$</file>
+		<file size="134" time="1991-08-26 15:45:46" attr="0x20" md5="4cf29cffcb7051f5cacb716532f62420" dir="CALC/">GLOBAL.BA$</file>
+		<file size="56773" time="1991-07-31 17:01:54" attr="0x20" md5="d30dc4c376599952714524f7eacbeb94">CDLLCW.LI$</file>
+		<file size="4035" time="1991-07-23 21:05:18" attr="0x20" md5="c316fc022b012b26963ee9486cfa0991">CLIBCQ.LI$</file>
+		<file size="79032" time="1991-07-31 16:14:26" attr="0x20" md5="82175d4485348cc401cf1eaf8ab9eabd">CLIBCR.LI$</file>
+		<file size="63363" time="1991-07-31 16:17:50" attr="0x20" md5="51cdaa497c05922f5c157f8c78031a00">CLIBCW.LI$</file>
+		<file size="36722" time="1991-07-23 21:02:44" attr="0x20" md5="0bc5f65bec679168f0a92467ce9a882c">CLIBFP.LI$</file>
+		<file size="36777" time="1991-07-23 21:06:10" attr="0x20" md5="bf48d6e85aabea7b31158a94867e49f1">CLIBFPW.LI$</file>
+		<file size="224" time="1991-08-24 21:56:44" attr="0x10">CLIPTEXT</file>
+		<file size="3367" time="1991-07-14 09:54:14" attr="0x20" md5="4ecb7d12364a390bce0689a5c860a1b3" dir="CLIPTEXT/">CLIPTEXT.C$</file>
+		<file size="249" time="1991-07-14 09:54:14" attr="0x20" md5="80c542bb89a8fd041fb03e8a212191ca" dir="CLIPTEXT/">CLIPTEXT.DE$</file>
+		<file size="358" time="1991-07-14 09:54:14" attr="0x20" md5="350554c6fff1fff3b6cbda6552f86ba7" dir="CLIPTEXT/">CLIPTEXT.H$</file>
+		<file size="630" time="1991-08-20 19:11:56" attr="0x20" md5="2392a3df6967d717cad6f0b77f8b160b" dir="CLIPTEXT/">CLIPTEXT.MA$</file>
+		<file size="695" time="1991-07-14 09:54:14" attr="0x20" md5="73de4f2b985b9900e66220121a0e6c86" dir="CLIPTEXT/">CLIPTEXT.RC$</file>
+		<file size="256" time="1991-08-24 21:56:52" attr="0x10">CURSOR</file>
+		<file size="173" time="1991-07-14 09:54:16" attr="0x20" md5="9cd908a5a2f2fe710f36b9315b3042a4" dir="CURSOR/">BULLSEYE.CU$</file>
+		<file size="4335" time="1991-07-14 09:54:18" attr="0x20" md5="7d26c91697ade7808b62a586e02cdbd8" dir="CURSOR/">CURSOR.C$</file>
+		<file size="247" time="1991-07-14 09:54:18" attr="0x20" md5="8a8a919f6d255fe1a34291e8476c12ef" dir="CURSOR/">CURSOR.DE$</file>
+		<file size="188" time="1991-07-14 09:54:18" attr="0x20" md5="bb49136635a3d1493d20b1ec4f5b8b3e" dir="CURSOR/">CURSOR.H$</file>
+		<file size="642" time="1991-08-20 19:12:14" attr="0x20" md5="ea2bfc32d44f75b65f829b3b0275ac40" dir="CURSOR/">CURSOR.MA$</file>
+		<file size="386" time="1991-07-14 09:54:18" attr="0x20" md5="85c197c0a6bed9d48c1f0645d64242fd" dir="CURSOR/">CURSOR.RC$</file>
+		<file size="224" time="1991-08-24 21:57:02" attr="0x10">EDITCNTL</file>
+		<file size="2257" time="1991-07-14 09:54:20" attr="0x20" md5="4b3680a3c320d5657146702ae7a84da3" dir="EDITCNTL/">EDITCNTL.C$</file>
+		<file size="251" time="1991-07-14 09:54:20" attr="0x20" md5="b4623aa99fd86f85eee9463fe6f6439d" dir="EDITCNTL/">EDITCNTL.DE$</file>
+		<file size="369" time="1991-07-14 09:54:22" attr="0x20" md5="3285c890e317750faa6181b904d69fc0" dir="EDITCNTL/">EDITCNTL.H$</file>
+		<file size="629" time="1991-08-20 19:12:38" attr="0x20" md5="65269b65028155c0f455ce795dd5b553" dir="EDITCNTL/">EDITCNTL.MA$</file>
+		<file size="672" time="1991-07-14 09:54:22" attr="0x20" md5="66e8a0611009c2d06ecedd8ea674ea94" dir="EDITCNTL/">EDITCNTL.RC$</file>
+		<file size="224" time="1991-08-24 21:57:10" attr="0x10">EDITFILE</file>
+		<file size="8772" time="1991-07-14 09:54:24" attr="0x20" md5="b4f56d8520c93e6977be4cad0b18059a" dir="EDITFILE/">EDITFILE.C$</file>
+		<file size="303" time="1991-07-14 09:54:24" attr="0x20" md5="34799f1159a1796de05d6c466590b527" dir="EDITFILE/">EDITFILE.DE$</file>
+		<file size="561" time="1991-07-14 09:54:24" attr="0x20" md5="8b2b0f6fdeb6c03d37b7a25b342ebfa1" dir="EDITFILE/">EDITFILE.H$</file>
+		<file size="629" time="1991-08-20 19:12:56" attr="0x20" md5="7515b794d8d54d23c10913c8a798e0e2" dir="EDITFILE/">EDITFILE.MA$</file>
+		<file size="970" time="1991-07-14 09:54:26" attr="0x20" md5="b6d83020e64b2e05a3123e977fd55e21" dir="EDITFILE/">EDITFILE.RC$</file>
+		<file size="224" time="1991-08-24 21:57:20" attr="0x10">EDITMENU</file>
+		<file size="1829" time="1991-07-14 09:54:28" attr="0x20" md5="dc455ca45574e76a8bfc3e2d77ab8c5a" dir="EDITMENU/">EDITMENU.C$</file>
+		<file size="241" time="1991-07-14 09:54:28" attr="0x20" md5="c83dbc0ccb498621905ac96457a41503" dir="EDITMENU/">EDITMENU.DE$</file>
+		<file size="340" time="1991-07-14 09:54:28" attr="0x20" md5="2e0e6008de664b5d21ab4488bdb593e7" dir="EDITMENU/">EDITMENU.H$</file>
+		<file size="628" time="1991-08-20 19:13:20" attr="0x20" md5="9e19045d5ed9360e242f55ff4d6962dd" dir="EDITMENU/">EDITMENU.MA$</file>
+		<file size="671" time="1991-07-14 09:54:28" attr="0x20" md5="b8dcf3db667aba1efebc8924481ac999" dir="EDITMENU/">EDITMENU.RC$</file>
+		<file size="224" time="1991-08-24 21:57:28" attr="0x10">FILEOPEN</file>
+		<file size="4104" time="1991-07-14 09:54:30" attr="0x20" md5="536fd533e081a81d98dc9da943d21bfb" dir="FILEOPEN/">FILEOPEN.C$</file>
+		<file size="260" time="1991-07-14 09:54:32" attr="0x20" md5="0b945f14519edec152caa5225656d0f6" dir="FILEOPEN/">FILEOPEN.DE$</file>
+		<file size="461" time="1991-07-14 09:54:32" attr="0x20" md5="bf7bca57bcc850acbd74f173280cdbfc" dir="FILEOPEN/">FILEOPEN.H$</file>
+		<file size="628" time="1991-08-20 19:13:40" attr="0x20" md5="871f9ad788d4d8e8b25d69d5fe280cf7" dir="FILEOPEN/">FILEOPEN.MA$</file>
+		<file size="877" time="1991-07-14 09:54:32" attr="0x20" md5="1362e0e35d4a5b1c34fe0722e31d65eb" dir="FILEOPEN/">FILEOPEN.RC$</file>
+		<file size="224" time="1991-08-24 21:57:36" attr="0x10">GENERIC</file>
+		<file size="3203" time="1991-07-14 09:54:34" attr="0x20" md5="d80bf926495f05d71f24039e1b97a4c6" dir="GENERIC/">GENERIC.C$</file>
+		<file size="489" time="1991-07-21 13:50:54" attr="0x20" md5="00f4d464a7a994a6e2a2c76c16c6d15b" dir="GENERIC/">GENERIC.DE$</file>
+		<file size="188" time="1991-07-14 09:54:34" attr="0x20" md5="bb49136635a3d1493d20b1ec4f5b8b3e" dir="GENERIC/">GENERIC.H$</file>
+		<file size="628" time="1991-08-20 19:14:02" attr="0x20" md5="a102d56157d102196b58bd99030efbcb" dir="GENERIC/">GENERIC.MA$</file>
+		<file size="367" time="1991-07-14 09:54:36" attr="0x20" md5="8de1f888619ce6a9b6e6846a9c0dc4ac" dir="GENERIC/">GENERIC.RC$</file>
+		<file size="256" time="1991-08-24 21:57:44" attr="0x10">ICON</file>
+		<file size="1518" time="1991-07-14 09:54:38" attr="0x20" md5="4c4ee260c871dba16af17bab96bc212d" dir="ICON/">ICON.C$</file>
+		<file size="243" time="1991-07-14 09:54:38" attr="0x20" md5="be893639e92ef6579a4f4c9cf35285aa" dir="ICON/">ICON.DE$</file>
+		<file size="188" time="1991-07-14 09:54:38" attr="0x20" md5="bb49136635a3d1493d20b1ec4f5b8b3e" dir="ICON/">ICON.H$</file>
+		<file size="636" time="1991-08-20 19:14:40" attr="0x20" md5="306a504a7c1abfaf01092a8e21ddd237" dir="ICON/">ICON.MA$</file>
+		<file size="400" time="1991-07-14 09:54:38" attr="0x20" md5="c1b9d526823df6ef9557d9f30c645697" dir="ICON/">ICON.RC$</file>
+		<file size="357" time="1991-07-14 09:54:38" attr="0x20" md5="b64badd6b20b552d7786005142573635" dir="ICON/">MYICON.IC$</file>
+		<file size="224" time="1991-08-24 21:57:54" attr="0x10">INPUT</file>
+		<file size="3247" time="1991-07-14 09:54:44" attr="0x20" md5="f2cda481c0d45f57d582e555c9251283" dir="INPUT/">INPUT.C$</file>
+		<file size="237" time="1991-07-14 09:54:46" attr="0x20" md5="dc42434c592f81384ddaf57fbfefb66d" dir="INPUT/">INPUT.DE$</file>
+		<file size="188" time="1991-07-14 09:54:46" attr="0x20" md5="bb49136635a3d1493d20b1ec4f5b8b3e" dir="INPUT/">INPUT.H$</file>
+		<file size="625" time="1991-08-20 19:15:02" attr="0x20" md5="b95979248ca2b13fcfaa6621a04f5534" dir="INPUT/">INPUT.MA$</file>
+		<file size="350" time="1991-07-14 09:54:46" attr="0x20" md5="bf2f88626ac9a727a926951b5a953570" dir="INPUT/">INPUT.RC$</file>
+		<file size="57174" time="1991-07-31 17:02:32" attr="0x20" md5="f62c07eac0c9277e9a0cea841aa95626">LDLLCW.LI$</file>
+		<file size="38099" time="1991-08-21 09:24:06" attr="0x20" md5="75507711a003c0b6aef13786c8674b88">LIBW.LI$</file>
+		<file size="4061" time="1991-07-23 21:05:30" attr="0x20" md5="229992b9c5c7320fa43e7fefa8871fbe">LLIBCQ.LI$</file>
+		<file size="79406" time="1991-07-31 16:14:36" attr="0x20" md5="5fc6b268ea38e6ddfad6bc72a5ea70b3">LLIBCR.LI$</file>
+		<file size="63745" time="1991-07-31 16:18:00" attr="0x20" md5="bab1546b30b6d1494885faff22af0b4c">LLIBCW.LI$</file>
+		<file size="36958" time="1991-07-23 21:02:52" attr="0x20" md5="465cb4bc0e3b14ba8e91c46ec0eab1f4">LLIBFP.LI$</file>
+		<file size="37261" time="1991-07-23 21:06:26" attr="0x20" md5="98d4e323fa457d570aec7a6cca99f633">LLIBFPW.LI$</file>
+		<file size="54409" time="1991-07-31 17:01:14" attr="0x20" md5="a31a7a4d3929bb44f7986db93db6010a">MDLLCW.LI$</file>
+		<file size="64" time="1991-08-24 21:58:38" attr="0x10">MEMORY</file>
+		<file size="352" time="1991-08-24 21:58:40" attr="0x10">MENU</file>
+		<file size="106" time="1991-07-14 09:54:52" attr="0x20" md5="128108a54017775f5e7beddfe4fc8024" dir="MENU/">CHECKOFF.BM$</file>
+		<file size="192" time="1991-07-14 09:54:52" attr="0x20" md5="0489ec80f2b5b0a140fad6fdb36f9315" dir="MENU/">CHECKON.BM$</file>
+		<file size="6664" time="1991-08-14 21:05:48" attr="0x20" md5="e6ed35af5db6d9c1b00c4234b47a1576" dir="MENU/">MENU.C$</file>
+		<file size="207" time="1991-07-14 09:54:54" attr="0x20" md5="8f00cfeccbd63cd99dcc2b2ad90fd464" dir="MENU/">MENU.DE$</file>
+		<file size="255" time="1991-07-14 09:54:54" attr="0x20" md5="976c3e383d1a1cdc33f95ffe5b109410" dir="MENU/">MENU.DL$</file>
+		<file size="727" time="1991-08-14 20:49:10" attr="0x20" md5="e0411c5b84f1d9a9c57a57bf76ca52ca" dir="MENU/">MENU.H$</file>
+		<file size="273" time="1991-07-14 09:54:54" attr="0x20" md5="e972c08af6fb7e2cc4efe46b6c4e0e8f" dir="MENU/">MENU.IC$</file>
+		<file size="653" time="1991-08-20 19:15:50" attr="0x20" md5="088a6814ea10379e51778969cf1697f5" dir="MENU/">MENU.MA$</file>
+		<file size="863" time="1991-08-14 20:46:40" attr="0x20" md5="ae67b14d837c6e50affda8442b500032" dir="MENU/">MENU.RC$</file>
+		<file size="3941" time="1991-07-23 21:05:04" attr="0x20" md5="36dca013f74acd3dee97a0505baa5539">MLIBCQ.LI$</file>
+		<file size="75631" time="1991-07-31 16:14:18" attr="0x20" md5="89ed50121fff2c61cd31dedf15063e77">MLIBCR.LI$</file>
+		<file size="60610" time="1991-07-31 16:17:40" attr="0x20" md5="8ebe173d7336de676c004ebf5086d18b">MLIBCW.LI$</file>
+		<file size="36287" time="1991-07-23 21:02:38" attr="0x20" md5="ab56f039c88e865bbac818046e11cc59">MLIBFP.LI$</file>
+		<file size="36638" time="1991-07-23 21:05:54" attr="0x20" md5="dbcfc7a36580fc3b1aa801c9da24118a">MLIBFPW.LI$</file>
+		<file size="224" time="1991-08-24 21:59:18" attr="0x10">OUTPUT</file>
+		<file size="3816" time="1991-07-14 09:54:58" attr="0x20" md5="19e78f2ae3fedffab9ca192d290d1b7d" dir="OUTPUT/">OUTPUT.C$</file>
+		<file size="249" time="1991-07-14 09:54:58" attr="0x20" md5="53752a4a2f796298412368a0531be4d7" dir="OUTPUT/">OUTPUT.DE$</file>
+		<file size="188" time="1991-07-14 09:54:58" attr="0x20" md5="bb49136635a3d1493d20b1ec4f5b8b3e" dir="OUTPUT/">OUTPUT.H$</file>
+		<file size="625" time="1991-08-20 19:16:12" attr="0x20" md5="3cdc3e248ead004aedbbc82d455593ab" dir="OUTPUT/">OUTPUT.MA$</file>
+		<file size="365" time="1991-07-14 09:54:58" attr="0x20" md5="ea33beff3d26350d55c4de0795ca562a" dir="OUTPUT/">OUTPUT.RC$</file>
+		<file size="224" time="1991-08-24 21:59:28" attr="0x10">PRNTFILE</file>
+		<file size="10817" time="1991-07-14 09:55:00" attr="0x20" md5="bc4c110097adb55f6bc3ddaeb3f50cb6" dir="PRNTFILE/">PRNTFILE.C$</file>
+		<file size="383" time="1991-07-14 09:55:02" attr="0x20" md5="46187fdf6195f6f05f4bfec79fba8307" dir="PRNTFILE/">PRNTFILE.DE$</file>
+		<file size="603" time="1991-07-14 09:55:02" attr="0x20" md5="df3aa7046d20f7cd632830f3e9d19514" dir="PRNTFILE/">PRNTFILE.H$</file>
+		<file size="628" time="1991-08-20 19:16:48" attr="0x20" md5="32a04e0cd5b1115363c7b0da7b8828c4" dir="PRNTFILE/">PRNTFILE.MA$</file>
+		<file size="1080" time="1991-07-14 09:55:02" attr="0x20" md5="6f1c6578b282b24c5665ee288340b6b1" dir="PRNTFILE/">PRNTFILE.RC$</file>
+		<file size="26007" time="1991-08-15 13:00:42" attr="0x20" md5="e22aa069c6e34ed0c385265800bbcfdb">QWIN.LI$</file>
+		<file size="352" time="1991-08-24 21:59:44" attr="0x10">SELECT</file>
+		<file size="2531" time="1991-07-14 09:55:04" attr="0x20" md5="eff7801e1a97a94f2d9a5b20ef5d11df" dir="SELECT/">DEMO.C$</file>
+		<file size="247" time="1991-07-14 09:55:04" attr="0x20" md5="e9af031ea7d812ee0c8642c6d4bce982" dir="SELECT/">DEMO.DE$</file>
+		<file size="204" time="1991-07-14 09:55:04" attr="0x20" md5="7727c25381f0d7cb19aae03514c5fdc7" dir="SELECT/">DEMO.H$</file>
+		<file size="650" time="1991-08-20 19:18:06" attr="0x20" md5="62f59f8098fb0d4352dcde095b808f12" dir="SELECT/">DEMO.MA$</file>
+		<file size="415" time="1991-07-14 09:55:06" attr="0x20" md5="fdf75f927866fc30551cec9261aaad1a" dir="SELECT/">DEMO.RC$</file>
+		<file size="1636" time="1991-08-12 07:59:44" attr="0x20" md5="01209bee76e2198404d58fd480a3090e" dir="SELECT/">SELECT.C$</file>
+		<file size="252" time="1991-08-12 08:00:22" attr="0x20" md5="485c33d93eb100921afd97e4aa5157a5" dir="SELECT/">SELECT.DE$</file>
+		<file size="436" time="1991-07-14 09:55:06" attr="0x20" md5="521c488119d33e73ae9548aa582423bd" dir="SELECT/">SELECT.H$</file>
+		<file size="617" time="1991-08-20 19:18:36" attr="0x20" md5="820588db6a119251bd06cb4498d403cc" dir="SELECT/">SELECT.MA$</file>
+		<file size="157" time="1990-06-01 03:00:00" attr="0x20" md5="f8ae22479efcb70b8068f2d46476cc44">WINSTUB.EX$</file>
+	</disk>
+</manifest>

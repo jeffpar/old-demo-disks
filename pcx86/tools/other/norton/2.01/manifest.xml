@@ -3,8 +3,36 @@
 <manifest type="software">
 	<title>Norton Utilities</title>
 	<version>2.01</version>
-	<disk id="disk01" size="163840" chs="40:1:8" img="archive/NU201-SIDEA.img" href="/disks-demo/pcx86/tools/other/norton/2.01/NU201-SIDEA.json" md5="7cb1e99906e5b535dc93e6dde6cf572d" md5json="27cc4e1ff6048148b535d3728c307f14">
-		<name>Norton Utilities 2.01 (Side A)</name>
+	<disk id="disk01" size="163840" chs="40:1:8" img="1983-07-04/archive/NU201-1983-07-04-SIDEA.img" href="/disks-demo/pcx86/tools/other/norton/2.01/1983-07-04/NU201-1983-07-04-SIDEA.json" md5="b98ac1983b016eb8822b39ad79a8bbc1" md5json="8093725531407fe68fd2cef8acfe117f">
+		<name>Norton Utilities 2.01 (1983-07-04-A)</name>
+		<file size="7632" time="1983-07-04 14:01:00" attr="0x20" md5="5d80e6fec35ab736c49349f13861f846">BATHIDE.COM</file>
+		<file size="154" time="1983-07-04 14:01:00" attr="0x20" md5="50461c155193f5a6de51455fe0bcd024">BEEP.COM</file>
+		<file size="17859" time="1983-07-04 14:01:00" attr="0x20" md5="739f5a636f74248ba4a859373e803980">BLOAD.COM</file>
+		<file size="139" time="1983-07-04 14:01:00" attr="0x20" md5="d98d39e0b87bf627c2367b9c03f34175">CLEAR.COM</file>
+		<file size="139" time="1983-07-04 14:01:00" attr="0x20" md5="d98d39e0b87bf627c2367b9c03f34175">CLS.COM</file>
+		<file size="384" time="1983-07-04 14:01:00" attr="0x20" md5="fa3300db75754a516c0b86a22496eec1">DISKLOOK.BAT</file>
+		<file size="6560" time="1983-07-04 14:01:00" attr="0x20" md5="d82ba29061fcbbf755839b8d437ef67a">DISKOPT.COM</file>
+		<file size="32950" time="1983-07-04 14:01:00" attr="0x20" md5="3903ad39f2eef12301bf95422e80eba1">DL.COM</file>
+		<file size="14281" time="1983-07-04 14:01:00" attr="0x20" md5="2e2d6676df12073f642e90565b0ea72f">FH.COM</file>
+		<file size="7438" time="1983-07-04 14:01:00" attr="0x20" md5="57dd1bc873dee7342214961d78fb9e47">FILEFIX.COM</file>
+		<file size="7131" time="1983-07-04 14:01:00" attr="0x20" md5="315f9854805c19100b76d56ca7ec8fe1">FILESORT.COM</file>
+		<file size="35769" time="1983-07-04 14:01:00" attr="0x20" md5="37cc8961f8718c197730dd3f83afdc78">HL.COM</file>
+		<file size="21742" time="1983-07-04 14:01:00" attr="0x20" md5="3dd18b7a82f893d151305c697ef2201f">HM.COM</file>
+	</disk>
+	<disk id="disk02" size="163840" chs="40:1:8" img="1983-07-04/archive/NU201-1983-07-04-SIDEB.img" href="/disks-demo/pcx86/tools/other/norton/2.01/1983-07-04/NU201-1983-07-04-SIDEB.json" md5="4cf7e38af1a48dc72203069c48412f16" md5json="b8d41cde0948761ae7e930c4b06a92aa">
+		<name>Norton Utilities 2.01 (1983-07-04-B)</name>
+		<file size="27628" time="1983-07-04 14:01:00" attr="0x20" md5="249840eaa685729aeac732e637e9cb43">HU.COM</file>
+		<file size="8340" time="1983-07-04 14:01:00" attr="0x20" md5="c377019bff908cb70b146af0b3b798c8">LABEL.COM</file>
+		<file size="24405" time="1983-07-04 14:01:00" attr="0x20" md5="bebac2ffa85e81ab46751ac17d4c1460">LPRINT.COM</file>
+		<file size="1441" time="1983-07-04 14:01:00" attr="0x20" md5="4c7bd2bd1a2254d3a84279cd6d5ad249">REVERSE.COM</file>
+		<file size="3570" time="1983-07-04 14:01:00" attr="0x20" md5="67ea3be9225ba98d8648df8c4dc85c50">SCRATR.COM</file>
+		<file size="19374" time="1983-07-04 14:01:00" attr="0x20" md5="3c9c5e73ee60ddf78a2b94abb37ba029">SM.COM</file>
+		<file size="24331" time="1983-07-04 14:01:00" attr="0x20" md5="45ab643c57cfefb97b4c9da62c2884d8">SSAR.COM</file>
+		<file size="7234" time="1983-07-04 14:01:00" attr="0x20" md5="5c99b56f3ce20e42ecb92f6920dcf2bd">TIMEMARK.COM</file>
+		<file size="26231" time="1983-07-04 14:01:00" attr="0x20" md5="b308406db07c44af92fbe7d51f44f382">UE.COM</file>
+	</disk>
+	<disk id="disk03" size="163840" chs="40:1:8" img="1983-11-03/archive/NU201-1983-11-03-SIDEA.img" href="/disks-demo/pcx86/tools/other/norton/2.01/1983-11-03/NU201-1983-11-03-SIDEA.json" md5="7cb1e99906e5b535dc93e6dde6cf572d" md5json="27cc4e1ff6048148b535d3728c307f14">
+		<name>Norton Utilities 2.01 (1983-11-03-A)</name>
 		<file size="7752" time="1983-11-03 14:01:00" attr="0x20" md5="87520a711749d6638a1030112e0a3a05">BATHIDE.COM</file>
 		<file size="154" time="1983-11-03 14:01:00" attr="0x20" md5="50461c155193f5a6de51455fe0bcd024">BEEP.COM</file>
 		<file size="17859" time="1983-11-03 14:01:00" attr="0x20" md5="739f5a636f74248ba4a859373e803980">BLOAD.COM</file>
@@ -19,8 +47,8 @@
 		<file size="36212" time="1983-11-03 14:01:00" attr="0x20" md5="11a99d9dfb48577fe2f12a5c1b0c1477">HL.COM</file>
 		<file size="22138" time="1983-11-03 14:01:00" attr="0x20" md5="f2672dd9847ae3945a86952ced28c794">HM.COM</file>
 	</disk>
-	<disk id="disk02" size="163840" chs="40:1:8" img="archive/NU201-SIDEB.img" href="/disks-demo/pcx86/tools/other/norton/2.01/NU201-SIDEB.json" md5="834fdaaf7abfaf73b876f6cc3c91aa84" md5json="65dbd093976463b12580056671ba19d4">
-		<name>Norton Utilities 2.01 (Side B)</name>
+	<disk id="disk04" size="163840" chs="40:1:8" img="1983-11-03/archive/NU201-1983-11-03-SIDEB.img" href="/disks-demo/pcx86/tools/other/norton/2.01/1983-11-03/NU201-1983-11-03-SIDEB.json" md5="834fdaaf7abfaf73b876f6cc3c91aa84" md5json="65dbd093976463b12580056671ba19d4">
+		<name>Norton Utilities 2.01 (1983-11-03-B)</name>
 		<file size="28030" time="1983-11-03 14:01:00" attr="0x20" md5="d80d0d15456896ea458ec7a7bb4d6db0">HU.COM</file>
 		<file size="8307" time="1983-11-03 14:01:00" attr="0x20" md5="4d2a8b79aafb737883795c9c12d99a22">LABEL.COM</file>
 		<file size="24405" time="1983-11-03 14:01:00" attr="0x20" md5="bebac2ffa85e81ab46751ac17d4c1460">LPRINT.COM</file>

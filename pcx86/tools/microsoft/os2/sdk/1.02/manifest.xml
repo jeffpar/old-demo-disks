@@ -2,6 +2,148 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.7/manifest.xsl"?>
 <manifest type="software">
 	<title>MS OS/2 SDK 1.02</title>
+	<disk id="disk01" size="1474560" chs="80:2:18" img="archive/MSOS2INS.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK01.json" md5="872d670ccc2dd4c771ba6343d17455ca" md5json="f09b87e0f737e53870772c87f86ed12e">
+		<name>MS OS/2 SDK 1.02 (INSTALL)</name>
+		<file size="3637" time="1987-12-15 01:00:02" attr="0x20" md5="9c689c41652374e413f9dc6442d4d4d0">ANSICALL.DLL</file>
+		<file size="5704" time="1987-12-15 01:00:02" attr="0x20" md5="a009edc7cb19a207b686104bb3bc7c36">BKSCALLS.DLL</file>
+		<file size="2576" time="1987-12-15 01:00:02" attr="0x20" md5="aa16732bd171083cce27b05cd55ba476">BMSCALLS.DLL</file>
+		<file size="32768" time="1987-12-15 01:00:02" attr="0x20" md5="a369120dfceebf3131c5f30bcacc62a5">BVSCALLS.DLL</file>
+		<file size="2762" time="1987-12-15 01:00:02" attr="0x20" md5="5ae507a95e2ac9441e60ae954bcb51e2">CLOCK01.SYS</file>
+		<file size="57648" time="1987-12-15 01:00:02" attr="0x20" md5="0573a526f6fdeed239ba5bc471c2a6fc">CMD.EXE</file>
+		<file size="73" time="1987-12-15 01:00:02" attr="0x20" md5="da2608c0025ecfbe7df19b3d18de5eeb">CONFIG.SYS</file>
+		<file size="14644" time="1987-12-15 01:00:02" attr="0x20" md5="55f89af576c39e081831a7fac415461f">COUNTRY.SYS</file>
+		<file size="20352" time="1987-12-15 01:00:02" attr="0x20" md5="391b371da135f46129b41bd963c73654">DISK01.506</file>
+		<file size="20352" time="1987-12-15 01:00:02" attr="0x20" md5="ba7a205aa748382eb6f506a03047cd34">DISK01.ESD</file>
+		<file size="20352" time="1987-12-15 01:00:02" attr="0x20" md5="391b371da135f46129b41bd963c73654">DISK01.SYS</file>
+		<file size="8709" time="1987-12-15 01:00:02" attr="0x20" md5="74fc62b81ab4a5887a53080eaedd2a09">DOSCALL1.DLL</file>
+		<file size="38352" time="1987-12-15 01:00:02" attr="0x20" md5="978abea8984b67e2d9e621cacd27b0ba">FDISK.COM</file>
+		<file size="47344" time="1987-12-15 01:00:02" attr="0x20" md5="21b2ffd9e7f148edec27b3067af9bb9f">FORMAT.COM</file>
+		<file size="11" time="1987-12-15 01:00:02" attr="0x20" md5="706f3ae5bcda8b9eedbaad8be30066a6">FORMAT.DTA</file>
+		<file size="590" time="1987-12-15 01:00:02" attr="0x20" md5="38569aec80822b4a315d78df2693b2f9">FORMATS.TBL</file>
+		<file size="16304" time="1987-12-15 01:00:02" attr="0x20" md5="614c5147a499f8620fee78915a516dfa">HARDERR.EXE</file>
+		<file size="64282" time="1987-12-15 01:00:02" attr="0x20" md5="5f365444609fff882cf7a22b9395ce74">INSTAID.EXE</file>
+		<file size="7" time="1987-12-16 12:13:58" attr="0x20" md5="30c64a81c773f849068bb6b04d00e4ed">INSTALL.CTL</file>
+		<file size="64282" time="1987-12-15 01:00:02" attr="0x20" md5="5f365444609fff882cf7a22b9395ce74">INSTIBM.EXE</file>
+		<file size="64826" time="1987-12-15 01:00:02" attr="0x20" md5="5d9b4d218ae438458bcf0d9f93a16461">INSTMS.EXE</file>
+		<file size="16945" time="1987-12-15 01:00:02" attr="0x20" md5="34e8d6af962dcde69af3155a4786e6ae">KBD01.SYS</file>
+		<file size="7232" time="1987-12-15 01:00:02" attr="0x20" md5="37295b1ff8ee803f167f93719acec792">KBDCALLS.DLL</file>
+		<file size="7351" time="1987-12-15 01:00:02" attr="0x20" md5="4018a8ca2c878ec6d3899c60154ccb41">MONCALLS.DLL</file>
+		<file size="5701" time="1987-12-15 01:00:02" attr="0x20" md5="8efb52e167c50cc3a7effbb163185aa8">MOUCALLS.DLL</file>
+		<file size="6578" time="1987-12-15 01:00:02" attr="0x20" md5="e680a175a243ea08f79a8d95277a3d4c">MSG.DLL</file>
+		<file size="5162" time="1987-12-15 01:00:02" attr="0x20" md5="2971d36d768ff772452252be2d28741d">NLS.DLL</file>
+		<file size="7168" time="1987-12-15 01:00:02" attr="0x20" md5="88e5c249bf7d45921fbd156821caaf64">OS2BIO.COM</file>
+		<file size="512" time="1987-12-15 01:00:02" attr="0x20" md5="ee4e2dd82c444a735cfadf1ce0d8d3fb">OS2BOOT.COM</file>
+		<file size="262930" time="1987-12-15 01:00:02" attr="0x20" md5="31fe3909a775c00dcb644a7e91e6f104">OS2DOS.COM</file>
+		<file size="65077" time="1987-12-15 01:00:02" attr="0x20" md5="a47914f362b38df7a535ed4e467974f5">OSO001.MSG</file>
+		<file size="7683" time="1987-12-15 01:00:02" attr="0x20" md5="cdaca71eb0fd9606621c815c6e6c3b63">PRINT01.SYS</file>
+		<file size="11238" time="1987-12-15 01:00:02" attr="0x20" md5="7ae69fea34eefc89c33bc993c261d577">QUECALLS.DLL</file>
+		<file size="1583" time="1987-12-15 01:00:02" attr="0x20" md5="b24a7589a28d942e4e335e25b730f251">SCREEN01.SYS</file>
+		<file size="24262" time="1987-12-15 01:00:02" attr="0x20" md5="990a627adabe182f431d30ccaa88ea7d">SESMGR.DLL</file>
+		<file size="36944" time="1987-12-15 01:00:02" attr="0x20" md5="ce72901e0054a07d8c74e6cacf06dc74">SHELL.EXE</file>
+		<file size="17348" time="1987-12-15 01:00:02" attr="0x20" md5="66668da4b5bccaff7232e91fa69ee514">SHELL.LIB</file>
+		<file size="269" time="1987-12-15 01:00:02" attr="0x20" md5="6f721bfc77967993412c394d496fec67">SHELL11F.AIF</file>
+		<file size="86" time="1987-12-15 01:00:02" attr="0x20" md5="69aad1154b53a053b770d56731757da6">SHELL11F.AII</file>
+		<file size="15" time="1987-12-15 01:00:02" attr="0x20" md5="bd6b14817a4c2bf26ada7b7daac6bc71">STARTUP.CMD</file>
+		<file size="4150" time="1987-12-15 01:00:02" attr="0x20" md5="91af7a788fa43859044f039b4ceb6684">SWAPPER.EXE</file>
+		<file size="13981" time="1987-12-15 01:00:02" attr="0x20" md5="8e46b8b9b2084d6aa4309f730b42850d">VIOCALLS.DLL</file>
+	</disk>
+	<disk id="disk02" size="1474560" chs="80:2:18" img="archive/MSOS2PGM.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK02.json" md5="e2241300e687d3aa106ca181e4001865" md5json="0c8e2bb335afc5050f349a22d21f1486">
+		<name>MS OS/2 SDK 1.02 (PROGRAM)</name>
+		<file size="17081" time="1987-12-15 01:00:02" attr="0x20" md5="c5ddf486d2083cad72e84a0574cf46e8">4201.DCP</file>
+		<file size="416" time="1987-12-15 01:00:02" attr="0x20" md5="b0448c99622834ec78b8c23394493ccf">5202.DCP</file>
+		<file size="3637" time="1987-12-15 01:00:02" attr="0x20" md5="9c689c41652374e413f9dc6442d4d4d0">ANSICALL.DLL</file>
+		<file size="5704" time="1987-12-15 01:00:02" attr="0x20" md5="a009edc7cb19a207b686104bb3bc7c36">BKSCALLS.DLL</file>
+		<file size="2576" time="1987-12-15 01:00:02" attr="0x20" md5="aa16732bd171083cce27b05cd55ba476">BMSCALLS.DLL</file>
+		<file size="32768" time="1987-12-15 01:00:02" attr="0x20" md5="a369120dfceebf3131c5f30bcacc62a5">BVSCALLS.DLL</file>
+		<file size="2762" time="1987-12-15 01:00:02" attr="0x20" md5="5ae507a95e2ac9441e60ae954bcb51e2">CLOCK01.SYS</file>
+		<file size="57648" time="1987-12-15 01:00:02" attr="0x20" md5="0573a526f6fdeed239ba5bc471c2a6fc">CMD.EXE</file>
+		<file size="8758" time="1987-12-15 01:00:02" attr="0x20" md5="9c0193590565d14aadb402d8de51980c">COM01.SYS</file>
+		<file size="25271" time="1987-12-15 01:00:02" attr="0x20" md5="9ff70f2a77d48a8491fbc9e687d7e805">COMMAND.COM</file>
+		<file size="73" time="1987-12-15 01:00:02" attr="0x20" md5="da2608c0025ecfbe7df19b3d18de5eeb">CONFIG.SYS</file>
+		<file size="14644" time="1987-12-15 01:00:02" attr="0x20" md5="55f89af576c39e081831a7fac415461f">COUNTRY.SYS</file>
+		<file size="48032" time="1987-12-15 01:00:02" attr="0x20" md5="d4c72eecb543a3269a3e9b229e331107">CREATEDD.EXE</file>
+		<file size="20352" time="1987-12-15 01:00:02" attr="0x20" md5="391b371da135f46129b41bd963c73654">DISK01.506</file>
+		<file size="20352" time="1987-12-15 01:00:02" attr="0x20" md5="ba7a205aa748382eb6f506a03047cd34">DISK01.ESD</file>
+		<file size="20352" time="1987-12-15 01:00:02" attr="0x20" md5="391b371da135f46129b41bd963c73654">DISK01.SYS</file>
+		<file size="8709" time="1987-12-15 01:00:02" attr="0x20" md5="74fc62b81ab4a5887a53080eaedd2a09">DOSCALL1.DLL</file>
+		<file size="29184" time="1987-12-15 01:00:02" attr="0x20" md5="82d560a33537c9b43bd62c9c2c486cc4">DOSCALLS.LIB</file>
+		<file size="2110" time="1987-12-15 01:00:02" attr="0x20" md5="13dd1ab466d4216eb46d934eee51709c">EGA.SYS</file>
+		<file size="1860" time="1987-12-15 01:00:02" attr="0x20" md5="25c8c376a6f5d8bd93bc2daa36abdb36">EXTDSKDD.SYS</file>
+		<file size="16304" time="1987-12-15 01:00:02" attr="0x20" md5="614c5147a499f8620fee78915a516dfa">HARDERR.EXE</file>
+		<file size="16945" time="1987-12-15 01:00:02" attr="0x20" md5="34e8d6af962dcde69af3155a4786e6ae">KBD01.SYS</file>
+		<file size="7232" time="1987-12-15 01:00:02" attr="0x20" md5="37295b1ff8ee803f167f93719acec792">KBDCALLS.DLL</file>
+		<file size="85917" time="1987-12-15 01:00:02" attr="0x20" md5="95f0dfc83dc130a592d8fd4ad1fec49a">KEYBOARD.DCP</file>
+		<file size="109046" time="1987-12-15 01:00:02" attr="0x20" md5="baa099564ef35d1bc39de9cb3901b1f2">LINK.EXE</file>
+		<file size="7351" time="1987-12-15 01:00:02" attr="0x20" md5="4018a8ca2c878ec6d3899c60154ccb41">MONCALLS.DLL</file>
+		<file size="5701" time="1987-12-15 01:00:02" attr="0x20" md5="8efb52e167c50cc3a7effbb163185aa8">MOUCALLS.DLL</file>
+		<file size="16950" time="1987-12-15 01:00:02" attr="0x20" md5="9341429b2a89d9b7eb90dc6e69c3a329">MOUSEA00.SYS</file>
+		<file size="16438" time="1987-12-15 01:00:02" attr="0x20" md5="3d4c4f75031867c74087973e2ae02ad4">MOUSEA01.SYS</file>
+		<file size="16438" time="1987-12-15 01:00:02" attr="0x20" md5="3886b9385b341f1abb72d73b0a1d8cd9">MOUSEA02.SYS</file>
+		<file size="16438" time="1987-12-15 01:00:02" attr="0x20" md5="72e16e2baec134eec358572abd753442">MOUSEA03.SYS</file>
+		<file size="16438" time="1987-12-15 01:00:02" attr="0x20" md5="12dbcb611a668806bb5cebcccfe1479f">MOUSEA04.SYS</file>
+		<file size="6578" time="1987-12-15 01:00:02" attr="0x20" md5="e680a175a243ea08f79a8d95277a3d4c">MSG.DLL</file>
+		<file size="5162" time="1987-12-15 01:00:02" attr="0x20" md5="2971d36d768ff772452252be2d28741d">NLS.DLL</file>
+		<file size="7168" time="1987-12-15 01:00:02" attr="0x20" md5="88e5c249bf7d45921fbd156821caaf64">OS2BIO.COM</file>
+		<file size="512" time="1987-12-15 01:00:02" attr="0x20" md5="ee4e2dd82c444a735cfadf1ce0d8d3fb">OS2BOOT.COM</file>
+		<file size="262930" time="1987-12-15 01:00:02" attr="0x20" md5="31fe3909a775c00dcb644a7e91e6f104">OS2DOS.COM</file>
+		<file size="65077" time="1987-12-15 01:00:02" attr="0x20" md5="a47914f362b38df7a535ed4e467974f5">OSO001.MSG</file>
+		<file size="5886" time="1987-12-15 01:00:02" attr="0x20" md5="5101a56aa3ac4779efbb49675159422f">POINTDD.SYS</file>
+		<file size="7683" time="1987-12-15 01:00:02" attr="0x20" md5="cdaca71eb0fd9606621c815c6e6c3b63">PRINT01.SYS</file>
+		<file size="7" time="1987-12-16 12:11:58" attr="0x20" md5="30c64a81c773f849068bb6b04d00e4ed">PROGRAM.CTL</file>
+		<file size="11238" time="1987-12-15 01:00:02" attr="0x20" md5="7ae69fea34eefc89c33bc993c261d577">QUECALLS.DLL</file>
+		<file size="1583" time="1987-12-15 01:00:02" attr="0x20" md5="b24a7589a28d942e4e335e25b730f251">SCREEN01.SYS</file>
+		<file size="24262" time="1987-12-15 01:00:02" attr="0x20" md5="990a627adabe182f431d30ccaa88ea7d">SESMGR.DLL</file>
+		<file size="36944" time="1987-12-15 01:00:02" attr="0x20" md5="ce72901e0054a07d8c74e6cacf06dc74">SHELL.EXE</file>
+		<file size="17348" time="1987-12-15 01:00:02" attr="0x20" md5="66668da4b5bccaff7232e91fa69ee514">SHELL.LIB</file>
+		<file size="269" time="1987-12-15 01:00:02" attr="0x20" md5="6f721bfc77967993412c394d496fec67">SHELL11F.AIF</file>
+		<file size="86" time="1987-12-15 01:00:02" attr="0x20" md5="69aad1154b53a053b770d56731757da6">SHELL11F.AII</file>
+		<file size="9828" time="1987-12-15 01:00:02" attr="0x20" md5="fd37fbd0c1d5172a13cb28e8c3e26e73">SPOOLCP.DLL</file>
+		<file size="4150" time="1987-12-15 01:00:02" attr="0x20" md5="91af7a788fa43859044f039b4ceb6684">SWAPPER.EXE</file>
+		<file size="4662" time="1987-12-15 01:00:02" attr="0x20" md5="d83d0ac6ab73dbce151bae51b2d3439b">VDISK.SYS</file>
+		<file size="13981" time="1987-12-15 01:00:02" attr="0x20" md5="8e46b8b9b2084d6aa4309f730b42850d">VIOCALLS.DLL</file>
+		<file size="52162" time="1987-12-15 01:00:02" attr="0x20" md5="195acace48760e07f779b06651493619">VIOTBL.DCP</file>
+	</disk>
+	<disk id="disk03" size="1474560" chs="80:2:18" img="archive/MSOS2SUP.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK03.json" md5="78e9b7eb522c5fdaf5ecf1a5620f3af5" md5json="4f502092c3ebf02b507d1e9fe1153c26">
+		<name>MS OS/2 SDK 1.02 (SUPP)</name>
+		<file size="9984" time="1987-12-15 01:00:02" attr="0x20" md5="adffec17359ff2c889f1755a8c5ceb6f">ANSI.EXE</file>
+		<file size="1694" time="1987-12-15 01:00:02" attr="0x20" md5="462f6e511e065655d2e5e2a79009ee34">ANSI.SYS</file>
+		<file size="6274" time="1987-12-15 01:00:02" attr="0x20" md5="cdf756433d18e1142f9c5f2d84706a0d">APPEND.EXE</file>
+		<file size="1689" time="1987-12-15 01:00:02" attr="0x20" md5="899df6e0cb1662b28d09f1a83831c295">ASSIGN.COM</file>
+		<file size="29080" time="1987-12-15 01:00:02" attr="0x20" md5="2546cb87fbc78c1cfe5304ea16f0ee6f">ATTRIB.EXE</file>
+		<file size="49216" time="1987-12-15 01:00:02" attr="0x20" md5="b48a3fa309954c24201978c00a3c35bc">BACKUP.COM</file>
+		<file size="49232" time="1987-12-15 01:00:02" attr="0x20" md5="08d28aad75fc265c126de59dbcd13c49">CHKDSK.COM</file>
+		<file size="33056" time="1987-12-15 01:00:02" attr="0x20" md5="eb7c494dee4743b9c4c001afaacaed09">COMP.COM</file>
+		<file size="38400" time="1987-12-15 01:00:02" attr="0x20" md5="9908a7fd58496f3a2e40087c60308745">DISKCOMP.COM</file>
+		<file size="39456" time="1987-12-15 01:00:02" attr="0x20" md5="be3f1ec981619cbbbebcc8bbf7f229f2">DISKCOPY.COM</file>
+		<file size="8151" time="1987-12-15 01:00:02" attr="0x20" md5="b116c77c362619feed3f0f51e330c284">EDLIN.COM</file>
+		<file size="27424" time="1987-12-15 01:00:02" attr="0x20" md5="c3eab47dc5e44abfdcb82632455d1f6b">FIND.EXE</file>
+		<file size="7112" time="1987-12-15 01:00:02" attr="0x20" md5="6e7b018569638e168fa3d25a001599f0">GRAFTABL.COM</file>
+		<file size="78864" time="1987-12-15 01:00:02" attr="0x20" md5="9844d97c62eb24d33fd56f57981b2e87">GWBASIC.EXE</file>
+		<file size="479" time="1987-12-15 01:00:02" attr="0x20" md5="0516af39352352613a066784e8762e0b">HELP.BAT</file>
+		<file size="463" time="1987-12-15 01:00:02" attr="0x20" md5="3f1dca3b7d5a7f02b7a623c77e4a8e39">HELP.CMD</file>
+		<file size="27408" time="1987-12-15 01:00:02" attr="0x20" md5="38cb420993d575b3ee1bd263d4203fa5">HELPMSG.EXE</file>
+		<file size="21040" time="1987-12-15 01:00:02" attr="0x20" md5="6c7b807767bfd4819aa6e604e11669ee">JOIN.EXE</file>
+		<file size="12636" time="1987-12-15 01:00:02" attr="0x20" md5="a14e6c787ea7fece594e2e875f024075">KEYB.COM</file>
+		<file size="26372" time="1987-12-15 01:00:02" attr="0x20" md5="acab89282b46f6ce3ebd0ab7d3e9bb13">LABEL.COM</file>
+		<file size="55956" time="1987-12-15 01:00:02" attr="0x20" md5="c05deb9cc28793aef94525e3ec9bafe1">MODE.COM</file>
+		<file size="48866" time="1987-12-15 01:00:02" attr="0x20" md5="5f739751b3fed09faae67f8c1bbda362">MORE.COM</file>
+		<file size="84201" time="1987-12-15 01:00:02" attr="0x20" md5="1d503e11db518b22b5e01ea0210eb4e1">OSO001H.MSG</file>
+		<file size="37132" time="1987-12-15 01:00:02" attr="0x20" md5="02b8259b6c56531e6bfa893ac196cb70">PATCH.EXE</file>
+		<file size="28492" time="1987-12-15 01:00:02" attr="0x20" md5="91a4d675caec21f6a85b2b0e5a47b93c">PRINT.COM</file>
+		<file size="36928" time="1987-12-15 01:00:02" attr="0x20" md5="364b2ead67c503ae0c49ef8bf911a708">RECOVER.COM</file>
+		<file size="33568" time="1987-12-15 01:00:02" attr="0x20" md5="deeb004b45a100c1aa3308f405ef3073">REPLACE.EXE</file>
+		<file size="54896" time="1987-12-15 01:00:02" attr="0x20" md5="e7e8f24f17c35008cc995c474797e8b6">RESTORE.COM</file>
+		<file size="8654" time="1987-12-15 01:00:02" attr="0x20" md5="a35cfa79c1cba7ee13716ef87352ba38">SETCOM40.EXE</file>
+		<file size="29946" time="1987-12-15 01:00:02" attr="0x20" md5="3b98b0d0b0efff115deccfd373a1afa6">SORT.EXE</file>
+		<file size="77370" time="1987-12-15 01:00:02" attr="0x20" md5="ce5376966cf555a38eb7397c751cfb9a">SPOOL.EXE</file>
+		<file size="21024" time="1987-12-15 01:00:02" attr="0x20" md5="d23021d75a737c324f8e1e1b50dce8c1">SUBST.EXE</file>
+		<file size="7" time="1987-12-11 16:30:00" attr="0x20" md5="30c64a81c773f849068bb6b04d00e4ed">SUPP.CTL</file>
+		<file size="32606" time="1987-12-15 01:00:02" attr="0x20" md5="65eec704453e90c0f8f4e0cf68c9a263">SYS.COM</file>
+		<file size="10474" time="1987-12-15 01:00:02" attr="0x20" md5="5874a036e2e55889f6bc8e1f7830286a">TRACE.EXE</file>
+		<file size="64432" time="1987-12-15 01:00:02" attr="0x20" md5="65bbb49a5fa704791dc15541e3c80071">TRACEFMT.EXE</file>
+		<file size="28928" time="1987-12-15 01:00:02" attr="0x20" md5="a85b2a87b3996a7a2f6a054c5a5e6960">TREE.COM</file>
+		<file size="41168" time="1987-12-15 01:00:02" attr="0x20" md5="ee0c69eff59634bbb050759ee9ac0bf3">XCOPY.EXE</file>
+	</disk>
 	<disk id="disk04" size="737280" chs="80:2:9" img="archive/MSOS2TK1.img" href="/disks-demo/pcx86/tools/microsoft/os2/sdk/1.02/MSOS2-SDK102-DISK04.json" md5="7468885b67af8552eafbdfaaeaeeed01" md5json="22ad7cd8068509d6a7e553f30e05c0e8">
 		<name>MS OS/2 SDK 1.02 (TOOLKIT1)</name>
 		<file size="102" time="1987-12-14 23:00:58" attr="0x10">DEMOS</file>

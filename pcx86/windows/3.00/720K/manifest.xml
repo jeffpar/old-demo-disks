@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/versions/pcx86/1.75.7/manifest.xsl"?>
 <manifest type="software">
 	<title>Microsoft Windows 3.00</title>
-	<disk id="disk01" size="737280" chs="80:2:9" img="archive/WIN300-DISK1.img" href="/disks/pcx86/windows/3.00/720K/WIN300-DISK1.json" md5="16479b3e9a9f318925bd11ac195f0702" md5json="9d3ec93b6fbcc6eb3717dae6c30c97e1">
+	<disk id="disk01" size="737280" chs="80:2:9" img="archive/WIN300-DISK1.img" href="/disks-demo/pcx86/windows/3.00/720K/WIN300-DISK1.json" md5="16479b3e9a9f318925bd11ac195f0702" md5json="9d3ec93b6fbcc6eb3717dae6c30c97e1">
 		<name>Windows 3.00 (720K Disk 1)</name>
 		<file size="92326" time="1990-05-01 03:00:00" attr="0x20">GDI.EXE</file>
 		<file size="54105" time="1990-05-01 03:00:00" attr="0x20">KERNEL.EXE</file>
@@ -14,7 +14,7 @@
 		<file size="100335" time="1990-05-01 03:00:00" attr="0x20">WINHELP.EXE</file>
 		<file size="23614" time="1990-05-01 03:00:00" attr="0x20">WINHELP.HLP</file>
 	</disk>
-	<disk id="disk02" size="737280" chs="80:2:9" img="archive/WIN300-DISK2.img" href="/disks/pcx86/windows/3.00/720K/WIN300-DISK2.json" md5="682ff2ef0695af2ca8781eb1dfafc676" md5json="e6ac9b8f3e8761846d80aafe558985c5">
+	<disk id="disk02" size="737280" chs="80:2:9" img="archive/WIN300-DISK2.img" href="/disks-demo/pcx86/windows/3.00/720K/WIN300-DISK2.json" md5="682ff2ef0695af2ca8781eb1dfafc676" md5json="e6ac9b8f3e8761846d80aafe558985c5">
 		<name>Windows 3.00 (720K Disk 2)</name>
 		<file size="44718" time="1990-05-01 03:00:00" attr="0x20">8514.DRV</file>
 		<file size="3386" time="1990-05-01 03:00:00" attr="0x20">8514FIX.FON</file>
@@ -114,7 +114,7 @@
 		<file size="367" time="1990-05-01 03:00:00" attr="0x20">XLAT863.BIN</file>
 		<file size="365" time="1990-05-01 03:00:00" attr="0x20">XLAT865.BIN</file>
 	</disk>
-	<disk id="disk03" size="737280" chs="80:2:9" img="archive/WIN300-DISK3.img" href="/disks/pcx86/windows/3.00/720K/WIN300-DISK3.json" md5="c70c11aa05473fc6a296af158d7bda00" md5json="db2d0088d720fa43cdaeab68f62dee5e">
+	<disk id="disk03" size="737280" chs="80:2:9" img="archive/WIN300-DISK3.img" href="/disks-demo/pcx86/windows/3.00/720K/WIN300-DISK3.json" md5="c70c11aa05473fc6a296af158d7bda00" md5json="db2d0088d720fa43cdaeab68f62dee5e">
 		<name>Windows 3.00 (720K Disk 3)</name>
 		<file size="26038" time="1990-05-01 03:00:00" attr="0x20">CALC.EXE</file>
 		<file size="39387" time="1990-05-01 03:00:00" attr="0x20">CALENDAR.EXE</file>
@@ -137,7 +137,7 @@
 		<file size="26632" time="1990-05-01 03:00:00" attr="0x20">WINOLDAP.MOD</file>
 		<file size="129626" time="1990-05-01 03:00:00" attr="0x20">WRITE.EXE</file>
 	</disk>
-	<disk id="disk04" size="737280" chs="80:2:9" img="archive/WIN300-DISK4.img" href="/disks/pcx86/windows/3.00/720K/WIN300-DISK4.json" md5="d8595d713d7b5f8e8caad654753754ee" md5json="6d7f5d4183cb7192172eee0a39b79b0a">
+	<disk id="disk04" size="737280" chs="80:2:9" img="archive/WIN300-DISK4.img" href="/disks-demo/pcx86/windows/3.00/720K/WIN300-DISK4.json" md5="d8595d713d7b5f8e8caad654753754ee" md5json="6d7f5d4183cb7192172eee0a39b79b0a">
 		<name>Windows 3.00 (720K Disk 4)</name>
 		<file size="11716" time="1990-05-01 03:00:00" attr="0x20">CALC.HLP</file>
 		<file size="15002" time="1990-05-01 03:00:00" attr="0x20">CALENDAR.HLP</file>
@@ -164,7 +164,7 @@
 		<file size="19393" time="1990-05-01 03:00:00" attr="0x20">WINOA386.MOD</file>
 		<file size="22769" time="1990-05-01 03:00:00" attr="0x20">WRITE.HLP</file>
 	</disk>
-	<disk id="disk05" size="737280" chs="80:2:9" img="archive/WIN300-DISK5.img" href="/disks/pcx86/windows/3.00/720K/WIN300-DISK5.json" md5="26d20d7b2de3dbd395d7af7f5d21044b" md5json="3e4cbe81e5892e5da4ab7bc0172aedc9">
+	<disk id="disk05" size="737280" chs="80:2:9" img="archive/WIN300-DISK5.img" href="/disks-demo/pcx86/windows/3.00/720K/WIN300-DISK5.json" md5="26d20d7b2de3dbd395d7af7f5d21044b" md5json="3e4cbe81e5892e5da4ab7bc0172aedc9">
 		<name>Windows 3.00 (720K Disk 5)</name>
 		<file size="4183" time="1990-05-01 03:00:00" attr="0x20">3270.TXT</file>
 		<file size="8478" time="1990-05-01 03:00:00" attr="0x20">8514.GR3</file>
@@ -239,7 +239,7 @@
 		<file size="6016" time="1990-05-01 03:00:00" attr="0x20">WININI2.TXT</file>
 		<file size="26373" time="1990-05-01 03:00:00" attr="0x20">WINOA286.MOD</file>
 	</disk>
-	<disk id="disk06" size="737280" chs="80:2:9" img="archive/WIN300-DISK6.img" href="/disks/pcx86/windows/3.00/720K/WIN300-DISK6.json" md5="c13e13b37b7a124a77512db2fcf77275" md5json="d2a869a9b274968385fbaf6d5888af58">
+	<disk id="disk06" size="737280" chs="80:2:9" img="archive/WIN300-DISK6.img" href="/disks-demo/pcx86/windows/3.00/720K/WIN300-DISK6.json" md5="c13e13b37b7a124a77512db2fcf77275" md5json="d2a869a9b274968385fbaf6d5888af58">
 		<name>Windows 3.00 (720K Disk 6)</name>
 		<file size="45211" time="1990-05-01 03:00:00" attr="0x20">CANONIII.DRV</file>
 		<file size="6417" time="1990-05-01 03:00:00" attr="0x20">COURA.FON</file>
@@ -270,7 +270,7 @@
 		<file size="19783" time="1990-05-01 03:00:00" attr="0x20">TMSRE.FON</file>
 		<file size="25350" time="1990-05-01 03:00:00" attr="0x20">TMSRF.FON</file>
 	</disk>
-	<disk id="disk07" size="737280" chs="80:2:9" img="archive/WIN300-DISK7.img" href="/disks/pcx86/windows/3.00/720K/WIN300-DISK7.json" md5="5ecc5aa3e9068a0d61c0871aa758c82c" md5json="a21406d113363b1b551b0ae45238dbbb">
+	<disk id="disk07" size="737280" chs="80:2:9" img="archive/WIN300-DISK7.img" href="/disks-demo/pcx86/windows/3.00/720K/WIN300-DISK7.json" md5="5ecc5aa3e9068a0d61c0871aa758c82c" md5json="a21406d113363b1b551b0ae45238dbbb">
 		<name>Windows 3.00 (720K Disk 7)</name>
 		<file size="203" time="1990-05-01 03:00:00" attr="0x20">123.PIF</file>
 		<file size="11389" time="1990-05-01 03:00:00" attr="0x20">CITOH.DRV</file>

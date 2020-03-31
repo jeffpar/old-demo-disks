@@ -7,9 +7,8 @@
 	<category>Compiler</category>
 	<language>C</language>
 	<author>Microsoft</author>
-	<releaseDate/>
 	<disk id="disk01" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK1.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK1.json" md5="73768adc5ab325b203918d06167ea530" md5json="1c84be16a31c486e80b1318bc471cb6f">
-		<name>MS QuickC for Windows (1 of 5)</title>
+		<name>MS QuickC for Windows (1 of 5)</name>
 		<file size="41786" time="1991-08-21 11:03:00" attr="0x20" md5="2b10ba3c4e0e948f860b488ac4a7b2e6">COMMDLG.DL$</file>
 		<file size="45126" time="1991-08-24 10:36:40" attr="0x20" md5="a78861032e67d73628bc1e4e8e43ec9a">EEW0CAN.DL$</file>
 		<file size="18357" time="1991-09-03 17:18:56" attr="0x20" md5="3b344ee0dd12142cf19b1313754efd61">IMPLIBW.EX$</file>
@@ -34,7 +33,7 @@
 		<file size="5289" time="1991-07-23 06:11:16" attr="0x20" md5="54765d07429e7aaa2ade6ac0218789fe">WINDBG.DL$</file>
 	</disk>
 	<disk id="disk02" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK2.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK2.json" md5="89322d6c7961340e4051ef1e3c49e555" md5json="8a79487f6f082ce8ab33a8d2c1ceb74c">
-		<name>MS QuickC for Windows (2 of 5)</title>
+		<name>MS QuickC for Windows (2 of 5)</name>
 		<file size="39580" time="1991-08-24 08:35:14" attr="0x20" md5="522499775b9210a434417bade294b85c">CVPACKW.EX$</file>
 		<file size="61799" time="1991-08-23 15:41:46" attr="0x20" md5="5a584d4f24661348385bc9d7108358da">DLGEDIT.EX$</file>
 		<file size="72622" time="1991-08-09 11:25:58" attr="0x20" md5="1f14ed4d4dbfd0e4af3ce827d1b7aad0">DLGEDIT.HL$</file>
@@ -89,13 +88,13 @@
 		<file size="51905" time="1991-07-25 09:59:48" attr="0x20" md5="5dc3ce195155de96dc6c0e3e78951a4e">WINQCEA.KN$</file>
 	</disk>
 	<disk id="disk03" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK3.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK3.json" md5="e6a24ab955c6c6f5d23ece4882907737" md5json="66f9274392265806ffa6c52552c4d73b">
-		<name>MS QuickC for Windows (3 of 5)</title>
+		<name>MS QuickC for Windows (3 of 5)</name>
 		<file size="360960" time="1991-08-23 17:42:20" attr="0x20" md5="e5e02d66e78e3a8e0a2e733fcc8bffd8">QCWIN.HL$</file>
 		<file size="360960" time="1991-08-23 17:42:20" attr="0x20" md5="1340714662080c4c0ac742496e36056e">QCWIN2.HL$</file>
 		<file size="360960" time="1991-08-23 17:42:20" attr="0x20" md5="b8924ac215d20dfeb85302ef759a4f62">QCWIN3.HL$</file>
 	</disk>
 	<disk id="disk04" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK4.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK4.json" md5="adfcae83dc456bcd8891a2b38b78c8fd" md5json="13d7910c6fed0ae459d2610230e6ad48">
-		<name>MS QuickC for Windows (4 of 5)</title>
+		<name>MS QuickC for Windows (4 of 5)</name>
 		<file size="2886" time="1991-03-05 13:48:26" attr="0x20" md5="26721764050fb357b7704e194e055bb0">87.LI$</file>
 		<file size="140" time="1990-12-11 12:22:46" attr="0x20" md5="d5f6604ca5a4c841e873bfa4fff9d67d">BINMODE.OB$</file>
 		<file size="130" time="1990-12-12 16:52:56" attr="0x20" md5="5c538713c61ef98743833a5c40eb960e">COMMODE.OB$</file>
@@ -115,7 +114,7 @@
 		<file size="174" time="1990-12-11 12:22:56" attr="0x20" md5="7edd3d14c8df0ca1985bba28004a6242">VARSTCK.OB$</file>
 	</disk>
 	<disk id="disk05" size="1228800" chs="80:2:15" img="archive/MSQCWIN-DISK5.img" href="/disks-demo/pcx86/tools/microsoft/c/qcwin/MSQCWIN-DISK5.json" md5="129f3e78eb3c543c903ba540ef558436" md5json="a30633b2387d6dec02fcc759be010a77">
-		<name>MS QuickC for Windows (5 of 5)</title>
+		<name>MS QuickC for Windows (5 of 5)</name>
 		<file size="384" time="1991-08-24 21:56:00" attr="0x10">BITMAP</file>
 		<file size="4284" time="1991-07-14 09:54:08" attr="0x20" md5="ab9933186aa1fd43ee1d0bc97d7351b5" dir="BITMAP/">BITMAP.C$</file>
 		<file size="251" time="1991-07-21 13:48:38" attr="0x20" md5="c04f3658a899214f1b14dab7b9a10ddc" dir="BITMAP/">BITMAP.DE$</file>
